@@ -1,3 +1,9 @@
+### 2017-01-27
+* [x] Added Compressed Bonemeal mod
+
+**To Update**:
+* Click "Get More Content" in the Curse launcher and search for "Compressed bonemeal". The mod is by "hedgehogpie12". Install it. Done!
+
 ### 2017-01-24
 * [x] Added CraftTweaker script with recipes to convert marble and basalt between mods.
 
