@@ -1,3 +1,29 @@
+### 2017-02-01 (2.0.1)
+
+Pure mod updates.
+
+* Forge Modloader: 12.18.3.2202 to 12.18.3.2221
+* Baubles: 1.3.8 to 1.3.9
+* BdLib: 1.12.2.17 to 1.12.2.21
+* Biomes O' Plenty: 5.0.0.2109 to 5.0.0.2142
+* Botania: r1.9-339 to r1.9-340
+* CraftTweaker: 3.0.17 to 3.0.20
+* Deep Resonance: 1.4.3 to 1.4.4
+* Ender Tanks: 1.4.9 to 1.4.10
+* Extra Utilities: 1.1.3d to 1.2.0
+* Extreme Reactors: 0.4.5.24 to 0.4.5.26
+* FTB Utilities: 3.2.4 to 3.2.9
+* FTBLib: 3.2.3 to 3.2.9
+* McJtyLib: 2.3.4 to 2.3.5
+* QuantumStorage: 3.2.17 to 3.2.19
+* RebornCore: 2.13.2.114-universal to 2.13.3.119-universal
+* RFTools: 5.81 to 5.82
+* Roguelike Dungeons: 1.5.5 to 1.5.6
+* ShetiPhianCore: 3.3.6 to 3.3.7
+* The One Probe: 1.3.3 to 1.4.1
+* Tinker I/O: 2.4.2 to 2.4.3
+* ZeroCore: 0.1.0.1 to 0.1.0.3
+
 ### 2017-01-27
 * [x] Added Compressed Bonemeal mod
 
