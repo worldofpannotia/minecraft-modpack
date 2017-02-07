@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "2.0.1",
+  "version": "2.1.0b",
   "author": "cmrcdrm",
   "projectID": 258273,
   "files": [
@@ -157,7 +157,7 @@
     },
     {
       "projectID": 253729,
-      "fileID": 2364952,
+      "fileID": 2378812,
       "required": true
     },
     {
@@ -192,12 +192,12 @@
     },
     {
       "projectID": 233105,
-      "fileID": 2375879,
+      "fileID": 2378822,
       "required": true
     },
     {
       "projectID": 233398,
-      "fileID": 2375862,
+      "fileID": 2377472,
       "required": true
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "projectID": 64578,
-      "fileID": 2367626,
+      "fileID": 2378800,
       "required": true
     },
     {
@@ -332,7 +332,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2369465,
+      "fileID": 2377142,
       "required": true
     },
     {
@@ -417,22 +417,22 @@
     },
     {
       "projectID": 241319,
-      "fileID": 2364335,
+      "fileID": 2376921,
       "required": true
     },
     {
       "projectID": 224641,
-      "fileID": 2371180,
+      "fileID": 2377473,
       "required": true
     },
     {
       "projectID": 250763,
-      "fileID": 2367662,
+      "fileID": 2377475,
       "required": true
     },
     {
       "projectID": 240950,
-      "fileID": 2367664,
+      "fileID": 2377476,
       "required": true
     },
     {
@@ -447,7 +447,7 @@
     },
     {
       "projectID": 245211,
-      "fileID": 2375847,
+      "fileID": 2378594,
       "required": true
     },
     {
@@ -528,6 +528,61 @@
     {
       "projectID": 246535,
       "fileID": 2313510,
+      "required": true
+    },
+    {
+      "projectID": 247286,
+      "fileID": 2318447,
+      "required": true
+    },
+    {
+      "projectID": 222415,
+      "fileID": 2309607,
+      "required": true
+    },
+    {
+      "projectID": 256224,
+      "fileID": 2374328,
+      "required": true
+    },
+    {
+      "projectID": 225738,
+      "fileID": 2312510,
+      "required": true
+    },
+    {
+      "projectID": 238403,
+      "fileID": 2369267,
+      "required": true
+    },
+    {
+      "projectID": 235595,
+      "fileID": 2377813,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 2318159,
+      "required": true
+    },
+    {
+      "projectID": 228027,
+      "fileID": 2378365,
+      "required": true
+    },
+    {
+      "projectID": 225605,
+      "fileID": 2340826,
+      "required": true
+    },
+    {
+      "projectID": 227929,
+      "fileID": 2337332,
+      "required": true
+    },
+    {
+      "projectID": 247712,
+      "fileID": 2350336,
       "required": true
     }
   ],

@@ -2059,13 +2059,6 @@ appliedenergistics2:facade:0, Cable Facade - Pillar Sunny Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Psidust Block
 appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Marble
-appliedenergistics2:facade:0, Cable Facade - Limestone
-appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Biotite
-appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
-appliedenergistics2:facade:0, Cable Facade - Basalt
 appliedenergistics2:facade:0, Cable Facade - Sugar Cane Block
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
@@ -2083,6 +2076,13 @@ appliedenergistics2:facade:0, Cable Facade - Granite Bricks
 appliedenergistics2:facade:0, Cable Facade - Midori Block
 appliedenergistics2:facade:0, Cable Facade - Midori Pillar
 appliedenergistics2:facade:0, Cable Facade - Vertical Oak Wood Planks
+appliedenergistics2:facade:0, Cable Facade - Marble
+appliedenergistics2:facade:0, Cable Facade - Limestone
+appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
+appliedenergistics2:facade:0, Cable Facade - Block of Biotite
+appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
+appliedenergistics2:facade:0, Cable Facade - Basalt
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Crag Rock
 appliedenergistics2:facade:0, Cable Facade - Dried Sand
@@ -3500,6 +3500,12 @@ appliedenergistics2:facade:0, Cable Facade - Draconium Block
 appliedenergistics2:facade:0, Cable Facade - Charged Draconium Block
 appliedenergistics2:facade:0, Cable Facade - Awakened Draconium Block
 appliedenergistics2:facade:0, Cable Facade - Draconium Infused Obsidian
+appliedenergistics2:facade:0, Cable Facade - Oak Trim
+appliedenergistics2:facade:0, Cable Facade - Spruce Trim
+appliedenergistics2:facade:0, Cable Facade - Birch Trim
+appliedenergistics2:facade:0, Cable Facade - Jungle Trim
+appliedenergistics2:facade:0, Cable Facade - Acacia Trim
+appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
 appliedenergistics2:facade:0, Cable Facade - White Elevator
 appliedenergistics2:facade:0, Cable Facade - Orange Elevator
 appliedenergistics2:facade:0, Cable Facade - Magenta Elevator
@@ -3612,12 +3618,6 @@ appliedenergistics2:facade:0, Cable Facade - Dimensional Pattern 1 Block
 appliedenergistics2:facade:0, Cable Facade - Dimensional Pattern 2 Block
 appliedenergistics2:facade:0, Cable Facade - Dimensional Small Blocks
 appliedenergistics2:facade:0, Cable Facade - Activity Probe
-appliedenergistics2:facade:0, Cable Facade - Oak Trim
-appliedenergistics2:facade:0, Cable Facade - Spruce Trim
-appliedenergistics2:facade:0, Cable Facade - Birch Trim
-appliedenergistics2:facade:0, Cable Facade - Jungle Trim
-appliedenergistics2:facade:0, Cable Facade - Acacia Trim
-appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
 appliedenergistics2:facade:0, Cable Facade - Block Update Detector
 appliedenergistics2:facade:0, Cable Facade - Grout
 appliedenergistics2:facade:0, Cable Facade - Green Slimy Mud
@@ -4728,6 +4728,212 @@ botania:thirdEye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddessCharm, item.goddessCharm.name
 akashictome:tome, item.tome.name
+extrautils2:wateringcan, Watering Can
+extrautils2:itemcreativedestructionwand, Creative Destruction Wand
+extrautils2:itembuilderswand, Builders Wand
+extrautils2:itemdestructionwand, Destruction Wand
+extrautils2:itemcreativebuilderswand, Creative Builders Wand
+extrautils2:soundmuffler, Sound Muffler
+extrautils2:enderlilly, Ender Lilly
+extrautils2:decorativesolidwood:0, Magical_planks
+extrautils2:decorativesolidwood:1, Magical_wood
+extrautils2:decorativesolidwood:2, Diagonalwood
+extrautils2:trashcan, Trash Can
+extrautils2:trashcanfluid, Trash Can (Fluid)
+extrautils2:trashcanenergy, Trash Can (Energy)
+extrautils2:angelblock, Angel Block
+extrautils2:passivegenerator:0, Solar Panel
+extrautils2:passivegenerator:1, Lunar Panel
+extrautils2:passivegenerator:2, Lava Mill
+extrautils2:passivegenerator:3, Water Mill
+extrautils2:passivegenerator:4, Wind Mill
+extrautils2:passivegenerator:5, Fire Mill
+extrautils2:passivegenerator:6, Creative Mill
+extrautils2:passivegenerator:7, Manual Mill
+extrautils2:passivegenerator:8, Dragon Egg Mill
+extrautils2:supermobspawner, Resturbed Mob Spawner
+extrautils2:cursedearth, Cursed Earth
+extrautils2:redstoneclock, Redstone Clock
+extrautils2:compressedcobblestone:0, Compressed Cobblestone
+extrautils2:compressedcobblestone:1, Double Compressed Cobblestone
+extrautils2:compressedcobblestone:2, Triple Compressed Cobblestone
+extrautils2:compressedcobblestone:3, Quadruple Compressed Cobblestone
+extrautils2:compressedcobblestone:4, Quintuple Compressed Cobblestone
+extrautils2:compressedcobblestone:5, Sextuple Compressed Cobblestone
+extrautils2:compressedcobblestone:6, Septuple Compressed Cobblestone
+extrautils2:compressedcobblestone:7, Octuple Compressed Cobblestone
+extrautils2:compresseddirt:0, Compressed Dirt
+extrautils2:compresseddirt:1, Double Compressed Dirt
+extrautils2:compresseddirt:2, Triple Compressed Dirt
+extrautils2:compresseddirt:3, Quadruple Compressed Dirt
+extrautils2:compressedsand:0, Compressed Sand
+extrautils2:compressedsand:1, Double Compressed Sand
+extrautils2:compressedgravel:0, Compressed Gravel
+extrautils2:compressedgravel:1, Double Compressed Gravel
+extrautils2:compressednetherrack:0, Compressed Netherrack
+extrautils2:compressednetherrack:1, Double Compressed Netherrack
+extrautils2:compressednetherrack:2, Triple Compressed Netherrack
+extrautils2:compressednetherrack:3, Quadruple Compressed Netherrack
+extrautils2:compressednetherrack:4, Quintuple Compressed Netherrack
+extrautils2:compressednetherrack:5, Sextuple Compressed Netherrack
+extrautils2:glasscutter, Glass Cutter
+extrautils2:endershard, Ender Shard
+extrautils2:redorchid, Red Orchid
+extrautils2:lawsword, Kikoku
+extrautils2:sickle_wood, Wooden Sickle
+extrautils2:sickle_stone, Stone Sickle
+extrautils2:sickle_iron, Iron Sickle
+extrautils2:sickle_gold, Golden Sickle
+extrautils2:sickle_diamond, Diamond Sickle
+extrautils2:poweroverload, Power Overload
+extrautils2:resonator, Resonator
+extrautils2:suncrystal, Sun Crystal
+extrautils2:spotlight, Spotlight
+extrautils2:screen, Screen
+extrautils2:decorativesolid:0, Border Stone
+extrautils2:decorativesolid:1, Crossed Stone
+extrautils2:decorativesolid:2, Polished Stone
+extrautils2:decorativesolid:3, Stoneburnt
+extrautils2:decorativesolid:4, Sandy Glass
+extrautils2:decorativesolid:5, Truchet
+extrautils2:decorativesolid:6, Blue Quartz
+extrautils2:ingredients:0, Resonating Redstone Crystal
+extrautils2:ingredients:1, Redstone Gear
+extrautils2:ingredients:2, Eye of Redstone
+extrautils2:ingredients:3, Lunar Reactive Dust
+extrautils2:ingredients:4, Red Coal
+extrautils2:ingredients:5, Moon Stone
+extrautils2:ingredients:6, Upgrade Speed
+extrautils2:ingredients:7, Upgrade Stack
+extrautils2:ingredients:8, Upgrade Mining
+extrautils2:ingredients:9, Upgrade Base
+extrautils2:ingredients:10, Drop of Evil
+extrautils2:ingredients:11, Demon Ingot
+extrautils2:ingredients:12, Enchanted Ingot
+extrautils2:ingredients:13, Wireless RF Heating Coil
+extrautils2:ingredients:14, Blue Dye
+extrautils2:goldenlasso:0, Golden Lasso
+extrautils2:goldenlasso:1, Cursed Lasso
+extrautils2:angelring:0, Angel Ring
+extrautils2:angelring:1, Angel Ring
+extrautils2:angelring:2, Angel Ring
+extrautils2:angelring:3, Angel Ring
+extrautils2:angelring:4, Angel Ring
+extrautils2:angelring:5, Angel Ring
+extrautils2:powermanager, Power Manager
+extrautils2:bagofholding, Bag Of Holding
+extrautils2:decorativeglass:0, Thickened Glass
+extrautils2:decorativeglass:1, Thickened Glass (Bordered)
+extrautils2:decorativeglass:2, Thickened Glass (Patterned)
+extrautils2:decorativeglass:3, Dark Glass
+extrautils2:decorativeglass:4, Glowing Glass
+extrautils2:decorativeglass:5, Redstone Glass
+extrautils2:ineffableglass:0, Ethereal Glass
+extrautils2:ineffableglass:1, Reverse Ethereal Glass
+extrautils2:ineffableglass:2, Ineffable Glass
+extrautils2:ineffableglass:3, Dark Ineffable Glass
+extrautils2:pipe, Transfer Pipe
+extrautils2:playerchest, Player Chest
+extrautils2:wrench, Wrench
+extrautils2:boomerang, Magical Boomerang
+extrautils2:book, Extra Utilities 2 Manual
+extrautils2:contract, Contract
+extrautils2:chunkloader, Chunk Loading Ward
+extrautils2:filter, Item Filter
+extrautils2:filterfluids, Filter Fluids
+extrautils2:grocket:0, Transfer Node (Items)
+extrautils2:grocket:1, Transfer Filter
+extrautils2:grocket:2, Transfer Node (Fluids)
+extrautils2:grocket:3, Retrieval Node (Items)
+extrautils2:grocket:4, Retrieval Node (Fluids)
+extrautils2:indexer, Indexer
+extrautils2:indexerremote, Indexer Remote
+extrautils2:crafter, Mechanical Crafter
+extrautils2:scanner, Scanner
+extrautils2:miner, Mechanical Miner
+extrautils2:user, Mechanical User
+extrautils2:klein, Klein Flask
+extrautils2:drum:0, Stone Drum
+extrautils2:drum:1, Iron Drum
+extrautils2:drum:2, Reinforced Large Drum
+extrautils2:drum:3, Demonically Gargantuan Drum
+extrautils2:drum:4, Creative Drum
+extrautils2:machine:0, Machine Block
+extrautils2:machine:0, Furnace
+extrautils2:machine:0, Crusher
+extrautils2:machine:0, Survival Generator
+extrautils2:machine:0, Furnace Generator
+extrautils2:machine:0, Culinary Generator
+extrautils2:machine:0, Magmatic Generator
+extrautils2:machine:0, Heated Redstone Generator
+extrautils2:machine:0, Ender Generator
+extrautils2:machine:0, Potion Generator
+extrautils2:machine:0, Pink Generator
+extrautils2:machine:0, Overclocked Generator
+extrautils2:machine:0, Explosive Generator
+extrautils2:machine:0, Netherstar Generator
+extrautils2:machine:0, Halitosis Generator
+extrautils2:machine:0, Frosty Generator
+extrautils2:machine:0, Undeath Generator
+extrautils2:machine:0, Dischantment Generator
+extrautils2:machine:0, Slimey Generator
+extrautils2:teleporter:0, Overworld Portal
+extrautils2:teleporter:1, Deep Dark Portal
+extrautils2:powerbattery, Wireless RF Battery
+extrautils2:powertransmitter, Wireless RF Transmitter
+extrautils2:quarry, Quantum Quarry
+extrautils2:quarryproxy, Quantum Quarry Actuator
+extrautils2:spike_wood, Wooden Spikes
+extrautils2:spike_stone, Stone Spikes
+extrautils2:spike_iron, Iron Spikes
+extrautils2:spike_gold, Golden Spikes
+extrautils2:spike_diamond, Diamond Spikes
+extrautils2:spike_creative, Creative Spikes
+extrautils2:redstonelantern, Redstone Lantern
+extrautils2:minichest, Mini Chest
+extrautils2:rainbowgenerator:0, Rainbow Generator!
+extrautils2:rainbowgenerator:1, Rainbow Generator (bottom half)
+extrautils2:rainbowgenerator:2, Rainbow Generator (top half)
+extrautils2:magicapple, Magical Apple
+extrautils2:simpledecorative:0, Block of Enchanted Metal
+extrautils2:simpledecorative:1, Block of Demon Metal
+extrautils2:creativechest, Creative Chest
+extrautils2:creativeenergy, Creative Energy Source
+extrautils2:creativeharvest, Creative Harvest
+extrautils2:synergy:0, Blank
+extrautils2:synergy:1, Wither
+extrautils2:synergy:2, Nether
+extrautils2:synergy:3, Void
+extrautils2:synergy:4, Temple
+extrautils2:synergy:5, Guardian
+extrautils2:synergy:6, End
+extrautils2:synergy:7, Brimstone
+extrautils2:synergy:8, Bloodmoon
+extrautils2:synergy:9, Incandescence
+extrautils2:synergy:10, Steam
+extrautils2:synergy:11, Firestorm
+extrautils2:synergy:12, Moonquake
+extrautils2:synergy:13, Plasma
+extrautils2:synergy:14, Cobblestone
+extrautils2:synergy:15, Meteor
+extrautils2:synergy:16, Eclipse
+extrautils2:synergy:17, Lowtide
+extrautils2:synergy:18, Aurora
+extrautils2:synergy:19, Hightide
+extrautils2:synergy:20, Solarflare
+extrautils2:synergy:21, Rain
+extrautils2:trowel, Trowel
+extrautils2:biomemarker, Biome Marker
+extrautils2:terraformer:0, Terraformer
+extrautils2:terraformer:1, Antenna
+extrautils2:terraformer:2, Humidifier
+extrautils2:terraformer:3, Dehumidifier
+extrautils2:terraformer:4, Heater
+extrautils2:terraformer:5, Cooler
+extrautils2:terraformer:6, Dehostilifier
+extrautils2:terraformer:7, Magic Absorbtion
+extrautils2:terraformer:8, Magic Infuser
+extrautils2:terraformer:9, Climograph Base Unit
 morphtool:tool, item.tool.name
 psi:material:0, Psidust
 psi:material:1, Psimetal Ingot
@@ -4809,23 +5015,9 @@ psi:psiDecorative:6, Bright Psimetal Flow Plate
 psi:psiDecorative:7, Ebony Psimetal Block
 psi:psiDecorative:8, Ivory Psimetal Block
 psi:conjured, tile.conjured.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:witch_hat, item.witch_hat.name
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -4904,63 +5096,23 @@ quark:leaf_carpet:3, Jungle Leaf Carpet
 quark:leaf_carpet:4, Acacia Leaf Carpet
 quark:leaf_carpet:5, Dark Oak Leaf Carpet
 quark:charcoal_block, tile.charcoal_block.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:pirate_hat, item.pirate_hat.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:marble:0, Marble
-quark:marble:1, Polished Marble
-quark:stone_marble_slab:0, Marble Slab
-quark:stone_marble_stairs, tile.stone_marble_stairs.name
-quark:marble_wall, tile.marble_wall.name
-quark:limestone:0, Limestone
-quark:limestone:1, Polished Limestone
-quark:stone_limestone_slab:0, Limestone Slab
-quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
-quark:limestone_wall, tile.limestone_wall.name
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:crystal:0, White Cave Crystal
-quark:crystal:1, Red Cave Crystal
-quark:crystal:2, Orange Cave Crystal
-quark:crystal:3, Yellow Cave Crystal
-quark:crystal:4, Green Cave Crystal
-quark:crystal:5, Blue Cave Crystal
-quark:crystal:6, Indigo Cave Crystal
-quark:crystal:7, Violet Cave Crystal
-quark:soul_bead, item.soul_bead.name
-quark:biotite_ore, tile.biotite_ore.name
-quark:biotite_block:0, Block of Biotite
-quark:biotite_block:1, Chiseled Biotite Block
-quark:biotite_block:2, Pillar Biotite Block
-quark:biotite, item.biotite.name
-quark:biotite_slab:0, Biotite Slab
-quark:biotite_stairs, tile.biotite_stairs.name
-quark:biotite_wall, tile.biotite_wall.name
-quark:ancient_tome, item.ancient_tome.name
-quark:basalt:0, Basalt
-quark:basalt:1, Polished Basalt
-quark:stone_basalt_slab:0, Basalt Slab
-quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
-quark:basalt_wall, tile.basalt_wall.name
-quark:witch_hat, item.witch_hat.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:reed_block, tile.reed_block.name
 quark:reed_block_stairs, tile.reed_block_stairs.name
 quark:reed_block_slab:0, Sugar Cane Slab
@@ -5139,6 +5291,386 @@ quark:vertical_planks:2, Vertical Birch Wood Planks
 quark:vertical_planks:3, Vertical Jungle Wood Planks
 quark:vertical_planks:4, Vertical Acacia Wood Planks
 quark:vertical_planks:5, Vertical Dark Oak Wood Planks
+quark:pirate_hat, item.pirate_hat.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:marble:0, Marble
+quark:marble:1, Polished Marble
+quark:stone_marble_slab:0, Marble Slab
+quark:stone_marble_stairs, tile.stone_marble_stairs.name
+quark:marble_wall, tile.marble_wall.name
+quark:limestone:0, Limestone
+quark:limestone:1, Polished Limestone
+quark:stone_limestone_slab:0, Limestone Slab
+quark:stone_limestone_stairs, tile.stone_limestone_stairs.name
+quark:limestone_wall, tile.limestone_wall.name
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:crystal:0, White Cave Crystal
+quark:crystal:1, Red Cave Crystal
+quark:crystal:2, Orange Cave Crystal
+quark:crystal:3, Yellow Cave Crystal
+quark:crystal:4, Green Cave Crystal
+quark:crystal:5, Blue Cave Crystal
+quark:crystal:6, Indigo Cave Crystal
+quark:crystal:7, Violet Cave Crystal
+quark:soul_bead, item.soul_bead.name
+quark:biotite_ore, tile.biotite_ore.name
+quark:biotite_block:0, Block of Biotite
+quark:biotite_block:1, Chiseled Biotite Block
+quark:biotite_block:2, Pillar Biotite Block
+quark:biotite, item.biotite.name
+quark:biotite_slab:0, Biotite Slab
+quark:biotite_stairs, tile.biotite_stairs.name
+quark:biotite_wall, tile.biotite_wall.name
+quark:ancient_tome, item.ancient_tome.name
+quark:basalt:0, Basalt
+quark:basalt:1, Polished Basalt
+quark:stone_basalt_slab:0, Basalt Slab
+quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
+quark:basalt_wall, tile.basalt_wall.name
+betterbuilderswands:wandStone, Stone Wand
+betterbuilderswands:wandIron, Iron Wand
+betterbuilderswands:wandDiamond, Diamond Wand
+betterbuilderswands:wandUnbreakable, Unbreakable Wand
+bibliocraft:Bookcase:0, Oak Bookcase
+bibliocraft:Bookcase:1, Spruce Bookcase
+bibliocraft:Bookcase:2, Birch Bookcase
+bibliocraft:Bookcase:3, Jungle Bookcase
+bibliocraft:Bookcase:4, Acacia Bookcase
+bibliocraft:Bookcase:5, Dark Oak Bookcase
+bibliocraft:Bookcase:6, Framed Bookcase
+bibliocraft:BookcaseCreative:0, Oak Creative Bookcase
+bibliocraft:BookcaseCreative:1, Spruce Creative Bookcase
+bibliocraft:BookcaseCreative:2, Birch Creative Bookcase
+bibliocraft:BookcaseCreative:3, Jungle Creative Bookcase
+bibliocraft:BookcaseCreative:4, Acacia Creative Bookcase
+bibliocraft:BookcaseCreative:5, Dark Oak Creative Bookcase
+bibliocraft:BookcaseCreative:6, Framed Creative Bookcase
+bibliocraft:Shelf:0, Oak Shelf
+bibliocraft:Shelf:1, Spruce Shelf
+bibliocraft:Shelf:2, Birch Shelf
+bibliocraft:Shelf:3, Jungle Shelf
+bibliocraft:Shelf:4, Acacia Shelf
+bibliocraft:Shelf:5, Dark Oak
+bibliocraft:Shelf:6, Framed Shelf
+bibliocraft:MarkerPole, tile.BiblioCraft:MarkerPole.name
+bibliocraft:Clipboard, tile.BiblioCraft:Clipboard.name
+bibliocraft:LanternGold:0, Fancy Lantern
+bibliocraft:LanternGold:1, Fancy Lantern
+bibliocraft:LanternGold:2, Fancy Lantern
+bibliocraft:LanternGold:3, Fancy Lantern
+bibliocraft:LanternGold:4, Fancy Lantern
+bibliocraft:LanternGold:5, Fancy Lantern
+bibliocraft:LanternGold:6, Fancy Lantern
+bibliocraft:LanternGold:7, Fancy Lantern
+bibliocraft:LanternGold:8, Fancy Lantern
+bibliocraft:LanternGold:9, Fancy Lantern
+bibliocraft:LanternGold:10, Fancy Lantern
+bibliocraft:LanternGold:11, Fancy Lantern
+bibliocraft:LanternGold:12, Fancy Lantern
+bibliocraft:LanternGold:13, Fancy Lantern
+bibliocraft:LanternGold:14, Fancy Lantern
+bibliocraft:LanternGold:15, Fancy Lantern
+bibliocraft:LanternIron:0, Fancy Lantern
+bibliocraft:LanternIron:1, Fancy Lantern
+bibliocraft:LanternIron:2, Fancy Lantern
+bibliocraft:LanternIron:3, Fancy Lantern
+bibliocraft:LanternIron:4, Fancy Lantern
+bibliocraft:LanternIron:5, Fancy Lantern
+bibliocraft:LanternIron:6, Fancy Lantern
+bibliocraft:LanternIron:7, Fancy Lantern
+bibliocraft:LanternIron:8, Fancy Lantern
+bibliocraft:LanternIron:9, Fancy Lantern
+bibliocraft:LanternIron:10, Fancy Lantern
+bibliocraft:LanternIron:11, Fancy Lantern
+bibliocraft:LanternIron:12, Fancy Lantern
+bibliocraft:LanternIron:13, Fancy Lantern
+bibliocraft:LanternIron:14, Fancy Lantern
+bibliocraft:LanternIron:15, Fancy Lantern
+bibliocraft:LampGold:0, Fancy Lamp
+bibliocraft:LampGold:1, Fancy Lamp
+bibliocraft:LampGold:2, Fancy Lamp
+bibliocraft:LampGold:3, Fancy Lamp
+bibliocraft:LampGold:4, Fancy Lamp
+bibliocraft:LampGold:5, Fancy Lamp
+bibliocraft:LampGold:6, Fancy Lamp
+bibliocraft:LampGold:7, Fancy Lamp
+bibliocraft:LampGold:8, Fancy Lamp
+bibliocraft:LampGold:9, Fancy Lamp
+bibliocraft:LampGold:10, Fancy Lamp
+bibliocraft:LampGold:11, Fancy Lamp
+bibliocraft:LampGold:12, Fancy Lamp
+bibliocraft:LampGold:13, Fancy Lamp
+bibliocraft:LampGold:14, Fancy Lamp
+bibliocraft:LampGold:15, Fancy Lamp
+bibliocraft:LampIron:0, Fancy Lamp
+bibliocraft:LampIron:1, Fancy Lamp
+bibliocraft:LampIron:2, Fancy Lamp
+bibliocraft:LampIron:3, Fancy Lamp
+bibliocraft:LampIron:4, Fancy Lamp
+bibliocraft:LampIron:5, Fancy Lamp
+bibliocraft:LampIron:6, Fancy Lamp
+bibliocraft:LampIron:7, Fancy Lamp
+bibliocraft:LampIron:8, Fancy Lamp
+bibliocraft:LampIron:9, Fancy Lamp
+bibliocraft:LampIron:10, Fancy Lamp
+bibliocraft:LampIron:11, Fancy Lamp
+bibliocraft:LampIron:12, Fancy Lamp
+bibliocraft:LampIron:13, Fancy Lamp
+bibliocraft:LampIron:14, Fancy Lamp
+bibliocraft:LampIron:15, Fancy Lamp
+bibliocraft:FurniturePaneler:0, Oak Furniture Paneler
+bibliocraft:FurniturePaneler:1, Spruce Furniture Paneler
+bibliocraft:FurniturePaneler:2, Birch Furniture Paneler
+bibliocraft:FurniturePaneler:3, Jungle Furniture Paneler
+bibliocraft:FurniturePaneler:4, Acacia Furniture Paneler
+bibliocraft:FurniturePaneler:5, Dark Oak Furniture Paneler
+bibliocraft:FurniturePaneler:6, Framed Furniture Paneler
+bibliocraft:FramedChest:0, Oak Framed Chest
+bibliocraft:FramedChest:1, Spruce Framed Chest
+bibliocraft:FramedChest:2, Birch Framed Chest
+bibliocraft:FramedChest:3, Jungle Framed Chest
+bibliocraft:FramedChest:4, Acacia Framed Chest
+bibliocraft:FramedChest:5, Dark Oak Framed Chest
+bibliocraft:FramedChest:6, Framed Framed Chest
+bibliocraft:FancySign:0, Oak Fancy Sign
+bibliocraft:FancySign:1, Spruce Fancy Sign
+bibliocraft:FancySign:2, Birch Fancy Sign
+bibliocraft:FancySign:3, Jungle Fancy Sign
+bibliocraft:FancySign:4, Acacia Fancy Sign
+bibliocraft:FancySign:5, Dark Oak Fancy Sign
+bibliocraft:FancySign:6, Framed Fancy Sign
+bibliocraft:FancyWorkbench:0, Oak Fancy Workbench
+bibliocraft:FancyWorkbench:1, Spruce Fancy Workbench
+bibliocraft:FancyWorkbench:2, Birch Fancy Workbench
+bibliocraft:FancyWorkbench:3, Jungle Fancy Workbench
+bibliocraft:FancyWorkbench:4, Acacia Fancy Workbench
+bibliocraft:FancyWorkbench:5, Dark Oak Workbench
+bibliocraft:FancyWorkbench:6, Framed Fancy Workbench
+bibliocraft:PotionShelf:0, Oak Potion Shelf
+bibliocraft:PotionShelf:1, Spruce Potion Shelf
+bibliocraft:PotionShelf:2, Birch Potion Shelf
+bibliocraft:PotionShelf:3, Jungle Potion Shelf
+bibliocraft:PotionShelf:4, Acacia Potion Shelf
+bibliocraft:PotionShelf:5, Dark Oak Potion Shelf
+bibliocraft:PotionShelf:6, Framed Potion Shelf
+bibliocraft:ToolRack:0, Oak Tool Rack
+bibliocraft:ToolRack:1, Spruce Tool Rack
+bibliocraft:ToolRack:2, Birch Tool Rack
+bibliocraft:ToolRack:3, Jungle Tool Rack
+bibliocraft:ToolRack:4, Acacia Tool Rack
+bibliocraft:ToolRack:5, Dark Oak Tool Rack
+bibliocraft:ToolRack:6, Framed Tool Rack
+bibliocraft:Label:0, Oak Wood Label
+bibliocraft:Label:1, Spruce Wood Label
+bibliocraft:Label:2, Birch Wood Label
+bibliocraft:Label:3, Jungle Wood Label
+bibliocraft:Label:4, Acacia Label
+bibliocraft:Label:5, Dark Oak Label
+bibliocraft:Label:6, Framed Label
+bibliocraft:Desk:0, Oak Desk
+bibliocraft:Desk:1, Spruce Desk
+bibliocraft:Desk:2, Birch Desk
+bibliocraft:Desk:3, Jungle Desk
+bibliocraft:Desk:4, Acacia Desk
+bibliocraft:Desk:5, Dark Oak Desk
+bibliocraft:Desk:6, Framed Desk
+bibliocraft:Table:0, Oak Table
+bibliocraft:Table:1, Spruce Table
+bibliocraft:Table:2, Birch Table
+bibliocraft:Table:3, Jungle Table
+bibliocraft:Table:4, Acacia Table
+bibliocraft:Table:5, Dark Oak Table
+bibliocraft:Table:6, Framed Table
+bibliocraft:Seat:0, Oak Seat
+bibliocraft:Seat:1, Spruce Seat
+bibliocraft:Seat:2, Birch Seat
+bibliocraft:Seat:3, Jungle Seat
+bibliocraft:Seat:4, Acacia Seat
+bibliocraft:Seat:5, Dark Oak Seat
+bibliocraft:Seat:6, Framed Seat
+bibliocraft:Clock:0, Oak Clock
+bibliocraft:Clock:1, Spruce Clock
+bibliocraft:Clock:2, Birch Clock
+bibliocraft:Clock:3, Jungle Clock
+bibliocraft:Clock:4, Acacia Clock
+bibliocraft:Clock:5, Dark Oak Clock
+bibliocraft:Clock:6, Framed Clock
+bibliocraft:Case:0, Oak Case
+bibliocraft:Case:1, Spruce Case
+bibliocraft:Case:2, Birch Case
+bibliocraft:Case:3, Jungle Case
+bibliocraft:Case:4, Acacia Case
+bibliocraft:Case:5, Dark Oak Case
+bibliocraft:Case:6, Framed Case
+bibliocraft:MapFrame:0, Oak Map Frame
+bibliocraft:MapFrame:1, Spruce Map Frame
+bibliocraft:MapFrame:2, Birch Map Frame
+bibliocraft:MapFrame:3, Jungle Map Frame
+bibliocraft:MapFrame:4, Acacia Map Frame
+bibliocraft:MapFrame:5, Dark Oak Map Frame
+bibliocraft:MapFrame:6, Framed Map Frame
+bibliocraft:PaintingFrameFlat:0, Oak Painting Frame
+bibliocraft:PaintingFrameFlat:1, Spruce Painting Frame
+bibliocraft:PaintingFrameFlat:2, Birch Painting Frame
+bibliocraft:PaintingFrameFlat:3, Jungle Painting Frame
+bibliocraft:PaintingFrameFlat:4, Acacia Painting Frame
+bibliocraft:PaintingFrameFlat:5, Dark Oak Painting Frame
+bibliocraft:PaintingFrameFlat:6, Framed Painting Frame
+bibliocraft:PaintingFrameSimple:0, Oak Painting Frame
+bibliocraft:PaintingFrameSimple:1, Spruce Painting Frame
+bibliocraft:PaintingFrameSimple:2, Birch Painting Frame
+bibliocraft:PaintingFrameSimple:3, Jungle Painting Frame
+bibliocraft:PaintingFrameSimple:4, Acacia Painting Frame
+bibliocraft:PaintingFrameSimple:5, Dark Oak Painting Frame
+bibliocraft:PaintingFrameSimple:6, Framed Painting Frame
+bibliocraft:PaintingFrameMiddle:0, Oak Painting Frame
+bibliocraft:PaintingFrameMiddle:1, Spruce Painting Frame
+bibliocraft:PaintingFrameMiddle:2, Birch Painting Frame
+bibliocraft:PaintingFrameMiddle:3, Jungle Painting Frame
+bibliocraft:PaintingFrameMiddle:4, Acacia Painting Frame
+bibliocraft:PaintingFrameMiddle:5, Dark Oak Painting Frame
+bibliocraft:PaintingFrameMiddle:6, Framed Painting Frame
+bibliocraft:PaintingFrameFancy:0, Oak Painting Frame
+bibliocraft:PaintingFrameFancy:1, Spruce Painting Frame
+bibliocraft:PaintingFrameFancy:2, Birch Painting Frame
+bibliocraft:PaintingFrameFancy:3, Jungle Painting Frame
+bibliocraft:PaintingFrameFancy:4, Acacia Painting Frame
+bibliocraft:PaintingFrameFancy:5, Dark Oak Painting Frame
+bibliocraft:PaintingFrameFancy:6, Framed Painting Frame
+bibliocraft:PaintingFrameBorderless:0, Oak Painting Frame
+bibliocraft:PaintingFrameBorderless:1, Spruce Painting Frame
+bibliocraft:PaintingFrameBorderless:2, Birch Painting Frame
+bibliocraft:PaintingFrameBorderless:3, Jungle Painting Frame
+bibliocraft:PaintingFrameBorderless:4, Acacia Painting Frame
+bibliocraft:PaintingFrameBorderless:5, Dark Oak Painting Frame
+bibliocraft:PaintingFrameBorderless:6, Framed Painting Frame
+bibliocraft:PaintingPress, Painting Press
+bibliocraft:Typewriter:0, White Typewriter
+bibliocraft:Typewriter:1, Light Gray Typewriter
+bibliocraft:Typewriter:2, Gray Typewriter
+bibliocraft:Typewriter:3, Black Typewriter
+bibliocraft:Typewriter:4, Red Typewriter
+bibliocraft:Typewriter:5, Orange Typewriter
+bibliocraft:Typewriter:6, Yellow Typewriter
+bibliocraft:Typewriter:7, Lime Typewriter
+bibliocraft:Typewriter:8, Green Typewriter
+bibliocraft:Typewriter:9, Cyan Typewriter
+bibliocraft:Typewriter:10, Light Blue Typewriter
+bibliocraft:Typewriter:11, Blue Typewriter
+bibliocraft:Typewriter:12, Purple Typewriter
+bibliocraft:Typewriter:13, Magenta Typewriter
+bibliocraft:Typewriter:14, Pink Typewriter
+bibliocraft:Typewriter:15, Brown Typewriter
+bibliocraft:SwordPedestal:0, Sword Pedestal
+bibliocraft:SwordPedestal:1, Sword Pedestal
+bibliocraft:SwordPedestal:2, Sword Pedestal
+bibliocraft:SwordPedestal:3, Sword Pedestal
+bibliocraft:SwordPedestal:4, Sword Pedestal
+bibliocraft:SwordPedestal:5, Sword Pedestal
+bibliocraft:SwordPedestal:6, Sword Pedestal
+bibliocraft:SwordPedestal:7, Sword Pedestal
+bibliocraft:SwordPedestal:8, Sword Pedestal
+bibliocraft:SwordPedestal:9, Sword Pedestal
+bibliocraft:SwordPedestal:10, Sword Pedestal
+bibliocraft:SwordPedestal:11, Sword Pedestal
+bibliocraft:SwordPedestal:12, Sword Pedestal
+bibliocraft:SwordPedestal:13, Sword Pedestal
+bibliocraft:SwordPedestal:14, Sword Pedestal
+bibliocraft:SwordPedestal:15, Sword Pedestal
+bibliocraft:ArmorStand:0, Oak Armor Stand
+bibliocraft:ArmorStand:1, Spruce Armor Stand
+bibliocraft:ArmorStand:2, Birch Armor Stand
+bibliocraft:ArmorStand:3, Jungle Armor Stand
+bibliocraft:ArmorStand:4, Acacia Armor Stand
+bibliocraft:ArmorStand:5, Dark Oak Armor Stand
+bibliocraft:ArmorStand:6, Framed Armor Stand
+bibliocraft:Bell, Desk Bell
+bibliocraft:TypesettingTable, Typesetting Table
+bibliocraft:PrintingPress, Printing Press
+bibliocraft:CookieJar, Cookie Jar
+bibliocraft:DinnerPlate, Dinner Plate
+bibliocraft:DiscRack, Disc Rack
+bibliocraft:compass, Compass
+bibliocraft:maptool, Drafting Compass
+bibliocraft:seatback1:0, Oak Seat Back
+bibliocraft:seatback1:1, Spruce Seat Back
+bibliocraft:seatback1:2, Birch Seat Back
+bibliocraft:seatback1:3, Jungle Seat Back
+bibliocraft:seatback1:4, Acacia Seat Back
+bibliocraft:seatback1:5, Dark Oak Seat Back
+bibliocraft:seatback1:6, Framed Seat Back
+bibliocraft:seatback2:0, Oak Seat Back
+bibliocraft:seatback2:1, Spruce Seat Back
+bibliocraft:seatback2:2, Birch Seat Back
+bibliocraft:seatback2:3, Jungle Seat Back
+bibliocraft:seatback2:4, Acacia Seat Back
+bibliocraft:seatback2:5, Dark Oak Seat Back
+bibliocraft:seatback2:6, Framed Seat Back
+bibliocraft:seatback3:0, Oak Seat Back
+bibliocraft:seatback3:1, Spruce Seat Back
+bibliocraft:seatback3:2, Birch Seat Back
+bibliocraft:seatback3:3, Jungle Seat Back
+bibliocraft:seatback3:4, Acacia Seat Back
+bibliocraft:seatback3:5, Dark Oak Seat Back
+bibliocraft:seatback3:6, Framed Seat Back
+bibliocraft:seatback4:0, Oak Seat Back
+bibliocraft:seatback4:1, Spruce Seat Back
+bibliocraft:seatback4:2, Birch Seat Back
+bibliocraft:seatback4:3, Jungle Seat Back
+bibliocraft:seatback4:4, Acacia Seat Back
+bibliocraft:seatback4:5, Dark Oak Seat Back
+bibliocraft:seatback4:6, Framed Seat Back
+bibliocraft:seatback5:0, Oak Seat Back
+bibliocraft:seatback5:1, Spruce Seat Back
+bibliocraft:seatback5:2, Birch Seat Back
+bibliocraft:seatback5:3, Jungle Seat Back
+bibliocraft:seatback5:4, Acacia Seat Back
+bibliocraft:seatback5:5, Dark Oak Seat Back
+bibliocraft:seatback5:6, Framed Seat Back
+bibliocraft:StockroomCatalog, Stockroom Catalog
+bibliocraft:PlumbLine, Plumb line
+bibliocraft:FramingSaw, Framing Saw
+bibliocraft:FramingBoard, Framing Board
+bibliocraft:FramingSheet, Framing Sheet
+bibliocraft:TesterItem, ItemStack Name Tester
+bibliocraft:AtlasBook:0, Atlas
+bibliocraft:AtlasPlate, Atlas Plate
+bibliocraft:DeathCompass, Eternal Compass
+bibliocraft:PaintingCanvas, Painting Canvas
+bibliocraft:BigBook, Big Writing Book
+bibliocraft:RecipeBook, Empty Recipe Book
+bibliocraft:SlottedBook, Slotted Book
+bibliocraft:HandDrill, Hand Drill
+bibliocraft:tapeMeasure, Tape Measure
+bibliocraft:tape, Tape Measure Reel
+bibliocraft:BiblioChase, Print Press Chase
+bibliocraft:PrintPlate, Print Press Plate
+bibliocraft:EnchantedPlate, Enchanted Plate
+bibliocraft:BiblioRedBook, Redstone: Volume I
+bibliocraft:BiblioGlasses:0, Reading Glasses
+bibliocraft:BiblioGlasses:1, Tinted Glasses
+bibliocraft:BiblioGlasses:2, Monocle
+bibliocraft:BiblioDrill, Screw Gun
+bibliocraft:BiblioCreativeLock, Lock and Key
+bibliocraft:BiblioClipboard, Clipboard
 biomesoplenty:grass:0, Spectral Moss
 biomesoplenty:grass:1, Overgrown Stone
 biomesoplenty:grass:2, Loamy Grass Block
@@ -5909,7 +6441,6 @@ charsetstorage:barrel, Barrel
 charsetstorage:masterKey, Master Key
 charsetstorage:key, Key
 charsetstorage:lock, Lock
-charsettweaks:graphite, Graphite
 charsettweaks:shard:0, Glass Shard
 charsettweaks:shard:1, White Glass Shard
 charsettweaks:shard:2, Orange Glass Shard
@@ -5927,6 +6458,7 @@ charsettweaks:shard:13, Brown Glass Shard
 charsettweaks:shard:14, Green Glass Shard
 charsettweaks:shard:15, Red Glass Shard
 charsettweaks:shard:16, Black Glass Shard
+charsettweaks:graphite, Graphite
 charsetwrench:wrench, Wrench
 chickenchunks:chickenChunkLoader:0, Chunk Loader
 chickenchunks:chickenChunkLoader:1, Spot Loader
@@ -7776,6 +8308,48 @@ chiselsandbits:block_bit:0, Chiseled Bit - Pillar Elven Quartz Block
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sunny Quartz
 chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Sunny Quartz Block
 chiselsandbits:block_bit:0, Chiseled Bit - Pillar Sunny Quartz Block
+chiselsandbits:block_bit:0, Chiseled Bit - Magical_planks
+chiselsandbits:block_bit:0, Chiseled Bit - Magical_wood
+chiselsandbits:block_bit:0, Chiseled Bit - Diagonalwood
+chiselsandbits:block_bit:0, Chiseled Bit - Angel Block
+chiselsandbits:block_bit:0, Chiseled Bit - Redstone Clock
+chiselsandbits:block_bit:0, Chiseled Bit - Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Quintuple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Sextuple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Septuple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Octuple Compressed Cobblestone
+chiselsandbits:block_bit:0, Chiseled Bit - Compressed Dirt
+chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Dirt
+chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Dirt
+chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Dirt
+chiselsandbits:block_bit:0, Chiseled Bit - Compressed Sand
+chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Sand
+chiselsandbits:block_bit:0, Chiseled Bit - Compressed Gravel
+chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Gravel
+chiselsandbits:block_bit:0, Chiseled Bit - Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Quintuple Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Sextuple Compressed Netherrack
+chiselsandbits:block_bit:0, Chiseled Bit - Border Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Crossed Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Stoneburnt
+chiselsandbits:block_bit:0, Chiseled Bit - Sandy Glass
+chiselsandbits:block_bit:0, Chiseled Bit - Truchet
+chiselsandbits:block_bit:0, Chiseled Bit - Blue Quartz
+chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass
+chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass (Bordered)
+chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass (Patterned)
+chiselsandbits:block_bit:0, Chiseled Bit - Dark Glass
+chiselsandbits:block_bit:0, Chiseled Bit - Glowing Glass
+chiselsandbits:block_bit:0, Chiseled Bit - Redstone Glass
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Enchanted Metal
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Demon Metal
 chiselsandbits:block_bit:0, Chiseled Bit - Psidust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Psimetal Block
 chiselsandbits:block_bit:0, Chiseled Bit - Psigem Block
@@ -7793,16 +8367,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
 chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
 chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
-chiselsandbits:block_bit:0, Chiseled Bit - Marble
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Marble
-chiselsandbits:block_bit:0, Chiseled Bit - Limestone
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Limestone
-chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
-chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
-chiselsandbits:block_bit:0, Chiseled Bit - Basalt
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
 chiselsandbits:block_bit:0, Chiseled Bit - Sugar Cane Block Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
@@ -7862,6 +8426,16 @@ chiselsandbits:block_bit:0, Chiseled Bit - Vertical Birch Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Vertical Jungle Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Vertical Acacia Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Vertical Dark Oak Wood Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Marble
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Marble
+chiselsandbits:block_bit:0, Chiseled Bit - Limestone
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Limestone
+chiselsandbits:block_bit:0, Chiseled Bit - Ender Biotite Ore
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Biotite
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
+chiselsandbits:block_bit:0, Chiseled Bit - Basalt
+chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Limestone
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Siltstone
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Shale
@@ -9490,6 +10064,12 @@ chiselsandbits:block_bit:0, Chiseled Bit - Dense Obsidian
 chiselsandbits:block_bit:0, Chiseled Bit - Poisoned Dirt
 chiselsandbits:block_bit:0, Chiseled Bit - Radiation Sensor
 chiselsandbits:block_bit:0, Chiseled Bit - Machine Frame
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
+chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
 chiselsandbits:block_bit:0, Chiseled Bit - White Elevator
 chiselsandbits:block_bit:0, Chiseled Bit - Orange Elevator
 chiselsandbits:block_bit:0, Chiseled Bit - Magenta Elevator
@@ -9532,48 +10112,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Travel Anchor (decoration block) Sout
 chiselsandbits:block_bit:0, Chiseled Bit - Vacuum Chest (decoration block) South
 chiselsandbits:block_bit:0, Chiseled Bit - Wireless Charger (decoration block) South
 chiselsandbits:block_bit:0, Chiseled Bit - Portal Frame
-chiselsandbits:block_bit:0, Chiseled Bit - Magical Planks
-chiselsandbits:block_bit:0, Chiseled Bit - Magical Wood
-chiselsandbits:block_bit:0, Chiseled Bit - Diagonal Wood
-chiselsandbits:block_bit:0, Chiseled Bit - Angel Block
-chiselsandbits:block_bit:0, Chiseled Bit - Redstone Clock
-chiselsandbits:block_bit:0, Chiseled Bit - Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Quintuple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Sextuple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Septuple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Octuple Compressed Cobblestone
-chiselsandbits:block_bit:0, Chiseled Bit - Compressed Dirt
-chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Dirt
-chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Dirt
-chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Dirt
-chiselsandbits:block_bit:0, Chiseled Bit - Compressed Sand
-chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Sand
-chiselsandbits:block_bit:0, Chiseled Bit - Compressed Gravel
-chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Gravel
-chiselsandbits:block_bit:0, Chiseled Bit - Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Triple Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Quadruple Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Quintuple Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Sextuple Compressed Netherrack
-chiselsandbits:block_bit:0, Chiseled Bit - Border Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Crossed Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Polished Stone
-chiselsandbits:block_bit:0, Chiseled Bit - Stoneburnt
-chiselsandbits:block_bit:0, Chiseled Bit - Sandy Glass
-chiselsandbits:block_bit:0, Chiseled Bit - Truchet
-chiselsandbits:block_bit:0, Chiseled Bit - Blue Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass
-chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass (Bordered)
-chiselsandbits:block_bit:0, Chiseled Bit - Thickened Glass (Patterned)
-chiselsandbits:block_bit:0, Chiseled Bit - Dark Glass
-chiselsandbits:block_bit:0, Chiseled Bit - Glowing Glass
-chiselsandbits:block_bit:0, Chiseled Bit - Redstone Glass
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Enchanted Metal
-chiselsandbits:block_bit:0, Chiseled Bit - Block of Demon Metal
 chiselsandbits:block_bit:0, Chiseled Bit - Yellorite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Yellorite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Anglesite Ore
@@ -9633,12 +10171,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Dimensional Pattern 1 Block Down
 chiselsandbits:block_bit:0, Chiseled Bit - Dimensional Pattern 2 Block Down
 chiselsandbits:block_bit:0, Chiseled Bit - Dimensional Small Blocks
 chiselsandbits:block_bit:0, Chiseled Bit - Activity Probe
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Trim
 chiselsandbits:block_bit:0, Chiseled Bit - Block Update Detector Down
 chiselsandbits:block_bit:0, Chiseled Bit - Grout
 chiselsandbits:block_bit:0, Chiseled Bit - Green Slimy Mud
@@ -10253,6 +10785,73 @@ draconicevolution:energy_crystal:8, Draconic Wireless Energy Crystal
 draconicevolution:flow_gate:0, Flux Gate
 draconicevolution:flow_gate:8, Fluid Gate
 draconicevolution:crystal_binder, Crystal Binder
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:0, Basic Drawer
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:1, Basic Drawers 1x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:2, Basic Drawers 2x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:3, Half Drawers 1x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:basicDrawers:4, Half Drawers 2x2
+storagedrawers:compDrawers, Compacting Drawer
+storagedrawers:controller, Drawer Controller
+storagedrawers:controllerSlave, Controller Slave
+storagedrawers:trim:0, Oak Trim
+storagedrawers:trim:1, Spruce Trim
+storagedrawers:trim:2, Birch Trim
+storagedrawers:trim:3, Jungle Trim
+storagedrawers:trim:4, Acacia Trim
+storagedrawers:trim:5, Dark Oak Trim
+storagedrawers:framingTable, Framing Table
+storagedrawers:customDrawers:0, Framed Drawer
+storagedrawers:customDrawers:1, Framed Drawers 1x2
+storagedrawers:customDrawers:2, Framed Drawers 2x2
+storagedrawers:customDrawers:3, Framed Half Drawers 1x2
+storagedrawers:customDrawers:4, Framed Half Drawers 2x2
+storagedrawers:customTrim, Framed Trim
+storagedrawers:upgradeTemplate, Upgrade Template
+storagedrawers:upgradeStorage:0, Storage Upgrade (I)
+storagedrawers:upgradeStorage:1, Storage Upgrade (II)
+storagedrawers:upgradeStorage:2, Storage Upgrade (III)
+storagedrawers:upgradeStorage:3, Storage Upgrade (IV)
+storagedrawers:upgradeStorage:4, Storage Upgrade (V)
+storagedrawers:upgradeStatus:0, Status Upgrade (I)
+storagedrawers:upgradeStatus:1, Status Upgrade (II)
+storagedrawers:upgradeVoid, Void Upgrade
+storagedrawers:upgradeCreative:0, Creative Storage Upgrade
+storagedrawers:upgradeCreative:1, Creative Vending Upgrade
+storagedrawers:upgradeRedstone:0, Redstone Upgrade
+storagedrawers:upgradeRedstone:1, Redstone Max Upgrade
+storagedrawers:upgradeRedstone:2, Redstone Min Upgrade
+storagedrawers:drawerKey, Drawer Key
+storagedrawers:shroudKey, Concealment Key
+storagedrawers:personalKey, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
+bitdrawers:bitdrawer, Bit Drawer
+bitdrawers:bitcontroller, Bit Drawer Controller
 elevatorid:elevator_white, White Elevator
 elevatorid:elevator_orange, Orange Elevator
 elevatorid:elevator_magenta, Magenta Elevator
@@ -10762,251 +11361,56 @@ extrarails:directionRail, Direction Rail
 extrarails:teleportingRail, Teleporting Rail
 extrarails:comparatorRail, Comparator Rail
 extrarails:woodenRail, Wooden Rail
-extrautils2:WateringCan, Watering Can
-extrautils2:ItemCreativeDestructionWand, Creative Destruction Wand
-extrautils2:ItemBuildersWand, Builders Wand
-extrautils2:ItemDestructionWand, Destruction Wand
-extrautils2:ItemCreativeBuildersWand, Creative Builders Wand
-extrautils2:SoundMuffler, Sound Muffler
-extrautils2:EnderLilly, Ender Lilly
-extrautils2:DecorativeSolidWood:0, Magical Planks
-extrautils2:DecorativeSolidWood:1, Magical Wood
-extrautils2:DecorativeSolidWood:2, Diagonal Wood
-extrautils2:TrashCan, Trash Can
-extrautils2:TrashCanFluid, Trash Can (Fluid)
-extrautils2:TrashCanEnergy, Trash Can (Energy)
-extrautils2:AngelBlock, Angel Block
-extrautils2:PassiveGenerator:0, Solar Panel
-extrautils2:PassiveGenerator:1, Lunar Panel
-extrautils2:PassiveGenerator:2, Lava Mill
-extrautils2:PassiveGenerator:3, Water Mill
-extrautils2:PassiveGenerator:4, Wind Mill
-extrautils2:PassiveGenerator:5, Fire Mill
-extrautils2:PassiveGenerator:6, Creative Mill
-extrautils2:PassiveGenerator:7, Manual Mill
-extrautils2:PassiveGenerator:8, Dragon Egg Mill
-extrautils2:SuperMobSpawner, Resturbed Mob Spawner
-extrautils2:CursedEarth, Cursed Earth
-extrautils2:RedstoneClock, Redstone Clock
-extrautils2:CompressedCobblestone:0, Compressed Cobblestone
-extrautils2:CompressedCobblestone:1, Double Compressed Cobblestone
-extrautils2:CompressedCobblestone:2, Triple Compressed Cobblestone
-extrautils2:CompressedCobblestone:3, Quadruple Compressed Cobblestone
-extrautils2:CompressedCobblestone:4, Quintuple Compressed Cobblestone
-extrautils2:CompressedCobblestone:5, Sextuple Compressed Cobblestone
-extrautils2:CompressedCobblestone:6, Septuple Compressed Cobblestone
-extrautils2:CompressedCobblestone:7, Octuple Compressed Cobblestone
-extrautils2:CompressedDirt:0, Compressed Dirt
-extrautils2:CompressedDirt:1, Double Compressed Dirt
-extrautils2:CompressedDirt:2, Triple Compressed Dirt
-extrautils2:CompressedDirt:3, Quadruple Compressed Dirt
-extrautils2:CompressedSand:0, Compressed Sand
-extrautils2:CompressedSand:1, Double Compressed Sand
-extrautils2:CompressedGravel:0, Compressed Gravel
-extrautils2:CompressedGravel:1, Double Compressed Gravel
-extrautils2:CompressedNetherrack:0, Compressed Netherrack
-extrautils2:CompressedNetherrack:1, Double Compressed Netherrack
-extrautils2:CompressedNetherrack:2, Triple Compressed Netherrack
-extrautils2:CompressedNetherrack:3, Quadruple Compressed Netherrack
-extrautils2:CompressedNetherrack:4, Quintuple Compressed Netherrack
-extrautils2:CompressedNetherrack:5, Sextuple Compressed Netherrack
-extrautils2:GlassCutter, Glass Cutter
-extrautils2:EnderShard, Ender Shard
-extrautils2:RedOrchid, Red Orchid
-extrautils2:LawSword, Law Sword
-extrautils2:sickle_wood, Wooden Sickle
-extrautils2:sickle_stone, Stone Sickle
-extrautils2:sickle_iron, Iron Sickle
-extrautils2:sickle_gold, Golden Sickle
-extrautils2:sickle_diamond, Diamond Sickle
-extrautils2:PowerOverload, Power Overload
-extrautils2:Resonator, Resonator
-extrautils2:SunCrystal, Sun Crystal
-extrautils2:Spotlight, Spotlight
-extrautils2:Screen, Screen
-extrautils2:DecorativeSolid:0, Border Stone
-extrautils2:DecorativeSolid:1, Crossed Stone
-extrautils2:DecorativeSolid:2, Polished Stone
-extrautils2:DecorativeSolid:3, Stoneburnt
-extrautils2:DecorativeSolid:4, Sandy Glass
-extrautils2:DecorativeSolid:5, Truchet
-extrautils2:DecorativeSolid:6, Blue Quartz
-extrautils2:Ingredients:0, Resonating Redstone Crystal
-extrautils2:Ingredients:1, Redstone Gear
-extrautils2:Ingredients:2, Eye of Redstone
-extrautils2:Ingredients:3, Lunar Reactive Dust
-extrautils2:Ingredients:4, Red Coal
-extrautils2:Ingredients:5, Moon Stone
-extrautils2:Ingredients:6, Upgrade Speed
-extrautils2:Ingredients:7, Upgrade Stack
-extrautils2:Ingredients:8, Upgrade Mining
-extrautils2:Ingredients:9, Upgrade Base
-extrautils2:Ingredients:10, Drop of Evil
-extrautils2:Ingredients:11, Demon Ingot
-extrautils2:Ingredients:12, Enchanted Ingot
-extrautils2:Ingredients:13, Wireless RF Heating Coil
-extrautils2:Ingredients:14, Blue Dye
-extrautils2:GoldenLasso:0, Golden Lasso
-extrautils2:GoldenLasso:1, Cursed Lasso
-extrautils2:AngelRing:0, Angel Ring
-extrautils2:AngelRing:1, Angel Ring
-extrautils2:AngelRing:2, Angel Ring
-extrautils2:AngelRing:3, Angel Ring
-extrautils2:AngelRing:4, Angel Ring
-extrautils2:AngelRing:5, Angel Ring
-extrautils2:PowerManager, Power Manager
-extrautils2:BagOfHolding, Bag Of Holding
-extrautils2:DecorativeGlass:0, Thickened Glass
-extrautils2:DecorativeGlass:1, Thickened Glass (Bordered)
-extrautils2:DecorativeGlass:2, Thickened Glass (Patterned)
-extrautils2:DecorativeGlass:3, Dark Glass
-extrautils2:DecorativeGlass:4, Glowing Glass
-extrautils2:DecorativeGlass:5, Redstone Glass
-extrautils2:IneffableGlass:0, Ethereal Glass
-extrautils2:IneffableGlass:1, Reverse Ethereal Glass
-extrautils2:IneffableGlass:2, Ineffable Glass
-extrautils2:IneffableGlass:3, Dark Ineffable Glass
-extrautils2:pipe, Transfer Pipe
-extrautils2:PlayerChest, Player Chest
-extrautils2:Wrench, Wrench
-extrautils2:Boomerang, Magical Boomerang
-extrautils2:Book, Extra Utilities 2 Manual
-extrautils2:Contract, Contract
-extrautils2:ChunkLoader, Chunk Loading Ward
-extrautils2:Filter, Item Filter
-extrautils2:FilterFluids, Filter Fluids
-extrautils2:Grocket:0, Transfer Node (Items)
-extrautils2:Grocket:1, Transfer Filter
-extrautils2:Grocket:2, Transfer Node (Fluids)
-extrautils2:Grocket:3, Retrieval Node (Items)
-extrautils2:Grocket:4, Retrieval Node (Fluids)
-extrautils2:Indexer, Indexer
-extrautils2:IndexerRemote, Indexer Remote
-extrautils2:Crafter, Mechanical Crafter
-extrautils2:Scanner, Scanner
-extrautils2:Miner, Mechanical Miner
-extrautils2:User, Mechanical User
-extrautils2:Klein, Klein Flask
-extrautils2:Drum:0, Stone Drum
-extrautils2:Drum:1, Iron Drum
-extrautils2:Drum:2, Reinforced Large Drum
-extrautils2:Drum:3, Demonically Gargantuan Drum
-extrautils2:Drum:4, Creative Drum
-extrautils2:Machine:0, Machine Block
-extrautils2:Machine:0, Furnace
-extrautils2:Machine:0, Crusher
-extrautils2:Machine:0, Survival Generator
-extrautils2:Machine:0, Furnace Generator
-extrautils2:Machine:0, Culinary Generator
-extrautils2:Machine:0, Magmatic Generator
-extrautils2:Machine:0, Heated Redstone Generator
-extrautils2:Machine:0, Ender Generator
-extrautils2:Machine:0, Potion Generator
-extrautils2:Machine:0, Pink Generator
-extrautils2:Machine:0, Overclocked Generator
-extrautils2:Machine:0, Explosive Generator
-extrautils2:Machine:0, Netherstar Generator
-extrautils2:Machine:0, Halitosis Generator
-extrautils2:Machine:0, Frosty Generator
-extrautils2:Machine:0, Undeath Generator
-extrautils2:Machine:0, Dischantment Generator
-extrautils2:Machine:0, Slimey Generator
-extrautils2:Teleporter:0, Overworld Portal
-extrautils2:Teleporter:1, Deep Dark Portal
-extrautils2:PowerBattery, Wireless RF Battery
-extrautils2:PowerTransmitter, Wireless RF Transmitter
-extrautils2:Quarry, Quantum Quarry
-extrautils2:QuarryProxy, Quantum Quarry Actuator
-extrautils2:spike_wood, Wooden Spikes
-extrautils2:spike_stone, Stone Spikes
-extrautils2:spike_iron, Iron Spikes
-extrautils2:spike_gold, Golden Spikes
-extrautils2:spike_diamond, Diamond Spikes
-extrautils2:spike_creative, Creative Spikes
-extrautils2:RedstoneLantern, Redstone Lantern
-extrautils2:MiniChest, Mini Chest
-extrautils2:RainbowGenerator:0, Rainbow Generator!
-extrautils2:RainbowGenerator:1, Rainbow Generator (bottom half)
-extrautils2:RainbowGenerator:2, Rainbow Generator (top half)
-extrautils2:MagicApple, Magical Apple
-extrautils2:SimpleDecorative:0, Block of Enchanted Metal
-extrautils2:SimpleDecorative:1, Block of Demon Metal
-extrautils2:CreativeChest, Creative Chest
-extrautils2:CreativeEnergy, Creative Energy Source
-extrautils2:CreativeHarvest, tile.ExtraUtils2:CreativeHarvest.name
-extrautils2:Synergy:0, tile.ExtraUtils2:Synergy.blank.name
-extrautils2:Synergy:1, tile.ExtraUtils2:Synergy.wither.name
-extrautils2:Synergy:2, tile.ExtraUtils2:Synergy.nether.name
-extrautils2:Synergy:3, tile.ExtraUtils2:Synergy.void.name
-extrautils2:Synergy:4, tile.ExtraUtils2:Synergy.temple.name
-extrautils2:Synergy:5, tile.ExtraUtils2:Synergy.guardian.name
-extrautils2:Synergy:6, tile.ExtraUtils2:Synergy.end.name
-extrautils2:Synergy:7, tile.ExtraUtils2:Synergy.brimstone.name
-extrautils2:Synergy:8, tile.ExtraUtils2:Synergy.bloodmoon.name
-extrautils2:Synergy:9, tile.ExtraUtils2:Synergy.incandescence.name
-extrautils2:Synergy:10, tile.ExtraUtils2:Synergy.steam.name
-extrautils2:Synergy:11, tile.ExtraUtils2:Synergy.firestorm.name
-extrautils2:Synergy:12, tile.ExtraUtils2:Synergy.moonquake.name
-extrautils2:Synergy:13, tile.ExtraUtils2:Synergy.plasma.name
-extrautils2:Synergy:14, tile.ExtraUtils2:Synergy.cobblestone.name
-extrautils2:Synergy:15, tile.ExtraUtils2:Synergy.meteor.name
-extrautils2:Synergy:16, tile.ExtraUtils2:Synergy.eclipse.name
-extrautils2:Synergy:17, tile.ExtraUtils2:Synergy.lowtide.name
-extrautils2:Synergy:18, tile.ExtraUtils2:Synergy.aurora.name
-extrautils2:Synergy:19, tile.ExtraUtils2:Synergy.hightide.name
-extrautils2:Synergy:20, tile.ExtraUtils2:Synergy.solarflare.name
-extrautils2:Synergy:21, tile.ExtraUtils2:Synergy.rain.name
-extrautils2:Trowel, item.ExtraUtils2:Trowel.name
-zerocore:debugTool, Debug Tool
-bigreactors:brOre:0, Yellorite Ore
-bigreactors:brOre:1, Anglesite Ore
-bigreactors:brOre:2, Benitoite Ore
-bigreactors:blockMetals:0, Yellorium Block
-bigreactors:blockMetals:1, Cyanite Block
-bigreactors:blockMetals:2, Graphite Block
-bigreactors:blockMetals:3, Blutonium Block
-bigreactors:blockMetals:4, Ludicrite Block
-bigreactors:blockMetals:5, Steel Block
-bigreactors:reactorCasing:0, Reactor Casing (Legacy)
-bigreactors:reactorGlass:0, Reactor Glass (Legacy)
-bigreactors:reactorController:0, Reactor Controller (Legacy)
-bigreactors:reactorPowerTapRF:0, Reactor Redstone Flux Power Tap (Legacy)
-bigreactors:reactorPowerTapTesla:0, Reactor Tesla Power Tap (Legacy)
-bigreactors:reactorAccessPort:0, Reactor Access Port (Legacy)
-bigreactors:reactorCoolantPort:0, Reactor Coolant Port (Legacy)
-bigreactors:reactorControlRod:0, Reactor Control Rod (Legacy)
-bigreactors:reactorRedNetPort:0, Reactor RedNet Port (Legacy)
-bigreactors:reactorComputerPort:0, Reactor Computer Port (Legacy)
-bigreactors:reactorRedstonePort:0, Reactor Redstone Port (Legacy)
-bigreactors:reactorFuelRod:0, Reactor Fuel Rod (Legacy)
-bigreactors:reactorCreativeCoolantPort:0, Reactor Creative Coolant Port (Legacy)
-bigreactors:turbineGlass:0, Turbine Glass (Legacy)
-bigreactors:turbineHousing:0, Turbine Housing (Legacy)
-bigreactors:turbineController:0, Turbine Controller (Legacy)
-bigreactors:turbinePowerTapRF:0, Turbine Redstone Flux Power Tap (Legacy)
-bigreactors:turbinePowerTapTesla:0, Turbine Tesla Power Tap (Legacy)
-bigreactors:turbineComputerPort:0, Turbine Computer Port (Legacy)
-bigreactors:turbineFluidPort:0, Turbine Fluid Port (Legacy)
-bigreactors:turbineBearing:0, Turbine Rotor Bearing (Legacy)
-bigreactors:turbineRotorShaft:0, Turbine Rotor Shaft (Legacy)
-bigreactors:turbineRotorBlade:0, Turbine Rotor Blade (Legacy)
-bigreactors:turbineCreativeSteamGenerator:0, Turbine Creative Steam Generator (Legacy)
-bigreactors:ingotMetals:0, Yellorium Ingot
-bigreactors:ingotMetals:1, Cyanite Ingot
-bigreactors:ingotMetals:2, Graphite Bar
-bigreactors:ingotMetals:3, Blutonium Ingot
-bigreactors:ingotMetals:4, Ludicrite Ingot
-bigreactors:ingotMetals:5, Steel Ingot
-bigreactors:dustMetals:0, Yellorium Dust
-bigreactors:dustMetals:1, Cyanite Dust
-bigreactors:dustMetals:2, Graphite Dust
-bigreactors:dustMetals:3, Blutonium Dust
-bigreactors:dustMetals:4, Ludicrite Dust
-bigreactors:dustMetals:5, Steel Dust
+zerocore:debugtool, Debug Tool
+bigreactors:brore:0, Yellorite Ore
+bigreactors:brore:1, Anglesite Ore
+bigreactors:brore:2, Benitoite Ore
+bigreactors:blockmetals:0, Yellorium Block
+bigreactors:blockmetals:1, Cyanite Block
+bigreactors:blockmetals:2, Graphite Block
+bigreactors:blockmetals:3, Blutonium Block
+bigreactors:blockmetals:4, Ludicrite Block
+bigreactors:blockmetals:5, Steel Block
+bigreactors:reactorcasing:0, Reactor Casing (Legacy)
+bigreactors:reactorglass:0, Reactor Glass (Legacy)
+bigreactors:reactorcontroller:0, Reactor Controller (Legacy)
+bigreactors:reactorpowertaprf:0, Reactor Redstone Flux Power Tap (Legacy)
+bigreactors:reactorpowertaptesla:0, Reactor Tesla Power Tap (Legacy)
+bigreactors:reactoraccessport:0, Reactor Access Port (Legacy)
+bigreactors:reactorcoolantport:0, Reactor Coolant Port (Legacy)
+bigreactors:reactorcontrolrod:0, Reactor Control Rod (Legacy)
+bigreactors:reactorrednetport:0, Reactor RedNet Port (Legacy)
+bigreactors:reactorcomputerport:0, Reactor Computer Port (Legacy)
+bigreactors:reactorredstoneport:0, Reactor Redstone Port (Legacy)
+bigreactors:reactorfuelrod:0, Reactor Fuel Rod (Legacy)
+bigreactors:reactorcreativecoolantport:0, Reactor Creative Coolant Port (Legacy)
+bigreactors:turbineglass:0, Turbine Glass (Legacy)
+bigreactors:turbinehousing:0, Turbine Housing (Legacy)
+bigreactors:turbinecontroller:0, Turbine Controller (Legacy)
+bigreactors:turbinepowertaprf:0, Turbine Redstone Flux Power Tap (Legacy)
+bigreactors:turbinepowertaptesla:0, Turbine Tesla Power Tap (Legacy)
+bigreactors:turbinecomputerport:0, Turbine Computer Port (Legacy)
+bigreactors:turbinefluidport:0, Turbine Fluid Port (Legacy)
+bigreactors:turbinebearing:0, Turbine Rotor Bearing (Legacy)
+bigreactors:turbinerotorshaft:0, Turbine Rotor Shaft (Legacy)
+bigreactors:turbinerotorblade:0, Turbine Rotor Blade (Legacy)
+bigreactors:turbinecreativesteamgenerator:0, Turbine Creative Steam Generator (Legacy)
+bigreactors:ingotmetals:0, Yellorium Ingot
+bigreactors:ingotmetals:1, Cyanite Ingot
+bigreactors:ingotmetals:2, Graphite Bar
+bigreactors:ingotmetals:3, Blutonium Ingot
+bigreactors:ingotmetals:4, Ludicrite Ingot
+bigreactors:ingotmetals:5, Steel Ingot
+bigreactors:dustmetals:0, Yellorium Dust
+bigreactors:dustmetals:1, Cyanite Dust
+bigreactors:dustmetals:2, Graphite Dust
+bigreactors:dustmetals:3, Blutonium Dust
+bigreactors:dustmetals:4, Ludicrite Dust
+bigreactors:dustmetals:5, Steel Dust
 bigreactors:minerals:0, Anglesite (PbSO4)
 bigreactors:minerals:1, Benitoite (BaTiSi3O9)
-bigreactors:reactorCasingCores:0, Reactor Casing Core (Legacy)
-bigreactors:turbineHousingCores:0, Turbine Housing Core (Legacy)
+bigreactors:reactorcasingcores:0, Reactor Casing Core (Legacy)
+bigreactors:turbinehousingcores:0, Turbine Housing Core (Legacy)
 bigreactors:wrench, Extreme Wrench
 inductioncharger:charger, Induction Charger
 ironbackpacks:basicBackpack, Basic Backpack
@@ -11172,6 +11576,7 @@ missing_pieces:dark_oak_shelf, Dark Oak Shelf
 missing_pieces:jungle_shelf, Jungle Shelf
 missing_pieces:oak_shelf, Oak Shelf
 missing_pieces:spruce_shelf, Spruce Shelf
+testdummy:dummy, Test Dummy
 natura:blaze_hopper:0, Blaze Hopper
 natura:clouds:0, Cloud
 natura:clouds:1, Dark Cloud
@@ -11315,6 +11720,20 @@ natura:nether_berrybush_duskberry:0, DuskBerry Bush
 natura:nether_berrybush_skyberry:0, Skyberry Bush
 natura:nether_berrybush_stingberry:0, Stingberry Bush
 natura:respawn_obelisk:0, Inactive Respawn Obelisk
+notenoughwands:wandcore, Wand Core
+notenoughwands:advanced_wandcore, Advanced Wand Core
+notenoughwands:teleportation_wand, Teleportation Wand
+notenoughwands:building_wand, Building Wand
+notenoughwands:swapping_wand, Swapping Wand
+notenoughwands:capturing_wand, Capturing Wand
+notenoughwands:illumination_wand, Illumination Wand
+notenoughwands:displacement_wand, Displacement Wand
+notenoughwands:moving_wand, Moving Wand
+notenoughwands:acceleration_wand, Acceleration Wand
+notenoughwands:protection_wand, Protection Wand
+notenoughwands:master_protection_wand, Master Protection Wand
+notenoughwands:freezing_wand, Freezing Wand (WIP)
+notenoughwands:potion_wand, Potion Wand
 quantumstorage:quantumdsu, Quantum Storage Unit
 quantumstorage:quantumtank, Quantum Tank
 quantumstorage:renderupgrade, Upgrade Render
@@ -11936,31 +12355,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (8)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
 rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
 rftoolsdim:known_dimlet:9, Digit Dimlet (0)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (3)
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
 rftoolsdim:known_dimlet:9, Digit Dimlet (2)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:9, Digit Dimlet (3)
+rftoolsdim:known_dimlet:5, Structure Dimlet (None)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -12006,71 +12425,6 @@ simplegenerators:culinary_generator_3, Culinary Generator MK.III
 simplegenerators:lava_generator_3, Lava Generator MK.III
 simplegenerators:netherstar_generator_3, Nether Star Generator MK.III
 sleepingbag:sleepingbag, Sleeping Bag
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:0, Basic Drawer
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:1, Basic Drawers 1x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:2, Basic Drawers 2x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:3, Half Drawers 1x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:basicDrawers:4, Half Drawers 2x2
-storagedrawers:compDrawers, Compacting Drawer
-storagedrawers:controller, Drawer Controller
-storagedrawers:controllerSlave, Controller Slave
-storagedrawers:trim:0, Oak Trim
-storagedrawers:trim:1, Spruce Trim
-storagedrawers:trim:2, Birch Trim
-storagedrawers:trim:3, Jungle Trim
-storagedrawers:trim:4, Acacia Trim
-storagedrawers:trim:5, Dark Oak Trim
-storagedrawers:framingTable, Framing Table
-storagedrawers:customDrawers:0, Framed Drawer
-storagedrawers:customDrawers:1, Framed Drawers 1x2
-storagedrawers:customDrawers:2, Framed Drawers 2x2
-storagedrawers:customDrawers:3, Framed Half Drawers 1x2
-storagedrawers:customDrawers:4, Framed Half Drawers 2x2
-storagedrawers:customTrim, Framed Trim
-storagedrawers:upgradeTemplate, Upgrade Template
-storagedrawers:upgradeStorage:0, Storage Upgrade (I)
-storagedrawers:upgradeStorage:1, Storage Upgrade (II)
-storagedrawers:upgradeStorage:2, Storage Upgrade (III)
-storagedrawers:upgradeStorage:3, Storage Upgrade (IV)
-storagedrawers:upgradeStorage:4, Storage Upgrade (V)
-storagedrawers:upgradeStatus:0, Status Upgrade (I)
-storagedrawers:upgradeStatus:1, Status Upgrade (II)
-storagedrawers:upgradeVoid, Void Upgrade
-storagedrawers:upgradeCreative:0, Creative Storage Upgrade
-storagedrawers:upgradeCreative:1, Creative Vending Upgrade
-storagedrawers:upgradeRedstone:0, Redstone Upgrade
-storagedrawers:upgradeRedstone:1, Redstone Max Upgrade
-storagedrawers:upgradeRedstone:2, Redstone Min Upgrade
-storagedrawers:drawerKey, Drawer Key
-storagedrawers:shroudKey, Concealment Key
-storagedrawers:personalKey, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 rscircuits:resource:0, Tiny Pile of Redstone
 rscircuits:resource:1, Quartz Resonator
 rscircuits:resource:2, Ender Pulsar
@@ -12270,30 +12624,30 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Cross Guard Pattern
 tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Scythe Head Pattern
 tconstruct:shard:0, Tiberium Shard
 tconstruct:shard:0, Aurorium Shard
 tconstruct:shard:0, Prometheum Shard
@@ -12324,6 +12678,7 @@ tconstruct:shard:0, Niob Shard
 tconstruct:shard:0, Yrdeen Shard
 tconstruct:shard:0, Meteorite Shard
 tconstruct:shard:0, Obsidiorite Shard
+tconstruct:shard:0, Demonic Shard
 tconstruct:sharpening_kit:0, Tiberium Sharpening Kit
 tconstruct:sharpening_kit:0, Aurorium Sharpening Kit
 tconstruct:sharpening_kit:0, Prometheum Sharpening Kit
@@ -12354,6 +12709,7 @@ tconstruct:sharpening_kit:0, Niob Sharpening Kit
 tconstruct:sharpening_kit:0, Yrdeen Sharpening Kit
 tconstruct:sharpening_kit:0, Meteorite Sharpening Kit
 tconstruct:sharpening_kit:0, Obsidiorite Sharpening Kit
+tconstruct:sharpening_kit:0, Demonic Sharpening Kit
 tconstruct:pick_head:0, Tiberium Pickaxe Head
 tconstruct:pick_head:0, Aurorium Pickaxe Head
 tconstruct:pick_head:0, Prometheum Pickaxe Head
@@ -12384,6 +12740,7 @@ tconstruct:pick_head:0, Niob Pickaxe Head
 tconstruct:pick_head:0, Yrdeen Pickaxe Head
 tconstruct:pick_head:0, Meteorite Pickaxe Head
 tconstruct:pick_head:0, Obsidiorite Pickaxe Head
+tconstruct:pick_head:0, Demonic Pickaxe Head
 tconstruct:shovel_head:0, Tiberium Shovel Head
 tconstruct:shovel_head:0, Aurorium Shovel Head
 tconstruct:shovel_head:0, Prometheum Shovel Head
@@ -12414,6 +12771,7 @@ tconstruct:shovel_head:0, Niob Shovel Head
 tconstruct:shovel_head:0, Yrdeen Shovel Head
 tconstruct:shovel_head:0, Meteorite Shovel Head
 tconstruct:shovel_head:0, Obsidiorite Shovel Head
+tconstruct:shovel_head:0, Demonic Shovel Head
 tconstruct:axe_head:0, Tiberium Axe Head
 tconstruct:axe_head:0, Aurorium Axe Head
 tconstruct:axe_head:0, Prometheum Axe Head
@@ -12444,6 +12802,7 @@ tconstruct:axe_head:0, Niob Axe Head
 tconstruct:axe_head:0, Yrdeen Axe Head
 tconstruct:axe_head:0, Meteorite Axe Head
 tconstruct:axe_head:0, Obsidiorite Axe Head
+tconstruct:axe_head:0, Demonic Axe Head
 tconstruct:broad_axe_head:0, Tiberium Broad Axe Head
 tconstruct:broad_axe_head:0, Aurorium Broad Axe Head
 tconstruct:broad_axe_head:0, Prometheum Broad Axe Head
@@ -12474,6 +12833,7 @@ tconstruct:broad_axe_head:0, Niob Broad Axe Head
 tconstruct:broad_axe_head:0, Yrdeen Broad Axe Head
 tconstruct:broad_axe_head:0, Meteorite Broad Axe Head
 tconstruct:broad_axe_head:0, Obsidiorite Broad Axe Head
+tconstruct:broad_axe_head:0, Demonic Broad Axe Head
 tconstruct:sword_blade:0, Tiberium Sword Blade
 tconstruct:sword_blade:0, Aurorium Sword Blade
 tconstruct:sword_blade:0, Prometheum Sword Blade
@@ -12504,6 +12864,7 @@ tconstruct:sword_blade:0, Niob Sword Blade
 tconstruct:sword_blade:0, Yrdeen Sword Blade
 tconstruct:sword_blade:0, Meteorite Sword Blade
 tconstruct:sword_blade:0, Obsidiorite Sword Blade
+tconstruct:sword_blade:0, Demonic Sword Blade
 tconstruct:large_sword_blade:0, Tiberium Large Sword Blade
 tconstruct:large_sword_blade:0, Aurorium Large Sword Blade
 tconstruct:large_sword_blade:0, Prometheum Large Sword Blade
@@ -12534,6 +12895,7 @@ tconstruct:large_sword_blade:0, Niob Large Sword Blade
 tconstruct:large_sword_blade:0, Yrdeen Large Sword Blade
 tconstruct:large_sword_blade:0, Meteorite Large Sword Blade
 tconstruct:large_sword_blade:0, Obsidiorite Large Sword Blade
+tconstruct:large_sword_blade:0, Demonic Large Sword Blade
 tconstruct:hammer_head:0, Tiberium Hammer Head
 tconstruct:hammer_head:0, Aurorium Hammer Head
 tconstruct:hammer_head:0, Prometheum Hammer Head
@@ -12564,6 +12926,7 @@ tconstruct:hammer_head:0, Niob Hammer Head
 tconstruct:hammer_head:0, Yrdeen Hammer Head
 tconstruct:hammer_head:0, Meteorite Hammer Head
 tconstruct:hammer_head:0, Obsidiorite Hammer Head
+tconstruct:hammer_head:0, Demonic Hammer Head
 tconstruct:excavator_head:0, Tiberium Excavator Head
 tconstruct:excavator_head:0, Aurorium Excavator Head
 tconstruct:excavator_head:0, Prometheum Excavator Head
@@ -12594,6 +12957,7 @@ tconstruct:excavator_head:0, Niob Excavator Head
 tconstruct:excavator_head:0, Yrdeen Excavator Head
 tconstruct:excavator_head:0, Meteorite Excavator Head
 tconstruct:excavator_head:0, Obsidiorite Excavator Head
+tconstruct:excavator_head:0, Demonic Excavator Head
 tconstruct:scythe_head:0, Tiberium Scythe Head
 tconstruct:scythe_head:0, Aurorium Scythe Head
 tconstruct:scythe_head:0, Prometheum Scythe Head
@@ -12624,6 +12988,7 @@ tconstruct:scythe_head:0, Niob Scythe Head
 tconstruct:scythe_head:0, Yrdeen Scythe Head
 tconstruct:scythe_head:0, Meteorite Scythe Head
 tconstruct:scythe_head:0, Obsidiorite Scythe Head
+tconstruct:scythe_head:0, Demonic Scythe Head
 tconstruct:pan_head:0, Tiberium Pan
 tconstruct:pan_head:0, Aurorium Pan
 tconstruct:pan_head:0, Prometheum Pan
@@ -12654,6 +13019,7 @@ tconstruct:pan_head:0, Niob Pan
 tconstruct:pan_head:0, Yrdeen Pan
 tconstruct:pan_head:0, Meteorite Pan
 tconstruct:pan_head:0, Obsidiorite Pan
+tconstruct:pan_head:0, Demonic Pan
 tconstruct:sign_head:0, Tiberium Sign Plate
 tconstruct:sign_head:0, Aurorium Sign Plate
 tconstruct:sign_head:0, Prometheum Sign Plate
@@ -12684,6 +13050,7 @@ tconstruct:sign_head:0, Niob Sign Plate
 tconstruct:sign_head:0, Yrdeen Sign Plate
 tconstruct:sign_head:0, Meteorite Sign Plate
 tconstruct:sign_head:0, Obsidiorite Sign Plate
+tconstruct:sign_head:0, Demonic Sign Plate
 tconstruct:tool_rod:0, Tiberium Tool Rod
 tconstruct:tool_rod:0, Aurorium Tool Rod
 tconstruct:tool_rod:0, Prometheum Tool Rod
@@ -12714,6 +13081,7 @@ tconstruct:tool_rod:0, Niob Tool Rod
 tconstruct:tool_rod:0, Yrdeen Tool Rod
 tconstruct:tool_rod:0, Meteorite Tool Rod
 tconstruct:tool_rod:0, Obsidiorite Tool Rod
+tconstruct:tool_rod:0, Demonic Tool Rod
 tconstruct:tough_tool_rod:0, Tiberium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Aurorium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Prometheum Tough Tool Rod
@@ -12744,6 +13112,7 @@ tconstruct:tough_tool_rod:0, Niob Tough Tool Rod
 tconstruct:tough_tool_rod:0, Yrdeen Tough Tool Rod
 tconstruct:tough_tool_rod:0, Meteorite Tough Tool Rod
 tconstruct:tough_tool_rod:0, Obsidiorite Tough Tool Rod
+tconstruct:tough_tool_rod:0, Demonic Tough Tool Rod
 tconstruct:binding:0, Tiberium Binding
 tconstruct:binding:0, Aurorium Binding
 tconstruct:binding:0, Prometheum Binding
@@ -12774,6 +13143,7 @@ tconstruct:binding:0, Niob Binding
 tconstruct:binding:0, Yrdeen Binding
 tconstruct:binding:0, Meteorite Binding
 tconstruct:binding:0, Obsidiorite Binding
+tconstruct:binding:0, Demonic Binding
 tconstruct:tough_binding:0, Tiberium Tough Binding
 tconstruct:tough_binding:0, Aurorium Tough Binding
 tconstruct:tough_binding:0, Prometheum Tough Binding
@@ -12804,6 +13174,7 @@ tconstruct:tough_binding:0, Niob Tough Binding
 tconstruct:tough_binding:0, Yrdeen Tough Binding
 tconstruct:tough_binding:0, Meteorite Tough Binding
 tconstruct:tough_binding:0, Obsidiorite Tough Binding
+tconstruct:tough_binding:0, Demonic Tough Binding
 tconstruct:wide_guard:0, Tiberium Wide Guard
 tconstruct:wide_guard:0, Aurorium Wide Guard
 tconstruct:wide_guard:0, Prometheum Wide Guard
@@ -12834,6 +13205,7 @@ tconstruct:wide_guard:0, Niob Wide Guard
 tconstruct:wide_guard:0, Yrdeen Wide Guard
 tconstruct:wide_guard:0, Meteorite Wide Guard
 tconstruct:wide_guard:0, Obsidiorite Wide Guard
+tconstruct:wide_guard:0, Demonic Wide Guard
 tconstruct:hand_guard:0, Tiberium Hand Guard
 tconstruct:hand_guard:0, Aurorium Hand Guard
 tconstruct:hand_guard:0, Prometheum Hand Guard
@@ -12864,6 +13236,7 @@ tconstruct:hand_guard:0, Niob Hand Guard
 tconstruct:hand_guard:0, Yrdeen Hand Guard
 tconstruct:hand_guard:0, Meteorite Hand Guard
 tconstruct:hand_guard:0, Obsidiorite Hand Guard
+tconstruct:hand_guard:0, Demonic Hand Guard
 tconstruct:cross_guard:0, Tiberium Cross Guard
 tconstruct:cross_guard:0, Aurorium Cross Guard
 tconstruct:cross_guard:0, Prometheum Cross Guard
@@ -12894,6 +13267,7 @@ tconstruct:cross_guard:0, Niob Cross Guard
 tconstruct:cross_guard:0, Yrdeen Cross Guard
 tconstruct:cross_guard:0, Meteorite Cross Guard
 tconstruct:cross_guard:0, Obsidiorite Cross Guard
+tconstruct:cross_guard:0, Demonic Cross Guard
 tconstruct:large_plate:0, Tiberium Large Plate
 tconstruct:large_plate:0, Aurorium Large Plate
 tconstruct:large_plate:0, Prometheum Large Plate
@@ -12924,6 +13298,7 @@ tconstruct:large_plate:0, Niob Large Plate
 tconstruct:large_plate:0, Yrdeen Large Plate
 tconstruct:large_plate:0, Meteorite Large Plate
 tconstruct:large_plate:0, Obsidiorite Large Plate
+tconstruct:large_plate:0, Demonic Large Plate
 tconstruct:knife_blade:0, Tiberium Knife Blade
 tconstruct:knife_blade:0, Aurorium Knife Blade
 tconstruct:knife_blade:0, Prometheum Knife Blade
@@ -12954,6 +13329,7 @@ tconstruct:knife_blade:0, Niob Knife Blade
 tconstruct:knife_blade:0, Yrdeen Knife Blade
 tconstruct:knife_blade:0, Meteorite Knife Blade
 tconstruct:knife_blade:0, Obsidiorite Knife Blade
+tconstruct:knife_blade:0, Demonic Knife Blade
 tconstruct:bow_limb:0, Tiberium Bowlimb
 tconstruct:bow_limb:0, Aurorium Bowlimb
 tconstruct:bow_limb:0, Prometheum Bowlimb
@@ -12984,6 +13360,7 @@ tconstruct:bow_limb:0, Niob Bowlimb
 tconstruct:bow_limb:0, Yrdeen Bowlimb
 tconstruct:bow_limb:0, Meteorite Bowlimb
 tconstruct:bow_limb:0, Obsidiorite Bowlimb
+tconstruct:bow_limb:0, Demonic Bowlimb
 tconstruct:arrow_head:0, Tiberium Arrow Head
 tconstruct:arrow_head:0, Aurorium Arrow Head
 tconstruct:arrow_head:0, Prometheum Arrow Head
@@ -13014,6 +13391,7 @@ tconstruct:arrow_head:0, Niob Arrow Head
 tconstruct:arrow_head:0, Yrdeen Arrow Head
 tconstruct:arrow_head:0, Meteorite Arrow Head
 tconstruct:arrow_head:0, Obsidiorite Arrow Head
+tconstruct:arrow_head:0, Demonic Arrow Head
 tconstruct:bolt_core:0, Wood-Tiberium Bolt Core
 tconstruct:bolt_core:0, Wood-Aurorium Bolt Core
 tconstruct:bolt_core:0, Wood-Prometheum Bolt Core
@@ -13044,6 +13422,7 @@ tconstruct:bolt_core:0, Wood-Niob Bolt Core
 tconstruct:bolt_core:0, Wood-Yrdeen Bolt Core
 tconstruct:bolt_core:0, Wood-Meteorite Bolt Core
 tconstruct:bolt_core:0, Wood-Obsidiorite Bolt Core
+tconstruct:bolt_core:0, Wood-Demonic Bolt Core
 tconstruct:tooltables:0, Crafting Station
 tconstruct:tooltables:1, Stencil Table
 tconstruct:tooltables:1, Stencil Table
@@ -13202,60 +13581,60 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Cross Guard Cast
 tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Scythe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Cross Guard Clay Cast
 tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
