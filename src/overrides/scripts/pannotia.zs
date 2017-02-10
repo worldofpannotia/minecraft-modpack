@@ -5,9 +5,9 @@ recipes.addShapeless(<quark:basalt>, [<chisel:basalt>]);
 
 recipes.addShapeless(<minecraft:stick> * 2, [<ore:treeSapling>]);
 
-furnace.addRecipe(<minecraft:stone> * 9, <extrautils2:compressedcobblestone:0>, 10.0);
-furnace.addRecipe(<minecraft:glass> * 9, <extrautils2:compressedsand>, 10.0);
-furnace.addRecipe(<minecraft:netherbrick> * 9, <extrautils2:compressednetherrack>, 10.0);
+furnace.addRecipe(<minecraft:stone> * 8, <extrautils2:compressedcobblestone:0>, 10.0);
+furnace.addRecipe(<minecraft:glass> * 8, <extrautils2:compressedsand>, 10.0);
+furnace.addRecipe(<minecraft:netherbrick> * 8, <extrautils2:compressednetherrack>, 10.0);
 
 recipes.addShaped(
     <minecraft:glass_pane> * 16,
