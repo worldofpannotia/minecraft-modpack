@@ -5,22 +5,6 @@ recipes.addShapeless(<quark:basalt>, [<chisel:basalt>]);
 
 recipes.addShapeless(<minecraft:stick> * 2, [<ore:treeSapling>]);
 
-recipes.addShapeless(<minecraft:quartz> * 4, [<minecraft:quartz_block>, <actuallyadditions:itemKnife>]);
-recipes.removeShapeless(<appliedenergistics2:material:0> * 4, [<appliedenergistics2:quartz_block>]);
-recipes.addShapeless(<appliedenergistics2:material:0> * 4, [<appliedenergistics2:quartz_block>, <actuallyadditions:itemKnife>]);
-
-recipes.addShapeless(<botania:quartz:0> * 4, [<botania:quartzTypeDark>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:1> * 4, [<botania:quartzTypeMana>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:2> * 4, [<botania:quartzTypeBlaze>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:3> * 4, [<botania:quartzTypeLavender>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:4> * 4, [<botania:quartzTypeRed>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:5> * 4, [<botania:quartzTypeElf>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<botania:quartz:6> * 4, [<botania:quartzTypeSunny>, <actuallyadditions:itemKnife>]);
-
-recipes.addShapeless(<actuallyadditions:itemMisc:5> * 2, [<actuallyadditions:blockMisc:0>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<actuallyadditions:itemMisc:5> * 4, [<actuallyadditions:blockMisc:1>, <actuallyadditions:itemKnife>]);
-recipes.addShapeless(<actuallyadditions:itemMisc:5> * 4, [<actuallyadditions:blockMisc:2>, <actuallyadditions:itemKnife>]);
-
 furnace.addRecipe(<minecraft:stone> * 9, <extrautils2:compressedcobblestone:0>, 10.0);
 furnace.addRecipe(<minecraft:glass> * 9, <extrautils2:compressedsand>, 10.0);
 furnace.addRecipe(<minecraft:netherbrick> * 9, <extrautils2:compressednetherrack>, 10.0);
@@ -32,8 +16,6 @@ recipes.addShaped(
         [<tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>]
     ]
 );
-
-mods.storagedrawers.Compaction.add(<minecraft:coal:0>, <actuallyadditions:itemMisc:10>, 8);
 
 # Iron recycling
 furnace.addRecipe(<minecraft:iron_ingot> * 5, <minecraft:iron_helmet:*>, 0.5);
