@@ -25,6 +25,16 @@ furnace.addRecipe(<minecraft:stone> * 9, <extrautils2:compressedcobblestone:0>, 
 furnace.addRecipe(<minecraft:glass> * 9, <extrautils2:compressedsand>, 10.0);
 furnace.addRecipe(<minecraft:netherbrick> * 9, <extrautils2:compressednetherrack>, 10.0);
 
+recipes.addShaped(
+    <minecraft:glass_pane> * 16,
+    [
+        [<tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>],
+        [<tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>, <tconstruct:clear_glass:0>]
+    ]
+);
+
+mods.storagedrawers.Compaction.add(<minecraft:coal:0>, <actuallyadditions:itemMisc:10>, 8);
+
 # Iron recycling
 furnace.addRecipe(<minecraft:iron_ingot> * 5, <minecraft:iron_helmet:*>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 8, <minecraft:iron_chestplate:*>, 0.5);
@@ -34,7 +44,7 @@ furnace.addRecipe(<minecraft:iron_ingot> * 6, <minecraft:iron_door>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:bucket>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:shears:*>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_horse_armor:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_hoe:*>, 0.5); 
+furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_hoe:*>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_pickaxe:*>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 1, <minecraft:iron_shovel:*>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_axe:*>, 0.5);
@@ -48,7 +58,7 @@ furnace.addRecipe(<minecraft:gold_ingot> * 8, <minecraft:golden_chestplate:*>, 0
 furnace.addRecipe(<minecraft:gold_ingot> * 7, <minecraft:golden_leggings:*>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot> * 4, <minecraft:golden_boots:*>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_horse_armor:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_hoe:*>, 0.5); 
+furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_hoe:*>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_pickaxe:*>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot> * 1, <minecraft:golden_shovel:*>, 0.5);
 furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_axe:*>, 0.5);
@@ -60,7 +70,7 @@ furnace.addRecipe(<minecraft:diamond> * 8, <minecraft:diamond_chestplate:*>, 0.5
 furnace.addRecipe(<minecraft:diamond> * 7, <minecraft:diamond_leggings:*>, 0.5);
 furnace.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_boots:*>, 0.5);
 furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_pickaxe:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_hoe:*>, 0.5); 
+furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_hoe:*>, 0.5);
 furnace.addRecipe(<minecraft:diamond> * 1, <minecraft:diamond_shovel:*>, 0.5);
 furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_axe:*>, 0.5);
 furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_sword:*>, 0.5);
@@ -113,7 +123,7 @@ furnace.setFuel(<minecraft:leaves>, 10);
 
 
 ## Chisel support for Wool
-#mods.chisel.Groups.addGroup("wool"); 
+#mods.chisel.Groups.addGroup("wool");
 #mods.chisel.Groups.addVariation("wool", <minecraft:wool>);
 #mods.chisel.Groups.addVariation("wool", <minecraft:wool:1>);
 #mods.chisel.Groups.addVariation("wool", <minecraft:wool:2>);
@@ -132,7 +142,7 @@ furnace.setFuel(<minecraft:leaves>, 10);
 #mods.chisel.Groups.addVariation("wool", <minecraft:wool:15>);
 #
 ## Chisel support for Hardened Stained Clay
-#mods.chisel.Groups.addGroup("hardenedclay"); 
+#mods.chisel.Groups.addGroup("hardenedclay");
 #mods.chisel.Groups.addVariation("hardenedclay", <minecraft:hardened_clay>);
 #mods.chisel.Groups.addVariation("hardenedclay", <minecraft:stained_hardened_clay>);
 #mods.chisel.Groups.addVariation("hardenedclay", <minecraft:stained_hardened_clay:1>);

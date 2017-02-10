@@ -1,6 +1,6 @@
 <SAGMillRecipes>
     <recipeGroup name="WorldOfPannotia">
-        <recipe name="Prismarine Block to Shards" >
+        <recipe name="Prismarine Block to Shards">
             <input>
                 <itemStack oreDictionary="blockPrismarine"/>
             </input>
@@ -10,7 +10,7 @@
                 <itemStack oreDictionary="shardPrismarine" number="1" chance="0.2" />
             </output>
         </recipe>
-        <recipe name="Prismarine Brick to Shards" >
+        <recipe name="Prismarine Brick to Shards">
             <input>
                 <itemStack oreDictionary="blockPrismarineBrick"/>
             </input>
@@ -20,7 +20,7 @@
                 <itemStack oreDictionary="shardPrismarine" number="1" chance="0.2" />
             </output>
         </recipe>
-        <recipe name="Dark Prismarine to Shards" >
+        <recipe name="Dark Prismarine to Shards">
             <input>
                 <itemStack oreDictionary="blockPrismarineDark"/>
             </input>
@@ -28,6 +28,15 @@
                 <itemStack oreDictionary="shardPrismarine" number="4" />
                 <itemStack oreDictionary="shardPrismarine" number="3" chance="0.5" />
                 <itemStack oreDictionary="shardPrismarine" number="1" chance="0.2" />
+            </output>
+        </recipe>
+        <recipe name="Poison Potatoes to Flour + Ender Shards">
+            <input>
+                <itemStack modID="minecraft" itemName="poisonous_potato" />
+            </input>
+            <output>
+                <itemStack modID="enderio" itemName="itemPowderIngot" itemMeta="8" number="1" />
+                <itemStack modID="extrautils2" itemName="endershard" number="1" chance="0.15" />
             </output>
         </recipe>
     </recipeGroup>
