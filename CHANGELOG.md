@@ -1,3 +1,23 @@
+### 2017-02-10 (2.1.1)
+
+New Mods
+* Flat Colored Blocks
+
+Mod Updates
+* Brandon's Core 2.1.3.82 -> 2.1.4.92
+* CodeChicken Lib 1.8.+ 2.5.2.198 -> 2.5.2.213
+* Draconic Evolution 2.0.7.168 -> 2.0.8.177
+* Ender Storage 1.8.+ 2.2.0.96 -> 2.2.0.100
+* FTB Utilities 3.2.9 -> 3.3.1
+* FTBLib 3.2.9 -> 3.3.0
+* Just Enough Items 3.14.5.404 -> 3.14.5.406
+* RFTools 5.82 -> 5.83
+* RFTools Control 1.6.5 -> 1.6.6
+
+Config Changes
+* Swapped crafting recipes for StorageDrawers compacting rules for quartz, others
+* Added recipe to use Tinker's Construct clear glass to make glass panes
+
 ### 2017-02-07 (2.1.0b)
 
 Bug Fixes

@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v2.0.1](https://img.shields.io/badge/version-2.0.1-green.svg) ![MC Version 1.10.2](https://img.shields.io/badge/MC%20Version-1.10.2-blue.svg)
+![v2.1.1](https://img.shields.io/badge/version-2.1.1-green.svg) ![MC Version 1.10.2](https://img.shields.io/badge/MC%20Version-1.10.2-blue.svg)
 
 The World of Pannotia modpack for Minecraft includes mods that appeal to various styles of game play. From Botania's magic system, to Applied Energistics 2, to end-game mods like Draconic Evolution, there is something for everyone. It is influenced heavily by packs such as DireWolf20 and the FTB Infinity Lite pack.
 
@@ -13,12 +13,16 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Advanced Solar Panels
 * AE2 Stuff
 * Akashic Tome
+* Angel Ring to Bauble
 * Applied Energistics 2
 * Aroma1997Core
 * AutoRegLib
+* Auto Sapling
 * Baubles
 * BdLib
 * BetterBedrockGen
+* Better Builder's Wands
+* BiblioCraft
 * Biomes O' Plenty
 * Blood Magic
 * Bookshelf
@@ -40,6 +44,7 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Dark Utilities
 * Deep Resonance
 * Draconic Evolution
+* Drawers & Bits
 * ElecCore | Rendering Library
 * Enchanting Plus
 * Ender IO
@@ -52,6 +57,8 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Extra Rails
 * Extra Utilities
 * Extreme Reactors
+* FastLeafDecay
+* Flat Colored Blocks
 * ForgeEndertech
 * FTB Utilities
 * FTBLib
@@ -59,6 +66,7 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Guide-API
 * Induction Charger
 * Industrial Craft
+* InfiniteFluids
 * Inventory Tweaks
 * Iron Backpacks
 * Iron Chests
@@ -68,6 +76,7 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Just Enough Resources (JER)
 * KleeSlabs
 * Large Veins
+* Laser Level
 * Light Level Overlay Reloaded
 * LittleUtilities
 * Mantle
@@ -77,11 +86,13 @@ This modpack is a continual work in progress. We occasionally will add a mod or 
 * Metamorph
 * Missing Pieces
 * MMD OreSpawn
+* MmmMmmMmmMmm
 * Mo' Creatures
 * Morph-o-Tool
 * Morpheus
 * Natura
 * NetherPortalFix
+* Not Enough Wands
 * OpenBlocks Elevator
 * OpenComputers
 * Psi
