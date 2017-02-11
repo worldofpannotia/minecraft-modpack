@@ -1,3 +1,61 @@
+### 2017-02-10 (2.1.1)
+
+New Mods
+* Flat Colored Blocks
+
+Mod Updates
+* Brandon's Core 2.1.3.82 -> 2.1.4.92
+* CodeChicken Lib 1.8.+ 2.5.2.198 -> 2.5.2.213
+* Draconic Evolution 2.0.7.168 -> 2.0.8.177
+* Ender Storage 1.8.+ 2.2.0.96 -> 2.2.0.100
+* FTB Utilities 3.2.9 -> 3.3.1
+* FTBLib 3.2.9 -> 3.3.0
+* Just Enough Items 3.14.5.404 -> 3.14.5.406
+* RFTools 5.82 -> 5.83
+* RFTools Control 1.6.5 -> 1.6.6
+
+Config Changes
+* Swapped crafting recipes for StorageDrawers compacting rules for quartz, others
+* Added recipe to use Tinker's Construct clear glass to make glass panes
+
+### 2017-02-07 (2.1.0b)
+
+Bug Fixes
+* Added missing MineTweaker script
+
+Mod Updates
+* CompatLayer 0.1.7 -> 0.2.2
+* Deep Resonance 1.4.4 -> 1.4.5
+* EnderIO 3.1.161 -> 3.1.168
+* JEI 3.14.3.403 -> 3.14.4.404
+* McJtyLib 2.3.5 -> 2.3.7
+* Reliquary 1.3.3.620 - 1.3.3.639
+* RFTools 5.82 (1/21/17) -> 5.82 (2/3/17)
+* RFTools Control 1.6.4 -> 1.6.5
+* RFTools Dimensions 4.53 -> 4.54
+* The One Probe 1.4.1 -> 1.4.2
+
+New Mods
+* Angel Ring to Bauble 0.2.3
+* Auto Sapling 1.3.3
+* Better Builder's Wands 0.11.0 rev 215
+* BiblioCraft 2.2.1
+* Drawers & Bits 0.35
+* FastLeafDecay v11
+* InfiniteFluids 1.1.0
+* Laser Level 2.1.0.15
+* MmmMmmMmmMmm 1.11
+* Not Enough Wands 1.5.4
+
+Config Changes
+* Enable mob shedding in Botania
+* Disable Mo' Creatures snakes
+* Disable Ender Zoo's dire slime
+* New SAG Mill recipe for prismarine shards
+* New shapeless recipe for sticks from saplings
+* New furnace recipes for compressed blocks and ingot recycling
+* New recipes to convert various quartz blocks back to items
+
 ### 2017-02-01 (2.0.1)
 
 Pure mod updates.
