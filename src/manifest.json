@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "2.1.0b",
+  "version": "2.1.1",
   "author": "cmrcdrm",
   "projectID": 258273,
   "files": [
@@ -107,17 +107,17 @@
     },
     {
       "projectID": 242818,
-      "fileID": 2367100,
+      "fileID": 2379507,
       "required": true
     },
     {
       "projectID": 231382,
-      "fileID": 2362560,
+      "fileID": 2379578,
       "required": true
     },
     {
       "projectID": 223565,
-      "fileID": 2368975,
+      "fileID": 2380033,
       "required": true
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "projectID": 245174,
-      "fileID": 2358285,
+      "fileID": 2379515,
       "required": true
     },
     {
@@ -262,12 +262,12 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2376697,
+      "fileID": 2379741,
       "required": true
     },
     {
       "projectID": 237102,
-      "fileID": 2376698,
+      "fileID": 2379972,
       "required": true
     },
     {
@@ -332,7 +332,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2377142,
+      "fileID": 2379751,
       "required": true
     },
     {
@@ -422,12 +422,12 @@
     },
     {
       "projectID": 224641,
-      "fileID": 2377473,
+      "fileID": 2379514,
       "required": true
     },
     {
       "projectID": 250763,
-      "fileID": 2377475,
+      "fileID": 2379523,
       "required": true
     },
     {
@@ -583,6 +583,11 @@
     {
       "projectID": 247712,
       "fileID": 2350336,
+      "required": true
+    },
+    {
+      "projectID": 238590,
+      "fileID": 2343282,
       "required": true
     }
   ],
