@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v2.2.0](https://img.shields.io/badge/version-2.2.0-green.svg) ![MC Version 1.10.2](https://img.shields.io/badge/MC%20Version-1.10.2-blue.svg)
+![v2.2.1](https://img.shields.io/badge/version-2.2.1-green.svg) ![MC Version 1.10.2](https://img.shields.io/badge/MC%20Version-1.10.2-blue.svg)
 
 The World of Pannotia modpack for Minecraft includes mods that appeal to various styles of game play. From Botania's magic system, to Applied Energistics 2, to end-game mods like Draconic Evolution, there is something for everyone. It is influenced heavily by packs such as DireWolf20 and the FTB Infinity Lite pack.
 
