@@ -1,9 +1,42 @@
+val bkshelf=<ore:bookshelf>;
+val bkshelfBirch=<ore:bookshelfBirch>;
+val bkshelfSpruce=<ore:bookshelfSpruce>;
+val bkshelfJungle=<ore:bookshelfJungle>;
+val bkshelfAcacia=<ore:bookshelfAcacia>;
+val bkshelfDarkOak=<ore:bookshelfDarkOak>;
+
+bkshelf.add(<chisel:bookshelf_oak>);
+bkshelfBirch.add(<chisel:bookshelf_birch>);
+bkshelfSpruce.add(<chisel:bookshelf_spruce>);
+bkshelfJungle.add(<chisel:bookshelf_jungle>);
+bkshelfAcacia.add(<chisel:bookshelf_acacia>);
+bkshelfDarkOak.add(<chisel:bookshelf_darkoak>);
+
 recipes.addShapeless(<chisel:marble>, [<quark:marble>]);
 recipes.addShapeless(<quark:marble>, [<chisel:marble>]);
 recipes.addShapeless(<chisel:basalt>, [<quark:basalt>]);
 recipes.addShapeless(<quark:basalt>, [<chisel:basalt>]);
 
+recipes.addShapeless(<minecraft:glass>, [<enderio:blockFusedQuartz:1>]);
+recipes.addShapeless(<minecraft:glass>, [<tconstruct:clear_glass:0>]);
+
+recipes.addShapeless(<enderio:blockFusedQuartz:1>, [<tconstruct:clear_glass:0>]);
+recipes.addShapeless(<tconstruct:clear_glass:0>, [<enderio:blockFusedQuartz:1>]);
+
 recipes.addShapeless(<minecraft:stick> * 2, [<ore:treeSapling>]);
+
+recipes.addShapeless(<minecraft:quartz> * 4, [<minecraft:quartz_block>]);
+recipes.addShapeless(<botania:quartz:0> * 4, [<botania:quartzTypeDark>]);
+recipes.addShapeless(<botania:quartz:1> * 4, [<botania:quartzTypeMana>]);
+recipes.addShapeless(<botania:quartz:2> * 4, [<botania:quartzTypeBlaze>]);
+recipes.addShapeless(<botania:quartz:3> * 4, [<botania:quartzTypeLavender>]);
+recipes.addShapeless(<botania:quartz:4> * 4, [<botania:quartzTypeRed>]);
+recipes.addShapeless(<botania:quartz:5> * 4, [<botania:quartzTypeElf>]);
+recipes.addShapeless(<botania:quartz:6> * 4, [<botania:quartzTypeSunny>]);
+recipes.addShapeless(<actuallyadditions:itemMisc:5> * 4, [<actuallyadditions:blockMisc:2>]);
+recipes.addShapeless(<minecraft:nether_wart> * 9, [<minecraft:nether_wart_block>]);
+recipes.addShapeless(<minecraft:magma_cream> * 4, [<minecraft:magma>]);
+recipes.addShapeless(<appliedenergistics2:material:0> * 4, [<appliedenergistics2:quartz_block>]);
 
 furnace.addRecipe(<minecraft:stone> * 8, <extrautils2:compressedcobblestone:0>, 10.0);
 furnace.addRecipe(<minecraft:glass> * 8, <extrautils2:compressedsand>, 10.0);
