@@ -1,3 +1,32 @@
+### 2017-02-19 (2.2.0)
+
+Bug Fixes
+* Actually enable shedding.
+* Fix snake spawning once and for all (I hope)
+
+Mod Updates
+* Blood Magic 2.1.0-69 -> 2.1.3-72
+* Chisel 0.0.7.7 -> 0.0.8.12
+* Chisels & Bits 12.11 -> 12.12
+* Extra Utilities 1.2.0 -> 1.3.0
+* JourneyMap 5.4.4 -> 5.4.6
+* JEI 3.14.5.406 -> 3.14.6.410
+* Mantle 1.1.4 -> 1.1.5
+* MCMultiPart 1.3.0 -> 1.4.0
+* Metamorph 1.0.2 -> 1.1
+* RebornCore 2.13.3.119 -> 2.13.4.128
+* Tinkers Construct 2.6.2 -> 2.6.3
+
+Config Changes
+* Increase range for Reliquary's interdiction torch to make it worthwhile
+* Make Tinker's clear glass and EnderIO's quite clear glass equal, and make both convertible back to vanilla glass.
+* Add SAG Mill recipe for benitoite ore from Extreme Reactors.
+
+### 2017-02-12 (2.1.2)
+
+Bug Fixes
+* Made water infinite again
+
 ### 2017-02-10 (2.1.1)
 
 New Mods
