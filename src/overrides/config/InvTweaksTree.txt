@@ -20,7 +20,7 @@
 # Thanks to Larandar & Lunaqua for their contributions.
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
-<stuff treeVersion="1.10.0">
+<stuff treeVersion="1.12.2">
     <equipment>
         <weapon>
             <sword>
@@ -335,6 +335,64 @@
                     <redStainedClay id="stained_hardened_clay" damage="14"/>
                     <blackStainedClay id="stained_hardened_clay" damage="15"/>
                 </stainedClay>
+                <concrete>
+                    <whiteConcrete id="concrete" damage="0"/>
+                    <orangeConcrete id="concrete" damage="1"/>
+                    <magentaConcrete id="concrete" damage="2"/>
+                    <lightBlueConcrete id="concrete" damage="3"/>
+                    <yellowConcrete id="concrete" damage="4"/>
+                    <lightGreenConcrete id="concrete" damage="5"/>
+                    <limeConcrete id="concrete" damage="5"/>
+                    <pinkConcrete id="concrete" damage="6"/>
+                    <grayConcrete id="concrete" damage="7"/>
+                    <lightGrayConcrete id="concrete" damage="8"/>
+                    <cyanConcrete id="concrete" damage="9"/>
+                    <purpleConcrete id="concrete" damage="10"/>
+                    <blueConcrete id="concrete" damage="11"/>
+                    <brownConcrete id="concrete" damage="12"/>
+                    <greenConcrete id="concrete" damage="13"/>
+                    <darkGreenConcrete id="concrete" damage="13"/>
+                    <redConcrete id="concrete" damage="14"/>
+                    <blackConcrete id="concrete" damage="15"/>
+                </concrete>
+                <concretePowder>
+                    <whiteConcretePowder id="concrete_powder" damage="0"/>
+                    <orangeConcretePowder id="concrete_powder" damage="1"/>
+                    <magentaConcretePowder id="concrete_powder" damage="2"/>
+                    <lightBlueConcretePowder id="concrete_powder" damage="3"/>
+                    <yellowConcretePowder id="concrete_powder" damage="4"/>
+                    <lightGreenConcretePowder id="concrete_powder" damage="5"/>
+                    <limeConcretePowder id="concrete_powder" damage="5"/>
+                    <pinkConcretePowder id="concrete_powder" damage="6"/>
+                    <grayConcretePowder id="concrete_powder" damage="7"/>
+                    <lightGrayConcretePowder id="concrete_powder" damage="8"/>
+                    <cyanConcretePowder id="concrete_powder" damage="9"/>
+                    <purpleConcretePowder id="concrete_powder" damage="10"/>
+                    <blueConcretePowder id="concrete_powder" damage="11"/>
+                    <brownConcretePowder id="concrete_powder" damage="12"/>
+                    <greenConcretePowder id="concrete_powder" damage="13"/>
+                    <darkGreenConcretePowder id="concrete_powder" damage="13"/>
+                    <redConcretePowder id="concrete_powder" damage="14"/>
+                    <blackConcretePowder id="concrete_powder" damage="15"/>
+                </concretePowder>
+                <glazedTerracotta>
+                    <whiteGlazedTerracotta id="white_glazed_terracotta"/>
+                    <blackGlazedTerracotta id="black_glazed_terracotta"/>
+                    <redGlazedTerracotta id="red_glazed_terracotta"/>
+                    <greenGlazedTerracotta id="green_glazed_terracotta"/>
+                    <brownGlazedTerracotta id="brown_glazed_terracotta"/>
+                    <blueGlazedTerracotta id="blue_glazed_terracotta"/>
+                    <purpleGlazedTerracotta id="purple_glazed_terracotta"/>
+                    <cyanGlazedTerracotta id="cyan_glazed_terracotta"/>
+                    <silverGlazedTerracotta id="silver_glazed_terracotta"/>
+                    <grayGlazedTerracotta id="gray_glazed_terracotta"/>
+                    <pinkGlazedTerracotta id="pink_glazed_terracotta"/>
+                    <limeGlazedTerracotta id="lime_glazed_terracotta"/>
+                    <yellowGlazedTerracotta id="yellow_glazed_terracotta"/>
+                    <lightBlueGlazedTerracotta id="light_blue_glazed_terracotta"/>
+                    <magentaGlazedTerracotta id="magenta_glazed_terracotta"/>
+                    <orangeGlazedTerracotta id="orange_glazed_terracotta"/>
+                </glazedTerracotta>
                 <glass>
                     <glassBlock id="glass"/>
                     <glassPane id="glass_pane"/>
@@ -521,7 +579,12 @@
             <redstoneRepeater id="powered_repeater"/>
             <dispenser id="dispenser"/>
             <noteBlock id="noteblock"/>
-            <commandBlock id="command_block"/>
+            <commandBlocks>
+                <commandBlock id="command_block"/>
+                <repeatingCommandBlock id="repeating_command_block"/>
+                <chainCommandBlock id="chain_command_block"/>
+            </commandBlocks>
+            <observer id="observer"/>
             <daylightSensor id="daylight_detector"/>
             <redstoneBlock id="redstone_block"/>
             <hopper id="hopper"/>
@@ -586,11 +649,14 @@
             <enderPearl id="ender_pearl"/>
             <blazeRod id="blaze_rod"/>
             <ghastTear id="ghast_tear"/>
+            <ironNugget id="iron_nugget"/>
             <goldNugget id="gold_nugget"/>
             <netherStar id="nether_star"/>
             <prismarineCrystals id="prismarine_crystals"/>
             <prismarineCrystal id="prismarine_crystals"/>
             <prismarineShard id="prismarine_shard"/>
+            <shulkerShell id="shulker_shell"/>
+            <totemOfUndying id="totem_of_undying"/>
         </huntingResources>
         <farmingResources>
             <milk id="milk_bucket"/>
@@ -638,6 +704,22 @@
             <chests>
                 <chest id="chest"/>
                 <enderChest id="ender_chest"/>
+                <whiteShulkerBox id="white_shulker_box"/>
+                <blackShulkerBox id="black_shulker_box"/>
+                <redShulkerBox id="red_shulker_box"/>
+                <greenShulkerBox id="green_shulker_box"/>
+                <brownShulkerBox id="brown_shulker_box"/>
+                <blueShulkerBox id="blue_shulker_box"/>
+                <purpleShulkerBox id="purple_shulker_box"/>
+                <cyanShulkerBox id="cyan_shulker_box"/>
+                <silverShulkerBox id="silver_shulker_box"/>
+                <grayShulkerBox id="gray_shulker_box"/>
+                <pinkShulkerBox id="pink_shulker_box"/>
+                <limeShulkerBox id="lime_shulker_box"/>
+                <yellowShulkerBox id="yellow_shulker_box"/>
+                <lightBlueShulkerBox id="light_blue_shulker_box"/>
+                <magentaShulkerBox id="magenta_shulker_box"/>
+                <orangeShulkerBox id="orange_shulker_box"/>
             </chests>
             <beacon id="beacon"/>
             <anvil id="anvil"/>
@@ -665,6 +747,7 @@
                 <goldHorseArmor id="golden_horse_armor"/>
                 <diamondHorseArmor id="diamond_horse_armor"/>
             </horseArmor>
+            <knoweldgeBook id="knowledge_book"/>
         </utility>
         <bucket>
             <emptyBucket id="bucket"/>
@@ -676,6 +759,7 @@
             <compass id="compass"/>
             <emptyMap id="map"/>
             <map id="filled_map"/>
+            <filledMap id="filled_map"/>
         </instrument>
         <vehicle>
             <boat id="boat"/>

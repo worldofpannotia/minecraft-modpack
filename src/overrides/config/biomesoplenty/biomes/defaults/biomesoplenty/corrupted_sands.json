@@ -1,0 +1,93 @@
+{
+  "enableRain": false,
+  "wallBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "rainfall": 0.0,
+  "skyColor": -1,
+  "guiColour": 11091006,
+  "fogDensity": 1.0,
+  "roofTopBlock": {
+    "block": "minecraft:netherrack",
+    "properties": {}
+  },
+  "hasBiomeEssence": false,
+  "waterColor": 16777215,
+  "fillerBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "topBlock": {
+    "block": "minecraft:soul_sand",
+    "properties": {}
+  },
+  "fogColor": -1,
+  "temperature": 2.0,
+  "roofFillerBlock": {
+    "block": "minecraft:netherrack",
+    "properties": {}
+  },
+  "enableSnow": false,
+  "generators": {
+    "hive": {
+      "maxRadius": 9,
+      "bottomExtra": 4,
+      "amountPerChunk": 0.2,
+      "enable": true,
+      "halfHeight": 7,
+      "emptyChance": 0.25,
+      "layerSize": 3
+    },
+    "netherrack_splatter": {
+      "with": {
+        "block": "minecraft:netherrack",
+        "properties": {}
+      },
+      "generationAttempts": 128,
+      "amountPerChunk": 5.0,
+      "enable": true
+    },
+    "thorns": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "thorn"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 20.0,
+      "enable": true
+    },
+    "dead_grass": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "deadgrass"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 5.0,
+      "enable": true
+    },
+    "quicksand": {
+      "liquid": {
+        "block": "biomesoplenty:sand",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 5.0,
+      "enable": true,
+      "grassBorderWith": {
+        "block": "minecraft:grass",
+        "properties": {
+          "snowy": "false"
+        }
+      }
+    }
+  },
+  "weights": {
+    "hell": 75
+  }
+}
