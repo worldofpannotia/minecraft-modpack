@@ -62,7 +62,7 @@
             "texture": "mainmenu:shortbutton.png",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/chimericdream/tinkers-tool-polish/issues"
+                "link": "https://github.com/chimericdream/WorldOfPannotia-MC-Modpack/issues"
             }
         },
         "changelog": {
@@ -75,7 +75,7 @@
             "texture": "mainmenu:shortbutton.png",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/chimericdream/tinkers-tool-polish/tree/develop/changelogs"
+                "link": "https://github.com/chimericdream/WorldOfPannotia-MC-Modpack/tree/master/CHANGELOG.md"
             }
         },
         "options": {
@@ -136,7 +136,7 @@
 
     "labels": {
         "modpack": {
-            "text": "World of Pannotia Modpack 3.1.0-alpha",
+            "text": "World of Pannotia Modpack 3.1.0",
             "posX": 3,
             "posY": -31,
             "fontSize": 0.6,
