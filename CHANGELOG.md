@@ -1,3 +1,7 @@
+### 2018-01-05 (3.1.1)
+
+Fix manifest name and version for Curseforge.
+
 ### 2018-01-05 (3.1.0)
 
 Initial 3.x release.
