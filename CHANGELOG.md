@@ -1,3 +1,19 @@
+### 2018-01-06 (3.2.0)
+
+Added Mods
+* [Environmental Creepers (by masa_)](https://minecraft.curseforge.com/mc-mods/246320)
+* [Hunting Dimension (by darkh4x)](https://minecraft.curseforge.com/mc-mods/283235)
+* [LootBags (by Malorolam)](https://minecraft.curseforge.com/mc-mods/225946)
+* [More Mob Icons for JourneyMap (by treemanofwar)](https://minecraft.curseforge.com/mc-mods/278893)
+* [More Shearables (by Lellson)](https://minecraft.curseforge.com/mc-mods/241805)
+
+Updated Mods
+* [Pam's HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): [1.12.2b](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2513077) -> [1.12.2c](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2517142)
+
+Config Changes
+* [Environmental Creepers (by masa_)](https://minecraft.curseforge.com/mc-mods/246320): Disable creeper explosion damage, since this pack is intended for a server focused on aesthetic builds.
+* [Pam's HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): Disabled vanilla food balance tweaking for people who don't want to go full-on Pam's.
+
 ### 2018-01-05 (3.1.1)
 
 Fix manifest name and version for Curseforge.
