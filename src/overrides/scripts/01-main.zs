@@ -154,3 +154,49 @@ recipes.addShaped(
 		[null, <minecraft:gold_block>, null]
 	]
 );
+
+# Loot Bags
+recipes.addShaped(
+	<lootbags:itemlootbag:1>,
+	[
+		[<lootbags:itemlootbag>, <lootbags:itemlootbag>],
+		[<lootbags:itemlootbag>, <lootbags:itemlootbag>]
+	]
+);
+recipes.addShapeless(<lootbags:itemlootbag> * 4, [<lootbags:itemlootbag:1>]);
+
+recipes.addShaped(
+	<lootbags:itemlootbag:2>,
+	[
+		[<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>],
+		[<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>]
+	]
+);
+recipes.addShapeless(<lootbags:itemlootbag:1> * 4, [<lootbags:itemlootbag:2>]);
+
+recipes.addShaped(
+	<lootbags:itemlootbag:3>,
+	[
+		[<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>],
+		[<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>]
+	]
+);
+recipes.addShapeless(<lootbags:itemlootbag:2> * 4, [<lootbags:itemlootbag:3>]);
+
+recipes.addShaped(
+	<lootbags:itemlootbag:4>,
+	[
+		[<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>],
+		[<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>]
+	]
+);
+recipes.addShapeless(<lootbags:itemlootbag:3> * 4, [<lootbags:itemlootbag:4>]);
+
+recipes.addShaped(
+	<lootbags:itemlootbag:11>,
+	[
+		[<lootbags:itemlootbag:4>, <lootbags:itemlootbag:4>],
+		[<lootbags:itemlootbag:4>, <lootbags:itemlootbag:4>]
+	]
+);
+recipes.addShapeless(<lootbags:itemlootbag:4> * 4, [<lootbags:itemlootbag:11>]);
