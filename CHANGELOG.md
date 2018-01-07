@@ -1,3 +1,9 @@
+### 2018-01-07 (3.2.1)
+
+Config Changes
+* [Hunting Dimension (by darkh4x)](https://minecraft.curseforge.com/mc-mods/283235): Disable fast potion effect config, which causes a crash when players have persistent effects (e.g. when morphed)
+* [LootBags (by Malorolam)](https://minecraft.curseforge.com/mc-mods/225946): Add custom recipes for conversion up and down the bag tiers
+
 ### 2018-01-06 (3.2.0)
 
 Added Mods
