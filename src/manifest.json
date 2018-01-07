@@ -11,7 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "3.1.1",
+  "version": "3.2.0",
+  "author": "cmrcdrm",
+  "projectID": 258273,
   "files": [
     {
       "projectID": 250577,
@@ -305,7 +307,7 @@
     },
     {
       "projectID": 221857,
-      "fileID": 2513077,
+      "fileID": 2517142,
       "required": true
     },
     {
@@ -736,6 +738,31 @@
     {
       "projectID": 237366,
       "fileID": 2514849,
+      "required": true
+    },
+    {
+      "projectID": 278893,
+      "fileID": 2484711,
+      "required": true
+    },
+    {
+      "projectID": 283235,
+      "fileID": 2517244,
+      "required": true
+    },
+    {
+      "projectID": 241805,
+      "fileID": 2457644,
+      "required": true
+    },
+    {
+      "projectID": 246320,
+      "fileID": 2460515,
+      "required": true
+    },
+    {
+      "projectID": 225946,
+      "fileID": 2508201,
       "required": true
     }
   ],

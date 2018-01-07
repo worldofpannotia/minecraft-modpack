@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v3.1.1](https://img.shields.io/badge/version-3.1.1-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg)
+![v3.2.0](https://img.shields.io/badge/version-3.2.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -58,6 +58,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [EluLib (by elucent)](https://minecraft.curseforge.com/mc-mods/277064)
 * [Ender Storage 1.8.+ (by covers1624)](https://minecraft.curseforge.com/mc-mods/245174)
 * [Ender Zoo (by CrazyPants_MC)](https://minecraft.curseforge.com/mc-mods/225247)
+* [Environmental Creepers (by masa_)](https://minecraft.curseforge.com/mc-mods/246320)
 * [ExpandedBonemeal (by josephcsible)](https://minecraft.curseforge.com/mc-mods/247804)
 * [Extra Alchemy (by zabi94)](https://minecraft.curseforge.com/mc-mods/247357)
 * [Extra Utilities (by RWTema)](https://minecraft.curseforge.com/mc-mods/225561)
@@ -70,6 +71,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [GraveStone Mod (by EuhDawson)](https://minecraft.curseforge.com/mc-mods/238551)
 * [Hammer Core (by apengu_)](https://minecraft.curseforge.com/mc-mods/247401)
 * [Hopper Ducts (by FyberOptic)](https://minecraft.curseforge.com/mc-mods/72210)
+* [Hunting Dimension (by darkh4x)](https://minecraft.curseforge.com/mc-mods/283235)
 * [Industrial Foregoing (by Buuz135)](https://minecraft.curseforge.com/mc-mods/266515)
 * [InfiniBucket (by 456Xander)](https://minecraft.curseforge.com/mc-mods/282472)
 * [Infinity & Mending Unnerf (by csb987)](https://minecraft.curseforge.com/mc-mods/262424)
@@ -82,6 +84,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Just Enough Resources (JER) (by Way2muchnoise)](https://minecraft.curseforge.com/mc-mods/240630)
 * [KleeSlabs (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/241895)
 * [Light Level Overlay Reloaded (by oldjunyi)](https://minecraft.curseforge.com/mc-mods/226670)
+* [LootBags (by Malorolam)](https://minecraft.curseforge.com/mc-mods/225946)
 * [MalisisCore (by Ordinastie)](https://minecraft.curseforge.com/mc-mods/223896)
 * [MalisisDoors (by Ordinastie)](https://minecraft.curseforge.com/mc-mods/223891)
 * [Mantle (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74924)
@@ -92,6 +95,8 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Metamorph (by horsewithnoname)](https://minecraft.curseforge.com/mc-mods/256932)
 * [Mod Name Tooltip (by mezz)](https://minecraft.curseforge.com/mc-mods/238747)
 * [ModTweaker (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/220954)
+* [More Mob Icons for JourneyMap (by treemanofwar)](https://minecraft.curseforge.com/mc-mods/278893)
+* [More Shearables (by Lellson)](https://minecraft.curseforge.com/mc-mods/241805)
 * [Morph-o-Tool (by Vazkii)](https://minecraft.curseforge.com/mc-mods/245287)
 * [Morpheus (by Quetzi)](https://minecraft.curseforge.com/mc-mods/69118)
 * [Mouse Tweaks (by YaLTeR97)](https://minecraft.curseforge.com/mc-mods/60089)
