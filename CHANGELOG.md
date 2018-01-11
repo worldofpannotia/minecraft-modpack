@@ -1,3 +1,7 @@
+### 2018-01-11 (3.3.1)
+
+Removed Immersive Engineering Core jar file from client zip.
+
 ### 2018-01-11 (3.3.0)
 
 **Major updates! Backup your world before upgrading!**
