@@ -168,9 +168,9 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 12
 			},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"min-height": 0,
 			"max-height": 32,
 			"retrogen": false,
@@ -212,9 +212,12 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 1,
+			"cluster-count": {
+				"min": 4,
+				"max": 8
+			},
 			"min-height": 0,
-			"max-height": 16,
+			"max-height": 24,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -231,9 +234,9 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 10
 			},
-			"cluster-count": 1,
+			"cluster-count": 3,
 			"center-height": 16,
 			"spread": 16,
 			"retrogen": false,
@@ -293,30 +296,16 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 4
 			},
 			"cluster-count": {
-				"min": 3,
-				"max": 6
+				"min": 4,
+				"max": 8
 			},
 			"min-height": 4,
 			"max-height": 28,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
-						]
-					}
-				]
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -371,7 +360,7 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 16
 			},
 			"cluster-count": 16,
 			"min-height": 10,

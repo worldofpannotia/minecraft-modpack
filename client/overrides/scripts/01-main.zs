@@ -147,13 +147,18 @@ recipes.addShaped(
 );
 
 recipes.addShaped(
-	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: 27}]}),
+	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: 28}]}),
 	[
 		[null, <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}), null],
 		[<minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}), <potionfingers:ring:0>, <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"})],
 		[null, <minecraft:gold_block>, null]
 	]
 );
+
+# Wither Bones
+# Armor Plus <--> Baubley Heart Canisters
+recipes.addShapeless(<bhc:wither_bone>, [<armorplus:material:2>]);
+recipes.addShapeless(<armorplus:material:2>, [<bhc:wither_bone>]);
 
 # Loot Bags
 recipes.addShaped(
