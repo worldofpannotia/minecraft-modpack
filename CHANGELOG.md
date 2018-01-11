@@ -1,3 +1,46 @@
+### 2018-01-11 (3.3.0)
+
+**Major updates! Backup your world before upgrading!**
+
+Added Mods
+* [Additional Banners (by darkh4x)](https://minecraft.curseforge.com/mc-mods/230137)
+* [Advanced Chimneys (by EnderLanky)](https://minecraft.curseforge.com/mc-mods/244830)
+* [Angel Ring To Bauble (by Portablejim)](https://minecraft.curseforge.com/mc-mods/256224)
+* [Astral Sorcery (by HellFirePvP)](https://minecraft.curseforge.com/mc-mods/241721)
+* [Base Metals (by jriwanek)](https://minecraft.curseforge.com/mc-mods/240967)
+* [Comforts (by theillusivec4)](https://minecraft.curseforge.com/mc-mods/276951)
+* [EasierVillagerTrading (by Thorgeig)](https://minecraft.curseforge.com/mc-mods/261605)
+* [Embers (by elucent)](https://minecraft.curseforge.com/mc-mods/251918)
+* [Fence Overhaul (by The_WeatherPony)](https://minecraft.curseforge.com/mc-mods/246222)
+* [ForgeEndertech (by EnderLanky)](https://minecraft.curseforge.com/mc-mods/244844)
+* [Immersive Cables (by SanAndreasP)](https://minecraft.curseforge.com/mc-mods/283992)
+* [Immersive Engineering (by BluSunrize)](https://minecraft.curseforge.com/mc-mods/231951)
+* [Immersive HempCraft (by osheaven)](https://minecraft.curseforge.com/mc-mods/282295)
+* [Just Enough Pattern Banners (by Lorexe)](https://minecraft.curseforge.com/mc-mods/263590)
+* [MMD OreSpawn (by jriwanek)](https://minecraft.curseforge.com/mc-mods/245586)
+* [Netherending Ores (by ic_trab)](https://minecraft.curseforge.com/mc-mods/274807)
+* [Roots (by elucent)](https://minecraft.curseforge.com/mc-mods/246183)
+* [Rustic (by mangoose3039)](https://minecraft.curseforge.com/mc-mods/256141)
+* [SecretRoomsMod (by AbrarSyed)](https://minecraft.curseforge.com/mc-mods/59652)
+* [Thut Wearables (by patnevis)](https://minecraft.curseforge.com/mc-mods/251978)
+
+Updated Mods
+* [Baubles](https://minecraft.curseforge.com/projects/baubles/): [1.5.1](https://minecraft.curseforge.com/projects/baubles/files/2459083) -> [1.5.2](https://minecraft.curseforge.com/projects/baubles/files/2518667)
+* [CoFH Core](https://minecraft.curseforge.com/projects/cofhcore/): [4.3.9.2](https://minecraft.curseforge.com/projects/cofhcore/files/2516082) -> [4.3.10.4](https://minecraft.curseforge.com/projects/cofhcore/files/2518220)
+* [Draconic Evolution](https://minecraft.curseforge.com/projects/draconic-evolution/): [2.3.7.278](https://minecraft.curseforge.com/projects/draconic-evolution/files/2514754) -> [2.3.8.279](https://minecraft.curseforge.com/projects/draconic-evolution/files/2517088)
+* [Fence Jumper](https://minecraft.curseforge.com/projects/fence-jumper/): [1.0.1](https://minecraft.curseforge.com/projects/fence-jumper/files/2486221) -> [1.0.2](https://minecraft.curseforge.com/projects/fence-jumper/files/2517731)
+* [Hammer Core](https://minecraft.curseforge.com/projects/hammer-core/): [1.9.5.8](https://minecraft.curseforge.com/projects/hammer-core/files/2513934) -> [1.9.6.2](https://minecraft.curseforge.com/projects/hammer-core/files/2518528)
+* [Pam's HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft): [1.12.2c](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2517142) -> [1.12.2f](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518832)
+* [Quark](https://minecraft.curseforge.com/projects/quark/): [r1.4-120](https://minecraft.curseforge.com/projects/quark/files/2507951) -> [r1.4-121](https://minecraft.curseforge.com/projects/quark/files/2517238)
+* [Thermal Cultivation](https://minecraft.curseforge.com/projects/thermal-cultivation/): [0.1.4.2](https://minecraft.curseforge.com/projects/thermal-cultivation/files/2516088) -> [0.1.5.3](https://minecraft.curseforge.com/projects/thermal-cultivation/files/2518223)
+* [Thermal Dynamics](https://minecraft.curseforge.com/projects/thermal-dynamics/): [2.3.9.3](https://minecraft.curseforge.com/projects/thermal-dynamics/files/2516538) -> [2.3.10.4](https://minecraft.curseforge.com/projects/thermal-dynamics/files/2518224)
+* [Thermal Expansion](https://minecraft.curseforge.com/projects/thermalexpansion/): [5.3.9.8](https://minecraft.curseforge.com/projects/thermalexpansion/files/2516516) -> [5.3.10.12](https://minecraft.curseforge.com/projects/thermalexpansion/files/2518361)
+* [Thermal Foundation](https://minecraft.curseforge.com/projects/thermal-foundation/): [2.3.9.4](https://minecraft.curseforge.com/projects/thermal-foundation/files/2516252) -> [2.3.10.6](https://minecraft.curseforge.com/projects/thermal-foundation/files/2518222)
+* [Tinker's Construct](https://minecraft.curseforge.com/projects/tinkers-construct/): [2.8.1.49](https://minecraft.curseforge.com/projects/tinkers-construct/files/2510691) -> [2.9.0.55](https://minecraft.curseforge.com/projects/tinkers-construct/files/2518400)
+
+Config Changes
+* Too many to list. Mostly making things more OP.
+
 ### 2018-01-07 (3.2.1)
 
 Config Changes
