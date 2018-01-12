@@ -1,9 +1,9 @@
 {
   "minecraft": {
-    "version": "1.12.2",
+    "version": "@@MINECRAFT_VERSION@@",
     "modLoaders": [
       {
-        "id": "forge-14.23.1.2584",
+        "id": "forge-@@FORGE_VERSION@@",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "3.3.0",
+  "version": "@@VERSION@@",
   "author": "cmrcdrm",
   "projectID": 258273,
   "files": [

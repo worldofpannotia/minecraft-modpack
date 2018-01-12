@@ -1,3 +1,11 @@
+### 2018-01-11 (3.4.0)
+
+Config Changes
+* Added CraftTweaker recipes for a bunch of enchanted books, because OP IS NOT OP ENOUGH.
+
+Misc
+* Unify version numbers across files to fix incorrect entries.
+
 ### 2018-01-11 (3.3.1)
 
 Removed Immersive Engineering Core jar file from client zip.
