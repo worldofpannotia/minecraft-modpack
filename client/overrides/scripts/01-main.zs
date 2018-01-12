@@ -119,41 +119,14 @@ furnace.setFuel(<minecraft:ladder>, 300);
 furnace.setFuel(<minecraft:leaves>, 10);
 
 # Make higher tier hearts craftable, but at great cost
-recipes.addShaped(
-    <bhc:orange_heart> * 1,
-    [
-        [<bhc:red_heart>, <bhc:red_heart>, <bhc:red_heart>],
-        [<bhc:red_heart>, <ore:dyeOrange>, <bhc:red_heart>],
-        [<bhc:red_heart>, <bhc:red_heart>, <bhc:red_heart>]
-    ]
-);
+val bhcRedHeart=<bhc:red_heart>;
+val bhcOrangeHeart=<bhc:orange_heart>;
+val bhcGreenHeart=<bhc:green_heart>;
+val bhcBlueHeart=<bhc:blue_heart>;
 
-recipes.addShaped(
-    <bhc:green_heart> * 1,
-    [
-        [<bhc:orange_heart>, <bhc:red_heart>, <bhc:orange_heart>],
-        [<bhc:red_heart>, <ore:blockEmerald>, <bhc:red_heart>],
-        [<bhc:orange_heart>, <bhc:red_heart>, <bhc:orange_heart>]
-    ]
-);
-
-recipes.addShaped(
-    <bhc:blue_heart> * 1,
-    [
-        [<ore:blockDiamond>, <bhc:orange_heart>, <ore:blockDiamond>],
-        [<bhc:green_heart>, <ore:blockLapis>, <bhc:green_heart>],
-        [<ore:blockDiamond>, <bhc:orange_heart>, <ore:blockDiamond>]
-    ]
-);
-
-recipes.addShaped(
-	<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: 28}]}),
-	[
-		[null, <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}), null],
-		[<minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"}), <potionfingers:ring:0>, <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"})],
-		[null, <minecraft:gold_block>, null]
-	]
-);
+recipes.addShaped(bhcOrangeHeart * 1, [[bhcRedHeart, bhcRedHeart, bhcRedHeart], [bhcRedHeart, <ore:dyeOrange>, bhcRedHeart], [bhcRedHeart, bhcRedHeart, bhcRedHeart]]);
+recipes.addShaped(bhcGreenHeart * 1, [[bhcOrangeHeart, bhcRedHeart, bhcOrangeHeart], [bhcRedHeart, <ore:blockEmerald>, bhcRedHeart], [bhcOrangeHeart, bhcRedHeart, bhcOrangeHeart]]);
+recipes.addShaped(bhcBlueHeart * 1, [[<ore:blockDiamond>, bhcOrangeHeart, <ore:blockDiamond>], [bhcGreenHeart, <ore:blockLapis>, bhcGreenHeart], [<ore:blockDiamond>, bhcOrangeHeart, <ore:blockDiamond>]]);
 
 # Wither Bones
 # Armor Plus <--> Baubley Heart Canisters
@@ -161,47 +134,20 @@ recipes.addShapeless(<bhc:wither_bone>, [<armorplus:material:2>]);
 recipes.addShapeless(<armorplus:material:2>, [<bhc:wither_bone>]);
 
 # Loot Bags
-recipes.addShaped(
-	<lootbags:itemlootbag:1>,
-	[
-		[<lootbags:itemlootbag>, <lootbags:itemlootbag>],
-		[<lootbags:itemlootbag>, <lootbags:itemlootbag>]
-	]
-);
-recipes.addShapeless(<lootbags:itemlootbag> * 4, [<lootbags:itemlootbag:1>]);
+val commonLootBag=<lootbags:itemlootbag>;
+val uncommonLootBag=<lootbags:itemlootbag:1>;
+val rareLootBag=<lootbags:itemlootbag:2>;
+val epicLootBag=<lootbags:itemlootbag:3>;
+val legendaryLootBag=<lootbags:itemlootbag:4>;
+val artifactLootBag=<lootbags:itemlootbag:11>;
 
-recipes.addShaped(
-	<lootbags:itemlootbag:2>,
-	[
-		[<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>],
-		[<lootbags:itemlootbag:1>, <lootbags:itemlootbag:1>]
-	]
-);
-recipes.addShapeless(<lootbags:itemlootbag:1> * 4, [<lootbags:itemlootbag:2>]);
-
-recipes.addShaped(
-	<lootbags:itemlootbag:3>,
-	[
-		[<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>],
-		[<lootbags:itemlootbag:2>, <lootbags:itemlootbag:2>]
-	]
-);
-recipes.addShapeless(<lootbags:itemlootbag:2> * 4, [<lootbags:itemlootbag:3>]);
-
-recipes.addShaped(
-	<lootbags:itemlootbag:4>,
-	[
-		[<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>],
-		[<lootbags:itemlootbag:3>, <lootbags:itemlootbag:3>]
-	]
-);
-recipes.addShapeless(<lootbags:itemlootbag:3> * 4, [<lootbags:itemlootbag:4>]);
-
-recipes.addShaped(
-	<lootbags:itemlootbag:11>,
-	[
-		[<lootbags:itemlootbag:4>, <lootbags:itemlootbag:4>],
-		[<lootbags:itemlootbag:4>, <lootbags:itemlootbag:4>]
-	]
-);
-recipes.addShapeless(<lootbags:itemlootbag:4> * 4, [<lootbags:itemlootbag:11>]);
+recipes.addShaped(uncommonLootBag, [[commonLootBag, commonLootBag], [commonLootBag, commonLootBag]]);
+recipes.addShapeless(commonLootBag * 4, [uncommonLootBag]);
+recipes.addShaped(rareLootBag, [[uncommonLootBag, uncommonLootBag], [uncommonLootBag, uncommonLootBag]]);
+recipes.addShapeless(uncommonLootBag * 4, [rareLootBag]);
+recipes.addShaped(epicLootBag, [[rareLootBag, rareLootBag], [rareLootBag, rareLootBag]]);
+recipes.addShapeless(rareLootBag * 4, [epicLootBag]);
+recipes.addShaped(legendaryLootBag, [[epicLootBag, epicLootBag], [epicLootBag, epicLootBag]]);
+recipes.addShapeless(epicLootBag * 4, [legendaryLootBag]);
+recipes.addShaped(artifactLootBag, [[legendaryLootBag, legendaryLootBag], [legendaryLootBag, legendaryLootBag]]);
+recipes.addShapeless(legendaryLootBag * 4, [artifactLootBag]);
