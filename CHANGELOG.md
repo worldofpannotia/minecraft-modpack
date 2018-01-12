@@ -1,3 +1,8 @@
+### 2018-01-12 (3.5.1)
+
+Updated Mods
+* [Pam's HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft/) (downgrade to fix compatibility with Immersive Hempcraft): [1.12.2h](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2519497) -> [1.12.2g](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2519315)
+
 ### 2018-01-12 (3.5.0)
 
 Added Mods
