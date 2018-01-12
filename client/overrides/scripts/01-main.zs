@@ -120,9 +120,6 @@ furnace.setFuel(<minecraft:leaves>, 10);
 
 # Wither Bones
 # Armor Plus <--> Baubley Heart Canisters <--> Tinkers' Wither Bone
-recipes.addShapeless(<bhc:wither_bone>, [<armorplus:material:2>]);
-recipes.addShapeless(<bhc:wither_bone>, [<tconstruct:materials:17>]);
 recipes.addShapeless(<armorplus:material:2>, [<bhc:wither_bone>]);
-recipes.addShapeless(<armorplus:material:2>, [<tconstruct:materials:17>]);
+recipes.addShapeless(<bhc:wither_bone>, [<tconstruct:materials:17>]);
 recipes.addShapeless(<tconstruct:materials:17>, [<armorplus:material:2>]);
-recipes.addShapeless(<tconstruct:materials:17>, [<bhc:wither_bone>]);
