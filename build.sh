@@ -5,9 +5,6 @@ MINECRAFT_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*MC Versi
 MINECRAFT_LAUNCHER_VERSION=`echo $MINECRAFT_VERSION | sed -e 's/^\([0-9.]*\)\.[0-9]*$/\1/'`;
 FORGE_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*Forge Version \([0-9.]*\).*/\1/g'`;
 
-echo $MINECRAFT_LAUNCHER_VERSION;
-exit;
-
 MINECRAFT_JAR="minecraft_server.${MINECRAFT_VERSION}.jar";
 FORGE_JAR="forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-universal.jar";
 LAUNCH_WRAPPER_DIR="net/minecraft/launchwrapper/${MINECRAFT_LAUNCHER_VERSION}";
