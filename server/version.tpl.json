@@ -1,0 +1,7 @@
+{
+    "forgeVersion": "@@FORGE_VERSION@@",
+    "mcVersion": "@@MINECRAFT_VERSION@@",
+    "packVersion": "@@VERSION@@",
+    "packID": "WorldOfPannotia",
+    "xml": "modpacks"
+}
