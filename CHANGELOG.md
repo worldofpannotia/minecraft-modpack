@@ -1,3 +1,19 @@
+### 2018-01-12 (3.5.0)
+
+Added Mods
+* [Environmental Materials (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/278825)
+* [Environmental Tech (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/245453)
+* [ET Lunar [Environmental Tech Addon] (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/253565)
+* [ValkyrieLib (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/245480)
+
+Updated Mods
+* [CoFH Core](https://minecraft.curseforge.com/projects/cofhcore/): [4.3.10.4](https://minecraft.curseforge.com/projects/cofhcore/files/2518220) -> [4.3.10.5](https://minecraft.curseforge.com/projects/cofhcore/files/2519297)
+* [MalisisCore](https://minecraft.curseforge.com/projects/malisiscore/): [6.3.0](https://minecraft.curseforge.com/projects/malisiscore/files/2508318) -> [6.3.1](https://minecraft.curseforge.com/projects/malisiscore/files/2519418)
+* [MalisisDoors](https://minecraft.curseforge.com/projects/malisisdoors/): [7.2.2](https://minecraft.curseforge.com/projects/malisisdoors/files/2510292) -> [7.2.3](https://minecraft.curseforge.com/projects/malisisdoors/files/2519422)
+* [Pam's HarvestCraft](https://minecraft.curseforge.com/projects/pams-harvestcraft/): [1.12.2f](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2518832) -> [1.12.2h](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2519497)
+* [Thermal Expansion](https://minecraft.curseforge.com/projects/thermalexpansion/): [5.3.10.12](https://minecraft.curseforge.com/projects/thermalexpansion/files/2518361) -> [5.3.10.14](https://minecraft.curseforge.com/projects/thermalexpansion/files/2519329)
+* [UniDict](https://minecraft.curseforge.com/projects/unidict/): [2.1](https://minecraft.curseforge.com/projects/unidict/files/2515662) -> [2.2b](https://minecraft.curseforge.com/projects/unidict/files/2519382)
+
 ### 2018-01-11 (3.4.0)
 
 Config Changes

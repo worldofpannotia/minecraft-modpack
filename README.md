@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v3.4.0](https://img.shields.io/badge/version-3.4.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
+![v3.5.0](https://img.shields.io/badge/version-3.5.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -67,6 +67,9 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Ender Storage 1.8.+ (by covers1624)](https://minecraft.curseforge.com/mc-mods/245174)
 * [Ender Zoo (by CrazyPants_MC)](https://minecraft.curseforge.com/mc-mods/225247)
 * [Environmental Creepers (by masa_)](https://minecraft.curseforge.com/mc-mods/246320)
+* [Environmental Materials (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/278825)
+* [Environmental Tech (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/245453)
+* [ET Lunar [Environmental Tech Addon] (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/253565)
 * [ExpandedBonemeal (by josephcsible)](https://minecraft.curseforge.com/mc-mods/247804)
 * [Extra Alchemy (by zabi94)](https://minecraft.curseforge.com/mc-mods/247357)
 * [Extra Utilities (by RWTema)](https://minecraft.curseforge.com/mc-mods/225561)
@@ -172,6 +175,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [TOP Addons (by DrManganese)](https://minecraft.curseforge.com/mc-mods/247111)
 * [TorchMaster (by xalcon)](https://minecraft.curseforge.com/mc-mods/254268)
 * [UniDict (by WanionCane)](https://minecraft.curseforge.com/mc-mods/244258)
+* [ValkyrieLib (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/245480)
 * [WanionLib (by WanionCane)](https://minecraft.curseforge.com/mc-mods/253043)
 * [Waystones (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/245755)
 * [YABBA (by LatvianModder)](https://minecraft.curseforge.com/mc-mods/255177)
