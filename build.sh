@@ -23,7 +23,7 @@ mkdir -p tmp/server;
 cp -r ./client/overrides/* ./tmp/server/;
 cp -r ./server/* ./tmp/server/;
 cat ./tmp/server/start.tpl.sh | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@MINECRAFT_LAUNCHER_VERSION@@/${MINECRAFT_LAUNCHER_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/start.sh;
-rm ./tm/serverp/start.tpl.sh;
+rm ./tmp/server/start.tpl.sh;
 cat ./tmp/server/version.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/version.json;
 rm ./tmp/server/version.tpl.json;
 
@@ -31,4 +31,4 @@ mkdir -p "./tmp/server/libraries/${LAUNCH_WRAPPER_DIR}";
 
 curl -o "./tmp/server/${MINECRAFT_JAR}" "https://s3.amazonaws.com/Minecraft.Download/versions/${MINECRAFT_VERSION}/${MINECRAFT_JAR}";
 curl -o "./tmp/server/${FORGE_JAR}" "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${MINECRAFT_VERSION}-${FORGE_VERSION}/${FORGE_JAR}";
-curl -0 "./tmp/server/libraries/${LAUNCH_WRAPPER}" "https://libraries.minecraft.net/${LAUNCH_WRAPPER}";
+curl -o "./tmp/server/libraries/${LAUNCH_WRAPPER}" "https://libraries.minecraft.net/${LAUNCH_WRAPPER}";
