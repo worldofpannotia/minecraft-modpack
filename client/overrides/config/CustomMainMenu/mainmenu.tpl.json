@@ -136,7 +136,7 @@
 
     "labels": {
         "modpack": {
-            "text": "World of Pannotia Modpack 3.1.0",
+            "text": "World of Pannotia Modpack @@VERSION@@",
             "posX": 3,
             "posY": -31,
             "fontSize": 0.6,
