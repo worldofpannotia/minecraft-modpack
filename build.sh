@@ -16,6 +16,8 @@ mkdir -p tmp;
 cp -r ./client/* ./tmp/;
 cat ./tmp/manifest.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/manifest.json;
 rm ./tmp/manifest.tpl.json;
+cat ./tmp/overrides/config/CustomMainMenu/mainmenu.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" > ./tmp/overrides/config/CustomMainMenu/mainmenu.json;
+rm ./tmp/overrides/config/CustomMainMenu/mainmenu.tpl.json;
 
 #mkdir -p "./tmp/libraries/${LAUNCH_WRAPPER_DIR}";
 #
