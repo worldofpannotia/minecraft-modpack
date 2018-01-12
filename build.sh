@@ -20,7 +20,7 @@ cat ./tmp/client/overrides/config/CustomMainMenu/mainmenu.tpl.json | sed -e "s/@
 rm ./tmp/client/overrides/config/CustomMainMenu/mainmenu.tpl.json;
 
 mkdir -p tmp/server;
-cp -r ./client/overrides/* ./tmp/server/;
+cp -r ./tmp/client/overrides/* ./tmp/server/;
 cp -r ./server/* ./tmp/server/;
 cat ./tmp/server/start.tpl.sh | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@MINECRAFT_LAUNCHER_VERSION@@/${MINECRAFT_LAUNCHER_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/start.sh;
 rm ./tmp/server/start.tpl.sh;
