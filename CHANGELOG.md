@@ -1,3 +1,13 @@
+### 2018-01-13 (3.5.2)
+
+Updated Mods
+* [MalisisCore](https://minecraft.curseforge.com/projects/malisiscore/) (downgrade due to crash): [6.3.1](https://minecraft.curseforge.com/projects/malisiscore/files/2519418) -> [6.3.0](https://minecraft.curseforge.com/projects/malisiscore/files/2508318)
+* [MalisisDoors](https://minecraft.curseforge.com/projects/malisisdoors/) (downgrade due to crash): [7.2.3](https://minecraft.curseforge.com/projects/malisisdoors/files/2519422) -> [7.2.2](https://minecraft.curseforge.com/projects/malisisdoors/files/2510292)
+
+Config Changes
+* Fix recipe conflict between Iron Gear from Thermal Foundation and Iron Lattice from Rustic
+* Make grass path convertible to dirt to make it easier when using silk touch tools and block swapping items
+
 ### 2018-01-12 (3.5.1)
 
 Updated Mods
