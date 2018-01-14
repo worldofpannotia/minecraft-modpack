@@ -1,3 +1,12 @@
+### 2018-01-14 (3.5.3)
+
+Updated Mods
+* [Baubles](https://minecraft.curseforge.com/projects/baubles/) (downgrade due to crash bug; [ref #1](https://github.com/Azanor/Baubles/issues/239), [ref #2](https://github.com/Vazkii/Botania/issues/2509)): [1.5.2](https://minecraft.curseforge.com/projects/baubles/files/2518667) -> [1.5.1](https://minecraft.curseforge.com/projects/baubles/files/2459083)
+
+Config Changes
+* Fix recipes in zs file missing correct oredict names
+* [Nature's Compass (by ChaosTheDude)](https://minecraft.curseforge.com/mc-mods/252848): reduce search params due to client timeout
+
 ### 2018-01-13 (3.5.2)
 
 Updated Mods
