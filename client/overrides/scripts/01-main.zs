@@ -127,10 +127,10 @@ recipes.addShapeless(<tconstruct:materials:17>, [<armorplus:material:2>]);
 # Fix recipe conflict between Iron Gear and Iron Lattice
 recipes.remove(<rustic:iron_lattice>);
 recipes.addShaped(<rustic:iron_lattice>, [
-    [<ingotIron>, null, <ingotIron>],
-    [null, <ingotIron>, null],
-    [<ingotIron>, null, <ingotIron>]
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [null, <ore:ingotIron>, null],
+    [<ore:ingotIron>, null, <ore:ingotIron>]
 ]);
 
 # Make grass paths convertible to dirt (for when silk touch picks up the path)
-recipes.addShapeless(<dirt>, [<minecraft:grass_path>]);
+recipes.addShapeless(<ore:dirt>, [<minecraft:grass_path>]);
