@@ -133,4 +133,4 @@ recipes.addShaped(<rustic:iron_lattice>, [
 ]);
 
 # Make grass paths convertible to dirt (for when silk touch picks up the path)
-recipes.addShapeless(<ore:dirt>, [<minecraft:grass_path>]);
+recipes.addShapeless(<minecraft:dirt>, [<minecraft:grass_path>]);
