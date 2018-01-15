@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v3.5.3](https://img.shields.io/badge/version-3.5.3-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
+![v3.6.0](https://img.shields.io/badge/version-3.6.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -16,6 +16,8 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [AppleSkin (by squeek502)](https://minecraft.curseforge.com/mc-mods/248787)
 * [Armor Stand Configurator (by csb987)](https://minecraft.curseforge.com/mc-mods/266043)
 * [ArmorPlus (by sokratis12GR)](https://minecraft.curseforge.com/mc-mods/237366)
+* [Aroma1997Core (by Aroma1997)](https://minecraft.curseforge.com/mc-mods/223735)
+* [Aroma1997s Dimensional World (by Aroma1997)](https://minecraft.curseforge.com/mc-mods/60092)
 * [Astral Sorcery (by HellFirePvP)](https://minecraft.curseforge.com/mc-mods/241721)
 * [AtomicStryker's Infernal Mobs (by AtomicStryker)](https://minecraft.curseforge.com/mc-mods/227875)
 * [AutoRegLib (by Vazkii)](https://minecraft.curseforge.com/mc-mods/250363)
@@ -48,6 +50,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [CoFH Core (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/69162)
 * [CoFH World (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/271384)
 * [Comforts (by theillusivec4)](https://minecraft.curseforge.com/mc-mods/276951)
+* [ComputerCraft (by dantwohundred)](https://minecraft.curseforge.com/mc-mods/67504)
 * [ConnectedTexturesMod (by tterrag1098)](https://minecraft.curseforge.com/mc-mods/267602)
 * [Controlling (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/250398)
 * [Cooking for Blockheads (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/231484)
@@ -171,6 +174,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Tinkers Construct (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74072)
 * [Tinkers' Addons (by oitsjustjose)](https://minecraft.curseforge.com/mc-mods/245549)
 * [Tinkers' Tool Leveling (by bonusboni)](https://minecraft.curseforge.com/mc-mods/250957)
+* [TipTheScales (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/282313)
 * [Toast Control (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/271740)
 * [TOP Addons (by DrManganese)](https://minecraft.curseforge.com/mc-mods/247111)
 * [TorchMaster (by xalcon)](https://minecraft.curseforge.com/mc-mods/254268)

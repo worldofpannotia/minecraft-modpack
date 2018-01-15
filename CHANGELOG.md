@@ -1,3 +1,18 @@
+### 2018-01-14 (3.6.0)
+
+Added Mods
+* [Aroma1997 Core](https://minecraft.curseforge.com/projects/aroma1997core)
+* [Aroma1997's Dimensional World](https://minecraft.curseforge.com/projects/aroma1997s-dimensional-world)
+* [ComputerCraft](https://minecraft.curseforge.com/projects/computercraft)
+* [TipTheScales](https://minecraft.curseforge.com/projects/tipthescales)
+
+Updated Mods
+* [/dank/null (by TheRealp455w0rd)](https://minecraft.curseforge.com/mc-mods/272514): [1.3.29](https://minecraft.curseforge.com/projects/dank-null/files/2515694) -> [1.3.30](https://minecraft.curseforge.com/projects/dank-null/files/2519996)
+* [Actually Additions (by Ellpeck)](https://minecraft.curseforge.com/mc-mods/228404): [1.12.2-r126](https://minecraft.curseforge.com/projects/actually-additions/files/2511216) -> [1.12.2-r127](https://minecraft.curseforge.com/projects/actually-additions/files/2520316)
+
+Config Changes
+* Actually fix the grass path -> dirt recipe
+
 ### 2018-01-14 (3.5.3)
 
 Updated Mods
