@@ -1,3 +1,9 @@
+### 2018-01-20 (3.6.1)
+
+Config Changes
+* Allow single bits from Chisels & Bits to emit light
+* Add the Assembler from Environmental Tech to the Morph-O-Tool whitelist
+
 ### 2018-01-14 (3.6.0)
 
 Added Mods
