@@ -1,3 +1,16 @@
+### 2018-01-21 (3.7.0)
+
+Config Changes
+* Add several mods' tools to Morph-O-Tool config
+
+Added Mods
+* [Extra Rails (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/247665)
+* [ShadowMC (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/226780)
+* [Signpost (by Gollorum)](https://minecraft.curseforge.com/mc-mods/261837)
+
+Removed Mods
+* [AtomicStryker's Infernal Mobs (by AtomicStryker)](https://minecraft.curseforge.com/mc-mods/227875)
+
 ### 2018-01-20 (3.6.1)
 
 Config Changes
