@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v3.6.1](https://img.shields.io/badge/version-3.6.1-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
+![v3.7.0](https://img.shields.io/badge/version-3.7.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2584](https://img.shields.io/badge/Forge%20Version-14.23.1.2584-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -19,7 +19,6 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Aroma1997Core (by Aroma1997)](https://minecraft.curseforge.com/mc-mods/223735)
 * [Aroma1997s Dimensional World (by Aroma1997)](https://minecraft.curseforge.com/mc-mods/60092)
 * [Astral Sorcery (by HellFirePvP)](https://minecraft.curseforge.com/mc-mods/241721)
-* [AtomicStryker's Infernal Mobs (by AtomicStryker)](https://minecraft.curseforge.com/mc-mods/227875)
 * [AutoRegLib (by Vazkii)](https://minecraft.curseforge.com/mc-mods/250363)
 * [B.A.S.E (by lanse505)](https://minecraft.curseforge.com/mc-mods/246996)
 * [Bad Wither No Cookie - Reloaded (by kreezxil)](https://minecraft.curseforge.com/mc-mods/261251)
@@ -75,6 +74,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [ET Lunar [Environmental Tech Addon] (by ValkyrieofNight)](https://minecraft.curseforge.com/mc-mods/253565)
 * [ExpandedBonemeal (by josephcsible)](https://minecraft.curseforge.com/mc-mods/247804)
 * [Extra Alchemy (by zabi94)](https://minecraft.curseforge.com/mc-mods/247357)
+* [Extra Rails (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/247665)
 * [Extra Utilities (by RWTema)](https://minecraft.curseforge.com/mc-mods/225561)
 * [Extreme Reactors (by ZeroNoRyouki)](https://minecraft.curseforge.com/mc-mods/250277)
 * [Fence Jumper (by TheRealp455w0rd)](https://minecraft.curseforge.com/mc-mods/254652)
@@ -153,7 +153,9 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Rustic (by mangoose3039)](https://minecraft.curseforge.com/mc-mods/256141)
 * [SecretRoomsMod (by AbrarSyed)](https://minecraft.curseforge.com/mc-mods/59652)
 * [Shadowfacts' Forgelin (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/248453)
+* [ShadowMC (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/226780)
 * [ShetiPhianCore (by ShetiPhian)](https://minecraft.curseforge.com/mc-mods/71738)
+* [Signpost (by Gollorum)](https://minecraft.curseforge.com/mc-mods/261837)
 * [Simple Sponge (by Jacky1356400)](https://minecraft.curseforge.com/mc-mods/269141)
 * [Sonar Core (by Ollie_Lansdell)](https://minecraft.curseforge.com/mc-mods/239418)
 * [Stacksize (by wwrpg)](https://minecraft.curseforge.com/mc-mods/247843)
