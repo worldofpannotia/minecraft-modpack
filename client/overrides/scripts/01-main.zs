@@ -12,6 +12,8 @@ bkshelfJungle.add(<chisel:bookshelf_jungle>);
 bkshelfAcacia.add(<chisel:bookshelf_acacia>);
 bkshelfDarkOak.add(<chisel:bookshelf_darkoak>);
 
+recipes.addShapeless(<minecraft:redstone>, [<minecraft:redstone:4>]);
+
 recipes.addShapeless(<chisel:marble>, [<quark:marble>]);
 recipes.addShapeless(<quark:marble>, [<chisel:marble>]);
 recipes.addShapeless(<chisel:basalt>, [<quark:basalt>]);
