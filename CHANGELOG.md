@@ -1,3 +1,10 @@
+### 2018-01-27 (3.8.0)
+
+* Update Forge
+* Tons of mod updates
+* Refactor the enchanted books ModTweaker script
+* Added some items to storage drawers compacting rules
+
 ### 2018-01-21 (3.7.0)
 
 Config Changes
