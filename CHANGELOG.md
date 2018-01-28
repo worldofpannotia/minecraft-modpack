@@ -1,3 +1,7 @@
+### 2018-01-27 (3.8.1)
+
+* Downgrade Malisis
+
 ### 2018-01-27 (3.8.0)
 
 * Update Forge
