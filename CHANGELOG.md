@@ -1,3 +1,7 @@
+### 2018-01-29 (3.8.3)
+
+Fixed typos in enchanted book recipes.
+
 ### 2018-01-28 (3.8.2)
 
 Removed Mods
