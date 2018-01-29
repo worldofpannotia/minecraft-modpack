@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v3.8.1](https://img.shields.io/badge/version-3.8.1-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
+![v3.8.2](https://img.shields.io/badge/version-3.8.2-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -105,8 +105,6 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [KleeSlabs (by BlayTheNinth)](https://minecraft.curseforge.com/mc-mods/241895)
 * [Light Level Overlay Reloaded (by oldjunyi)](https://minecraft.curseforge.com/mc-mods/226670)
 * [LootBags (by Malorolam)](https://minecraft.curseforge.com/mc-mods/225946)
-* [MalisisCore (by Ordinastie)](https://minecraft.curseforge.com/mc-mods/223896)
-* [MalisisDoors (by Ordinastie)](https://minecraft.curseforge.com/mc-mods/223891)
 * [Mantle (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74924)
 * [McJtyLib (by McJty)](https://minecraft.curseforge.com/mc-mods/233105)
 * [MCMultiPart (by amadornes)](https://minecraft.curseforge.com/mc-mods/239431)
@@ -151,7 +149,6 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [RFTools Dimensions (by McJty)](https://minecraft.curseforge.com/mc-mods/240950)
 * [Roots (by elucent)](https://minecraft.curseforge.com/mc-mods/246183)
 * [Rustic (by mangoose3039)](https://minecraft.curseforge.com/mc-mods/256141)
-* [SecretRoomsMod (by AbrarSyed)](https://minecraft.curseforge.com/mc-mods/59652)
 * [Shadowfacts' Forgelin (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/248453)
 * [ShadowMC (by shadowfactsmc)](https://minecraft.curseforge.com/mc-mods/226780)
 * [ShetiPhianCore (by ShetiPhian)](https://minecraft.curseforge.com/mc-mods/71738)
