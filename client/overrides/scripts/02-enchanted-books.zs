@@ -22,14 +22,14 @@ val potions = {
 		"long": basePotion.withTag({Potion: "extraalchemy:beheading_long"})
 	},
 	"concentration": {
-		"std": basePotion.withTag({Potion: "extraalchemy:concentration_normal"})
+		"i": basePotion.withTag({Potion: "extraalchemy:concentration_normal"})
 	},
 	"dangersight": {
-		"std": basePotion.withTag({Potion: "minecraft:danger_sight"}),
+		"i": basePotion.withTag({Potion: "minecraft:danger_sight"}),
 		"long": basePotion.withTag({Potion: "minecraft:long_danger_sight"})
 	},
 	"fireresistance": {
-		"std": basePotion.withTag({Potion: "minecraft:fire_resistance"}),
+		"i": basePotion.withTag({Potion: "minecraft:fire_resistance"}),
 		"long": basePotion.withTag({Potion: "minecraft:long_fire_resistance"})
 	},
 	"fuse": {
@@ -57,10 +57,10 @@ val potions = {
 		"long": basePotion.withTag({Potion: "extraalchemy:leech_long"})
 	},
 	"luck": {
-		"std": basePotion.withTag({Potion: "minecraft:luck"})
+		"i": basePotion.withTag({Potion: "minecraft:luck"})
 	},
 	"nightvision": {
-		"std": basePotion.withTag({Potion: "minecraft:night_vision"}),
+		"i": basePotion.withTag({Potion: "minecraft:night_vision"}),
 		"long": basePotion.withTag({Potion: "minecraft:long_night_vision"})
 	},
 	"resistance": {
@@ -88,14 +88,14 @@ val potions = {
 		"long": basePotion.withTag({Potion: "minecraft:long_strength"})
 	},
 	"waterbreathing": {
-		"std": basePotion.withTag({Potion: "minecraft:water_breathing"}),
+		"i": basePotion.withTag({Potion: "minecraft:water_breathing"}),
 		"long": basePotion.withTag({Potion: "minecraft:long_water_breathing"})
 	}
 } as IItemStack[string][string];
 
 val bookItems = {
 	"protection": potions["resistance"]["ii"],
-	"fireresistance": potions["fireresistance"]["std"],
+	"fireresistance": potions["fireresistance"]["i"],
 	"featherfall": <minecraft:feather>,
 	"blastprotection": potions["resistance"]["ii"],
 	"projectileprotection": potions["resistance"]["ii"],
@@ -106,24 +106,24 @@ val bookItems = {
 	"smite": potions["harming"]["ii"],
 	"spiderbane": potions["dangersight"]["long"],
 	"knockback": <minecraft:piston>,
-	"fireaspect": potions["fuse"]["strong"],
-	"looting": potions["concentration"]["std"],
+	"fireaspect": potions["fuse"]["ii"],
+	"looting": potions["concentration"]["i"],
 	"sweepingedge": potions["harming"]["ii"],
-	"reaper": potions.strength.ii,
-	"furious": potions.strength.ii,
-	"lifesteal": potions["leech"]["strong"],
+	"reaper": potions["strength"]["ii"],
+	"furious": potions["strength"]["ii"],
+	"lifesteal": potions["leech"]["ii"],
 	"nightvision": potions["nightvision"]["long"],
 	"holding": potions["absorption"]["ii"],
-	"insight": potions["concentration"]["std"],
+	"insight": potions["concentration"]["i"],
 	"efficiency": potions["speed"]["ii"],
 	"unbreaking": potions["strength"]["ii"],
-	"fortune": potions["concentration"]["std"],
-	"leech": potions["leech"]["strong"],
+	"fortune": potions["concentration"]["i"],
+	"leech": potions["leech"]["ii"],
 	"multishot": <basemetals:diamond_arrow>,
-	"vorpal": potions["beheading"]["strong"],
+	"vorpal": potions["beheading"]["ii"],
 	"power": potions["strength"]["ii"],
 	"punch": <minecraft:anvil>,
-	"luckofthesea": potions["luck"]["std"],
+	"luckofthesea": potions["luck"]["i"],
 	"lure": <thermalfoundation:bait:1>
 } as IItemStack[string];
 
