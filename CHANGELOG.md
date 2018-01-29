@@ -1,3 +1,17 @@
+### 2018-01-28 (3.8.2)
+
+Removed Mods
+* MalisisCore
+* MalisisDoors
+* SecretRoomsMod
+
+Updated Mods
+* Several
+
+Config Changes
+* Added zs file to allow conversion between identical potions
+* Several config changes
+
 ### 2018-01-27 (3.8.1)
 
 * Downgrade Malisis
