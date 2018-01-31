@@ -1,3 +1,21 @@
+### 2018-01-30 (3.9.0)
+
+Updated Mods
+* Actually Additions: r128 -> r129
+* ArmorPlus: 11.9.2.32 -> 11.10.1.35
+* Extra Alchemy: 0.3.6.2 -> 0.3.7.1
+* Flux Networks: 3.0.2 -> 3.0.3
+* Immersive HempCraft: 0.0.5.0 -> 0.0.5.1
+* Industrial Foregoing: 1.7.0-114 -> 1.7.1-116
+* JourneyMap: Downgrade to 5.5.2
+* RFTools: 7.26 -> 7.27
+* Signpost: 1.07 -> 1.07.1
+* Sonar Core: 5.0.4 -> 5.0.5
+
+Config Changes
+* Added various slimes to compacting drawer configs
+* Allowed conversion between slime types
+
 ### 2018-01-29 (3.8.3)
 
 Fixed typos in enchanted book recipes.
