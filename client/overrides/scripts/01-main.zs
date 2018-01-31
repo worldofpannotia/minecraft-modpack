@@ -48,71 +48,43 @@ recipes.addShaped(
 );
 
 # Iron recycling
-furnace.addRecipe(<minecraft:iron_ingot> * 5, <minecraft:iron_helmet:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 8, <minecraft:iron_chestplate:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 7, <minecraft:iron_leggings:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 4, <minecraft:iron_boots:*>, 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 5, <minecraft:iron_helmet>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 8, <minecraft:iron_chestplate>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 7, <minecraft:iron_leggings>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 4, <minecraft:iron_boots>.anyDamage(), 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 6, <minecraft:iron_door>, 0.5);
 furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:bucket>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:shears:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_horse_armor:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_hoe:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_pickaxe:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 1, <minecraft:iron_shovel:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_axe:*>, 0.5);
-furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_sword:*>, 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:shears>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_horse_armor>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_hoe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_pickaxe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 1, <minecraft:iron_shovel>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 3, <minecraft:iron_axe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_sword>.anyDamage(), 0.5);
 
 # Gold recycling
-furnace.addRecipe(<minecraft:gold_ingot> * 5, <minecraft:golden_helmet:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 8, <minecraft:golden_chestplate:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 7, <minecraft:golden_leggings:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 4, <minecraft:golden_boots:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_horse_armor:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_hoe:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_pickaxe:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 1, <minecraft:golden_shovel:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_axe:*>, 0.5);
-furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_sword:*>, 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 5, <minecraft:golden_helmet>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 8, <minecraft:golden_chestplate>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 7, <minecraft:golden_leggings>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 4, <minecraft:golden_boots>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_horse_armor>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_hoe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_pickaxe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 1, <minecraft:golden_shovel>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 3, <minecraft:golden_axe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:golden_sword>.anyDamage(), 0.5);
 
 # Diamond Recycling
-furnace.addRecipe(<minecraft:diamond> * 5, <minecraft:diamond_helmet:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 8, <minecraft:diamond_chestplate:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 7, <minecraft:diamond_leggings:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_boots:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_pickaxe:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_hoe:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 1, <minecraft:diamond_shovel:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_axe:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_sword:*>, 0.5);
-furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_horse_armor:*>, 0.5);
-
-# Manasteel recycling
-furnace.addRecipe(<botania:manaresource:0> * 5, <botania:manasteelhelm:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 8, <botania:manasteelchest:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 7, <botania:manasteellegs:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 4, <botania:manasteelboots:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 2, <botania:manasteelsword:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 3, <botania:manasteelaxe:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 1, <botania:manasteelshovel:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 3, <botania:manasteelpick:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:0> * 2, <botania:manasteelshears:*>, 0.5);
-
-# Elementium recycling
-furnace.addRecipe(<botania:manaresource:7> * 5, <botania:elementiumhelm:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 8, <botania:elementiumchest:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 7, <botania:elementiumlegs:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 4, <botania:elementiumboots:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 2, <botania:elementiumsword:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 3, <botania:elementiumaxe:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 1, <botania:elementiumshovel:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 3, <botania:elementiumpick:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:7> * 2, <botania:elementiumshears:*>, 0.5);
-
-# Terrasteel recycling
-furnace.addRecipe(<botania:manaresource:4> * 5, <botania:terrasteelhelm:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:4> * 8, <botania:terrasteelchest:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:4> * 7, <botania:terrasteellegs:*>, 0.5);
-furnace.addRecipe(<botania:manaresource:4> * 4, <botania:terrasteelboots:*>, 0.5);
+furnace.addRecipe(<minecraft:diamond> * 5, <minecraft:diamond_helmet>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 8, <minecraft:diamond_chestplate>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 7, <minecraft:diamond_leggings>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 4, <minecraft:diamond_boots>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_pickaxe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_hoe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 1, <minecraft:diamond_shovel>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_axe>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 2, <minecraft:diamond_sword>.anyDamage(), 0.5);
+furnace.addRecipe(<minecraft:diamond> * 3, <minecraft:diamond_horse_armor>.anyDamage(), 0.5);
 
 #Fuel Values
 
@@ -125,6 +97,14 @@ furnace.setFuel(<minecraft:leaves>, 10);
 recipes.addShapeless(<armorplus:material:2>, [<bhc:wither_bone>]);
 recipes.addShapeless(<bhc:wither_bone>, [<tconstruct:materials:17>]);
 recipes.addShapeless(<tconstruct:materials:17>, [<armorplus:material:2>]);
+
+# Minecraft/TiCon Slime
+# Green -> Blue -> Purple -> Red -> Orange
+recipes.addShapeless(<minecraft:slime_ball>, [<tconstruct:edible:1>]);
+recipes.addShapeless(<tconstruct:edible:1>, [<tconstruct:edible:2>]);
+recipes.addShapeless(<tconstruct:edible:2>, [<tconstruct:edible:3>]);
+recipes.addShapeless(<tconstruct:edible:3>, [<tconstruct:edible:4>]);
+recipes.addShapeless(<tconstruct:edible:4>, [<minecraft:slime_ball>]);
 
 # Fix recipe conflict between Iron Gear and Iron Lattice
 recipes.remove(<rustic:iron_lattice>);
