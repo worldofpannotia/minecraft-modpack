@@ -1,3 +1,15 @@
+### 2018-02-03 (4.0.0)
+
+**MAJOR UPDATE**
+
+This update _will_ break existing worlds, and is functionally a whole new pack intended for new worlds.
+
+Changes
+* Removed a ton of mods
+* Added Forestry and a couple others
+* Updated a few
+* Cleaned up CraftTweaker scripts some more
+
 ### 2018-01-30 (3.9.0)
 
 Updated Mods
