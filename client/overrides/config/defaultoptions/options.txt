@@ -11,11 +11,11 @@ bobView:false
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:false
 ao:1
 renderClouds:false
-resourcePacks:["8ecbc1e9fc691af61e0f16995ef5b097-NewDefault.zip"]
+resourcePacks:["8ecbc1e9fc691af61e0f16995ef5b097-NewDefault.zip","Journeymap Mob Icons.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -57,7 +57,7 @@ soundCategory_music:0.1056338
 soundCategory_record:0.6690141
 soundCategory_weather:0.20422535
 soundCategory_block:1.0
-soundCategory_hostile:0.3309859
+soundCategory_hostile:0.056338027
 soundCategory_neutral:0.5
 soundCategory_player:1.0
 soundCategory_ambient:0.15492958

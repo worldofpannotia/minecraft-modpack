@@ -289,6 +289,171 @@
       "target": "lime",
       "weight": 223,
       "id": "OD:oreBrainstone"
+    },
+    {
+      "target": "red",
+      "weight": 200,
+      "id": "OD:oreRuby"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:orePeridot"
+    },
+    {
+      "target": "orange",
+      "weight": 200,
+      "id": "OD:oreTopaz"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreTanzanite"
+    },
+    {
+      "target": "cyan",
+      "weight": 200,
+      "id": "OD:oreMalachite"
+    },
+    {
+      "target": "blue",
+      "weight": 200,
+      "id": "OD:oreSapphire"
+    },
+    {
+      "target": "orange",
+      "weight": 200,
+      "id": "OD:oreGarnet"
+    },
+    {
+      "target": "yellow",
+      "weight": 200,
+      "id": "OD:oreHeliodore"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:oreBeryl"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:oreIndicolite"
+    },
+    {
+      "target": "blue",
+      "weight": 200,
+      "id": "OD:oreAquamarine"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreIolite"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreAmethyst"
+    },
+    {
+      "target": "pink",
+      "weight": 200,
+      "id": "OD:oreAgate"
+    },
+    {
+      "target": "pink",
+      "weight": 200,
+      "id": "OD:oreMorganite"
+    },
+    {
+      "target": "black",
+      "weight": 200,
+      "id": "OD:oreOnyx"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:oreOpal"
+    },
+    {
+      "target": "red",
+      "weight": 200,
+      "id": "OD:oreCarnelian"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:oreSpinel"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:oreCitrine"
+    },
+    {
+      "target": "yellow",
+      "weight": 200,
+      "id": "OD:oreJasper"
+    },
+    {
+      "target": "yellow",
+      "weight": 200,
+      "id": "OD:oreGoldenBeryl"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:oreMoldavite"
+    },
+    {
+      "target": "cyan",
+      "weight": 200,
+      "id": "OD:oreTurquoise"
+    },
+    {
+      "target": "cyan",
+      "weight": 200,
+      "id": "OD:oreMoonstone"
+    },
+    {
+      "target": "blue",
+      "weight": 200,
+      "id": "OD:oreBlueTopaz"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreVioletSapphire"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreLepidolite"
+    },
+    {
+      "target": "purple",
+      "weight": 200,
+      "id": "OD:oreAmetrine"
+    },
+    {
+      "target": "black",
+      "weight": 200,
+      "id": "OD:oreBlackDiamond"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:oreAlexandrite"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:oreChaos"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:oreEnderEssence"
     }
   ]
 }
