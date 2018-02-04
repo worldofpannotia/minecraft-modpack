@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v4.0.0](https://img.shields.io/badge/version-4.0.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
+![v4.0.1](https://img.shields.io/badge/version-4.0.1-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -79,7 +79,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Immersive Engineering (by BluSunrize)](https://minecraft.curseforge.com/mc-mods/231951)
 * [Industrial Foregoing (by Buuz135)](https://minecraft.curseforge.com/mc-mods/266515)
 * [Infinity & Mending Unnerf (by csb987)](https://minecraft.curseforge.com/mc-mods/262424)
-* [Inventory Sorter (by cpw11)](https://minecraft.curseforge.com/mc-mods/240633)
+* [Inventory Tweaks (by Kobata)](https://minecraft.curseforge.com/mc-mods/223094)
 * [Iron Backpacks (by gr8pefish)](https://minecraft.curseforge.com/mc-mods/227049)
 * [Iron Chests (by progwml6)](https://minecraft.curseforge.com/mc-mods/228756)
 * [JEI Bees (by bdew)](https://minecraft.curseforge.com/mc-mods/248370)
@@ -102,6 +102,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [More Mob Icons for JourneyMap (by treemanofwar)](https://minecraft.curseforge.com/mc-mods/278893)
 * [Morph-o-Tool (by Vazkii)](https://minecraft.curseforge.com/mc-mods/245287)
 * [Morpheus (by Quetzi)](https://minecraft.curseforge.com/mc-mods/69118)
+* [Mouse Tweaks (by YaLTeR97)](https://minecraft.curseforge.com/mc-mods/60089)
 * [MTLib (by jaredlll08)](https://minecraft.curseforge.com/mc-mods/253211)
 * [Nature's Compass (by ChaosTheDude)](https://minecraft.curseforge.com/mc-mods/252848)
 * [Netherending Ores (by ic_trab)](https://minecraft.curseforge.com/mc-mods/274807)
