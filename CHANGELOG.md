@@ -1,3 +1,14 @@
+### 2018-02-03 (4.0.1)
+
+The "why didn't I just stick with Inventory Tweaks" update.
+
+Removed mods
+* Inventory Sorter
+
+Added mods
+* Inventory Tweaks
+* Mouse Tweaks
+
 ### 2018-02-03 (4.0.0)
 
 **MAJOR UPDATE**
