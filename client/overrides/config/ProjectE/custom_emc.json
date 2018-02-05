@@ -1,4 +1,36 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "chisel:limestone2|7",
+      "emc": 1
+    },
+    {
+      "item": "chisel:marble2|7",
+      "emc": 1
+    },
+    {
+      "item": "forestry:apatite|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:dirt|2",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:stone_torch|0",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_dirt|3",
+      "emc": 1
+    },
+    {
+      "item": "chisel:basalt2|7",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_dirt|1",
+      "emc": 1
+    }
+  ]
 }

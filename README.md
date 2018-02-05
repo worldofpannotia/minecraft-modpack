@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v4.0.1](https://img.shields.io/badge/version-4.0.1-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
+![v4.1.0](https://img.shields.io/badge/version-4.1.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -22,6 +22,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Bad Wither No Cookie - Reloaded (by kreezxil)](https://minecraft.curseforge.com/mc-mods/261251)
 * [Baubles (by azanor)](https://minecraft.curseforge.com/mc-mods/227083)
 * [Baubley Heart Canisters (by EmoKiba)](https://minecraft.curseforge.com/mc-mods/282947)
+* [BdLib (by bdew)](https://minecraft.curseforge.com/mc-mods/70496)
 * [Better Advancements (by Way2muchnoise)](https://minecraft.curseforge.com/mc-mods/272515)
 * [Better Builder's Wands (by Portablejim)](https://minecraft.curseforge.com/mc-mods/238403)
 * [BetterFps (by Guichaguri)](https://minecraft.curseforge.com/mc-mods/229876)
@@ -73,6 +74,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [ForgeEndertech (by EnderLanky)](https://minecraft.curseforge.com/mc-mods/244844)
 * [FTB Utilities (by FTB)](https://minecraft.curseforge.com/mc-mods/237102)
 * [FTBLib (by FTB)](https://minecraft.curseforge.com/mc-mods/237167)
+* [Gendustry (by bdew)](https://minecraft.curseforge.com/mc-mods/70492)
 * [Hammer Core (by apengu_)](https://minecraft.curseforge.com/mc-mods/247401)
 * [Hopper Ducts (by FyberOptic)](https://minecraft.curseforge.com/mc-mods/72210)
 * [Hunting Dimension (by darkh4x)](https://minecraft.curseforge.com/mc-mods/283235)
