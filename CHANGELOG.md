@@ -1,3 +1,16 @@
+### 2018-02-05 (4.1.0)
+
+Added Mods
+* [BdLib (by bdew)](https://minecraft.curseforge.com/mc-mods/70496)
+* [Gendustry (by bdew)](https://minecraft.curseforge.com/mc-mods/70492)
+
+Updated Mods
+* [Forestry (by SirSengir)](https://minecraft.curseforge.com/mc-mods/59751): [5.8.0.241](https://minecraft.curseforge.com/projects/forestry/files/2527443) -> [5.8.0.242](https://minecraft.curseforge.com/projects/forestry/files/2527731)
+* [Reborn Storage (by modmuss50)](https://minecraft.curseforge.com/mc-mods/256662): [3.0.3.36](https://minecraft.curseforge.com/projects/rebornstorage/files/2515435) -> [3.0.4.39](https://minecraft.curseforge.com/projects/rebornstorage/files/2528256)
+
+Config Changes
+* Added EMC values for a handful of items. Sure to be plenty more over time.
+
 ### 2018-02-03 (4.0.1)
 
 The "why didn't I just stick with Inventory Tweaks" update.
