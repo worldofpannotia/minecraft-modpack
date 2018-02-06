@@ -31,6 +31,82 @@
     {
       "item": "tconstruct:slime_dirt|1",
       "emc": 1
+    },
+    {
+      "item": "quark:basalt|0",
+      "emc": 1
+    },
+    {
+      "item": "botania:petal|7",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|9",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|15",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|5",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|10",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|0",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|13",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|12",
+      "emc": 48
+    },
+    {
+      "item": "botania:petal|11",
+      "emc": 48
+    },
+    {
+      "item": "fluxnetworks:flux|0",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|1",
+      "emc": 864
+    },
+    {
+      "item": "actuallyadditions:item_crystal|0",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|2",
+      "emc": 8192
+    },
+    {
+      "item": "actuallyadditions:item_crystal|3",
+      "emc": 128
+    },
+    {
+      "item": "actuallyadditions:item_crystal|4",
+      "emc": 16384
+    },
+    {
+      "item": "actuallyadditions:item_crystal|5",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|772",
+      "emc": 32
     }
   ]
 }
