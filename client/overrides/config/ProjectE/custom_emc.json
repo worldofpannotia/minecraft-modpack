@@ -167,6 +167,14 @@
     {
       "item": "tconstruct:cast|0",
       "emc": 128
+    },
+    {
+      "item": "tconstruct:ingots|3",
+      "emc": 324
+    },
+    {
+      "item": "tconstruct:ingots|4",
+      "emc": 296
     }
   ]
 }
