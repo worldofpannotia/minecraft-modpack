@@ -107,6 +107,66 @@
     {
       "item": "thermalfoundation:material|772",
       "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|2048",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2052",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2050",
+      "emc": 1536
+    },
+    {
+      "item": "thermalfoundation:material|2049",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|2051",
+      "emc": 768
+    },
+    {
+      "item": "thermalfoundation:material|2053",
+      "emc": 768
+    },
+    {
+      "item": "immersiveengineering:material|24",
+      "emc": 32
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 432
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 464
+    },
+    {
+      "item": "thermaldynamics:duct_0|2",
+      "emc": 470
+    },
+    {
+      "item": "forestry:honey_drop|0",
+      "emc": 32
+    },
+    {
+      "item": "enderstorage:ender_storage|0",
+      "emc": 7407
+    },
+    {
+      "item": "enderstorage:ender_storage|1",
+      "emc": 9136
+    },
+    {
+      "item": "tconstruct:ingots|5",
+      "emc": 128
+    },
+    {
+      "item": "tconstruct:cast|0",
+      "emc": 128
     }
   ]
 }
