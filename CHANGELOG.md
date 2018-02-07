@@ -1,3 +1,14 @@
+### 2018-02-07 (4.1.1)
+
+Updated Mods
+* [/dank/null (by TheRealp455w0rd)](https://minecraft.curseforge.com/mc-mods/272514): [1.3.30](https://minecraft.curseforge.com/projects/dank-null/files/2519996) -> [1.3.30](https://minecraft.curseforge.com/projects/dank-null/files/2528729)
+* [B.A.S.E (by lanse505)](https://minecraft.curseforge.com/mc-mods/246996): [3.6.0](https://minecraft.curseforge.com/projects/b-a-s-e/files/2527643) -> [3.6.1](https://minecraft.curseforge.com/projects/b-a-s-e/files/2528688)
+* [Hammer Core](https://minecraft.curseforge.com/projects/hammer-core/): [1.9.6.3](https://minecraft.curseforge.com/projects/hammer-core/files/2520349) -> [1.9.6.4](https://minecraft.curseforge.com/projects/hammer-core/files/2528457)
+* [Reborn Storage (by modmuss50)](https://minecraft.curseforge.com/mc-mods/256662): [3.0.4.39](https://minecraft.curseforge.com/projects/rebornstorage/files/2528256) -> [3.0.5.41](https://minecraft.curseforge.com/projects/rebornstorage/files/2528695)
+
+Config Changes
+* Lots more EMC values
+
 ### 2018-02-05 (4.1.0)
 
 Added Mods
