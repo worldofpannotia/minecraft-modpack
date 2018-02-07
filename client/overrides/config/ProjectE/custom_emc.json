@@ -175,6 +175,298 @@
     {
       "item": "tconstruct:ingots|4",
       "emc": 296
+    },
+    {
+      "item": "actuallyadditions:block_testifi_bucks_white_wall|0",
+      "emc": 1024
+    },
+    {
+      "item": "actuallyadditions:block_testifi_bucks_green_wall|0",
+      "emc": 1024
+    },
+    {
+      "item": "actuallyadditions:block_laser_relay_fluids|0",
+      "emc": 1254
+    },
+    {
+      "item": "actuallyadditions:block_laser_relay_item|0",
+      "emc": 1254
+    },
+    {
+      "item": "actuallyadditions:item_coffee_seed|0",
+      "emc": 36
+    },
+    {
+      "item": "immersiveengineering:seed|0",
+      "emc": 36
+    },
+    {
+      "item": "actuallyadditions:item_canola_seed|0",
+      "emc": 36
+    },
+    {
+      "item": "actuallyadditions:item_flax_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "actuallyadditions:item_rice_seed|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:turnip_seeds|0",
+      "emc": 16
+    },
+    {
+      "item": "tconstruct:slime_grass_tall|8",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_grass_tall|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_1|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|14",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|0",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|1",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|7",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|8",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:plant_0|13",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_grass_tall|4",
+      "emc": 1
+    },
+    {
+      "item": "biomesoplenty:flower_vine|0",
+      "emc": 8
+    },
+    {
+      "item": "biomesoplenty:willow_vine|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_blue_end|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_blue_mid|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_blue|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_purple_end|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_purple_mid|0",
+      "emc": 8
+    },
+    {
+      "item": "tconstruct:slime_vine_purple|0",
+      "emc": 8
+    },
+    {
+      "item": "biomesoplenty:flower_1|1",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_1|0",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|13",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|14",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|15",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|0",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|11",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|10",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|9",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|1",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|2",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|3",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|4",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|5",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|6",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|7",
+      "emc": 32
+    },
+    {
+      "item": "biomesoplenty:flower_0|8",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:brownstone|11",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|10",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|9",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|8",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|7",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|6",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:brownstone|5",
+      "emc": 46
+    },
+    {
+      "item": "tconstruct:dried_clay|0",
+      "emc": 64
+    },
+    {
+      "item": "biomesoplenty:dried_sand|0",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:materials|2",
+      "emc": 16
+    },
+    {
+      "item": "tconstruct:seared|5",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|6",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|7",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|8",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|9",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|10",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|11",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|0",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|1",
+      "emc": 40
+    },
+    {
+      "item": "tconstruct:seared|2",
+      "emc": 40
+    },
+    {
+      "item": "gendustry:industrial_scoop|100",
+      "emc": 15828
+    },
+    {
+      "item": "gendustry:industrial_grafter|100",
+      "emc": 32308
+    },
+    {
+      "item": "extrautils2:decorativesolid|1",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:decorativesolid|3",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:decorativesolid|5",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:decorativesolid|6",
+      "emc": 1
+    },
+    {
+      "item": "extrautils2:suncrystal|250",
+      "emc": 9728
+    },
+    {
+      "item": "extrautils2:endershard|0",
+      "emc": 128
     }
   ]
 }
