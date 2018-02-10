@@ -1,3 +1,15 @@
+### 2018-02-09 (4.1.2)
+
+Updated Mods
+* [p455w0rd's Library (by TheRealp455w0rd)](https://minecraft.curseforge.com/projects/255232): [2.0.26](https://minecraft.curseforge.com/projects/255232/files/2527196) -> [2.0.27](https://minecraft.curseforge.com/projects/255232/files/2529084)
+* [Hammer Core (by apengu_)](https://minecraft.curseforge.com/projects/247401): [1.9.6.4](https://minecraft.curseforge.com/projects/247401/files/2528457) -> [1.9.6.5](https://minecraft.curseforge.com/projects/247401/files/2529542)
+* [Industrial Foregoing (by Buuz135)](https://minecraft.curseforge.com/projects/266515): [1.7.1-116](https://minecraft.curseforge.com/projects/266515/files/2525619) -> [1.7.2-117](https://minecraft.curseforge.com/projects/266515/files/2528942)
+* [Fence Jumper (by TheRealp455w0rd)](https://minecraft.curseforge.com/projects/254652): [1.0.2](https://minecraft.curseforge.com/projects/254652/files/2517731) -> [1.0.3](https://minecraft.curseforge.com/projects/254652/files/2529292)
+
+Config Changes
+* Lots more EMC values
+* Added a few missing plate recipes using the Immersive Engineering hammer
+
 ### 2018-02-07 (4.1.1)
 
 Updated Mods
