@@ -2,11 +2,11 @@
   "entries": [
     {
       "item": "chisel:limestone2|7",
-      "emc": 1
+      "emc": 4
     },
     {
       "item": "chisel:marble2|7",
-      "emc": 1
+      "emc": 4
     },
     {
       "item": "forestry:apatite|0",
@@ -482,7 +482,7 @@
     },
     {
       "item": "quark:biome_cobblestone|1",
-      "emc": 1
+      "emc": 16
     },
     {
       "item": "forestry:sapling|0",
@@ -507,6 +507,338 @@
     {
       "item": "ironbackpacks:backpack|0",
       "emc": 0
+    },
+    {
+      "item": "tconstruct:slime_dirt|2",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_dirt|0",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:slime_grass|1",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|2",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|3",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|4",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|5",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|6",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|7",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|8",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|9",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|10",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|11",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|12",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|13",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:slime_grass|14",
+      "emc": 129
+    },
+    {
+      "item": "tconstruct:edible|30",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|31",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|32",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|33",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|34",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|10",
+      "emc": 32
+    },
+    {
+      "item": "tconstruct:edible|11",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|12",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|13",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|14",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|15",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|20",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|21",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|22",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:edible|23",
+      "emc": 64
+    },
+    {
+      "item": "tconstruct:materials|1",
+      "emc": 1
+    },
+    {
+      "item": "tconstruct:firewood|0",
+      "emc": 40
+    },
+    {
+      "item": "thermalfoundation:coin|0",
+      "emc": 85
+    },
+    {
+      "item": "thermalfoundation:coin|1",
+      "emc": 682
+    },
+    {
+      "item": "thermalfoundation:coin|64",
+      "emc": 42
+    },
+    {
+      "item": "thermalfoundation:coin|68",
+      "emc": 42
+    },
+    {
+      "item": "thermalfoundation:coin|65",
+      "emc": 85
+    },
+    {
+      "item": "thermalfoundation:coin|66",
+      "emc": 170
+    },
+    {
+      "item": "thermalfoundation:coin|67",
+      "emc": 170
+    },
+    {
+      "item": "thermalfoundation:coin|98",
+      "emc": 170
+    },
+    {
+      "item": "thermalfoundation:coin|70",
+      "emc": 1365
+    },
+    {
+      "item": "thermalfoundation:coin|97",
+      "emc": 426
+    },
+    {
+      "item": "thermalfoundation:coin|69",
+      "emc": 341
+    },
+    {
+      "item": "thermalfoundation:coin|99",
+      "emc": 53
+    },
+    {
+      "item": "thermalfoundation:coin|103",
+      "emc": 840
+    },
+    {
+      "item": "thermalfoundation:coin|102",
+      "emc": 234
+    },
+    {
+      "item": "thermalfoundation:coin|101",
+      "emc": 128
+    },
+    {
+      "item": "thermalfoundation:material|164",
+      "emc": 576
+    },
+    {
+      "item": "thermalfoundation:coin|100",
+      "emc": 192
+    },
+    {
+      "item": "thermalfoundation:material|800",
+      "emc": 4
+    },
+    {
+      "item": "thermalfoundation:material|1026",
+      "emc": 432
+    },
+    {
+      "item": "thermalfoundation:material|770",
+      "emc": 16
+    },
+    {
+      "item": "thermalfoundation:material|1027",
+      "emc": 432
+    },
+    {
+      "item": "quark:tallow|0",
+      "emc": 10
+    },
+    {
+      "item": "quark:crystal|0",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|1",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|2",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|3",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|4",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|5",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|6",
+      "emc": 32
+    },
+    {
+      "item": "quark:crystal|7",
+      "emc": 32
+    },
+    {
+      "item": "quark:black_ash|0",
+      "emc": 64
+    },
+    {
+      "item": "darkutils:material|0",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:skull|1",
+      "emc": 192
+    },
+    {
+      "item": "minecraft:skull|0",
+      "emc": 64
+    },
+    {
+      "item": "quark:biotite|0",
+      "emc": 32
+    },
+    {
+      "item": "quark:biome_cobblestone|0",
+      "emc": 16
+    },
+    {
+      "item": "astralsorcery:blockmarble|0",
+      "emc": 4
+    },
+    {
+      "item": "quark:marble|0",
+      "emc": 4
+    },
+    {
+      "item": "astralsorcery:blockblackmarble|0",
+      "emc": 0
+    },
+    {
+      "item": "quark:limestone|0",
+      "emc": 4
+    },
+    {
+      "item": "harvestcraft:beeswaxitem|0",
+      "emc": 52
+    },
+    {
+      "item": "harvestcraft:candleberryitem|0",
+      "emc": 52
+    },
+    {
+      "item": "industrialforegoing:pink_slime|0",
+      "emc": 2048
+    },
+    {
+      "item": "thermalfoundation:material|321",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|326",
+      "emc": 4096
+    },
+    {
+      "item": "thermalfoundation:material|354",
+      "emc": 512
+    },
+    {
+      "item": "thermalfoundation:material|355",
+      "emc": 160
+    },
+    {
+      "item": "thermalfoundation:material|357",
+      "emc": 384
+    },
+    {
+      "item": "thermalfoundation:material|358",
+      "emc": 704
+    },
+    {
+      "item": "thermalfoundation:material|359",
+      "emc": 2520
     }
   ]
 }

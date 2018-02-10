@@ -43,3 +43,14 @@ recipes.addShapeless(<tconstruct:edible:4>, [<minecraft:slime_ball>]);
 
 # Make grass paths convertible to dirt (for when silk touch picks up the path)
 recipes.addShapeless(<minecraft:dirt>, [<minecraft:grass_path>]);
+
+val engHammer=<immersiveengineering:tool:0>;
+
+recipes.addShapeless(<thermalfoundation:material:321>, [engHammer.transformDamage(1), <thermalfoundation:material:129>]);
+recipes.addShapeless(<thermalfoundation:material:326>, [engHammer.transformDamage(1), <thermalfoundation:material:134>]);
+recipes.addShapeless(<thermalfoundation:material:327>, [engHammer.transformDamage(1), <thermalfoundation:material:135>]);
+recipes.addShapeless(<thermalfoundation:material:354>, [engHammer.transformDamage(1), <thermalfoundation:material:162>]);
+recipes.addShapeless(<thermalfoundation:material:355>, [engHammer.transformDamage(1), <thermalfoundation:material:163>]);
+recipes.addShapeless(<thermalfoundation:material:357>, [engHammer.transformDamage(1), <thermalfoundation:material:165>]);
+recipes.addShapeless(<thermalfoundation:material:358>, [engHammer.transformDamage(1), <thermalfoundation:material:166>]);
+recipes.addShapeless(<thermalfoundation:material:359>, [engHammer.transformDamage(1), <thermalfoundation:material:167>]);
