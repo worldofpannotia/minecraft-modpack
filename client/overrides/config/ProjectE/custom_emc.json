@@ -467,6 +467,46 @@
     {
       "item": "extrautils2:endershard|0",
       "emc": 128
+    },
+    {
+      "item": "minecraft:water_bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:lava_bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "enderzoo:enderfragment|0",
+      "emc": 204
+    },
+    {
+      "item": "quark:biome_cobblestone|1",
+      "emc": 1
+    },
+    {
+      "item": "forestry:sapling|0",
+      "emc": 0
+    },
+    {
+      "item": "biomesoplenty:brown_dye|0",
+      "emc": 16
+    },
+    {
+      "item": "biomesoplenty:pinecone|0",
+      "emc": 32
+    },
+    {
+      "item": "forestry:apiarist_bag|0",
+      "emc": 1024
+    },
+    {
+      "item": "forestry:lepidopterist_bag|0",
+      "emc": 1024
+    },
+    {
+      "item": "ironbackpacks:backpack|0",
+      "emc": 0
     }
   ]
 }
