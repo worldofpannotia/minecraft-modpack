@@ -122,7 +122,6 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Placebo (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/283644)
 * [Platforms (by ShetiPhian)](https://minecraft.curseforge.com/mc-mods/244786)
 * [Potion Fingers (by Vazkii)](https://minecraft.curseforge.com/mc-mods/280144)
-* [ProjectE (by sinkillerj)](https://minecraft.curseforge.com/mc-mods/226410)
 * [Quark (by Vazkii)](https://minecraft.curseforge.com/mc-mods/243121)
 * [Quick Leaf Decay (by lumien231)](https://minecraft.curseforge.com/mc-mods/225839)
 * [Ranged Pumps (by raoulvdberge)](https://minecraft.curseforge.com/mc-mods/247496)
