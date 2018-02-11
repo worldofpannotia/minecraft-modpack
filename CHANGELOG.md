@@ -1,3 +1,16 @@
+### 2018-02-10 (4.2.0)
+
+Removed Mods
+* [ProjectE (by sinkillerj)](https://minecraft.curseforge.com/mc-mods/226410)
+
+Updated Mods
+* [Brandon's Core (by brandon3055)](https://minecraft.curseforge.com/projects/231382): [2.3.7.140](https://minecraft.curseforge.com/projects/231382/files/2514752) -> [2.4.0.152](https://minecraft.curseforge.com/projects/231382/files/2530025)
+* [Draconic Evolution (by brandon3055)](https://minecraft.curseforge.com/projects/223565): [2.3.8.279](https://minecraft.curseforge.com/projects/223565/files/2517088) -> [2.3.9.283](https://minecraft.curseforge.com/projects/223565/files/2530027)
+* [Forestry (by SirSengir)](https://minecraft.curseforge.com/projects/59751): [5.8.0.242](https://minecraft.curseforge.com/projects/59751/files/2527731) -> [5.8.0.243](https://minecraft.curseforge.com/projects/59751/files/2529850)
+
+Config Changes
+* OpenBlocks: Make elevator work over larger distances
+
 ### 2018-02-09 (4.1.2)
 
 Updated Mods
