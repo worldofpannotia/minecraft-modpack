@@ -1,3 +1,32 @@
+### 2018-02-13 (4.3.0)
+
+Added Mods
+* [Common Capabilities (by kroeser)](https://minecraft.curseforge.com/mc-mods/247007)
+* [Cyclops Core (by kroeser)](https://minecraft.curseforge.com/mc-mods/232758)
+* [EvilCraft (by kroeser)](https://minecraft.curseforge.com/mc-mods/74610)
+* [Guide-API (by TehNut)](https://minecraft.curseforge.com/mc-mods/228832)
+* [Integrated Dynamics (by kroeser)](https://minecraft.curseforge.com/mc-mods/236307)
+* [Integrated Tunnels (by kroeser)](https://minecraft.curseforge.com/mc-mods/251389)
+* [Magical Psi (by wiiv)](https://minecraft.curseforge.com/mc-mods/280893)
+* [Mob Grinding Utils (by Vadis365)](https://minecraft.curseforge.com/mc-mods/254241)
+* [Psi (by Vazkii)](https://minecraft.curseforge.com/mc-mods/241665)
+* [Redstone Arsenal (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/70631)
+* [Woot (by Ipsis)](https://minecraft.curseforge.com/mc-mods/244049)
+
+Updated Mods
+* [/dank/null (by TheRealp455w0rd)](https://minecraft.curseforge.com/mc-mods/272514): [1.4.31](https://minecraft.curseforge.com/projects/dank-null/files/2528729) -> [1.4.32](https://minecraft.curseforge.com/projects/dank-null/files/2530969)
+* [Biomes O' Plenty (by Glitchfiend)](https://minecraft.curseforge.com/mc-mods/220318): [7.0.1.2313](https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2520994) -> [7.0.1.2314](https://minecraft.curseforge.com/projects/biomes-o-plenty/files/2530423)
+* [Fence Overhaul (by The_WeatherPony)](https://minecraft.curseforge.com/mc-mods/246222): [1.3.2](https://minecraft.curseforge.com/projects/fence-overhaul/files/2507871) -> [1.3.3](https://minecraft.curseforge.com/projects/fence-overhaul/files/2530665)
+* [OpenBlocks (by OpenMods)](https://minecraft.curseforge.com/mc-mods/228816): [1.7.5](https://minecraft.curseforge.com/projects/openblocks/files/2525232) -> [1.7.6](https://minecraft.curseforge.com/projects/openblocks/files/2530225)
+* [p455w0rd's Library (by TheRealp455w0rd)](https://minecraft.curseforge.com/mc-mods/255232): [2.0.27](https://minecraft.curseforge.com/projects/p455w0rds-library/files/2529084) -> [2.0.28](https://minecraft.curseforge.com/projects/p455w0rds-library/files/2530659)
+* [Pam's HarvestCraft (by MatrexsVigil)](https://minecraft.curseforge.com/mc-mods/221857): [1.12.2o](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2527142) -> [1.12.2p](https://minecraft.curseforge.com/projects/pams-harvestcraft/files/2530644)
+* [Placebo (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/283644): [1.1.4](https://minecraft.curseforge.com/projects/placebo/files/2522505) -> [1.2.0](https://minecraft.curseforge.com/projects/placebo/files/2530448)
+* [Reborn Core (by modmuss50)](https://minecraft.curseforge.com/mc-mods/237903): [3.6.6.208](https://minecraft.curseforge.com/projects/reborncore/files/2530769) -> [3.6.7.210](https://minecraft.curseforge.com/projects/reborncore/files/2530960)
+* [RFTools (by McJty)](https://minecraft.curseforge.com/mc-mods/224641): [7.27](https://minecraft.curseforge.com/projects/rftools/files/2525541) -> [7.28](https://minecraft.curseforge.com/projects/rftools/files/2530523)
+* [RFTools Dimensions (by McJty)](https://minecraft.curseforge.com/mc-mods/240950): [5.51](https://minecraft.curseforge.com/projects/rftools-dimensions/files/2523980) -> [5.52](https://minecraft.curseforge.com/projects/rftools-dimensions/files/2530525)
+* [Tinkers Construct (by mDiyo)](https://minecraft.curseforge.com/mc-mods/74072): [2.9.0.55](https://minecraft.curseforge.com/projects/tinkers-construct/files/2518400) -> [2.9.1.65](https://minecraft.curseforge.com/projects/tinkers-construct/files/2530200)
+* [Toast Control (by Shadows_of_Fire)](https://minecraft.curseforge.com/mc-mods/271740): [1.3.0](https://minecraft.curseforge.com/projects/toast-control/files/2512453) -> [1.3.1](https://minecraft.curseforge.com/projects/toast-control/files/2530458)
+
 ### 2018-02-10 (4.2.0)
 
 Removed Mods
