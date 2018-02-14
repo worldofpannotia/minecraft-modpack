@@ -1,3 +1,9 @@
+### 2018-02-13 (4.3.1)
+
+Updated Mods
+* [Extra Utilities (by RWTema)](https://minecraft.curseforge.com/mc-mods/225561): [1.7.3](https://minecraft.curseforge.com/projects/extra-utilities/files/2524524) -> [1.7.4](https://minecraft.curseforge.com/projects/extra-utilities/files/2531075)
+* [Fence Overhaul (by The_WeatherPony)](https://minecraft.curseforge.com/mc-mods/246222): [1.3.3](https://minecraft.curseforge.com/projects/fence-overhaul/files/2530665) -> [1.3.4](https://minecraft.curseforge.com/projects/fence-overhaul/files/2531068)
+
 ### 2018-02-13 (4.3.0)
 
 Added Mods
