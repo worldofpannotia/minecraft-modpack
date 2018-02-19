@@ -61,6 +61,7 @@ val booksToMake = [
     "reaper",
     "furious",
     "lifesteal",
+    "nightvision",
     "efficiency",
     "unbreaking",
     "fortune",
@@ -75,43 +76,41 @@ val booksToMake = [
     "lure"
 ] as string[];
 
-val singleBooksToMake = ["nightvision"] as string[];
-
-for book in singleBooksToMake {
-    var enchantID = scripts.enchants.list[book]["id"];
-    var bookItem = bookItems[book];
-    var bookTag as IData = {StoredEnchantments: [{lvl: 1 as short, id: enchantID}]};
-    recipes.addShaped("alt" ~ book,
-        enchBook.withTag(bookTag),
-        [
-            [enchBottle, bookItem, enchBottle],
-            [bookItem, <minecraft:book>, bookItem],
-            [enchBottle, goldBlock, enchBottle]
-        ]
-    );
-    mods.jei.JEI.addItem(enchBook.withTag(bookTag));
-}
-
 for book in booksToMake {
-    var enchantID = scripts.enchants.list[book]["id"];
-    var baseMaxLevel = scripts.enchants.list[book]["base"].asInt();
+    var numToMake = scripts.enchants.toMake[book];
+    var bookTags = scripts.enchants.tags[book];
     var bookItem = bookItems[book];
 
-    for fromLevel in baseMaxLevel .. 10 {
-        var toLevel = fromLevel + 1;
-
-        var fromTag as IData = {StoredEnchantments: [{lvl: fromLevel, id: enchantID}]};
-        var toTag as IData = {StoredEnchantments: [{lvl: toLevel, id: enchantID}]};
-
-        recipes.addShaped("alt" ~ book ~ fromLevel ~ "_" ~ toLevel,
-            enchBook.withTag(toTag),
+    if (numToMake == 1) {
+        recipes.addShaped("alt" ~ book,
+            enchBook.withTag(bookTags[0]),
             [
-                [null, bookItem, null],
-                [bookItem, enchBook.withTag(fromTag), bookItem],
-                [null, goldBlock, null]
+                [enchBottle, bookItem, enchBottle],
+                [bookItem, <minecraft:book>, bookItem],
+                [enchBottle, goldBlock, enchBottle]
             ]
         );
+        mods.jei.JEI.addItem(enchBook.withTag(bookTags[0]));
+    } else {
+        for i in 0 .. numToMake {
+            var j = i + 1;
 
-        mods.jei.JEI.addItem(enchBook.withTag(toTag));
+            var fromTag = bookTags[i];
+            var toTag = bookTags[j];
+
+            var fromLevel = 10 - numToMake + i;
+            var toLevel = 10 - numToMake + j;
+
+            recipes.addShaped("alt" ~ book ~ fromLevel ~ "_" ~ toLevel,
+                enchBook.withTag(toTag),
+                [
+                    [null, bookItem, null],
+                    [bookItem, enchBook.withTag(fromTag), bookItem],
+                    [null, goldBlock, null]
+                ]
+            );
+
+            mods.jei.JEI.addItem(enchBook.withTag(toTag));
+        }
     }
 }
