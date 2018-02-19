@@ -1,3 +1,25 @@
+### 2018-02-18 (4.4.0)
+
+Updated Mods
+* [Actually Additions (by Ellpeck)](https://minecraft.curseforge.com/projects/228404): [r130](https://minecraft.curseforge.com/projects/228404/files/2526272) -> [r131](https://minecraft.curseforge.com/projects/228404/files/2532275)
+* [Bookshelf (by darkh4x)](https://minecraft.curseforge.com/projects/228525): [2.3.523](https://minecraft.curseforge.com/projects/228525/files/2522075) -> [2.3.524](https://minecraft.curseforge.com/projects/228525/files/2530030)
+* [Chisel (by tterrag1098)](https://minecraft.curseforge.com/projects/235279): [0.1.1.26](https://minecraft.curseforge.com/projects/235279/files/2516679) -> [0.1.1.28](https://minecraft.curseforge.com/projects/235279/files/2532354)
+* [CraftTweaker (by jaredlll08)](https://minecraft.curseforge.com/projects/239197): [4.1.2](https://minecraft.curseforge.com/projects/239197/files/2527454) -> [4.1.4](https://minecraft.curseforge.com/projects/239197/files/2532230)
+* [Environmental Creepers (by masa_)](https://minecraft.curseforge.com/projects/246320): [1.2.1](https://minecraft.curseforge.com/projects/246320/files/2460515) -> [1.3.0](https://minecraft.curseforge.com/projects/246320/files/2531580)
+* [Extra Alchemy (by zabi94)](https://minecraft.curseforge.com/projects/247357): [0.3.7.1](https://minecraft.curseforge.com/projects/247357/files/2525604) -> [0.3.8](https://minecraft.curseforge.com/projects/247357/files/2531634)
+* [Forestry (by SirSengir)](https://minecraft.curseforge.com/projects/59751): [5.8.0.243](https://minecraft.curseforge.com/projects/59751/files/2529850) -> [5.8.0.250](https://minecraft.curseforge.com/projects/59751/files/2532388)
+* [Industrial Foregoing (by Buuz135)](https://minecraft.curseforge.com/projects/266515): [1.7.2-117](https://minecraft.curseforge.com/projects/266515/files/2528942) -> [1.8.1-120](https://minecraft.curseforge.com/projects/266515/files/2532397)
+* [Integrated Dynamics (by kroeser)](https://minecraft.curseforge.com/projects/236307): [0.11.3](https://minecraft.curseforge.com/projects/236307/files/2529762) -> [0.11.5](https://minecraft.curseforge.com/projects/236307/files/2532016)
+* [Iron Chests (by progwml6)](https://minecraft.curseforge.com/projects/228756): [7.0.34.820](https://minecraft.curseforge.com/projects/228756/files/2487724) -> [7.0.39.823](https://minecraft.curseforge.com/projects/228756/files/2532357)
+* [McJtyLib (by McJty)](https://minecraft.curseforge.com/projects/233105): [2.6.3](https://minecraft.curseforge.com/projects/233105/files/2523982) -> [2.6.4](https://minecraft.curseforge.com/projects/233105/files/2531284)
+* [ModTweaker (by jaredlll08)](https://minecraft.curseforge.com/projects/220954): [4.0.6](https://minecraft.curseforge.com/projects/220954/files/2514559) -> [4.0.7](https://minecraft.curseforge.com/projects/220954/files/2531342)
+* [MTLib (by jaredlll08)](https://minecraft.curseforge.com/projects/253211): [3.0.1](https://minecraft.curseforge.com/projects/253211/files/2491141) -> [3.0.2](https://minecraft.curseforge.com/projects/253211/files/2531339)
+* [RFTools (by McJty)](https://minecraft.curseforge.com/projects/224641): [7.28](https://minecraft.curseforge.com/projects/224641/files/2530523) -> [7.29](https://minecraft.curseforge.com/projects/224641/files/2531288)
+* [Woot (by Ipsis)](https://minecraft.curseforge.com/projects/244049): [0.0.9](https://minecraft.curseforge.com/projects/244049/files/2529825) -> [0.0.10](https://minecraft.curseforge.com/projects/244049/files/2532386)
+
+Config Changes
+* Go back to verbose version of custom enchanted book zs file to fix crafting bug
+
 ### 2018-02-13 (4.3.1)
 
 Updated Mods
