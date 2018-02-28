@@ -1,3 +1,33 @@
+### 2018-02-27 (4.5.0)
+
+Added Mods
+* [Reliquary v1.3 (by P3pp3rF1y)](https://minecraft.curseforge.com/mc-mods/241319)
+
+Updated Mods
+* [/dank/null (by TheRealp455w0rd)](https://minecraft.curseforge.com/projects/272514): [1.4.32](https://minecraft.curseforge.com/projects/272514/files/2530969) -> [1.4.33](https://minecraft.curseforge.com/projects/272514/files/2533602)
+* [ArmorPlus (by sokratis12GR)](https://minecraft.curseforge.com/projects/237366): [11.10.1.35-beta](https://minecraft.curseforge.com/projects/237366/files/2525703) -> [11.11.0.36-beta](https://minecraft.curseforge.com/projects/237366/files/2535417)
+* [Biomes O' Plenty (by Glitchfiend)](https://minecraft.curseforge.com/projects/220318): [7.0.1.2314](https://minecraft.curseforge.com/projects/220318/files/2530423) -> [7.0.1.2315](https://minecraft.curseforge.com/projects/220318/files/2533539)
+* [Bookshelf (by darkh4x)](https://minecraft.curseforge.com/projects/228525): [2.3.524](https://minecraft.curseforge.com/projects/228525/files/2530030) -> [2.3.526](https://minecraft.curseforge.com/projects/228525/files/2534543)
+* [Chisel (by tterrag1098)](https://minecraft.curseforge.com/projects/235279): [0.1.1.28](https://minecraft.curseforge.com/projects/235279/files/2532354) -> [0.2.0.31](https://minecraft.curseforge.com/projects/235279/files/2535884)
+* [CraftTweaker (by jaredlll08)](https://minecraft.curseforge.com/projects/239197): [4.1.4](https://minecraft.curseforge.com/projects/239197/files/2532230) -> [4.1.5](https://minecraft.curseforge.com/projects/239197/files/2535188)
+* [Dark Utilities (by darkh4x)](https://minecraft.curseforge.com/projects/242195): [1.8.192](https://minecraft.curseforge.com/projects/242195/files/2522089) -> [1.8.194](https://minecraft.curseforge.com/projects/242195/files/2535608)
+* [Draconic Evolution (by brandon3055)](https://minecraft.curseforge.com/projects/223565): [2.3.9.283](https://minecraft.curseforge.com/projects/223565/files/2530027) -> [2.3.10.284](https://minecraft.curseforge.com/projects/223565/files/2535360)
+* [EvilCraft (by kroeser)](https://minecraft.curseforge.com/projects/74610): [0.10.47](https://minecraft.curseforge.com/projects/74610/files/2528622) -> [0.10.48](https://minecraft.curseforge.com/projects/74610/files/2534933)
+* [Extra Alchemy (by zabi94)](https://minecraft.curseforge.com/projects/247357): [0.3.8](https://minecraft.curseforge.com/projects/247357/files/2531634) -> [0.3.8.1](https://minecraft.curseforge.com/projects/247357/files/2533895)
+* [Hammer Core (by apengu_)](https://minecraft.curseforge.com/projects/247401): [1.9.6.5](https://minecraft.curseforge.com/projects/247401/files/2529542) -> [1.9.6.8](https://minecraft.curseforge.com/projects/247401/files/2535310)
+* [Immersive Engineering (by BluSunrize)](https://minecraft.curseforge.com/projects/231951): [0.12-76](https://minecraft.curseforge.com/projects/231951/files/2515333) -> [0.12-78](https://minecraft.curseforge.com/projects/231951/files/2535471)
+* [Industrial Foregoing (by Buuz135)](https://minecraft.curseforge.com/projects/266515): [1.8.1-120](https://minecraft.curseforge.com/projects/266515/files/2532397) -> [1.8.3-122](https://minecraft.curseforge.com/projects/266515/files/2534413)
+* [Iron Chests (by progwml6)](https://minecraft.curseforge.com/projects/228756): [7.0.39.823](https://minecraft.curseforge.com/projects/228756/files/2532357) -> [7.0.40.824](https://minecraft.curseforge.com/projects/228756/files/2533664)
+* [McJtyLib (by McJty)](https://minecraft.curseforge.com/projects/233105): [2.6.4](https://minecraft.curseforge.com/projects/233105/files/2531284) -> [2.6.5](https://minecraft.curseforge.com/projects/233105/files/2535637)
+* [Pam's HarvestCraft (by MatrexsVigil)](https://minecraft.curseforge.com/projects/221857): [1.12.2p](https://minecraft.curseforge.com/projects/221857/files/2530644) -> [1.12.2q](https://minecraft.curseforge.com/projects/221857/files/2533991)
+* [Platforms (by ShetiPhian)](https://minecraft.curseforge.com/projects/244786): [1.4.3b](https://minecraft.curseforge.com/projects/244786/files/2522977) -> [1.4.4](https://minecraft.curseforge.com/projects/244786/files/2533246)
+* [Reborn Core (by modmuss50)](https://minecraft.curseforge.com/projects/237903): [3.6.7.210](https://minecraft.curseforge.com/projects/237903/files/2530960) -> [3.6.8.214](https://minecraft.curseforge.com/projects/237903/files/2533996)
+* [RFTools (by McJty)](https://minecraft.curseforge.com/projects/224641): [7.29](https://minecraft.curseforge.com/projects/224641/files/2531288) -> [7.30](https://minecraft.curseforge.com/projects/224641/files/2535639)
+* [Solar Flux Reborn (by apengu_)](https://minecraft.curseforge.com/projects/246974): [3.42r](https://minecraft.curseforge.com/projects/246974/files/2485160) -> [3.50r](https://minecraft.curseforge.com/projects/246974/files/2534974)
+* [UniDict (by WanionCane)](https://minecraft.curseforge.com/projects/244258): [2.3.2](https://minecraft.curseforge.com/projects/244258/files/2524853) -> [2.3.3](https://minecraft.curseforge.com/projects/244258/files/2534327)
+* [WanionLib (by WanionCane)](https://minecraft.curseforge.com/projects/253043): [1.4](https://minecraft.curseforge.com/projects/253043/files/2510015) -> [1.5](https://minecraft.curseforge.com/projects/253043/files/2534271)
+* [Woot (by Ipsis)](https://minecraft.curseforge.com/projects/244049): [0.0.10](https://minecraft.curseforge.com/projects/244049/files/2532386) -> [1.0.0](https://minecraft.curseforge.com/projects/244049/files/2534566)
+
 ### 2018-02-18 (4.4.0)
 
 Updated Mods

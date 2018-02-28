@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v4.4.0](https://img.shields.io/badge/version-4.4.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
+![v4.5.0](https://img.shields.io/badge/version-4.5.0-green.svg) ![MC Version 1.12.2](https://img.shields.io/badge/MC%20Version-1.12.2-blue.svg) ![Forge Version 14.23.1.2604](https://img.shields.io/badge/Forge%20Version-14.23.1.2604-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 
@@ -141,6 +141,7 @@ This modpack is a continual work in progress. We occasionally add a mod or tweak
 * [Redstone Flux (by TeamCoFH)](https://minecraft.curseforge.com/mc-mods/270789)
 * [Refined Storage (by raoulvdberge)](https://minecraft.curseforge.com/mc-mods/243076)
 * [Refined Storage Addons (by raoulvdberge)](https://minecraft.curseforge.com/mc-mods/272302)
+* [Reliquary v1.3 (by P3pp3rF1y)](https://minecraft.curseforge.com/mc-mods/241319)
 * [Resource Loader (by lumien231)](https://minecraft.curseforge.com/mc-mods/226447)
 * [RFTools (by McJty)](https://minecraft.curseforge.com/mc-mods/224641)
 * [RFTools Dimensions (by McJty)](https://minecraft.curseforge.com/mc-mods/240950)
