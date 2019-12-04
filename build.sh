@@ -16,10 +16,6 @@ mkdir -p tmp/client;
 cp -r ./client/* ./tmp/client/;
 cat ./tmp/client/manifest.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/client/manifest.json;
 rm ./tmp/client/manifest.tpl.json;
-cat ./tmp/client/overrides/config/CustomMainMenu/mainmenu.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" > ./tmp/client/overrides/config/CustomMainMenu/mainmenu.json;
-rm ./tmp/client/overrides/config/CustomMainMenu/mainmenu.tpl.json;
-cat ./tmp/client/overrides/config/Mercurius.tpl.cfg | sed -e "s/@@VERSION@@/${VERSION}/" > ./tmp/client/overrides/config/Mercurius.cfg;
-rm ./tmp/client/overrides/config/Mercurius.tpl.cfg;
 
 mkdir -p tmp/server;
 cp -r ./tmp/client/overrides/* ./tmp/server/;

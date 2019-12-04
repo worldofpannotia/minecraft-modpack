@@ -1,3 +1,6 @@
+### 2019-12-03 (6.0.0)
+First alpha release of 1.14.4 modpack
+
 ### 2018-02-27 (4.5.0)
 
 Added Mods

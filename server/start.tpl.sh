@@ -10,8 +10,6 @@ cd -- "$(dirname "$0")"
 
 export MCVER="@@MINECRAFT_VERSION@@"
 export JARFILE="minecraft_server.${MCVER}.jar"
-export LAUNCHWRAPPERVERSION="@@MINECRAFT_LAUNCHER_VERSION@@"
-export LAUNCHWRAPPER="net/minecraft/launchwrapper/${LAUNCHWRAPPERVERSION}/launchwrapper-${LAUNCHWRAPPERVERSION}.jar"
 export FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@-universal.jar"
 
 ###################################################
@@ -21,7 +19,7 @@ export FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@-universal.jar"
 export JAVACMD="java"
 export MIN_RAM="3072M"       # -Xms
 export MAX_RAM="6144M"       # -Xmx
-export JAVA_PARAMETERS="-XX:+CMSIncrementalPacing -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
+export JAVA_PARAMETERS="-XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
 
 ###################################################
 # Read settings defined by local server admin
