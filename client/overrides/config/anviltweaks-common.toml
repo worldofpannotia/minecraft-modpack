@@ -1,0 +1,15 @@
+
+[general]
+	#Repair cost cap
+	#Range: > 1
+	repair_cost_cap = 40
+	#Does anvil take damage
+	damageable = true
+	#Anvil renaming always costs 1 level
+	cheap_renaming = true
+	#Damage chance
+	#Range: 0.0 ~ 1.0
+	damage_chance = 0.12
+	#Prior Work Penalty
+	prior_work_penalty = false
+

@@ -1,0 +1,310 @@
+
+[Building]
+	#A storage block for rotten flesh.  If the rotten flesh block has water on any of its sides, it has a chance to turn into dirt.
+	#If there is a soil block above the rotten flesh block, it has a chance to turn into podzol.
+	"BlockOfRottenFlesh enabled" = true
+	#A storage block for ender pearls. Eating a chorus fruit will teleport you to a nearby ender pearl block.
+	#If a silverfish burrows into an ender pearl block, it will become an endermite.
+	"BlockOfEnderPearls enabled" = true
+	#A decorative block made from 4 moonstones of the same color.
+	"BlockOfMoonstone enabled" = true
+	#Smelt glowstone in a furnace to get smooth glowstone.
+	"SmoothGlowstone enabled" = true
+
+	[Building.BlockOfMoonstone]
+		#If true, Moonstone blocks change their light levels according to the moon phase.
+		"Moon glow" = true
+
+	[Building.BlockOfEnderPearls]
+		#If true, eating a Chorus Fruit while in range of an Ender Pearl Block will teleport you to it.
+		"Teleport stabilization" = true
+
+	[Building.BlockOfRottenFlesh]
+		#If true, a block of rotten flesh can be composted.
+		Compostable = true
+
+[Automation]
+	#A storage block for gunpowder. It obeys gravity and dissolves in lava.
+	"BlockOfGunpowder enabled" = true
+	#A block that emits light according to the strength of the input redstone signal.
+	"VariableRedstoneLamp enabled" = true
+	#A block that acts like sand but is powered like a block of redstone.
+	"RedstoneSand enabled" = true
+
+[Enchanting]
+	#A tool with the Homing enchantment is attracted to ore/wood/stone of the same type that make up the head of the tool.
+	#Right click underground and if you hear a sound, you can follow it to the source.
+	"Homing enabled" = true
+	#An item with the Salvage enchantment drops its enchantments to a book before being destroyed.
+	#
+	"Salvage enabled" = true
+	#Combine the Curse Break enchanted book with a cursed item on an anvil to remove the item's curse.
+	"CurseBreak enabled" = true
+	#Tools with the Magnetic enchantment automatically pick up drops.
+	"Magnetic enabled" = true
+
+	[Enchanting.Homing]
+		#Range (in blocks) that the enchanted tool will detect ore/wood/stone.
+		"Detection range" = 8
+		#Percentage (where 1.0 is 100%) of damage given to the tool every time it detects a block.
+		"Damage multiplier" = 0.015
+
+	[Enchanting.CurseBreak]
+		#Number of levels required to remove a curse from an item.
+		"XP cost" = 1
+
+[Tweaks]
+	"ComposterImprovements enabled" = true
+	#Adds music discs of all Minecraft ambient music.
+	#These additional discs will be dropped when a zombie is killed by a skeleton.
+	"ExtraMusicDiscs enabled" = true
+	#As long as a Totem of Undying is in your inventory, it will be consumed to protect you from death.
+	"UseTotemFromInventory enabled" = true
+	#Enabled anvil actions to be performed without an XP cost.This only applies to Charm actions and affects no vanilla functionality.
+	"NoAnvilMinimumXp enabled" = true
+	#Sneak right-clicking a villager with a block of emerald opens all the villager's closed trades and regenerates some health.
+	"EmeraldBlockOpensTrades enabled" = true
+	#Leather armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
+	"LeatherArmorInvisibility enabled" = true
+	#Cauldrons can be used as a permanent water source when sneaking.
+	"CauldronWaterSource enabled" = true
+	#Landing on sponge absorbs some of the player's fall damage.
+	"SpongesReduceFallDamage enabled" = true
+	#Potions can stack (up to 16).
+	"StackablePotions enabled" = true
+	#Unlocks all vanilla recipes. This will be disabled if Quark is present, because Quark's module is better.
+	"AutomaticRecipeUnlock enabled" = true
+	#When any action would cause a villager to become a nitwit, it becomes an unemployed villager instead.
+	"RemoveNitwits enabled" = true
+	#A witch has a chance to drop a Potion of Luck when killed by a player.
+	"WitchesDropLuck enabled" = true
+	#Removes the potion enchantment glint so you can see what the potion color is.
+	"RemovePotionGlint enabled" = true
+	#Enchanted Books can stack (up to 16).
+	"StackableEnchantedBooks enabled" = true
+	#Expands vanilla ambient music and prevents the background music when playing a music disc in a jukebox.
+	"AmbientMusicImprovements enabled" = true
+	#Tamed animals no longer take direct damage from players.
+	#They still suffer secondary effects, such as burning.
+	"TamedAnimalsNoDamage enabled" = true
+	#Pickaxes become the optimal harvest tool for breaking pistons.
+	"PickaxesBreakPistons enabled" = true
+	#Husks spawn anywhere within their biome and drop sand, making them easier to farm.
+	"HuskImprovements enabled" = true
+	#Animals will heal within range of a beacon with the regeneration effect.
+	#Monsters will be weakened within range of a beacon with the strength effect.
+	"MobsAffectedByBeacon enabled" = true
+
+	[Tweaks.ComposterImprovements]
+		#List of extra items that may be composted.
+		#Specify the compost level chance (out of 1.0) after the item name.
+		"Input items" = ["minecraft:rotten_flesh=0.3"]
+		#Maximum number of extra items returned from composter.
+		"Maximum output" = 3
+		#List of extra items that can be returned from the composter.
+		"Output items" = ["minecraft:bone_meal", "minecraft:brown_mushroom", "minecraft:red_mushroom"]
+
+	[Tweaks.HuskImprovements]
+		#If true, husks drop sand when killed.
+		"Drop sand when killed" = true
+		#Chance (out of 1.0) of a husk dropping sand when it is killed.
+		"Drop chance" = 0.33
+		#If true, husks can spawn anywhere within their biome rather than just the surface.
+		"Spawn anywhere in biome" = true
+
+	[Tweaks.SpongesReduceFallDamage]
+		#Percentage (where 1.0 = 100%) of damage absorbed by sponge blocks.
+		"Damage absorbed" = 0.75
+
+	[Tweaks.AmbientMusicImprovements]
+		#If true, has a chance of playing Charm music.
+		"Play Charm music" = true
+		#If true, the six Creative music tracks may play in survival mode.
+		"Play Creative music" = true
+		#Override the delay (in ticks) between ambient music tracks.  If zero, does not override the track default.
+		"Override delay" = 3600
+
+	[Tweaks.WitchesDropLuck]
+		#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
+		"Drop chance" = 0.05
+
+	[Tweaks.MobsAffectedByBeacon]
+		#Monsters within range will be weakened. One of the beacon effects must be strength.
+		"Weaken monsters" = true
+		#Heal friendly animals within range. One of the beacon effects must be regeneration.
+		"Heal animals" = true
+
+[Smithing]
+	#Tallow can be combined on an anvil with a tool or armor to give a small durability boost.
+	#Repairing using tallow has a chance to increase future repair costs of the tool or armor.
+	#Quark must be installed for this feature to work.
+	"TallowIncreasesDurability enabled" = true
+	#Combine an item with its golden version on an anvil to reduce the original item's repair cost.
+	"DecreaseRepairCost enabled" = true
+	#Extract enchantments from any enchanted item into an empty book.
+	#The enchantments are weakened in the process and the original item is destroyed.
+	"ExtractEnchantments enabled" = true
+
+	[Smithing.DecreaseRepairCost]
+		#The tool repair cost will be decreased by this number.
+		"Repair cost decrease" = 2
+		#Number of levels required to remove a curse from an item.
+		"XP cost" = 0
+
+	[Smithing.ExtractEnchantments]
+		#Number of levels that enchantments are weakened when converting.
+		"Enchantment levels lost" = 0
+		#Minimum cost before adding XP equivalent to the enchantment level(s) of the item.
+		"Base XP cost" = 0
+		#Enchantments with a single level or at level 1 will be extracted.
+		"Allow Level 1 enchantments" = true
+
+	[Smithing.TallowIncreasesDurability]
+		#Percentage (where 1.0 = 100%) durability repaired when using tallow.
+		"Amount repaired" = 0.02
+		#Number of levels required to apply tallow.
+		"XP cost" = 0
+		#Chance (out of 1.0) of the item's repair cost increasing when tallow is applied.
+		"Chance of repair cost increase" = 0.1
+
+[Tools]
+	#Right-click with a compass on a banner or beacon whilst sneaking to bind the compass to the target's location.
+	"CompassBinding enabled" = true
+	#Right-click a bat with a bucket to capture it.
+	#Right-click your Bat in a Bucket to release the bat and help locate entities around you.
+	"BatInABucket enabled" = true
+	#A moonstone helps align builds. Right-click while sneaking to bind a moonstone to any location.
+	#When you are aligned with the location on the X or Z axis, the stone will glow and the homing sound will play.When standing on the original location, a chime sound will play.
+	#This works across dimensions, helping you prceisely align portals between the Overworld and the Nether.
+	"Moonstones enabled" = true
+
+	[Tools.BatInABucket]
+		#Number of seconds that entities will receive the glowing effect.
+		"Glowing time" = 10
+		#Range (in blocks) in which entities will glow.
+		"Viewing range" = 24
+
+	[Tools.CompassBinding]
+		#If true, compasses can bind to banners.
+		"Bind to Banners" = true
+		#If true, compasses can bind to beacons.
+		"Bind to Beacons" = true
+
+[Brewing]
+	#Right-click a Long Potion on a cake to make a Flavored Cake that gives the potion effect after eating each slice.You can also make a Flavored Cake using a dispenser.
+	"FlavoredCake enabled" = true
+	#Brew cocoa beans in water to make Coffee which gives you strength, haste and speed.
+	"Coffee enabled" = true
+	#A potion that gives Wither to living things.
+	"Decay enabled" = true
+
+	[Brewing.FlavoredCake]
+		#Effect duration of a single slice of cake as a multiplier of the original potion duration.
+		"Effect duration multiplier" = 0.1
+
+	[Brewing.Decay]
+		#Duration (in seconds) of the Decay effect.
+		Duration = 10
+
+	[Brewing.Coffee]
+		#Duration (in seconds) of the Coffee effect.
+		Duration = 20
+
+[World]
+	#Fumaroles are small columns of hot steam rising from the nether floor.
+	#Sometimes they erupt, sending entities that are placed on them high into the air.
+	"Fumaroles enabled" = true
+	#Villages can spawn in swamps and jungles. Villagers spawning in these villages will use their correct biome texture.
+	"MoreVillageBiomes enabled" = true
+	#Cartographers sell Structure Maps that can be used to find additional overworld structures.
+	"StructureMaps enabled" = true
+	#Allows additional hostile mobs to spawn inside world structures.
+	#If allow normal mob spawns is false, only mobs specified in additional spawns will appear.
+	"AdditionalMobsInStructures enabled" = true
+	#Add colored runes in stronghold End Portal frames. Two portals with the same runes will be linked together.
+	"EndPortalRunes enabled" = true
+	#Gold deposits spawn in the Nether that can be broken to receive gold nuggets.
+	"NetherGoldDeposits enabled" = true
+	#Adds additional trades to village professions. 
+	#Librarians buy back any enchanted books and sell curse break books, 
+	#butchers and leatherworkers will trade zombie flesh for meat and leather, 
+	#toolsmiths will repair anvils for an iron ingot cost.
+	"MoreVillagerTrades enabled" = true
+	#Endermite Powder has a chance of being dropped from an Endermite.
+	#Use it in the End to help locate an End City.
+	"EndermitePowder enabled" = true
+
+	[World.NetherGoldDeposits]
+		"Cluster count" = 10
+		"Vein size" = 4
+
+	[World.AdditionalMobsInStructures]
+		"Igloos allow normal mob spawns" = true
+		"Pillager outposts allow normal mob spawns" = true
+		"Ocean monument additional spawns" = []
+		"Woodland mansions allow normal mob spawns" = true
+		"Swamp hut additional spawns" = []
+		"Desert pyramids allow normal mob spawns" = false
+		"Swamp huts allow normal mob spawns" = true
+		"Shipwrecks allow normal mob spawns" = true
+		"Jungle temples allow normal mob spawns" = true
+		"Nether fortresses allow normal mob spawns" = true
+		"Ocean ruins allow normal mob spawns" = true
+		"Stronghold additional spawns" = []
+		"Shipwreck additional spawns" = []
+		"Villages allow normal mob spawns" = true
+		"Igloo additional spawns" = []
+		"Mineshaft additional spawns" = []
+		"Desert pyramid additional spawns" = ["husk=100"]
+		"Nether fortress additional spawns" = []
+		"Village additional spawns" = []
+		"Woodland mansion additional spawns" = ["vindicator=100"]
+		"End cities allow normal mob spawns" = true
+		"Pillager outpost additional spawns" = []
+		"Mineshafts allow normal mob spawns" = true
+		"Ocean monuments allow normal mob spawns" = true
+		"End city additional spawns" = []
+		"Ocean ruin additional spawns" = []
+		"Strongholds allow normal mob spawns" = true
+		"Jungle temple additional spawns" = []
+
+	[World.StructureMaps]
+		#Minimum emerald cost of a general structure map.
+		"General map minimum cost" = 4
+		#Maximum number of structure map types a cartographer may sell.
+		"Maximum Maps" = 3
+		#Maximum emerald cost of a biome-specific structure map.
+		"Biome-specific map maximum cost" = 22
+		#Maximum number the trade can be used before it locks.
+		"Maximum Trades" = 1
+		#Minimum emerald cost of a biome-specific structure map.
+		"Biome-specific map minimum cost" = 16
+		#The level at which a cartographer will trade structure maps.
+		#Numbers correspond to villager level, starting at 1 for Novice.
+		"Trade Level" = 3
+		#The amount of experience awarded to the cartographer upon selling.
+		"Villager experience awarded" = 5
+		#Maximum emerald cost of a general structure map.
+		"General map maximum cost" = 7
+
+	[World.EndPortalRunes]
+		#If true, sneak-clicking with an empty hand or colored rune removes an eye of ender from its frame.
+		"Allow Eye of Ender removal" = true
+
+[Decoration]
+	#A smaller storage solution with the benefit of being transportable.You can also seal a crate by combining it with an iron ingot on an anvil.  The only way to get things out is to break it.
+	"Crates enabled" = true
+	#Wolves will spawn with texture variants.
+	"RandomAnimalTextures enabled" = true
+	#Gold version of the vanilla lantern.
+	"GoldLanterns enabled" = true
+	#A bookshelf with 9 slots that can store books.
+	#Provides the same enchanting power as a normal bookshelf as long as there is at least 1 book on the shelf.
+	"BookshelfChests enabled" = true
+	#Barrels are available in all types of vanilla wood.
+	"AllTheBarrels enabled" = true
+
+	[Decoration.BookshelfChests]
+		#List of item IDs that may be placed in a bookshelf chest.
+		"Valid books" = ["minecraft:book", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:writable_book", "minecraft:knowledge_book", "quark:ancient_tome"]
+

@@ -1,3 +1,97 @@
+### 2020-01-23 (6.8.0)
+#### Updated Mods
+* Anvil Tweaks: 1.4a -> 1.4b
+* CraftTweaker: 5.0.1.160 -> 5.0.1.161
+* Enchantment Descriptions: 1.3.8 -> 1.3.9
+* Kiwi: 2.6.1 -> 2.6.3
+* Snow! Real Magic!: 1.4.5 -> 1.7.1
+* Xaero's Minimap: 1.19.6 -> 20.0.0
+
+#### Added Mods
+* Crafting Station
+* Disenchanting Forge
+
+### 2020-01-19 (6.7.0)
+#### Updated Mods
+* Better Advancements: 0.1.0.93 -> 0.1.0.94
+* Controlling: 5.0.4 -> 5.0.5
+* Corail Pillar: 4.5.4 -> 4.6.0
+* CraftTweaker: 5.0.1.150 -> 5.0.1.160
+* FlashFyre's Enchantments: 1.2.3 -> 1.2.4
+* Open Loader: 1.0.3 -> 1.0.4
+* Quark: r2.0-208 -> r2.0-209
+* Upgrade Aquatic: 1.4.4 -> 1.4.7
+
+#### Added Mods
+* Flamboyant
+
+#### Config Changes
+* Storage Drawers: Increase range for controllers
+* Upsizer: Enable larger stacks for some items
+
+### 2020-01-13 (6.6.0)
+
+#### Updated Mods
+* FPS Reducer: 1.13 -> 1.14
+* Just Enough Resources: 0.10.0.66 -> 0.10.0.70
+* Kiwi: 2.4.5 -> 2.6.1
+* Xaero's Minimap: 1.19.4 -> 1.19.6
+* Xaero's World Map: 1.5.2 -> 1.5.4
+
+#### Added Mods
+* Upsizer Mod
+
+#### Config Changes
+* Increased storage drawer capacity
+
+### 2020-01-01 (6.5.2)
+
+#### Downgraded Mods
+* Snow! Real Magic!: 1.14.4-1.5.0 -> 1.14.4-1.4.5
+
+### 2019-12-31 (6.5.1)
+
+Actually include the stuff that should have been in 6.5.0
+
+#### Added Mods
+* Curious Elytra
+
+#### Updated Mods
+* KleeSlabs: 1.14.4-7.4.7 -> 1.14.4-7.4.8
+* Quark: r2.0-206 -> r2.0-208
+* Snow! Real Magic!: 1.14.4-1.4.5 -> 1.14.4-1.5.0
+
+### 2019-12-29 (6.5.0)
+
+#### Added Mods
+* Curious Elytra
+
+#### Updated Mods
+* KleeSlabs: 1.14.4-7.4.7 -> 1.14.4-7.4.8
+* Quark: r2.0-206 -> r2.0-208
+
+### 2019-12-26 (6.4.0)
+First official "stable" release of 1.14.4 modpack.
+
+#### Updated Mods
+* Bookshelf: 1.14.4-4.4.71 -> 1.14.4-4.4.72
+* Clean View: 1.14.4-v1 -> 1.15.1-v1
+* Compact Ores: 1.14.4-1.0.0 -> 1.14.4-1.1.2
+* CraftTweaker: 1.14.4-5.0.1.148 -> 1.14.4-5.0.1.150
+* JEI: 1.14.4-6.0.0.26 -> 1.14.4-6.0.0.27
+* Kiwi: 1.14.4-2.4.3 -> 1.14.4-2.4.5
+* Morpheus: 1.14.4-4.2.43 -> 1.14.4-4.2.44
+* Open Loader: 1.14.4-1.0.2 -> 1.14.4-1.0.3
+* Quark: r2.0-200 -> r2.0-206
+* Snow! Real Magic!: 1.14.4-1.4.3 -> 1.14.4-1.4.5
+* Torchmaster: 2.0.0-rc1 -> 2.0.0-rc2
+* Upgrade Aquatic: 1.14.4-v1.4.1 -> 1.14.4-v1.4.4
+* VanillaTweaks: 1.14.4.1.5.10 -> 1.14.4.1.5.12
+* Xaero's Minimap: 1.19.1-1.14.4 -> 1.19.4-1.14.4
+
+#### Removed Mods
+* Nether Portal Spread
+
 ### 2019-12-03 (6.0.0)
 First alpha release of 1.14.4 modpack
 
