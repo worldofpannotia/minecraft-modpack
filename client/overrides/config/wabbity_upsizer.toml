@@ -17,7 +17,7 @@
 	#Set to true to enable upsizer for shields. You also need to update your preferred max stack count in the proper section. Disabled by default.
 	check_shields = false
 	#Set to true to enable upsizer for potion bottles. You also need to update your preferred max stack count in the proper section. Disabled by default.
-	check_potions = true
+	check_potions = false
 	#Set to true to enable upsizer for saddles. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_saddles = true
 	#Set to true to enable upsizer for writable books. You also need to update your preferred max stack count in the proper section. Enabled by default.
@@ -26,6 +26,8 @@
 	check_milk_buckets = false
 	#Set to true to enable upsizer for baked cakes. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_cakes = true
+	#Set to true to enable upsizer for honey bottles. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_honey_bottles = true
 	#Set to true to enable upsizer for ender pearls. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_ender_pearls = true
 	#Set to true to enable upsizer for snow balls. You also need to update your preferred max stack count in the proper section. Enabled by default.
@@ -76,6 +78,9 @@
 	#New stack size for signs; default is 64.
 	#Range: 1 ~ 64
 	signs_upsized_stack = 64
+	#New stack size for honey bottles; default is 64.
+	#Range: 1 ~ 64
+	honey_bottles_upsized_stack = 64
 	#New stack size for snow balls; default is 64.
 	#Range: 1 ~ 64
 	snowballs_upsized_stack = 64
@@ -113,7 +118,7 @@
 	saddles_storage_stack = 64
 	#New storage stack for potion bottles; default is 4.
 	#Range: 1 ~ 64
-	potions_storage_stack = 64
+	potions_storage_stack = 4
 	#New storage stack for filled lava buckets; default is 1.
 	#Range: 1 ~ 64
 	lava_buckets_storage_stack = 1

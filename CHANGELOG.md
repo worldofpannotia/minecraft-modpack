@@ -1,3 +1,9 @@
+### 2020-06-07 (7.0.0-beta.1)
+First alpha release of the 1.15.2 version of World of Pannotia
+
+#### BFD (Big F... Deal)
+This is the first iteration of the pack that is _mostly_ compatible with the previous one. Worlds created with the pack in 1.14.4 should generally be safely upgradable to 1.15.2!
+
 ### 2020-01-23 (6.8.0)
 #### Updated Mods
 * Anvil Tweaks: 1.4a -> 1.4b
