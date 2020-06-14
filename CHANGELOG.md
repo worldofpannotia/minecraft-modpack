@@ -1,4 +1,14 @@
-### 2020-06-07 (7.0.0-beta.1)
+### 2020-06-14 (7.2.0)
+#### Added Mods
+* ChunkNoGoByeBye
+
+#### Config Changes
+* Made a few more creative items craftable
+
+### 2020-06-13 (7.1.0)
+First actually working release of the 1.15.2 version of World of Pannotia (I hope).
+
+### 2020-06-07 (7.0.0)
 First alpha release of the 1.15.2 version of World of Pannotia
 
 #### BFD (Big F... Deal)

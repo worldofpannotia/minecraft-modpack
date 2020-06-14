@@ -14,6 +14,23 @@ craftingTable.addShapeless("shapeless_magma_to_cream", <item:minecraft:magma_cre
 # Make grass paths convertible to dirt (for when silk touch picks up the path)
 craftingTable.addShapeless("shapeless_path_to_dirt", <item:minecraft:dirt>, [<item:minecraft:grass_path>], null);
 
+# Make creative paste container for Building Gadgets craftable
+craftingTable.addShapeless("bg_creative_paste_container", <item:buildinggadgets:construction_paste_container_creative>, [<item:buildinggadgets:construction_paste_container_t3>, <item:minecraft:nether_star>], null);
+
+# Make creative capacitor for Immersive Engineering craftable
+craftingTable.addShaped("ie_creative_capacitor", <item:immersiveengineering:capacitor_creative>, [
+    [<tag:forge:ingots/iron>, <tag:forge:ingots/iron>, <tag:forge:ingots/iron>],
+    [<tag:forge:ingots/copper>, <tag:forge:ingots/lead>, <tag:forge:ingots/copper>],
+    [<tag:forge:treated_wood>, <item:minecraft:nether_star>, <tag:forge:treated_wood>]
+]);
+
+# Make creative storage upgrade for Storage Drawers craftable
+craftingTable.addShaped("sd_creative_storage_upgrade", <item:storagedrawers:creative_storage_upgrade>, [
+    [<tag:forge:rods/wooden>, <tag:forge:rods/wooden>, <tag:forge:rods/wooden>],
+    [<item:minecraft:nether_star>, <item:storagedrawers:upgrade_template>, <item:minecraft:nether_star>],
+    [<tag:forge:rods/wooden>, <tag:forge:rods/wooden>, <tag:forge:rods/wooden>]
+]);
+
 # Make creative items from Refined Storage craftable with nether stars
 craftingTable.addShaped("rs_creative_controller", <item:refinedstorage:creative_controller>, [
     [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:nether_star>, <item:refinedstorage:quartz_enriched_iron>],
@@ -22,8 +39,8 @@ craftingTable.addShaped("rs_creative_controller", <item:refinedstorage:creative_
 ]);
 
 craftingTable.addShaped("rs_creative_storage_disk", <item:refinedstorage:creative_storage_disk>, [
-    [<tag:forge:glass>, <item:minecraft:redstone>, <tag:forge:glass>],
-    [<item:minecraft:redstone>, <item:minecraft:nether_star>, <item:minecraft:redstone>],
+    [<tag:forge:glass>, <tag:forge:dusts/redstone>, <tag:forge:glass>],
+    [<tag:forge:dusts/redstone>, <item:minecraft:nether_star>, <tag:forge:dusts/redstone>],
     [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
 
@@ -52,3 +69,17 @@ craftingTable.addShaped("rs_creative_wireless_crafting_grid", <item:refinedstora
     [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:crafting_grid>, <item:refinedstorage:quartz_enriched_iron>],
     [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:nether_star>, <item:refinedstorage:quartz_enriched_iron>]
 ]);
+
+craftingTable.addShaped("rs_creative_portable_grid", <item:refinedstorage:creative_portable_grid>, [
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:grid>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:creative_controller>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:fluid_grid>, <item:refinedstorage:quartz_enriched_iron>]
+]);
+
+craftingTable.addShaped("rs_creative_storage_block", <item:refinedstorage:creative_storage_block>, [
+    [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:nether_star>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:machine_casing>, <item:refinedstorage:quartz_enriched_iron>],
+    [<item:refinedstorage:quartz_enriched_iron>, <tag:forge:dusts/redstone>, <item:refinedstorage:quartz_enriched_iron>]
+]);
+
+craftingTable.addShapeless("rs_creative_fluid_storage_block", <item:refinedstorage:creative_fluid_storage_block>, [<item:refinedstorage:creative_storage_block>, <item:minecraft:bucket>]);
