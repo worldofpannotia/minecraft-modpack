@@ -1,0 +1,37 @@
+# Add Flamboyant wools to various tags
+<tag:minecraft:wool>.addItems([
+    <item:flamboyant:amber_wool>,
+    <item:flamboyant:beige_wool>,
+    <item:flamboyant:cream_wool>,
+    <item:flamboyant:dark_green_wool>,
+    <item:flamboyant:forest_green_wool>,
+    <item:flamboyant:hot_pink_wool>,
+    <item:flamboyant:indigo_wool>,
+    <item:flamboyant:maroon_wool>,
+    <item:flamboyant:navy_wool>,
+    <item:flamboyant:olive_wool>,
+    <item:flamboyant:pale_green_wool>,
+    <item:flamboyant:pale_pink_wool>,
+    <item:flamboyant:pale_yellow_wool>,
+    <item:flamboyant:sky_blue_wool>,
+    <item:flamboyant:slate_gray_wool>,
+    <item:flamboyant:violet_wool>
+]);
+<tag:forge:wool>.addItems([
+    <item:flamboyant:amber_wool>,
+    <item:flamboyant:beige_wool>,
+    <item:flamboyant:cream_wool>,
+    <item:flamboyant:dark_green_wool>,
+    <item:flamboyant:forest_green_wool>,
+    <item:flamboyant:hot_pink_wool>,
+    <item:flamboyant:indigo_wool>,
+    <item:flamboyant:maroon_wool>,
+    <item:flamboyant:navy_wool>,
+    <item:flamboyant:olive_wool>,
+    <item:flamboyant:pale_green_wool>,
+    <item:flamboyant:pale_pink_wool>,
+    <item:flamboyant:pale_yellow_wool>,
+    <item:flamboyant:sky_blue_wool>,
+    <item:flamboyant:slate_gray_wool>,
+    <item:flamboyant:violet_wool>
+]);
