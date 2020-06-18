@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v7.2.1](https://img.shields.io/badge/version-7.2.1-green.svg) ![MC Version 1.15.2](https://img.shields.io/badge/MC%20Version-1.15.2-blue.svg) ![Forge Version 31.2.5](https://img.shields.io/badge/Forge%20Version-31.2.5-red.svg)
+![v7.2.2](https://img.shields.io/badge/version-7.2.2-green.svg) ![MC Version 1.15.2](https://img.shields.io/badge/MC%20Version-1.15.2-blue.svg) ![Forge Version 31.2.5](https://img.shields.io/badge/Forge%20Version-31.2.5-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is stable and quite fun to play. Enjoy!
 

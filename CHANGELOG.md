@@ -1,3 +1,7 @@
+### 2020-06-17 (7.2.2)
+#### Config Changes
+* Split CraftTweaker scripts into smaller files to fix server->client sync issue
+
 ### 2020-06-17 (7.2.1)
 #### Config Changes
 * Added some crafting recipes
