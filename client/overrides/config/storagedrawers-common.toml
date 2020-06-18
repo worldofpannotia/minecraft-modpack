@@ -2,7 +2,27 @@
 [General]
 	#List of rules in format "domain:item1, domain:item2, n".
 	#Causes a compacting drawer convert n of item1 into 1 of item2.
-	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4"]
+	compactingRules = [
+        "minecraft:clay, minecraft:clay_ball, 4",
+        "minecraft:glass, quark:clear_shard, 4",
+        "minecraft:white_stained_glass, quark:white_shard, 4",
+        "minecraft:orange_stained_glass, quark:orange_shard, 4",
+        "minecraft:magenta_stained_glass, quark:magenta_shard, 4",
+        "minecraft:light_blue_stained_glass, quark:light_blue_shard, 4",
+        "minecraft:yellow_stained_glass, quark:yellow_shard, 4",
+        "minecraft:lime_stained_glass, quark:lime_shard, 4",
+        "minecraft:pink_stained_glass, quark:pink_shard, 4",
+        "minecraft:gray_stained_glass, quark:gray_shard, 4",
+        "minecraft:light_gray_stained_glass, quark:light_gray_shard, 4",
+        "minecraft:cyan_stained_glass, quark:cyan_shard, 4",
+        "minecraft:purple_stained_glass, quark:purple_shard, 4",
+        "minecraft:blue_stained_glass, quark:blue_shard, 4",
+        "minecraft:brown_stained_glass, quark:brown_shard, 4",
+        "minecraft:green_stained_glass, quark:green_shard, 4",
+        "minecraft:red_stained_glass, quark:red_shard, 4",
+        "minecraft:black_stained_glass, quark:black_shard, 4",
+        "quark:dirty_glass, quark:dirty_shard, 4"
+    ]
 	enableUI = true
 	debugTrace = false
 	enableItemConversion = true

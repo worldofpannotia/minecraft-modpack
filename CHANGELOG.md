@@ -1,3 +1,8 @@
+### 2020-06-17 (7.2.1)
+#### Config Changes
+* Added some crafting recipes
+* Added a datapack with some crafting recipes (VanillaTweaks_c149438.zip)
+
 ### 2020-06-14 (7.2.0)
 #### Added Mods
 * ChunkNoGoByeBye
