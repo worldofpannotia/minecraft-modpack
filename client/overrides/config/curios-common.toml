@@ -1,7 +1,7 @@
 
 [common]
 	#List of curio types to create.Sizes can be defined by adding a semicolon and the size number (e.g. 'ring;4').
-	createCurios = ["ring;6", "back;2", "curio;2", "belt;1", "body;1", "charm;2", "hands;2", "necklace;1"]
+	createCurios = ["ring;6", "back;1", "charm;2"]
 	#List of curio types to disable by default
 	disabledCurios = []
 

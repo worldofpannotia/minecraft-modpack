@@ -1,0 +1,3 @@
+[Tweaks]
+	#Potions can stack (up to 16).
+	"StackablePotions enabled" = false

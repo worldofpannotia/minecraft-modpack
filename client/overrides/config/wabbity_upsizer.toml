@@ -17,7 +17,7 @@
 	#Set to true to enable upsizer for shields. You also need to update your preferred max stack count in the proper section. Disabled by default.
 	check_shields = false
 	#Set to true to enable upsizer for potion bottles. You also need to update your preferred max stack count in the proper section. Disabled by default.
-	check_potions = false
+	check_potions = true
 	#Set to true to enable upsizer for saddles. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_saddles = true
 	#Set to true to enable upsizer for writable books. You also need to update your preferred max stack count in the proper section. Enabled by default.
@@ -118,7 +118,7 @@
 	saddles_storage_stack = 64
 	#New storage stack for potion bottles; default is 4.
 	#Range: 1 ~ 64
-	potions_storage_stack = 4
+	potions_storage_stack = 64
 	#New storage stack for filled lava buckets; default is 1.
 	#Range: 1 ~ 64
 	lava_buckets_storage_stack = 1
