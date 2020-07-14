@@ -1,3 +1,7 @@
+### 2020-06-26 (7.3.1)
+#### Changes
+Re-added Pam's HarvestCraft 2 - Trees to the manifest.
+
 ### 2020-06-25 (7.3.0)
 #### Forge Update
 * Forge: 31.2.5->31.2.24
