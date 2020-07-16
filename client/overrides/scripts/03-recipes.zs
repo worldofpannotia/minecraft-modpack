@@ -1,3 +1,9 @@
+# Re-add string-to-wool recipe
+craftingTable.addShaped("string_to_wool", <item:minecraft:white_wool>, [
+    [<tag:forge:string>, <tag:forge:string>],
+    [<tag:forge:string>, <tag:forge:string>]
+]);
+
 # Allow converting Quark's chests to vanilla ones
 craftingTable.addShapeless("shapeless_oak_chest_to_chest", <item:minecraft:chest>, [<item:quark:oak_chest>], null);
 craftingTable.addShapeless("shapeless_spruce_chest_to_chest", <item:minecraft:chest>, [<item:quark:spruce_chest>], null);

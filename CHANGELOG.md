@@ -1,3 +1,68 @@
+### 2020-07-13 (7.4.0)
+#### Config Changes
+* Made Quark's backpack eligible to put into the "Back" Curios slot (this isn't enough to make it usable, but if Quark adds Curios support, this will help)
+* Random Bonemeal Flowers: add wither rose to blacklist
+* Quark + Refined Storage: add RS interfaces to Quark's blacklist of GUIs where the sort+filter buttons display
+
+#### Recipe Changes
+* Colored wool now has an 8-to-1 recipe like terracotta and concrete powder
+* Fixed crafting recipes for Sweeping Edge IV-X books
+
+#### Updated Mods
+* AppleSkin: 1.0.13 -> 1.0.14
+* Better Advancements: 0.1.0.96 -> 0.1.0.99
+* Buzzier Bees: 1.5.1 -> 1.5.2
+* Collective: 1.29 -> 1.35
+* Compact Ores: 2.1.2 -> 2.1.3
+* Controlling: 6.1.4 -> 6.1.5.6
+* Engineer's Decor: 1.1.0-b3 -> 1.1.0
+* Farming for Blockheads: 6.1.3 -> 6.1.5
+* FastWorkbench: 3.0.0 -> 3.1.1
+* FPS Reducer: 1.15 -> 1.16
+* Immersive Engineering: 0.15-103 -> 0.15-105
+* JEITweaker: 1.0.1 -> 1.0.1.3
+* Just Enough Items (JEI): 6.0.2.11 -> 6.0.2.12
+* Light Overlay: 4.6.1 -> 4.7.0
+* Pam's HarvestCraft 2 - Food Core: 1.0.4 -> 1.0.5
+* Patchouli: 1.2-34 -> 1.2-35
+* Placebo: 3.0.2 -> 3.1.0
+* Refined Storage: 1.8.5 -> 1.8.7
+* Rings of Ascension: 1.5 -> 1.5.3
+* Spice of Life: Carrot Edition: 1.9.6 -> 1.9.7
+* The Endergetic Expansion: 1.3.1 -> 1.3.2
+* Torchmaster: 2.1.1-rc0 -> 2.2.1
+* Upgrade Aquatic: 1.6.1 -> 1.7.1
+* VanillaTweaks: 2.1.5.27 -> 2.1.5.28
+* Waystones: 6.0.1 -> 6.0.2
+
+#### Removed Mods
+* Compact Ores
+* Corail Pillar
+* Corail Recycler
+* Corail Tombstone
+* Corail Woodcutter
+* Travel Bags
+
+#### Added Mods
+* Areas
+* Bigger Sponge Absorption Radius
+* Bridge Maker
+* Colorful Health Bar
+* Covalent
+* Cull Particles
+* Dark Paintings
+* Enchanting Commands
+* Ensorcellation
+* Glassential
+* Global XP
+* GraveStone Mod
+* Ignition: Ender Bags
+* Iron Furnaces
+* Iron TNT
+* Oh My Gourd
+* Polymorph
+* Tag Tooltip
+
 ### 2020-06-26 (7.3.1)
 #### Changes
 Re-added Pam's HarvestCraft 2 - Trees to the manifest.
