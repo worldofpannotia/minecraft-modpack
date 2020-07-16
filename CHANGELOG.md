@@ -1,3 +1,8 @@
+### 2020-07-15 (7.4.1)
+#### Updated Mods
+* Refined Storage: 1.8.7 -> 1.8.8
+* Refined Storage Addons: 0.6.2 -> 0.6.3
+
 ### 2020-07-13 (7.4.0)
 #### Config Changes
 * Made Quark's backpack eligible to put into the "Back" Curios slot (this isn't enough to make it usable, but if Quark adds Curios support, this will help)
