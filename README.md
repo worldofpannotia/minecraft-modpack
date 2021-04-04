@@ -1,8 +1,10 @@
 ## World of Pannotia Minecraft Modpack
 
-![v8.0.0](https://img.shields.io/badge/version-8.0.0-green.svg) ![MC Version 1.15.2](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 31.2.24](https://img.shields.io/badge/Forge%20Version-31.2.24-red.svg)
+![v8.0.0-alpha](https://img.shields.io/badge/version-8.0.0-green.svg) ![MC Version 1.15.2](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 31.2.24](https://img.shields.io/badge/Forge%20Version-31.2.24-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is not confirmed as stable! Be warned!
+
+This modpack is heavily influenced by [Crucial 2 by Vaskii](https://www.curseforge.com/minecraft/modpacks/crucial-2). As such it will contain most of the same mods and configs as Crucial 2 but with several of our own tweaks and additions. It is meant to be mostly a vanilla+ experience. We have added a few storage mods, some lifestyle enhancements, and the amazing "Create" mod for automation 'vanilla-style'. 
 
 ### Included Mods
 
