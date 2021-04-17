@@ -1,0 +1,37 @@
+
+[General]
+	#Places the GUI clock on the right.
+	clockPositionIsRight = true
+	#The vertical offset (y coord) for the Clock. This determines how far down the time should be on the screen. Can be changed to prevent GUIs from overlapping.
+	#Range: 0 ~ 3000
+	clockHeightOffset = 5
+	#Places the GUI clock in the middle.
+	clockPositionIsCenter = false
+	#The red RGB value for the clock text.
+	#Range: 0 ~ 255
+	RGB_R = 255
+	#Places the GUI clock on the left.
+	clockPositionIsLeft = false
+	#When enabled, will only show the real time when a clock is present in the inventory.
+	mustHaveClockInInventoryForRealTime = true
+	#Sets the format of the clock to the 24-hour format.
+	_24hourformat = true
+	#When enabled, will only show the game time when a clock is present in the inventory.
+	mustHaveClockInInventoryForGameTime = true
+	#The green RGB value for the clock text.
+	#Range: 0 ~ 255
+	RGB_G = 255
+	#Show the days played in the world.
+	showDaysPlayedWorld = true
+	#The blue RGB value for the clock text.
+	#Range: 0 ~ 255
+	RGB_B = 255
+	#When enabled, shows the clock item icon instead of a clock with numbers.
+	showOnlyMinecraftClockIcon = false
+	#Show actual local time instead of in-game time.
+	showRealTime = false
+	#Show the seconds in the clock.
+	showRealTimeSeconds = false
+	#Show both in-game time and real local time.
+	showBothTimes = false
+

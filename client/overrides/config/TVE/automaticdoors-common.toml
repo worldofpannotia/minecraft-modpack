@@ -1,0 +1,10 @@
+
+[General]
+	#The time in ms the door should stay open.
+	#Range: 0 ~ 10000
+	doorOpenTime = 2500
+	#When enabled, doors won't be opened automatically when the player is sneaking.
+	preventOpeningOnSneak = true
+	#When enabled, iron doors will also be opened automatically.
+	shouldOpenIronDoors = true
+

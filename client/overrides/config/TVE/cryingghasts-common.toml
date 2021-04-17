@@ -1,0 +1,9 @@
+
+[General]
+	#The maximum distance in blocks the player can be away from the ghasts in order for them to start dropping tears periodically.
+	#Range: 1 ~ 256
+	maxDistanceToGhastBlocks = 32
+	#The delay in between ghasts dropping a tear in ticks (1 second = 20 ticks).
+	#Range: 1 ~ 72000
+	ghastTearDelayTicks = 1200
+

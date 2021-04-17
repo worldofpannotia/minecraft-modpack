@@ -1,0 +1,6 @@
+
+[General]
+	#The overridden chance a new zombie spawn is of the villager variant.
+	#Range: 0.0 ~ 1.0
+	zombieIsVillagerChance = 0.25
+

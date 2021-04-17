@@ -1,0 +1,8 @@
+
+[General]
+	#Remove the name 'The Killer Bunny' from the baby killer rabbit.
+	removeKillerRabbitNameTag = true
+	#The chance that a baby rabbit is of the killer variant.
+	#Range: 0.0 ~ 1.0
+	chanceBabyRabbitIsKiller = 0.5
+

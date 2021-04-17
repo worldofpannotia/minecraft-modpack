@@ -1,0 +1,5 @@
+
+[General]
+	#When enabled, will only pick up the minecart when the player is sneaking and holding right-click.
+	mustSneakToPickUp = true
+

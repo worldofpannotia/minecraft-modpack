@@ -1,0 +1,5 @@
+
+[General]
+	#The possible sheep colours which the mod chooses from, divided by a comma.
+	possibleSheepColours = "black,blue,brown,cyan,gray,green,jeb,light_blue,light_gray,lime,magenta,orange,pink,purple,red,white,yellow"
+

@@ -1,0 +1,6 @@
+
+[General]
+	#The delay in ms in between the ability to extract poison per mob.
+	#Range: 0 ~ 3600000
+	extractDelayMs = 60000
+

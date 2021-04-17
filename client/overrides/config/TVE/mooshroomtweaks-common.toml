@@ -1,0 +1,10 @@
+
+[General]
+	#The chance of a Red Mooshroom becoming a Brown Mooshroom.
+	#Range: 0.0 ~ 1.0
+	becomeBrownChance = 0.5
+	#Transform some of the Red Mooshrooms to Brown Mooshrooms whenever they naturally spawn in the world.
+	onWorldSpawn = true
+	#Transform some of the Red Mooshrooms to Brown Mooshrooms whenever someone spawns them with a Spawn Egg.
+	onEggSpawn = true
+

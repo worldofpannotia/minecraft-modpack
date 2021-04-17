@@ -1,0 +1,9 @@
+
+[General]
+	#When enables, the mod works with double trapdoors.
+	enableTrapdoors = true
+	#When enables, the mod works with double doors.
+	enableDoors = true
+	#When enables, the mod works with double fence gates.
+	enableFenceGates = true
+

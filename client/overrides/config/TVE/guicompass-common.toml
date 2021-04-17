@@ -1,0 +1,23 @@
+
+[General]
+	#The vertical offset (y coord) for the Compass. This determines how far down the time should be on the screen. Can be changed to prevent GUIs from overlapping.
+	#Range: 0 ~ 3000
+	compassHeightOffset = 5
+	#The green RGB value for the compass text.
+	#Range: 0 ~ 255
+	RGB_G = 255
+	#When enabled, will only show the GUI compass when a compass is present in the inventory.
+	mustHaveCompassInInventory = true
+	#Places the GUI compass on the right.
+	compassPositionIsRight = false
+	#The red RGB value for the compass text.
+	#Range: 0 ~ 255
+	RGB_R = 255
+	#The blue RGB value for the compass text.
+	#Range: 0 ~ 255
+	RGB_B = 255
+	#Places the GUI compass in the middle.
+	compassPositionIsCenter = false
+	#Places the GUI compass on the left.
+	compassPositionIsLeft = true
+

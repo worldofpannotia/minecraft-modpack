@@ -1,0 +1,6 @@
+
+[General]
+	#The index of the 'Extended' creative tab. Can be changed if another mod already uses the default fifth spot (index 4).
+	#Range: 0 ~ 100
+	extendedItemGroupIndex = 4
+

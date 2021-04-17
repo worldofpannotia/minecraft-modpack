@@ -4,6 +4,8 @@
 	debug_mode = false
 	#Set to true to enable upsizer for empty buckets. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_buckets = true
+	#Set to true to enable upsizer for empty shulker boxes. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	check_shulkerboxes = false
 	#Set to true to enable upsizer for filled lava buckets. You also need to update your preferred max stack count in the proper section. Disabled by default.
 	check_lava_buckets = false
 	#Set to true to enable upsizer for filled water buckets. You also need to update your preferred max stack count in the proper section. Disabled by default.
@@ -17,7 +19,7 @@
 	#Set to true to enable upsizer for shields. You also need to update your preferred max stack count in the proper section. Disabled by default.
 	check_shields = false
 	#Set to true to enable upsizer for potion bottles. You also need to update your preferred max stack count in the proper section. Disabled by default.
-	check_potions = true
+	check_potions = false
 	#Set to true to enable upsizer for saddles. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_saddles = true
 	#Set to true to enable upsizer for writable books. You also need to update your preferred max stack count in the proper section. Enabled by default.
@@ -36,6 +38,8 @@
 	check_banners = true
 	#Set to true to enable upsizer for records. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_records = true
+	#Set to true for upsizer to fix issues with stacked standard soups and stews. Does not affect modded items behaviors.
+	fix_bowl_food = true
 	#Set to true to enable upsizer for signs. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_signs = true
 	#Set to true to enable upsizer for weapons. You also need to update your preferred max stack count in the proper section. Disabled by default.
@@ -45,18 +49,18 @@
 	#Set to true to enable upsizer for raw eggs. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_eggs = true
 	#Set to true to enable upsizer for banner patterns. You also need to update your preferred max stack count in the proper section. Disabled by default.
-	check_banner_patterns = true
-	#Set to true to enable upsizer for stews and soups. You also need to update your preferred max stack count in the proper section. Disabled by default.
-	check_stews = false
+	check_banner_patterns = false
+	#Set to true to enable upsizer for stews and soups. You also need to update your preferred max stack count in the proper section. Enabled by default.
+	check_stews = true
 	#Set to true to enable upsizer for wooden boats. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_boats = true
-	#Set to true to enable upsizer for beds. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	#Set to true to enable upsizer for beds. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_beds = true
 	#Set to true to enable upsizer for horse armor. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_horse_armor = true
 	#Set to true to enable upsizer for enchanted books. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_enchanted_books = true
-	#Set to true to enable upsizer for empty minecarts. You also need to update your preferred max stack count in the proper section. Disabled by default.
+	#Set to true to enable upsizer for empty minecarts. You also need to update your preferred max stack count in the proper section. Enabled by default.
 	check_minecarts = true
 
 [upsized]
@@ -86,13 +90,16 @@
 	snowballs_upsized_stack = 64
 	#New stack size for banner patterns; default is 4.
 	#Range: 1 ~ 64
-	banner_patterns_upsized_stack = 64
+	banner_patterns_upsized_stack = 16
 
 [storage]
 	#New storage stack for tools; default is 1.
 	#Range: 1 ~ 64
 	tools_storage_stack = 1
-	#New storage stack for beds; default is 1.
+	#New storage stack for empty shulker boxes; default is 1.
+	#Range: 1 ~ 64
+	shulkerboxes_storage_stack = 1
+	#New storage stack for beds; default is 4.
 	#Range: 1 ~ 64
 	beds_storage_stack = 64
 	#New storage stack for empty minecarts; default is 4.
@@ -112,22 +119,22 @@
 	boats_storage_stack = 64
 	#New storage stack for writable books; default is 16.
 	#Range: 1 ~ 64
-	writable_books_storage_stack = 64
+	writable_books_storage_stack = 16
 	#New storage stack for saddles; default is 16.
 	#Range: 1 ~ 64
 	saddles_storage_stack = 64
 	#New storage stack for potion bottles; default is 4.
 	#Range: 1 ~ 64
-	potions_storage_stack = 64
+	potions_storage_stack = 4
 	#New storage stack for filled lava buckets; default is 1.
 	#Range: 1 ~ 64
 	lava_buckets_storage_stack = 1
 	#New storage stack for horse armor; default is 16.
 	#Range: 1 ~ 64
 	horse_armor_storage_stack = 64
-	#New storage stack for stews and soups; default is 1.
+	#New storage stack for stews and soups; default is 16.
 	#Range: 1 ~ 64
-	stews_storage_stack = 1
+	stews_storage_stack = 64
 	#New storage stack for weapons; default is 1.
 	#Range: 1 ~ 64
 	weapons_storage_stack = 1
@@ -143,5 +150,5 @@
 
 [integration]
 	#Set to the fully qualified item or block names with stack sizes mappings for additional up-sized objects. The expected format for each string is NAME=MAXSTACK.
-	other_maxstack_sizes = ["minecraft:totem_of_undying=64", "minecraft:shulker_box=64", "minecraft:chest_minecart=64", "minecraft:furnace_minecart=64", "minecraft:tnt_minecart=64", "minecraft:hopper_minecart=64", "minecraft:command_block_minecart=64", "minecraft:white_shulker_box=64", "minecraft:orange_shulker_box=64", "minecraft:magenta_shulker_box=64", "minecraft:light_blue_shulker_box=64", "minecraft:yellow_shulker_box=64", "minecraft:lime_shulker_box=64", "minecraft:pink_shulker_box=64", "minecraft:gray_shulker_box=64", "minecraft:light_gray_shulker_box=64", "minecraft:cyan_shulker_box=64", "minecraft:purple_shulker_box=64", "minecraft:blue_shulker_box=64", "minecraft:brown_shulker_box=64", "minecraft:green_shulker_box=64", "minecraft:red_shulker_box=64", "minecraft:black_shulker_box=64", "ironshulkerbox:iron_shulker_box_white=64", "ironshulkerbox:iron_shulker_box_orange=64", "ironshulkerbox:iron_shulker_box_magenta=64", "ironshulkerbox:iron_shulker_box_light_blue=64", "ironshulkerbox:iron_shulker_box_yellow=64", "ironshulkerbox:iron_shulker_box_lime=64", "ironshulkerbox:iron_shulker_box_pink=64", "ironshulkerbox:iron_shulker_box_gray=64", "ironshulkerbox:iron_shulker_box_light_gray=64", "ironshulkerbox:iron_shulker_box_cyan=64", "ironshulkerbox:iron_shulker_box_purple=64", "ironshulkerbox:iron_shulker_box_blue=64", "ironshulkerbox:iron_shulker_box_brown=64", "ironshulkerbox:iron_shulker_box_green=64", "ironshulkerbox:iron_shulker_box_red=64", "ironshulkerbox:iron_shulker_box_black=64", "ironshulkerbox:gold_shulker_box_white=64", "ironshulkerbox:gold_shulker_box_orange=64", "ironshulkerbox:gold_shulker_box_magenta=64", "ironshulkerbox:gold_shulker_box_light_blue=64", "ironshulkerbox:gold_shulker_box_yellow=64", "ironshulkerbox:gold_shulker_box_lime=64", "ironshulkerbox:gold_shulker_box_pink=64", "ironshulkerbox:gold_shulker_box_gray=64", "ironshulkerbox:gold_shulker_box_light_gray=64", "ironshulkerbox:gold_shulker_box_cyan=64", "ironshulkerbox:gold_shulker_box_purple=64", "ironshulkerbox:gold_shulker_box_blue=64", "ironshulkerbox:gold_shulker_box_brown=64", "ironshulkerbox:gold_shulker_box_green=64", "ironshulkerbox:gold_shulker_box_red=64", "ironshulkerbox:gold_shulker_box_black=64", "ironshulkerbox:diamond_shulker_box_white=64", "ironshulkerbox:diamond_shulker_box_orange=64", "ironshulkerbox:diamond_shulker_box_magenta=64", "ironshulkerbox:diamond_shulker_box_light_blue=64", "ironshulkerbox:diamond_shulker_box_yellow=64", "ironshulkerbox:diamond_shulker_box_lime=64", "ironshulkerbox:diamond_shulker_box_pink=64", "ironshulkerbox:diamond_shulker_box_gray=64", "ironshulkerbox:diamond_shulker_box_light_gray=64", "ironshulkerbox:diamond_shulker_box_cyan=64", "ironshulkerbox:diamond_shulker_box_purple=64", "ironshulkerbox:diamond_shulker_box_blue=64", "ironshulkerbox:diamond_shulker_box_brown=64", "ironshulkerbox:diamond_shulker_box_green=64", "ironshulkerbox:diamond_shulker_box_red=64", "ironshulkerbox:diamond_shulker_box_black=64", "ironshulkerbox:obsidian_shulker_box_white=64", "ironshulkerbox:obsidian_shulker_box_orange=64", "ironshulkerbox:obsidian_shulker_box_magenta=64", "ironshulkerbox:obsidian_shulker_box_light_blue=64", "ironshulkerbox:obsidian_shulker_box_yellow=64", "ironshulkerbox:obsidian_shulker_box_lime=64", "ironshulkerbox:obsidian_shulker_box_pink=64", "ironshulkerbox:obsidian_shulker_box_gray=64", "ironshulkerbox:obsidian_shulker_box_light_gray=64", "ironshulkerbox:obsidian_shulker_box_cyan=64", "ironshulkerbox:obsidian_shulker_box_purple=64", "ironshulkerbox:obsidian_shulker_box_blue=64", "ironshulkerbox:obsidian_shulker_box_brown=64", "ironshulkerbox:obsidian_shulker_box_green=64", "ironshulkerbox:obsidian_shulker_box_red=64", "ironshulkerbox:obsidian_shulker_box_black=64", "ironshulkerbox:crystal_shulker_box_white=64", "ironshulkerbox:crystal_shulker_box_orange=64", "ironshulkerbox:crystal_shulker_box_magenta=64", "ironshulkerbox:crystal_shulker_box_light_blue=64", "ironshulkerbox:crystal_shulker_box_yellow=64", "ironshulkerbox:crystal_shulker_box_lime=64", "ironshulkerbox:crystal_shulker_box_pink=64", "ironshulkerbox:crystal_shulker_box_gray=64", "ironshulkerbox:crystal_shulker_box_light_gray=64", "ironshulkerbox:crystal_shulker_box_cyan=64", "ironshulkerbox:crystal_shulker_box_purple=64", "ironshulkerbox:crystal_shulker_box_blue=64", "ironshulkerbox:crystal_shulker_box_brown=64", "ironshulkerbox:crystal_shulker_box_green=64", "ironshulkerbox:crystal_shulker_box_red=64", "ironshulkerbox:crystal_shulker_box_black=64"]
+	other_maxstack_sizes = ["minecraft:totem_of_undying=1", "minecraft:shulker_box=1"]
 

@@ -1,0 +1,11 @@
+
+[General]
+	#If enabled, the looting enchant has a chance to increase the quantity of loot dropped. Per level a roll is done with the chance from 'lootingEnchantExtraQuantityChancePerLevel'. If the roll succeeds, 1 is added to the loot amount.
+	lootingEnchantAffectsQuantity = true
+	#Determines the amount of loot dropped by each mob.
+	#Range: 1 ~ 128
+	lootQuantity = 1
+	#The chance a roll succeeds in adding 1 to the total loot amount.
+	#Range: 0.0 ~ 1.0
+	lootingEnchantExtraQuantityChance = 0.5
+

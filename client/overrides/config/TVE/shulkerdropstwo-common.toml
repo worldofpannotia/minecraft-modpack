@@ -1,0 +1,8 @@
+
+[General]
+	#Sets the amount of shells Shulkers drop.
+	#Range: 1 ~ 64
+	shulkerDropAmount = 2
+	#Ignore the drop chance (default 50%) that a Shulker will drop their shell and instead makes them always drop it.
+	alwaysDropShells = false
+

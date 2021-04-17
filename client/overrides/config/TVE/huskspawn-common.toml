@@ -1,0 +1,6 @@
+
+[General]
+	#The chance a zombie that has spawned is of the husk variant.
+	#Range: 0.0 ~ 1.0
+	chanceZombieIsHusk = 0.15
+

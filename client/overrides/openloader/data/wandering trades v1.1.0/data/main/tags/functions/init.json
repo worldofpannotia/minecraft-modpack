@@ -1,7 +1,0 @@
-{
-    "values": [
-        "main:init",
-        "wt:init",
-        "math:math_init"
-    ]
-}

@@ -1,0 +1,6 @@
+
+[General]
+	#The chance a skeleton that has spawned is of the stray variant.
+	#Range: 0.0 ~ 1.0
+	chanceSkeletonIsStray = 0.25
+

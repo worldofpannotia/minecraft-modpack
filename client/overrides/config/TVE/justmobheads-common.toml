@@ -1,0 +1,17 @@
+
+[General]
+	#If enabled, overrides the 'overallDropChance' variable with the specific values.
+	mobSpecificDropChances = true
+	#If enabled, allows Creepers, Skeletons and Zombies to drop their heads.
+	enableStandardHeads = false
+	#Sets head drop chance for Zombies, Skeletons and Creepers if 'enableStandardHeads' is enabled.
+	#Range: 1.0E-4 ~ 1.0
+	creeperSkeletonZombieDropChance = 0.1
+	#If enabled, only adult tameable mobs will have a chance to drop their head on death.
+	onlyAdultMobsDropTheirHead = true
+	#If enabled, the looting enchant will have an effect on the drop chance.
+	enableLootingEnchant = true
+	#Sets the chance of a mob dropping its head if 'mobSpecificDropChances' is disabled.
+	#Range: 1.0E-4 ~ 1.0
+	overallDropChance = 0.1
+

@@ -7,5 +7,5 @@
 	random_enchantment = false
 	#Relative scale of how much XP the disenchanter costs to use (lower requires less XP)
 	#Range: 1 ~ 10
-	xp_cost = 2
+	xp_cost = 1
 

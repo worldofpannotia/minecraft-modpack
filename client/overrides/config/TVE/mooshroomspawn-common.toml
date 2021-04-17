@@ -1,0 +1,6 @@
+
+[General]
+	#The chance a cow that has spawned is of the mooshroom variant.
+	#Range: 0.0 ~ 1.0
+	chanceCowIsMooshroom = 0.05
+

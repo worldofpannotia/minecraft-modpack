@@ -1,0 +1,10 @@
+
+[General]
+	#The default time in ticks when you can sleep is ~12540. The default Sleep Sooner mod value is 12000.
+	#Range: 0 ~ 24000
+	whenSleepIsPossibleInTicks = 12000
+	#Allows you to disable/enable the message you receive before sleeping. You still need to click the bed twice if the current time is below 12540.
+	enablePreSleepMessage = true
+	#Allows you to disable/enable the Sleep Sooner mod.
+	_enableSleepSooner = true
+
