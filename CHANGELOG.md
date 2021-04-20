@@ -1,3 +1,64 @@
+### 2021-04-19 (8.0.0-rc.0)
+#### Config Changes
+* Removed a bunch of wool dyeing recipes made redundant by our custom ones
+
+#### Updated Mods
+* Architectury API (Forge): 1.11.144 -> 1.12.145
+* Bundles Plus: 0.1.6 -> 0.1.8
+* Controlling: 7.0.0.14 -> 7.0.0.15
+* CraftTweaker: 7.1.0.208 -> 7.1.0.216
+* DisenchantingForge: 1.7.0 -> 1.7.1
+* Just Enough Items (JEI): 7.6.4.86 -> 7.6.4.88
+* Placebo: 4.4.1 -> 4.4.2
+* Trash Cans: 1.0.8 -> 1.0.9
+
+#### Added Mods
+* Advancement Screenshot (by Serilum)
+* Areas (by Serilum)
+* Better Beacon Placement (by Serilum)
+* Better Conduit Placement (by Serilum)
+* Better Spawner Control (by Serilum)
+* Bigger Sponge Absorption Radius (by Serilum)
+* Chunk-Pregenerator (by Speiger)
+* Conduits Prevent Drowned (by Serilum)
+* Cycle Paintings (by Serilum)
+* Death Backup (by Serilum)
+* Dismount Entity (by Serilum)
+* Dragon Drops Elytra (by Serilum)
+* Easy Elytra Takeoff (by Serilum)
+* Enchanting Commands (by Serilum)
+* Extended Bone Meal (by Serilum)
+* Fixed Anvil Repair Cost (by Serilum)
+* Grass Seeds (by Serilum)
+* Hand Over Your Items (by Serilum)
+* Ice Prevents Crop Growth (by Serilum)
+* Infinite Trading (by Serilum)
+* Inventory Totem (by Serilum)
+* Just Mob Heads (by Serilum)
+* Just Player Heads (by Serilum)
+* Move Boats (by Serilum)
+* Move Minecarts (by Serilum)
+* Name Tag Tweaks (by Serilum)
+* Omega Mute (by Serilum)
+* Placeable Blaze Rods (by Serilum)
+* Quick Paths (by Serilum)
+* Rain Be Gone Ritual (by Serilum)
+* Random Bone Meal Flowers (by Serilum)
+* Random Village Names (by Serilum)
+* Respawning Shulkers (by Serilum)
+* Scaffolding Drops Nearby (by Serilum)
+* Shulker Drops Two (by Serilum)
+* Smaller Nether Portals (by Serilum)
+* Softer Hay Bales (by Serilum)
+* Superflat World No Slimes (by Serilum)
+* Underwater Enchanting (by Serilum)
+* Villager Names (by Serilum)
+* Wool Tweaks (by Serilum)
+* Zombie Villagers From Spawner (by Serilum)
+
+#### Removed Mods
+* The Vanilla Experience (by Serilum)
+
 ### 2020-07-15 (7.4.1)
 #### Updated Mods
 * Refined Storage: 1.8.7 -> 1.8.8

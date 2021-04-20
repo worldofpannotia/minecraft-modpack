@@ -2,7 +2,7 @@
 ["Drop rates"]
 	#Drop chance for monster eggs. Value in percentage (%) ranging from 0 - 100. Default is 4.
 	#Range: 0.0 ~ 100.0
-	monster_egg_drop_chance = 0.1
+	monster_egg_drop_chance = 1.0
 
 ["Monster Spawner"]
 	#Disable/Eanble the Range option.
