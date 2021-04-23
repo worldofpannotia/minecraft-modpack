@@ -1,4 +1,24 @@
 val strng=<tag:items:forge:string>;
+val dirt=<item:minecraft:dirt>;
+val coarseDirt=<item:minecraft:coarse_dirt>;
+val clay=<item:minecraft:clay>;
+val clayBall=<item:minecraft:clay_ball>;
+
+# Allow fermented spider eyes to be crafted with any mushroom, not just brown ones
+craftingTable.removeByName("minecraft:fermented_spider_eye");
+craftingTable.addShapeless("universal_fermented_spider_eye", <item:minecraft:fermented_spider_eye>, [<item:minecraft:sugar>, <item:minecraft:spider_eye>, <tag:items:forge:mushrooms>], null);
+
+# Make clay craftable
+craftingTable.addShaped("clay_from_dirt", clayBall * 9, [
+    [dirt, dirt, dirt],
+    [clayBall, <tag:items:forge:buckets/water>, clayBall],
+    [dirt, dirt, dirt]
+]);
+craftingTable.addShaped("clay_blocks_from_coarse_dirt", clay * 9, [
+    [coarseDirt, coarseDirt, coarseDirt],
+    [clay, <tag:items:forge:buckets/water>, clay],
+    [coarseDirt, coarseDirt, coarseDirt]
+]);
 
 # Re-add string-to-wool recipe
 craftingTable.addShaped("string_to_wool", <item:minecraft:white_wool>, [[strng, strng], [strng, strng]]);

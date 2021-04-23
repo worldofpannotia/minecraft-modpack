@@ -20,7 +20,7 @@ displayTooLargePackets = true
 		meanTickEvent = 60
 		#Enables debug log output for lagging event subscribers, default = false
 		eventDebugOutput = true
-		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: true
+		#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: false
 		eventLoadBalancing = false
 
 	# Load balancing is a mechanic which profiles and throttles down lagging entities, tileentities and event subscribers.
