@@ -1,3 +1,27 @@
+### 2021-04-22 (8.0.0-rc.1)
+#### Config Changes
+* Add recipe to craft clay from dirt and water (hint: try more than one kind of dirt for different effects)
+* Allow void totem to be used from your inventory instead of requiring it to be in one of your hands
+* Allow fermented spider eyes to be crafted with any mushroom, not just brown ones
+
+#### Updated Mods
+* Alex's Mobs: 1.9.0 -> 1.9.1
+* Collective: 2.25 -> 2.26
+* CraftTweaker: 7.1.0.216 -> 7.1.0.224
+* JEI: 7.6.4.88 -> 7.6.4.87 (downgrade to fix CurseForge weirdness)
+* Performant: 3.40m -> 3.53m
+* Quark: r2.4-310 -> r2.4-311
+* Supplementaries: 0.12.0 -> 0.12.1
+* Torchmaster: 2.3.6 -> 2.3.7
+
+#### Added Mods
+* Additional Bars: adds some more types of metal bars (originally planned for inclusion in 7.x pack version)
+* Building Gadgets: super-handy gadgets to help with building
+* Cherished Worlds: lets you favorite a world so it stays at the top of your world list (client only)
+* Scuba Gear: adds scuba gear that can be obtained from drowned near underwater ruins
+* Wall-Jump!: parkour!
+
+
 ### 2021-04-19 (8.0.0-rc.0)
 #### Config Changes
 * Removed a bunch of wool dyeing recipes made redundant by our custom ones
