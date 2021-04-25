@@ -1,3 +1,31 @@
+### 2021-04-24 (8.0.0)
+#### Config Changes
+* Allow smelting rotten flesh to leather
+* Re-enable automated piglin bartering
+* Revert Ore Excavation config to default to fix lag issues
+* Slightly increase spawn rate of Quark's Ancient Tomes
+* Tweak OP enchanted book recipes to make them require some effort
+* Remove biome-specific fog effects
+* Add recipes to allow recycling armor, tools, etc
+* Make sponges and hearts of the sea craftable
+
+#### Updated Mods
+* CraftTweaker: 7.1.0.224 -> 7.1.0.235
+* Customizable Elytra: 1.4.2 -> 1.4.3
+* JEI: 7.6.4.88 -> 7.6.4.87 (downgrade to fix CurseForge weirdness... again)
+* Performant: 3.53m -> 3.54m
+* Random Enchants: 4.0.6 -> 4.0.7
+
+#### Added Mods
+* Bad Mobs: no content; this mod allows us to block spawns of individual mob types
+* Towers of the Wild: Breath of the Wild style towers
+* YUNG's Better Strongholds: what it says on the tin
+
+#### Removed Mods
+* Move Boats
+* Move Minecarts
+
+
 ### 2021-04-22 (8.0.0-rc.1)
 #### Config Changes
 * Add recipe to craft clay from dirt and water (hint: try more than one kind of dirt for different effects)

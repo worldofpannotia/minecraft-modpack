@@ -10,7 +10,7 @@ cd -- "$(dirname "$0")"
 
 export MCVER="@@MINECRAFT_VERSION@@"
 export JARFILE="minecraft_server.${MCVER}.jar"
-export FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@-universal.jar"
+export FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@.jar"
 
 ###################################################
 # Default arguments for JVM

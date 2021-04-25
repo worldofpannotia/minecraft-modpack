@@ -3,13 +3,13 @@
 [common]
 	#How many blocks per tick can be excavated
 	#Range: > 1
-	Speed = 16
+	Speed = 64
 	#Use alternate check for tool validity (e.g. swords on webs)
 	"Alt Tools" = false
 	#Limit excavation to standard tool types (Picks, Shoves, Axes & Shears)
 	"Only Standard Types" = false
 	#Skips spawning drops in world adding them directly to your inventory
-	"Auto Pickup" = true
+	"Auto Pickup" = false
 	#Inverts the block blacklist to function as a whitelist
 	"Invert Block Blacklist" = false
 	#Inverts the tool blacklist to function as a whitelist
@@ -39,7 +39,7 @@
 	"Block Blacklist" = []
 	#The maximum number of blocks that can be excavated at once
 	#Range: > 1
-	Limit = 64
+	Limit = 128
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 3

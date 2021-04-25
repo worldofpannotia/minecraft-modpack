@@ -3,6 +3,8 @@ val dirt=<item:minecraft:dirt>;
 val coarseDirt=<item:minecraft:coarse_dirt>;
 val clay=<item:minecraft:clay>;
 val clayBall=<item:minecraft:clay_ball>;
+val wool=<tag:items:forge:wool>;
+val nautilus=<item:minecraft:nautilus_shell>;
 
 # Allow fermented spider eyes to be crafted with any mushroom, not just brown ones
 craftingTable.removeByName("minecraft:fermented_spider_eye");
@@ -19,6 +21,25 @@ craftingTable.addShaped("clay_blocks_from_coarse_dirt", clay * 9, [
     [clay, <tag:items:forge:buckets/water>, clay],
     [coarseDirt, coarseDirt, coarseDirt]
 ]);
+
+# Craftable sponges
+craftingTable.addShaped("sponge_from_wool_and_hos", <item:minecraft:sponge> * 4, [
+    [wool, wool, wool],
+    [wool, <item:minecraft:heart_of_the_sea>, wool],
+    [wool, wool, wool]
+]);
+
+# Craftable hearts of the sea
+craftingTable.addShaped("sea_heart_from_nautilus_and_stars", <item:minecraft:heart_of_the_sea>, [
+    [nautilus, nautilus, nautilus],
+    [nautilus, <item:minecraft:nether_star>, nautilus],
+    [nautilus, nautilus, nautilus]
+]);
+
+
+# Allow smelting rotten flesh to leather
+furnace.addRecipe("smelt_rotten_flesh_to_leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 40);
+blastFurnace.addRecipe("blast_rotten_flesh_to_leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 20);
 
 # Re-add string-to-wool recipe
 craftingTable.addShaped("string_to_wool", <item:minecraft:white_wool>, [[strng, strng], [strng, strng]]);

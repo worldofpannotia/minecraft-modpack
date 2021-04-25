@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v8.0.0-rc.1](https://img.shields.io/badge/version-v8.0.0--rc.1-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
+![v8.0.0](https://img.shields.io/badge/version-v8.0.0-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is relatively stable.
 
@@ -26,6 +26,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [Autumnity (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/autumnity)
 * [Backpacked (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/backpacked)
 * [Backpacker (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/backpacker)
+* [Bad Mobs (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/bad-mobs)
 * [Bad Wither No Cookie - Reloaded (by Kreezxil)](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded)
 * [Baubley Heart Canisters (by traverse_joe)](https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters)
 * [Bayou Blues (by ex0planetary)](https://www.curseforge.com/minecraft/mc-mods/bayou-blues)
@@ -154,8 +155,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [More Jellyfish (by BlueDuckYT)](https://www.curseforge.com/minecraft/mc-mods/more-jellyfish)
 * [MoreVanillaLib (by MelanX)](https://www.curseforge.com/minecraft/mc-mods/morevanillalib)
 * [Mouse Tweaks (by YaLTeR)](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
-* [Move Boats (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/move-boats)
-* [Move Minecarts (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/move-minecarts)
 * [Name Tag Tweaks (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/name-tag-tweaks)
 * [Nature's Compass (by Chaosyr)](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 * [Neapolitan (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/neapolitan)
@@ -210,6 +209,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [Toast Control (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 * [Tool Belt (by gigaherz)](https://www.curseforge.com/minecraft/mc-mods/tool-belt)
 * [Torchmaster (by xalcon)](https://www.curseforge.com/minecraft/mc-mods/torchmaster)
+* [Towers Of The Wild (by idrae_)](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild)
 * [Trash Cans (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/trash-cans)
 * [Underwater Enchanting (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/underwater-enchanting)
 * [Upgrade Aquatic (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic)
@@ -227,6 +227,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [YUNG's API (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-api)
 * [YUNG's Better Caves (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves)
 * [YUNG's Better Mineshafts (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
+* [YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds)
 * [Zombie Villagers From Spawner (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/zombie-villagers-from-spawner)
 
 ### Issues & Suggestions

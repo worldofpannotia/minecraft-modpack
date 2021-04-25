@@ -44,26 +44,26 @@
 #Options that control the various fog effects in the client
 ["Fog Options"]
 	#Enable/disable fog processing
-	"Enable Fog Processing" = true
+	"Enable Fog Processing" = false
 	#Increase fog based on the strength of rain
-	"Weather Fog" = true
+	"Weather Fog" = false
 	#Increase fog at bedrock layers
-	"Bedrock Fog" = true
+	"Bedrock Fog" = false
 	#Chance morning fog will occurs expressed as 1 in N
 	#Range: > 0
 	"Morning Fog Chance" = 1
 	#Show morning fog that eventually burns off
-	"Morning Fog" = true
+	"Morning Fog" = false
 	#Higher the player elevation the more haze that is experienced
-	"Elevation Haze" = true
+	"Elevation Haze" = false
 	#Enable biome specific fog density and color
-	"Biome Fog" = true
+	"Biome Fog" = false
 
 #Options for defining sound behavior
 ["Sound Options"]
 	#Scaling factor to apply to waterfall sounds
 	#Range: 0 ~ 100
-	"Waterfall Volume" = 100
+	"Waterfall Volume" = 20
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
 	"Biome Sound Volume" = 100

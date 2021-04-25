@@ -2,7 +2,7 @@
 #General Configuration
 [general_configuration]
 	#Determines whether or not Piglins can only give bartering loot if the received bartering item came from a living being [true/false, default:true]
-	requireLivingForBarter = true
+	requireLivingForBarter = false
 
 #Ageable Configuration
 [ageable_configuration]

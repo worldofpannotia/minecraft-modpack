@@ -4,7 +4,7 @@
 	"Advancement Visibility Depth" = 2
 	"'q' Button on the Right" = false
 	#Allowed values: (0,)
-	"Piston Push Limit" = 24
+	"Piston Push Limit" = 12
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
 	"Enable 'q' Button" = true
@@ -29,7 +29,7 @@
 	Automation = true
 	Oddities = true
 	Tweaks = true
-	Experimental = false
+	Experimental = true
 	Mobs = true
 	Tools = true
 	Management = true
@@ -259,7 +259,7 @@
 
 	[tools.ancient_tomes]
 		#Set to 0 to not generate in Underwater Ruins
-		"Underwater Ruin Weight" = 0
+		"Underwater Ruin Weight" = 2
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
@@ -270,7 +270,7 @@
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#Set to 0 to not generate in Nether Fortresses
-		"Nether Fortress Weight" = 0
+		"Nether Fortress Weight" = 5
 		#Set to 0 to not generate in Bastions
 		"Bastion Weight" = 25
 		#Set to 0 to not generate in Monster Boxes
@@ -399,7 +399,7 @@
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
 		#Can any wool color be dyed?
-		"Dye Any Wool" = false
+		"Dye Any Wool" = true
 		#Can Coral be crafted into dye?
 		"Coral To Dye" = true
 		#Can torches can be used as fuel in furnaces?
@@ -423,7 +423,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 0.01
+		"Percent Req" = 1.0
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -495,7 +495,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.3
+		"Chance Per Chunk" = 0.8
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
@@ -505,7 +505,7 @@
 		"Search Range" = 6
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -545,7 +545,7 @@
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.speleothems]
@@ -585,7 +585,7 @@
 				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.spiral_spires]
@@ -676,7 +676,7 @@
 		"Enable Brewing" = true
 
 		[world.cave_roots.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
@@ -700,7 +700,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.marble.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.limestone]
@@ -716,7 +716,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.limestone.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.myalite]
@@ -764,7 +764,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.slate.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.jasper]
@@ -780,7 +780,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.jasper.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.spider_nest_underground_biome]
@@ -810,7 +810,7 @@
 				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.blossom_trees]
@@ -925,11 +925,11 @@
 				"Is Blacklist" = true
 
 			[world.mega_caves.spawn_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.mega_caves.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.elder_prismarine_underground_biome]
@@ -962,7 +962,7 @@
 				"Is Blacklist" = false
 
 			[world.elder_prismarine_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.glowshroom_underground_biome]
@@ -997,7 +997,7 @@
 				"Is Blacklist" = false
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.big_stone_clusters]
@@ -1030,7 +1030,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.marble.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.limestone]
@@ -1058,7 +1058,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.limestone.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.granite]
@@ -1086,7 +1086,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.granite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.myalite]
@@ -1165,7 +1165,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.andesite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.slate]
@@ -1193,7 +1193,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.slate.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.diorite]
@@ -1221,7 +1221,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.diorite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.jasper]
@@ -1249,7 +1249,7 @@
 				"Is Blacklist" = false
 
 			[world.big_stone_clusters.jasper.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -1278,7 +1278,7 @@
 				"Is Blacklist" = false
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.permafrost_underground_biome]
@@ -1307,7 +1307,7 @@
 				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.lush_underground_biome]
@@ -1336,7 +1336,7 @@
 				"Is Blacklist" = false
 
 			[world.lush_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.brimstone_underground_biome]
@@ -1365,7 +1365,7 @@
 				"Is Blacklist" = false
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.big_dungeon]
@@ -1405,7 +1405,7 @@
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
@@ -1444,7 +1444,7 @@
 				"Is Blacklist" = false
 
 			[world.slime_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 [mobs]
@@ -1475,7 +1475,7 @@
 				"Is Blacklist" = true
 
 		[mobs.toretoise.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.crabs]
@@ -1567,7 +1567,7 @@
 				"Is Blacklist" = true
 
 		[mobs.stonelings.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.forgotten]
@@ -1657,15 +1657,15 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Backpack = false
+	Backpack = true
 	Crate = false
-	"Matrix Enchanting" = false
-	Magnets = false
-	Pipes = false
+	"Matrix Enchanting" = true
+	Magnets = true
+	Pipes = true
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = false
+		"Dark Souls Mode" = true
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false

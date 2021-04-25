@@ -17,16 +17,20 @@ cp -r ./client/* ./tmp/client/;
 cat ./tmp/client/manifest.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/client/manifest.json;
 rm ./tmp/client/manifest.tpl.json;
 
-# mkdir -p tmp/server;
-# cp -r ./tmp/client/overrides/* ./tmp/server/;
-# cp -r ./server/* ./tmp/server/;
-# cat ./tmp/server/start.tpl.sh | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@MINECRAFT_LAUNCHER_VERSION@@/${MINECRAFT_LAUNCHER_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/start.sh;
-# rm ./tmp/server/start.tpl.sh;
-# cat ./tmp/server/version.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/version.json;
-# rm ./tmp/server/version.tpl.json;
-# 
-# mkdir -p "./tmp/server/libraries/${LAUNCH_WRAPPER_DIR}";
-# 
-# curl -o "./tmp/server/${MINECRAFT_JAR}" "https://s3.amazonaws.com/Minecraft.Download/versions/${MINECRAFT_VERSION}/${MINECRAFT_JAR}";
-# curl -o "./tmp/server/${FORGE_JAR}" "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${MINECRAFT_VERSION}-${FORGE_VERSION}/${FORGE_JAR}";
-# curl -o "./tmp/server/libraries/${LAUNCH_WRAPPER}" "https://libraries.minecraft.net/${LAUNCH_WRAPPER}";
+mkdir -p tmp/server;
+cp -r ./tmp/client/overrides/* ./tmp/server/;
+cp -r ./server/* ./tmp/server/;
+cat ./tmp/server/start.tpl.sh | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@MINECRAFT_LAUNCHER_VERSION@@/${MINECRAFT_LAUNCHER_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/start.sh;
+rm ./tmp/server/start.tpl.sh;
+cat ./tmp/server/version.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/server/version.json;
+rm ./tmp/server/version.tpl.json;
+curl -o "./tmp/server/forge-installer.jar" "https://maven.minecraftforge.net/net/minecraftforge/forge/${MINECRAFT_VERSION}-${FORGE_VERSION}/forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-installer.jar";
+
+cd ./tmp/server
+java -jar forge-installer.jar --installServer
+rm forge-installer.jar
+rm forge-installer.jar.log
+
+cd ../..
+mkdir -p tmp/server/mods;
+node download-mods.mjs
