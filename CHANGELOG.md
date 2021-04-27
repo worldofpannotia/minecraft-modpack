@@ -1,3 +1,32 @@
+### 2021-04-26 (8.1.0)
+
+#### Config Changes
+* Backpack: moar slotz
+* Backpacker: slot tweakz
+* FTB Chunks: increased limit of chunks you can force load from 25 to 50 (still try not to load more than necessary)
+* FTB Chunks: disabled claim protection; now claiming chunks is solely for the purpose of force loading them
+* Paraglider: no longer uses stamina
+* Waystones: no longer need to be in creative to make a waystone global
+
+#### Recipe Changes
+* Flint can be crafted from 3 gravel
+* Wheat can now be converted to seeds
+* You can now get 16 sticks from 2 logs (skipping planks step)
+
+#### Updated Mods
+* Backpacked: 1.9.0 -> 1.9.1
+* CraftTweaker: 7.1.0.235 -> 7.1.0.246
+* Curious Armor Stands: 2.0.2 -> 2.1.0
+* Dynamic Surroundings: 4.0.4.1 -> 4.0.4.2
+
+#### Added Mods
+* Extreme Sound Muffler (client only)
+* Iron Shulker Boxes
+
+#### Removed Mods
+* Carry On
+
+
 ### 2021-04-24 (8.0.0)
 #### Config Changes
 * Allow smelting rotten flesh to leather

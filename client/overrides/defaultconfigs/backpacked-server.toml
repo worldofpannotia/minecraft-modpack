@@ -1,0 +1,6 @@
+
+#Common configuration settings
+[common]
+	#A list of items that are not allowed inside a backpack. Note: It is recommended to ban items that have an inventory as this will create large NBT data and potentially crash the server!
+	bannedItems = []
+

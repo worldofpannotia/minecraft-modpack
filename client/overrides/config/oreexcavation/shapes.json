@@ -74,6 +74,36 @@
         "OOXOO",
         "OOOOO"
       ]
+    },
+    {
+      "name": "Big Stairs Down",
+      "depth": -1,
+      "reverse": 0,
+      "reticle": 22,
+      "stride": 1,
+      "elevation": -1,
+      "mask": [
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO"
+      ]
+    },
+    {
+      "name": "1x3",
+      "depth": 0,
+      "reverse": 0,
+      "reticle": 12,
+      "stride": 0,
+      "elevation": 0,
+      "mask": [
+        "OOOOO",
+        "OOOOO",
+        "OXXXO",
+        "OOOOO",
+        "OOOOO"
+      ]
     }
   ]
 }

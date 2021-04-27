@@ -5,17 +5,7 @@ MINECRAFT_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*MC Versi
 MINECRAFT_LAUNCHER_VERSION=`echo $MINECRAFT_VERSION | sed -e 's/^\([0-9.]*\)\.[0-9]*$/\1/'`;
 FORGE_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*Forge Version \([0-9.]*\).*/\1/g'`;
 
-MINECRAFT_JAR="minecraft_server.${MINECRAFT_VERSION}.jar";
-FORGE_JAR="forge-${MINECRAFT_VERSION}-${FORGE_VERSION}-universal.jar";
-LAUNCH_WRAPPER_DIR="net/minecraft/launchwrapper/${MINECRAFT_LAUNCHER_VERSION}";
-LAUNCH_WRAPPER="${LAUNCH_WRAPPER_DIR}/launchwrapper-${MINECRAFT_LAUNCHER_VERSION}.jar"
-
-rm -rf ./tmp;
-
-mkdir -p tmp/client;
-cp -r ./client/* ./tmp/client/;
-cat ./tmp/client/manifest.tpl.json | sed -e "s/@@VERSION@@/${VERSION}/" | sed -e "s/@@MINECRAFT_VERSION@@/${MINECRAFT_VERSION}/" | sed -e "s/@@FORGE_VERSION@@/${FORGE_VERSION}/" > ./tmp/client/manifest.json;
-rm ./tmp/client/manifest.tpl.json;
+rm -rf ./tmp/server;
 
 mkdir -p tmp/server;
 cp -r ./tmp/client/overrides/* ./tmp/server/;

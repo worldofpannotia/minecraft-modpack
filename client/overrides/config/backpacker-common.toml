@@ -8,5 +8,5 @@
 	rucksackInventorySize = 2
 	#The amount of rows in the nethersack inventory. Each row is nine slots of storage.
 	#Range: 1 ~ 6
-	nethersackInventorySize = 5
+	nethersackInventorySize = 6
 

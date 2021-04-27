@@ -5,5 +5,5 @@
 	keepBackpackOnDeath = false
 	#The amount of rows the backpack has. Each row is nine slots of storage.
 	#Range: 1 ~ 6
-	backpackInventorySize = 1
+	backpackInventorySize = 3
 

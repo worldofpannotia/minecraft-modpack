@@ -9,6 +9,7 @@ const clientModIds = [
     308240, // Cherished Worlds
     250398, // Controlling
     238891, // Dynamic Surroundings
+    363363, // Extreme Sound Muffler
     422719, // EZZoom
     261725, // Item Zoom
     325492, // Light Overlay

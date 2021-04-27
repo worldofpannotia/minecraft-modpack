@@ -1,10 +1,10 @@
 ## World of Pannotia Minecraft Modpack
 
-![v8.0.0](https://img.shields.io/badge/version-v8.0.0-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
+![v8.1.0](https://img.shields.io/badge/version-v8.1.0-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is relatively stable.
 
-The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](https://www.curseforge.com/minecraft/modpacks/crucial-2). It will contain many of the same mods as Crucial 2 with several of our own tweaks and additions. It is meant to be mostly a vanilla+ experience. We have added a few storage mods, some lifestyle enhancements, and the amazing "Create" mod for automation 'vanilla-style'.
+The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](https://www.curseforge.com/minecraft/modpacks/crucial-2). It will contain many of the same mods as Crucial 2 with several of our own tweaks and additions. It is meant to be mostly a vanilla+ experience. We have added a few storage mods, some lifestyle enhancements, and the amazing "Create" mod for automation 'vanilla-style'.
 
 ### Included Mods
 
@@ -45,7 +45,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [Bundles Plus (by adox123)](https://www.curseforge.com/minecraft/mc-mods/bundles-plus)
 * [Buzzier Bees (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/buzzier-bees)
 * [Caelus API (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/caelus)
-* [Carry On (by Tschipp)](https://www.curseforge.com/minecraft/mc-mods/carry-on)
 * [Charcoal Block (by bl4ckscor3)](https://www.curseforge.com/minecraft/mc-mods/sbm-charcoal-block)
 * [Charm Reforged (by svenhjol)](https://www.curseforge.com/minecraft/mc-mods/charm-reforged)
 * [Charmonium Reforged (by svenhjol)](https://www.curseforge.com/minecraft/mc-mods/charmonium-reforged)
@@ -96,6 +95,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [Environmental (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/environmental)
 * [Extended Bone Meal (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal)
 * [Extra Boats (by TeamAbnormals)](https://www.curseforge.com/minecraft/mc-mods/extra-boats)
+* [Extreme sound muffler (Forge) (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
 * [EzZoom (by JTK222)](https://www.curseforge.com/minecraft/mc-mods/ezzoom)
 * [FTB Backups (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-backups)
 * [FTB Chunks (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks)
@@ -126,6 +126,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vaskii](h
 * [Iron Age Furniture (by SkyBlade1978)](https://www.curseforge.com/minecraft/mc-mods/ironagefurniture)
 * [Iron Chests (by ProgWML6)](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
 * [Iron Furnaces (by XenoMustache)](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces)
+* [Iron Shulker Boxes (by ProgWML6)](https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes)
 * [ItemZoom (by mezz)](https://www.curseforge.com/minecraft/mc-mods/itemzoom)
 * [JEITweaker (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/jeitweaker)
 * [Jade 🔍 (by Snownee_)](https://www.curseforge.com/minecraft/mc-mods/jade)

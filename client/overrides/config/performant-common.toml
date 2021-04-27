@@ -92,6 +92,9 @@ displayTooLargePackets = true
 	cacheRecipes = true
 	#Enable fast spawn radius check, this makes entity spawn mechanics lag less. default = true
 	fastSpawnRadius = true
+	#Set how many scheduled blocks are updated each tick, scheduled block updates are for example fluid flowing. default = 1000, vanilla default = 65536
+	#Range: 1 ~ 65536
+	blockTicks = 3000
 	#Enable fast chunk save, unmodified chunks are saved a lot faster and cause less lag when saving to disk. default = true
 	fastChunkSave = true
 	#Enable FPS improvements, default = true

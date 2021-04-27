@@ -10,6 +10,18 @@ val nautilus=<item:minecraft:nautilus_shell>;
 craftingTable.removeByName("minecraft:fermented_spider_eye");
 craftingTable.addShapeless("universal_fermented_spider_eye", <item:minecraft:fermented_spider_eye>, [<item:minecraft:sugar>, <item:minecraft:spider_eye>, <tag:items:forge:mushrooms>], null);
 
+# Allow converting wheat to seeds
+craftingTable.addShapeless("wheat_to_seeds", <item:minecraft:wheat_seeds> * 2, [<tag:items:forge:crops/wheat>]);
+
+# Make flint craftable from 3 gravel
+craftingTable.addShapeless("gravel_to_flint", <item:minecraft:flint>, [<tag:items:forge:gravel>, <tag:items:forge:gravel>, <tag:items:forge:gravel>]);
+
+# 2 logs -> 16 sticks shortcut recipe
+craftingTable.addShaped("logs_to_sticks", <item:minecraft:stick> * 16, [
+    [<tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>]
+]);
+
 # Make clay craftable
 craftingTable.addShaped("clay_from_dirt", clayBall * 9, [
     [dirt, dirt, dirt],

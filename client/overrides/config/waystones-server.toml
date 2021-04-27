@@ -70,7 +70,7 @@
 	#These options apply to the global waystones.
 	[server.globalWaystones]
 		#Set to false to allow non-creative players to make waystones globally activated for all players.
-		globalWaystoneRequiresCreative = true
+		globalWaystoneRequiresCreative = false
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 0.0
