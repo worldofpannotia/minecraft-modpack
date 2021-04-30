@@ -1,3 +1,4 @@
+#snip modnotloaded caverns_and_chasms
 # caverns_and_chasms:cobblestone_tile_stairs
 craftingTable.removeRecipe(<item:caverns_and_chasms:cobblestone_tile_stairs>);
 craftingTable.addShaped("caverns_and_chasms_cobblestone_tile_stairs_8x", <item:caverns_and_chasms:cobblestone_tile_stairs> * 8, [
@@ -45,3 +46,4 @@ craftingTable.addShaped("caverns_and_chasms_sugilite_brick_stairs_8x", <item:cav
     [<item:caverns_and_chasms:sugilite_bricks>, <item:caverns_and_chasms:sugilite_bricks>],
     [<item:caverns_and_chasms:sugilite_bricks>, <item:caverns_and_chasms:sugilite_bricks>, <item:caverns_and_chasms:sugilite_bricks>]
 ]);
+#snip end

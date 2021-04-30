@@ -1,3 +1,27 @@
+### Upcoming
+
+#### Config Changes
+
+#### Recipe Changes
+* Added recipes to convert stairs back into their original blocks
+* Added recipes to convert Baubley Heart Canisters to from Nether Extension ones
+* Removed overlapping wool dyeing recipes from Quark
+
+#### Updated Mods
+* Additional Bars: 2.0.2 -> 2.0.3
+* Backpacked: 1.9.1 -> 1.10.0
+* CraftTweaker: 7.1.0.246 -> 7.1.0.252
+* Cyclops Core: 1.11.5 -> 1.11.6
+* Global XP: 1.7.1 -> 1.8
+* Snow! Real Magic!: 2.5.5 -> 2.5.6
+
+#### Added Mods
+* Lava Clear View
+* LavaSponge
+* Raw Ores Mod
+
+#### Removed Mods
+
 ### 2021-04-26 (8.1.0)
 
 #### Config Changes

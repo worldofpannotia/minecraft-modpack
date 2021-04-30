@@ -56,6 +56,18 @@ blastFurnace.addRecipe("blast_rotten_flesh_to_leather", <item:minecraft:leather>
 # Re-add string-to-wool recipe
 craftingTable.addShaped("string_to_wool", <item:minecraft:white_wool>, [[strng, strng], [strng, strng]]);
 
+#snip modnotloaded nether_extension
+# Allow converting between BHC and Nether Extension wither bones
+craftingTable.addShapeless("bhc_ne_wither_bone", <item:nether_extension:wither_bone>, [<item:bhc:wither_bone>]);
+craftingTable.addShapeless("ne_bhc_wither_bone", <item:bhc:wither_bone>, [<item:nether_extension:wither_bone>]);
+#snip end
+
+#snip modnotloaded caverns_and_chasms
+# Allow converting between Charm and Caverns and Chasms' gold lanterns
+craftingTable.addShapeless("ch_cnc_gold_lantern", <item:caverns_and_chasms:golden_lantern>, [<item:charm:gold_lantern>]);
+craftingTable.addShapeless("cnc_ch_gold_lantern", <item:charm:gold_lantern>, [<item:caverns_and_chasms:golden_lantern>]);
+#snip end
+
 # Allow converting Quark's chests to vanilla ones
 craftingTable.addShapeless("shapeless_oak_chest_to_chest", <item:minecraft:chest>, [<item:quark:oak_chest>], null);
 craftingTable.addShapeless("shapeless_spruce_chest_to_chest", <item:minecraft:chest>, [<item:quark:spruce_chest>], null);

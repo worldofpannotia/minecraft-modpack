@@ -1,3 +1,4 @@
+#snip modnotloaded nether_extension
 # nether_extension:ashen_nether_brick_stairs
 craftingTable.removeRecipe(<item:nether_extension:ashen_nether_brick_stairs>);
 craftingTable.addShaped("nether_extension_ashen_nether_brick_stairs_8x", <item:nether_extension:ashen_nether_brick_stairs> * 8, [
@@ -45,3 +46,4 @@ craftingTable.addShaped("nether_extension_warped_root_thatch_stairs_8x", <item:n
     [<item:nether_extension:warped_root_thatch>, <item:nether_extension:warped_root_thatch>],
     [<item:nether_extension:warped_root_thatch>, <item:nether_extension:warped_root_thatch>, <item:nether_extension:warped_root_thatch>]
 ]);
+#snip end
