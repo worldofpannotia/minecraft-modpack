@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:snow_slab"},
+        {"item": "ornamental:snow_slab"}
+    ],
+    "result": {
+        "item": "minecraft:snow_block"
+    }
+}

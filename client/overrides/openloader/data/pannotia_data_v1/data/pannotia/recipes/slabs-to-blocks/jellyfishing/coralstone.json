@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "jellyfishing:coralstone_slab"},
+        {"item": "jellyfishing:coralstone_slab"}
+    ],
+    "result": {
+        "item": "jellyfishing:coralstone"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:fancy_dolomite_bricks_slab"},
+        {"item": "create:fancy_dolomite_bricks_slab"}
+    ],
+    "result": {
+        "item": "create:fancy_dolomite_bricks"
+    }
+}

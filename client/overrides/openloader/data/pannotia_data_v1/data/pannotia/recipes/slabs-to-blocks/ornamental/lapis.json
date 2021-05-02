@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:lapis_slab"},
+        {"item": "ornamental:lapis_slab"}
+    ],
+    "result": {
+        "item": "minecraft:lapis_block"
+    }
+}

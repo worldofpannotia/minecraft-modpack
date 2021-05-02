@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "enhanced_mushrooms:brown_mushroom_slab"},
+        {"item": "enhanced_mushrooms:brown_mushroom_slab"}
+    ],
+    "result": {
+        "item": "enhanced_mushrooms:brown_mushroom_planks"
+    }
+}

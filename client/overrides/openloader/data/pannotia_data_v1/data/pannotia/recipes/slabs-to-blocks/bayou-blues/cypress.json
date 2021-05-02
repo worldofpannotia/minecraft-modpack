@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "bayou_blues:cypress_slab"},
+        {"item": "bayou_blues:cypress_slab"}
+    ],
+    "result": {
+        "item": "bayou_blues:cypress_planks"
+    }
+}

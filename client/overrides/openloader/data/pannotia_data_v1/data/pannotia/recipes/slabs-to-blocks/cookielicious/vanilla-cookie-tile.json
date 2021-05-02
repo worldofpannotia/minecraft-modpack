@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "cookielicious:vanilla_cookie_tile_slab"},
+        {"item": "cookielicious:vanilla_cookie_tile_slab"}
+    ],
+    "result": {
+        "item": "cookielicious:vanilla_cookie_tiles"
+    }
+}

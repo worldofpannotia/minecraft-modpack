@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "savageandravage:blast_proof_plates"
+        }
+    },
+    "result": {
+        "item": "savageandravage:blast_proof_stairs",
+        "count": 8
+    }
+}

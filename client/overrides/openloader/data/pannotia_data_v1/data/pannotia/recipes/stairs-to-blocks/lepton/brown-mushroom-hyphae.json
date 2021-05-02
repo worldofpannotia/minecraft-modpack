@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:brown_mushroom_hyphae_stairs"
+        }
+    },
+    "result": {
+        "item": "enhanced_mushrooms:brown_mushroom_hyphae",
+        "count": 3
+    }
+}

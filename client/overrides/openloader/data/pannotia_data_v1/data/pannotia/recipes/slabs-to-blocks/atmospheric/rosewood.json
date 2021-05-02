@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:rosewood_slab"},
+        {"item": "atmospheric:rosewood_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:rosewood_planks"
+    }
+}

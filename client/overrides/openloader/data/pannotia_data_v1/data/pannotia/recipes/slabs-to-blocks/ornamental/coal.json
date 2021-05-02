@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:coal_slab"},
+        {"item": "ornamental:coal_slab"}
+    ],
+    "result": {
+        "item": "minecraft:coal_block"
+    }
+}

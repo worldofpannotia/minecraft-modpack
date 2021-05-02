@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "environmental:gray_terracotta_bricks"
+        }
+    },
+    "result": {
+        "item": "environmental:gray_terracotta_brick_stairs",
+        "count": 8
+    }
+}

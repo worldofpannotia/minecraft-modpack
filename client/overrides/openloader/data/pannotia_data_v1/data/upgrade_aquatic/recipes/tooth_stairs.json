@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:tooth_tiles"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:tooth_stairs",
+        "count": 8
+    }
+}

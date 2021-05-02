@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:polished_marble_slab"},
+        {"item": "quark:polished_marble_slab"}
+    ],
+    "result": {
+        "item": "quark:polished_marble"
+    }
+}

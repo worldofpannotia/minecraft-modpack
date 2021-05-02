@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:limestone_cobblestone_stairs"
+        }
+    },
+    "result": {
+        "item": "create:limestone_cobblestone",
+        "count": 3
+    }
+}

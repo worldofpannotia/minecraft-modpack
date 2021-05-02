@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:moss_coralstone_stairs"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:moss_coralstone",
+        "count": 3
+    }
+}

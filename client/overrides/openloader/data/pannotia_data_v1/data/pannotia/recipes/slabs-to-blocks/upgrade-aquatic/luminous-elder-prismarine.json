@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "upgrade_aquatic:luminous_elder_prismarine_slab"},
+        {"item": "upgrade_aquatic:luminous_elder_prismarine_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:luminous_elder_prismarine"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "ornamental:emerald_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:emerald_block",
+        "count": 3
+    }
+}

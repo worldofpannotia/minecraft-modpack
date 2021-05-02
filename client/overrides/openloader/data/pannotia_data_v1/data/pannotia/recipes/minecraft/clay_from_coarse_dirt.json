@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "YZY",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "Y": {
+            "item": "minecraft:clay"
+        },
+        "Z": {
+            "tag": "forge:buckets/water"
+        }
+    },
+    "result": {
+        "item": "minecraft:clay",
+        "count": 9
+    }
+}

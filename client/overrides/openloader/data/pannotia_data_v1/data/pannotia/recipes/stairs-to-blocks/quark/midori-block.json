@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:midori_block_stairs"
+        }
+    },
+    "result": {
+        "item": "quark:midori_block",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:morado_planks"
+        }
+    },
+    "result": {
+        "item": "atmospheric:morado_stairs",
+        "count": 8
+    }
+}

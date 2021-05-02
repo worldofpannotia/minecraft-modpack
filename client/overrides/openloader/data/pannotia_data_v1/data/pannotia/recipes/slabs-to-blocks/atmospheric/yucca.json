@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:yucca_slab"},
+        {"item": "atmospheric:yucca_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:yucca_planks"
+    }
+}

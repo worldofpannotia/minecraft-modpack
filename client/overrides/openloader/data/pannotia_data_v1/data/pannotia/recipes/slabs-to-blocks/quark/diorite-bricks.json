@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:diorite_bricks_slab"},
+        {"item": "quark:diorite_bricks_slab"}
+    ],
+    "result": {
+        "item": "quark:diorite_bricks"
+    }
+}

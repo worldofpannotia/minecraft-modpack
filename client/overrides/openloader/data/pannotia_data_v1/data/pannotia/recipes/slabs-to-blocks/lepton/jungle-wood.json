@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:jungle_wood_slab"},
+        {"item": "lepton:jungle_wood_slab"}
+    ],
+    "result": {
+        "item": "minecraft:jungle_wood"
+    }
+}

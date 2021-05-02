@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:stripped_maple_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "autumnity:stripped_maple_wood",
+        "count": 3
+    }
+}

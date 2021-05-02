@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:aspen_slab"},
+        {"item": "atmospheric:aspen_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:aspen_planks"
+    }
+}

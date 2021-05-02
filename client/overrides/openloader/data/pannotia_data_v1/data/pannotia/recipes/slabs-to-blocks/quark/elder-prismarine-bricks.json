@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:elder_prismarine_bricks_slab"},
+        {"item": "quark:elder_prismarine_bricks_slab"}
+    ],
+    "result": {
+        "item": "quark:elder_prismarine_bricks"
+    }
+}

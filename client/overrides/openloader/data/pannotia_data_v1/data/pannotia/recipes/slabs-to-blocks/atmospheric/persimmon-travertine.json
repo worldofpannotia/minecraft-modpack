@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:persimmon_travertine_slab"},
+        {"item": "atmospheric:persimmon_travertine_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:cut_persimmon_travertine"
+    }
+}

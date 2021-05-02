@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "abundance:jacaranda_stairs"
+        }
+    },
+    "result": {
+        "item": "abundance:jacaranda_planks",
+        "count": 3
+    }
+}

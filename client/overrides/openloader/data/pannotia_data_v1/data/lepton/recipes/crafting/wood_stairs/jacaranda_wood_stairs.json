@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "abundance:jacaranda_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:jacaranda_wood_stairs",
+        "count": 8
+    }
+}

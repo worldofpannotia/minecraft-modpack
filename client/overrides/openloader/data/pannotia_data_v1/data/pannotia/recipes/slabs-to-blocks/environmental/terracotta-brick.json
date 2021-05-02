@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:terracotta_brick_slab"},
+        {"item": "environmental:terracotta_brick_slab"}
+    ],
+    "result": {
+        "item": "environmental:terracotta_bricks"
+    }
+}

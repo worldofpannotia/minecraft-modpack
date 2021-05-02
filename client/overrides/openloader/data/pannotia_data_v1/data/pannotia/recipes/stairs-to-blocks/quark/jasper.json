@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:jasper_stairs"
+        }
+    },
+    "result": {
+        "item": "quark:jasper",
+        "count": 3
+    }
+}

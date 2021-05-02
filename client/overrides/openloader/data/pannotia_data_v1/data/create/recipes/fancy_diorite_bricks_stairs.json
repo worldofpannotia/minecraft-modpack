@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:fancy_diorite_bricks"
+        }
+    },
+    "result": {
+        "item": "create:fancy_diorite_bricks_stairs",
+        "count": 8
+    }
+}

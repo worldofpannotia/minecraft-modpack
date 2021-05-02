@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:andesite_bricks_slab"},
+        {"item": "create:andesite_bricks_slab"}
+    ],
+    "result": {
+        "item": "create:andesite_bricks"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:river_planks"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:river_stairs",
+        "count": 8
+    }
+}

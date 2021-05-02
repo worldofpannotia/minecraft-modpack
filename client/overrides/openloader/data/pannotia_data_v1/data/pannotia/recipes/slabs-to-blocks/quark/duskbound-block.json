@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:duskbound_block_slab"},
+        {"item": "quark:duskbound_block_slab"}
+    ],
+    "result": {
+        "item": "quark:duskbound_block"
+    }
+}

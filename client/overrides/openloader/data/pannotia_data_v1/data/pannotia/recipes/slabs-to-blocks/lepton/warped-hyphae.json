@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:warped_hyphae_slab"},
+        {"item": "lepton:warped_hyphae_slab"}
+    ],
+    "result": {
+        "item": "minecraft:warped_hyphae"
+    }
+}

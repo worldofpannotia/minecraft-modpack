@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "better_badlands:kindling_slab"},
+        {"item": "better_badlands:kindling_slab"}
+    ],
+    "result": {
+        "item": "better_badlands:kindling"
+    }
+}

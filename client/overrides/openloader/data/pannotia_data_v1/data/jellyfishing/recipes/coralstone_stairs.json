@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "jellyfishing:coralstone"
+        }
+    },
+    "result": {
+        "item": "jellyfishing:coralstone_stairs",
+        "count": 8
+    }
+}

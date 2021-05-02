@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:ice_slab"},
+        {"item": "ornamental:ice_slab"}
+    ],
+    "result": {
+        "item": "minecraft:ice"
+    }
+}

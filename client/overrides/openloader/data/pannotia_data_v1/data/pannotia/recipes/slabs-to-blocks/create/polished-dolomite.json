@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:polished_dolomite_slab"},
+        {"item": "create:polished_dolomite_slab"}
+    ],
+    "result": {
+        "item": "create:polished_dolomite"
+    }
+}

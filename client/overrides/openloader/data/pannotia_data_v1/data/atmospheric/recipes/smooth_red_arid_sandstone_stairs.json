@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:smooth_red_arid_sandstone"
+        }
+    },
+    "result": {
+        "item": "atmospheric:smooth_red_arid_sandstone_stairs",
+        "count": 8
+    }
+}

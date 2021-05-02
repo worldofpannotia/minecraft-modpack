@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "endergetic:eumus_brick_slab"},
+        {"item": "endergetic:eumus_brick_slab"}
+    ],
+    "result": {
+        "item": "endergetic:eumus_bricks"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:ice_brick_slab"},
+        {"item": "environmental:ice_brick_slab"}
+    ],
+    "result": {
+        "item": "environmental:ice_bricks"
+    }
+}

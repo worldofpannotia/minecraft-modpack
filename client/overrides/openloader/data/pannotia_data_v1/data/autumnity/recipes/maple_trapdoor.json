@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "autumnity:maple_planks"
+        }
+    },
+    "result": {
+        "item": "autumnity:maple_planks",
+        "count": 12
+    }
+}

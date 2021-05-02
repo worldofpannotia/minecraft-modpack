@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:stripped_kousa_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:stripped_kousa_wood_stairs",
+        "count": 8
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "upgrade_aquatic:scute_shingle_slab"},
+        {"item": "upgrade_aquatic:scute_shingle_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:scute_shingles"
+    }
+}

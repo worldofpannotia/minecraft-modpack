@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:redbud_wood_slab"},
+        {"item": "lepton:redbud_wood_slab"}
+    ],
+    "result": {
+        "item": "abundance:redbud_wood"
+    }
+}

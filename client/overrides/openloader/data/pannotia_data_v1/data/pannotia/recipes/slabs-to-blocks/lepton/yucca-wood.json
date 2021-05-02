@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:yucca_wood_slab"},
+        {"item": "lepton:yucca_wood_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:yucca_wood"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:grimwood"
+        }
+    },
+    "result": {
+        "item": "lepton:grimwood_stairs",
+        "count": 8
+    }
+}

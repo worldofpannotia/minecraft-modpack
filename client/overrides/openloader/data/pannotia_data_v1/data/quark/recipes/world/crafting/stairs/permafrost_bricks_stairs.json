@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:permafrost_bricks"
+        }
+    },
+    "result": {
+        "item": "quark:permafrost_bricks_stairs",
+        "count": 8
+    }
+}

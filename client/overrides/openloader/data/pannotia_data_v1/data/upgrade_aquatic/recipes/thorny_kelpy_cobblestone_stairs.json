@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:thorny_kelpy_cobblestone"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:thorny_kelpy_cobblestone_stairs",
+        "count": 8
+    }
+}

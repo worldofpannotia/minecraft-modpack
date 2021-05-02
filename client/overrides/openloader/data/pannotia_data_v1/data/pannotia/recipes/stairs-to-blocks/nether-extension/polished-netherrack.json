@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "nether_extension:polished_netherrack_stairs"
+        }
+    },
+    "result": {
+        "item": "nether_extension:polished_netherrack",
+        "count": 3
+    }
+}

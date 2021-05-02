@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:grimwood_slab"},
+        {"item": "atmospheric:grimwood_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:grimwood_planks"
+    }
+}

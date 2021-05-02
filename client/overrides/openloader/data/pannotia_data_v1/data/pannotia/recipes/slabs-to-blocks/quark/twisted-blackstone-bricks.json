@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:twisted_blackstone_bricks_slab"},
+        {"item": "quark:twisted_blackstone_bricks_slab"}
+    ],
+    "result": {
+        "item": "quark:twisted_blackstone_bricks"
+    }
+}

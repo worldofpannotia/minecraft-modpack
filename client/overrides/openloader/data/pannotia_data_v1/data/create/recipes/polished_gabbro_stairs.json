@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:polished_gabbro"
+        }
+    },
+    "result": {
+        "item": "create:polished_gabbro_stairs",
+        "count": 8
+    }
+}

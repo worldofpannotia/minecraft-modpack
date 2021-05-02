@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:stripped_jacaranda_wood_slab"},
+        {"item": "lepton:stripped_jacaranda_wood_slab"}
+    ],
+    "result": {
+        "item": "abundance:stripped_jacaranda_wood"
+    }
+}

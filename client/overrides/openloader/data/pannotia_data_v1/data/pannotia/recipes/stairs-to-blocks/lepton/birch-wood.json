@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:birch_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:birch_wood",
+        "count": 3
+    }
+}

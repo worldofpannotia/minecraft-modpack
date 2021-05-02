@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:emerald_slab"},
+        {"item": "ornamental:emerald_slab"}
+    ],
+    "result": {
+        "item": "minecraft:emerald_block"
+    }
+}

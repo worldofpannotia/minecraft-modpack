@@ -12,6 +12,7 @@ const clientModIds = [
     363363, // Extreme Sound Muffler
     422719, // EZZoom
     261725, // Item Zoom
+    375272, // Lava Clear View
     325492, // Light Overlay
     60089, // Mouse Tweaks
     238372, // Neat
@@ -28,7 +29,7 @@ const download = async (mod) => {
 
     console.log(`Downloading ${mod.installedFile.fileName}...`);
 
-    const cmd = `curl -s -L -o "./tmp/server/mods/${mod.installedFile.fileName}" "${mod.installedFile.downloadUrl}"`;
+    const cmd = `curl -s -L -o "../tmp/server/mods/${mod.installedFile.fileName}" "${mod.installedFile.downloadUrl}"`;
     cp.execSync(cmd);
 };
 

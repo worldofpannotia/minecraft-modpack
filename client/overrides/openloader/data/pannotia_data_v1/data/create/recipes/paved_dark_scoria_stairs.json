@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:paved_dark_scoria"
+        }
+    },
+    "result": {
+        "item": "create:paved_dark_scoria_stairs",
+        "count": 8
+    }
+}

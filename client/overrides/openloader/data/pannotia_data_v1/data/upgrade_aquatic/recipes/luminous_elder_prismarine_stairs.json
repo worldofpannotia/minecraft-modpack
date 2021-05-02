@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:luminous_elder_prismarine"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:luminous_elder_prismarine_stairs",
+        "count": 8
+    }
+}

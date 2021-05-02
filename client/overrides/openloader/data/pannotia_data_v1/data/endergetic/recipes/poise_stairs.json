@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "endergetic:poise_planks"
+        }
+    },
+    "result": {
+        "item": "endergetic:poise_stairs",
+        "count": 8
+    }
+}

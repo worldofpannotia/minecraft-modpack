@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:myalite"
+        }
+    },
+    "result": {
+        "item": "quark:myalite_stairs",
+        "count": 8
+    }
+}

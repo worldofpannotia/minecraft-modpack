@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "neapolitan:chocolate_tiles"
+        }
+    },
+    "result": {
+        "item": "neapolitan:chocolate_tile_stairs",
+        "count": 8
+    }
+}

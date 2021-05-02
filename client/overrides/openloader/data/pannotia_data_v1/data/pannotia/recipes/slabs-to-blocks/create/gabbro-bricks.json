@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:gabbro_bricks_slab"},
+        {"item": "create:gabbro_bricks_slab"}
+    ],
+    "result": {
+        "item": "create:gabbro_bricks"
+    }
+}

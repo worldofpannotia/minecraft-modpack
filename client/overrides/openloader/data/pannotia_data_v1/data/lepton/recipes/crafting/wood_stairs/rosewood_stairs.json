@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:rosewood"
+        }
+    },
+    "result": {
+        "item": "lepton:rosewood_stairs",
+        "count": 8
+    }
+}

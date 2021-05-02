@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:red_shingles_slab"},
+        {"item": "quark:red_shingles_slab"}
+    ],
+    "result": {
+        "item": "quark:red_shingles"
+    }
+}

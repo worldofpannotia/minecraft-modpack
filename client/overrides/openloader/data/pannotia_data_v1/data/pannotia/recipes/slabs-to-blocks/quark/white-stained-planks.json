@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:white_stained_planks_slab"},
+        {"item": "quark:white_stained_planks_slab"}
+    ],
+    "result": {
+        "item": "quark:white_stained_planks"
+    }
+}

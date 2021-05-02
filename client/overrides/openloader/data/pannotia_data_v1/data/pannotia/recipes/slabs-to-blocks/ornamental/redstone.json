@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:redstone_slab"},
+        {"item": "ornamental:redstone_slab"}
+    ],
+    "result": {
+        "item": "minecraft:redstone_block"
+    }
+}

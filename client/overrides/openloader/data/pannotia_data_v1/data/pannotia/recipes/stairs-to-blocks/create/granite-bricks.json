@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:granite_bricks_stairs"
+        }
+    },
+    "result": {
+        "item": "create:granite_bricks",
+        "count": 3
+    }
+}

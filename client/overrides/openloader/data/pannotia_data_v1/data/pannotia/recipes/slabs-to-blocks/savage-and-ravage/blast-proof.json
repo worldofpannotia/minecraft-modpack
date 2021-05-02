@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "savageandravage:blast_proof_slab"},
+        {"item": "savageandravage:blast_proof_slab"}
+    ],
+    "result": {
+        "item": "savageandravage:blast_proof_plates"
+    }
+}

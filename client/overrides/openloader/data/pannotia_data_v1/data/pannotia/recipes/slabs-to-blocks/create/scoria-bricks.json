@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:scoria_bricks_slab"},
+        {"item": "create:scoria_bricks_slab"}
+    ],
+    "result": {
+        "item": "create:scoria_bricks"
+    }
+}

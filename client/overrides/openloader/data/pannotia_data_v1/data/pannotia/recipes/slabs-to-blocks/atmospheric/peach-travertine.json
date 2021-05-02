@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:peach_travertine_slab"},
+        {"item": "atmospheric:peach_travertine_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:cut_peach_travertine"
+    }
+}

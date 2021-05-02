@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "endergetic:poise_slab"},
+        {"item": "endergetic:poise_slab"}
+    ],
+    "result": {
+        "item": "endergetic:poise_planks"
+    }
+}

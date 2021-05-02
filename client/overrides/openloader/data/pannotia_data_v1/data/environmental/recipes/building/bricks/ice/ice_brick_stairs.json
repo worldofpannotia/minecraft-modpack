@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "environmental:ice_bricks"
+        }
+    },
+    "result": {
+        "item": "environmental:ice_brick_stairs",
+        "count": 8
+    }
+}

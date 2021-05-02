@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:dark_scoria_cobblestone_stairs"
+        }
+    },
+    "result": {
+        "item": "create:dark_scoria_cobblestone",
+        "count": 3
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:gray_shingles_stairs"
+        }
+    },
+    "result": {
+        "item": "quark:gray_shingles",
+        "count": 3
+    }
+}

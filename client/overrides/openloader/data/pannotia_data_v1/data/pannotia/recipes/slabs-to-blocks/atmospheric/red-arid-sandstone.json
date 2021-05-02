@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:red_arid_sandstone_slab"},
+        {"item": "atmospheric:red_arid_sandstone_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:red_arid_sandstone"
+    }
+}

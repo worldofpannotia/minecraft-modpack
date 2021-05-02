@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "ornamental:dirt_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 3
+    }
+}

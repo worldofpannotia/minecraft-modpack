@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:diorite_cobblestone_slab"},
+        {"item": "create:diorite_cobblestone_slab"}
+    ],
+    "result": {
+        "item": "create:diorite_cobblestone"
+    }
+}

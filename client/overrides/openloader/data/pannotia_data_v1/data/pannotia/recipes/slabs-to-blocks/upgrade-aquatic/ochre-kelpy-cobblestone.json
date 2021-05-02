@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "upgrade_aquatic:ochre_kelpy_cobblestone_slab"},
+        {"item": "upgrade_aquatic:ochre_kelpy_cobblestone_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:ochre_kelpy_cobblestone"
+    }
+}

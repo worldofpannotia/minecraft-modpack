@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "nether_extension:warped_root_thatch_slab"},
+        {"item": "nether_extension:warped_root_thatch_slab"}
+    ],
+    "result": {
+        "item": "nether_extension:warped_root_thatch"
+    }
+}

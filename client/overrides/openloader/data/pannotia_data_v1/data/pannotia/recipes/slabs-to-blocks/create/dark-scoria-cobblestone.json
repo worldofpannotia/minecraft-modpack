@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:dark_scoria_cobblestone_slab"},
+        {"item": "create:dark_scoria_cobblestone_slab"}
+    ],
+    "result": {
+        "item": "create:dark_scoria_cobblestone"
+    }
+}

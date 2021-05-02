@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:polished_gabbro_slab"},
+        {"item": "create:polished_gabbro_slab"}
+    ],
+    "result": {
+        "item": "create:polished_gabbro"
+    }
+}

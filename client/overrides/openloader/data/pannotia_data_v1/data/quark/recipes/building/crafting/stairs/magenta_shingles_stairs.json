@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:magenta_shingles"
+        }
+    },
+    "result": {
+        "item": "quark:magenta_shingles_stairs",
+        "count": 8
+    }
+}

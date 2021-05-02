@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:glass_trapdoor",
+        "count": 8
+    }
+}

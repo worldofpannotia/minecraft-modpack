@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:river_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:river_wood",
+        "count": 3
+    }
+}

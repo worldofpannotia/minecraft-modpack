@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "charm:refined_obsidian"
+        }
+    },
+    "result": {
+        "item": "charm:refined_obsidian_stairs",
+        "count": 8
+    }
+}

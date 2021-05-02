@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:quartz_bricks"
+        }
+    },
+    "result": {
+        "item": "lepton:quartz_brick_stairs",
+        "count": 8
+    }
+}

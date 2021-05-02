@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:persimmon_travertine_stairs"
+        }
+    },
+    "result": {
+        "item": "atmospheric:persimmon_travertine",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:biotite_bricks"
+        }
+    },
+    "result": {
+        "item": "lepton:biotite_brick_stairs",
+        "count": 8
+    }
+}

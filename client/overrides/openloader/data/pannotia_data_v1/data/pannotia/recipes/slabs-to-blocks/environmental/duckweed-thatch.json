@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:duckweed_thatch_slab"},
+        {"item": "environmental:duckweed_thatch_slab"}
+    ],
+    "result": {
+        "item": "environmental:duckweed_thatch"
+    }
+}

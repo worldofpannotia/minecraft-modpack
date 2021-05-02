@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "nether_extension:polished_glowstone"
+        }
+    },
+    "result": {
+        "item": "nether_extension:polished_glowstone_stairs",
+        "count": 8
+    }
+}

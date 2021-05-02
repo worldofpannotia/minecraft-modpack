@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:willow_slab"},
+        {"item": "environmental:willow_slab"}
+    ],
+    "result": {
+        "item": "environmental:willow_planks"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "jellyfishing:chrome_bricks"
+        }
+    },
+    "result": {
+        "item": "jellyfishing:chrome_brick_stairs",
+        "count": 8
+    }
+}

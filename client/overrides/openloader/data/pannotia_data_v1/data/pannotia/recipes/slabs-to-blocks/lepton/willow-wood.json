@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:willow_wood_slab"},
+        {"item": "lepton:willow_wood_slab"}
+    ],
+    "result": {
+        "item": "environmental:willow_wood"
+    }
+}

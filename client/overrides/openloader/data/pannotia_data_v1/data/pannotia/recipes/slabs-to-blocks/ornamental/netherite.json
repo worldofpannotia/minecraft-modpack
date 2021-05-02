@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:netherite_slab"},
+        {"item": "ornamental:netherite_slab"}
+    ],
+    "result": {
+        "item": "minecraft:netherite_block"
+    }
+}

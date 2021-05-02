@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:cracked_red_arid_sandstone_slab"},
+        {"item": "lepton:cracked_red_arid_sandstone_slab"}
+    ],
+    "result": {
+        "item": "lepton:cracked_red_arid_sandstone"
+    }
+}

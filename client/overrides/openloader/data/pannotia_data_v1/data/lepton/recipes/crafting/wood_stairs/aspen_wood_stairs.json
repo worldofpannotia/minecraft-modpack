@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:aspen_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:aspen_wood_stairs",
+        "count": 8
+    }
+}

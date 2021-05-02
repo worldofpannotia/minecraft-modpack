@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:polished_myalite_slab"},
+        {"item": "quark:polished_myalite_slab"}
+    ],
+    "result": {
+        "item": "quark:polished_myalite"
+    }
+}

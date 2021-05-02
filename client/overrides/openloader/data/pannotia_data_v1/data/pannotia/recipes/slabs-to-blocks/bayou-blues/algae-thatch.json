@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "bayou_blues:algae_thatch_slab"},
+        {"item": "bayou_blues:algae_thatch_slab"}
+    ],
+    "result": {
+        "item": "bayou_blues:algae_thatch"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "environmental:cherry_planks"
+        }
+    },
+    "result": {
+        "item": "environmental:cherry_trapdoor",
+        "count": 12
+    }
+}

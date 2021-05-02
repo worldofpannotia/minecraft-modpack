@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:wisteria_slab"},
+        {"item": "environmental:wisteria_slab"}
+    ],
+    "result": {
+        "item": "environmental:wisteria_planks"
+    }
+}

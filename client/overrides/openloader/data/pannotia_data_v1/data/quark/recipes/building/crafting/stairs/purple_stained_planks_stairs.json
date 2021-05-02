@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:purple_stained_planks"
+        }
+    },
+    "result": {
+        "item": "quark:purple_stained_planks_stairs",
+        "count": 8
+    }
+}

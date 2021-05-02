@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:spruce_wood_slab"},
+        {"item": "lepton:spruce_wood_slab"}
+    ],
+    "result": {
+        "item": "minecraft:spruce_wood"
+    }
+}

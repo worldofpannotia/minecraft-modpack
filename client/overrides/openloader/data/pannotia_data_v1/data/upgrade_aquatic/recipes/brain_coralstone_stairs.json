@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "upgrade_aquatic:brain_coralstone"
+        }
+    },
+    "result": {
+        "item": "upgrade_aquatic:brain_coralstone_stairs",
+        "count": 8
+    }
+}

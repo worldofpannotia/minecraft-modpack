@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:sandy_bricks_slab"},
+        {"item": "quark:sandy_bricks_slab"}
+    ],
+    "result": {
+        "item": "quark:sandy_bricks"
+    }
+}

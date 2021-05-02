@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "caverns_and_chasms:lapis_bricks"
+        }
+    },
+    "result": {
+        "item": "caverns_and_chasms:lapis_brick_stairs",
+        "count": 8
+    }
+}

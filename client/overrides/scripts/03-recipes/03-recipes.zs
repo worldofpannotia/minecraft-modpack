@@ -1,10 +1,5 @@
 val strng=<tag:items:forge:string>;
 val dirt=<item:minecraft:dirt>;
-val coarseDirt=<item:minecraft:coarse_dirt>;
-val clay=<item:minecraft:clay>;
-val clayBall=<item:minecraft:clay_ball>;
-val wool=<tag:items:forge:wool>;
-val nautilus=<item:minecraft:nautilus_shell>;
 
 # Allow fermented spider eyes to be crafted with any mushroom, not just brown ones
 craftingTable.removeByName("minecraft:fermented_spider_eye");
@@ -22,39 +17,9 @@ craftingTable.addShaped("logs_to_sticks", <item:minecraft:stick> * 16, [
     [<tag:items:minecraft:logs>]
 ]);
 
-# Make clay craftable
-craftingTable.addShaped("clay_from_dirt", clayBall * 9, [
-    [dirt, dirt, dirt],
-    [clayBall, <tag:items:forge:buckets/water>, clayBall],
-    [dirt, dirt, dirt]
-]);
-craftingTable.addShaped("clay_blocks_from_coarse_dirt", clay * 9, [
-    [coarseDirt, coarseDirt, coarseDirt],
-    [clay, <tag:items:forge:buckets/water>, clay],
-    [coarseDirt, coarseDirt, coarseDirt]
-]);
-
-# Craftable sponges
-craftingTable.addShaped("sponge_from_wool_and_hos", <item:minecraft:sponge> * 4, [
-    [wool, wool, wool],
-    [wool, <item:minecraft:heart_of_the_sea>, wool],
-    [wool, wool, wool]
-]);
-
-# Craftable hearts of the sea
-craftingTable.addShaped("sea_heart_from_nautilus_and_stars", <item:minecraft:heart_of_the_sea>, [
-    [nautilus, nautilus, nautilus],
-    [nautilus, <item:minecraft:nether_star>, nautilus],
-    [nautilus, nautilus, nautilus]
-]);
-
-
 # Allow smelting rotten flesh to leather
 furnace.addRecipe("smelt_rotten_flesh_to_leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 40);
 blastFurnace.addRecipe("blast_rotten_flesh_to_leather", <item:minecraft:leather>, <item:minecraft:rotten_flesh>, 1, 20);
-
-# Re-add string-to-wool recipe
-craftingTable.addShaped("string_to_wool", <item:minecraft:white_wool>, [[strng, strng], [strng, strng]]);
 
 #snip modnotloaded nether_extension
 # Allow converting between BHC and Nether Extension wither bones
@@ -126,3 +91,7 @@ craftingTable.addShapeless("shapeless_bb_qrk_wht_candle", <item:buzzier_bees:whi
 craftingTable.addShapeless("shapeless_qrk_bb_wht_candle", <item:quark:white_candle>, [<item:buzzier_bees:white_candle>], null);
 craftingTable.addShapeless("shapeless_bb_qrk_yel_candle", <item:buzzier_bees:yellow_candle>, [<item:quark:yellow_candle>], null);
 craftingTable.addShapeless("shapeless_qrk_bb_yel_candle", <item:quark:yellow_candle>, [<item:buzzier_bees:yellow_candle>], null);
+
+# Convert between Create and Quark's limestone
+craftingTable.addShapeless("create_quark_limestone", <item:quark:limestone>, [<item:create:limestone>], null);
+craftingTable.addShapeless("quark_create_limestone", <item:create:limestone>, [<item:quark:limestone>], null);

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "autumnity:snail_shell_tile_slab"},
+        {"item": "autumnity:snail_shell_tile_slab"}
+    ],
+    "result": {
+        "item": "autumnity:snail_shell_tiles"
+    }
+}

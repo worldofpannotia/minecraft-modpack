@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "caverns_and_chasms:dirt_tiles"
+        }
+    },
+    "result": {
+        "item": "caverns_and_chasms:dirt_tile_stairs",
+        "count": 8
+    }
+}

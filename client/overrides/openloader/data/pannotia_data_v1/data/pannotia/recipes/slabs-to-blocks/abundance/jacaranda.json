@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "abundance:jacaranda_slab"},
+        {"item": "abundance:jacaranda_slab"}
+    ],
+    "result": {
+        "item": "abundance:jacaranda_planks"
+    }
+}

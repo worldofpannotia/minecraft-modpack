@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:basalt_slab"},
+        {"item": "quark:basalt_slab"}
+    ],
+    "result": {
+        "item": "quark:basalt"
+    }
+}

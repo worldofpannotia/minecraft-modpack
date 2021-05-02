@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "environmental:willow_stairs"
+        }
+    },
+    "result": {
+        "item": "environmental:willow_planks",
+        "count": 3
+    }
+}

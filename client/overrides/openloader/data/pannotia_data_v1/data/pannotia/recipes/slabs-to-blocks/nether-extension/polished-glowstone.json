@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "nether_extension:polished_glowstone_slab"},
+        {"item": "nether_extension:polished_glowstone_slab"}
+    ],
+    "result": {
+        "item": "nether_extension:polished_glowstone"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:elder_prismarine"
+        }
+    },
+    "result": {
+        "item": "quark:elder_prismarine_stairs",
+        "count": 8
+    }
+}

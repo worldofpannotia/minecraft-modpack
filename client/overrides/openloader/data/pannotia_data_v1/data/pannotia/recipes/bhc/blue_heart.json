@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XYX",
+        "ZEZ",
+        "XYX"
+    ],
+    "key": {
+        "X": {
+            "tag": "forge:storage_blocks/diamond"
+        },
+        "Y": {
+            "item": "bhc:yellow_heart"
+        },
+        "Z": {
+            "item": "bhc:green_heart"
+        },
+        "E": {
+            "tag": "forge:storage_blocks/emerald"
+        }
+    },
+    "result": {
+        "item": "bhc:blue_heart"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:polished_limestone_slab"},
+        {"item": "quark:polished_limestone_slab"}
+    ],
+    "result": {
+        "item": "quark:polished_limestone"
+    }
+}

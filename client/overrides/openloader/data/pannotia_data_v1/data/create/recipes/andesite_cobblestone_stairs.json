@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:andesite_cobblestone"
+        }
+    },
+    "result": {
+        "item": "create:andesite_cobblestone_stairs",
+        "count": 8
+    }
+}

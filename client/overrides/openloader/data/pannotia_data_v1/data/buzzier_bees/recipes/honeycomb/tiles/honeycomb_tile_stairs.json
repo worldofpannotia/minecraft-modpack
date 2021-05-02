@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "buzzier_bees:honeycomb_tiles"
+        }
+    },
+    "result": {
+        "item": "buzzier_bees:honeycomb_tile_stairs",
+        "count": 8
+    }
+}

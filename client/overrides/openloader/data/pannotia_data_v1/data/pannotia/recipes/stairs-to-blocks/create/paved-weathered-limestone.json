@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:paved_weathered_limestone_stairs"
+        }
+    },
+    "result": {
+        "item": "create:paved_weathered_limestone",
+        "count": 3
+    }
+}

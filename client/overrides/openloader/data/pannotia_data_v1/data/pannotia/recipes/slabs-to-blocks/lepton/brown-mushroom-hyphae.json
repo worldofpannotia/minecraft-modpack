@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:brown_mushroom_hyphae_slab"},
+        {"item": "lepton:brown_mushroom_hyphae_slab"}
+    ],
+    "result": {
+        "item": "enhanced_mushrooms:brown_mushroom_hyphae"
+    }
+}

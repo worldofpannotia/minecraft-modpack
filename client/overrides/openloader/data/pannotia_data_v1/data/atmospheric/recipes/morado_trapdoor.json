@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:morado_planks"
+        }
+    },
+    "result": {
+        "item": "atmospheric:morado_trapdoor",
+        "count": 12
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:morado_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "atmospheric:morado_wood",
+        "count": 3
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "endergetic:poise_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:poise_wood_stairs",
+        "count": 8
+    }
+}

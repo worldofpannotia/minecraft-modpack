@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "better_badlands:kindling"
+        }
+    },
+    "result": {
+        "item": "better_badlands:kindling_stairs",
+        "count": 8
+    }
+}

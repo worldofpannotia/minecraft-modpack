@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "bayou_blues:cypress_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:cypress_wood_stairs",
+        "count": 8
+    }
+}

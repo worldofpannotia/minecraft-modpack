@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "create:dolomite_cobblestone_slab"},
+        {"item": "create:dolomite_cobblestone_slab"}
+    ],
+    "result": {
+        "item": "create:dolomite_cobblestone"
+    }
+}

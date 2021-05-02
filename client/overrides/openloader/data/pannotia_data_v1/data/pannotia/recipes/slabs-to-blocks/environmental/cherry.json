@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "environmental:cherry_slab"},
+        {"item": "environmental:cherry_slab"}
+    ],
+    "result": {
+        "item": "environmental:cherry_planks"
+    }
+}

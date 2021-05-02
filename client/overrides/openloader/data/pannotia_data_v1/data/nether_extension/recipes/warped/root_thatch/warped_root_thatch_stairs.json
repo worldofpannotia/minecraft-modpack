@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "nether_extension:warped_root_thatch"
+        }
+    },
+    "result": {
+        "item": "nether_extension:warped_root_thatch_stairs",
+        "count": 8
+    }
+}

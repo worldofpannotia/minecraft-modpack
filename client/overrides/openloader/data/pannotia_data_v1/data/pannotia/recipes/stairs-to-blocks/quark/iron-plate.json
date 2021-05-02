@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:iron_plate_stairs"
+        }
+    },
+    "result": {
+        "item": "quark:iron_plate",
+        "count": 3
+    }
+}

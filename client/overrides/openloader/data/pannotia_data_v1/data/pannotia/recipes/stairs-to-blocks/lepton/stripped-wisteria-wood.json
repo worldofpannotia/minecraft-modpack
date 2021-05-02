@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:stripped_wisteria_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "environmental:stripped_wisteria_wood",
+        "count": 3
+    }
+}

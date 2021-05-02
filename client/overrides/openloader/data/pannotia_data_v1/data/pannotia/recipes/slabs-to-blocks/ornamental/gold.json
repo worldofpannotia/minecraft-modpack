@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:gold_slab"},
+        {"item": "ornamental:gold_slab"}
+    ],
+    "result": {
+        "item": "minecraft:gold_block"
+    }
+}

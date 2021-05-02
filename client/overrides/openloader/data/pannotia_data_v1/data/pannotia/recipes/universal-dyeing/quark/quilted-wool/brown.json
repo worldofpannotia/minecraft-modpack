@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "tag": "quark:quilted_wools"
+        },
+        "Y": {
+            "tag": "forge:dyes/brown"
+        }
+    },
+    "result": {
+        "item": "quark:brown_quilted_wool",
+        "count": 8
+    }
+}

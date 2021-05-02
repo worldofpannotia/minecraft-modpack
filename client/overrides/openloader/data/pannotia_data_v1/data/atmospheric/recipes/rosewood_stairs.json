@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:rosewood_planks"
+        }
+    },
+    "result": {
+        "item": "atmospheric:rosewood_stairs",
+        "count": 8
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "jellyfishing:chrome_metal_slab"},
+        {"item": "jellyfishing:chrome_metal_slab"}
+    ],
+    "result": {
+        "item": "jellyfishing:chrome_metal"
+    }
+}

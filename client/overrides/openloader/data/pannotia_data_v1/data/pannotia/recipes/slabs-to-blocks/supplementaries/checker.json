@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "supplementaries:checker_slab"},
+        {"item": "supplementaries:checker_slab"}
+    ],
+    "result": {
+        "item": "supplementaries:checker_block"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:stripped_cypress_wood_slab"},
+        {"item": "lepton:stripped_cypress_wood_slab"}
+    ],
+    "result": {
+        "item": "bayou_blues:stripped_cypress_wood"
+    }
+}

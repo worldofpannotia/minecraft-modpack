@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:oak_wood_slab"},
+        {"item": "lepton:oak_wood_slab"}
+    ],
+    "result": {
+        "item": "minecraft:oak_wood"
+    }
+}

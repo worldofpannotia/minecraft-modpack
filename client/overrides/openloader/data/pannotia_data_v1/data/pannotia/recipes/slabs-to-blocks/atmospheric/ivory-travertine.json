@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:ivory_travertine_slab"},
+        {"item": "atmospheric:ivory_travertine_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:cut_ivory_travertine"
+    }
+}

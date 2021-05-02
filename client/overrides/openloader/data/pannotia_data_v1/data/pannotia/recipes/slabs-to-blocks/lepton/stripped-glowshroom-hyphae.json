@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:stripped_glowshroom_hyphae_slab"},
+        {"item": "lepton:stripped_glowshroom_hyphae_slab"}
+    ],
+    "result": {
+        "item": "enhanced_mushrooms:stripped_glowshroom_hyphae"
+    }
+}

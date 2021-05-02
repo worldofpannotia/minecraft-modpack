@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:bone_slab"},
+        {"item": "ornamental:bone_slab"}
+    ],
+    "result": {
+        "item": "minecraft:bone_block"
+    }
+}

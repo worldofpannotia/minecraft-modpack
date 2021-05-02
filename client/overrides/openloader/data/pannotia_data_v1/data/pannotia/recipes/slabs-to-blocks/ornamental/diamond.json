@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:diamond_slab"},
+        {"item": "ornamental:diamond_slab"}
+    ],
+    "result": {
+        "item": "minecraft:diamond_block"
+    }
+}

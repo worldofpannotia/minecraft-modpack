@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "more_jellyfish:polished_deep_coralstone_stairs"
+        }
+    },
+    "result": {
+        "item": "more_jellyfish:polished_deep_coralstone",
+        "count": 3
+    }
+}

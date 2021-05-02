@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "abundance:redbud_slab"},
+        {"item": "abundance:redbud_slab"}
+    ],
+    "result": {
+        "item": "abundance:redbud_planks"
+    }
+}

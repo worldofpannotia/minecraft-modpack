@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "ornamental:dirt_slab"},
+        {"item": "ornamental:dirt_slab"}
+    ],
+    "result": {
+        "item": "minecraft:dirt"
+    }
+}

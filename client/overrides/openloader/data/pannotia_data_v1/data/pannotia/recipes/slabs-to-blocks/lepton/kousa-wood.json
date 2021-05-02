@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:kousa_wood_slab"},
+        {"item": "lepton:kousa_wood_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:kousa_wood"
+    }
+}

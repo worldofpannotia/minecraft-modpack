@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:driftwood_slab"},
+        {"item": "lepton:driftwood_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:driftwood_planks"
+    }
+}

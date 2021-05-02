@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:stripped_river_wood_slab"},
+        {"item": "lepton:stripped_river_wood_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:stripped_river_wood"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "lepton:stripped_maple_wood_slab"},
+        {"item": "lepton:stripped_maple_wood_slab"}
+    ],
+    "result": {
+        "item": "autumnity:stripped_maple_wood"
+    }
+}

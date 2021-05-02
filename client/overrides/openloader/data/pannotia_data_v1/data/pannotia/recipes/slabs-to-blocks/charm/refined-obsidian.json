@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "charm:refined_obsidian_slab"},
+        {"item": "charm:refined_obsidian_slab"}
+    ],
+    "result": {
+        "item": "charm:refined_obsidian"
+    }
+}

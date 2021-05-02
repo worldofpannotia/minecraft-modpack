@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:yucca_wood"
+        }
+    },
+    "result": {
+        "item": "lepton:yucca_wood_stairs",
+        "count": 8
+    }
+}

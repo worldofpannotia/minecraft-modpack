@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:polished_slate_slab"},
+        {"item": "quark:polished_slate_slab"}
+    ],
+    "result": {
+        "item": "quark:polished_slate"
+    }
+}

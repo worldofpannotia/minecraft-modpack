@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:brimstone_stairs"
+        }
+    },
+    "result": {
+        "item": "quark:brimstone",
+        "count": 3
+    }
+}

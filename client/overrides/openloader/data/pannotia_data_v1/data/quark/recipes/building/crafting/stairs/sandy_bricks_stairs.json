@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "quark:sandy_bricks"
+        }
+    },
+    "result": {
+        "item": "quark:sandy_bricks_stairs",
+        "count": 8
+    }
+}

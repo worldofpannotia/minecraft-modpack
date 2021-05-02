@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "upgrade_aquatic:beachgrass_thatch_slab"},
+        {"item": "upgrade_aquatic:beachgrass_thatch_slab"}
+    ],
+    "result": {
+        "item": "upgrade_aquatic:beachgrass_thatch"
+    }
+}

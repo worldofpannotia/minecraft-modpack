@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:brimstone_slab"},
+        {"item": "quark:brimstone_slab"}
+    ],
+    "result": {
+        "item": "quark:brimstone"
+    }
+}

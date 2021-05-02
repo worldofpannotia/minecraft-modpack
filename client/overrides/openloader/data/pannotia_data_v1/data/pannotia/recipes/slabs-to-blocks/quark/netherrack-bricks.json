@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:netherrack_bricks_slab"},
+        {"item": "quark:netherrack_bricks_slab"}
+    ],
+    "result": {
+        "item": "quark:netherrack_bricks"
+    }
+}

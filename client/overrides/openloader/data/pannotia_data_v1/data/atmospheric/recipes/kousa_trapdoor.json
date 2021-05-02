@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "atmospheric:kousa_planks"
+        }
+    },
+    "result": {
+        "item": "atmospheric:kousa_trapdoor",
+        "count": 12
+    }
+}

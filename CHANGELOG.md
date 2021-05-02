@@ -1,26 +1,32 @@
-### Upcoming
+### 2021-05-01 (8.2.0)
 
-#### Config Changes
+#### Misc Changes
+* Moved a crapload of stuff out of CraftTweaker and into a custom datapack to help with performance
 
 #### Recipe Changes
+* Added recipes to convert slabs back into their original blocks
 * Added recipes to convert stairs back into their original blocks
-* Added recipes to convert Baubley Heart Canisters to from Nether Extension ones
-* Removed overlapping wool dyeing recipes from Quark
+* Added recipes to convert between wither bones from Baubley Heart Canisters and Nether Extension
+* Added recipes to convert lower-tier hearts from BHC into higher-tier ones
+* Removed overlapping concrete powder, terracotta, and wool dyeing recipes
 
 #### Updated Mods
 * Additional Bars: 2.0.2 -> 2.0.3
 * Backpacked: 1.9.1 -> 1.10.0
+* Clumps: 6.0.0.21 -> 6.0.0.22
 * CraftTweaker: 7.1.0.246 -> 7.1.0.252
 * Cyclops Core: 1.11.5 -> 1.11.6
 * Global XP: 1.7.1 -> 1.8
 * Snow! Real Magic!: 2.5.5 -> 2.5.6
 
 #### Added Mods
-* Lava Clear View
-* LavaSponge
-* Raw Ores Mod
+* Anvil Tweaks: quality-of-life changes to some vanilla anvil functionality
+* Lava Clear View (client only): makes it easier to see in lava when you have Fire Resistance
+* LavaSponge: like regular sponges, but for lava
+* Raw Ores Mod: brings the 1.17 raw ores behavior to 1.16
+  * The new behavior does not alter modded ores (though support _may_ be coming, according to the mod author)
+  * All vanilla ores are affected: iron, gold, diamond, lapis, etc
 
-#### Removed Mods
 
 ### 2021-04-26 (8.1.0)
 

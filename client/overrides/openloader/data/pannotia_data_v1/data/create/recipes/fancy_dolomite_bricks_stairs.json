@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "create:fancy_dolomite_bricks"
+        }
+    },
+    "result": {
+        "item": "create:fancy_dolomite_bricks_stairs",
+        "count": 8
+    }
+}

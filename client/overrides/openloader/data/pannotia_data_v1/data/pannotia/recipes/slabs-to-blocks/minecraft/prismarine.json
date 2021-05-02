@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "minecraft:prismarine_slab"},
+        {"item": "minecraft:prismarine_slab"}
+    ],
+    "result": {
+        "item": "minecraft:prismarine"
+    }
+}

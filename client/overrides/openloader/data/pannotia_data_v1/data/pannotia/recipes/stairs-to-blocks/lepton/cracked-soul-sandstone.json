@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:cracked_soul_sandstone_stairs"
+        }
+    },
+    "result": {
+        "item": "lepton:cracked_soul_sandstone",
+        "count": 3
+    }
+}

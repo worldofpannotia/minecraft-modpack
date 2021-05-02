@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "cookielicious:honey_cookie_tiles"
+        }
+    },
+    "result": {
+        "item": "cookielicious:honey_cookie_tile_stairs",
+        "count": 8
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "ornamental:coal_stairs"
+        }
+    },
+    "result": {
+        "item": "minecraft:coal_block",
+        "count": 3
+    }
+}

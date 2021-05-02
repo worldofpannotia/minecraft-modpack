@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "atmospheric:morado_slab"},
+        {"item": "atmospheric:morado_slab"}
+    ],
+    "result": {
+        "item": "atmospheric:morado_planks"
+    }
+}

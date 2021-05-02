@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XX",
+        "XX"
+    ],
+    "key": {
+        "X": {
+            "item": "lepton:redbud_wood_stairs"
+        }
+    },
+    "result": {
+        "item": "abundance:redbud_wood",
+        "count": 3
+    }
+}
