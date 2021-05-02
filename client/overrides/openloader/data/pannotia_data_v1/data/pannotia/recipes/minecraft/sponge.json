@@ -7,7 +7,7 @@
     ],
     "key": {
         "X": {
-            "tag": "forge:storage_blocks/wool"
+            "tag": "forge:wool"
         },
         "Y": {
             "item": "minecraft:heart_of_the_sea"

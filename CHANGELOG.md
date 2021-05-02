@@ -1,3 +1,9 @@
+### Upcoming
+
+#### Bug Fixes
+* Fixed wool reference in sponge recipe
+
+
 ### 2021-05-02 (8.2.1)
 
 _This update is not mandatory. It only contains worldgen changes for the mining dimension. No mods or configs have been changed._
@@ -5,6 +11,7 @@ _This update is not mandatory. It only contains worldgen changes for the mining 
 #### Misc Changes
 * Added a datapack to customize the worldgen of the mining dimension
   * New chunks will be solid blocks with no caves. The only exceptions will be the occasional mineshaft. In addition, mobs will no longer spawn. This includes spawners (sorry, no free spawn eggs).
+
 
 ### 2021-05-01 (8.2.0)
 
