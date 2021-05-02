@@ -21,6 +21,8 @@ java -jar forge-installer.jar --installServer
 rm forge-installer.jar
 rm forge-installer.jar.log
 
-cd ../..
+cd ../../scripts
 mkdir -p tmp/server/mods;
 node download-mods.mjs
+
+cd ..
