@@ -423,7 +423,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 1.0
+		"Percent Req" = 0.01
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
@@ -1657,11 +1657,11 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Backpack = true
+	Backpack = false
 	Crate = false
-	"Matrix Enchanting" = true
-	Magnets = true
-	Pipes = true
+	"Matrix Enchanting" = false
+	Magnets = false
+	Pipes = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
