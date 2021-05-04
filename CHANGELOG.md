@@ -1,7 +1,49 @@
-### Upcoming
+### 2021-05-03 (8.3.0)
 
 #### Bug Fixes
 * Fixed wool reference in sponge recipe
+* (Hopefully) fixed Quark configs getting reset every update
+* Fixed wither bone meal recipe conflict
+
+#### Datapack Changes
+* Added a datapack to allow spawners to be picked up with Silk Touch
+* Removed most of the raw ore types from the Raw Ores mod
+  * Iron and gold are the only two we kept; these are the ones being added in 1.17
+* Repurposed some of the raw ore types from the Raw Ores mod as raw versions of some modded metals
+  * Now when you mine zinc or copper from Create, or silver from Caverns & Chasms, they will drop "raw" versions of the ore. These are really just renamed items from the Raw Ores mod, but it works!
+
+#### Recipe Changes
+* Made the block version of most of the raw ores obtainable by smelting the block form of their item. This allows them to be used as decorative blocks if you want. See JEI for more info (hint: search for `@ores`)
+  * Example: smelting a redstone block gives you a raw redstone block. Smelting it again gives you the original redstone block.
+* Added a spawner -> spawner recipe. This will clear any NBT data that may already be on broken spawners.
+* Made some spawn eggs craftable (at high cost). This makes it possible, with enough effort, to convert any mob spawner into a new type.
+  * The simplest way to see which spawn eggs are craftable is to look at the uses of Quark's Heart of Diamond, which is part of the spawn egg recipe.
+* Wither bone meal is now crafted from two wither bones (any type) instead of one. The output has been doubled, so the ratio remains the same.
+
+#### Updated Mods
+* Alex's Mobs: 1.9.1 -> 1.10.0
+* Architectury API: 1.12.145 -> 1.12.148
+* Autumnity: 2.1.0 -> 2.1.1
+* Backpacker: 1.2.3 -> 1.3.0
+* CraftTweaker: 7.1.0.252 -> 7.1.0.257
+* CreateTweaker: 1.0.0.11 -> 1.0.0.12
+* Differentiate: 0.4.1 -> 0.4.2
+* Farmer's Delight: 0.4.1 -> 0.4.2
+* Just Enough Items (JEI): 7.6.4.87 -> 7.6.4.90
+* Light Overlay: 5.8.0 -> 5.8.1
+* Performant: 3.54m -> 3.55m
+* Snow! Real Magic!: 2.5.6 -> 2.5.7
+
+#### Added Mods
+* FastSuite
+  * This is a companion mod to FastWorkbench and FastFurnace that helps with recipe lookup performance
+* Refined Storage
+  * We decided that the potential for lag and performance issues with Simple Storage Network was higher than we wanted. Both mods will remain in the pack for the foreseeable future, but we recommend using RS for your storage needs. _Note:_ we are disabling and hiding quite a bit of Refined Storage's items. Specifically, we intend to disable things like auto-crafting. We only want to include the minimum amount of tech necessary to make our lives easier without trivializing things or blowing up the "vanilla-esque" feel of the pack.
+* Refined Storage Addons
+
+#### Removed Mods
+* Enhanced Mob Spawners: this was more than we were looking for, so we opted to go for a plain datapack instead.
+  * Note: with the removal of this mod, mobs no longer have a chance to drop their spawn egg. You will also not be able to get spawn eggs out of spawners. If you've got some spawn eggs via one of those methods already, congrats!
 
 
 ### 2021-05-02 (8.2.1)

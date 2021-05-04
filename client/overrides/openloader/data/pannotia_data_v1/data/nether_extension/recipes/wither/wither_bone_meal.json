@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"tag": "forge:witherbone"},
+        {"tag": "forge:witherbone"}
+    ],
+    "result": {
+        "item": "nether_extension:wither_bone_meal",
+        "count": 6
+    }
+}
