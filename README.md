@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![v8.4.0](https://img.shields.io/badge/version-v8.4.0-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
+![v8.4.1](https://img.shields.io/badge/version-v8.4.1-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
 
 This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is relatively stable.
 
@@ -135,7 +135,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes">Iron Shulker Boxes (by ProgWML6)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ironagefurniture">Iron Age Furniture (by SkyBlade1978)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/itemzoom">ItemZoom (by mezz)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade ? (by Snownee_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jeitweaker">JEITweaker (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jellyfishing">Jellyfishing (by BlueDuckYT)</a></li>
@@ -146,7 +146,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-mob-heads">Just Mob Heads (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-player-heads">Just Player Heads (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi ? (by Snownee_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi 🥝 (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kleeslabs">KleeSlabs (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lantern-colors">Lantern Colors (by schmecky90)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lava-clear-view">Lava Clear View (by Snownee_)</a></li>
