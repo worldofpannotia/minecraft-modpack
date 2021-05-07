@@ -1,3 +1,41 @@
+### 2021-05-07 (8.4.0)
+
+#### Recipe Changes
+* Added universal dyeing recipes for stained glass and stained glass panes
+* Make Refined Storage conduit binder craftable with any `forge:slimeballs` and `forge:string`
+* Added recipe to convert snow layers to blocks (8:1 ratio)
+* Fixed recipe (duplicate recipe and weird output ratio) to convert snow blocks to snow layers
+* Added recipe to get Neapolitan's ice cubes from a block of ice
+* Added recipes for some mob spawners (using spawn egg recipes we already added) to get around vanilla restrictions on placing/changing spawner types
+
+#### Config Changes
+* Add Jellyfish jellies to `forge:slimeballs` tag
+* Hide Quark magnet from JEI
+* Add coal chunks and charcoal chunks to storage drawers compacting rules
+* Add compacting drawer config for warped wart block -> warped wart
+* Disallow the wither rose from being obtainable via the Random Bonemeal Flowers mod
+
+#### Updated Mods
+* Abnormals Delight: 1.1.0 -> 1.1.1
+* Citadel: 1.6.2 -> 1.6.3
+* CraftTweaker: 7.1.0.256 -> 7.1.0.265
+* Customizable Elytra: 1.4.3 -> 1.4.4
+* Kiwi: 3.4.2 -> 3.5.1
+* Patchouli: 50 -> 51
+* Trash Cans: 1.0.9 -> 1.0.10
+* YUNG's Better Strongholds: 1.0.1 -> 1.1.0
+
+#### Added Mods
+* Angel Block: adds a block that can be placed in mid air and broken immediately (useful for building)
+* Armor Slots in Other Inventories: shows your armor slots when on other screens than your main inventory
+* Advanced Runtime Resource Pack: library mod needed for Compact
+* Compact: adds compressed versions of a handful of blocks (cobble, sand, gravel, etc)
+* Cursed Earth: adds a kind of grass that rapidly spawns powerful monsters (great for mob farms)
+* Enchantment Descriptions: describes enchantments
+* Lost & Found: items that are about to despawn in the world instead go to a global lost & found
+* Measurements: adds a tape measure to help build stuff
+* More Waterlogging: allows you to waterlog more blocks than available in vanilla MC
+
 ### 2021-05-03 (8.3.0)
 
 #### Bug Fixes
