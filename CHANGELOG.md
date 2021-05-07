@@ -33,6 +33,7 @@
 * Lost & Found: items that are about to despawn in the world instead go to a global lost & found
 * Measurements: adds a tape measure to help build stuff
 * More Waterlogging: allows you to waterlog more blocks than available in vanilla MC
+* SuperMartijn642's Core Lib: new shared library made/used by the creator of the Trash Cans mod
 
 ### 2021-05-03 (8.3.0)
 
