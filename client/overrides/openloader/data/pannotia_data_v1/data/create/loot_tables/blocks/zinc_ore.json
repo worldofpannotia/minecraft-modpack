@@ -35,12 +35,8 @@
                                     "formula": "minecraft:ore_drops"
                                 },
                                 {
-                                    "function": "minecraft:set_name",
-                                    "name": "Raw Zinc"
-                                },
-                                {
                                     "function": "minecraft:set_nbt",
-                                    "tag": "{is_zinc: \"\\\"true\\\"\"}"
+                                    "tag": "{is_zinc: \"\\\"true\\\"\", display: {Name: \"{\\\"text\\\": \\\"Raw Zinc\\\", \\\"color\\\": \\\"white\\\", \\\"italic\\\": false}\"}}"
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
