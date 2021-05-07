@@ -39,6 +39,8 @@ val caveSpiderHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties
 val squidHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ==" as string}]}, Id: [-111307516, -366261367, -1294937088, 1699377168]}, display: {Name: "{\"text\":\"Squid Head\"}" as string}});
 val hoglinHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=" as string}]}, Id: [-2120826304, -378911692, -1238340839, 485405824]}, display: {Name: "{\"text\":\"Hoglin Head\"}" as string}});
 val strayHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkZGY3NmU1NTVkZDVjNGFhOGEwYTVmYzU4NDUyMGNkNjNkNDg5YzI1M2RlOTY5ZjdmMjJmODVhOWEyZDU2In19fQ==" as string}]}, Id: [1682742189, -1786035250, -1657857635, -2051121028]}, display: {Name: "{\"text\":\"Stray Head\"}" as string}});
+val endermanHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0=" as string}]}, Id: [233407588, 309611990, -1146603762, -94551640]}, display: {Name: "{\"text\":\"Enderman Head\"}" as string}});
+val slimeHead=<item:minecraft:player_head>.withTag({SkullOwner: {Properties: {textures: [{Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhZDIwZmMyZDU3OWJlMjUwZDNkYjY1OWM4MzJkYTJiNDc4YTczYTY5OGI3ZWExMGQxOGM5MTYyZTRkOWI1In19fQ==" as string}]}, Id: [-1698015651, 274484876, -2114161659, 1170961586]}, display: {Name: "{\"text\":\"Slime Head\"}" as string}});
 
 # Next, allow any of the variant heads to be converted to the main color head
 craftingTable.addShapeless("orange_to_white_sheep_head", whiteSheepHead, [orangeSheepHead]);
@@ -145,4 +147,14 @@ craftingTable.addShaped("craftable_stray_spawn_egg", <item:minecraft:stray_spawn
     [strayHead, heart, strayHead],
     [star, netherite, star],
     [strayHead, heart, strayHead]
+]);
+craftingTable.addShaped("craftable_enderman_spawn_egg", <item:minecraft:enderman_spawn_egg>, [
+    [endermanHead, heart, endermanHead],
+    [star, netherite, star],
+    [endermanHead, heart, endermanHead]
+]);
+craftingTable.addShaped("craftable_slime_spawn_egg", <item:minecraft:slime_spawn_egg>, [
+    [slimeHead, heart, slimeHead],
+    [star, netherite, star],
+    [slimeHead, heart, slimeHead]
 ]);
