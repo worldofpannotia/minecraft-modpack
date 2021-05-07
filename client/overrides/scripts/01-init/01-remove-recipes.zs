@@ -3,6 +3,9 @@ import mods.jei.JEI as JEI;
 craftingTable.removeRecipe(<item:quark:backpack>);
 JEI.hideItem(<item:quark:backpack>);
 
+craftingTable.removeRecipe(<item:quark:magnet>);
+JEI.hideItem(<item:quark:magnet>);
+
 craftingTable.removeRecipe(<item:quark:nether_brick_fence_gate>);
 JEI.hideItem(<item:quark:nether_brick_fence_gate>);
 
