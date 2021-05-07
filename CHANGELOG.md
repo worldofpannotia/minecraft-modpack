@@ -28,8 +28,6 @@
 #### Added Mods
 * Angel Block: adds a block that can be placed in mid air and broken immediately (useful for building)
 * Armor Slots in Other Inventories: shows your armor slots when on other screens than your main inventory
-* Advanced Runtime Resource Pack: library mod needed for Compact
-* Compact: adds compressed versions of a handful of blocks (cobble, sand, gravel, etc)
 * Cursed Earth: adds a kind of grass that rapidly spawns powerful monsters (great for mob farms)
 * Enchantment Descriptions: describes enchantments
 * Lost & Found: items that are about to despawn in the world instead go to a global lost & found
