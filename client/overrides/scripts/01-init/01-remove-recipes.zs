@@ -15,7 +15,9 @@ JEI.hideItem(<item:quark:pipe>);
 craftingTable.removeRecipe(<item:quark:feeding_trough>);
 JEI.hideItem(<item:quark:feeding_trough>);
 
-### Remove redundant wool dyeing recipes
+### Remove redundant dyeing recipes
+
+# Wool
 craftingTable.removeByName("inspirations:cauldron/bottle/wool/black");
 craftingTable.removeByName("inspirations:cauldron/bottle/wool/blue");
 craftingTable.removeByName("inspirations:cauldron/bottle/wool/brown");
@@ -47,6 +49,41 @@ craftingTable.removeByName("wooltweaks:pink_wool");
 craftingTable.removeByName("wooltweaks:purple_wool");
 craftingTable.removeByName("wooltweaks:red_wool");
 craftingTable.removeByName("wooltweaks:yellow_wool");
+
+# Stained Glass
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/black");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/blue");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/brown");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/cyan");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/gray");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/green");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/light_blue");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/light_gray");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/lime");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/magenta");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/orange");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/pink");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/purple");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/red");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/white");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass/yellow");
+
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/black");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/blue");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/brown");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/cyan");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/gray");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/green");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/light_blue");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/light_gray");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/lime");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/magenta");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/orange");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/pink");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/purple");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/red");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/white");
+craftingTable.removeByName("inspirations:cauldron/bottle/stained_glass_pane/yellow");
 
 # Concrete powder and terracotta recipes
 craftingTable.removeByName("inspirations:cauldron/bottle/concrete_powder/white");
