@@ -1,3 +1,9 @@
+### 2021-05-07 (8.4.2)
+
+#### Config Changes
+* Minor increase in backpack storage size
+
+
 ### 2021-05-07 (8.4.1)
 
 #### Config Changes
