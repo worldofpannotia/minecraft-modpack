@@ -1,10 +1,11 @@
 ## World of Pannotia Minecraft Modpack
 
-![v8.4.2](https://img.shields.io/badge/version-v8.4.2-green.svg) ![MC Version 1.16.5](https://img.shields.io/badge/MC%20Version-1.16.5-blue.svg) ![Forge Version 36.1.0](https://img.shields.io/badge/Forge%20Version-36.1.0-red.svg)
+![Pack Version 8.4.2](https://img.shields.io/badge/Current-8.4.2-blue.svg?style=for-the-badge) ![v8.5.0-beta.0](https://img.shields.io/badge/Next-8.5.0--beta.0-orange.svg?style=for-the-badge)<br />
+![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.0](https://img.shields.io/badge/Forge-36.1.0-c39.svg?style=for-the-badge)
 
-This modpack is a continual work in progress. We occasionally add a mod or tweak a recipe, but overall, the pack is relatively stable.
+This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
-The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](https://www.curseforge.com/minecraft/modpacks/crucial-2). It will contain many of the same mods as Crucial 2 with several of our own tweaks and additions. It is meant to be mostly a vanilla+ experience. We have added a few storage mods, some lifestyle enhancements, and the amazing "Create" mod for automation 'vanilla-style'.
+The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](https://www.curseforge.com/minecraft/modpacks/crucial-2). It will contain many of the same mods as Crucial 2 with several of our own tweaks and additions. Our primary focus for this iteration of the pack is exploration and aesthetic building. With this in mind, we have added a few storage mods, some lifestyle enhancements, and the amazing Create mod for "vanilla-style" automation, but we have avoided (and will continue to avoid) any major tech or magic mods.
 
 ### Included Mods
 

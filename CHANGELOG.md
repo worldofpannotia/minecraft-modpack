@@ -1,3 +1,26 @@
+### 2021-05-09 (8.5.0-beta.0)
+
+#### Bug Fixes
+* Fixed issue with custom raw ores not being smeltable
+
+#### Config Changes
+* Added a second back slot to Curios so you can use elytra and a backpack without having to choose
+* Changed chests from Ender Storage to use vanilla ender chest sound
+* Increased the boost you get from campfires when flying with elytra or paragliders
+* Made sign editing require an empty hand to prevent accidentally editing signs
+* Removed mod configs where we weren't overriding anything from the modpack distribution zip file
+* Removed armor slots from a handful of screens where they were overlapping in bad ways
+* Removed Quark's sort buttons from a handful of inventory screens
+* Shulker respawn rate changed from 1 minute to 1 hour
+* Shulkers now always drop 2 shells instead of 50/50 chance to get nothing
+* Totem of Undying now prevents you from dying to the void if you happen to fall into it
+
+#### Updated Mods
+* Architectury API: 1.12.148 -> 1.12.149
+* CraftTweaker: 7.1.0.265 -> 7.1.0.275
+* Jade: 2.6.2 -> 2.7.1
+* Raw Ores Mod: unversioned -> Beta 0.1
+
 ### 2021-05-07 (8.4.2)
 
 #### Config Changes
