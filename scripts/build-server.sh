@@ -1,9 +1,9 @@
 #!/bin/sh
 
-VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^..v//g' | sed -e 's/^\([0-9.]*\).*/\1/g'`;
+VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*Pack Version \([0-9.]*\).*/\1/g'`;
 MINECRAFT_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*MC Version \([0-9.]*\).*/\1/g'`;
-MINECRAFT_LAUNCHER_VERSION=`echo $MINECRAFT_VERSION | sed -e 's/^\([0-9.]*\)\.[0-9]*$/\1/'`;
 FORGE_VERSION=`cat ./README.md | grep img.shields.io | sed -e 's/^.*Forge Version \([0-9.]*\).*/\1/g'`;
+MINECRAFT_LAUNCHER_VERSION=`echo $MINECRAFT_VERSION | sed -e 's/^\([0-9.]*\)\.[0-9]*$/\1/'`;
 
 rm -rf ./tmp/server;
 

@@ -3,12 +3,14 @@ import cp from 'child_process';
 
 const clientModIds = [
     414086, // Advancement Screenshot
+    373311, // Armor Slots in Other Inventories
     272515, // Better Advancements
     446253, // Better Biome Blend
     431587, // Charmonium Reforged
     308240, // Cherished Worlds
     250398, // Controlling
     238891, // Dynamic Surroundings
+    250419, // Enchantment Descriptions
     363363, // Extreme Sound Muffler
     422719, // EZZoom
     261725, // Item Zoom
