@@ -1,5 +1,0 @@
-
-[General]
-	#The default command to use the features of this mod. By default /ec
-	enchantCommandString = "ec"
-

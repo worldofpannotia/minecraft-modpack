@@ -1,9 +1,0 @@
-
-[entities]
-	#Range: 0 ~ 255
-	"Deeper max spawn height" = 60
-	"Creeper explosions destroy blocks" = false
-
-[worldgen]
-	"Large emerald veins" = true
-
