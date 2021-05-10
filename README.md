@@ -241,6 +241,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wall-jump">Wall-Jump! [FORGE] (by genandnic)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/windowlogging">Windowlogging (by mc_Grimmauld)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-proof-block">Wither-Proof Block (Fabric/Forge) (by nicguzzo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">Wither Skeleton Tweaks (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wool-pressure-plates">Wool Pressure Plates (by bl4ckscor3)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wool-tweaks">Wool Tweaks (by Serilum)</a></li>
