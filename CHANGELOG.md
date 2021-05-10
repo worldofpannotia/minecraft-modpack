@@ -1,3 +1,12 @@
+### Upcoming
+
+#### Bug Fixes
+* Re-disabled biome fog from Dynamic Surroundings
+* Re-disabled flies from Alex's Mobs
+
+#### Added Mods
+* ChunkNoGoByeBye: super simple chunk loader mod
+
 ### 2021-05-09 (8.5.1)
 
 #### Added Mods

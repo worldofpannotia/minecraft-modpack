@@ -59,6 +59,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits (by AlgorithmX2)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chocolate-fix">Chocolate Fix (by AlcatrazEscapee)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator">Chunk-Pregenerator (by Speiger)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunknogobyebye">ChunkNoGoByeBye (by LexManos)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/citadel">Citadel (by alex1the1666)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge">Cloth Config API (Forge) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
