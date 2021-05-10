@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.5.0](https://img.shields.io/badge/Current-8.5.0-blue.svg?style=for-the-badge) ![Next Version 8.5.0](https://img.shields.io/badge/Next-8.5.0-orange.svg?style=for-the-badge)<br />
+![Pack Version 8.5.1](https://img.shields.io/badge/Current-8.5.1-blue.svg?style=for-the-badge) ![Next Version 8.5.1](https://img.shields.io/badge/Next-8.5.1-orange.svg?style=for-the-badge)<br />
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.0](https://img.shields.io/badge/Forge-36.1.0-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
@@ -225,6 +225,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries (by MehVahdJukaar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/third-person-elytra">Third Person Elytra (by pauljoda)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt (by gigaherz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/torchmaster">Torchmaster (by xalcon)</a></li>

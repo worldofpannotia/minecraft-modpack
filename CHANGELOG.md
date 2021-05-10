@@ -1,10 +1,19 @@
+### 2021-05-09 (8.5.1)
+
+#### Added Mods
+* Third Person Elytra (client only): for real this time, I swear
+
 ### 2021-05-09 (8.5.0)
 
 #### Bug Fixes
 * Actually fixed issue with raw ores
 
 #### Config Changes
+* Made Quark's trowel tool unbreakable
 * Remove armor slots from Iron Furnaces GUIs
+
+#### Added Mods
+* Third Person Elytra (client only): automatically switches you into third-person mode when flying with elytra
 
 ### 2021-05-09 (8.5.0-beta.0)
 

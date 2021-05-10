@@ -285,7 +285,7 @@
 		#Amount of blocks placed is this value + 1. Default is 255 (4 stacks).
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
-		"Trowel Max Durability" = 255
+		"Trowel Max Durability" = 0
 
 	[tools.bottled_cloud]
 		"Cloud Level Top" = 132
