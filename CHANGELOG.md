@@ -1,3 +1,11 @@
+### 2021-05-09 (8.5.0)
+
+#### Bug Fixes
+* Actually fixed issue with raw ores
+
+#### Config Changes
+* Remove armor slots from Iron Furnaces GUIs
+
 ### 2021-05-09 (8.5.0-beta.0)
 
 #### Bug Fixes
@@ -6,7 +14,7 @@
 #### Config Changes
 * Added a second back slot to Curios so you can use elytra and a backpack without having to choose
 * Changed chests from Ender Storage to use vanilla ender chest sound
-* Increased the boost you get from campfires when flying with elytra or paragliders
+* Increased the boost you get from campfires when flying with elytra
 * Made sign editing require an empty hand to prevent accidentally editing signs
 * Removed mod configs where we weren't overriding anything from the modpack distribution zip file
 * Removed armor slots from a handful of screens where they were overlapping in bad ways

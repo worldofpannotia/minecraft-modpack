@@ -1,6 +1,6 @@
 
 [general]
-	blacklisted_screens = ["curios", "refinedstorage", "dankstorage"]
+	blacklisted_screens = ["curios", "refinedstorage", "dankstorage", "ironfurnaces"]
 	swap_hands = true
 	debug_as_level_info = false
 	#Allowed Values: LEFT, RIGHT

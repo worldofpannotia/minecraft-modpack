@@ -1,8 +1,8 @@
 import mods.jei.JEI as JEI;
 
-val rawCopper=<item:raw_ores_mod:raw_netherite>.withTag({is_copper: "\"true\"" as string, display: {Name: "{\"text\":\"Raw Copper\",\"color\":\"white\",\"italic\":false}" as string}});
-val rawSilver=<item:raw_ores_mod:raw_quartz>.withTag({is_silver: "\"true\"" as string, display: {Name: "{\"text\":\"Raw Silver\",\"color\":\"white\",\"italic\":false}" as string}});
-val rawZinc=<item:raw_ores_mod:raw_diamond>.withTag({is_zinc: "\"true\"" as string, display: {Name: "{\"text\":\"Raw Zinc\",\"color\":\"white\",\"italic\":false}" as string}});
+val rawCopper=<item:raw_ores_mod:raw_netherite>.withTag({is_copper: "\"true\"" as string, display: {Name: "{\"text\": \"Raw Copper\", \"color\": \"white\", \"italic\": false}" as string}});
+val rawSilver=<item:raw_ores_mod:raw_quartz>.withTag({is_silver: "\"true\"" as string, display: {Name: "{\"text\": \"Raw Silver\", \"color\": \"white\", \"italic\": false}" as string}});
+val rawZinc=<item:raw_ores_mod:raw_diamond>.withTag({is_zinc: "\"true\"" as string, display: {Name: "{\"text\": \"Raw Zinc\", \"color\": \"white\", \"italic\": false}" as string}});
 
 JEI.hideItem(<item:raw_ores_mod:crushing_hammer>);
 JEI.hideItem(<item:raw_ores_mod:gemcutting_chisel>);
