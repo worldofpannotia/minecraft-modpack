@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "pannotia:charcoal"
+        },
+        {
+            "tag": "pannotia:charcoal"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gray_dye",
+        "count": 2
+    }
+}
