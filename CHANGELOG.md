@@ -1,3 +1,8 @@
+### Upcoming
+
+#### Recipe Changes
+* Changed a few recipes that required balls of slime to accept anything with the `forge:slimeballs` tag
+
 ### 2021-05-10 (8.6.0-beta.0)
 
 #### Bug Fixes
