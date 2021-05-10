@@ -1,4 +1,4 @@
-### Upcoming
+### 2021-05-10 (8.6.0-beta.0)
 
 #### Bug Fixes
 * Re-disabled biome fog from Dynamic Surroundings
