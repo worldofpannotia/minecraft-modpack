@@ -15,6 +15,9 @@ JEI.hideItem(<item:quark:pipe>);
 craftingTable.removeRecipe(<item:quark:feeding_trough>);
 JEI.hideItem(<item:quark:feeding_trough>);
 
+craftingTable.removeRecipe(<item:finallyfarmabledyes:black>);
+JEI.hideItem(<item:finallyfarmabledyes:black>);
+
 ### Remove redundant dyeing recipes
 
 # Wool
