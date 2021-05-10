@@ -66,6 +66,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib 1.8.+ (by covers1624)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-core">CoFH Core (by TeamCoFH)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/compressium">Compressium (by DinnerBeef)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/conduits-prevent-drowned">Conduits Prevent Drowned (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cookielicious">Cookielicious (by Evo_934)</a></li>

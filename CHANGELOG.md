@@ -6,6 +6,7 @@
 
 #### Added Mods
 * ChunkNoGoByeBye: super simple chunk loader mod
+* Compressium: adds compressed variants of several blocks
 * Wither-Proof Block: ~~adds new food items~~ adds a wither-proof block
 
 ### 2021-05-09 (8.5.1)
