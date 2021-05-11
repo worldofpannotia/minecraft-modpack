@@ -1,4 +1,7 @@
-### Upcoming
+### 2021-05-10 (8.6.0)
+
+#### Config Changes
+* Allow flies to spawn in bayous, swamps, and marshes
 
 #### Recipe Changes
 * Changed a few recipes that required balls of slime to accept anything with the `forge:slimeballs` tag

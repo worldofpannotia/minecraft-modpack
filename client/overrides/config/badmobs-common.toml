@@ -2254,13 +2254,13 @@
 	#Spawning options for alexsmobs:fly
 	[alexsmobs.fly]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
-		allowSpawners = false
+		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = false
+		allowSpawnEggs = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = true
+		removeAggressively = false
 
 	#Spawning options for alexsmobs:alligator_snapping_turtle
 	[alexsmobs.alligator_snapping_turtle]

@@ -1,0 +1,46 @@
+{
+    "biomes": [
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "bayou_blues:bayou"
+            }
+        ],
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "bayou_blues:bayou_hills"
+            }
+        ],
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "minecraft:swamp"
+            }
+        ],
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "minecraft:swamp_hills"
+            }
+        ],
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "environmental:marsh"
+            }
+        ],
+        [
+            {
+                "type": "REGISTRY_NAME",
+                "negate": false,
+                "value": "environmental:mushroom_marsh"
+            }
+        ]
+    ]
+}
