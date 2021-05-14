@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {"item": "quark:biotite_block"}
+    ],
+    "result": {
+        "item": "quark:biotite",
+        "count": 4
+    }
+}
