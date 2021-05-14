@@ -1,3 +1,20 @@
+### 2021-05-14 (8.6.1)
+
+#### Bug Fixes
+* Fixed concrete powder recipes
+
+#### Config Changes
+* Small tweaks to mining dimension ore distribution
+  * Made emerald spawn similar to diamond (slightly rarer)
+  * Made lapis and sugilite spawn slightly more often
+
+#### Removed Mods
+_Note:_ It seems that one or more of these JEI addons was causing a large portion of our client-side lag when using things like Refined Storage and Simple Storage Network, hence their removal from the pack.
+* Just Enough Beacons
+* Just Enough Professions
+* Just Enough Resources
+
+
 ### 2021-05-10 (8.6.0)
 
 #### Config Changes
