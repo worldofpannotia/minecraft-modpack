@@ -6,7 +6,8 @@
 		"minecraft:clay, minecraft:clay_ball, 4",
 		"minecraft:charcoal, morecharcoal:charcoal_chunk, 8",
 		"minecraft:coal, morecharcoal:coal_chunk, 8",
-		"minecraft:warped_wart_block, nether_extension:warped_wart, 4"
+		"minecraft:warped_wart_block, nether_extension:warped_wart, 4",
+		"quark:biotite_block, quark:biotite, 4"
 	]
 	enableUI = true
 	debugTrace = false
