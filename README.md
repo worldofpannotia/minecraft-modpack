@@ -144,9 +144,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jellyfishing">Jellyfishing (by BlueDuckYT)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/journeymap">JourneyMap (by techbrew)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jump-over-fences-forge">Jump Over Fences [Forge] (by Kreezxil)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-beacons">Just Enough Beacons (by tfarecnim)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep">Just Enough Professions (JEP) (by Mrbysco)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-mob-heads">Just Mob Heads (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-player-heads">Just Player Heads (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi 🥝 (by Snownee_)</a></li>
