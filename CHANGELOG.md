@@ -1,3 +1,36 @@
+### 2021-05-15 (8.7.0)
+
+#### Misc Changes
+* Updated Forge from 36.1.0 -> 36.1.18
+
+#### Config Changes
+* Blocked resource jellyfish from the More Jellyfish mod from spawning
+* Slightly increased chance of finding Rings of Ascension
+
+#### Updated Mods
+* Alex's Mobs: 1.10.0 -> 1.10.1
+* Architectury API: 1.12.149 -> 1.14.156
+* Cloth Config API: 4.11.19 -> 4.11.24
+* Controlling: 7.0.0.15 -> 7.0.016
+* CraftTweaker: 7.1.0.275 -> 7.1.0.284
+* Curio of Undying: 5.1.0.0 -> 5.2.0.0
+* Cursed Earth: 3.1a -> 3.2
+* Extreme Sound Muffler: 3.9 -> 3.11
+* Farmer's Delight Cookbook Addon: 1.3 -> 2.0
+* Inspirations: 1.2.2 -> 1.2.3.32
+* Iron Furnaces: 2.6.7 -> 2.6.8
+* Just Enough Items: 7.6.4.90 -> 7.7.0.91
+* Mantle: 1.6.92 -> 1.6.97
+* Paragliders: 1.3.1.0 -> 1.3.1.1
+* Performant: 3.55m -> 3.56m
+* Waystones: 7.4.0 -> 7.5.1
+* YUNG's Better Caves: 1.1.1 -> 1.1.2
+
+#### Removed Mods
+* Areas
+* Random Village Names
+* Villager Names
+
 ### 2021-05-14 (8.6.1)
 
 #### Bug Fixes

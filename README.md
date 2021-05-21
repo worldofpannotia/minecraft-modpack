@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.6.1](https://img.shields.io/badge/Current-8.6.1-blue.svg?style=for-the-badge) ![Next Version 8.6.1](https://img.shields.io/badge/Next-8.6.1-orange.svg?style=for-the-badge)<br />
-![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.0](https://img.shields.io/badge/Forge-36.1.0-c39.svg?style=for-the-badge)
+![Pack Version 8.7.0](https://img.shields.io/badge/Current-8.7.0-blue.svg?style=for-the-badge) ![Next Version 8.7.0](https://img.shields.io/badge/Next-8.7.0-orange.svg?style=for-the-badge)<br />
+![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -25,7 +25,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin (by squeek502)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/archers-paradox">Archer's Paradox (by TeamCoFH)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-forge">Architectury API (Forge) (by shedaniel)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/areas">Areas (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/armor-slots-in-other-inventories">Armor Slots in other Inventories (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/atmospheric">Atmospheric (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib">AutoRegLib (by Vazkii)</a></li>
@@ -193,7 +192,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual">Rain Be Gone Ritual (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-enchants">Random Enchants (by tfarecnim)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-village-names">Random Village Names (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/raw-ores-mod">Raw Ores Mod (by SkeletalVirusTwitch)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons">Refined Storage Addons (by raoulvdberge)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">Refined Storage (by raoulvdberge)</a></li>
@@ -234,7 +232,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic">Upgrade Aquatic (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/upsizer-mod">Upsizer Mod [FORGE] (by The_Wabbit0101)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers-forge">Vanilla Hammers [Forge] (by MelanX)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/villager-names">Villager Names (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/voidtotem">Void Totem (by Affehund)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wall-jump">Wall-Jump! [FORGE] (by genandnic)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones (by BlayTheNinth)</a></li>
