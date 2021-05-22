@@ -7,7 +7,9 @@
 		"minecraft:charcoal, morecharcoal:charcoal_chunk, 8",
 		"minecraft:coal, morecharcoal:coal_chunk, 8",
 		"minecraft:warped_wart_block, nether_extension:warped_wart, 4",
-		"quark:biotite_block, quark:biotite, 4"
+		"quark:biotite_block, quark:biotite, 4",
+		"nether_extension:ash_block, nether_extension:ash, 4",
+		"minecraft:prismarine_bricks, minecraft:prismarine_shard, 9"
 	]
 	enableUI = true
 	debugTrace = false

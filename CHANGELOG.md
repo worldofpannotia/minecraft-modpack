@@ -1,3 +1,38 @@
+### 2021-05-22 (8.8.0)
+
+#### Config Changes
+* Added compacting drawer rules for ash <-> ash blocks and prismarine shards <-> prismarine bricks
+
+#### Recipe Changes
+* Added shapeless crafting recipe to convert Nether Extension's ash blocks back to 4 ash
+* Added shapeless crafting recipe to convert prismarine bricks back to 9 prismarine shards
+
+#### Added Mods
+* Balanced Enchanting: fixes enchanting costs when you have more XP
+  * Example: spending 3 levels to go from 30 to 27 takes dramatically less than going from 60 to 57. This mod addresses that discrepancy
+* Gilded Armor: combine netherite armor with a gold ingot to get something piglins won't hate and looks cool to boot
+* Sneaky Magic: Allows almost all enchants to stack
+  * Ensorcellation enchants don't work, but support should be coming in a future update
+
+#### Updated Mods
+* Advanced Mining Dimension: 1.0.3 -> 1.0.5
+* Architectury API: 1.14.156 -> 1.15.16
+* Better Advancements: 0.1.0.105 -> 0.1.0.108
+* Bookshelf: 10.0.7 -> 10.0.8
+* Cloth Config API: 4.11.24 -> 4.11.26
+* CraftTweaker: 7.1.0.284 -> 7.1.0.294
+* Differentiate: 0.4.2 -> 0.5.0
+* Farmer's Delight: 0.4.2 -> 0.4.3
+* Just Enough Items: 7.7.0.91 -> 7.7.0.99
+* Placebo: 4.4.2 -> 4.4.5
+* Random Enchants: 4.0.6 -> 4.0.7
+* Supplementaries: 0.12.1 -> 0.12.2
+
+#### Removed Mods
+* Armor Slots in Other Inventories: we've never gotten it to work properly, and it wasn't as beneficial as we anticipated
+* Infinity Mending: duplicate functionality with Sneaky Magic
+
+
 ### 2021-05-15 (8.7.0)
 
 #### Misc Changes
