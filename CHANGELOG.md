@@ -1,3 +1,8 @@
+### 2021-05-22 (8.8.1)
+
+#### Config Changes
+* Add config for Sneaky Magic that I forgot to include last time
+
 ### 2021-05-22 (8.8.0)
 
 #### Config Changes
