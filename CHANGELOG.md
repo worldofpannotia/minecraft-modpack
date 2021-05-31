@@ -1,3 +1,54 @@
+### 2021-05-31 (8.9.0-beta.0)
+
+#### Notable Changes
+* Dungeons Plus: they added support for modifying loot tables on the fly. This means we can try adding content to them again!
+* Quark: added a bunch of stonecutter recipes, blossom hedges, and celebration lamps (in honor of Vazkii's 10-year modding anniversary)
+* Waystones: added a portstone block, which lets you teleport to any activated waystone, but cannot itself be ported to
+
+#### Bug Fixes
+* Fix compacting drawer issue with prismarine/prismarine bricks and ash/ash blocks
+* Fix issue where plain terracotta could not be dyed ([#153](https://github.com/worldofpannotia/minecraft-modpack/issues/153))
+
+#### Config Changes
+* Make the goggles from Create usable in Curios' head slot
+* Added more ring slots (because why not... also, because bribery)
+
+#### Recipe Changes
+* Added recycling recipes for netherite tools and gear ([#146](https://github.com/worldofpannotia/minecraft-modpack/issues/146))
+* Fix rocky dirt recipe conflict and output ([#154](https://github.com/worldofpannotia/minecraft-modpack/issues/154))
+* Added stonecutter recipe to allow converting Quark's biotite bricks back to biotite blocks ([#152](https://github.com/worldofpannotia/minecraft-modpack/issues/152))
+
+#### Added Mods
+* ContentTweaker ([#144](https://github.com/worldofpannotia/minecraft-modpack/issues/144))
+* Cogwheel Tweaker ([#143](https://github.com/worldofpannotia/minecraft-modpack/issues/143))
+* Statement Library (new library dependency added by More Waterlogging)
+
+#### Updated Mods
+* Architectury API: 1.15.13 -> 1.17.20
+* AutoRegLib: 1.6-47 -> 1.6-49
+* Chiseled: 0.4.1 -> 0.4.3
+* Clumps: 6.0.0.22 -> 6.0.0.24
+* Controlling: 7.0.0.16 -> 7.0.0.20
+* Cooking for Blockheads: 9.3.1 -> 9.3.2
+* CraftTweaker: 7.1.0.294 -> 7.1.0.307
+* CreateTweaker: 1.0.0.12 -> 1.0.0.13
+* Dungeons Plus: 1.1.4 -> 1.1.5
+* Extreme Sound Muffler: 3.11 -> 3.12
+* FastSuite: 1.0.1 -> 1.0.2
+* JEITweaker: 1.0.1.15 -> 1.0.1.27
+* Just Enough Items: 7.7.0.99 -> 7.7.0.101
+* Mantle: 1.6.97 -> 1.6.103
+* More Waterlogging: 1.4 -> 1.5
+* Performant: 3.56m -> 3.64m
+* Quark: 2.4-311 -> 2.4-312
+* SuperMartijn642's Core Lib: 1.0.3 -> 1.0.4
+* Void Totem: 1.3.0 -> 1.4.0
+* Waystones: 7.5.1 -> 7.6.0
+
+#### Removed Mods
+* ChunkNoGoByeBye
+* FTB Chunks
+
 ### 2021-05-22 (8.8.1)
 
 #### Config Changes

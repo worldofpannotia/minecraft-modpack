@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.8.1](https://img.shields.io/badge/Current-8.8.1-blue.svg?style=for-the-badge) ![Next Version 8.8.1](https://img.shields.io/badge/Next-8.8.1-orange.svg?style=for-the-badge)<br />
+![Pack Version 8.8.1](https://img.shields.io/badge/Current-8.8.1-blue.svg?style=for-the-badge) ![Next Version 8.9.0-beta.0](https://img.shields.io/badge/Next-8.9.0--beta.0-orange.svg?style=for-the-badge)<br />
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
@@ -58,15 +58,16 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits (by AlgorithmX2)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chocolate-fix">Chocolate Fix (by AlcatrazEscapee)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator">Chunk-Pregenerator (by Speiger)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunknogobyebye">ChunkNoGoByeBye (by LexManos)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/citadel">Citadel (by alex1the1666)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge">Cloth Config API (Forge) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib 1.8.+ (by covers1624)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-core">CoFH Core (by TeamCoFH)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cogwheel-tweaker">Cogwheel Tweaker (by mc_Grimmauld)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/compressium">Compressium (by DinnerBeef)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/conduits-prevent-drowned">Conduits Prevent Drowned (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/contenttweaker">ContentTweaker (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cookielicious">Cookielicious (by Evo_934)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads">Cooking for Blockheads (by BlayTheNinth)</a></li>
@@ -119,7 +120,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fixed-anvil-repair-cost">Fixed Anvil Repair Cost (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forgery">Forgery (by unascribed)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge">FTB Backups (Forge) (by FTB)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge">FTB Chunks (Forge) (by FTB)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge">FTB Library (Forge) (by FTB)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/gildedarmor">GildedArmor (by MaroonShaded)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/glassential">Glassential (by Lykrast)</a></li>
@@ -214,6 +214,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sneaky-magic">Sneaky Magic (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales">Softer Hay Bales (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/statement">Statement Library (by Virtuoel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/step">Step (by ModdingLegacy)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers (by Texelsaur)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/structure-gel-api">Structure Gel API (by ModdingLegacy)</a></li>

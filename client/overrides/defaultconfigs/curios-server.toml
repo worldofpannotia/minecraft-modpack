@@ -6,4 +6,7 @@
   size = 2
 [[curiosSettings]]
   identifier = "ring"
-  size = 6
+  size = 10
+[[curiosSettings]]
+  identifier = "head"
+  size = 1
