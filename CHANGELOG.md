@@ -1,3 +1,20 @@
+### 2021-05-31 (8.9.0)
+
+#### Notable Changes
+* Removed treasure gems datapack since it was preventing modded items from spawning in treasure chests
+
+#### Updated Mods
+* Waystones: 7.6.0 -> 7.6.1
+
+### 2021-05-31 (8.9.0-beta.1)
+
+#### Updated Mods
+* More Waterlogging: 1.5 -> 1.4
+
+#### Removed Mods
+* Statement Library (causes mixin crash)
+
+
 ### 2021-05-31 (8.9.0-beta.0)
 
 #### Notable Changes
