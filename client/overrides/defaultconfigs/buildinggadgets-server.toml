@@ -25,7 +25,7 @@
 	[Gadgets."Building Gadget"]
 		#The Gadget's Energy cost per Operation
 		#Range: > 0
-		"Energy Cost" = 50
+		"Energy Cost" = 0
 		#The max energy of the Gadget, set to 0 to disable energy usage
 		#Range: > 0
 		"Maximum Energy" = 0
@@ -45,7 +45,7 @@
 		"Max Build Dimensions" = 256
 		#The Gadget's Energy cost per Operation
 		#Range: > 0
-		"Energy Cost" = 50
+		"Energy Cost" = 0
 		#Maximum amount of Blocks to be copied in one Tick. 
 		#Lower values may improve Server-Performance when copying large Templates
 		#Range: > 1
@@ -61,7 +61,7 @@
 	[Gadgets."Destruction Gadget"]
 		#The Gadget's Energy cost per Operation
 		#Range: > 0
-		"Energy Cost" = 200
+		"Energy Cost" = 0
 		#The cost in energy/durability will increase by this amount when not in fuzzy mode
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Non-Fuzzy Mode Multiplier" = 2.0
@@ -81,7 +81,7 @@
 	[Gadgets."Exchanging Gadget"]
 		#The Gadget's Energy cost per Operation
 		#Range: > 0
-		"Energy Cost" = 100
+		"Energy Cost" = 0
 		#The max energy of the Gadget, set to 0 to disable energy usage
 		#Range: > 0
 		"Maximum Energy" = 0
