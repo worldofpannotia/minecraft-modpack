@@ -102,8 +102,6 @@ furnace.addRecipe("recycle_netherite_leggings", netherite, <item:minecraft:nethe
 blastFurnace.addRecipe("bf_recycle_netherite_leggings", netherite, <item:minecraft:netherite_leggings>.anyDamage(), 0.5, 20);
 furnace.addRecipe("recycle_netherite_boots", netherite, <item:minecraft:netherite_boots>.anyDamage(), 0.5, 40);
 blastFurnace.addRecipe("bf_recycle_netherite_boots", netherite, <item:minecraft:netherite_boots>.anyDamage(), 0.5, 20);
-furnace.addRecipe("recycle_netherite_horse_armor", netherite, <item:minecraft:netherite_horse_armor>.anyDamage(), 0.5, 40);
-blastFurnace.addRecipe("bf_recycle_netherite_horse_armor", netherite, <item:minecraft:netherite_horse_armor>.anyDamage(), 0.5, 20);
 furnace.addRecipe("recycle_netherite_hoe", netherite, <item:minecraft:netherite_hoe>.anyDamage(), 0.5, 40);
 blastFurnace.addRecipe("bf_recycle_netherite_hoe", netherite, <item:minecraft:netherite_hoe>.anyDamage(), 0.5, 20);
 furnace.addRecipe("recycle_netherite_pickaxe", netherite, <item:minecraft:netherite_pickaxe>.anyDamage(), 0.5, 40);

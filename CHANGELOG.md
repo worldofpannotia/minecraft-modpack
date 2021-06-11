@@ -1,3 +1,13 @@
+### 2021-05-31 (8.9.2)
+
+#### Removed Mods
+* Bundles Plus: temporarily remove this mod from the pack due to a crash
+
+### 2021-05-31 (8.9.1)
+
+#### Bug Fixes
+* There's no such thing as netherite horse armor, so you can't recycle it
+
 ### 2021-05-31 (8.9.0)
 
 #### Notable Changes
