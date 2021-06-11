@@ -1,3 +1,12 @@
+### 2021-06-01 (8.9.3)
+
+#### Notable Changes
+* Fix crash when right-clicking a portstone block
+
+#### Updated Mods
+* Waystones: 7.6.1 -> 7.6.2
+
+
 ### 2021-05-31 (8.9.2)
 
 #### Removed Mods
