@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.9.3](https://img.shields.io/badge/Current-8.9.3-blue.svg?style=for-the-badge) ![Next Version 8.10.0-beta.0](https://img.shields.io/badge/Next-8.10.0--beta.0-orange.svg?style=for-the-badge)<br />
+![Pack Version 8.9.3](https://img.shields.io/badge/Current-8.9.3-blue.svg?style=for-the-badge) ![Next Version 8.10.0-beta.1](https://img.shields.io/badge/Next-8.10.0--beta.1-orange.svg?style=for-the-badge)<br />
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
@@ -139,6 +139,8 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/itemzoom">ItemZoom (by mezz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep">Just Enough Professions (JEP) (by Mrbysco)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jeitweaker">JEITweaker (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jellyfishing">Jellyfishing (by BlueDuckYT)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/journeymap">JourneyMap (by techbrew)</a></li>

@@ -1,3 +1,34 @@
+### 2021-06-11 (8.10.0-beta.1)
+
+#### Notable Changes
+* Allurement added a new enchant: Launch. It's like knockback, but vertical!
+* Macaw's Doors added new doors made from bark blocks
+* Ornamental added some new wall ornaments
+* Re-added JEI plugins that show villager professions and mob drops/world gen info
+
+#### Added Mods
+* Just Enough Professions
+* Just Enough Resources
+
+#### Updated Mods
+* Allurement: 1.1.1 -> 1.2.0
+* Architectury API: 1.17.20 -> 1.17.21
+* Bayou Blues: 1.0.4 -> 1.0.5
+* Citadel: 1.6.3 -> 1.7.1
+* Clumps: 6.0.0.24 -> 6.0.0.25
+* Controlling: 7.0.0.20 -> 7.0.0.23
+* Curios API: 4.0.5.1 -> 4.0.5.2
+* Curious Armor Stands: 2.1.0 -> 2.1.1
+* Enhanced Mushrooms: 3.0.7 -> 3.0.8
+* Extreme Sound Muffler: 3.12 -> 3.13
+* Inspirations: 1.2.3.32 -> 1.2.3.37
+* Just Enough Items: 7.7.0.101 -> 7.7.0.106
+* Macaw's Doors: 1.0.2 -> 1.0.3
+* Ornamental: 4.4 -> 4.5
+* Snad: 1.0.5 -> 1.0.6
+* YUNG's Better Mineshafts: 2.0.3 -> 2.0.4
+
+
 ### 2021-06-10 (8.10.0-beta.0)
 
 #### Notable Changes
@@ -7,7 +38,7 @@
   * Added:
     * Added Goblets, a new decoration item that can hold 1 bottle of fluid.
     * Added Raked Gravel, a new path like block that can be obtained by hoeing gravel. Can be curved (a bit like rails) to create interesting patterns
-    * Added custom map decorations: you can now use maps on beacons, lodestones, respawn anchors, beds, condiuts, portals, sign posts and flags to place a custom icon on a map. Some of those blocks eve support naming ability allowing the name itself to be displayed on the map.
+    * Added custom map decorations: you can now use maps on beacons, lodestones, respawn anchors, beds, condiuts, portals, sign posts and flags to place a custom icon on a map. Some of those blocks even support naming ability allowing the name itself to be displayed on the map.
     * Added the ability to bottle up experience by shift right clicking with a bottle on an enchanting table. Doing so will cost some health.
     * Added brass lantern that shows up when you have Create installed
   * Improvements:
