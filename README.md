@@ -33,15 +33,17 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bad-mobs">Bad Mobs (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded">Bad Wither No Cookie - Reloaded (by Kreezxil)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/balanced-enchanting">Balanced Enchanting (by tfarecnim)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/banneradditions">BannerAdditions (by EliteAsian123)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters">Baubley Heart Canisters (by traverse_joe)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bayou-blues">Bayou Blues (by team_aurora_modding)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/bedspreads">Bedspreads (Forge) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/berry-good">Berry Good (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-advancements">Better Advancements (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-badlands">Better Badlands (by Gkoliver)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement">Better Beacon Placement (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-biome-blend">Better Biome Blend (by FionaTheMortal)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-burning">Better Burning (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement">Better Conduit Placement (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-drowning">Better Drowning (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control">Better Spawner Control (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bigger-sponge-absorption-radius">Bigger Sponge Absorption Radius (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
@@ -86,6 +88,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cycle-paintings">Cycle Paintings (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cyclops-core">Cyclops Core (by kroeser)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dank-storage">Dank Storage (by tfarecnim)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup">Death Backup (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks">Decorative Blocks (by stohun)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/differentiate">Differentiate (by eltrutlikes)</a></li>
@@ -107,7 +110,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler">Extreme sound muffler (Forge) (by LeoBeliik)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ezzoom">EzZoom (by JTK222)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fantasy-mounts">Fantasy Mounts (by Bonfyre_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon">Farmer's Delight Cookbook Addon (by dalumma)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads">Farming for Blockheads (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay">Fast Leaf Decay (by olafskiii)</a></li>
@@ -226,6 +228,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/third-person-elytra">Third Person Elytra (by pauljoda)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/tips">Tips (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt (by gigaherz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/torchmaster">Torchmaster (by xalcon)</a></li>

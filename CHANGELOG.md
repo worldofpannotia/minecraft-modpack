@@ -5,10 +5,22 @@
 * Macaw's Doors added new doors made from bark blocks
 * Ornamental added some new wall ornaments
 * Re-added JEI plugins that show villager professions and mob drops/world gen info
+* Added a mod that shows helpful tips on loading screens. We can add to this over time to remind us of lesser-known features in (or new additions to) the pack
+* Added some new paintings and banner patterns
+* Minor changes to burning and drowning mechanics (see [Better Burning](https://www.curseforge.com/minecraft/mc-mods/better-burning) and [Better Drowning](https://www.curseforge.com/minecraft/mc-mods/better-drowning) mod pages)
 
 #### Added Mods
+* Banner Additions
+* Better Burning
+* Better Drowning
+* Dark Paintings
 * Just Enough Professions
 * Just Enough Resources
+* Tips
+
+#### Removed Mods
+* Bedspreads: causes conflicts with some banner addons
+* Farmer's Delight Cookbook Addon: this was discontinued by the author as no longer needed to help with FD recipes
 
 #### Updated Mods
 * Allurement: 1.1.1 -> 1.2.0
