@@ -1,3 +1,13 @@
+### 2021-06-12 (8.10.0)
+
+#### Bug Fixes
+* Fixed the resource pack for the redstone/terracotta rotation wrench
+* Fixed the recipe name for Nether Extension netherite recycling
+
+#### Updated Mods
+* Just Enough Resources: 0.12.0.100 -> 0.12.1.121
+
+
 ### 2021-06-12 (8.10.0-beta.2)
 
 #### Notable Changes

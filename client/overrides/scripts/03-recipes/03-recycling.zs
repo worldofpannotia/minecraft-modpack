@@ -94,8 +94,8 @@ furnace.addRecipe("recycle_diamond_sword", diamond * 2, <item:minecraft:diamond_
 blastFurnace.addRecipe("bf_recycle_diamond_sword", diamond * 2, <item:minecraft:diamond_sword>.anyDamage(), 0.5, 20);
 
 # Netherite Recycling
-furnace.removeByName("nether_extension:netherite_nugget_from_smelting");
-blastFurnace.removeByName("nether_extension:netherite_nugget_from_blasting");
+furnace.removeByName("nether_extension:netherite/netherite_nugget_from_smelting");
+blastFurnace.removeByName("nether_extension:netherite/netherite_nugget_from_blasting");
 furnace.addRecipe("recycle_netherite_helmet", netherite, <item:minecraft:netherite_helmet>.anyDamage(), 0.5, 40);
 blastFurnace.addRecipe("bf_recycle_netherite_helmet", netherite, <item:minecraft:netherite_helmet>.anyDamage(), 0.5, 20);
 furnace.addRecipe("recycle_netherite_chestplate", netherite, <item:minecraft:netherite_chestplate>.anyDamage(), 0.5, 40);
