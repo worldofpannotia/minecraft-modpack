@@ -1,3 +1,9 @@
+### 2021-06-12 (8.10.0-beta.2)
+
+#### Notable Changes
+* Use the 1.16.5 file for Macaw's Doors, not the 1.12.2 one
+
+
 ### 2021-06-11 (8.10.0-beta.1)
 
 #### Notable Changes
