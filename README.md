@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.6.1](https://img.shields.io/badge/Current-8.6.1-blue.svg?style=for-the-badge) ![Next Version 8.6.1](https://img.shields.io/badge/Next-8.6.1-orange.svg?style=for-the-badge)<br />
-![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.0](https://img.shields.io/badge/Forge-36.1.0-c39.svg?style=for-the-badge)
+![Pack Version 8.10.0](https://img.shields.io/badge/Current-8.10.0-blue.svg?style=for-the-badge) ![Next Version 8.11.0-beta.0](https://img.shields.io/badge/Next-8.11.0--beta.0-orange.svg?style=for-the-badge)<br />
+![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -25,8 +25,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin (by squeek502)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/archers-paradox">Archer's Paradox (by TeamCoFH)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-forge">Architectury API (Forge) (by shedaniel)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/areas">Areas (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/armor-slots-in-other-inventories">Armor Slots in other Inventories (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/atmospheric">Atmospheric (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib">AutoRegLib (by Vazkii)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/autumnity">Autumnity (by TeamAbnormals)</a></li>
@@ -34,15 +32,18 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/backpacker">Backpacker (by MrCrayfish)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bad-mobs">Bad Mobs (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded">Bad Wither No Cookie - Reloaded (by Kreezxil)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/balanced-enchanting">Balanced Enchanting (by tfarecnim)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/banneradditions">BannerAdditions (by EliteAsian123)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters">Baubley Heart Canisters (by traverse_joe)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bayou-blues">Bayou Blues (by team_aurora_modding)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/bedspreads">Bedspreads (Forge) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/berry-good">Berry Good (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-advancements">Better Advancements (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-badlands">Better Badlands (by Gkoliver)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement">Better Beacon Placement (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-biome-blend">Better Biome Blend (by FionaTheMortal)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-burning">Better Burning (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement">Better Conduit Placement (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-drowning">Better Drowning (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control">Better Spawner Control (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bigger-sponge-absorption-radius">Bigger Sponge Absorption Radius (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
@@ -59,15 +60,16 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits (by AlgorithmX2)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chocolate-fix">Chocolate Fix (by AlcatrazEscapee)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator">Chunk-Pregenerator (by Speiger)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/chunknogobyebye">ChunkNoGoByeBye (by LexManos)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/citadel">Citadel (by alex1the1666)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge">Cloth Config API (Forge) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8">CodeChicken Lib 1.8.+ (by covers1624)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-core">CoFH Core (by TeamCoFH)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/cogwheel-tweaker">Cogwheel Tweaker (by mc_Grimmauld)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/compressium">Compressium (by DinnerBeef)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/conduits-prevent-drowned">Conduits Prevent Drowned (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/contenttweaker">ContentTweaker (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cookielicious">Cookielicious (by Evo_934)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads">Cooking for Blockheads (by BlayTheNinth)</a></li>
@@ -86,6 +88,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cycle-paintings">Cycle Paintings (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cyclops-core">Cyclops Core (by kroeser)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dank-storage">Dank Storage (by tfarecnim)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup">Death Backup (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks">Decorative Blocks (by stohun)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/differentiate">Differentiate (by eltrutlikes)</a></li>
@@ -107,7 +110,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler">Extreme sound muffler (Forge) (by LeoBeliik)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ezzoom">EzZoom (by JTK222)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fantasy-mounts">Fantasy Mounts (by Bonfyre_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon">Farmer's Delight Cookbook Addon (by dalumma)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads">Farming for Blockheads (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay">Fast Leaf Decay (by olafskiii)</a></li>
@@ -120,8 +122,8 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fixed-anvil-repair-cost">Fixed Anvil Repair Cost (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forgery">Forgery (by unascribed)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge">FTB Backups (Forge) (by FTB)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge">FTB Chunks (Forge) (by FTB)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge">FTB Library (Forge) (by FTB)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/gildedarmor">GildedArmor (by MaroonShaded)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/glassential">Glassential (by Lykrast)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/glazed-symmetry">Glazed Symmetry (by iamevn_mc)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/global-xp">Global XP (by bl4ckscor3)</a></li>
@@ -130,7 +132,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-ice-baby">Ice Ice Baby (by the_infamous_1)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth">Ice Prevents Crop Growth (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinite-trading">Infinite Trading (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitymending">Infinity Mending (by PieKing1215)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inspirations">Inspirations (by KnightMiner)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem">Inventory Totem (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-chests">Iron Chests (by ProgWML6)</a></li>
@@ -140,6 +141,8 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/itemzoom">ItemZoom (by mezz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep">Just Enough Professions (JEP) (by Mrbysco)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jeitweaker">JEITweaker (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jellyfishing">Jellyfishing (by BlueDuckYT)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/journeymap">JourneyMap (by techbrew)</a></li>
@@ -193,7 +196,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual">Rain Be Gone Ritual (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-enchants">Random Enchants (by tfarecnim)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-village-names">Random Village Names (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/raw-ores-mod">Raw Ores Mod (by SkeletalVirusTwitch)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons">Refined Storage Addons (by raoulvdberge)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">Refined Storage (by raoulvdberge)</a></li>
@@ -213,6 +215,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/skinned-lanterns">Skinned Lanterns (by nuxthefox)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smaller-nether-portals">Smaller Nether Portals (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/snad-back-to-the-past">Snad - Back to the past (by lazynessmind)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/sneaky-magic">Sneaky Magic (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales">Softer Hay Bales (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/step">Step (by ModdingLegacy)</a></li>
@@ -225,6 +228,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/third-person-elytra">Third Person Elytra (by pauljoda)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/tips">Tips (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt (by gigaherz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/torchmaster">Torchmaster (by xalcon)</a></li>
@@ -234,7 +238,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic">Upgrade Aquatic (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/upsizer-mod">Upsizer Mod [FORGE] (by The_Wabbit0101)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers-forge">Vanilla Hammers [Forge] (by MelanX)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/villager-names">Villager Names (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/voidtotem">Void Totem (by Affehund)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wall-jump">Wall-Jump! [FORGE] (by genandnic)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones (by BlayTheNinth)</a></li>

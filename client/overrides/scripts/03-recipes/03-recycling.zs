@@ -1,6 +1,7 @@
 val iron=<item:minecraft:iron_ingot>;
 val gold=<item:minecraft:gold_ingot>;
 val diamond=<item:minecraft:diamond>;
+val netherite=<item:minecraft:netherite_ingot>;
 
 # Iron recycling
 furnace.removeByName("minecraft:iron_nugget_from_smelting");
@@ -91,3 +92,25 @@ furnace.addRecipe("recycle_diamond_axe", diamond * 3, <item:minecraft:diamond_ax
 blastFurnace.addRecipe("bf_recycle_diamond_axe", diamond * 3, <item:minecraft:diamond_axe>.anyDamage(), 0.5, 20);
 furnace.addRecipe("recycle_diamond_sword", diamond * 2, <item:minecraft:diamond_sword>.anyDamage(), 0.5, 40);
 blastFurnace.addRecipe("bf_recycle_diamond_sword", diamond * 2, <item:minecraft:diamond_sword>.anyDamage(), 0.5, 20);
+
+# Netherite Recycling
+furnace.removeByName("nether_extension:netherite/netherite_nugget_from_smelting");
+blastFurnace.removeByName("nether_extension:netherite/netherite_nugget_from_blasting");
+furnace.addRecipe("recycle_netherite_helmet", netherite, <item:minecraft:netherite_helmet>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_helmet", netherite, <item:minecraft:netherite_helmet>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_chestplate", netherite, <item:minecraft:netherite_chestplate>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_chestplate", netherite, <item:minecraft:netherite_chestplate>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_leggings", netherite, <item:minecraft:netherite_leggings>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_leggings", netherite, <item:minecraft:netherite_leggings>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_boots", netherite, <item:minecraft:netherite_boots>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_boots", netherite, <item:minecraft:netherite_boots>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_hoe", netherite, <item:minecraft:netherite_hoe>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_hoe", netherite, <item:minecraft:netherite_hoe>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_pickaxe", netherite, <item:minecraft:netherite_pickaxe>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_pickaxe", netherite, <item:minecraft:netherite_pickaxe>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_shovel", netherite, <item:minecraft:netherite_shovel>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_shovel", netherite, <item:minecraft:netherite_shovel>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_axe", netherite, <item:minecraft:netherite_axe>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_axe", netherite, <item:minecraft:netherite_axe>.anyDamage(), 0.5, 20);
+furnace.addRecipe("recycle_netherite_sword", netherite, <item:minecraft:netherite_sword>.anyDamage(), 0.5, 40);
+blastFurnace.addRecipe("bf_recycle_netherite_sword", netherite, <item:minecraft:netherite_sword>.anyDamage(), 0.5, 20);

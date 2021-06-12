@@ -1,0 +1,64 @@
+
+[general]
+	#Apply handy buffs and improvements to a few enchantments.
+	"Enchantment Improvements" = true
+	#Most vanilla enchantments can be applied to a lot more tools and weapons.
+	"Enchantment Compatibility" = true
+	#Make many enchantments no longer mutually exclusive.
+	"Enchantment Exclusiveness" = true
+
+#Only enchantments included by default are guaranteed to work. While any modded enchantments or other vanilla enchantments can work, they are highly unlikely to do so.
+#The blacklists for each item group are supposed to disable items which can be enchanted, but where the enchantments do not function as expected.
+#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+[enchantment_compatibility]
+	#A looting enchantment for bows and crossbows.
+	"Plundering Enchantment" = true
+	#Additional enchantments to be made usable with swords.
+	"Sword Enchantments" = ["minecraft:impaling"]
+	#Additional enchantments to be made usable with axes.
+	"Axe Enchantments" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:impaling"]
+	#Additional enchantments to be made usable with tridents.
+	"Trident Enchantments" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:quick_charge", "minecraft:piercing"]
+	#Additional enchantments to be made usable with bows.
+	"Bow Enchantments" = ["minecraft:piercing", "minecraft:multishot", "minecraft:quick_charge"]
+	#Additional enchantments to be made usable with crossbows.
+	"Crossbow Enchantments" = ["minecraft:flame", "minecraft:punch", "minecraft:power", "minecraft:infinity"]
+	#Swords to be disabled from receiving additional enchantments.
+	"Sword Blacklist" = []
+	#Axes to be disabled from receiving additional enchantments.
+	"Axe Blacklist" = []
+	#Tridents to be disabled from receiving additional enchantments.
+	"Trident Blacklist" = []
+	#Bows to be disabled from receiving additional enchantments.
+	"Bow Blacklist" = []
+	#Crossbows to be disabled from receiving additional enchantments.
+	"Crossbow Blacklist" = []
+
+[enchantment_exclusiveness]
+	#Allow infinity and mending to be applied at the same time.
+	"Infinity Mending Fix" = true
+	#Allow multishot and piercing to be applied at the same time.
+	"Multishot Piercing Fix" = true
+	#Allow different types of protection to be applied at the same time.
+	"Protection Fix" = true
+	#Allow different types of damage enchantments to be applied at the same time.
+	"Damage Fix" = true
+
+[enchantment_improvements]
+	#Infinity enchantment no longer requires a single arrow to be present in the player inventory.
+	"True Infinity" = true
+	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once.
+	"No Projectile Immunity" = true
+	#Is the sweeping edge enchantment required to perform a sweep attack.
+	"Require Sweeping Edge" = false
+	#Makes the impaling enchantment apply to any creature in contact with rain or water.
+	"Boost Impaling" = true
+	#Tridents can be repaired in an anvil using prismarine shards.
+	"Prismarine Repairs Trident" = true
+	#Tridents enchanted with loyalty will return when thrown into the void.
+	"Return Trident From Void" = true
+	#Tridents will be picked up in the slot they were thrown from.
+	"Remember Trident Slot" = true
+	#Prevent axes from receiving additional damage when attack an entity to make them work as proper weapons.
+	"No Axe Penalty" = true
+

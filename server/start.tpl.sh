@@ -1,25 +1,30 @@
 #!/bin/sh
 
-# Fix work directory
-# Some GUIs set wrong working directory which breaks relative paths
-cd -- "$(dirname "$0")"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ME=`basename $0`
+
+cd $DIR
+
+###################################################
+# Default arguments for JVM
+
+JAVACMD="java"
+MIN_RAM="3072M"       # -Xms
+MAX_RAM="6144M"       # -Xmx
+JAVA_PARAMETERS="-XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
+
+###################################################
+# Default arguments for the server
+
+INSTANCE_ID=WorldOfPannotia
 
 ###################################################
 # Pack specific settings
 # Only edit this section if you know what you are doing
 
-export MCVER="@@MINECRAFT_VERSION@@"
-export JARFILE="minecraft_server.${MCVER}.jar"
-export FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@.jar"
-
-###################################################
-# Default arguments for JVM
-
-## Copy following lines into settings-local.sh to create local config file which overrides default settings given here
-export JAVACMD="java"
-export MIN_RAM="3072M"       # -Xms
-export MAX_RAM="6144M"       # -Xmx
-export JAVA_PARAMETERS="-XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10"
+MCVER="@@MINECRAFT_VERSION@@"
+JARFILE="minecraft_server.${MCVER}.jar"
+FORGEJAR="forge-@@MINECRAFT_VERSION@@-@@FORGE_VERSION@@.jar"
 
 ###################################################
 # Read settings defined by local server admin
@@ -33,8 +38,11 @@ eula_false() {
 }
 
 start_server() {
+    "$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR}
+}
+
+start_server_nogui() {
     "$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
-    #"$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui -Dfml.queryResult=confirm
 }
 
 # check eula.txt
@@ -53,18 +61,30 @@ if [ ! -f eula.txt ]; then
     read ignored
 fi
 
-echo "Starting server"
-rm -f autostart.stamp
-start_server
-
-while [ -e autostart.stamp ] ; do
-    rm -f autostart.stamp
-    echo "If you want to completely stop the server process now, press Ctrl+C before the time is up!"
-    for i in 5 4 3 2 1; do
-        echo "Restarting server in $i"
-        sleep 1
+if [ "$1" = "--watchdog" ]; then
+    # Watchdog loop; to debug, call `start.sh watchdog` 
+    while true; do
+        echo -e "*** Starting ${IDENT} ..."
+        if [ "$2" = "--nogui" ]; then
+            start_server_nogui
+        else
+            start_server
+        fi
+        echo -e "*** Server exited with code $?. Restarting in 5 seconds (or press CTRL+C NOW to exit)..."
+        sleep 5
     done
-    echo "Rebooting now!"
-    start_server
-    echo "Server process finished"
-done
+else
+    # Ignition
+    tmux has-session -t $IDENT 2> /dev/null
+    if [ "$?" -eq "0" ]; then
+        echo -e "$IDENT is already running under a tmux session (have you tried 'tmux attach -t ${IDENT}'?)"
+        exit 1
+    else
+        if [ "$1" = "--nogui" ]; then
+            tmux new -d -s $IDENT "$DIR/$ME --watchdog --nogui"
+            echo -e "$IDENT starting server under watchdog script. Use 'tmux attach -t ${IDENT}' for console."
+        else
+            tmux new -d -s $IDENT "$DIR/$ME --watchdog"
+        fi
+    fi
+fi

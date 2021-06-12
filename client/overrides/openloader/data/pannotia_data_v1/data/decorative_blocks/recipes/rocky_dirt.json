@@ -1,0 +1,20 @@
+{
+	"group": "decorative_blocks",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GD",
+        "DG"
+      ],
+      "key": {
+        "D": {
+          "item": "minecraft:dirt"
+        },
+        "G": {
+          "item": "minecraft:cobblestone"
+        }
+      },
+        "result": {
+        "item": "decorative_blocks:rocky_dirt",
+        "count": 4
+    }
+}

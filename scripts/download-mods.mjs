@@ -3,7 +3,6 @@ import cp from 'child_process';
 
 const clientModIds = [
     414086, // Advancement Screenshot
-    373311, // Armor Slots in Other Inventories
     272515, // Better Advancements
     446253, // Better Biome Blend
     431587, // Charmonium Reforged
@@ -16,7 +15,7 @@ const clientModIds = [
     261725, // Item Zoom
     375272, // Lava Clear View
     325492, // Light Overlay
-    60089, // Mouse Tweaks
+    60089,  // Mouse Tweaks
     238372, // Neat
     374828, // Omega Mute
     440465, // Panorama

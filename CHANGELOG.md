@@ -1,3 +1,269 @@
+### 2021-06-12 (8.10.0)
+
+#### Bug Fixes
+* Fixed the resource pack for the redstone/terracotta rotation wrench
+* Fixed the recipe name for Nether Extension netherite recycling
+
+#### Updated Mods
+* Just Enough Resources: 0.12.0.100 -> 0.12.1.121
+
+
+### 2021-06-12 (8.10.0-beta.2)
+
+#### Notable Changes
+* Use the 1.16.5 file for Macaw's Doors, not the 1.12.2 one
+
+
+### 2021-06-11 (8.10.0-beta.1)
+
+#### Notable Changes
+* Allurement added a new enchant: Launch. It's like knockback, but vertical!
+* Macaw's Doors added new doors made from bark blocks
+* Ornamental added some new wall ornaments
+* Re-added JEI plugins that show villager professions and mob drops/world gen info
+* Added a mod that shows helpful tips on loading screens. We can add to this over time to remind us of lesser-known features in (or new additions to) the pack
+* Added some new paintings and banner patterns
+* Minor changes to burning and drowning mechanics (see [Better Burning](https://www.curseforge.com/minecraft/mc-mods/better-burning) and [Better Drowning](https://www.curseforge.com/minecraft/mc-mods/better-drowning) mod pages)
+
+#### Config Changes
+* Temporarily (I hope) disable spawning of cave centipedes from Alex's Mobs entirely. This is due to not being able to block them from spawning on Cursed Earth.
+
+#### Added Mods
+* Banner Additions
+* Better Burning
+* Better Drowning
+* Dark Paintings
+* Just Enough Professions
+* Just Enough Resources
+* Tips
+
+#### Removed Mods
+* Bedspreads: causes conflicts with some banner addons
+* Farmer's Delight Cookbook Addon: this was discontinued by the author as no longer needed to help with FD recipes
+
+#### Updated Mods
+* Allurement: 1.1.1 -> 1.2.0
+* Architectury API: 1.17.20 -> 1.17.21
+* Bayou Blues: 1.0.4 -> 1.0.5
+* Citadel: 1.6.3 -> 1.7.1
+* Clumps: 6.0.0.24 -> 6.0.0.25
+* Controlling: 7.0.0.20 -> 7.0.0.23
+* Curios API: 4.0.5.1 -> 4.0.5.2
+* Curious Armor Stands: 2.1.0 -> 2.1.1
+* Enhanced Mushrooms: 3.0.7 -> 3.0.8
+* Extreme Sound Muffler: 3.12 -> 3.13
+* Inspirations: 1.2.3.32 -> 1.2.3.37
+* Just Enough Items: 7.7.0.101 -> 7.7.0.106
+* Macaw's Doors: 1.0.2 -> 1.0.3
+* Ornamental: 4.4 -> 4.5
+* Snad: 1.0.5 -> 1.0.6
+* YUNG's Better Mineshafts: 2.0.3 -> 2.0.4
+
+
+### 2021-06-10 (8.10.0-beta.0)
+
+#### Notable Changes
+* Fixed a few recipe conflicts
+* Building Gadgets copy/paste should work again
+* Lots of improvements to Supplementaries content (Gravel & Goblets mini update)
+  * Added:
+    * Added Goblets, a new decoration item that can hold 1 bottle of fluid.
+    * Added Raked Gravel, a new path like block that can be obtained by hoeing gravel. Can be curved (a bit like rails) to create interesting patterns
+    * Added custom map decorations: you can now use maps on beacons, lodestones, respawn anchors, beds, condiuts, portals, sign posts and flags to place a custom icon on a map. Some of those blocks even support naming ability allowing the name itself to be displayed on the map.
+    * Added the ability to bottle up experience by shift right clicking with a bottle on an enchanting table. Doing so will cost some health.
+    * Added brass lantern that shows up when you have Create installed
+  * Improvements:
+    * Greatly optimized globe & blackboard renderers making those block much less laggy & demanding.
+    * Hourglass can how hold slime & honey. Their properties can now be customized thoroughly via their new config potions
+    * Cog blocks now have a proper redstone tint that depends on their current power like redstone
+    * Turn tables light no longer indicates if they are powered but instead shows if they are performing a rotation, making it easier to tell the two apart.
+    * Pulleys now also accept blocks from a dedicated "chains" tag
+    * Added some integration with farmers delights
+    * Reformatted and improved many configs
+    * Item shelves can now be placed onto any block
+
+#### Bug Fixes
+* Disable RMBTweak in MouseTweaks to fix conflict with Quark (#121)
+* Fix recipe conflict between crossed iron bars and the bar panel (#155)
+* Remove duplicate netherite recycling recipes (#156)
+* Tweak Building Gadgets config to fix copy/paste gadget (#157)
+* Add redstone/terracotta rotation wrench (#158)
+
+#### Updated Mods
+* Backpacked: 1.10.0 -> 1.10.1
+* Backpacker: 1.3.0 -> 1.3.1
+* Bookshelf: 10.0.8 -> 10.1.11
+* CraftTweaker: 7.1.0.307 -> 7.1.0.313
+* Cyclops Core: 1.11.6 -> 1.11.7
+* Farming for Blockheads: 7.3.0 -> 7.3.1
+* Nature's Compass: 1.8.6 -> 1.9.0
+* Open Loader: 9.0.2 -> 9.0.3
+* Performant: 3.64m -> 3.66m
+* Placebo: 4.4.5 -> 4.5.0
+* Random Enchants: 4.0.7 -> 4.0.8
+* SuperMartijn642's Core Lib: 1.0.4 -> 1.0.5
+* Supplementaries: 0.12.2 -> 0.13.0
+
+### 2021-06-01 (8.9.3)
+
+#### Notable Changes
+* Fix crash when right-clicking a portstone block
+
+#### Updated Mods
+* Waystones: 7.6.1 -> 7.6.2
+
+
+### 2021-05-31 (8.9.2)
+
+#### Removed Mods
+* Bundles Plus: temporarily remove this mod from the pack due to a crash
+
+### 2021-05-31 (8.9.1)
+
+#### Bug Fixes
+* There's no such thing as netherite horse armor, so you can't recycle it
+
+### 2021-05-31 (8.9.0)
+
+#### Notable Changes
+* Removed treasure gems datapack since it was preventing modded items from spawning in treasure chests
+
+#### Updated Mods
+* Waystones: 7.6.0 -> 7.6.1
+
+### 2021-05-31 (8.9.0-beta.1)
+
+#### Updated Mods
+* More Waterlogging: 1.5 -> 1.4
+
+#### Removed Mods
+* Statement Library (causes mixin crash)
+
+
+### 2021-05-31 (8.9.0-beta.0)
+
+#### Notable Changes
+* Dungeons Plus: they added support for modifying loot tables on the fly. This means we can try adding content to them again!
+* Quark: added a bunch of stonecutter recipes, blossom hedges, and celebration lamps (in honor of Vazkii's 10-year modding anniversary)
+* Waystones: added a portstone block, which lets you teleport to any activated waystone, but cannot itself be ported to
+
+#### Bug Fixes
+* Fix compacting drawer issue with prismarine/prismarine bricks and ash/ash blocks
+* Fix issue where plain terracotta could not be dyed ([#153](https://github.com/worldofpannotia/minecraft-modpack/issues/153))
+
+#### Config Changes
+* Make the goggles from Create usable in Curios' head slot
+* Added more ring slots (because why not... also, because bribery)
+
+#### Recipe Changes
+* Added recycling recipes for netherite tools and gear ([#146](https://github.com/worldofpannotia/minecraft-modpack/issues/146))
+* Fix rocky dirt recipe conflict and output ([#154](https://github.com/worldofpannotia/minecraft-modpack/issues/154))
+* Added stonecutter recipe to allow converting Quark's biotite bricks back to biotite blocks ([#152](https://github.com/worldofpannotia/minecraft-modpack/issues/152))
+
+#### Added Mods
+* ContentTweaker ([#144](https://github.com/worldofpannotia/minecraft-modpack/issues/144))
+* Cogwheel Tweaker ([#143](https://github.com/worldofpannotia/minecraft-modpack/issues/143))
+* Statement Library (new library dependency added by More Waterlogging)
+
+#### Updated Mods
+* Architectury API: 1.15.13 -> 1.17.20
+* AutoRegLib: 1.6-47 -> 1.6-49
+* Chiseled: 0.4.1 -> 0.4.3
+* Clumps: 6.0.0.22 -> 6.0.0.24
+* Controlling: 7.0.0.16 -> 7.0.0.20
+* Cooking for Blockheads: 9.3.1 -> 9.3.2
+* CraftTweaker: 7.1.0.294 -> 7.1.0.307
+* CreateTweaker: 1.0.0.12 -> 1.0.0.13
+* Dungeons Plus: 1.1.4 -> 1.1.5
+* Extreme Sound Muffler: 3.11 -> 3.12
+* FastSuite: 1.0.1 -> 1.0.2
+* JEITweaker: 1.0.1.15 -> 1.0.1.27
+* Just Enough Items: 7.7.0.99 -> 7.7.0.101
+* Mantle: 1.6.97 -> 1.6.103
+* More Waterlogging: 1.4 -> 1.5
+* Performant: 3.56m -> 3.64m
+* Quark: 2.4-311 -> 2.4-312
+* SuperMartijn642's Core Lib: 1.0.3 -> 1.0.4
+* Void Totem: 1.3.0 -> 1.4.0
+* Waystones: 7.5.1 -> 7.6.0
+
+#### Removed Mods
+* ChunkNoGoByeBye
+* FTB Chunks
+
+### 2021-05-22 (8.8.1)
+
+#### Config Changes
+* Add config for Sneaky Magic that I forgot to include last time
+
+### 2021-05-22 (8.8.0)
+
+#### Config Changes
+* Added compacting drawer rules for ash <-> ash blocks and prismarine shards <-> prismarine bricks
+
+#### Recipe Changes
+* Added shapeless crafting recipe to convert Nether Extension's ash blocks back to 4 ash
+* Added shapeless crafting recipe to convert prismarine bricks back to 9 prismarine shards
+
+#### Added Mods
+* Balanced Enchanting: fixes enchanting costs when you have more XP
+  * Example: spending 3 levels to go from 30 to 27 takes dramatically less than going from 60 to 57. This mod addresses that discrepancy
+* Gilded Armor: combine netherite armor with a gold ingot to get something piglins won't hate and looks cool to boot
+* Sneaky Magic: Allows almost all enchants to stack
+  * Ensorcellation enchants don't work, but support should be coming in a future update
+
+#### Updated Mods
+* Advanced Mining Dimension: 1.0.3 -> 1.0.5
+* Architectury API: 1.14.156 -> 1.15.16
+* Better Advancements: 0.1.0.105 -> 0.1.0.108
+* Bookshelf: 10.0.7 -> 10.0.8
+* Cloth Config API: 4.11.24 -> 4.11.26
+* CraftTweaker: 7.1.0.284 -> 7.1.0.294
+* Differentiate: 0.4.2 -> 0.5.0
+* Farmer's Delight: 0.4.2 -> 0.4.3
+* Just Enough Items: 7.7.0.91 -> 7.7.0.99
+* Placebo: 4.4.2 -> 4.4.5
+* Random Enchants: 4.0.6 -> 4.0.7
+* Supplementaries: 0.12.1 -> 0.12.2
+
+#### Removed Mods
+* Armor Slots in Other Inventories: we've never gotten it to work properly, and it wasn't as beneficial as we anticipated
+* Infinity Mending: duplicate functionality with Sneaky Magic
+
+
+### 2021-05-15 (8.7.0)
+
+#### Misc Changes
+* Updated Forge from 36.1.0 -> 36.1.18
+
+#### Config Changes
+* Blocked resource jellyfish from the More Jellyfish mod from spawning
+* Slightly increased chance of finding Rings of Ascension
+
+#### Updated Mods
+* Alex's Mobs: 1.10.0 -> 1.10.1
+* Architectury API: 1.12.149 -> 1.14.156
+* Cloth Config API: 4.11.19 -> 4.11.24
+* Controlling: 7.0.0.15 -> 7.0.016
+* CraftTweaker: 7.1.0.275 -> 7.1.0.284
+* Curio of Undying: 5.1.0.0 -> 5.2.0.0
+* Cursed Earth: 3.1a -> 3.2
+* Extreme Sound Muffler: 3.9 -> 3.11
+* Farmer's Delight Cookbook Addon: 1.3 -> 2.0
+* Inspirations: 1.2.2 -> 1.2.3.32
+* Iron Furnaces: 2.6.7 -> 2.6.8
+* Just Enough Items: 7.6.4.90 -> 7.7.0.91
+* Mantle: 1.6.92 -> 1.6.97
+* Paragliders: 1.3.1.0 -> 1.3.1.1
+* Performant: 3.55m -> 3.56m
+* Waystones: 7.4.0 -> 7.5.1
+* YUNG's Better Caves: 1.1.1 -> 1.1.2
+
+#### Removed Mods
+* Areas
+* Random Village Names
+* Villager Names
+
 ### 2021-05-14 (8.6.1)
 
 #### Bug Fixes
