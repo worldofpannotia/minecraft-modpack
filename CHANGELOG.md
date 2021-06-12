@@ -1,3 +1,47 @@
+### 2021-06-10 (8.10.0-beta.0)
+
+#### Notable Changes
+* Fixed a few recipe conflicts
+* Building Gadgets copy/paste should work again
+* Lots of improvements to Supplementaries content (Gravel & Goblets mini update)
+  * Added:
+    * Added Goblets, a new decoration item that can hold 1 bottle of fluid.
+    * Added Raked Gravel, a new path like block that can be obtained by hoeing gravel. Can be curved (a bit like rails) to create interesting patterns
+    * Added custom map decorations: you can now use maps on beacons, lodestones, respawn anchors, beds, condiuts, portals, sign posts and flags to place a custom icon on a map. Some of those blocks eve support naming ability allowing the name itself to be displayed on the map.
+    * Added the ability to bottle up experience by shift right clicking with a bottle on an enchanting table. Doing so will cost some health.
+    * Added brass lantern that shows up when you have Create installed
+  * Improvements:
+    * Greatly optimized globe & blackboard renderers making those block much less laggy & demanding.
+    * Hourglass can how hold slime & honey. Their properties can now be customized thoroughly via their new config potions
+    * Cog blocks now have a proper redstone tint that depends on their current power like redstone
+    * Turn tables light no longer indicates if they are powered but instead shows if they are performing a rotation, making it easier to tell the two apart.
+    * Pulleys now also accept blocks from a dedicated "chains" tag
+    * Added some integration with farmers delights
+    * Reformatted and improved many configs
+    * Item shelves can now be placed onto any block
+
+#### Bug Fixes
+* Disable RMBTweak in MouseTweaks to fix conflict with Quark (#121)
+* Fix recipe conflict between crossed iron bars and the bar panel (#155)
+* Remove duplicate netherite recycling recipes (#156)
+* Tweak Building Gadgets config to fix copy/paste gadget (#157)
+* Add redstone/terracotta rotation wrench (#158)
+
+#### Updated Mods
+* Backpacked: 1.10.0 -> 1.10.1
+* Backpacker: 1.3.0 -> 1.3.1
+* Bookshelf: 10.0.8 -> 10.1.11
+* CraftTweaker: 7.1.0.307 -> 7.1.0.313
+* Cyclops Core: 1.11.6 -> 1.11.7
+* Farming for Blockheads: 7.3.0 -> 7.3.1
+* Nature's Compass: 1.8.6 -> 1.9.0
+* Open Loader: 9.0.2 -> 9.0.3
+* Performant: 3.64m -> 3.66m
+* Placebo: 4.4.5 -> 4.5.0
+* Random Enchants: 4.0.7 -> 4.0.8
+* SuperMartijn642's Core Lib: 1.0.4 -> 1.0.5
+* Supplementaries: 0.12.2 -> 0.13.0
+
 ### 2021-06-01 (8.9.3)
 
 #### Notable Changes
