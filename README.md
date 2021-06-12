@@ -257,31 +257,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
 
 ### Issues & Suggestions
 
-Please use the [GitHub issue tracker](https://github.com/chimericdream/WorldOfPannotia-MC-Modpack/issues) to report any bugs you find. If you have a suggestion for a mod that might fit with the pack, or think a certain recipe should be added or tweaked to improve gameplay, submit those as well. Please use the templates below when suggesting new mods or recipes.
-
-#### Mod suggestion
-
-```
-**Name:**
-**Short desc:**
-**Adds to world gen:** (yes/no)
-**Link:**
-**Extra dependencies:** (list)
-```
-
-#### Recipe sugestion
-
-```
-**Type:** (regular or special [e.g. Botania's mana pool])
-**Output:** item
-**Input(s):** item(s)
-**Shape:** (shapeless, n/a, or diagram [see below])
-x . a . x
-a . x . a
-x . b . x
-_a_: item a
-_b_: item b
-```
+Please use the [GitHub issue tracker](https://github.com/chimericdream/WorldOfPannotia-MC-Modpack/issues) to report any bugs you find. If you have a suggestion for a mod that might fit with the pack, or think a certain recipe should be added or tweaked to improve gameplay, submit those as well.
 
 ### MIT Licence
 
