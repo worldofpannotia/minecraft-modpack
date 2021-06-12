@@ -63,6 +63,9 @@
     * Reformatted and improved many configs
     * Item shelves can now be placed onto any block
 
+#### Config Changes
+* Temporarily (I hope) disable spawning of cave centipedes from Alex's Mobs entirely. This is due to not being able to block them from spawning on Cursed Earth.
+
 #### Bug Fixes
 * Disable RMBTweak in MouseTweaks to fix conflict with Quark (#121)
 * Fix recipe conflict between crossed iron bars and the bar panel (#155)
