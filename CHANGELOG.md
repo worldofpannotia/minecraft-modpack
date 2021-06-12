@@ -9,6 +9,9 @@
 * Added some new paintings and banner patterns
 * Minor changes to burning and drowning mechanics (see [Better Burning](https://www.curseforge.com/minecraft/mc-mods/better-burning) and [Better Drowning](https://www.curseforge.com/minecraft/mc-mods/better-drowning) mod pages)
 
+#### Config Changes
+* Temporarily (I hope) disable spawning of cave centipedes from Alex's Mobs entirely. This is due to not being able to block them from spawning on Cursed Earth.
+
 #### Added Mods
 * Banner Additions
 * Better Burning
@@ -62,9 +65,6 @@
     * Added some integration with farmers delights
     * Reformatted and improved many configs
     * Item shelves can now be placed onto any block
-
-#### Config Changes
-* Temporarily (I hope) disable spawning of cave centipedes from Alex's Mobs entirely. This is due to not being able to block them from spawning on Cursed Earth.
 
 #### Bug Fixes
 * Disable RMBTweak in MouseTweaks to fix conflict with Quark (#121)
