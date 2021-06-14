@@ -1,4 +1,13 @@
-### 2021-06-12 (8.10.0)
+### 2021-06-13 (8.10.1)
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* Fish in Planks: 0.3 -> 0.4
+* Snad: 1.0.6 -> 1.0.7
+* SuperMartijn642's Core Lib: 1.0.5 -> 1.0.7
+
+
+### 2021-06-12 (8.10.0) (DO NOT USE)
 
 #### Bug Fixes
 * Fixed the resource pack for the redstone/terracotta rotation wrench
@@ -8,13 +17,13 @@
 * Just Enough Resources: 0.12.0.100 -> 0.12.1.121
 
 
-### 2021-06-12 (8.10.0-beta.2)
+### 2021-06-12 (8.10.0-beta.2) (DO NOT USE)
 
 #### Notable Changes
 * Use the 1.16.5 file for Macaw's Doors, not the 1.12.2 one
 
 
-### 2021-06-11 (8.10.0-beta.1)
+### 2021-06-11 (8.10.0-beta.1) (DO NOT USE)
 
 #### Notable Changes
 * Allurement added a new enchant: Launch. It's like knockback, but vertical!
@@ -60,7 +69,7 @@
 * YUNG's Better Mineshafts: 2.0.3 -> 2.0.4
 
 
-### 2021-06-10 (8.10.0-beta.0)
+### 2021-06-10 (8.10.0-beta.0) (DO NOT USE)
 
 #### Notable Changes
 * Fixed a few recipe conflicts
