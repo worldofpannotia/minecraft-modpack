@@ -1,3 +1,49 @@
+### 2021-06-20 (8.11.0)
+
+Revert changes from beta.2.
+
+### 2021-06-20 (8.11.0-beta.2)
+
+#### Updated Mods
+* More Waterlogging: 1.4 -> 1.5
+
+#### Added Mods
+* Statement: new library dependency of More Waterlogging
+
+
+### 2021-06-20 (8.11.0-beta.1)
+
+#### Updated Mods
+* Abnormals Core: 3.2.0 -> 3.1.1
+  * We have to wait for Create to update before this can go beyond 3.1.1
+* AppleSkin: 1.0.14 -> 2.0.0
+* Architectury API: 1.17.21 -> 1.17.22
+* CraftTweaker: 7.1.0.313 -> 7.1.0.314
+* CreateTweaker: 1.0.0.13 -> 1.0.0.14
+* Dark Paintings: 6.0.1 -> 6.0.3
+* Farmer's Delight: 0.4.3 -> 0.4.5
+* Mantle: 1.6.103 -> 1.6.109
+* Refined Storage: 1.9.12 -> 1.9.13
+* SuperMartijn642's Core Lib: 1.0.7 -> 1.0.9
+* Supplementaries: 0.13.0 -> 0.13.2
+
+
+### 2021-06-19 (8.11.0-beta.0)
+
+#### Notable Changes
+* Added ancient tomes to Quark config to match what shows up in JEI
+* Added Solar VII-X recipes
+* Re-enabled fortune and silk touch upgrades from Refined Storage
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* JEITweaker: 1.0.1.27 -> 1.0.1.31
+* Snad: 1.0.5 -> 1.0.8
+
+#### Removed Mods
+* Bundles Plus: removed due to game-crashing bug
+
+
 ### 2021-06-13 (8.10.3)
 
 #### Updated Mods

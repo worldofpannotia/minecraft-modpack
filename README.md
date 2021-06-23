@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.10.3](https://img.shields.io/badge/Current-8.10.3-blue.svg?style=for-the-badge) ![Next Version 8.11.0-beta.0](https://img.shields.io/badge/Next-8.11.0--beta.0-orange.svg?style=for-the-badge)<br />
+![Pack Version 8.11.0](https://img.shields.io/badge/Current-8.11.0-blue.svg?style=for-the-badge) ![Next Version 8.11.0-beta.2](https://img.shields.io/badge/Next-8.11.0--beta.2-orange.svg?style=for-the-badge)<br />
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
@@ -49,7 +49,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bow-infinity-fix">Bow Infinity Fix (by Parker8283)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/building-gadgets">Building Gadgets (by Direwolf20)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/bundles-plus">Bundles Plus (by adox123)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/buzzier-bees">Buzzier Bees (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/caelus">Caelus API (Forge) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-reforged">Charm Reforged (by svenhjol)</a></li>
