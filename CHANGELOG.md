@@ -1,3 +1,15 @@
+### 2021-06-24 (8.12.0)
+
+### Updated Mods
+* Patchouli: 51 -> 53
+
+
+### 2021-06-23 (8.12.0-beta.1)
+
+### Added Mods
+* SuperMartijn642's Config Lib: new library needed for the Uppers mod
+
+
 ### 2021-06-22 (8.12.0-beta.0)
 
 #### Updated Mods

@@ -1,6 +1,6 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.11.0](https://img.shields.io/badge/Current-8.11.0-blue.svg?style=for-the-badge) ![Next Version 8.121.0-beta.0](https://img.shields.io/badge/Next-8.12.0--beta.0-orange.svg?style=for-the-badge)<br />
+![Pack Version 8.12.0](https://img.shields.io/badge/Current-8.12.0-blue.svg?style=for-the-badge) ![Next Version 8.13.0-beta.0](https://img.shields.io/badge/Next-8.13.0--beta.0-orange.svg?style=for-the-badge)<br />
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
@@ -223,6 +223,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/structured-crafting">Structured Crafting (by kroeser)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes">Superflat World No Slimes (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib">SuperMartijn642's Core Lib (by SuperMartijn642)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib">SuperMartijn642's Config Lib (by SuperMartijn642)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries (by MehVahdJukaar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
