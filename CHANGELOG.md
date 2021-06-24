@@ -1,3 +1,17 @@
+### 2021-06-22 (8.12.0-beta.0)
+
+#### Updated Mods
+* Alex's Mobs: 1.10.1 -> 1.11.0
+* CodeChicken Lib: 3.5.1.408 -> 4.0.2.427
+* Enchantment Descriptions: 7.0.8 -> 7.0.12
+* Ender Storage: 2.7.1.166 -> 2.8.0.168
+* FerriteCore: 2.0.4 -> 2.0.5
+
+#### Added Mods
+* Chunk Loaders
+* Uppers
+
+
 ### 2021-06-20 (8.11.0)
 
 Revert changes from beta.2.
