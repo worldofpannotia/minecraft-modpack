@@ -1,3 +1,9 @@
+### Upcoming (8.13.0-beta.1)
+
+### Removed Mods
+* Easy Elytra Takeoff: redundant now that Quark has added better rockets
+
+
 ### 2021-07-02 (8.13.0-beta.0)
 
 ### Notable Changes
