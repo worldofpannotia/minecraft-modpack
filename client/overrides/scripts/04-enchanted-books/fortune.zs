@@ -1,3 +1,5 @@
+import mods.jei.JEI as JEI;
+
 val air=<item:minecraft:air>;
 val enchBook=<item:minecraft:enchanted_book>;
 val basePotion=<item:minecraft:potion>;
@@ -47,3 +49,10 @@ craftingTable.addShaped("fortune10_book", fortune10bk, [
     [str2pot, fortune9bk, str2pot],
     [air, <item:quark:diamond_heart>]
 ]);
+
+JEI.addItem(fortune5bk);
+JEI.addItem(fortune6bk);
+JEI.addItem(fortune7bk);
+JEI.addItem(fortune8bk);
+JEI.addItem(fortune9bk);
+JEI.addItem(fortune10bk);
