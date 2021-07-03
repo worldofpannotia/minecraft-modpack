@@ -1,3 +1,34 @@
+### 2021-07-02 (8.13.0-beta.0)
+
+### Notable Changes
+* JEITweaker: we can add custom items to JEI now! This means that things like our OP enchanted books (hello Looting X!) can be added to JEI.
+* Quark:
+  * Corundum can redirect and re-color beacon beams
+  * New rocket type: "Better Elytra Rocket". This lets you take off without jumping
+    * We currently use the mod "Easy Elytra Takeoff" for this. Should we remove it?
+  * Pistons can move double chests
+* Supplementaries: 3M update!
+  * Added statues, a new decoration block that can hold items and interact with redstone.
+  * Added iron gates, basically an iron fence gate
+  * You can now feed a skeleton horse a stack of rotten flesh to turn it into a zombie horse
+  * Hanging signs can now hold 7 lines instead of 5
+  * Banners can now be placed on ceilings
+
+### Updated Mods
+* Alex's Mobs: 1.11.0 -> 1.11.1
+* Architectury API: 1.17.22 -> 1.18.26
+* Better Biome Blend: 1.1.4 -> 1.1.6
+* Cherished Worlds: 5.1.0.0 -> 5.1.1.0
+* Cooking for Blockheads: 9.3.2 -> 9.3.3
+* CraftTweaker: 7.1.0.314 -> 7.1.0.336
+* Customizable Elytra: 1.4.4 -> 1.5.2
+* JEITweaker: 1.0.1.31 -> 1.0.1.33
+* Just Enough Items: 7.7.0.106 -> 7.7.0.107
+* Patchouli: 53 -> 53.1
+* Quark: 2.4-312 -> 2.4-314
+* Supplementaries: 0.13.2 -> 0.14.2
+
+
 ### 2021-06-24 (8.12.0)
 
 ### Updated Mods
