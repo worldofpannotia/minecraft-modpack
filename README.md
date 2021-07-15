@@ -1,7 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
-![Pack Version 8.12.0](https://img.shields.io/badge/Current-8.12.0-blue.svg?style=for-the-badge) ![Next Version 8.13.0-beta.0](https://img.shields.io/badge/Next-8.13.0--beta.0-orange.svg?style=for-the-badge)<br />
-![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)
+![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
+![Current Version 8.12.0](https://img.shields.io/badge/Current-8.12.0-blue.svg?style=for-the-badge) ![Forge 36.1.18](https://img.shields.io/badge/Forge-36.1.18-c39.svg?style=for-the-badge)<br />
+![Next Version 8.13.0-beta.1](https://img.shields.io/badge/Next-8.13.0--beta.1-orange.svg?style=for-the-badge) ![Next Forge 36.1.33](https://img.shields.io/badge/Next%20Forge-36.1.33-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -96,7 +97,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dragon-drops-elytra">Dragon Drops Elytra (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeons-plus">Dungeons Plus (by ModdingLegacy)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings">Dynamic Surroundings (by OreCruncher)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-elytra-takeoff">Easy Elytra Takeoff (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-commands">Enchanting Commands (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8">Ender Storage 1.8.+ (by covers1624)</a></li>
@@ -119,6 +119,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/finally-farmable-dyes">Finally Farmable Dyes (by Unixkitty)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fish-in-planks">Fish In Planks (by ilja615_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fixed-anvil-repair-cost">Fixed Anvil Repair Cost (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/flywheel">Flywheel (by jozufozu)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forgery">Forgery (by unascribed)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-backups-forge">FTB Backups (Forge) (by FTB)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge">FTB Library (Forge) (by FTB)</a></li>
@@ -207,6 +208,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby">Scaffolding Drops Nearby (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scuba-gear">Scuba Gear (by ModdingLegacy)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/seasonals">Seasonals (by cosmicgelatin1)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Selene (by MehVahdJukaar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulker-drops-two">Shulker Drops Two (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulker-enchantments">Shulker Enchantments (Forge) (by Ephys)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings">Shutup Experimental Settings! (by Corgi_Taco)</a></li>
@@ -217,6 +219,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sneaky-magic">Sneaky Magic (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales">Softer Hay Bales (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/statement">Statement Library (by Virtuoel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/step">Step (by ModdingLegacy)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers (by Texelsaur)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/structure-gel-api">Structure Gel API (by ModdingLegacy)</a></li>

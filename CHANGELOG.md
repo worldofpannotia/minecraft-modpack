@@ -1,10 +1,86 @@
-### Upcoming (8.13.0-beta.1)
+### 2021-07-15 (8.13.0-beta.1)
+
+#### Notable Changes
+* Forge version updated! 36.1.18 -> 36.1.33
+* Create has some HUGE changes! Too many to list, so here are two videos someone else made.
+  * [Create mod 0.3.2 Is here! Overview and Showcase (by BLOckOus)](https://www.youtube.com/watch?v=gU6ulhZtHbg)
+  * [Minecraft Create Mod 0.3.2 Finely Tuned - What's New! (by Rockit14)](https://www.youtube.com/watch?v=92AfdlKPLpw)
+* A _ton_ of mods had minor internal changes that will help their developers update to 1.17 (maybe... just maybe, it'll be possible to update the current pack without breaking backwards compatibility?!)
+* Macaw's Bridges
+  * Added Dried Bamboo & Mossy Stone Bridge
+  * You can now place Redstone Torches on Rail Bridges to make them powered
+  * You can now place a Torch on every bridge (except Rail) to make a Lighted up variation
+* Our custom items now show up in JEI. W00t!
 
 #### Config Changes
 * Added our custom V-X enchanted books to JEI
 
+#### Added Mods
+* Flywheel 0.1.1: New dependency of Create
+* Selene 1.4: New dependency of Supplementaries
+* Statement Library 4.0.3: New dependency of More Waterlogging
+
 #### Removed Mods
-* Easy Elytra Takeoff: redundant now that Quark has added better rockets
+* Easy Elytra Takeoff: no longer needed since Quark added better rockets which provide the same behavior
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* Advancement Screenshot: 1.3 -> 1.4
+* Architectury API: 1.18.26 -> 1.20.28
+* Better Beacon Placement: 1.3 -> 1.4
+* Better Biome Blend: 1.1.6 -> 1.1.9
+* Better Conduit Placement: 1.2 -> 1.3
+* Better Spawner Control: 1.3 -> 1.4
+* Bigger Sponge Absorption Radius: 1.3 -> 1.4
+* Collective: 2.26 -> 2.27
+* Conduits Prevent Drowned: 1.2 -> 1.2
+* ContentTweaker: 1.0.0.19 -> 1.0.0.22
+* Cookielicious: 1.2.2 -> 1.3.0
+* CraftTweaker: 7.1.0.336 -> 7.1.0.349
+* Create: 0.3.1c -> 0.3.2b
+* Customizable Elytra: 1.5.2 -> 1.5.3
+* Cycle Paintings: 1.6 -> 1.7
+* Death Backup: 1.4 -> 1.5
+* Dismount Entity: 1.4 -> 1.5
+* Dragon Drops Elytra: 1.3 -> 1.4
+* Enchanting Commands: 1.6 -> 1.7
+* Enhanced Mushrooms: 3.0.8 -> 3.0.9
+* Extended Bone Meal: 1.3 -> 1.4
+* Fixed Anvil Repair Cost: 1.4 -> 1.5
+* Grass Seeds: 1.4 -> 1.5
+* Hand Over Your Items: 1.2 -> 1.3
+* Ice Prevents Crop Growth: 1.2 -> 1.3
+* Infinite Trading: 1.4 -> 1.5
+* Inventory Totem: 1.3 -> 1.4
+* Iron Furnaces: 2.6.8 -> 2.6.9
+* Just Enough Items: 7.7.0.107 -> 7.7.1.110
+* Just Mob Heads: 4.0 -> 4.1
+* Just Player Heads: 1.6 -> 1.7
+* Kiwi: 3.5.1 -> 3.5.2
+* Macaw's Bridges: 1.0.5 -> 1.0.6
+* Mob Catcher: 3.2 -> 3.2a
+* More Waterlogging: 1.4 -> 1.5
+* Name Tag Tweaks: 1.5 -> 1.6
+* Nature's Compass: 1.9.0 -> 1.9.1
+* Omega Mute: 1.7 -> 1.8
+* Performant: 3.66m -> 3.70m
+* Placeable Blaze Rods: 1.1 -> 1.2
+* Quick Paths: 1.5 -> 1.6
+* Rain Be Gone Ritual: 1.4 -> 1.5
+* Random Bone Meal Flowers: 1.3 -> 1.4
+* Respawning Shulkers: 1.4 -> 1.5
+* Sapience: 1.1.1 -> 1.1.2
+* Scaffolding Drops Nearby: 1.3 -> 1.4
+* Shulker Drops Two: 1.4 -> 1.5
+* Smaller Nether Portals: 1.6 -> 1.7
+* Softer Hay Bales: 1.3 -> 1.4
+* Superflat World No Slimes: 1.3 -> 1.4
+* Supplementaries: 0.14.2 -> 0.14.4f
+* Underwater Enchanting: 1.3 -> 1.4
+* Wool Tweaks: 1.2 -> 1.3
+* YUNG's API: 6 -> 11
+* YUNG's Better Strongholds: 1.1 -> 1.2
+* Zombie Villagers From Spawners: 1.4 -> 1.5
 
 
 ### 2021-07-02 (8.13.0-beta.0)
