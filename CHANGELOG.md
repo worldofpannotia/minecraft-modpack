@@ -1,12 +1,15 @@
 ### Upcoming (8.13.0-beta.1)
 
-### Removed Mods
+#### Config Changes
+* Added our custom V-X enchanted books to JEI
+
+#### Removed Mods
 * Easy Elytra Takeoff: redundant now that Quark has added better rockets
 
 
 ### 2021-07-02 (8.13.0-beta.0)
 
-### Notable Changes
+#### Notable Changes
 * JEITweaker: we can add custom items to JEI now! This means that things like our OP enchanted books (hello Looting X!) can be added to JEI.
 * Quark:
   * Corundum can redirect and re-color beacon beams
@@ -20,7 +23,7 @@
   * Hanging signs can now hold 7 lines instead of 5
   * Banners can now be placed on ceilings
 
-### Updated Mods
+#### Updated Mods
 * Alex's Mobs: 1.11.0 -> 1.11.1
 * Architectury API: 1.17.22 -> 1.18.26
 * Better Biome Blend: 1.1.4 -> 1.1.6
@@ -37,13 +40,13 @@
 
 ### 2021-06-24 (8.12.0)
 
-### Updated Mods
+#### Updated Mods
 * Patchouli: 51 -> 53
 
 
 ### 2021-06-23 (8.12.0-beta.1)
 
-### Added Mods
+#### Added Mods
 * SuperMartijn642's Config Lib: new library needed for the Uppers mod
 
 
