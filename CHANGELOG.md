@@ -1,3 +1,25 @@
+### 2021-07-15 (8.13.0-beta.2)
+
+#### Notable Changes
+* The Builder from Simple Storage Network should no longer crash the server (yay!)
+
+#### Removed Mods
+* Cogwheel Tweaker (temporary, I hope): currently does not work with Create 0.3.2, and I haven't implemented custom cogs yet
+* Statement Library
+
+#### Updated Mods
+* Citadel: 1.7.1 -> 1.7.2
+* CraftTweaker: 7.1.0.349 -> 7.1.0.350
+* FTB Library: 1605.2.1.41 -> 1605.3.1.48
+* Jade: 2.7.1 -> 2.7.2
+* JourneyMap: 5.7.1 -> 5.7.2-beta.18
+* Mantle: 1.6.109 -> 1.6.116
+* More Waterlogging: 1.5 -> 1.4 (I'm giving up here)
+* Performant: 3.70m -> 3.71m
+* Simple Storage Network: 1.3.5 -> 1.4.0
+* SuperMartijn642's Core Lib: 1.0.9 -> 1.0.10
+
+
 ### 2021-07-15 (8.13.0-beta.1)
 
 #### Notable Changes
