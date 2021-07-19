@@ -1,3 +1,39 @@
+### 2021-07-18 (8.13.0)
+
+#### Notable Changes
+* **[beta.0]** JEITweaker: we can add custom items to JEI now! This means that things like our OP enchanted books (hello Looting X!) can be added to JEI.
+* **[beta.0]** Quark:
+  * Corundum can redirect and re-color beacon beams
+  * New rocket type: "Better Elytra Rocket". This lets you take off without jumping
+    * We currently use the mod "Easy Elytra Takeoff" for this. Should we remove it?
+  * Pistons can move double chests
+* **[beta.0]** Supplementaries: 3M update!
+  * Added statues, a new decoration block that can hold items and interact with redstone.
+  * Added iron gates, basically an iron fence gate
+  * You can now feed a skeleton horse a stack of rotten flesh to turn it into a zombie horse
+  * Hanging signs can now hold 7 lines instead of 5
+  * Banners can now be placed on ceilings
+* **[beta.1]** Forge version updated! 36.1.18 -> 36.1.33
+* **[beta.1]** Create has some HUGE changes! Too many to list, so here are two videos someone else made.
+  * [Create mod 0.3.2 Is here! Overview and Showcase (by BLOckOus)](https://www.youtube.com/watch?v=gU6ulhZtHbg)
+  * [Minecraft Create Mod 0.3.2 Finely Tuned - What's New! (by Rockit14)](https://www.youtube.com/watch?v=92AfdlKPLpw)
+* **[beta.1]** A _ton_ of mods had minor internal changes that will help their developers update to 1.17 (maybe... just maybe, it'll be possible to update the current pack without breaking backwards compatibility?!)
+* **[beta.1]** Macaw's Bridges
+  * Added Dried Bamboo & Mossy Stone Bridge
+  * You can now place Redstone Torches on Rail Bridges to make them powered
+  * You can now place a Torch on every bridge (except Rail) to make a Lighted up variation
+* **[beta.1]** Our custom items now show up in JEI. W00t!
+* **[beta.2]** The Builder from Simple Storage Network should no longer crash the server (yay!)
+
+#### Updated Mods
+* CraftTweaker: 7.1.0.350 -> 7.1.0.355
+* Customizable Elytra: 1.5.3 -> 1.5.4
+* Differentiate: 0.5.0 -> 0.5.1
+* FastSuite: 1.0.2 -> 1.1.0
+* Snow! Real Magic!: 2.5.7 -> 2.5.8
+* SuperMartijn642's Core Lib: 1.0.10 -> 1.0.10a
+
+
 ### 2021-07-15 (8.13.0-beta.2)
 
 #### Notable Changes
