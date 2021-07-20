@@ -19,6 +19,7 @@ const clientModIds = [
     374828, // Omega Mute
     440465, // Panorama
     407174, // Shutup Experimental Settings
+    243280, // Third Person Elytra
     271740, // Toast Control
 ];
 
