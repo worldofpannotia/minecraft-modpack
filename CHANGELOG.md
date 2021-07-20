@@ -1,4 +1,271 @@
-### 2021-06-12 (8.10.0)
+### 2021-07-18 (8.13.0)
+
+#### Notable Changes
+* **[beta.0]** JEITweaker: we can add custom items to JEI now! This means that things like our OP enchanted books (hello Looting X!) can be added to JEI.
+* **[beta.0]** Quark:
+  * Corundum can redirect and re-color beacon beams
+  * New rocket type: "Better Elytra Rocket". This lets you take off without jumping
+    * We currently use the mod "Easy Elytra Takeoff" for this. Should we remove it?
+  * Pistons can move double chests
+* **[beta.0]** Supplementaries: 3M update!
+  * Added statues, a new decoration block that can hold items and interact with redstone.
+  * Added iron gates, basically an iron fence gate
+  * You can now feed a skeleton horse a stack of rotten flesh to turn it into a zombie horse
+  * Hanging signs can now hold 7 lines instead of 5
+  * Banners can now be placed on ceilings
+* **[beta.1]** Forge version updated! 36.1.18 -> 36.1.33
+* **[beta.1]** Create has some HUGE changes! Too many to list, so here are two videos someone else made.
+  * [Create mod 0.3.2 Is here! Overview and Showcase (by BLOckOus)](https://www.youtube.com/watch?v=gU6ulhZtHbg)
+  * [Minecraft Create Mod 0.3.2 Finely Tuned - What's New! (by Rockit14)](https://www.youtube.com/watch?v=92AfdlKPLpw)
+* **[beta.1]** A _ton_ of mods had minor internal changes that will help their developers update to 1.17 (maybe... just maybe, it'll be possible to update the current pack without breaking backwards compatibility?!)
+* **[beta.1]** Macaw's Bridges
+  * Added Dried Bamboo & Mossy Stone Bridge
+  * You can now place Redstone Torches on Rail Bridges to make them powered
+  * You can now place a Torch on every bridge (except Rail) to make a Lighted up variation
+* **[beta.1]** Our custom items now show up in JEI. W00t!
+* **[beta.2]** The Builder from Simple Storage Network should no longer crash the server (yay!)
+
+#### Updated Mods
+* CraftTweaker: 7.1.0.350 -> 7.1.0.355
+* Customizable Elytra: 1.5.3 -> 1.5.4
+* Differentiate: 0.5.0 -> 0.5.1
+* FastSuite: 1.0.2 -> 1.1.0
+* Snow! Real Magic!: 2.5.7 -> 2.5.8
+* SuperMartijn642's Core Lib: 1.0.10 -> 1.0.10a
+
+
+### 2021-07-15 (8.13.0-beta.2)
+
+#### Notable Changes
+* The Builder from Simple Storage Network should no longer crash the server (yay!)
+
+#### Removed Mods
+* Cogwheel Tweaker (temporary, I hope): currently does not work with Create 0.3.2, and I haven't implemented custom cogs yet
+* Statement Library
+
+#### Updated Mods
+* Citadel: 1.7.1 -> 1.7.2
+* CraftTweaker: 7.1.0.349 -> 7.1.0.350
+* FTB Library: 1605.2.1.41 -> 1605.3.1.48
+* Jade: 2.7.1 -> 2.7.2
+* JourneyMap: 5.7.1 -> 5.7.2-beta.18
+* Mantle: 1.6.109 -> 1.6.116
+* More Waterlogging: 1.5 -> 1.4 (I'm giving up here)
+* Performant: 3.70m -> 3.71m
+* Simple Storage Network: 1.3.5 -> 1.4.0
+* SuperMartijn642's Core Lib: 1.0.9 -> 1.0.10
+
+
+### 2021-07-15 (8.13.0-beta.1)
+
+#### Notable Changes
+* Forge version updated! 36.1.18 -> 36.1.33
+* Create has some HUGE changes! Too many to list, so here are two videos someone else made.
+  * [Create mod 0.3.2 Is here! Overview and Showcase (by BLOckOus)](https://www.youtube.com/watch?v=gU6ulhZtHbg)
+  * [Minecraft Create Mod 0.3.2 Finely Tuned - What's New! (by Rockit14)](https://www.youtube.com/watch?v=92AfdlKPLpw)
+* A _ton_ of mods had minor internal changes that will help their developers update to 1.17 (maybe... just maybe, it'll be possible to update the current pack without breaking backwards compatibility?!)
+* Macaw's Bridges
+  * Added Dried Bamboo & Mossy Stone Bridge
+  * You can now place Redstone Torches on Rail Bridges to make them powered
+  * You can now place a Torch on every bridge (except Rail) to make a Lighted up variation
+* Our custom items now show up in JEI. W00t!
+
+#### Config Changes
+* Added our custom V-X enchanted books to JEI
+
+#### Added Mods
+* Flywheel 0.1.1: New dependency of Create
+* Selene 1.4: New dependency of Supplementaries
+* Statement Library 4.0.3: New dependency of More Waterlogging
+
+#### Removed Mods
+* Easy Elytra Takeoff: no longer needed since Quark added better rockets which provide the same behavior
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* Advancement Screenshot: 1.3 -> 1.4
+* Architectury API: 1.18.26 -> 1.20.28
+* Better Beacon Placement: 1.3 -> 1.4
+* Better Biome Blend: 1.1.6 -> 1.1.9
+* Better Conduit Placement: 1.2 -> 1.3
+* Better Spawner Control: 1.3 -> 1.4
+* Bigger Sponge Absorption Radius: 1.3 -> 1.4
+* Collective: 2.26 -> 2.27
+* Conduits Prevent Drowned: 1.2 -> 1.2
+* ContentTweaker: 1.0.0.19 -> 1.0.0.22
+* Cookielicious: 1.2.2 -> 1.3.0
+* CraftTweaker: 7.1.0.336 -> 7.1.0.349
+* Create: 0.3.1c -> 0.3.2b
+* Customizable Elytra: 1.5.2 -> 1.5.3
+* Cycle Paintings: 1.6 -> 1.7
+* Death Backup: 1.4 -> 1.5
+* Dismount Entity: 1.4 -> 1.5
+* Dragon Drops Elytra: 1.3 -> 1.4
+* Enchanting Commands: 1.6 -> 1.7
+* Enhanced Mushrooms: 3.0.8 -> 3.0.9
+* Extended Bone Meal: 1.3 -> 1.4
+* Fixed Anvil Repair Cost: 1.4 -> 1.5
+* Grass Seeds: 1.4 -> 1.5
+* Hand Over Your Items: 1.2 -> 1.3
+* Ice Prevents Crop Growth: 1.2 -> 1.3
+* Infinite Trading: 1.4 -> 1.5
+* Inventory Totem: 1.3 -> 1.4
+* Iron Furnaces: 2.6.8 -> 2.6.9
+* Just Enough Items: 7.7.0.107 -> 7.7.1.110
+* Just Mob Heads: 4.0 -> 4.1
+* Just Player Heads: 1.6 -> 1.7
+* Kiwi: 3.5.1 -> 3.5.2
+* Macaw's Bridges: 1.0.5 -> 1.0.6
+* Mob Catcher: 3.2 -> 3.2a
+* More Waterlogging: 1.4 -> 1.5
+* Name Tag Tweaks: 1.5 -> 1.6
+* Nature's Compass: 1.9.0 -> 1.9.1
+* Omega Mute: 1.7 -> 1.8
+* Performant: 3.66m -> 3.70m
+* Placeable Blaze Rods: 1.1 -> 1.2
+* Quick Paths: 1.5 -> 1.6
+* Rain Be Gone Ritual: 1.4 -> 1.5
+* Random Bone Meal Flowers: 1.3 -> 1.4
+* Respawning Shulkers: 1.4 -> 1.5
+* Sapience: 1.1.1 -> 1.1.2
+* Scaffolding Drops Nearby: 1.3 -> 1.4
+* Shulker Drops Two: 1.4 -> 1.5
+* Smaller Nether Portals: 1.6 -> 1.7
+* Softer Hay Bales: 1.3 -> 1.4
+* Superflat World No Slimes: 1.3 -> 1.4
+* Supplementaries: 0.14.2 -> 0.14.4f
+* Underwater Enchanting: 1.3 -> 1.4
+* Wool Tweaks: 1.2 -> 1.3
+* YUNG's API: 6 -> 11
+* YUNG's Better Strongholds: 1.1 -> 1.2
+* Zombie Villagers From Spawners: 1.4 -> 1.5
+
+
+### 2021-07-02 (8.13.0-beta.0)
+
+#### Notable Changes
+* JEITweaker: we can add custom items to JEI now! This means that things like our OP enchanted books (hello Looting X!) can be added to JEI.
+* Quark:
+  * Corundum can redirect and re-color beacon beams
+  * New rocket type: "Better Elytra Rocket". This lets you take off without jumping
+    * We currently use the mod "Easy Elytra Takeoff" for this. Should we remove it?
+  * Pistons can move double chests
+* Supplementaries: 3M update!
+  * Added statues, a new decoration block that can hold items and interact with redstone.
+  * Added iron gates, basically an iron fence gate
+  * You can now feed a skeleton horse a stack of rotten flesh to turn it into a zombie horse
+  * Hanging signs can now hold 7 lines instead of 5
+  * Banners can now be placed on ceilings
+
+#### Updated Mods
+* Alex's Mobs: 1.11.0 -> 1.11.1
+* Architectury API: 1.17.22 -> 1.18.26
+* Better Biome Blend: 1.1.4 -> 1.1.6
+* Cherished Worlds: 5.1.0.0 -> 5.1.1.0
+* Cooking for Blockheads: 9.3.2 -> 9.3.3
+* CraftTweaker: 7.1.0.314 -> 7.1.0.336
+* Customizable Elytra: 1.4.4 -> 1.5.2
+* JEITweaker: 1.0.1.31 -> 1.0.1.33
+* Just Enough Items: 7.7.0.106 -> 7.7.0.107
+* Patchouli: 53 -> 53.1
+* Quark: 2.4-312 -> 2.4-314
+* Supplementaries: 0.13.2 -> 0.14.2
+
+
+### 2021-06-24 (8.12.0)
+
+#### Updated Mods
+* Patchouli: 51 -> 53
+
+
+### 2021-06-23 (8.12.0-beta.1)
+
+#### Added Mods
+* SuperMartijn642's Config Lib: new library needed for the Uppers mod
+
+
+### 2021-06-22 (8.12.0-beta.0)
+
+#### Updated Mods
+* Alex's Mobs: 1.10.1 -> 1.11.0
+* CodeChicken Lib: 3.5.1.408 -> 4.0.2.427
+* Enchantment Descriptions: 7.0.8 -> 7.0.12
+* Ender Storage: 2.7.1.166 -> 2.8.0.168
+* FerriteCore: 2.0.4 -> 2.0.5
+
+#### Added Mods
+* Chunk Loaders
+* Uppers
+
+
+### 2021-06-20 (8.11.0)
+
+Revert changes from beta.2.
+
+### 2021-06-20 (8.11.0-beta.2)
+
+#### Updated Mods
+* More Waterlogging: 1.4 -> 1.5
+
+#### Added Mods
+* Statement: new library dependency of More Waterlogging
+
+
+### 2021-06-20 (8.11.0-beta.1)
+
+#### Updated Mods
+* Abnormals Core: 3.2.0 -> 3.1.1
+  * We have to wait for Create to update before this can go beyond 3.1.1
+* AppleSkin: 1.0.14 -> 2.0.0
+* Architectury API: 1.17.21 -> 1.17.22
+* CraftTweaker: 7.1.0.313 -> 7.1.0.314
+* CreateTweaker: 1.0.0.13 -> 1.0.0.14
+* Dark Paintings: 6.0.1 -> 6.0.3
+* Farmer's Delight: 0.4.3 -> 0.4.5
+* Mantle: 1.6.103 -> 1.6.109
+* Refined Storage: 1.9.12 -> 1.9.13
+* SuperMartijn642's Core Lib: 1.0.7 -> 1.0.9
+* Supplementaries: 0.13.0 -> 0.13.2
+
+
+### 2021-06-19 (8.11.0-beta.0)
+
+#### Notable Changes
+* Added ancient tomes to Quark config to match what shows up in JEI
+* Added Solar VII-X recipes
+* Re-enabled fortune and silk touch upgrades from Refined Storage
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* JEITweaker: 1.0.1.27 -> 1.0.1.31
+* Snad: 1.0.5 -> 1.0.8
+
+#### Removed Mods
+* Bundles Plus: removed due to game-crashing bug
+
+
+### 2021-06-13 (8.10.3)
+
+#### Updated Mods
+* Snad: 1.0.7 -> 1.0.5
+
+
+### 2021-06-13 (8.10.2)
+
+#### Updated Mods
+* Abnormals Core: 3.2.0 -> 3.1.1
+
+
+### 2021-06-13 (8.10.1)
+
+#### Updated Mods
+* Abnormals Core: 3.1.1 -> 3.2.0
+* Fish in Planks: 0.3 -> 0.4
+* Snad: 1.0.6 -> 1.0.7
+* SuperMartijn642's Core Lib: 1.0.5 -> 1.0.7
+
+
+### 2021-06-12 (8.10.0) (DO NOT USE)
 
 #### Bug Fixes
 * Fixed the resource pack for the redstone/terracotta rotation wrench
@@ -8,13 +275,13 @@
 * Just Enough Resources: 0.12.0.100 -> 0.12.1.121
 
 
-### 2021-06-12 (8.10.0-beta.2)
+### 2021-06-12 (8.10.0-beta.2) (DO NOT USE)
 
 #### Notable Changes
 * Use the 1.16.5 file for Macaw's Doors, not the 1.12.2 one
 
 
-### 2021-06-11 (8.10.0-beta.1)
+### 2021-06-11 (8.10.0-beta.1) (DO NOT USE)
 
 #### Notable Changes
 * Allurement added a new enchant: Launch. It's like knockback, but vertical!
@@ -60,7 +327,7 @@
 * YUNG's Better Mineshafts: 2.0.3 -> 2.0.4
 
 
-### 2021-06-10 (8.10.0-beta.0)
+### 2021-06-10 (8.10.0-beta.0) (DO NOT USE)
 
 #### Notable Changes
 * Fixed a few recipe conflicts

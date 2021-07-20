@@ -1,8 +1,8 @@
 #!/bin/sh
 
-VERSION=`cat ./README.md | grep "\!\[Next" | sed -e 's/^.*\!\[Next Version \([-a-z0-9.]*\).*/\1/g'`;
+VERSION=`cat ./README.md | grep "\!\[Next Version" | sed -e 's/^.*\!\[Next Version \([-a-z0-9.]*\).*/\1/g'`;
 MINECRAFT_VERSION=`cat ./README.md | grep "\!\[Minecraft" | sed -e 's/^.*\!\[Minecraft \([0-9.]*\).*/\1/g'`;
-FORGE_VERSION=`cat ./README.md | grep "\!\[Forge" | sed -e 's/^.*\!\[Forge \([0-9.]*\).*/\1/g'`;
+FORGE_VERSION=`cat ./README.md | grep "\!\[Next Forge" | sed -e 's/^.*\!\[Next Forge \([0-9.]*\).*/\1/g'`;
 MINECRAFT_LAUNCHER_VERSION=`echo $MINECRAFT_VERSION | sed -e 's/^\([0-9.]*\)\.[0-9]*$/\1/'`;
 
 rm -rf ./tmp/server;

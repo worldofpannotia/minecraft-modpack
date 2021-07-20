@@ -343,15 +343,6 @@ JEI.hideItem(<item:refinedstorage:creative_wireless_fluid_grid>);
 craftingTable.removeRecipe(<item:refinedstorage:creative_wireless_grid>);
 JEI.hideItem(<item:refinedstorage:creative_wireless_grid>);
 
-craftingTable.removeRecipe(<item:refinedstorage:fortune_1_upgrade>);
-JEI.hideItem(<item:refinedstorage:fortune_1_upgrade>);
-
-craftingTable.removeRecipe(<item:refinedstorage:fortune_2_upgrade>);
-JEI.hideItem(<item:refinedstorage:fortune_2_upgrade>);
-
-craftingTable.removeRecipe(<item:refinedstorage:fortune_3_upgrade>);
-JEI.hideItem(<item:refinedstorage:fortune_3_upgrade>);
-
 craftingTable.removeRecipe(<item:refinedstorage:pattern>);
 JEI.hideItem(<item:refinedstorage:pattern>);
 
@@ -402,9 +393,6 @@ JEI.hideItem(<item:refinedstorage:white_pattern_grid>);
 
 craftingTable.removeRecipe(<item:refinedstorage:yellow_pattern_grid>);
 JEI.hideItem(<item:refinedstorage:yellow_pattern_grid>);
-
-craftingTable.removeRecipe(<item:refinedstorage:silk_touch_upgrade>);
-JEI.hideItem(<item:refinedstorage:silk_touch_upgrade>);
 
 craftingTable.removeRecipe(<item:refinedstorage:wireless_crafting_monitor>);
 JEI.hideItem(<item:refinedstorage:wireless_crafting_monitor>);
