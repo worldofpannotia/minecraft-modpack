@@ -6,14 +6,14 @@
     ],
     "key": {
         "X": {
-            "item": "minecraft:glass"
+            "item": "minecraft:lapis_block"
         },
         "Y": {
-            "item": "minecraft:glass_pane"
+            "item": "minecraft:lapis_lazuli"
         }
     },
     "result": {
-        "item": "upgrade_aquatic:glass_trapdoor",
-        "count": 8
+        "item": "ornamental:lapis_trapdoor",
+        "count": 10
     }
 }

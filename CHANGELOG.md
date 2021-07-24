@@ -1,3 +1,15 @@
+### 2021-07-24 (8.13.1)
+
+Optional update (datapack only).
+
+#### Notable Changes
+* Fixed a couple of recipe conflicts
+
+#### Datapack Changes
+* Added custom recipe for Ornamental's lapis trapdoor
+* Tweaked custom recipe for Upgrade Aquatic's glass trapdoor
+
+
 ### 2021-07-18 (8.13.0)
 
 #### Notable Changes
