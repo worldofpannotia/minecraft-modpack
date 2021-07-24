@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:lapis_block"
+        },
+        "Y": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "item": "ornamental:lapis_trapdoor",
+        "count": 10
+    }
+}
