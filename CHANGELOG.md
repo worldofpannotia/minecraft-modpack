@@ -1,3 +1,59 @@
+### 2021-07-25 (8.14.0-beta.0)
+
+#### Notable Changes
+* New Curios slot for the Baubley Heart amulet
+* New wither-proof blocks. These don't require a netherite ingot _per block_
+* Paragliders added a bunch of new content!
+  * Major Features:
+    * Goddess Statues! With four variations!
+      * They can be found in overworld, mostly inside villages.
+      * They might give you something good if you have four Spirit Orbs...
+    * Horned Statue redesigned!
+      * You may seek out him for a quite a distance getting it.
+      * Services are no longer free, unfortunately.
+    * Obtainable Spirit Orbs!
+      * They can be found in various chests and such.
+      * Mob Spawners contain some of them, too.
+      * Defeating boss and completing raid is also rewarded by the Goddess.
+  * Minor Features:
+    * Towers of the Wild compat
+      * Paragliders spawn at tower chest.
+      * Yeah. That's it. What'd you expect?
+    * Bunch of useless items
+
+#### Added Mods
+* Entity Culling (client only): increases performance by skipping rendering of hidden entities
+* Fake Blocks: adds a single block with no collision that can take on any other (full) block's texture
+* Witherproofed: replaces the other mod we had for wither-proof blocks; these recipes are less insane
+
+#### Removed Mods
+* Shulker Drops Two: removed in favor of just doing this in a datapack (bonus: looting now works!)
+* Wither-Proof Block: replaced by Witherproofed
+
+#### Updated Mods
+* AppleSkin: 2.0.0 -> 2.1.0
+* Baubley Heart Canisters: 1.1.2 -> 1.1.5
+* Better Advancements: 0.1.0.108 -> 0.1.1.111
+* Better Biome Blend: 1.1.9 -> 1.2.3
+* CodeChicken Lib: 4.0.2.427 -> 4.0.2.429
+* Cookielicious: 1.3.0 -> 1.4.1
+* CraftTweaker: 7.1.0.355 -> 7.1.0.357
+* Curious Armor Stands: 2.1.1 -> 2.1.2
+* Differentiate: 0.5.1 -> 0.5.3
+* JEITweaker: 1.0.1.33 -> 1.0.1.34
+* JourneyMap: 5.7.2-beta.18 -> 5.7.3
+* Just Enough Items: 7.7.1.110 -> 7.7.1.115
+* Lepton: 1.3.0 -> 1.3.1
+* Macaw's Paintings: 1.0.1 -> 1.0.2
+* Measurements: 1.0.0 -> 1.1.0
+* Paragliders: 1.3.1.1 -> 1.3.2.0
+* Peculiars: 1.1.0 -> 2.0.0
+* Quark: 2.4-314 -> 2.4-316
+* Seasonals: 1.4.1 -> 2.0.0
+* Selene: 1.4 -> 1.5
+* Supplementaries: 0.14.4f -> 0.14.5
+
+
 ### 2021-07-24 (8.13.1)
 
 Optional update (datapack only).
