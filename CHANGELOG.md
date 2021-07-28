@@ -1,3 +1,19 @@
+### 2021-07-27 (8.14.0-beta.1)
+
+#### Notable Changes
+* Refined Storage added support for Curios!
+* Performant fixed a bug that is probably what caused our server restart problems
+
+#### Added Mods
+* Tiny Redstone: make tiny redstone circuits!
+
+#### Updated Mods
+* Just Enough Items: 7.7.1.115 -> 7.7.1.116
+* Performant: 3.71m -> 3.72m
+* Refined Storage: 1.9.13 -> 1.9.15
+* Refined Storage Addons: 0.7.2 -> 0.7.3
+
+
 ### 2021-07-25 (8.14.0-beta.0)
 
 #### Notable Changes
