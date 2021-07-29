@@ -1,3 +1,39 @@
+### 2021-07-28 (8.14.0)
+
+#### Notable Changes
+* **[beta.0]** New Curios slot for the Baubley Heart amulet
+* **[beta.0]** New wither-proof blocks. These don't require a netherite ingot _per block_
+* **[beta.0]** Paragliders added a bunch of new content!
+  * Major Features:
+    * Goddess Statues! With four variations!
+      * They can be found in overworld, mostly inside villages.
+      * They might give you something good if you have four Spirit Orbs...
+    * Horned Statue redesigned!
+      * You may seek out him for a quite a distance getting it.
+      * Services are no longer free, unfortunately.
+    * Obtainable Spirit Orbs!
+      * They can be found in various chests and such.
+      * Mob Spawners contain some of them, too.
+      * Defeating boss and completing raid is also rewarded by the Goddess.
+  * Minor Features:
+    * Towers of the Wild compat
+      * Paragliders spawn at tower chest.
+      * Yeah. That's it. What'd you expect?
+    * Bunch of useless items
+* **[beta.1]** Refined Storage added support for Curios!
+* **[beta.1]** Performant fixed a bug that is probably what caused our server restart problems
+* Storage Drawers added back the concealment key, so that may help with FPS when near lots of drawers
+
+#### Updated Mods
+* Baubley Heart Canisters: 1.1.5 -> 1.1.9
+* Collective: 2.27 -> 2.35
+* CraftTweaker: 7.1.0.357 -> 7.1.0.359
+* Grass Seeds: 1.5 -> 1.6
+* Infinite Trading: 1.5 -> 1.6
+* Refined Storage Addons: 0.7.2 -> 0.7.3
+* Storage Drawers: 8.2.2 -> 8.3.0
+
+
 ### 2021-07-27 (8.14.0-beta.1)
 
 #### Notable Changes
