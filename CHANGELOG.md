@@ -1,3 +1,12 @@
+### 2021-07-28 (8.14.1)
+
+#### Notable Changes
+* Downgrade Grass Seeds to fix dependency issue
+
+#### Updated Mods
+* Grass Seeds: 1.6 -> 1.5
+
+
 ### 2021-07-28 (8.14.0)
 
 #### Notable Changes
