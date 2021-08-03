@@ -1,3 +1,12 @@
+### 2021-07-28 (8.14.2)
+
+#### Notable Changes
+* Downgrade Jade to fix server crash
+
+#### Updated Mods
+* Jade: 2.7.2 -> 2.7.1
+
+
 ### 2021-07-28 (8.14.1)
 
 #### Notable Changes
