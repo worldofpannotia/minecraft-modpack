@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "quark:polished_slate"
+        }
+    ],
+    "result": {
+        "item": "lepton:polished_slate_button",
+        "count": 16
+    }
+}

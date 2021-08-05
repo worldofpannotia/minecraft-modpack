@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "quark:polished_limestone"
+        }
+    ],
+    "result": {
+        "item": "lepton:polished_limestone_button",
+        "count": 16
+    }
+}

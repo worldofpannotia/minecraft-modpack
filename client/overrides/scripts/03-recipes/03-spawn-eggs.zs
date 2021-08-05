@@ -138,6 +138,7 @@ craftingTable.addShaped("craftable_squid_spawn_egg", <item:minecraft:squid_spawn
     [star, netherite, star],
     [squidHead, heart, squidHead]
 ]);
+craftingTable.addShapeless("craftable_glow_squid_spawn_egg", <item:upgrade_aquatic:squid_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <upgrade_aquatic:glowing_ink_sac>]);
 craftingTable.addShaped("craftable_hoglin_spawn_egg", <item:minecraft:hoglin_spawn_egg>, [
     [hoglinHead, heart, hoglinHead],
     [star, netherite, star],

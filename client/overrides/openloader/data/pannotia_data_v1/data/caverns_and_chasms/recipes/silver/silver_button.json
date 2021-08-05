@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "caverns_and_chasms:silver_nugget"
+        },
+        {
+            "tag": "minecraft:wooden_buttons"
+        }
+    ],
+    "result": {
+        "item": "caverns_and_chasms:silver_button"
+    }
+}

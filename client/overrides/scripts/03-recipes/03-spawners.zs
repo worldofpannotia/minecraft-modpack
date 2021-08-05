@@ -13,6 +13,7 @@ val blazeSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {
 val chickenSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:chicken"}, SpawnPotentials: [{Entity: {id: "minecraft:chicken"}, Weight: 1}]}, display: {Name: "{\"text\":\"Chicken Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val caveSpiderSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:cave_spider"}, SpawnPotentials: [{Entity: {id: "minecraft:cave_spider"}, Weight: 1}]}, display: {Name: "{\"text\":\"Cave Spider Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val squidSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:squid"}, SpawnPotentials: [{Entity: {id: "minecraft:squid"}, Weight: 1}]}, display: {Name: "{\"text\":\"Squid Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
+val glowSquidSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "upgrade_aquatic:glow_squid"}, SpawnPotentials: [{Entity: {id: "upgrade_aquatic:glow_squid"}, Weight: 1}]}, display: {Name: "{\"text\":\"Glow Squid Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val hoglinSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:hoglin"}, SpawnPotentials: [{Entity: {id: "minecraft:hoglin"}, Weight: 1}]}, display: {Name: "{\"text\":\"Hoglin Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val straySpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:stray"}, SpawnPotentials: [{Entity: {id: "minecraft:stray"}, Weight: 1}]}, display: {Name: "{\"text\":\"Stray Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val endermanSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:enderman"}, SpawnPotentials: [{Entity: {id: "minecraft:enderman"}, Weight: 1}]}, display: {Name: "{\"text\":\"Enderman Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
@@ -33,6 +34,7 @@ craftingTable.addShapeless("craftable_blaze_spawner", blazeSpawner, [<item:minec
 craftingTable.addShapeless("craftable_chicken_spawner", chickenSpawner, [<item:minecraft:chicken_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_cave_spider_spawner", caveSpiderSpawner, [<item:minecraft:cave_spider_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_squid_spawner", squidSpawner, [<item:minecraft:squid_spawn_egg>, <item:minecraft:spawner>]);
+craftingTable.addShapeless("craftable_glow_squid_spawner", glowSquidSpawner, [<item:upgrade_aquatic:glow_squid_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_hoglin_spawner", hoglinSpawner, [<item:minecraft:hoglin_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_stray_spawner", straySpawner, [<item:minecraft:stray_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_enderman_spawner", endermanSpawner, [<item:minecraft:enderman_spawn_egg>, <item:minecraft:spawner>]);

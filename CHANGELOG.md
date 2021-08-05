@@ -1,3 +1,40 @@
+### 2021-08-04 (8.15.0-beta.0)
+
+#### Notable Changes
+* **[beta.0]** Forge version updated! 36.1.33 -> 36.2.2
+* **[beta.0]** Buttons are _FAR_ less expensive to craft!
+
+#### Recipe Changes
+* Tons of new button recipes
+
+#### Added Mods
+* The Twilight Forest
+
+#### Removed Mods
+* Superflat World No Slimes
+
+#### Updated Mods
+* Archer's Paradox: 1.2.0 -> 1.3.1
+* Baubley Heart Canisters: 1.1.9 -> 1.1.10
+* Better Biome Blend: 1.2.3 -> 1.2.7
+* CoFH Core: 1.2.1 -> 1.3.1
+* Collective: 2.35 -> 2.45
+* CraftTweaker: 7.1.0.359 -> 7.1.0.368
+* Create: 0.3.2b -> 0.3.2c
+* CreateTweaker: 1.0.0.14 -> 1.0.0.18
+* Ensorcellation: 1.2.0 -> 1.3.1
+* Flywheel: 0.1.1 -> 0.2.1
+* FTB Library: 1605.3.1.48 -> 1605.3.1.56
+* Grass Seeds: 1.5 -> 1.6
+* Infinite Trading: 1.6 -> 1.9
+* Iron Chests: 11.2.10 -> 11.2.13
+* Jade: 2.7.1 -> 2.7.2
+* Jellyfishing: 1.6.9 -> 1.6.10
+* Paragliders: 1.3.2.0 -> 1.3.2.1
+* SuperMartijn642's Core Lib: 1.0.10a -> 1.0.12
+* Witherproofed: 2.4 -> 2.4.1
+
+
 ### 2021-07-28 (8.14.2)
 
 #### Notable Changes
