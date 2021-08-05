@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
-![Current Version 8.13.1](https://img.shields.io/badge/Current-8.13.1-blue.svg?style=for-the-badge) ![Forge 36.1.33](https://img.shields.io/badge/Forge-36.1.33-c39.svg?style=for-the-badge)<br />
-![Next Version 8.14.0-beta.0](https://img.shields.io/badge/Next-8.14.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.1.33](https://img.shields.io/badge/Next%20Forge-36.1.33-c39.svg?style=for-the-badge)
+![Current Version 8.14.2](https://img.shields.io/badge/Current-8.14.2-blue.svg?style=for-the-badge) ![Forge 36.1.33](https://img.shields.io/badge/Forge-36.1.33-c39.svg?style=for-the-badge)<br />
+![Next Version 8.15.0-beta.0](https://img.shields.io/badge/Next-8.15.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.1.33](https://img.shields.io/badge/Next%20Forge-36.1.33-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -102,11 +102,13 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/endergetic">The Endergetic Expansion (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-mushrooms">Enhanced Mushrooms (Forge) (by team_aurora_modding)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ensorcellation">Ensorcellation (by TeamCoFH)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-culling">Entity Culling (by meldexun)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/environmental">Environmental (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal">Extended Bone Meal (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extra-boats">Extra Boats (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler">Extreme sound muffler (Forge) (by LeoBeliik)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ezzoom">EzZoom (by JTK222)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/fakeblocks">FakeBlocks (by henkelmax)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fantasy-mounts">Fantasy Mounts (by Bonfyre_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads">Farming for Blockheads (by BlayTheNinth)</a></li>
@@ -229,6 +231,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/third-person-elytra">Third Person Elytra (by pauljoda)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-redstone">Tiny Redstone (by Danny_and_Son)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tips">Tips (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tool-belt">Tool Belt (by gigaherz)</a></li>
@@ -243,8 +246,8 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wall-jump">Wall-Jump! [FORGE] (by genandnic)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/windowlogging">Windowlogging (by mc_Grimmauld)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-proof-block">Wither-Proof Block (Fabric/Forge) (by nicguzzo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks">Wither Skeleton Tweaks (by Shadows_of_Fire)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/witherproofed">Witherproofed (by sajeyson)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wool-pressure-plates">Wool Pressure Plates (by bl4ckscor3)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wool-tweaks">Wool Tweaks (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wrenchest">Wrenchest (by bl4ckscor3)</a></li>

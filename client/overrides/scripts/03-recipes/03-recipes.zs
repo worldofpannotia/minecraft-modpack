@@ -36,14 +36,6 @@ craftingTable.addShapeless("cnc_ch_gold_lantern", <item:charm:gold_lantern>, [<i
 # Make spawners craftable into themselves to clear NBT data
 craftingTable.addShapeless("spawner_to_spawner", <item:minecraft:spawner>, [<item:minecraft:spawner>]);
 
-# Allow converting Quark's chests to vanilla ones
-craftingTable.addShapeless("shapeless_oak_chest_to_chest", <item:minecraft:chest>, [<item:quark:oak_chest>]);
-craftingTable.addShapeless("shapeless_spruce_chest_to_chest", <item:minecraft:chest>, [<item:quark:spruce_chest>]);
-craftingTable.addShapeless("shapeless_birch_chest_to_chest", <item:minecraft:chest>, [<item:quark:birch_chest>]);
-craftingTable.addShapeless("shapeless_jungle_chest_to_chest", <item:minecraft:chest>, [<item:quark:jungle_chest>]);
-craftingTable.addShapeless("shapeless_acacia_chest_to_chest", <item:minecraft:chest>, [<item:quark:acacia_chest>]);
-craftingTable.addShapeless("shapeless_dark_oak_chest_to_chest", <item:minecraft:chest>, [<item:quark:dark_oak_chest>]);
-
 # Allow converting blocks back to their items
 craftingTable.addShapeless("shapeless_sapling_to_sticks", <item:minecraft:stick> * 2, [<tag:items:minecraft:saplings>]);
 craftingTable.addShapeless("shapeless_quartz_block_to_quartz", <item:minecraft:quartz> * 4, [<item:minecraft:quartz_block>]);
