@@ -106,4 +106,4 @@ craftingTable.addShapeless("tongue_mimic", <item:upgrade_aquatic:tongue_kelp>, [
 craftingTable.addShapeless("banana_but_not_a_pain", <item:neapolitan:banana> * 2, [<item:neapolitan:banana_bunch>]);
 
 # Globe to Globe Pattern
-craftingTable.addShapeless("globe_pattern", globe_pattern, [paper, globe]);
+craftingTable.addShapeless("globe_pattern", <item:minecraft:globe_banner_pattern>, [<item:minecraft:paper>, <item:supplementaries:globe>]);

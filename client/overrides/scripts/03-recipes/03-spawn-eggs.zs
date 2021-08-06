@@ -138,9 +138,9 @@ craftingTable.addShaped("craftable_squid_spawn_egg", <item:minecraft:squid_spawn
     [star, netherite, star],
     [squidHead, heart, squidHead]
 ]);
-craftingTable.addShapeless("craftable_glow_squid_spawn_egg", <item:upgrade_aquatic:squid_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <upgrade_aquatic:glowing_ink_sac>]);
-craftingTable.addShapeless("craftable_blue_jellyfish_spawn_egg", <item:jellyfishing:blue_jellyfish_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <jellyfishing:blue_jellyfish>]);
-craftingTable.addShapeless("craftable_pink_jellyfish_spawn_egg", <item:jellyfishing:jellyfish_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <jellyfishing:jellyfish>]);
+craftingTable.addShapeless("craftable_glow_squid_spawn_egg", <item:upgrade_aquatic:glow_squid_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <item:upgrade_aquatic:glowing_ink_sac>]);
+craftingTable.addShapeless("craftable_blue_jellyfish_spawn_egg", <item:jellyfishing:blue_jellyfish_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <item:jellyfishing:blue_jellyfish>]);
+craftingTable.addShapeless("craftable_pink_jellyfish_spawn_egg", <item:jellyfishing:jellyfish_spawn_egg>, [<item:minecraft:squid_spawn_egg>, <item:jellyfishing:jellyfish>]);
 craftingTable.addShaped("craftable_hoglin_spawn_egg", <item:minecraft:hoglin_spawn_egg>, [
     [hoglinHead, heart, hoglinHead],
     [star, netherite, star],
