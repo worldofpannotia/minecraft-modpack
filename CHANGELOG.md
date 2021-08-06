@@ -1,3 +1,9 @@
+### 2021-08-05 (8.15.0-beta.2)
+
+#### Bug Fixes
+* Fix some bad syntax in CraftTweaker scripts
+
+
 ### 2021-08-05 (8.15.0-beta.1)
 
 #### Config Changes
