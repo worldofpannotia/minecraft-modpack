@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "wooden_button",
+    "ingredients": [
+        {
+            "item": "twilightforest:sort_planks"
+        }
+    ],
+    "result": {
+        "item": "twilightforest:sort_button",
+        "count": 16
+    }
+}
