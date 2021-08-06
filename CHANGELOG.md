@@ -3,6 +3,25 @@
 #### Config Changes
 * Disable crazy music and weird clouds from Jellyfishing mod
 
+#### Recipe Changes
+* Made some types of kelp a little more obtainable
+* Atmospheric's saplings aren't impossible anymore
+
+#### Added Mods
+* Chipped
+* YUNG's Better Dungeons
+
+#### Updated Mods
+* Better Advancements: 0.1.1.111 -> 0.1.1.115
+* Bookshelf: 10.1.11 -> 10.2.27
+* Caelus API: 2.1.3.0 -> 2.1.3.1
+* Cyclops Core: 1.11.7 -> 1.11.8
+* Glassential: 1.1.6 -> 1.1.7
+* Just Enough Items: 7.7.1.116 -> 7.7.1.117
+* Just Enough Resources: 0.12.1.121 -> 0.12.1.127
+* Quick Paths: 1.6 -> 1.8
+* YUNG's API: 11 -> 11
+* YUNG's Better Strongholds: 1.2 -> 1.2.1
 
 ### 2021-08-04 (8.15.0-beta.0)
 
