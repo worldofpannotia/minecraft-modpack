@@ -19,7 +19,8 @@ val straySpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {
 val endermanSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:enderman"}, SpawnPotentials: [{Entity: {id: "minecraft:enderman"}, Weight: 1}]}, display: {Name: "{\"text\":\"Enderman Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val slimeSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "minecraft:slime"}, SpawnPotentials: [{Entity: {id: "minecraft:slime"}, Weight: 1}]}, display: {Name: "{\"text\":\"Slime Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 val jellyfishSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "jellyfishing:jellyfish"}, SpawnPotentials: [{Entity: {id: "jellyfishing:jellyfish"}, Weight: 1}]}, display: {Name: "{\"text\":\"Jellyfish Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
-val blueJellyfishSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "jellyfishing:blue_jellyfish"}, SpawnPotentials: [{Entity: {id: "jellyfishing:blue_jellyfish"}, Weight: 1}]}, display: {Name: "{\"text\":\"Slime Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
+val blueJellyfishSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "jellyfishing:blue_jellyfish"}, SpawnPotentials: [{Entity: {id: "jellyfishing:blue_jellyfish"}, Weight: 1}]}, display: {Name: "{\"text\":\"Blue Jellyfish Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
+val coralSquidSpawner=<item:minecraft:spawner>.withTag({BlockEntityTag: {SpawnData: {id: "charm:coral_squid"}, SpawnPotentials: [{Entity: {id: "charm:coral_squid"}, Weight: 1}]}, display: {Name: "{\"text\":\"Coral Squid Spawner\",\"color\":\"yellow\",\"italic\":false}" as string}});
 
 craftingTable.addShapeless("craftable_sheep_spawner", sheepSpawner, [<item:minecraft:sheep_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_rabbit_spawner", rabbitSpawner, [<item:minecraft:rabbit_spawn_egg>, <item:minecraft:spawner>]);
@@ -43,3 +44,4 @@ craftingTable.addShapeless("craftable_enderman_spawner", endermanSpawner, [<item
 craftingTable.addShapeless("craftable_slime_spawner", slimeSpawner, [<item:minecraft:slime_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_jellyfish_spawner", jellyfishSpawner, [<item:jellyfishing:jellyfish_spawn_egg>, <item:minecraft:spawner>]);
 craftingTable.addShapeless("craftable_blue_jellyfish_spawner", blueJellyfishSpawner, [<item:jellyfishing:blue_jellyfish_spawn_egg>, <item:minecraft:spawner>]);
+craftingTable.addShapeless("craftable_coral_squid_spawner", coralSquidSpawner, [<item:charm:coral_squid_spawn_egg>, <item:minecraft:spawner>]);
