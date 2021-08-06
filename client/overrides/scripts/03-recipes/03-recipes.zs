@@ -1,6 +1,11 @@
 val strng=<tag:items:forge:string>;
 val dirt=<item:minecraft:dirt>;
 
+# Make saplings from Atmospheric obtainable in survival
+craftingTable.addShapeless("kousa_sapling", <item:atmospheric:kousa_sapling>, [<item:alexsmobs:mimicream>, <item:minecraft:oak_sapling>]);
+craftingTable.addShapeless("aspen_sapling", <item:atmospheric:aspen_sapling>, [<item:alexsmobs:mimicream>, <item:minecraft:birch_sapling>]);
+craftingTable.addShapeless("grimwood_sapling", <item:atmospheric:grimwood_sapling>, [<item:alexsmobs:mimicream>, <item:minecraft:spruce_sapling>]);
+
 # Allow fermented spider eyes to be crafted with any mushroom, not just brown ones
 craftingTable.removeByName("minecraft:fermented_spider_eye");
 craftingTable.addShapeless("universal_fermented_spider_eye", <item:minecraft:fermented_spider_eye>, [<item:minecraft:sugar>, <item:minecraft:spider_eye>, <tag:items:forge:mushrooms>]);
@@ -90,3 +95,15 @@ craftingTable.addShapeless("shapeless_qrk_bb_yel_candle", <item:quark:yellow_can
 # Convert between Create and Quark's limestone
 craftingTable.addShapeless("create_quark_limestone", <item:quark:limestone>, [<item:create:limestone>]);
 craftingTable.addShapeless("quark_create_limestone", <item:create:limestone>, [<item:quark:limestone>]);
+
+# Convert kelp types
+craftingTable.addShapeless("ochre_mimic", <item:upgrade_aquatic:ochre_kelp>, [<item:alexsmobs:mimicream>, <item:upgrade_aquatic:polar_kelp>]);
+craftingTable.addShapeless("polar_mimic", <item:upgrade_aquatic:polar_kelp>, [<item:alexsmobs:mimicream>, <item:upgrade_aquatic:thorny_kelp>]);
+craftingTable.addShapeless("thorny_mimic", <item:upgrade_aquatic:thorny_kelp>, [<item:alexsmobs:mimicream>, <item:upgrade_aquatic:tongue_kelp>]);
+craftingTable.addShapeless("tongue_mimic", <item:upgrade_aquatic:tongue_kelp>, [<item:alexsmobs:mimicream>, <item:upgrade_aquatic:ochre_kelp>]);
+
+# Banana
+craftingTable.addShapeless("banana_but_not_a_pain", <item:neapolitan:banana> * 2, [<item:neapolitan:banana_bunch>]);
+
+# Globe to Globe Pattern
+craftingTable.addShapeless("globe_pattern", globe_pattern, [paper, globe]);
