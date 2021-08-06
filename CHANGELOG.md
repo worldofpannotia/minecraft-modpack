@@ -1,3 +1,12 @@
+### 2021-08-06 (8.15.0)
+
+#### Bug Fixes
+* Fix a few more things in CT scripts
+
+#### Added Mods
+* Explorer's Compass: sister mod to Nature's Compass which helps you find structures in the world
+
+
 ### 2021-08-05 (8.15.0-beta.2)
 
 #### Bug Fixes
