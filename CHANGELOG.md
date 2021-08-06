@@ -1,4 +1,4 @@
-### Upcoming (8.15.0-beta.1)
+### 2021-08-05 (8.15.0-beta.1)
 
 #### Config Changes
 * Disable crazy music and weird clouds from Jellyfishing mod
