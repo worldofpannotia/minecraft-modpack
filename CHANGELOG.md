@@ -1,3 +1,12 @@
+### 2021-08-06 (8.15.3)
+
+#### Notable Changes
+* Downgrade Just Enough Resources to fix players not being able to join the server
+
+#### Updated Mods
+* Just Enough Resources: 0.12.1.127 -> 0.12.1.121
+
+
 ### 2021-08-06 (8.15.2)
 
 #### Notable Changes
