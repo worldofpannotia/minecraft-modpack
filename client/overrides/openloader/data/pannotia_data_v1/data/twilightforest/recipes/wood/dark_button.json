@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "wooden_button",
+    "ingredients": [
+        {
+            "item": "twilightforest:dark_planks"
+        }
+    ],
+    "result": {
+        "item": "twilightforest:dark_button",
+        "count": 16
+    }
+}

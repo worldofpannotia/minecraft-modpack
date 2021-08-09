@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "quark:polished_basalt"
+        }
+    ],
+    "result": {
+        "item": "lepton:polished_voidstone_button",
+        "count": 16
+    }
+}

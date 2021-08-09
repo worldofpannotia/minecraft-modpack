@@ -23,28 +23,43 @@ const COLORS = [
     'yellow',
 ];
 
-//const recipe = `{
-//    "type": "crafting_shaped",
-//    "pattern": [
-//        "XXX",
-//        "XYX",
-//        "XXX"
-//    ],
-//    "key": {
-//        "X": {
-//            "tag": "forge:glass"
-//        },
-//        "Y": {
-//            "tag": "forge:dyes/!COLOR!"
-//        }
-//    },
-//    "result": {
-//        "item": "minecraft:!COLOR!_stained_glass",
-//        "count": 8
-//    }
-//}`;
+const recipes = {
+    minecraft: [
+        'polished_granite',
+        'polished_diorite',
+        'polished_andesite',
+    ],
+    quark: [
+        'polished_myalite',
+        'polished_slate',
+        'polished_jasper',
+        'polished_limestone',
+        'polished_marble',
+    ],
+};
+
+const recipe = `{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "!MOD!:!MATERIAL!"
+    }
+  ],
+  "result": {
+    "item": "lepton:!MATERIAL!_button",
+    "count": 16
+  }
+}`;
 
 const exec = async () => {
+    for (const [mod, mats] of Object.entries(recipes)) {
+        for (const mat of mats) {
+            const btnRecipe = JSON.parse(recipe.replace(/!MOD!/g, mod).replace(/!MATERIAL!/g, mat));
+            const btnFile = path.join(DATA_PACK_DIR, 'lepton', 'recipes', 'crafting', `${mat}_button.json`);
+            await fs.writeFile(btnFile, JSON.stringify(btnRecipe, null, 4));
+        }
+    }
+
 //    for (const color of COLORS) {
 //        const glassRecipe = JSON.parse(recipe.replace(/!COLOR!/g, color));
 //        const glassPaneRecipe = JSON.parse(recipe.replace(/!COLOR!/g, color).replace('forge:glass', 'forge:glass_panes').replace('stained_glass', 'stained_glass_pane'));

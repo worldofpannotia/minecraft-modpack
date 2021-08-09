@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "quark:polished_myalite"
+        }
+    ],
+    "result": {
+        "item": "lepton:polished_myalite_button",
+        "count": 16
+    }
+}

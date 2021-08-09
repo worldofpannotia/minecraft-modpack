@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
-![Current Version 8.14.2](https://img.shields.io/badge/Current-8.14.2-blue.svg?style=for-the-badge) ![Forge 36.1.33](https://img.shields.io/badge/Forge-36.1.33-c39.svg?style=for-the-badge)<br />
-![Next Version 8.15.0-beta.0](https://img.shields.io/badge/Next-8.15.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.1.33](https://img.shields.io/badge/Next%20Forge-36.1.33-c39.svg?style=for-the-badge)
+![Current Version 8.15.3](https://img.shields.io/badge/Current-8.15.3-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
+![Next Version 8.16.0-beta.0](https://img.shields.io/badge/Next-8.16.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -56,6 +56,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/charmonium-reforged">Charmonium Reforged (by svenhjol)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cherished-worlds">Cherished Worlds (Forge) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chimes">Chimes (by RossTMK)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/chipped">Chipped (by grimbop)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chiseled">Chiseled (by freepeopleworking)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits (by AlgorithmX2)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/chocolate-fix">Chocolate Fix (by AlcatrazEscapee)</a></li>
@@ -104,6 +105,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ensorcellation">Ensorcellation (by TeamCoFH)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-culling">Entity Culling (by meldexun)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/environmental">Environmental (by TeamAbnormals)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/explorers-compass">Explorer's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal">Extended Bone Meal (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extra-boats">Extra Boats (by TeamAbnormals)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler">Extreme sound muffler (Forge) (by LeoBeliik)</a></li>
@@ -253,6 +255,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wrenchest">Wrenchest (by bl4ckscor3)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api">YUNG's API (Forge) (by YUNGNICKYOUNG)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves">YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons">YUNG's Better Dungeons (Forge) (by YUNGNICKYOUNG)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge">YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds">YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/zombie-villagers-from-spawner">Zombie Villagers From Spawner (by Serilum)</a></li>
