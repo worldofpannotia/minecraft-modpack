@@ -1,3 +1,26 @@
+### 2021-08-08 (8.16.0-beta.0)
+
+#### Updated Mods
+* Architectury API: 1.20.28 -> 1.20.29
+* Better Spawner Control: 1.4 -> 1.5
+* Bigger Sponge Absorption Radius: 1.4 -> 1.5
+* Citadel: 1.7.2 -> 1.7.3
+* Collective: 2.45 -> 2.53
+* Conduits Prevent Drowned: 1.3 -> 1.4
+* CraftTweaker: 7.1.0.368 -> 7.1.0.371
+* Environmental: 1.0.0 -> 1.1.0
+* Farmer's Delight: 0.4.5 -> 0.4.6
+* Flywheel: 0.2.1 -> 0.2.3
+* FTB Library: 1605.3.1.56 -> 1605.3.1.58
+* Inspirations: 1.2.3.37 -> 1.2.3.38
+* Jade: 2.7.1 -> 2.7.2
+* Just Enough Items: 7.7.1.117 -> 7.7.1.118
+* Just Enough Resources: 0.12.1.121 -> 0.12.1.127
+* Quick Paths: 1.8 -> 1.9
+* SuperMartijn642's Config Lib: 1.0.8 -> 1.0.9
+* Tiny Redstone: 1.9.0a -> 1.9.1
+
+
 ### 2021-08-06 (8.15.3)
 
 #### Notable Changes
