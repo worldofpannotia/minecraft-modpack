@@ -1,3 +1,48 @@
+### 2021-08-09 (8.16.0-beta.1)
+
+#### Notable Changes
+* New major Chisels & Bits release!
+* Removed Placeable Blaze Rods mod. This functionality is now provided by Supplementaries
+* Supplementaries: Sticks and Stones Update
+  * Additions:
+    * Added Placeable Sticks and Placeable Blaze Rods
+    * Officially added Flags
+    * Timber Frames, Timber Braces and Timber Cross Brace: a new decoration block that can hold and display any full block in its inside
+    * Daub and Wattle and Daub
+    * Stone tiles and Blackstone Tiles
+    * Blackstone Lanterns
+    * Flower Boxes: a new flower pot like block that can hold 3 flowers or plants
+    * Added... Pancake Music?? (Credits to STiiX)
+  * Improvements:
+    * Added a lot of compatibility for inspirations mod: faucets can now also fill up inspirations cauldrons and many cauldron recipes have been added
+    * Removed blackboard clearing recipe in favor of its manual counterpart using either a sponge or inspirations cauldron (or create washing)
+    * Blackboards now show a preview in the item tooltip
+    * Added some additional configs
+    * Added turn table sounds
+    * Added rope arrow dispenser behavior
+    * Changed Planter and tweaked Speaker Block and Sack textures
+  * Fixes:
+    * fixed a safe duplication bug
+    * fixed a crash caused by bed map markers on a server
+    * improved chain bell ringing mechanic for compatibility with create bells
+
+#### Removed Mods
+* Placeable Blaze Rods
+
+#### Updated Mods
+* Chisels & Bits: 0.3.4 -> 1.0.0
+* Chunk-Pregenerator: 3.0.5 -> 3.1.0
+* Collective: 2.53 -> 2.54
+* CraftTweaker: 7.1.0.371 -> 7.1.0.374
+* Create: 0.3.2c -> 0.3.2d
+* FastSuite: 1.1.0 -> 1.1.1
+* Fixed Anvil Repair Cost: 1.5 -> 1.6
+* Forgery: 1.3.4 -> 1.3.5-RC2
+* Selene: 1.5 -> 1.6
+* Supplementaries: 0.14.5 -> 0.15.1
+* YUNG's Better Dungeons: 1.1 -> 1.2
+
+
 ### 2021-08-08 (8.16.0-beta.0)
 
 #### Updated Mods
