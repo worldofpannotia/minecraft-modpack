@@ -1,3 +1,12 @@
+### 2021-08-10 (8.15.4)
+
+#### Notable Changes
+* Update Flywheel mod to fix client crash when rendering moving Create contraptions
+
+#### Updated Mods
+* Flywheel: 0.2.1 -> 0.2.3
+
+
 ### 2021-08-06 (8.15.3)
 
 #### Notable Changes
