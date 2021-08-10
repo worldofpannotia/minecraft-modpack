@@ -1,6 +1,15 @@
 ### 2021-08-10 (8.15.4)
 
 #### Notable Changes
+* Downgrade Flywheel to a version that doesn't require an update to Create (coming in 8.16.0)
+
+#### Updated Mods
+* Flywheel: 0.2.3 -> 0.2.2
+
+
+### 2021-08-10 (8.15.4)
+
+#### Notable Changes
 * Update Flywheel mod to fix client crash when rendering moving Create contraptions
 
 #### Updated Mods
