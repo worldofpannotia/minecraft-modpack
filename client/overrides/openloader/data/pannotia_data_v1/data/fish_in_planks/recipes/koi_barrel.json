@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "environmental:koi"
+        }
+    },
+    "result": {
+        "item": "fish_in_planks:koi_barrel",
+        "count": 1
+    }
+}

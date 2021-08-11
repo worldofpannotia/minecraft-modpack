@@ -1,3 +1,14 @@
+### 2021-08-10 (8.16.0-beta.2)
+
+#### Bug Fixes
+* Fix a whole bunch of broken recipes
+
+#### Updated Mods
+* Better Biome Blend: 1.2.7 -> 1.2.9
+* CraftTweaker: 7.1.0.374 -> 7.1.0.376
+* Supplementaries: 0.15.1 -> 0.15.1b
+
+
 ### 2021-08-09 (8.16.0-beta.1)
 
 #### Notable Changes
@@ -66,7 +77,7 @@
 * Tiny Redstone: 1.9.0a -> 1.9.1
 
 
-### 2021-08-10 (8.15.4)
+### 2021-08-10 (8.15.5)
 
 #### Notable Changes
 * Downgrade Flywheel to a version that doesn't require an update to Create (coming in 8.16.0)
