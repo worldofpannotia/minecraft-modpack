@@ -1,3 +1,12 @@
+### 2021-08-11 (8.16.0-beta.3)
+
+#### Updated Mods
+* Collective: 2.54 -> 2.57
+* CraftTweaker: 7.1.0.376 -> 7.1.0.382
+* Flywheel: 0.2.2 -> 0.2.3
+* Supplementaries: 0.15.1b -> 0.15.2
+
+
 ### 2021-08-10 (8.16.0-beta.2)
 
 #### Bug Fixes
