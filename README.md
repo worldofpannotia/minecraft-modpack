@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
-![Current Version 8.15.5](https://img.shields.io/badge/Current-8.15.5-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
-![Next Version 8.16.0-beta.0](https://img.shields.io/badge/Next-8.16.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
+![Current Version 8.16.0](https://img.shields.io/badge/Current-8.16.0-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
+![Next Version 8.17.0-beta.0](https://img.shields.io/badge/Next-8.17.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -191,7 +191,6 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/peculiars">Peculiars (by cosmicgelatin1)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/performant">Performant (by someaddon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/personality">Personality (by TeamAbnormals)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/placeable-blaze-rods">Placeable Blaze Rods (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">Placebo (by Shadows_of_Fire)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/quark-oddities">Quark Oddities (by Vazkii)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/quark">Quark (by Vazkii)</a></li>

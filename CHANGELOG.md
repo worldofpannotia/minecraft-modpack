@@ -1,4 +1,175 @@
-### 2021-08-10 (8.15.4)
+### 2021-08-15 (8.16.0)
+
+#### Notable Changes
+* **[beta.1]** New major Chisels & Bits release!
+* **[beta.1]** Removed Placeable Blaze Rods mod. This functionality is now provided by Supplementaries
+* **[beta.1]** Supplementaries: Sticks and Stones Update
+  * Additions:
+    * Added Placeable Sticks and Placeable Blaze Rods
+    * Officially added Flags
+    * Timber Frames, Timber Braces and Timber Cross Brace: a new decoration block that can hold and display any full block in its inside
+    * Daub and Wattle and Daub
+    * Stone tiles and Blackstone Tiles
+    * Blackstone Lanterns
+    * Flower Boxes: a new flower pot like block that can hold 3 flowers or plants
+    * Added... Pancake Music?? (Credits to STiiX)
+  * Improvements:
+    * Added a lot of compatibility for inspirations mod: faucets can now also fill up inspirations cauldrons and many cauldron recipes have been added
+    * Removed blackboard clearing recipe in favor of its manual counterpart using either a sponge or inspirations cauldron (or create washing)
+    * Blackboards now show a preview in the item tooltip
+    * Added some additional configs
+    * Added turn table sounds
+    * Added rope arrow dispenser behavior
+    * Changed Planter and tweaked Speaker Block and Sack textures
+  * Fixes:
+    * fixed a safe duplication bug
+    * fixed a crash caused by bed map markers on a server
+    * improved chain bell ringing mechanic for compatibility with create bells
+
+
+#### Bug Fixes
+* **[beta.2]** Fix a whole bunch of broken recipes
+
+#### Config Changes
+* "Borrowed" a bunch of CraftTweaker customizations for Create from the Crucial 2 modpack. This includes things like: crushing recipes for more sand types, more ways to craft modded food items, etc.
+* Fixed broken grass stairs -> grass block recipe
+* Disable Inspirations configs that prevented classic cactus farms from working
+
+#### Updated Mods
+* Chipped: 1.1 -> 1.1.2
+* Collective: 2.57 -> 2.58
+* CraftTweaker: 7.1.0.382 -> 7.1.0.390
+* Supplementaries: 0.15.2 -> 0.15.2b
+* **[beta.3]** Collective: 2.54 -> 2.57
+* **[beta.3]** CraftTweaker: 7.1.0.376 -> 7.1.0.382
+* **[beta.3]** Flywheel: 0.2.2 -> 0.2.3
+* **[beta.3]** Supplementaries: 0.15.1b -> 0.15.2
+* **[beta.2]** Better Biome Blend: 1.2.7 -> 1.2.9
+* **[beta.2]** CraftTweaker: 7.1.0.374 -> 7.1.0.376
+* **[beta.2]** Supplementaries: 0.15.1 -> 0.15.1b
+* **[beta.1]** Chisels & Bits: 0.3.4 -> 1.0.0
+* **[beta.1]** Chunk-Pregenerator: 3.0.5 -> 3.1.0
+* **[beta.1]** Collective: 2.53 -> 2.54
+* **[beta.1]** CraftTweaker: 7.1.0.371 -> 7.1.0.374
+* **[beta.1]** Create: 0.3.2c -> 0.3.2d
+* **[beta.1]** FastSuite: 1.1.0 -> 1.1.1
+* **[beta.1]** Fixed Anvil Repair Cost: 1.5 -> 1.6
+* **[beta.1]** Forgery: 1.3.4 -> 1.3.5-RC2
+* **[beta.1]** Selene: 1.5 -> 1.6
+* **[beta.1]** Supplementaries: 0.14.5 -> 0.15.1
+* **[beta.1]** YUNG's Better Dungeons: 1.1 -> 1.2
+* **[beta.0]** Architectury API: 1.20.28 -> 1.20.29
+* **[beta.0]** Better Spawner Control: 1.4 -> 1.5
+* **[beta.0]** Bigger Sponge Absorption Radius: 1.4 -> 1.5
+* **[beta.0]** Citadel: 1.7.2 -> 1.7.3
+* **[beta.0]** Collective: 2.45 -> 2.53
+* **[beta.0]** Conduits Prevent Drowned: 1.3 -> 1.4
+* **[beta.0]** CraftTweaker: 7.1.0.368 -> 7.1.0.371
+* **[beta.0]** Environmental: 1.0.0 -> 1.1.0
+* **[beta.0]** Farmer's Delight: 0.4.5 -> 0.4.6
+* **[beta.0]** Flywheel: 0.2.1 -> 0.2.3
+* **[beta.0]** FTB Library: 1605.3.1.56 -> 1605.3.1.58
+* **[beta.0]** Inspirations: 1.2.3.37 -> 1.2.3.38
+* **[beta.0]** Jade: 2.7.1 -> 2.7.2
+* **[beta.0]** Just Enough Items: 7.7.1.117 -> 7.7.1.118
+* **[beta.0]** Just Enough Resources: 0.12.1.121 -> 0.12.1.127
+* **[beta.0]** Quick Paths: 1.8 -> 1.9
+* **[beta.0]** SuperMartijn642's Config Lib: 1.0.8 -> 1.0.9
+* **[beta.0]** Tiny Redstone: 1.9.0a -> 1.9.1
+
+#### Removed Mods
+* **[beta.1]** Placeable Blaze Rods
+
+
+### 2021-08-11 (8.16.0-beta.3)
+
+#### Updated Mods
+* Collective: 2.54 -> 2.57
+* CraftTweaker: 7.1.0.376 -> 7.1.0.382
+* Flywheel: 0.2.2 -> 0.2.3
+* Supplementaries: 0.15.1b -> 0.15.2
+
+
+### 2021-08-10 (8.16.0-beta.2)
+
+#### Bug Fixes
+* Fix a whole bunch of broken recipes
+
+#### Updated Mods
+* Better Biome Blend: 1.2.7 -> 1.2.9
+* CraftTweaker: 7.1.0.374 -> 7.1.0.376
+* Supplementaries: 0.15.1 -> 0.15.1b
+
+
+### 2021-08-09 (8.16.0-beta.1)
+
+#### Notable Changes
+* New major Chisels & Bits release!
+* Removed Placeable Blaze Rods mod. This functionality is now provided by Supplementaries
+* Supplementaries: Sticks and Stones Update
+  * Additions:
+    * Added Placeable Sticks and Placeable Blaze Rods
+    * Officially added Flags
+    * Timber Frames, Timber Braces and Timber Cross Brace: a new decoration block that can hold and display any full block in its inside
+    * Daub and Wattle and Daub
+    * Stone tiles and Blackstone Tiles
+    * Blackstone Lanterns
+    * Flower Boxes: a new flower pot like block that can hold 3 flowers or plants
+    * Added... Pancake Music?? (Credits to STiiX)
+  * Improvements:
+    * Added a lot of compatibility for inspirations mod: faucets can now also fill up inspirations cauldrons and many cauldron recipes have been added
+    * Removed blackboard clearing recipe in favor of its manual counterpart using either a sponge or inspirations cauldron (or create washing)
+    * Blackboards now show a preview in the item tooltip
+    * Added some additional configs
+    * Added turn table sounds
+    * Added rope arrow dispenser behavior
+    * Changed Planter and tweaked Speaker Block and Sack textures
+  * Fixes:
+    * fixed a safe duplication bug
+    * fixed a crash caused by bed map markers on a server
+    * improved chain bell ringing mechanic for compatibility with create bells
+
+#### Removed Mods
+* Placeable Blaze Rods
+
+#### Updated Mods
+* Chisels & Bits: 0.3.4 -> 1.0.0
+* Chunk-Pregenerator: 3.0.5 -> 3.1.0
+* Collective: 2.53 -> 2.54
+* CraftTweaker: 7.1.0.371 -> 7.1.0.374
+* Create: 0.3.2c -> 0.3.2d
+* FastSuite: 1.1.0 -> 1.1.1
+* Fixed Anvil Repair Cost: 1.5 -> 1.6
+* Forgery: 1.3.4 -> 1.3.5-RC2
+* Selene: 1.5 -> 1.6
+* Supplementaries: 0.14.5 -> 0.15.1
+* YUNG's Better Dungeons: 1.1 -> 1.2
+
+
+### 2021-08-08 (8.16.0-beta.0)
+
+#### Updated Mods
+* Architectury API: 1.20.28 -> 1.20.29
+* Better Spawner Control: 1.4 -> 1.5
+* Bigger Sponge Absorption Radius: 1.4 -> 1.5
+* Citadel: 1.7.2 -> 1.7.3
+* Collective: 2.45 -> 2.53
+* Conduits Prevent Drowned: 1.3 -> 1.4
+* CraftTweaker: 7.1.0.368 -> 7.1.0.371
+* Environmental: 1.0.0 -> 1.1.0
+* Farmer's Delight: 0.4.5 -> 0.4.6
+* Flywheel: 0.2.1 -> 0.2.3
+* FTB Library: 1605.3.1.56 -> 1605.3.1.58
+* Inspirations: 1.2.3.37 -> 1.2.3.38
+* Jade: 2.7.1 -> 2.7.2
+* Just Enough Items: 7.7.1.117 -> 7.7.1.118
+* Just Enough Resources: 0.12.1.121 -> 0.12.1.127
+* Quick Paths: 1.8 -> 1.9
+* SuperMartijn642's Config Lib: 1.0.8 -> 1.0.9
+* Tiny Redstone: 1.9.0a -> 1.9.1
+
+
+### 2021-08-10 (8.15.5)
 
 #### Notable Changes
 * Downgrade Flywheel to a version that doesn't require an update to Create (coming in 8.16.0)

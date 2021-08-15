@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "minecraft:grass",
+        "item": "minecraft:grass_block",
         "count": 3
     }
 }
