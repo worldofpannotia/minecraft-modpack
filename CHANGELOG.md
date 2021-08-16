@@ -1,3 +1,10 @@
+### 2021-08-15 (8.16.1)
+
+#### Recipe Changes
+* Fix green dye recipe to output 2 like other mixed dyes
+* Add (expensive) recipe for rainbow coal
+
+
 ### 2021-08-15 (8.16.0)
 
 #### Notable Changes
