@@ -1,3 +1,24 @@
+### 2021-08-23 (8.17.0-beta.0)
+
+#### Notable Changes
+* Actually added recipe for rainbow coal
+* No moar deepers!
+* Soul Snad!
+
+#### Config Changes
+* Disable spawning for deepers since they ignore mega torches and don't have any unique drops
+
+#### Updated Mods
+* Bad Wither No Cookie - Reloaded: 3.9.16 -> 3.10.16
+* Compressium: 1.2.2 -> 1.2.3
+* CraftTweaker: 7.1.0.390 -> 7.1.1.402
+* FTB Library: 1605.3.1.58 -> 1605.3.2.64
+* Iron Furnaces: 2.6.9 -> 2.7.3
+* MoreVanillaLib: 1.4.0 -> 1.4.1
+* Snad: 1.0.8 -> 1.0.9
+* Witherproofed: 2.4.1 -> 2.4.2
+
+
 ### 2021-08-15 (8.16.1)
 
 #### Recipe Changes

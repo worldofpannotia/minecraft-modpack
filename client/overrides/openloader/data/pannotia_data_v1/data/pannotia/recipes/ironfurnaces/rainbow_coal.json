@@ -13,7 +13,7 @@
             "item": "minecraft:netherite_block"
         },
         "Z": {
-            "tag": "minecraft:coal_block"
+            "item": "minecraft:coal_block"
         }
     },
     "result": {
