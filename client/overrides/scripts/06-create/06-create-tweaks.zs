@@ -31,6 +31,18 @@ crushing.addRecipe("chocolate_crushing", [<item:minecraft:soul_sand>, <item:neap
 compacting.addRecipe("blastproof_create", "none", <item:savageandravage:blast_proof_plating>, [<item:savageandravage:creeper_spores> * 3, <item:minecraft:gold_ingot> * 2], []);
 crushing.addRecipe("crushing_grass_blocks", [<item:minecraft:dirt>, <item:minecraft:grass> * 2, <item:minecraft:grass> % 20, <item:minecraft:tall_grass> % 30, <item:minecraft:tall_grass> % 5], <item:minecraft:grass_block>);
 
+crushing.addRecipe(
+    "crushing_diamond_hearts",
+    [
+        <item:minecraft:diamond>,
+        <item:more_jellyfish:diamond_fragment> * 2 % 20,
+        <item:more_jellyfish:diamond_shard> * 2 % 10,
+        <item:alexsmobs:soul_heart> % 3,
+        <item:bhc:blue_heart> % 1
+    ],
+    <item:quark:diamond_heart>
+);
+
 // Food and Drinks ================================================================================
 compacting.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [milk * 250]);
 compacting.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [milk * 250]);

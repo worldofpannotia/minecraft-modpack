@@ -1,3 +1,30 @@
+### 2021-08-25 (8.17.0)
+
+#### Notable Changes
+* Add crushing recipe for Quark's heart of diamond
+
+#### Bug Fixes
+* Actually nuke deepers
+
+#### Updated Mods
+* Architectury API: 1.20.29 -> 1.21.31
+* Chunk-Pregenerator: 3.1.0 -> 3.1.1
+* Citadel: 1.7.3 -> 1.8.0
+* Controlling: 7.0.0.23 -> 7.0.0.24
+* CraftTweaker: 7.1.1.402 -> 7.1.2.406
+* Customizable Elytra: 1.5.4 -> 1.5.5
+* FerriteCore: 2.0.5 -> 2.0.7
+* Iron Furnaces: 2.7.3 -> 2.7.4
+* Just Enough Items: 7.7.1.118 -> 7.7.1.121
+* Just Enough Resources: 0.12.1.127 -> 0.12.1.128
+* Lepton: 1.3.1 -> 1.3.2
+* Mantle: 1.6.115 -> 1.6.123
+* Pane in the Glass: 1.4.2 -> 2.0.1
+* Placebo: 4.5.0 -> 4.6.0
+* Selene: 1.6 -> 1.6.1
+* Torchmaster: 2.3.7 -> 2.3.8
+
+
 ### 2021-08-23 (8.17.0-beta.0)
 
 #### Notable Changes
