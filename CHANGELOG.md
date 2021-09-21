@@ -1,3 +1,55 @@
+### 2021-09-20 (8.18.0-beta.0)
+
+#### Notable Changes
+* Abnormals Delight: several new food items
+* Alex's Mobs: added seagulls, plus lots of other new stuff! ([changelog](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/files/3440131))
+* Supplementaries: tons of new stuff! See the links below for the changelogs for both major updates.
+  * [v0.16.0/0.16.1: The Explosive Update](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/3454417)
+  * [v0.17.0/0.17.1: The Enchantments & Enhancements update](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/3466032)
+
+#### Recipe Changes
+* Made rainbow coal cheaper since it isn't unlimited
+
+#### Updated Mods
+* Abnormals Core: 3.2.0 -> 3.3.0
+* Abnormals Delight: 1.1.1 -> 1.2.0
+* Advancement Screenshot: 1.4 -> 2.0
+* Alex's Mobs: 1.11.1 -> 1.12.0
+* Architectury API: 1.21.31 -> 1.23.33
+* Baubley Heart Canisters: 1.1.10 -> 1.1.11
+* Chisels & Bits: 1.0.0-alpha -> 1.0.1-beta
+* Citadel: 1.8.0 -> 1.8.1
+* Code Chicken Lib: 4.0.2.429 -> 4.0.3.434
+* Collective: 2.58 -> 2.64
+* Cookielicious: 1.4.1 -> 2.0.1
+* Cooking for Blockheads: 9.3.3 -> 9.3.4
+* CraftTweaker: 7.1.2.406 -> 7.1.2.426
+* CreateTweaker: 1.0.0.18 -> 1.0.0.23
+* Curios API: 4.0.5.2 -> 4.0.5.3
+* Customizable Elytra: 1.5.5 -> 1.5.7
+* Cycle Paintings: 1.7 -> 2.0
+* Cyclops Core: 1.11.8 -> 1.11.9
+* DisenchantingForge: 1.7.1 -> 1.7.2
+* Extreme Sound Muffler: 3.13 -> 3.14
+* Flywheel: 0.2.3 -> 0.2.4
+* FTB Library: 1605.3.2.64 -> 1605.3.3.71
+* Iron Furnaces: 2.7.4 -> 2.7.7
+* Jade: 2.7.2 -> 2.7.4
+* Jellyfishing: 1.6.10 -> 1.6.12
+* More Jellyfish: 1.1.5 -> 1.1.6
+* Panorama: 1.1 -> 1.2
+* Patchouli: 53.1 -> 53.2
+* Selene Lib: 1.6.1 -> 1.7.1
+* Simple Storage Network: 1.4.0 -> 1.4.3
+* Snow! Real Magic: 2.5.8 -> 2.6.1
+* Supplementaries: 0.15.2b -> 0.17.1
+* Tiny Redstone: 1.9.1 -> 1.10.5
+* Waystones: 7.6.2 -> 7.6.3
+
+#### Added Mods
+* Tiny Gates
+
+
 ### 2021-08-25 (8.17.0)
 
 #### Notable Changes

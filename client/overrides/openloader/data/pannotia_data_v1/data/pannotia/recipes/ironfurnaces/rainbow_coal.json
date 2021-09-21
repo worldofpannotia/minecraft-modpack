@@ -1,16 +1,19 @@
 {
     "type": "crafting_shaped",
     "pattern": [
-        "XXX",
-        "YZY",
-        "XXX"
+        "WXW",
+        "ZYZ",
+        "WWW"
     ],
     "key": {
+        "W": {
+            "item": "minecraft:diamond"
+        },
         "X": {
             "item": "ironfurnaces:rainbow_plating"
         },
         "Y": {
-            "item": "minecraft:netherite_block"
+            "item": "minecraft:netherite_ingot"
         },
         "Z": {
             "item": "minecraft:coal_block"
