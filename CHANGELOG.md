@@ -1,3 +1,10 @@
+### 2021-09-20 (8.18.0)
+
+#### Updated Mods
+* Alex's Mobs: 1.12.0 -> 1.12.1
+* CraftTweaker: 7.1.2.426 -> 7.1.2.431
+
+
 ### 2021-09-20 (8.18.0-beta.0)
 
 #### Notable Changes

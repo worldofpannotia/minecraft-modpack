@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
-![Current Version 8.17.0](https://img.shields.io/badge/Current-8.17.0-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
-![Next Version 8.18.0-beta.0](https://img.shields.io/badge/Next-8.18.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
+![Current Version 8.18.0](https://img.shields.io/badge/Current-8.18.0-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
+![Next Version 8.19.0-beta.0](https://img.shields.io/badge/Next-8.19.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
@@ -232,6 +232,7 @@ The 8.x version of this modpack is heavily influenced by [Crucial 2 by Vazkii](h
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tank-null">/tank/null (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/third-person-elytra">Third Person Elytra (by pauljoda)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-gates">Tiny Gates (by Danny_and_Son)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-redstone">Tiny Redstone (by Danny_and_Son)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tips">Tips (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
