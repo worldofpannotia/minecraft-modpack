@@ -1,3 +1,10 @@
+### 2021-12-22 (9.0.0-alpha.4)
+
+#### Notable Changes
+* Several minor mod additions and config tweaks
+* Some datapacks now included
+
+
 ### 2021-12-20 (9.0.0-alpha.3)
 
 #### Notable Changes

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:vine"
+        },
+        {
+            "item": "minecraft:lily_pad"
+        }
+    ],
+    "result": {
+        "item": "minecraft:small_dripleaf"
+    }
+}

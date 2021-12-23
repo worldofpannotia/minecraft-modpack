@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XYX",
+        "YZY",
+        "XYX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:gravel"
+        },
+        "Y": {
+            "item": "minecraft:sand"
+        },
+        "Z": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:clay",
+        "count": 8
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "X#X",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:diamond"
+        },
+        "#": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_ore"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "tag": "minecraft:candles"
+        },
+        "Y": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_candle",
+        "count": 8
+    }
+}

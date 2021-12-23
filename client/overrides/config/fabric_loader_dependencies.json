@@ -30,6 +30,16 @@
       "-depends": {
         "minecraft": ""
       }
+    },
+    "openloader": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "noenchantcap": {
+      "-depends": {
+        "minecraft": ""
+      }
     }
   }
 }

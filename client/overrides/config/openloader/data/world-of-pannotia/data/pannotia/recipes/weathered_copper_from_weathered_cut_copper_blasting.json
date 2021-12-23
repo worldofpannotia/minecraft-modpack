@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "minecraft:weathered_cut_copper"
+    },
+    "result": "minecraft:weathered_copper",
+    "count": 1
+  }

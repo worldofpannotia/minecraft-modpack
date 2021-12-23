@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "minecraft:gold_ingot"
+    },
+    "result": "minecraft:raw_gold",
+    "count": 1
+  }
