@@ -1,3 +1,22 @@
+### 2021-12-20 (9.0.0-alpha.3)
+
+#### Notable Changes
+* Fabric upgrade
+* Mods mods mods!
+
+
+### 2021-12-20 (9.0.0-alpha.2)
+
+First alpha release of the 9.x line!
+
+#### Credits and Goals
+This version of the pack started out as a fork of Fabulously Optimized. We have made several additions to the mod list as well and plan to add a number datapacks. For this version of the pack, our goal is to stay as close to vanilla Minecraft as possible while adding some quality-of-life features and improved world generation. Essentially, you should be able to take a world created in this pack and load it in a completely un-modded Minecraft instance with zero issues. The biggest benefit we see from this is the ability to have a world that lasts across several major versions (or potentially even a "forever" world).
+
+#### Notable Changes
+* Fabric!
+  * This version of the pack uses the Fabric mod loader instead of Forge.
+
+
 ### 2021-09-20 (8.18.0)
 
 #### Updated Mods

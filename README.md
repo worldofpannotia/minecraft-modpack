@@ -1,8 +1,14 @@
 ## World of Pannotia Minecraft Modpack
 
-![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=for-the-badge)<br />
-![Current Version 8.18.0](https://img.shields.io/badge/Current-8.18.0-blue.svg?style=for-the-badge) ![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=for-the-badge)<br />
-![Next Version 8.19.0-beta.0](https://img.shields.io/badge/Next-8.19.0--beta.0-orange.svg?style=for-the-badge) ![Next Forge 36.2.2](https://img.shields.io/badge/Next%20Forge-36.2.2-c39.svg?style=for-the-badge)
+**Current Version**<br />
+![Minecraft 1.16.5](https://img.shields.io/badge/Minecraft-1.16.5-3a6.svg?style=flat-square) 
+![Pack 8.18.0](https://img.shields.io/badge/Pack-8.18.0-blue.svg?style=flat-square) 
+![Forge 36.2.2](https://img.shields.io/badge/Forge-36.2.2-c39.svg?style=flat-square)
+
+**Upcoming Version**<br />
+![Minecraft 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-3a6.svg?style=flat-square)
+![Pack 9.0.0-alpha.3](https://img.shields.io/badge/Pack-9.0.0--alpha.3-blue.svg?style=flat-square)
+![Fabric 0.12.12](https://img.shields.io/badge/Fabric-0.12.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
 
