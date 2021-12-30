@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond"
+		},
+		"title": "Treasure Gems         ",
+		"description": ["",{"text":"Adds the chance for treasure gems to spawn inside loot chests. Used to trade with ","color":"gold"},{"text":"Gem Villagers.","color":"yellow"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

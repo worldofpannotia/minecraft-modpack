@@ -1,302 +1,154 @@
 {
-  "minecraft:saddle": {
-    "max_count": 64
-  },
-  "minecraft:diamond_horse_armor": {
-    "max_count": 64
-  },
-  "minecraft:golden_horse_armor": {
-    "max_count": 64
-  },
-  "minecraft:iron_horse_armor": {
-    "max_count": 64
-  },
-  "minecraft:leather_horse_armor": {
-    "max_count": 64
-  },
-  "minecraft:enchanted_book": {
-    "max_count": 64
-  },
-  "minecraft:writable_book": {
-    "max_count": 64
-  },
-  "minecraft:written_book": {
-    "max_count": 64
-  },
-  "minecraft:knowledge_book": {
-    "max_count": 64
-  },
-  "minecraft:mushroom_stew": {
-    "max_count": 16
-  },
-  "minecraft:suspicious_stew": {
-    "max_count": 16
-  },
-  "minecraft:rabbit_stew": {
-    "max_count": 16
-  },
-  "minecraft:beetroot_soup": {
-    "max_count": 16
-  },
-  "minecraft:music_disc_11": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_13": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_blocks": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_cat": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_chirp": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_far": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_mall": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_pigstep": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_mellohi": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_stal": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_strad": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_wait": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_ward": {
-    "max_count": 64
-  },
-  "minecraft:music_disc_otherside": {
-    "max_count": 64
-  },
-  "minecraft:bucket": {
-    "max_count": 64
-  },
-  "minecraft:milk_bucket": {
-    "max_count": 16
-  },
-  "minecraft:lava_bucket": {
-    "max_count": 16
-  },
-  "minecraft:water_bucket": {
-    "max_count": 16
-  },
-  "minecraft:pufferfish_bucket": {
-    "max_count": 16
-  },
-  "minecraft:salmon_bucket": {
-    "max_count": 16
-  },
-  "minecraft:cod_bucket": {
-    "max_count": 16
-  },
-  "minecraft:tropical_fish_bucket": {
-    "max_count": 16
-  },
-  "minecraft:axolotl_bucket": {
-    "max_count": 16
-  },
-  "minecraft:powder_snow_bucket": {
-    "max_count": 16
-  },
-  "minecraft:ender_pearl": {
-    "max_count": 64
-  },
-  "minecraft:snowball": {
-    "max_count": 64
-  },
-  "minecraft:egg": {
-    "max_count": 64
-  },
-  "minecraft:armor_stand": {
-    "max_count": 64
-  },
-  "minecraft:cake": {
-    "max_count": 64
-  },
-  "minecraft:potion": {
-    "max_count": 16
-  },
-  "minecraft:splash_potion": {
-    "max_count": 1
-  },
-  "minecraft:lingering_potion": {
-    "max_count": 1
-  },
-  "minecraft:totem_of_undying": {
-    "max_count": 1
-  },
-  "minecraft:oak_boat": {
-    "max_count": 64
-  },
-  "minecraft:acacia_boat": {
-    "max_count": 64
-  },
-  "minecraft:birch_boat": {
-    "max_count": 64
-  },
-  "minecraft:jungle_boat": {
-    "max_count": 64
-  },
-  "minecraft:spruce_boat": {
-    "max_count": 64
-  },
-  "minecraft:dark_oak_boat": {
-    "max_count": 64
-  },
-  "minecraft:oak_sign": {
-    "max_count": 64
-  },
-  "minecraft:acacia_sign": {
-    "max_count": 64
-  },
-  "minecraft:birch_sign": {
-    "max_count": 64
-  },
-  "minecraft:jungle_sign": {
-    "max_count": 64
-  },
-  "minecraft:spruce_sign": {
-    "max_count": 64
-  },
-  "minecraft:dark_oak_sign": {
-    "max_count": 64
-  },
-  "minecraft:crimson_sign": {
-    "max_count": 64
-  },
-  "minecraft:warped_sign": {
-    "max_count": 64
-  },
-  "minecraft:minecart": {
-    "max_count": 64
-  },
-  "minecraft:chest_minecart": {
-    "max_count": 64
-  },
-  "minecraft:furnace_minecart": {
-    "max_count": 64
-  },
-  "minecraft:command_block_minecart": {
-    "max_count": 64
-  },
-  "minecraft:hopper_minecart": {
-    "max_count": 64
-  },
-  "minecraft:tnt_minecart": {
-    "max_count": 64
-  },
-  "minecraft:white_banner": {
-    "max_count": 64
-  },
-  "minecraft:black_banner": {
-    "max_count": 64
-  },
-  "minecraft:blue_banner": {
-    "max_count": 64
-  },
-  "minecraft:brown_banner": {
-    "max_count": 64
-  },
-  "minecraft:cyan_banner": {
-    "max_count": 64
-  },
-  "minecraft:gray_banner": {
-    "max_count": 64
-  },
-  "minecraft:green_banner": {
-    "max_count": 64
-  },
-  "minecraft:lime_banner": {
-    "max_count": 64
-  },
-  "minecraft:yellow_banner": {
-    "max_count": 64
-  },
-  "minecraft:orange_banner": {
-    "max_count": 64
-  },
-  "minecraft:red_banner": {
-    "max_count": 64
-  },
-  "minecraft:light_blue_banner": {
-    "max_count": 64
-  },
-  "minecraft:light_gray_banner": {
-    "max_count": 64
-  },
-  "minecraft:magenta_banner": {
-    "max_count": 64
-  },
-  "minecraft:pink_banner": {
-    "max_count": 64
-  },
-  "minecraft:purple_banner": {
-    "max_count": 64
-  },
-  "minecraft:white_bed": {
-    "max_count": 64
-  },
-  "minecraft:black_bed": {
-    "max_count": 64
-  },
-  "minecraft:blue_bed": {
-    "max_count": 64
-  },
-  "minecraft:brown_bed": {
-    "max_count": 64
-  },
-  "minecraft:cyan_bed": {
-    "max_count": 64
-  },
-  "minecraft:gray_bed": {
-    "max_count": 64
-  },
-  "minecraft:green_bed": {
-    "max_count": 64
-  },
-  "minecraft:lime_bed": {
-    "max_count": 64
-  },
-  "minecraft:yellow_bed": {
-    "max_count": 64
-  },
-  "minecraft:orange_bed": {
-    "max_count": 64
-  },
-  "minecraft:red_bed": {
-    "max_count": 64
-  },
-  "minecraft:light_blue_bed": {
-    "max_count": 64
-  },
-  "minecraft:light_gray_bed": {
-    "max_count": 64
-  },
-  "minecraft:magenta_bed": {
-    "max_count": 64
-  },
-  "minecraft:pink_bed": {
-    "max_count": 64
-  },
-  "minecraft:purple_bed": {
-    "max_count": 64
-  },
-  "minecraft:shield": {
-    "max_count": 16
-  },
-  "minecraft:shulker_box": {
-    "max_count": 16
-  }
+  "minecraft:saddle": {"max_count": 64},
+  "minecraft:diamond_horse_armor": {"max_count": 64},
+  "minecraft:golden_horse_armor": {"max_count": 64},
+  "minecraft:iron_horse_armor": {"max_count": 64},
+  "minecraft:leather_horse_armor": {"max_count": 64},
+  "minecraft:enchanted_book": {"max_count": 64},
+  "minecraft:writable_book": {"max_count": 64},
+  "minecraft:written_book": {"max_count": 64},
+  "minecraft:knowledge_book": {"max_count": 64},
+  "minecraft:mushroom_stew": {"max_count": 16},
+  "minecraft:suspicious_stew": {"max_count": 16},
+  "minecraft:rabbit_stew": {"max_count": 16},
+  "minecraft:beetroot_soup": {"max_count": 16},
+  "minecraft:music_disc_11": {"max_count": 64},
+  "minecraft:music_disc_13": {"max_count": 64},
+  "minecraft:music_disc_blocks": {"max_count": 64},
+  "minecraft:music_disc_cat": {"max_count": 64},
+  "minecraft:music_disc_chirp": {"max_count": 64},
+  "minecraft:music_disc_far": {"max_count": 64},
+  "minecraft:music_disc_mall": {"max_count": 64},
+  "minecraft:music_disc_pigstep": {"max_count": 64},
+  "minecraft:music_disc_mellohi": {"max_count": 64},
+  "minecraft:music_disc_stal": {"max_count": 64},
+  "minecraft:music_disc_strad": {"max_count": 64},
+  "minecraft:music_disc_wait": {"max_count": 64},
+  "minecraft:music_disc_ward": {"max_count": 64},
+  "minecraft:music_disc_otherside": {"max_count": 64},
+  "minecraft:bucket": {"max_count": 64},
+  "minecraft:milk_bucket": {"max_count": 16},
+  "minecraft:lava_bucket": {"max_count": 16},
+  "minecraft:water_bucket": {"max_count": 16},
+  "minecraft:pufferfish_bucket": {"max_count": 16},
+  "minecraft:salmon_bucket": {"max_count": 16},
+  "minecraft:cod_bucket": {"max_count": 16},
+  "minecraft:tropical_fish_bucket": {"max_count": 16},
+  "minecraft:axolotl_bucket": {"max_count": 16},
+  "minecraft:powder_snow_bucket": {"max_count": 16},
+  "minecraft:ender_pearl": {"max_count": 64},
+  "minecraft:snowball": {"max_count": 64},
+  "minecraft:egg": {"max_count": 64},
+  "minecraft:armor_stand": {"max_count": 64},
+  "minecraft:cake": {"max_count": 64},
+  "minecraft:potion": {"max_count": 16},
+  "minecraft:splash_potion": {"max_count": 16},
+  "minecraft:lingering_potion": {"max_count": 16},
+  "minecraft:totem_of_undying": {"max_count": 16},
+  "minecraft:oak_boat": {"max_count": 64},
+  "minecraft:acacia_boat": {"max_count": 64},
+  "minecraft:birch_boat": {"max_count": 64},
+  "minecraft:jungle_boat": {"max_count": 64},
+  "minecraft:spruce_boat": {"max_count": 64},
+  "minecraft:dark_oak_boat": {"max_count": 64},
+  "minecraft:oak_sign": {"max_count": 64},
+  "minecraft:acacia_sign": {"max_count": 64},
+  "minecraft:birch_sign": {"max_count": 64},
+  "minecraft:jungle_sign": {"max_count": 64},
+  "minecraft:spruce_sign": {"max_count": 64},
+  "minecraft:dark_oak_sign": {"max_count": 64},
+  "minecraft:crimson_sign": {"max_count": 64},
+  "minecraft:warped_sign": {"max_count": 64},
+  "minecraft:minecart": {"max_count": 64},
+  "minecraft:chest_minecart": {"max_count": 64},
+  "minecraft:furnace_minecart": {"max_count": 64},
+  "minecraft:command_block_minecart": {"max_count": 64},
+  "minecraft:hopper_minecart": {"max_count": 64},
+  "minecraft:tnt_minecart": {"max_count": 64},
+  "minecraft:white_banner": {"max_count": 64},
+  "minecraft:black_banner": {"max_count": 64},
+  "minecraft:blue_banner": {"max_count": 64},
+  "minecraft:brown_banner": {"max_count": 64},
+  "minecraft:cyan_banner": {"max_count": 64},
+  "minecraft:gray_banner": {"max_count": 64},
+  "minecraft:green_banner": {"max_count": 64},
+  "minecraft:lime_banner": {"max_count": 64},
+  "minecraft:yellow_banner": {"max_count": 64},
+  "minecraft:orange_banner": {"max_count": 64},
+  "minecraft:red_banner": {"max_count": 64},
+  "minecraft:light_blue_banner": {"max_count": 64},
+  "minecraft:light_gray_banner": {"max_count": 64},
+  "minecraft:magenta_banner": {"max_count": 64},
+  "minecraft:pink_banner": {"max_count": 64},
+  "minecraft:purple_banner": {"max_count": 64},
+  "minecraft:white_bed": {"max_count": 64},
+  "minecraft:black_bed": {"max_count": 64},
+  "minecraft:blue_bed": {"max_count": 64},
+  "minecraft:brown_bed": {"max_count": 64},
+  "minecraft:cyan_bed": {"max_count": 64},
+  "minecraft:gray_bed": {"max_count": 64},
+  "minecraft:green_bed": {"max_count": 64},
+  "minecraft:lime_bed": {"max_count": 64},
+  "minecraft:yellow_bed": {"max_count": 64},
+  "minecraft:orange_bed": {"max_count": 64},
+  "minecraft:red_bed": {"max_count": 64},
+  "minecraft:light_blue_bed": {"max_count": 64},
+  "minecraft:light_gray_bed": {"max_count": 64},
+  "minecraft:magenta_bed": {"max_count": 64},
+  "minecraft:pink_bed": {"max_count": 64},
+  "minecraft:purple_bed": {"max_count": 64},
+  "minecraft:shield": {"max_count": 16},
+  "minecraft:shulker_box": {"max_count": 16},
+  "minecraft:elytra": {"max_count": 16},
+  "minecraft:iron_boots": {"max_count": 16},
+  "minecraft:iron_leggings": {"max_count": 16},
+  "minecraft:iron_chestplate": {"max_count": 16},
+  "minecraft:iron_helmet": {"max_count": 16},
+  "minecraft:gold_boots": {"max_count": 16},
+  "minecraft:gold_leggings": {"max_count": 16},
+  "minecraft:gold_chestplate": {"max_count": 16},
+  "minecraft:gold_helmet": {"max_count": 16},
+  "minecraft:diamond_boots": {"max_count": 16},
+  "minecraft:diamond_leggings": {"max_count": 16},
+  "minecraft:diamond_chestplate": {"max_count": 16},
+  "minecraft:diamond_helmet": {"max_count": 16},
+  "minecraft:leather_boots": {"max_count": 16},
+  "minecraft:leather_leggings": {"max_count": 16},
+  "minecraft:leather_chestplate": {"max_count": 16},
+  "minecraft:leather_helmet": {"max_count": 16},
+  "minecraft:chainmail_boots": {"max_count": 16},
+  "minecraft:chainmail_leggings": {"max_count": 16},
+  "minecraft:chainmail_chestplate": {"max_count": 16},
+  "minecraft:chainmail_helmet": {"max_count": 16},
+  "minecraft:wood_sword": {"max_count": 16},
+  "minecraft:wood_pickaxe": {"max_count": 16},
+  "minecraft:wood_axe": {"max_count": 16},
+  "minecraft:wood_shovel": {"max_count": 16},
+  "minecraft:wood_hoe": {"max_count": 16},
+  "minecraft:stone_sword": {"max_count": 16},
+  "minecraft:stone_pickaxe": {"max_count": 16},
+  "minecraft:stone_axe": {"max_count": 16},
+  "minecraft:stone_shovel": {"max_count": 16},
+  "minecraft:stone_hoe": {"max_count": 16},
+  "minecraft:iron_sword": {"max_count": 16},
+  "minecraft:iron_pickaxe": {"max_count": 16},
+  "minecraft:iron_axe": {"max_count": 16},
+  "minecraft:iron_shovel": {"max_count": 16},
+  "minecraft:iron_hoe": {"max_count": 16},
+  "minecraft:gold_sword": {"max_count": 16},
+  "minecraft:gold_pickaxe": {"max_count": 16},
+  "minecraft:gold_axe": {"max_count": 16},
+  "minecraft:gold_shovel": {"max_count": 16},
+  "minecraft:gold_hoe": {"max_count": 16},
+  "minecraft:diamond_sword": {"max_count": 16},
+  "minecraft:diamond_pickaxe": {"max_count": 16},
+  "minecraft:diamond_axe": {"max_count": 16},
+  "minecraft:diamond_shovel": {"max_count": 16},
+  "minecraft:diamond_hoe": {"max_count": 16},
+  "minecraft:netherite_sword": {"max_count": 16},
+  "minecraft:netherite_pickaxe": {"max_count": 16},
+  "minecraft:netherite_axe": {"max_count": 16},
+  "minecraft:netherite_shovel": {"max_count": 16},
+  "minecraft:netherite_hoe": {"max_count": 16},
+  "minecraft:honey_bottle": {"max_count": 64}
 }

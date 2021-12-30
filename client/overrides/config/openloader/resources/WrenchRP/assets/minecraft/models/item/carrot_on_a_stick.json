@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/carrot_on_a_stick"},
+		{ "predicate": {"damaged": 0, "damage": 0.04}, "model": "item/custom/wrench"},
+		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/carrot_on_a_stick"}
+	]
+}

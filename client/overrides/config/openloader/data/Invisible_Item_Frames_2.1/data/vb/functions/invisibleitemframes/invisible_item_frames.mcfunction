@@ -1,0 +1,1 @@
+execute at @a[advancements={vb:invisible_item_frames=true}] as @e[type=minecraft:item_frame,nbt={Invisible:0b,Item:{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:invisibility"}}},sort=nearest,limit=1] run function vb:invisibleitemframes/convert

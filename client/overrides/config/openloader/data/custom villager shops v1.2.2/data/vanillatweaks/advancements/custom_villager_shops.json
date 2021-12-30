@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": "Custom Villager Shops          ",
+		"description": ["",
+			{"text":"Easily setup villager trades using a chest.","color":"gold"},{"text":" (Creative only)\n","color":"yellow"},
+			{"text":"1. ","color":"yellow"},{"text":"Place ","color":"green"},{"text":"a villager above a chest while ","color":"gold"},{"text":"holding sneak","color":"green"},{"text":".\n","color":"gold"},
+			{"text":"2. ","color":"yellow"},{"text":"Place ","color":"green"},{"text":"your items in the chest.\n","color":"gold"},
+			{"text":"Each ","color":"gold"},{"text":"column ","color":"green"},{"text":"represents a trade.\n","color":"gold"},
+			{"text":"Trade A = TOP ROW\n","color":"yellow"},
+			{"text":"Trade B = MID ROW\n","color":"yellow"},
+			{"text":"Output   = BOT ROW","color":"yellow"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

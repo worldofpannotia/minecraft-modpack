@@ -1,0 +1,3 @@
+execute as @e[sort=random,type=minecraft:item,limit=1,nbt={Item:{id:"minecraft:bow"}},nbt=!{Item:{tag:{Enchantments:[{}]}}}] at @s if entity @e[nbt={Item:{tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:mending"}]}}},distance=..1] if entity @e[nbt={Item:{tag: {StoredEnchantments: [{lvl: 1s, id: "minecraft:infinity"}]}}},distance=..1] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:diamond"}},distance=..1] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:experience_bottle"}},distance=..1] if entity @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_eye"}},distance=..1] if block ~ ~-1 ~ #minecraft:anvil run function vb:mendfinity/enchant
+
+schedule function vb:mendfinity/mendfinity 1s

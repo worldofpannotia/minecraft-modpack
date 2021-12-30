@@ -1,0 +1,220 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_nbt",
+                  "source": "block_entity",
+                  "ops": [
+                    {
+                      "source": "Bees",
+                      "target": "BlockEntityTag.Bees",
+                      "op": "replace"
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:copy_state",
+                  "block": "minecraft:beehive",
+                  "properties": [
+                    "honey_level"
+                  ]
+                },
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						5
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "5"
+						}
+					}
+					]
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						4
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "4"
+						}
+					}
+					]
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						3
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "3"
+						}
+					}
+					]
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						2
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "2"
+						}
+					}
+					]
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						1
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "1"
+						}
+					}
+					]
+				},
+				{
+					"function": "minecraft:set_lore",
+					"entity": "this",
+					"replace": true,
+					"lore": [
+					{
+						"text": "Honey: ",
+						"color": "gold",
+						"italic": false,
+						"extra": [
+						0
+						]
+					}
+					],
+					"conditions": [
+					{
+						"condition": "minecraft:block_state_property",
+						"block": "minecraft:beehive",
+						"properties": {
+						"honey_level": "0"
+						}
+					}
+					]
+				}
+              ],
+              "name": "minecraft:beehive"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beehive",
+			  "functions": [
+			  {
+			  "function": "minecraft:set_lore",
+			  "entity": "this",
+			  "replace": true,
+			  "lore": [
+				{
+					"text": "Honey: ",
+					"color": "gold",
+					"italic": false,
+					"extra": [
+						0
+					]
+				}
+			   ]
+			  }
+			 ] 
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Gem Villagers               ",
+		"description": ["",{"text":"Adds functions to spawn villagers that include custom mini-block trades.\n","color":"gold"},
+			{"text":"Enter","color":"green"},
+			{"text":" ","color":"gold"},
+			{"text":"/function gem_villagers:","color":"yellow"},
+			{"text":" and use the auto-complete to spawn a gem villager.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

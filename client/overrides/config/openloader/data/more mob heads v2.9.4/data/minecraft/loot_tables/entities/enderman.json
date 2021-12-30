@@ -32,7 +32,7 @@
         {
           "condition": "random_chance_with_looting",
           "chance": 0.005,
-          "looting_multiplier": 0.0001
+          "looting_multiplier": 0.01
         }
       ]
     }

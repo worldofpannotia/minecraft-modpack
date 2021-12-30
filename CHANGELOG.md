@@ -1,3 +1,115 @@
+### 2021-12-29 (9.0.0-alpha.5)
+
+#### Notable Changes
+* Version bumps for various mods, including official 1.18 support for several
+* The rest(?) of the datapacks should be loading
+
+#### Release Progress
+##### Beta
+* YUNG's Better mods (coming soon)
+* Actual 1.18 support from all mods in the pack (may not fully block)
+
+##### 9.0.0 "gold"
+* Finalize default configs for mods in the pack
+
+#### Mod List (not incl. library/support mods)
+##### Cosmetic & Utility
+* [Advancement Screenshot (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/advancement-screenshot-fabric)
+* [AdvancementInfo (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/advancementinfo)
+* [Animatica (by FoundationGames)](https://www.curseforge.com/minecraft/mc-mods/animatica)
+* [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
+* [AntiGhost (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/antighost)
+* [BetterF3 (by cominixo)](https://www.curseforge.com/minecraft/mc-mods/betterf3)
+* [Borderless Mining (by comp500)](https://www.curseforge.com/minecraft/mc-mods/borderless-mining)
+* [Fabric Capes (by VictorKohler)](https://www.curseforge.com/minecraft/mc-mods/capes)
+* [Cherished Worlds (Fabric) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds-fabric)
+* [CleanCut (by Rongmario)](https://www.curseforge.com/minecraft/mc-mods/cleancut)
+* [Crafting Tweaks (Fabric Edition) (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric)
+* [Custom Entity Models (CEM) (by dorianpb)](https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem)
+* [Death Backup (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/death-backup-fabric)
+* [Enchantment Descriptions (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+* [Fabrishot (by ramidzkh)](https://www.curseforge.com/minecraft/mc-mods/fabrishot)
+* [Inventory Sorting (by Kyrptonaught)](https://www.curseforge.com/minecraft/mc-mods/inventory-sorting)
+* [Iris Shaders (by coderbot)](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+* [Item Scroller (by masady)](https://www.curseforge.com/minecraft/mc-mods/item-scroller)
+* [Just Player Heads (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/just-player-heads-fabric)
+* [Light Overlay (Rift/Forge/Fabric) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
+* [Litematica (by masady)](https://www.curseforge.com/minecraft/mc-mods/litematica)
+* [No Fade (by UltimateBoomer)](https://www.curseforge.com/minecraft/mc-mods/no-fade)
+* [No Recipe Book (Fabric) (by Gray_ray)](https://www.curseforge.com/minecraft/mc-mods/norecipebook-fabric)
+* [Omega Mute (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/omega-mute-fabric)
+* [Patchouli (Fabric) (by williewillus)](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric)
+* [Roughly Enough Items Fabric (REI) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
+* [Scaffolding Drops Nearby (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby-fabric)
+* [Sheep Consistency (by IMS21)](https://www.curseforge.com/minecraft/mc-mods/sheep-consistency)
+* ['Slight' Gui Modifications (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications)
+* [Tweakeroo (by masady)](https://www.curseforge.com/minecraft/mc-mods/tweakeroo)
+* [Visual Workbench [Fabric] (by Fuzs_)](https://www.curseforge.com/minecraft/mc-mods/visual-workbench-fabric)
+* [WI Zoom (by alexander9892)](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
+* [WTHIT (by badasintended)](https://www.curseforge.com/minecraft/mc-mods/wthit)
+
+##### Performance & Tweaks
+* [Clumps (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/clumps)
+* [Dynamic FPS (by juliand665)](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
+* [Indium (by comp500)](https://www.curseforge.com/minecraft/mc-mods/indium)
+* [Sodium Extra (by FlashyReese)](https://www.curseforge.com/minecraft/mc-mods/sodium-extra)
+* [Sodium (by jellysquid3_)](https://www.curseforge.com/minecraft/mc-mods/sodium)
+
+##### World Generation & Exploration
+* [Better Spawner Control (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-spawner-control-fabric)
+* [Effective 💦 (by doctor4t)](https://www.curseforge.com/minecraft/mc-mods/effective)
+* [LambdaBetterGrass (by LambdAurora)](https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass)
+* [LambDynamicLights (by LambdAurora)](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights)
+* [Mo' Structures (Fabric) (by ffrannny)](https://www.curseforge.com/minecraft/mc-mods/mo-structures)
+* [Repurposed Structures (Fabric) (by telepathicgrunt)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric)
+* [Towers of the Wild: Reworked (Fabric) (by xPand_4B)](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-reworked)
+* [Xaero's Minimap (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+* [Xaero's World Map (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+
+##### Gameplay
+* [All Arrows Infinity Fix (by Jackbusters1)](https://www.curseforge.com/minecraft/mc-mods/all-arrows-infinity-fix)
+* [Auto Third Person (by quat1024)](https://www.curseforge.com/minecraft/mc-mods/auto-third-person)
+* [Better Beacon / Conduit (by sfort__)](https://www.curseforge.com/minecraft/mc-mods/better-beacon)
+* [Better Beacon Placement (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement-fabric)
+* [Better Conduit Placement (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement-fabric)
+* [Better Mount HUD (by Lortseam_)](https://www.curseforge.com/minecraft/mc-mods/better-mount-hud)
+* [Better Than Mending (by legobmw99)](https://www.curseforge.com/minecraft/mc-mods/better-than-mending)
+* [Crying Portals (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/crying-portals-fabric)
+* [Cycle Paintings (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/cycle-paintings-fabric)
+* [Deepslate Instamine - Fabric/Forge (by nicguzzo)](https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine)
+* [Diggus Maximus (by Kyrptonaught)](https://www.curseforge.com/minecraft/mc-mods/diggus-maximus)
+* [Discontinuous Beacon Beams (by supersaiyansubtlety)](https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams)
+* [Dismount Entity (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/dismount-entity-fabric)
+* [Double Doors (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/double-doors-fabric)
+* [Edibles (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/edibles-fabric)
+* [Extended Bone Meal (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal-fabric)
+* [Gamma Utils (by Sjouwer)](https://www.curseforge.com/minecraft/mc-mods/gamma-utils)
+* [Grass Seeds (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/grass-seeds-fabric)
+* [Grind Enchantments (by mschae23)](https://www.curseforge.com/minecraft/mc-mods/grind-enchantments)
+* [Hand Over Your Items (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/hand-over-your-items-fabric)
+* [Ice Prevents Crop Growth (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric)
+* [Improved Hoes (by Furgle)](https://www.curseforge.com/minecraft/mc-mods/improved-hoes)
+* [Infinite Trading (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/infinite-trading-fabric)
+* [Inventory Totem (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/inventory-totem-fabric)
+* [Keep My Soil Tilled (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled-fabric)
+* [Keep Head Names (Fabric/Forge) (by Fourmisain)](https://www.curseforge.com/minecraft/mc-mods/keepheadnames)
+* [Kelp Fertilizer (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/kelp-fertilizer-fabric)
+* [Lenient Stack Size (by zoeytheegoist)](https://www.curseforge.com/minecraft/mc-mods/lenient-stack-size)
+* [No Enchant Cap (by AmyMialee)](https://www.curseforge.com/minecraft/mc-mods/no-enchant-cap)
+* [Quick Paths (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/quick-paths-fabric)
+* [Rain Be Gone Ritual (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual-fabric)
+* [Random Bone Meal Flowers (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers-fabric)
+* [RandomBlockPlacement (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/randomblockplacement)
+* [SilkSpawners (by LordDeatHunter)](https://www.curseforge.com/minecraft/mc-mods/silkspawners)
+* [Simple Measuring (by MrTurtle2005)](https://www.curseforge.com/minecraft/mc-mods/simple-measuring)
+* [Softer Hay Bales (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales-fabric)
+* [Superflat World No Slimes (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes-fabric)
+* [Surface Mushrooms (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms-fabric)
+* [Tax Free Levels (by Fourmisain)](https://www.curseforge.com/minecraft/mc-mods/tax-free-levels)
+* [Tree Harvester (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/tree-harvester-fabric)
+* [Villagers follow Emeralds [Fabric] (by matjojo1000)](https://www.curseforge.com/minecraft/mc-mods/villagers-follow-emeralds-fabric)
+
+
 ### 2021-12-22 (9.0.0-alpha.4)
 
 #### Notable Changes
