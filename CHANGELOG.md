@@ -1,3 +1,12 @@
+### 2021-12-29 (9.0.0-alpha.6)
+
+#### Added Mods
+* Controlling: better UX around key binds
+
+#### Fixes
+* Fix issue with datapacks and resource packs not loading
+
+
 ### 2021-12-29 (9.0.0-alpha.5)
 
 #### Notable Changes

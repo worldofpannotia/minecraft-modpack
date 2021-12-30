@@ -1,6 +1,0 @@
-{
-	"values": [
-		"nether_portal_coords:load",
-		"nether_portal_coords:tick"
-	]
-}

@@ -1,2 +1,0 @@
-gamerule sendCommandFeedback false
-schedule function spawn:restore_command_feedback 1t replace
