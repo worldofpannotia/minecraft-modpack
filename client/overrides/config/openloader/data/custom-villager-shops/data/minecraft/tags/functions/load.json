@@ -1,0 +1,6 @@
+{
+	"values": [
+		"custom_villager_shops:load",
+		"custom_villager_shops:tick"
+	]
+}

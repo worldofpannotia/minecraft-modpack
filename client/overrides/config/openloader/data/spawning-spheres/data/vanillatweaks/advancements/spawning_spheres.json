@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"title": "Spawning Spheres                 ",
+		"description": ["",{"text":"Allows you to view the spawnable area around a center point through the use glowing spheres. Useful for proofing farms.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/function spawning_spheres:create/","color":"yellow"},{"text":" and use auto-complete to create a spawning sphere.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/function spawning_spheres:remove/","color":"yellow"},{"text":" and use auto-complete to remove an existing spawning sphere.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

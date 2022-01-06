@@ -1,0 +1,54 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:reference",
+				"name": "graves:loaded"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"tag": "graves:valid_grave_location"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:snow"
+					],
+					"state": {
+						"layers": 1
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"fluid": {
+					"fluid": "minecraft:flowing_lava"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": [
+						"minecraft:bubble_column"
+					],
+					"state": {
+						"drag": true
+					}
+				}
+			}
+		}
+	]
+}

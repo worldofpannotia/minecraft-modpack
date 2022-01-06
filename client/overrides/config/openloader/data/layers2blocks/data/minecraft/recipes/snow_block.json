@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "group": "snowblock",  
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "minecraft:snow_block"
+  }
+}

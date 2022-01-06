@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"title": "Homes                      ",
+		"description": ["",{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger sethome","color":"yellow"},{"text":" or ","color":"gold"},{"text":"/trigger sethome set <ID>","color":"yellow"},{"text":" to set a home.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger home","color":"yellow"},{"text":" or ","color":"gold"},{"text":"/trigger home set <ID>","color":"yellow"},{"text":" to teleport there at any time.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger homes","color":"yellow"},{"text":" to list your homes.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger namehome","color":"yellow"},{"text":" or ","color":"gold"},{"text":"/trigger namehome set <ID>","color":"yellow"},{"text":" to name a home.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger delhome","color":"yellow"},{"text":" or ","color":"gold"},{"text":"/trigger delhome set <ID>","color":"yellow"},{"text":" to delete a home.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/function homes:config","color":"yellow"},{"text":" for config options.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

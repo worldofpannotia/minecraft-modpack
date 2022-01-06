@@ -1,3 +1,35 @@
+### 2022-01-06 (9.0.0-alpha.7)
+
+#### Notable Changes
+* This update includes changes to resource packs and datapacks. Before updating, it is recommended to delete your `config/openloader` directory to ensure things don't conflict.
+
+#### Fixes
+* Fixed texture for redstone/terracotta rotation wrench
+
+#### Changes
+* Replace slime and shulker skull textures with better ones
+* Remove Vanilla Tweaks resource pack to allow players to choose their own texture/gui tweaks.
+* Make dyed shulker boxes stackable as well
+
+#### Added Mods
+* Axolotl Bucket Fix: makes it so the item texture matches the color/type of the actual axolotl (actualotl?) captured.
+
+#### Updated Mods
+* Animatica: 0.2 -> 0.3
+* Architectury API (Fabric): 3.3.5 -> 3.4.9
+* CIT Reswen: 0.8.1 -> 0.8.2
+* Colormatic: 2.4.0 -> 3.0.0
+* Controlling: 9.0.7 -> 9.0.8
+* Enchantment Descriptions: 9.0.5 -> 9.0.8
+* Fabric API: 0.45.0 -> 0.45.1
+* FastOpenLinksAndFolders: 1.0.0 -> 1.0.1
+* Inventory Sorting: 1.8.1 -> 1.8.3
+* Open Loader: 11.0.2 -> 11.0.3
+* Patchouli (Fabric): 63 -> 64
+* Repurposed Structures (Fabric): 3.1.12 -> 3.2.0
+* WTHIT: 4.4.0 -> 4.4.1
+
+
 ### 2021-12-29 (9.0.0-alpha.6)
 
 #### Added Mods

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "Spawn             ",
+		"description": ["",{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger spawn","color":"yellow"},{"text":" to teleport to the world spawn point.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/function spawn:config","color":"yellow"},{"text":" for config options.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

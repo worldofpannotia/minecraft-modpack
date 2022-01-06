@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sapphire Gem",
+                "color": "#0f52ba",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-657040155,-2003219682,-1842764647,-258638967],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FlNjRkNTczMmU0MGJkYWEzNGJmYThmMTIzMjc5MzBmNDY1MTQxYmI3NjZhN2JlNWEwZmI4ODhmNThhZGMwZCJ9fX0='}]}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
