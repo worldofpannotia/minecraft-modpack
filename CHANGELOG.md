@@ -1,3 +1,12 @@
+### 2022-01-06 (9.0.0-alpha.8)
+
+#### Fixes
+* Fix compatibility issue with Compostable Rotten Flesh
+
+#### Changes
+* Actually remove the grinding cost for removing enchants (instead of hotfixing on the server manually)
+
+
 ### 2022-01-06 (9.0.0-alpha.7)
 
 #### Notable Changes

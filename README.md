@@ -7,7 +7,7 @@
 
 **Upcoming Version**<br />
 ![Minecraft 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-3a6.svg?style=flat-square)
-![Pack 9.0.0-alpha.7](https://img.shields.io/badge/Pack-9.0.0--alpha.7-blue.svg?style=flat-square)
+![Pack 9.0.0-alpha.8](https://img.shields.io/badge/Pack-9.0.0--alpha.8-blue.svg?style=flat-square)
 ![Fabric 0.12.12](https://img.shields.io/badge/Fabric-0.12.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods. That said, the current version of the pack should be considered stable enough for everyday play.
