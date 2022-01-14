@@ -1,3 +1,9 @@
+### 2022-01-13 (9.0.0-beta.1)
+
+#### Notable Changes
+* _Actually_ remove the Leaves Us In Peace mod instead of just saying it...
+
+
 ### 2022-01-13 (9.0.0-beta.0)
 
 #### Removed Mods
