@@ -5,11 +5,6 @@
       "+depends": {
         "fabricloader": ">=0.12.12"
       }
-    },
-    "compostable-rottenflesh": {
-      "-depends": {
-        "minecraft": ""
-      }
     }
   }
 }

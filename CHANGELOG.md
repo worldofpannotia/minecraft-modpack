@@ -1,3 +1,54 @@
+### 2022-01-13 (9.0.0-beta.0)
+
+#### Removed Mods
+* Leaves Us In Peace: the Tree Harvesting mod gives us enough of what we need... this turned out to be overly aggressive
+* Terralith: turns out you can't turn this on/off on a per-world basis
+
+#### Updated Mods
+* Fabric API: 0.45.1 -> 0.45.2
+* Roughly Enough Items: 7.1.357 -> 7.1.361
+
+
+### 2022-01-12 (9.0.0-alpha.10)
+
+#### Notable Changes
+* Actually update the mods that were supposed to be updated in alpha.9
+
+
+### 2022-01-11 (9.0.0-alpha.9)
+
+#### Removed Mods
+* Inventory Sorting: replaced by the Inventory Profiles Next mod
+* Tax Free Levels: no longer needed due to improvements to the No Enchant Cap mod
+* (Datapack) Fast Leaf Decay: removed in favor of mod that should hopefully work better
+
+#### Added Mods
+* [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)
+* [Carpet Extra](https://www.curseforge.com/minecraft/mc-mods/carpet-extra)
+* [Companion 🐕 (Fabric)](https://www.curseforge.com/minecraft/mc-mods/companion-fabric): quality-of-life improvements for pets and stuff
+* [Easy Magic (Fabric)](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
+* [Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next)
+* [Leaves Us In Peace](https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace): (hopefully) better fast leaf decay than what we currently have
+* [Now Playing](https://www.curseforge.com/minecraft/mc-mods/now-playing)
+* [Pannotia's Parcels](https://www.curseforge.com/minecraft/mc-mods/pannotias-parcels)
+* [Pretty Beaches (Fabric)](https://www.curseforge.com/minecraft/mc-mods/pretty-beaches-fabric)
+* [Terralith 2.0 ~ Overworld Evolved](https://www.curseforge.com/minecraft/mc-mods/terralith)
+* [TrashSlot (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition)
+
+#### Updated Mods
+* Cloth API (Fabric): 2.0.54 -> 3.0.55
+* Compostable Rotten Flesh (Fabric): 1.0.0 -> 1.0.0 (official 1.18 update)
+* Controlling: 9.0.8 -> 9.0.11
+* Enchantment Descriptions: 9.0.8 -> 9.0.9
+* Fabric API: 0.45.1 -> 0.45.2
+* Forge Config API Port [Fabric]: 3.1.0 -> 3.1.1
+* Iris Shaders: 1.1.3 -> 1.1.4
+* No Enchant Cap: 2.0.2 -> 2.1.1
+* Reese's Sodium Options: 1.2.4 -> 1.3.0
+* Xaero's Minimap: 21.23.0 -> 21.23.1
+* Xaero's World Map: 1.19.0 -> 1.19.1
+
+
 ### 2022-01-06 (9.0.0-alpha.8)
 
 #### Fixes
