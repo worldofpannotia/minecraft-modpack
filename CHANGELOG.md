@@ -1,3 +1,22 @@
+### 2022-01-XX (9.0.0-beta.2)
+
+#### Notable Changes
+
+#### Added Mods
+
+#### Updated Mods
+* Balm (Fabric Edition): 2.4.0+0 -> 2.4.1+0
+* Fabric API: 0.45.2 -> 0.46.0
+* Iris Shaders: 1.1.4 -> 1.1.5
+* Roughly Enough Items (REI): 7.1.361 -> 7.1.368
+* Sodium: 0.4.0-alpha.5-build.9 -> 0.4.0-alpha.6
+* Sodium Extra: 0.3.7 -> 0.3.8
+* Xaero's Minimap: 21.23.0 -> 21.23.1
+* Xaero's World Map: 1.19.0 -> 1.19.1
+
+#### Removed Mods
+
+
 ### 2022-01-13 (9.0.0-beta.1)
 
 #### Notable Changes
