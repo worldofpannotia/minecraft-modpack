@@ -1,3 +1,16 @@
+### 2022-01-24 (9.0.0-beta.3)
+
+#### Notable Changes
+* Removed Sodium and related mods for now due to instability on 1.18
+
+#### Removed Mods
+* Indium
+* Iris Shaders
+* Reese's Sodium Options
+* Sodium
+* Sodium Extra
+
+
 ### 2022-01-23 (9.0.0-beta.2)
 
 #### Added Mods
