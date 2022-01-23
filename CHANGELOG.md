@@ -1,20 +1,65 @@
-### 2022-01-XX (9.0.0-beta.2)
-
-#### Notable Changes
+### 2022-01-23 (9.0.0-beta.2)
 
 #### Added Mods
+* Additional Bars \[Fabric\]: adds some new bars (like vanilla's iron bars), including horizontal ones
+* Advanced Netherite \[Fabric\]: moar netherite!
+* Aliven't Messenger: server utility to log the death of nametagged entities (hopefully help in future "bees disappearing" situations)
+* (Datapack) Ancient Debris Bartering: adds a very small chance to get ancient debris from piglin bartering (intended to go along with the Advanced Netherite mod)
+* Armored Elytra: display both your armor and elytra after merging
+* Better Azalea: new wood type
+* Cauldron Dyeing: parity with how Bedrock allows dyeing leather armor and stuff via cauldrons
+* Charcoal+ \[Fabric\]: tiny coal/charcoal and charcoal blocks
+* Chat Up!: moves the chat overlay up 10px to stop overlap with armor bar
+* Concrete Conversion: throw concrete in water to convert it
+* Crawl (Fabric): crawling without a trapdoor
+* Dark Paintings: moar paintings
+* EffectsLeft (Fabric/Quilt): move status effects to the left of your inventory instead of the right (where it overlaps with REI)
+* Extreme Sound Muffler (Fabric): better targeted muting of sounds
+* Feature NBT Deadlock Be Gone: new required dependency for Repurposed Structures
+* Fire Spread Tweaks: fire no longer burns forever unless placed on netherrack, magma, or soul sand
+* Horse Stats Vanilla (Fabric): shows how good your horses are.. less guessing
+* Just Enough Keys \[JEK\] \[Fabric\]: better than Controlling, plus it allows mapping modified keys (e.g. "Ctrl + ," or "Alt + j")
+* More Villagers \[Fabric\]: adds a few more villager types with new trades
+* Pet Transfer: lets you transfer ownership of your tamed mobs to another player
+* Tiny Skeletons \[Fabric\]: adds "baby" variants of skeletons, strays, and wither skeletons. Beware!
+* Zombie Horse Spawn (Fabric): adds a small chance that a newly spawned zombie will be riding a horse
 
 #### Updated Mods
 * Balm (Fabric Edition): 2.4.0+0 -> 2.4.1+0
+* Carpet: 1.4.56 -> 1.4.57
+* CIT Resewn: 0.8.2 -> 0.9.1
+* Cloth API (Fabric): 3.0.55 -> 3.1.61
+* Clumps: 8.0.4 -> 8.0.0+5
+* Dynamic FPS: 2.0.6 -> 2.1.0
+* Enchantment Descriptions: 9.0.9 -> 9.0.12
 * Fabric API: 0.45.2 -> 0.46.0
+* Gamma Utils: 1.5.4 -> 1.5.5
+* Indium: 1.0.2-alpha.1 -> 1.0.2-alpha.2
+* Inventory Profiles Next: 1.2.3 -> 1.2.4
 * Iris Shaders: 1.1.4 -> 1.1.5
-* Roughly Enough Items (REI): 7.1.361 -> 7.1.368
+* Item Scroller: 0.15.0 -> 0.15.0
+* Litematica: 0.9.0 -> 0.10.1
+* MaLiLib: 0.10.0-dev.26 -> 0.11.5
+* No Null Processors: 2.0.0 -> 2.0.1
+* Not Enough Crashes (Fabric): 4.1.3 -> 4.1.4
+* Open Loader: 11.0.3 -> 11.0.4
+* Repurposed Structures (Fabric): 3.2.0 -> 3.3.3
+* Roughly Enough Items (REI): 7.1.361 -> 7.1.390
 * Sodium: 0.4.0-alpha.5-build.9 -> 0.4.0-alpha.6
 * Sodium Extra: 0.3.7 -> 0.3.8
-* Xaero's Minimap: 21.23.0 -> 21.23.1
-* Xaero's World Map: 1.19.0 -> 1.19.1
+* Tweakeroo: 0.11.0 -> 0.12.1
+* Xaero's Minimap: 21.23.0 -> 22.1.0
+* Xaero's World Map: 1.19.0 -> 1.20.0
 
 #### Removed Mods
+* (Datapack) Blasted Ore Blocks
+* Controlling: removed in favor of JEK
+* (Datapack) Crafty Oxidization
+* (Datapack) Further Fermentation
+* (Datapack) Layers2Blocks
+* Omega Mute (Fabric): removed in favor of Extreme Sound Muffler
+* (Datapack) Recyclables
+* (Datapack) Vanilla Tweaks
 
 
 ### 2022-01-13 (9.0.0-beta.1)
@@ -66,7 +111,7 @@
 * Controlling: 9.0.8 -> 9.0.11
 * Enchantment Descriptions: 9.0.8 -> 9.0.9
 * Fabric API: 0.45.1 -> 0.45.2
-* Forge Config API Port [Fabric]: 3.1.0 -> 3.1.1
+* Forge Config API Port \[Fabric\]: 3.1.0 -> 3.1.1
 * Iris Shaders: 1.1.3 -> 1.1.4
 * No Enchant Cap: 2.0.2 -> 2.1.1
 * Reese's Sodium Options: 1.2.4 -> 1.3.0

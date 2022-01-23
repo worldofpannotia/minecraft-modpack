@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:glass",
+      "minecraft:white_glass",
+      "minecraft:orange_glass",
+      "minecraft:magenta_glass",
+      "minecraft:light_blue_glass",
+      "minecraft:yellow_glass",
+      "minecraft:lime_glass",
+      "minecraft:pink_glass",
+      "minecraft:gray_glass",
+      "minecraft:light_gray_glass",
+      "minecraft:cyan_glass",
+      "minecraft:purple_glass",
+      "minecraft:blue_glass",
+      "minecraft:brown_glass",
+      "minecraft:green_glass",
+      "minecraft:red_glass",
+      "minecraft:black_glass"
+    ]
+  }

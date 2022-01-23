@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:sandstone",
+        "count": 2
+    },
+    "ingredients": [
+        {"item": "minecraft:red_sandstone"},
+		{"item": "minecraft:red_sandstone"},
+		{"item": "minecraft:ice"}
+    ]
+}

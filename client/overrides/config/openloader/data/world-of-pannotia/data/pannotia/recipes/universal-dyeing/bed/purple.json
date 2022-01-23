@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:purple_bed",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "pannotia:beds"},
+        {"item": "minecraft:purple_dye"},
+        {"item": "minecraft:purple_dye"},
+        {"item": "minecraft:purple_dye"}
+    ]
+}

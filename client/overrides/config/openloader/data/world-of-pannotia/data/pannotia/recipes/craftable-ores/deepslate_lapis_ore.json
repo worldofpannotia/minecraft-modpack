@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "X#X",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "#": {
+            "item": "minecraft:deepslate"
+        }
+    },
+    "result": {
+        "item": "minecraft:deepslate_lapis_ore"
+    }
+}

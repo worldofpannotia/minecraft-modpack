@@ -1,17 +1,13 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
-        "XXX",
-        "XYX",
-        "XXX"
+        "###",
+        "#O#",
+        "###"
     ],
     "key": {
-        "X": {
-            "tag": "minecraft:wool"
-        },
-        "Y": {
-            "item": "minecraft:green_dye"
-        }
+        "#": {"tag": "minecraft:wool"},
+        "O": {"item": "minecraft:green_dye"}
     },
     "result": {
         "item": "minecraft:green_wool",

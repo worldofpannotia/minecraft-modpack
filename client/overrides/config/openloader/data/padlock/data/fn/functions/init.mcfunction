@@ -9,4 +9,5 @@ scoreboard players set %opened Key 476587201
 
 tellraw @a [{"text":"Enjoy your padlocks!","color":"green","bold":"true"}]
 
-gamerule sendCommandFeedback false
+# Removed by chimericdream 1/17/22
+# gamerule sendCommandFeedback false

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {"tag": "pannotia:terracotta"},
+        "O": {"item": "minecraft:lime_dye"}
+    },
+    "result": {
+        "item": "minecraft:lime_terracotta",
+        "count": 8
+    }
+}
