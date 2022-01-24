@@ -2,19 +2,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "$#",
-        "#$"
+        "#B",
+        "B#"
     ],
     "key": {
-        "#": {
+        "B": {
             "item": "minecraft:basalt"
         },
-        "$": {
-            "tag": "craftable_blackstone:coal_charcoal"
+        "#": {
+            "tag": "pannotia:coal_charcoal"
         }
     },
     "result": {
         "item": "minecraft:blackstone",
-        "count": 4
+        "count": 2
     }
 }

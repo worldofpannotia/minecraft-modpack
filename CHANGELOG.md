@@ -1,4 +1,13 @@
-### 2022-01-24 (9.0.0-beta.3)
+### 2022-01-24 (9.0.0-beta.4)
+
+#### Bug Fixes
+* Fix some issues with recipes/tags in the Pannotia datapack
+
+#### Removed Mods
+* Better Azalea
+
+
+### 2022-01-23 (9.0.0-beta.3)
 
 #### Notable Changes
 * Removed Sodium and related mods for now due to instability on 1.18
