@@ -1,1 +1,0 @@
-tellraw @a [{"text":"[Datapack]"},{"text":" Ancient Debris Barter Datapack has been enabled","color":"green"}]
