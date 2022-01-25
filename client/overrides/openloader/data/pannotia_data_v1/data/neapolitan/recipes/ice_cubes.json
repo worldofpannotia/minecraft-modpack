@@ -1,8 +1,0 @@
-{
-    "type": "crafting_shapeless",
-    "ingredients": [{"item": "minecraft:ice"}],
-    "result": {
-        "item": "neapolitan:ice_cubes",
-        "count": 9
-    }
-}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {"tag": "minecraft:wool"},
+        "O": {"item": "minecraft:purple_dye"}
+    },
+    "result": {
+        "item": "minecraft:purple_wool",
+        "count": 8
+    }
+}

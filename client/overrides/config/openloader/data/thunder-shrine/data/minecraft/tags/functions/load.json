@@ -1,0 +1,6 @@
+{
+	"values": [
+		"thunder_shrine:load",
+		"thunder_shrine:tick"
+	]
+}

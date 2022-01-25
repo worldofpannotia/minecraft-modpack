@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+    {
+            "item": "minecraft:trident"
+        }
+    ],
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}
