@@ -1,3 +1,12 @@
+### 2022-xx-xx (9.0.0-beta.5)
+
+#### Bug Fixes
+* Fix issue with ancient debris bartering datapack which caused other datapacks to fail as well
+
+#### Added Mods
+* Trade Cycling: adds a button to villagers who haven't been traded with that lets you cycle their trades without breaking/replacing their workstation
+
+
 ### 2022-01-24 (9.0.0-beta.4)
 
 #### Bug Fixes

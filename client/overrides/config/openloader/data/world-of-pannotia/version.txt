@@ -1,1 +1,3 @@
-v9.0.0-alpha.7
+Core: v9.0.0-beta.4
+More Mob Heads: 2.9.4
+Silk Touch Amethyst: 1.0

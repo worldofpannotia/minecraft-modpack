@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:honeycomb",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Prismatic Honeycomb\",\"italic\":false}]',Lore:['[{\"text\":\"Villagers might be interested in this...\",\"italic\":false}]']},Enchantments:[{}],tag:\"mt_bees\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

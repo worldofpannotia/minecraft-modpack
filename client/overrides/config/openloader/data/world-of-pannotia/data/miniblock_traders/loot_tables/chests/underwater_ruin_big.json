@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:nautilus_shell",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"Ancient Shell\",\"italic\":false}]',Lore:['[{\"text\":\"Villagers might be interested in this...\",\"italic\":false}]']},Enchantments:[{}],tag:\"mt_ocean\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}
