@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra",
+			"nbt": "{CustomModelData:13522556}"
+		},
+		"title": "Armored Elytra            ",
+		"description": ["",{"text":"Drop","color":"green"},{"text":" elytra and a chestplate above an anvil to merge them into one item.\n","color":"gold"},{"text":"Drop","color":"green"},{"text":" the merged item above a grindstone to separate them again.\n","color":"gold"},{"text":"Enchantments","color":"green"},{"text":" are kept safely between merging and separating.\n","color":"gold"},{"text":"Burning","color":"green"},{"text":" netherite armored elytra will keep the chestplate but burn off the elytra.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

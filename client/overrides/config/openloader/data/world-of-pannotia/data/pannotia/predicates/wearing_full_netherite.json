@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "tag": "pannotia:netherite_helmets"
+          },
+          "chest": {
+            "tag": "pannotia:netherite_chestplates"
+          },
+          "legs": {
+            "tag": "pannotia:netherite_leggings"
+          },
+          "feet": {
+            "tag": "pannotia:netherite_boots"
+          }
+        }
+      }
+    }
+  ]
+}
