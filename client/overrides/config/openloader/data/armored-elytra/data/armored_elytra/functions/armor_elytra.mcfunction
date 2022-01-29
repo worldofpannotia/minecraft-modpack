@@ -1,6 +1,10 @@
 data modify entity @s Item.tag.armElyData.elytra set from entity @s Item
 scoreboard players set #found armEly.dummy 0
 execute if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"minecraft:netherite_chestplate"}}] run function armored_elytra:armor/netherite
+execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"advancednetherite:netherite_iron_chestplate"}}] run function armored_elytra:armor/netherite_iron
+execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"advancednetherite:netherite_gold_chestplate"}}] run function armored_elytra:armor/netherite_gold
+execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"advancednetherite:netherite_emerald_chestplate"}}] run function armored_elytra:armor/netherite_emerald
+execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"advancednetherite:netherite_diamond_chestplate"}}] run function armored_elytra:armor/netherite_diamond
 execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"minecraft:diamond_chestplate"}}] run function armored_elytra:armor/diamond
 execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"minecraft:iron_chestplate"}}] run function armored_elytra:armor/iron
 execute if score #found armEly.dummy matches 0 if entity @e[type=minecraft:item,tag=armEly.chestplate,nbt={Item:{id:"minecraft:golden_chestplate"}}] run function armored_elytra:armor/gold
