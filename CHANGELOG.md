@@ -1,10 +1,36 @@
 ### 2022-xx-xx (9.0.0-beta.5)
 
+#### Notable Changes
+* Armored Elytra and Effective Netherite now support upgraded netherite armor
+* Added some new things to find in strongholds, woodland mansions, and (sometimes) everyday villager houses
+  * You may also find something if you're fishing or killing zombies
+* Wandering traders may now occasionally sell you back items you've lost!
+
 #### Bug Fixes
 * Fix issue with ancient debris bartering datapack which caused other datapacks to fail as well
 
 #### Added Mods
+* (Datapack) Armored Elytra: more flexible implementation of the armor+elytra concept
+* Fix Experience Bug: fixes the issue where your XP doesn't display after switching dimensions
+* Lithium: general-purpose optimizations and performance enhancements
 * Trade Cycling: adds a button to villagers who haven't been traded with that lets you cycle their trades without breaking/replacing their workstation
+* Wandering Collector: dropped/lost items (from players) get saved to a list and potentially added to wandering trader offerings
+
+#### Removed Mods
+* (Datapack) Plated Elytra
+
+#### Updated Mods
+* AppleSkin: 2.2.0 -> 2.3.0
+* Architectury API (Fabric): 3.4.9 -> 3.5.11
+* Armored Elytra: 3.0.1 -> 3.0.2
+* Crawl (Fabric): 0.10.1 -> 0.10.2
+* Fabric API: 0.46.0 -> 0.46.1
+* FastOpenLinksAndFolders: 1.0.1 -> 1.1.0
+* Repurposed Structures (Fabric): 3.3.3 -> 3.3.6
+* Roughly Enough Items Fabric/Forge (REI): 7.1.390 -> 7.2.416
+* Slight GUI Modifications: 2.0.2 -> 2.0.3
+* Xaero's Minimap: 22.1.0 -> 22.1.1
+* Xaero's World Map: 1.20.0 -> 1.20.1
 
 
 ### 2022-01-24 (9.0.0-beta.4)
