@@ -1,4 +1,4 @@
-### 2022-xx-xx (9.0.0-beta.5)
+### 2022-01-30 (9.0.0-beta.5)
 
 #### Notable Changes
 * Armored Elytra and Effective Netherite now support upgraded netherite armor
