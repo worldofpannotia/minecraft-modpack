@@ -1,3 +1,9 @@
+### 2022-01-30 (9.0.0-beta.6)
+
+#### Updated Mods
+* Architectury API (Fabric): 3.5.11 -> 3.5.12
+
+
 ### 2022-01-30 (9.0.0-beta.5)
 
 #### Notable Changes
