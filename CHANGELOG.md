@@ -1,3 +1,9 @@
+### 2022-XX-XX (9.0.0-beta.7)
+
+#### Config Changes
+* Minor tweak to zombie loot table
+
+
 ### 2022-01-30 (9.0.0-beta.6)
 
 #### Updated Mods
