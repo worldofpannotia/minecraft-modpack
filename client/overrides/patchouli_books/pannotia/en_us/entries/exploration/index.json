@@ -1,0 +1,12 @@
+{
+  "name": "Introduction",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:wp_exploration",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is a test entry, but it should show up!"
+    }
+  ]
+}
