@@ -3,6 +3,22 @@
 #### Config Changes
 * Minor tweak to zombie loot table
 
+#### Added Mods
+* InfiniteVillagerTrading
+
+#### Removed Mods
+* Infinite Trading (Fabric): removed in favor of a different mod that will hopefully work more reliably
+
+#### Updated Mods
+* Architectury API: 3.5.12 -> 3.6.15
+* Fabric API: 0.46.1 -> 0.46.3
+* MaLiLib: 0.11.5 -> 0.11.6
+* Patchouli: 64 -> 65
+* Roughly Enough Items: 7.2.416 -> 7.2.418
+* Towers of the Wild: Reworked: 2.1.0 -> 2.1.1
+* Tweakeroo: 0.12.1 -> 0.12.2
+* Xaero's Minimap: 22.1.1 -> 22.1.2
+
 
 ### 2022-01-30 (9.0.0-beta.6)
 
