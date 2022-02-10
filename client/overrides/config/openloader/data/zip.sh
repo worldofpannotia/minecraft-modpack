@@ -9,7 +9,7 @@ cd beehive-lore;7z a -tzip ../beehive-lore.zip .;cd ..
 cd chunk-loaders;7z a -tzip ../chunk-loaders.zip .;cd ..
 cd custom-villager-shops;7z a -tzip ../custom-villager-shops.zip .;cd ..
 cd gem-villagers;7z a -tzip ../gem-villagers.zip .;cd ..
-cd graves;7z a -tzip ../graves.zip .;cd ..
+cd global-trades;7z a -tzip ../global-trades.zip .;cd ..
 cd hiphoppers;7z a -tzip ../hiphoppers.zip .;cd ..
 cd homes;7z a -tzip ../homes.zip .;cd ..
 cd invisible-item-frames;7z a -tzip ../invisible-item-frames.zip .;cd ..
