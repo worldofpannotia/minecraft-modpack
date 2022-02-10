@@ -5,7 +5,6 @@
 
 #### Added Mods
 * InfiniteVillagerTrading
-* Roughly Enough Resources
 * Sky Villages (yes, you read that right)
 * Subterrestrial
 * You're in Grave Danger

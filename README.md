@@ -142,7 +142,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/randomblockplacement">RandomBlockPlacement (by Giselbaer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric">Repurposed Structures (Fabric) (by telepathicgrunt)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items">Roughly Enough Items Fabric (REI) (by shedaniel)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources">Roughly Enough Resources (by theorbagain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby-fabric">Scaffolding Drops Nearby (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sheep-consistency">Sheep Consistency (by IMS21)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/silkspawners">SilkSpawners (by LordDeatHunter)</a></li>
