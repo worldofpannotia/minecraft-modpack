@@ -21,6 +21,7 @@ cd paper-lore;7z a -tzip ../paper-lore.zip .;cd ..
 cd redstone-rotation-wrench;7z a -tzip ../redstone-rotation-wrench.zip .;cd ..
 cd renameable-heads;7z a -tzip ../renameable-heads.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
+cd shelf-storage;7z a -tzip ../shelf-storage.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
 cd spawning-spheres;7z a -tzip ../spawning-spheres.zip .;cd ..
