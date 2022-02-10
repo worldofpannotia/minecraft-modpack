@@ -1,11 +1,22 @@
 {
-  "name": "Rotation Wrench",
-  "icon": "minecraft:carrot_on_a_stick{Unbreakable:1b,CustomModelData:42421033,Damage:1,display:{Name:\\'{\"text\":\"§rWrench\"}\\'}}",
+  "name": "Item Lore",
+  "icon": "minecraft:paper",
   "category": "patchouli:wp_tools",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Does your gear just $(o)need$() a little extra flair? Rename a piece of paper in an anvil, then throw it on top of the anvil with your item to add custom lore!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "patchouli:tools/item-lore/item-lore-1.png",
+        "patchouli:tools/item-lore/item-lore-2.png",
+        "patchouli:tools/item-lore/item-lore-3.png",
+        "patchouli:tools/item-lore/item-lore-4.png",
+        "patchouli:tools/item-lore/item-lore-5.png",
+        "patchouli:tools/item-lore/item-lore-6.png"
+      ]
     }
   ]
 }

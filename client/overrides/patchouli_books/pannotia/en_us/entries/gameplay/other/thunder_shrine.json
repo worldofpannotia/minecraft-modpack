@@ -1,0 +1,15 @@
+{
+  "name": "Thunder Shrine",
+  "icon": "minecraft:lightning_rod",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Let's be honest... nobody likes it when it's raining on a server. If it's night time, you can easily remedy this by sleeping through the night. But if it's daytime, you're out of luck. That's where the thunder shrine comes in! Place four cauldrons around a log, then light the log with a flint and steel."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/other/thunder_shrine_1.png", "patchouli:gameplay/other/thunder_shrine_2.png"]
+    }
+  ]
+}

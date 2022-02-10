@@ -1,11 +1,17 @@
 {
-  "name": "Homes",
-  "icon": "minecraft:beacon",
+  "name": "Towers of the Wild",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;992165650,-2095955837,-1891443028,-215838394],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJiMmU2OWIzODcwZmUyZjRmMWJhMTRhOGY5Y2E4YWNjOWE3NTIwZTRlNGE5Nzg0YzE5YTNhMGM5NDQ2ZTRkIn19fQ==\"}]}}}",
   "category": "patchouli:wp_exploration",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "As you explore the world, you will come across tall towers dotted across the landscape. These towers provide a fun parkour challenge as well as a vantage point from which to view the surrounding area. They also make great elytra landing platforms!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "patchouli:exploration/towers.png"
+      ]
     }
   ]
 }

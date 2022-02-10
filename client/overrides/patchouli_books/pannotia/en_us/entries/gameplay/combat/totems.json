@@ -1,11 +1,11 @@
 {
-  "name": "Beacons",
-  "icon": "minecraft:beacon",
-  "category": "patchouli:wp_gameplay",
+  "name": "Totems",
+  "icon": "minecraft:totem_of_undying",
+  "category": "patchouli:wp_gameplay/combat",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Death is inevitable... or is it? Not only do Totems of Undying stack up to 64 in this pack, but they also work from $(o)anywhere$() in your inventory! No more worrying about whether to hold your totem or your shield!"
     }
   ]
 }

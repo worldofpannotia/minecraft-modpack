@@ -1,11 +1,15 @@
 {
-  "name": "Infinite Trading",
-  "icon": "minecraft:emerald",
+  "name": "Workstation Highlighting",
+  "icon": "minecraft:smithing_table",
   "category": "patchouli:wp_villagers",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Having trouble with a villager not finding the right workstation? Sometimes you just need to know $(o)which$() lectern a librarian considers \"theirs\". When you're standing next to the villager in question, simply type $(o)/trigger vwh_findStation$(). The villager and their station will be highlighted with glowing effect and hearts, respectively."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:villagers/workstations.png"]
     }
   ]
 }

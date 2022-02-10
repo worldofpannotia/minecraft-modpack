@@ -1,11 +1,11 @@
 {
-  "name": "Infinite Trading",
-  "icon": "minecraft:emerald",
+  "name": "Wandering Traders",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;-1808185366,1041911772,-2048527048,933168617],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0=\"}]}}}",
   "category": "patchouli:wp_villagers",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "In addition to lots of things you probably don't want or need, wandering traders will now have a selection of miniblocks available for trade! Additionally, you might see an item or two that you've lost."
     }
   ]
 }

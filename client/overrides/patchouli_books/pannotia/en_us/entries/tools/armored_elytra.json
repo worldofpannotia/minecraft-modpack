@@ -1,11 +1,15 @@
 {
-  "name": "Rotation Wrench",
-  "icon": "minecraft:carrot_on_a_stick{Unbreakable:1b,CustomModelData:42421033,Damage:1,display:{Name:\\'{\"text\":\"§rWrench\"}\\'}}",
+  "name": "Armored Elytra",
+  "icon": "minecraft:elytra",
   "category": "patchouli:wp_tools",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Tired of having to decide between your elytra and your chestplate? Not anymore! Toss an elytra and any chestplate onto an anvil to combine them. Throw the combined item onto a grindstone to separate them!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:tools/armored-elytra/armored-elytra-1.png", "patchouli:tools/armored-elytra/armored-elytra-2.png", "patchouli:tools/armored-elytra/armored-elytra-3.png", "patchouli:tools/armored-elytra/armored-elytra-4.png", "patchouli:tools/armored-elytra/armored-elytra-5.png"]
     }
   ]
 }

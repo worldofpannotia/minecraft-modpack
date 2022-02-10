@@ -1,11 +1,16 @@
 {
-  "name": "Beacons",
-  "icon": "minecraft:beacon",
-  "category": "patchouli:wp_gameplay",
+  "name": "Grinding",
+  "icon": "minecraft:grindstone",
+  "category": "patchouli:wp_gameplay/enchanting",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Ever get a great piece of gear from loot, but it's iron and you have netherite? Or maybe it has Curse of Binding on it. Have no fear. Now, you can put enchanted items into a grindstone with books in the bottom slot to extract enchantments onto the book. You can also put books with multiple enchants into the top slot to extract them to separate books!"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Extracting Enchantments",
+      "images": ["patchouli:gameplay/enchanting/grinding_1.png", "patchouli:gameplay/enchanting/grinding_2.png", "patchouli:gameplay/enchanting/grinding_3.png", "patchouli:gameplay/enchanting/grinding_4.png", "patchouli:gameplay/enchanting/grinding_5.png"]
     }
   ]
 }

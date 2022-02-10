@@ -1,11 +1,17 @@
 {
-  "name": "Homes",
-  "icon": "minecraft:beacon",
-  "category": "patchouli:wp_exploration",
+  "name": "Iced Crops",
+  "icon": "minecraft:wheat",
+  "category": "patchouli:wp_decoration",
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "type": "patchouli:link",
+      "text": "Sometimes you may want to include crops in a build, but you want to \"freeze\" their growth at a certain stage for aesthetic reasons. Look no further! The mod $(o)Ice Prevents Crop Growth$() does just that.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:decoration/crops.jpg"]
     }
   ]
 }

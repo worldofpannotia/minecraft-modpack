@@ -1,0 +1,35 @@
+{
+  "name": "Farming",
+  "icon": "minecraft:wheat",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The modpack has a couple of mods which make the process of farming crops and trees much simpler."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/farming/hoes/wooden.png", "patchouli:gameplay/farming/hoes/stone.png", "patchouli:gameplay/farming/hoes/iron-gold.png", "patchouli:gameplay/farming/hoes/diamond.png", "patchouli:gameplay/farming/hoes/netherite.png"],
+      "title": "Improved Hoes",
+      "text": "This mod makes higher tiers of hoes till larger areas at once."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/farming/tilled-soil/tilled-soil-1.png", "patchouli:gameplay/farming/tilled-soil/tilled-soil-2.png", "patchouli:gameplay/farming/tilled-soil/tilled-soil-3.png", "patchouli:gameplay/farming/tilled-soil/tilled-soil-4.png"],
+      "title": "Keep My Soil Tilled",
+      "text": "This mod keeps soil tilled under a pumpkin or melon attached to a stem."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/farming/flowers/flowers-1.png", "patchouli:gameplay/farming/flowers/flowers-2.png", "patchouli:gameplay/farming/flowers/flowers-3.png"],
+      "title": "Random Bone Meal Flowers",
+      "text": "When you bonemeal grass, you have a chance to get $(o)any$() flowers, not just one or two types!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/farming/tree-harvest/tree-harvest-1.png", "patchouli:gameplay/farming/tree-harvest/tree-harvest-2.png", "patchouli:gameplay/farming/tree-harvest/tree-harvest-3.png"],
+      "title": "Tree Harvester",
+      "text": "If you crouch while breaking the bottom block of a tree, you will harvest the entire thing at once."
+    }
+  ]
+}

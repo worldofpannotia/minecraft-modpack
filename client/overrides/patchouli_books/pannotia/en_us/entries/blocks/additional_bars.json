@@ -1,0 +1,38 @@
+{
+  "name": "Additional Bars",
+  "icon": "additionalbars:gold_bars",
+  "category": "patchouli:wp_blocks",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Additional Bars is a mod that, as the name suggests, adds more types of bars to the game. It also adds horizontal and crossed versions of the vanilla iron bars as well as its own.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/additional-bars-fabric",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:blocks/additional_bars/bars_1.png", "patchouli:blocks/additional_bars/bars_2.png"],
+      "text": "Some of the content in the mod"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:blocks/additional_bars/items.png", "patchouli:blocks/additional_bars/search.png"]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The following pages show a few example crafting recipes from the mod, but there are many more!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "additionalbars:gold_bars",
+      "recipe2": "additionalbars:crossed_gold_bars",
+      "title": "Gold Bars"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "additionalbars:horizontal_gold_bars",
+      "recipe2": "additionalbars:horizontal_crossed_gold_bars",
+      "title": "Horizontal Variants"
+    }
+  ]
+}

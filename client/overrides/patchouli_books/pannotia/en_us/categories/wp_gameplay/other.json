@@ -1,0 +1,6 @@
+{
+  "name": "Other",
+  "description": "$(o)Some of these things are not like you're used to...$()$(br)$(br)While the majority of the game is untouched, we have made quite a few minor changes to some aspects of Minecraft's gameplay.",
+  "icon": "minecraft:cauldron",
+  "parent": "patchouli:wp_gameplay"
+}

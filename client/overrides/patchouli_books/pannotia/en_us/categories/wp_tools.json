@@ -1,5 +1,5 @@
 {
   "name": "Tools",
-  "description": "It's dangerous to go alone. Take this!",
+  "description": "$(o)It's dangerous to go alone. Take this!$()$(br)$(br)",
   "icon": "minecraft:carrot_on_a_stick{Unbreakable:1b,CustomModelData:42421033,Damage:1,display:{Name:\\'{\"text\":\"§rWrench\"}\\'}}"
 }

@@ -5,7 +5,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This is a test entry, but it should show up!"
+      "text": "Placing glazed terracotta blocks or redstone components in the wrong position is a pain. You have to break the block and replace it. Who has that kind of time? Instead, craft a wrench! Simply right-click on any glazed terracotta block or redstone item to change its orientation without having to pick it up."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "patchouli:tools/rotation-wrench/rotation-wrench-1.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-2.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-3.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-4.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-5.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-6.png",
+        "patchouli:tools/rotation-wrench/rotation-wrench-7.png"
+      ]
     }
   ]
 }
