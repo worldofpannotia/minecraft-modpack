@@ -1,0 +1,17 @@
+{
+  "name": "Sound Muffler",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;826025005,-1944564940,-1665663996,167594782],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVhNmU2YzRmMjkyZmNjODJiZWZlOTEyYjM5MjE3ODQ3MzA4MDZiZGM0YjA0OTE2MzhlNDYzODExMDg4MjdlYiJ9fX0=\"}]}}}",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Sometimes you want more fine-grained control over what sounds you hear, how loud, and in what locations. We use the $(o)Extreme Sound Muffler$() mod to give you ultimate control over your audio!",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-fabric-official",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:quality/muffler.png"]
+    }
+  ]
+}

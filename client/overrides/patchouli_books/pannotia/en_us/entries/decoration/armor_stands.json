@@ -1,0 +1,24 @@
+{
+  "name": "Armor Stands",
+  "icon": "minecraft:armor_stand",
+  "category": "patchouli:wp_decoration",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "title": "Armor Stands",
+      "text": "This datapack provides a book which gives you $(o)ultimate$() control over how armor stands look and behave.",
+      "images": ["patchouli:decoration/armor_stands.png"]
+    },
+    {
+      "type": "patchouli:link",
+      "text": "If you have watched any of the members of the HermitCraft server, you are no doubt familiar with the armor stand book. If not, you're in for a treat!$(br)$(br)It is impossible to explain in words, so click the link below for an introduction.",
+      "url": "https://www.youtube.com/watch?v=nV9-_RacnoI",
+      "link_text": "YouTube Video"
+    },
+    {
+      "type": "patchouli:image",
+      "text": "To get a copy of the book, simply sign a written book (the contents don't matter) and name it \"Statues\".",
+      "images": ["patchouli:decoration/armor_stands_book_1.png", "patchouli:decoration/armor_stands_book_2.png"]
+    }
+  ]
+}

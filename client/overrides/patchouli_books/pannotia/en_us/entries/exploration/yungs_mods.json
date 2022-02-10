@@ -1,0 +1,11 @@
+{
+  "name": "YUNG's Mods",
+  "icon": "minecraft:player_head{SkullOwner:{Id:[I;1578711714,690897862,-1188304861,-153039842],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ1NTlkNzU0NjRiMmU0MGE1MThlNGRlOGU2Y2YzMDg1ZjBhM2NhMGIxYjcwMTI2MTRjNGNkOTZmZWQ2MDM3OCJ9fX0=\"}]}}}",
+  "category": "patchouli:wp_exploration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is a test entry, but it should show up!"
+    }
+  ]
+}
