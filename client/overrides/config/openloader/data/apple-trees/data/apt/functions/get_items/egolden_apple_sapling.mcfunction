@@ -1,1 +1,0 @@
-give @s item_frame{EntityTag: {Invulnerable: 1b, Invisible: 1b, Tags: ["EGolden_Apple_Seeds"], Fixed: 1b}, CustomModelData: 3089, display: {Name: '{"text":"Enchanted Golden Apple Sapling","color":"light_purple","italic":false}'}, Enchantments: [{}]} 1

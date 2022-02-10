@@ -1,1 +1,0 @@
-give @s item_frame{EntityTag: {Invulnerable: 1b, Invisible: 1b, Tags: ["Golden_Apple_Seeds"], Fixed: 1b}, CustomModelData: 3089, display: {Name: '{"text":"Golden Apple Sapling","color":"aqua","italic":false}'}} 1

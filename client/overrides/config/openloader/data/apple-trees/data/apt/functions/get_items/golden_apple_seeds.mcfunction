@@ -1,1 +1,0 @@
-give @s item_frame{display:{Name:'{"text":"Golden Apple Seeds","color":"aqua","italic":false}'},CustomModelData:3087,EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["Golden_Apple_Seeds","Apple_Frame"]}} 1
