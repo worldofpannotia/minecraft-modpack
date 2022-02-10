@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#0#",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+	"0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  },
+  "group": "custom_items"
+}

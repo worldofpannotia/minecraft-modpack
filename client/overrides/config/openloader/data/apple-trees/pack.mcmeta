@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 8,
+    "description": [
+	{"text":"ManaMage","color":"dark_green"},
+	{"text":"\n"},
+	{"text":"Release 1.1","color":"white"}
+	] 
+  }
+}

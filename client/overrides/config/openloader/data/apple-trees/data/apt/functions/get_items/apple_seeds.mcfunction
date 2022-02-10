@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Apple Seeds","italic":false}'},CustomModelData:3086,EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:["Apple_Seeds","Apple_Frame"]}} 1

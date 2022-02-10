@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/I/",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "I": {
+            "item": "minecraft:item_frame"
+        },
+        "C": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "custom_items"
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:area_effect_cloud",
+	"minecraft:experience_orb",
+	"minecraft:experience_bottle",
+	"minecraft:egg",
+	"minecraft:evoker_fangs",
+	"minecraft:eye_of_ender",
+	"minecraft:firework_rocket",
+	"minecraft:fireball",
+	"minecraft:glow_item_frame",
+	"minecraft:item_frame",
+	"minecraft:item",
+	"minecraft:lightning_bolt",
+	"minecraft:marker",
+	"minecraft:painting",
+	"minecraft:potion",
+	"minecraft:snowball",
+	"minecraft:small_fireball",
+	"minecraft:dragon_fireball",
+	"minecraft:shulker_bullet",
+	"minecraft:spectral_arrow",
+	"minecraft:arrow",
+	"minecraft:trident",
+    "minecraft:wither_skull"
+  ]
+}

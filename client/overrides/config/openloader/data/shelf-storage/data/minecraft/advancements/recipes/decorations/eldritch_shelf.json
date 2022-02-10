@@ -1,0 +1,37 @@
+{
+
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+
+    "criteria": {
+
+        "has the recipe": {
+
+            "trigger": "minecraft:recipe_unlocked",
+
+            "conditions": {
+
+                "recipe": "eldritch_shelf"
+
+            }
+
+        }
+
+    },
+
+    "requirements": [
+
+        [
+
+            "has the recipe"
+
+        ]
+
+    ],
+
+    "rewards": {
+
+        "function": "shelve:recipes/eldritch_shelf/setup_craft"
+
+    }
+
+}

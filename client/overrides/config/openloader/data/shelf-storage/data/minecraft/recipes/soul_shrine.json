@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "#_#",
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "_": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "G": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    },
+    "group": "custom_items"
+}

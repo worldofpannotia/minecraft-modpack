@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Johnny Appleseed",
+            "color": "white"
+        },
+        "description": {
+            "text": "Plant an Apple Seed"
+        },
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/apple.png"
+    },
+    "criteria": {
+        "placeseed": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:item_frame",
+                    "nbt": "{EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Tags:[\"Apple_Frame\"]}}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "placeseed"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

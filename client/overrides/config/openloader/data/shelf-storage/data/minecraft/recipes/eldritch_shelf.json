@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  },
+  "group": "custom_items"
+}

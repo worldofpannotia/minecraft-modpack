@@ -1,0 +1,4 @@
+For apple trees to grow you need to add the generated folder in this file to your generated world folder.
+
+1. Locate your world folder
+2. Drag and drop the generated folder into the world folder.
