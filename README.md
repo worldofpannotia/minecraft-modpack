@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-3a6.svg?style=flat-square)
-![Pack 9.0.0-beta.6](https://img.shields.io/badge/Pack-9.0.0--beta.6-blue.svg?style=flat-square)
+![Pack 9.0.0-beta.7](https://img.shields.io/badge/Pack-9.0.0--beta.7-blue.svg?style=flat-square)
 ![Fabric 0.12.12](https://img.shields.io/badge/Fabric-0.12.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -100,7 +100,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/horsestatsvanilla">Horst Stats Vanilla (Fabric) (by TeaJ4y)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric">Ice Prevents Crop Growth (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/improved-hoes">Improved Hoes (by Furgle)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinite-trading-fabric">Infinite Trading (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitevillagertrading">InfiniteVillagerTrading (by Giselbaer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Inventory Profiles Next (by mirinimi)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem-fabric">Inventory Totem (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-model-fix">Item Model Fix (Fabric) (by Pepper_Bell)</a></li>
@@ -142,13 +142,16 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/randomblockplacement">RandomBlockPlacement (by Giselbaer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric">Repurposed Structures (Fabric) (by telepathicgrunt)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items">Roughly Enough Items Fabric (REI) (by shedaniel)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources">Roughly Enough Resources (by theorbagain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby-fabric">Scaffolding Drops Nearby (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sheep-consistency">Sheep Consistency (by IMS21)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/silkspawners">SilkSpawners (by LordDeatHunter)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-measuring">Simple Measuring (by MrTurtle2005)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/sky-villages-fabric">Sky Villages [Fabric] (by Aureljz)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications">'Slight' Gui Modifications (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-boot">Smooth Boot (Fabric) (by UltimateBoomer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales-fabric">Softer Hay Bales (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/subterrestrial">Subterrestrial (Fabric) (by AlexNijjar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes-fabric">Superflat World No Slimes (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms-fabric">Surface Mushrooms (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-fabric">Tiny Skeletons [Fabric] (by Fuzs_)</a></li>
@@ -165,7 +168,9 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">WTHIT (by badasintended)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Xaero's Minimap (by xaero96)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Xaero's World Map (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger">You're in Grave Danger (by b1n_ry)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yosbr">Your Options Shall Be Respected (YOSBR) (by shedaniel)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric">YUNG's API (Fabric) (by YUNGNICKYOUNG)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/zombie-horse-spawn-fabric">Zombie Horse Spawn (Fabric) (by Serilum)</a></li>
     </ul>
 </details>

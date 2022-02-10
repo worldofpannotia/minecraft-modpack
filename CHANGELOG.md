@@ -1,23 +1,41 @@
-### 2022-XX-XX (9.0.0-beta.7)
+### 2022-02-09 (9.0.0-beta.7)
 
 #### Config Changes
 * Minor tweak to zombie loot table
 
 #### Added Mods
 * InfiniteVillagerTrading
+* Roughly Enough Resources
+* Sky Villages (yes, you read that right)
+* Subterrestrial
+* You're in Grave Danger
 
 #### Removed Mods
+* (Datapack) Graves: removed in favor of Fabric mod that should be less error-prone
 * Infinite Trading (Fabric): removed in favor of a different mod that will hopefully work more reliably
 
 #### Updated Mods
-* Architectury API: 3.5.12 -> 3.6.15
-* Fabric API: 0.46.1 -> 0.46.3
+* Architectury API: 3.5.12 -> 3.6.17
+* Better Mount HUD: 1.1.3 -> 1.1.4
+* Cloth Config API: 6.1.48 -> 6.2.57
+* Collective: 3.14 -> 4.4
+* Enchantment Descriptions: 9.0.12 -> 9.0.13
+* Entity Culling: 1.3.3 -> 1.5.0
+* Fabric API: 0.46.1 -> 0.46.4
+* Fabrishot: 1.6.0 -> 1.6.2
+* FerriteCore: 4.0.0 -> 4.1.1
+* Inventory Profiles Next: 1.2.4 -> 1.3.1
+* Language Reload: 1.2 -> 1.2.1
 * MaLiLib: 0.11.5 -> 0.11.6
 * Patchouli: 64 -> 65
-* Roughly Enough Items: 7.2.416 -> 7.2.418
+* Repurposed Structures: 3.3.6 -> 3.3.9
+* Roughly Enough Items: 7.2.416 -> 7.2.425
 * Towers of the Wild: Reworked: 2.1.0 -> 2.1.1
+* Trade Cycling: 1.0.1 -> 1.0.2
 * Tweakeroo: 0.12.1 -> 0.12.2
+* WTHIT: 4.4.1 -> 4.5.1
 * Xaero's Minimap: 22.1.1 -> 22.1.2
+* YUNG's API: 35 -> 36
 
 
 ### 2022-01-30 (9.0.0-beta.6)
