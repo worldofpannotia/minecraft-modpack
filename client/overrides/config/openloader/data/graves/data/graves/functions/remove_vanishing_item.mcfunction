@@ -1,2 +1,0 @@
-execute store success score #success graves.dummy run data remove entity @s HandItems[0].tag.gravesData.items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
-execute if score #success graves.dummy matches 1 run function graves:remove_vanishing_item

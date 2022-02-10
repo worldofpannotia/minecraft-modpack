@@ -1,2 +1,0 @@
-function graves:activate_graves
-schedule function graves:activate_graves 1t replace

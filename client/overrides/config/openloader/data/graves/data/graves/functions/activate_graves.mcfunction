@@ -1,1 +1,0 @@
-execute as @a[advancements={graves:interact_with_grave=true}] at @s run function graves:activate_grave
