@@ -1,12 +1,12 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-            "item": "minecraft:diamond_leggings"
-        }
-    ],
-    "result": {
-        "item": "minecraft:diamond",
-        "count": 7
+      "item": "minecraft:diamond_leggings"
     }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 7
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-            "item": "minecraft:chainmail_leggings"
-        }
-    ],
-    "result": {
-        "item": "minecraft:chain",
-        "count": 7
+      "item": "minecraft:chainmail_leggings"
     }
+  ],
+  "result": {
+    "item": "minecraft:chain",
+    "count": 7
+  }
 }

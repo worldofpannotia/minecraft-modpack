@@ -4,10 +4,10 @@
       "item": "minecraft:armor_stand"
     },
     "title": {
-      "text":"craft_book"
+      "text": "craft_book"
     },
     "description": {
-      "text":""
+      "text": ""
     },
     "frame": "task",
     "show_toast": false,
@@ -18,14 +18,16 @@
   "criteria": {
     "craft_book": {
       "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-	    "items": [
-		  {
-		    "items": ["minecraft:written_book"],
-			"nbt": "{title:\"Statues\"}"
-		  }
-		]
-	  }
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{title:\"Statues\"}"
+          }
+        ]
+      }
     }
   },
   "requirements": [

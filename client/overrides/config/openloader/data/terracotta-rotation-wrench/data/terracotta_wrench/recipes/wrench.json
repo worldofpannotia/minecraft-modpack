@@ -1,19 +1,19 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        " # ",
-        " ##",
-        "$  "
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:gold_ingot"
-        },
-        "$": {
-            "item": "minecraft:iron_ingot"
-        }
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    " ##",
+    "$  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
     },
-    "result": {
-        "item": "minecraft:knowledge_book"
+    "$": {
+      "item": "minecraft:iron_ingot"
     }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-            "item": "minecraft:diamond_boots"
-        }
-    ],
-    "result": {
-        "item": "minecraft:diamond",
-        "count": 4
+      "item": "minecraft:diamond_boots"
     }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 4
+  }
 }

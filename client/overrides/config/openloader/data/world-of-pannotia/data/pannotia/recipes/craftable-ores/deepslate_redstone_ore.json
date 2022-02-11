@@ -1,19 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "XXX",
-        "X#X",
-        "XXX"
-    ],
-    "key": {
-        "X": {
-            "item": "minecraft:redstone"
-        },
-        "#": {
-            "item": "minecraft:deepslate"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone"
     },
-    "result": {
-        "item": "minecraft:deepslate_redstone_ore"
+    "#": {
+      "item": "minecraft:deepslate"
     }
+  },
+  "result": {
+    "item": "minecraft:deepslate_redstone_ore"
+  }
 }

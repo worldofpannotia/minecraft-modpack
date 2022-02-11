@@ -1,6 +1,6 @@
 {
-	"values": [
-		"villager_workstation_highlights:load",
-		"villager_workstation_highlights:tick"
-	]
+  "values": [
+    "villager_workstation_highlights:load",
+    "villager_workstation_highlights:tick"
+  ]
 }

@@ -1,16 +1,20 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#O#",
-        "###"
-    ],
-    "key": {
-        "#": {"tag": "pannotia:glass_panes"},
-        "O": {"item": "minecraft:green_dye"}
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "pannotia:glass_panes"
     },
-    "result": {
-        "item": "minecraft:green_stained_glass_pane",
-        "count": 8
+    "O": {
+      "item": "minecraft:green_dye"
     }
+  },
+  "result": {
+    "item": "minecraft:green_stained_glass_pane",
+    "count": 8
+  }
 }

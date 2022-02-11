@@ -1,7 +1,7 @@
 {
-	"values": [
-		"armor_statues:load",
-		"armor_statues:tick",
-		"armor_statues:second"
-	]
+  "values": [
+    "armor_statues:load",
+    "armor_statues:tick",
+    "armor_statues:second"
+  ]
 }

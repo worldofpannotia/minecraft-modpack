@@ -1,19 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "XXX",
-        "X#X",
-        "XXX"
-    ],
-    "key": {
-        "X": {
-            "item": "minecraft:gold_ingot"
-        },
-        "#": {
-            "item": "minecraft:netherrack"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
     },
-    "result": {
-        "item": "minecraft:nether_gold_ore"
+    "#": {
+      "item": "minecraft:netherrack"
     }
+  },
+  "result": {
+    "item": "minecraft:nether_gold_ore"
+  }
 }

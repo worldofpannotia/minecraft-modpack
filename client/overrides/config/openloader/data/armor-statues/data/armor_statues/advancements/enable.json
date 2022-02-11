@@ -4,10 +4,10 @@
       "item": "minecraft:armor_stand"
     },
     "title": {
-      "text":"enable_as_trigger"
+      "text": "enable_as_trigger"
     },
     "description": {
-      "text":""
+      "text": ""
     },
     "frame": "task",
     "show_toast": false,

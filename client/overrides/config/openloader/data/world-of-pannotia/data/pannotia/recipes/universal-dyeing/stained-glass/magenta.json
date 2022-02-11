@@ -1,16 +1,20 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#O#",
-        "###"
-    ],
-    "key": {
-        "#": {"tag": "pannotia:glass"},
-        "O": {"item": "minecraft:magenta_dye"}
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "pannotia:glass"
     },
-    "result": {
-        "item": "minecraft:magenta_stained_glass",
-        "count": 8
+    "O": {
+      "item": "minecraft:magenta_dye"
     }
+  },
+  "result": {
+    "item": "minecraft:magenta_stained_glass",
+    "count": 8
+  }
 }

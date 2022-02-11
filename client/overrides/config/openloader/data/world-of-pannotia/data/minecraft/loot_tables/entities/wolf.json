@@ -24,7 +24,7 @@
             }
           ]
         },
-		{
+        {
           "type": "item",
           "name": "minecraft:player_head",
           "weight": 1,

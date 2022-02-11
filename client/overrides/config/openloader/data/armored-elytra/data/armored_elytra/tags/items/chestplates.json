@@ -1,14 +1,14 @@
 {
-	"values": [
-		"minecraft:leather_chestplate",
-		"minecraft:chainmail_chestplate",
-		"minecraft:iron_chestplate",
-		"minecraft:diamond_chestplate",
-		"minecraft:golden_chestplate",
-		"minecraft:netherite_chestplate",
+  "values": [
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:netherite_chestplate",
     "advancednetherite:netherite_iron_chestplate",
     "advancednetherite:netherite_gold_chestplate",
     "advancednetherite:netherite_emerald_chestplate",
     "advancednetherite:netherite_diamond_chestplate"
-	]
+  ]
 }

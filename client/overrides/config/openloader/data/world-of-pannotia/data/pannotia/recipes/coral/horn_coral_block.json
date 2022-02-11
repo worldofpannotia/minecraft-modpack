@@ -1,18 +1,17 @@
-
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "##",
-        "##"
-    ],
-    "key": {
-        "#": {
-            "tag": "pannotia:horn_coral"
-        }
-    },
-    "result": {
-        "item": "minecraft:horn_coral_block",
-        "count": 1
-    },
-	"group": "coral_blocks"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "pannotia:horn_coral"
+    }
+  },
+  "result": {
+    "item": "minecraft:horn_coral_block",
+    "count": 1
+  },
+  "group": "coral_blocks"
 }

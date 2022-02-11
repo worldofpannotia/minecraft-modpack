@@ -8,23 +8,22 @@
         "equipment": {
           "mainhand": {
             "tag": "armor_statues:potions",
-	        "potion": "minecraft:invisibility"
+            "potion": "minecraft:invisibility"
           }
         }
       }
     },
-	{
+    {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "equipment": {
           "mainhand": {
             "tag": "armor_statues:potions",
-	        "potion": "minecraft:long_invisibility"
+            "potion": "minecraft:long_invisibility"
           }
         }
       }
     }
-    
   ]
 }

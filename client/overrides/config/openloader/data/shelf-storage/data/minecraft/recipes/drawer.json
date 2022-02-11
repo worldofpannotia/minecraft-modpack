@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "_G_",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "tag": "minecraft:planks"
-        },
-        "_": {
-            "tag": "minecraft:wooden_slabs"
-        },
-        "G": {
-            "item": "minecraft:gold_nugget"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "_G_",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
     },
-    "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+    "_": {
+      "tag": "minecraft:wooden_slabs"
     },
-    "group": "custom_items"
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  },
+  "group": "custom_items"
 }

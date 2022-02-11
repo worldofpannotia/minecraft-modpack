@@ -1,19 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "XXX",
-        "X#X",
-        "XXX"
-    ],
-    "key": {
-        "X": {
-            "item": "minecraft:coal"
-        },
-        "#": {
-            "item": "minecraft:stone"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:coal"
     },
-    "result": {
-        "item": "minecraft:coal_ore"
+    "#": {
+      "item": "minecraft:stone"
     }
+  },
+  "result": {
+    "item": "minecraft:coal_ore"
+  }
 }

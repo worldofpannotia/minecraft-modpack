@@ -1,14 +1,14 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:redstone"
-        },
-        {
-            "item": "minecraft:torch"
-        }
-    ],
-    "result": {
-        "item": "minecraft:redstone_torch"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:torch"
     }
+  ],
+  "result": {
+    "item": "minecraft:redstone_torch"
+  }
 }

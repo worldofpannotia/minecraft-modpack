@@ -6,23 +6,27 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-	      "mainhand": {
-	        "items": ["minecraft:written_book"],
-		    "nbt": "{datapack:ArmorStatuesV2}"
-	      }
-	    }
+          "mainhand": {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{datapack:ArmorStatuesV2}"
+          }
+        }
       }
     },
-	{
+    {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
         "equipment": {
-	      "offhand": {
-	        "items": ["minecraft:written_book"],
-		    "nbt": "{datapack:ArmorStatuesV2}"
-	      }
-	    }
+          "offhand": {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{datapack:ArmorStatuesV2}"
+          }
+        }
       }
     }
   ]

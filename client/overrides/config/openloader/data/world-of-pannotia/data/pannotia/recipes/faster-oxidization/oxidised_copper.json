@@ -1,23 +1,23 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#G#",
-        "#W#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:copper_block"
-        },
-        "G": {
-            "item": "minecraft:gunpowder"
-        },
-        "W": {
-            "item": "minecraft:water_bucket"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "#W#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
     },
-    "result": {
-        "item": "minecraft:oxidized_copper",
-        "count": 7
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
     }
+  },
+  "result": {
+    "item": "minecraft:oxidized_copper",
+    "count": 7
+  }
 }

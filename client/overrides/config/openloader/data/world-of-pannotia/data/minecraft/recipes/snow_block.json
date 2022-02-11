@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": {"item": "minecraft:snowball"}
+    "#": {
+      "item": "minecraft:snowball"
+    }
   },
   "result": {
     "item": "minecraft:snow_block"

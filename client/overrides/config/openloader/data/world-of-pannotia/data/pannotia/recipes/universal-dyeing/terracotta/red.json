@@ -1,16 +1,20 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#O#",
-        "###"
-    ],
-    "key": {
-        "#": {"tag": "pannotia:terracotta"},
-        "O": {"item": "minecraft:red_dye"}
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "pannotia:terracotta"
     },
-    "result": {
-        "item": "minecraft:red_terracotta",
-        "count": 8
+    "O": {
+      "item": "minecraft:red_dye"
     }
+  },
+  "result": {
+    "item": "minecraft:red_terracotta",
+    "count": 8
+  }
 }

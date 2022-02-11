@@ -1,22 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "Y Y",
-        "ZYZ",
-        "XXX"
-    ],
-    "key": {
-        "X": {
-            "item": "minecraft:stone"
-        },
-        "Y": {
-            "item": "minecraft:redstone"
-        },
-        "Z": {
-            "item": "minecraft:stick"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y Y",
+    "ZYZ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stone"
     },
-    "result": {
-        "item": "minecraft:repeater"
+    "Y": {
+      "item": "minecraft:redstone"
+    },
+    "Z": {
+      "item": "minecraft:stick"
     }
+  },
+  "result": {
+    "item": "minecraft:repeater"
+  }
 }

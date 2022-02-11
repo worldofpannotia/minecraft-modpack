@@ -4,8 +4,10 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "items": ["minecraft:written_book"],
-	    "nbt": "{datapack:ArmorStatuesV2, SavedPose:{} }"
+        "items": [
+          "minecraft:written_book"
+        ],
+        "nbt": "{datapack:ArmorStatuesV2, SavedPose:{} }"
       }
     }
   }

@@ -30,7 +30,9 @@
             "tag": "pannotia:netherite_helmets"
           },
           "chest": {
-            "items": ["minecraft:elytra"],
+            "items": [
+              "minecraft:elytra"
+            ],
             "nbt": "{\"armElyData\": {\"material\": 6}}"
           },
           "legs": {
@@ -51,7 +53,9 @@
             "tag": "pannotia:netherite_helmets"
           },
           "chest": {
-            "items": ["minecraft:elytra"],
+            "items": [
+              "minecraft:elytra"
+            ],
             "nbt": "{\"armElyData\": {\"material\": 7}}"
           },
           "legs": {
@@ -72,7 +76,9 @@
             "tag": "pannotia:netherite_helmets"
           },
           "chest": {
-            "items": ["minecraft:elytra"],
+            "items": [
+              "minecraft:elytra"
+            ],
             "nbt": "{\"armElyData\": {\"material\": 8}}"
           },
           "legs": {
@@ -93,7 +99,9 @@
             "tag": "pannotia:netherite_helmets"
           },
           "chest": {
-            "items": ["minecraft:elytra"],
+            "items": [
+              "minecraft:elytra"
+            ],
             "nbt": "{\"armElyData\": {\"material\": 9}}"
           },
           "legs": {
@@ -114,7 +122,9 @@
             "tag": "pannotia:netherite_helmets"
           },
           "chest": {
-            "items": ["minecraft:elytra"],
+            "items": [
+              "minecraft:elytra"
+            ],
             "nbt": "{\"armElyData\": {\"material\": 10}}"
           },
           "legs": {
