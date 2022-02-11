@@ -1,9 +1,10 @@
-### 2022-02-09 (9.0.0-beta.7)
+### 2022-02-11 (9.0.0-beta.7)
 
 #### Config Changes
 * Minor tweak to zombie loot table
 
 #### Added Mods
+* (Datapack) Global Trades
 * InfiniteVillagerTrading
 * Sky Villages (yes, you read that right)
 * Subterrestrial
@@ -27,11 +28,12 @@
 * Language Reload: 1.2 -> 1.2.1
 * MaLiLib: 0.11.5 -> 0.11.6
 * Patchouli: 64 -> 65
+* Puzzles Lib: 3.1.3 -> 3.1.5
 * Repurposed Structures: 3.3.6 -> 3.3.9
 * Roughly Enough Items: 7.2.416 -> 7.2.425
 * Towers of the Wild: Reworked: 2.1.0 -> 2.1.1
 * Trade Cycling: 1.0.1 -> 1.0.2
-* Tweakeroo: 0.12.1 -> 0.12.2
+* Tweakeroo: 0.12.1 -> 0.12.3
 * WTHIT: 4.4.1 -> 4.5.1
 * Xaero's Minimap: 22.1.1 -> 22.1.2
 * YUNG's API: 35 -> 36
