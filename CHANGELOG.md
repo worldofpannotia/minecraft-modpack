@@ -1,3 +1,27 @@
+### 2022-03-XX (9.0.0-beta.8)
+
+#### Config Changes
+* Add upgraded netherite hoes to Improved Hoes config
+* Update some loot tables for YUNG's Better Strongholds to include things from our datapacks
+
+#### Added Mods
+* Shelf Storage
+* Traveler's Titles
+* YUNG's Better Dungeons
+* YUNG's Better Mineshafts
+* YUNG's Better Strongholds
+* YUNG's Bridges
+* YUNG's Extras
+
+#### Removed Mods
+* (Datapack) Shelf Storage
+* Effective
+
+#### Updated Mods
+* Fabric API: 0.46.4 -> 0.46.6
+* Repurposed Structures: 3.3.9 -> 3.3.12
+
+
 ### 2022-02-11 (9.0.0-beta.7)
 
 #### Config Changes

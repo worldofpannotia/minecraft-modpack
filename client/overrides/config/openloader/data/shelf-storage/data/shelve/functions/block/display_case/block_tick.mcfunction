@@ -1,7 +1,0 @@
-#keep locked state
-execute as @e[type=minecraft:armor_stand,tag=display_case] at @s run data modify block ~ ~ ~ TransferCooldown set value 999999999
-
-#check for item changes or empty items
-execute at @a positioned ^ ^ ^3 as @e[type=minecraft:armor_stand,tag=display_case,distance=..3] at @s run execute positioned ~ ~1 ~ unless data entity @e[type=minecraft:item_frame,tag=display_case,limit=1,sort=nearest,distance=..1] Item run data modify entity @e[type=minecraft:item_frame,tag=display_case,limit=1,sort=nearest,distance=..1] Item set value {id: "minecraft:knowledge_book", Count: 1b, tag: {CustomModelData: 2}}
-execute at @a positioned ^ ^ ^3 as @e[type=minecraft:armor_stand,tag=display_case,distance=..3] at @s run execute unless data block ~ ~ ~ Items[] run execute positioned ~ ~1 ~ run data modify entity @e[type=minecraft:item_frame,tag=display_case,limit=1,sort=nearest,distance=..1] Item set value {id: "minecraft:knowledge_book", Count: 1b, tag: {CustomModelData: 2}}
-execute at @a positioned ^ ^ ^3 as @e[type=minecraft:armor_stand,tag=display_case,limit=1,sort=random,distance=..3] at @s if score #checking block_status matches 0 if data block ~ ~ ~ Items[] run function shelve:block/display_case/check_changes
