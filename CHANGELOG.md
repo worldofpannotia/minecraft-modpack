@@ -1,4 +1,16 @@
-### 2022-03-XX (9.0.0-beta.8)
+### 2022-03-21 (9.0.0-beta.10)
+
+#### Updated Mods
+* Shelf Storage: 1.1.0 -> 1.1.1
+
+
+### 2022-03-20 (9.0.0-beta.9)
+
+#### Updated Mods
+* Shelf Storage: 1.0.1 -> 1.1.0
+
+
+### 2022-03-15 (9.0.0-beta.8)
 
 #### Config Changes
 * Add upgraded netherite hoes to Improved Hoes config
