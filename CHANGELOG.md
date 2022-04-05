@@ -17,7 +17,7 @@
 * Collective: 4.4 -> 4.9
 * You're In Grave Danger: 1.2.16 -> 1.2.22
 * Charcoal+: 1.1.1 -> 1.1.2
-* Minekea: 2.0.0 -> 2.0.1
+* Minekea: 2.0.0 -> 2.1.0
 
 
 ### 2022-03-28 (10.0.0)
