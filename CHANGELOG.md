@@ -1,23 +1,23 @@
-### 2022-XX-XX (10.1.0)
+### 2022-04-06 (10.1.0)
 #### Updated Mods
-* Item Scroller: 0.15.0 -> 0.16.0
-* Xaero's Minimap: 22.1.2 -> 22.3.0
-* MaLiLib: 0.11.6 -> 0.11.8
-* Litematica: 0.10.1 -> 0.10.4
-* Roughly Enough Items: 7.2.425 -> 7.3.443
-* NBT Crafting: 2.1.0 -> 2.1.3
-* Xaero's Minimap: 1.20.1 -> 1.20.3.1
-* Lithium: 0.7.7 -> 0.7.8
-* CompleteConfig: 1.3.3 -> 1.4.0
 * Architectury API: 3.3.17 -> 3.7.37
-* WTHIT: 4.5.1 -> 4.5.5
-* Custom Entity Models: 0.7.0 -> 0.7.1
-* Inventory Profiles Next: 1.3.1 -> 1.3.5
+* Charcoal+: 1.1.1 -> 1.1.2
 * CIT Resewn: 0.9.1 -> 1.0.1
 * Collective: 4.4 -> 4.9
-* You're In Grave Danger: 1.2.16 -> 1.2.22
-* Charcoal+: 1.1.1 -> 1.1.2
+* CompleteConfig: 1.3.3 -> 1.4.0
+* Custom Entity Models: 0.7.0 -> 0.7.1
+* Inventory Profiles Next: 1.3.1 -> 1.3.5
+* Item Scroller: 0.15.0 -> 0.16.0
+* Litematica: 0.10.1 -> 0.10.4
+* Lithium: 0.7.7 -> 0.7.8
+* MaLiLib: 0.11.6 -> 0.11.8
 * Minekea: 2.0.0 -> 2.1.0
+* NBT Crafting: 2.1.0 -> 2.1.3
+* Roughly Enough Items: 7.2.425 -> 7.3.443
+* WTHIT: 4.5.1 -> 4.5.5
+* Xaero's Minimap: 1.20.1 -> 1.20.3.1
+* Xaero's Minimap: 22.1.2 -> 22.3.0
+* You're In Grave Danger: 1.2.16 -> 1.2.22
 
 
 ### 2022-03-28 (10.0.0)

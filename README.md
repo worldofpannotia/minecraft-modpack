@@ -1,13 +1,13 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-3a6.svg?style=flat-square)
-![Pack 9.0.0-beta.8](https://img.shields.io/badge/Pack-9.0.0--beta.8-blue.svg?style=flat-square)
+![Pack 10.1.0](https://img.shields.io/badge/Pack-10.0.1-blue.svg?style=flat-square)
 ![Fabric 0.13.3](https://img.shields.io/badge/Fabric-0.13.3-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
 That said, the current version of the pack should be considered stable enough for everyday play.
 
-The 9.x version of this modpack is the first version using the Fabric mod loader. It is also our
+The 10.x version of this modpack is the first version using the Fabric mod loader. It is also our
 first attempt at a pack which is "as minimal as possible". This doesn't necessarily mean "as few
 mods as possible", but rather that our goal with the current pack version is for players and server
 owners to be confident that their world is not locked into a single version of Minecraft or
