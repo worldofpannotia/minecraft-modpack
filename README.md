@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
-![Minecraft 1.18.1](https://img.shields.io/badge/Minecraft-1.18.1-3a6.svg?style=flat-square)
-![Pack 10.1.0](https://img.shields.io/badge/Pack-10.0.1-blue.svg?style=flat-square)
+![Minecraft 1.18.2](https://img.shields.io/badge/Minecraft-1.18.2-3a6.svg?style=flat-square)
+![Pack 11.0.0](https://img.shields.io/badge/Pack-11.0.0-blue.svg?style=flat-square)
 ![Fabric 0.13.3](https://img.shields.io/badge/Fabric-0.13.3-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -42,7 +42,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-mount-hud">Better Mount HUD (by Lortseam_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control-fabric">Better Spawner Control (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-than-mending">Better Than Mending (by legobmw99)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/betterf3">BetterF3 (by cominixo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/borderless-mining">Borderless Mining (by comp500)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet (by gnembon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Carpet Extra (by gnembon)</a></li>
@@ -119,6 +118,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Litematica (by masady)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lithium">Lithium (by jellysquid3_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/malilib">MaLiLib (by masady)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/minekea-fabric">Minekea (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/mo-structures">Mo' Structures (Fabric) (by ffrannny)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu (by ProspectorDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric">More Vilalgers [Fabric] (by SameDifferent)</a></li>
@@ -150,12 +150,12 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications">'Slight' Gui Modifications (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-boot">Smooth Boot (Fabric) (by UltimateBoomer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales-fabric">Softer Hay Bales (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/sponj-fabric">Sponj (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/subterrestrial">Subterrestrial (Fabric) (by AlexNijjar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes-fabric">Superflat World No Slimes (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms-fabric">Surface Mushrooms (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-skeletons-fabric">Tiny Skeletons [Fabric] (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tooltipfix">ToolTipFix (by Kyrptonaught)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-reworked">Towers of the Wild: Reworked (Fabric) (by xPand_4B)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trade-cycling">Trade Cycling (by henkelmax)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition">TrashSlot (Fabric Edition) (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tree-harvester-fabric">Tree Harvester (Fabric) (by Serilum)</a></li>
