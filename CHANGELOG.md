@@ -1,3 +1,107 @@
+### 2022-04-19 (11.0.0)
+#### Breaking Changes
+* With the update to 1.18.2, a few mods had to be removed. There are also some big differences under the hood between 1.18.1 and 1.18.2, meaning several mods have undergone significant refactoring. Therefore, this update is considered a breaking change. Back up your world before upgrading!
+
+#### Added Mods
+* Sponj
+* Towers of the Wild: Reworked (Datapack)
+
+#### Removed Mods
+* BetterF3
+* Towers of the Wild: Reworked (Fabric)
+
+#### Temporarily Removed Mods (not yet 1.18.2)
+* Sky Villages [Fabric]
+* YUNG's Better Mineshafts (Fabric)
+* YUNG's Better Strongholds (Fabric)
+* YUNG's Better Dungeons (Fabric)
+* Traveler's Titles (Fabric)
+* YUNG's Extras (Fabric)
+* YUNG's Bridges (Fabric)
+
+#### Updated Mods
+* Item Scroller: 1.18.1-0.16.0 -> 1.18.2-0.16.0
+* AppleSkin: 2.3.0 -> 2.4.0
+* Enchantment Descriptions: 9.0.13 -> 10.0.3
+* Clumps: 8.0.0+5 -> 8.0.0+8
+* Xaero's Minimap: 22.3.0 -> 22.6.0
+* AntiGhost: 0.43.1-1.1.4 -> 0.47.10-1.1.4
+* Tweakeroo: 0.12.3 -> 0.13.1
+* MaLiLib: 0.11.8 -> 0.12.1
+* Fabric API: 0.46.6 -> 0.51.1
+* Mod Menu: 3.0.1 -> 3.1.1
+* Fabric Language Kotlin: 1.7.1+kotlin.1.6.10 -> 1.7.3+kotlin.1.6.20
+* Litematica: 0.10.4 -> 0.11.2
+* Roughly Enough Items Fabric/Forge (REI): 7.3.443 -> 8.1.449
+* Borderless Mining: 1.1.1 -> 1.1.2
+* Crawl (Fabric): 0.10.2 -> 0.10.6
+* Nbt Crafting (Fabric): 1.18.1-2.1.3 -> 1.18.2-2.1.3
+* Cloth API (Fabric): 3.1.61 -> 3.2.64
+* Xaero's World Map: 1.20.3.1 -> 1.20.6
+* Colormatic: 3.0.0 -> 3.1.1
+* Light Overlay (Rift/Forge/Fabric): 6.0.4 -> 6.0.5
+* Diggus Maximus: 1.5.2 -> 
+* Carpet: 1.4.57 -> 1.4.69
+* Carpet Extra: 1.4.56 -> 1.4.69
+* WI Zoom: 1.3-1.18.1 -> 1.3-1.18.2
+* Not Enough Crashes (Fabric): 4.1.4 -> 4.1.6
+* Open Loader: 11.0.4 -> 12.0.1
+* Lithium (Fabric): 0.7.8 -> 0.7.9
+* RandomBlockPlacement: 0.43.1-1.1.2 -> 0.47.10-1.1.2
+* Dark Paintings: 9.0.3 -> 10.0.1
+* Mo' Structures (Fabric): 1.3.0-pre1 -> 1.4.1
+* Grind Enchantments: 1.5.0 -> 1.6.2
+* 'Slight' Gui Modifications: 2.0.3 -> 2.1.0
+* Sheep Consistency: 1.0.3 -> 1.0.4
+* Repurposed Structures (Fabric): 3.3.12 -> 4.1.6
+* InfiniteVillagerTrading: 0.43.1-1.1 -> 0.47.10-1.1
+* Patchouli (Fabric): 65 -> 67
+* LambdaBetterGrass: 1.2.2 -> 1.2.3
+* AdvancementInfo: 0.43.1-1.3 -> 0.47.10-1.3.1
+* Fabrishot: 1.6.2 -> 1.7.0
+* Fabric Capes: 1.2.2 -> 1.3.0
+* SilkSpawners: 1.1.0 -> 1.1.1
+* Smooth Boot (Fabric): 1.18-1.7.0 -> 1.18.2-1.7.0
+* Architectury API (Fabric): 3.7.37 -> 4.2.50
+* YUNG's API (Fabric): 36 -> 2.0.7
+* Additional Bars [FABRIC]: 2.2.1 -> 3.0.0
+* WTHIT: 4.5.5 -> 4.8.1
+* Wandering Collector: 1.1.1 -> 1.1.2
+* Better Beacon / Conduit: 1.0.7 -> 1.0.8
+* Entity Culling Fabric/Forge: 1.5.0 -> 1.5.1
+* Enhanced Block Entities: 0.5 -> 0.6
+* FerriteCore (Fabric): 4.1.1 -> 4.2.0
+* More Villagers [Fabric]: 3.1.1 -> 3.2.0
+* Gamma Utils: 1.5.5 -> 1.5.6
+* Inventory Profiles Next: 1.18.1-1.3.5 -> 1.18.2-1.3.5
+* Balm (Fabric Edition): 2.4.1+0 -> 3.0.0+0
+* Collective (Fabric): 4.9 -> 4.26
+* Tree Harvester (Fabric): 4.1 -> 5.1
+* Continuity: 1.0.3 -> 1.1.0
+* Animatica: 0.3 -> 0.4
+* Deepslate Instamine - Fabric/Forge: 1.3 -> 1.5
+* Extended Bone Meal (Fabric): 1.4 -> 1.6
+* Double Doors (Fabric): 3.1 -> 3.3
+* Better Spawner Control (Fabric): 1.5 -> 1.6
+* You're in Grave Danger: 1.2.22 -> 1.3.1
+* Puzzles Lib [Fabric]: 3.1.5 -> 3.3.1
+* Forge Config API Port [Fabric]: 3.1.1 -> 3.2.0
+* Easy Magic [Fabric]: 3.2.1 -> 3.3.0
+* TrashSlot (Fabric Edition): 11.0.1 -> 11.0.2
+* Advanced Netherite [FABRIC]: 1.4.0 -> 1.4.1
+* Tiny Skeletons [Fabric]: 3.1.0 -> 3.2.1
+* Surface Mushrooms (Fabric): 1.2 -> 1.4
+* Visual Workbench [Fabric]: 3.1.0 -> 3.2.0
+* Companion 🐕 (Fabric): 1.1.1 -> 2.0.1
+* Feature NBT Deadlock Be Gone: 1.0.1 -> 2.0.0
+* Cauldron Dyeing: 1.0.0 -> 1.0.2
+* Extreme sound muffler (Fabric) Official: 3.22 -> 3.24
+* Trade Cycling: 1.18.1-1.0.2 -> 1.18.2-1.0.2
+* Subterrestrial (Fabric): 1.0.0 -> 1.0.2
+* Minekea (Fabric): 2.1.0 -> 2.3.1
+* Pannotia's Parcels: 1.0.0 -> 1.1.0
+
+
 ### 2022-04-06 (10.1.0)
 #### Updated Mods
 * Architectury API: 3.3.17 -> 3.7.37

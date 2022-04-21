@@ -26,6 +26,7 @@ cd spawn;7z a -tzip ../spawn.zip .;cd ..
 cd spawning-spheres;7z a -tzip ../spawning-spheres.zip .;cd ..
 cd terracotta-rotation-wrench;7z a -tzip ../terracotta-rotation-wrench.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
+cd towers-of-the-wild;7z a -tzip ../towers-of-the-wild.zip .;cd ..
 cd trader-notify;7z a -tzip ../trader-notify.zip .;cd ..
 cd villager-workstation-highlights;7z a -tzip ../villager-workstation-highlights.zip .;cd ..
 cd wandering-trades-hermit-edition;7z a -tzip ../wandering-trades-hermit-edition.zip .;cd ..
