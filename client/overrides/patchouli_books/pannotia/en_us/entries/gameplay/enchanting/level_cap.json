@@ -1,0 +1,15 @@
+{
+  "name": "Level Cap",
+  "icon": "minecraft:experience_bottle",
+  "category": "patchouli:wp_gameplay/enchanting",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "When enchanting end-game items, it can be frustrating to get the \"Too Expensive!\" message in an anvil. In this pack, we have removed the limit on anvils, so you can enchant away to your heart's content! Additionally, enchantments are no longer capped at 2, 3, or 5 levels. Bring on the Looting X/Smite X/Sweeping X netherite sword!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "On top of that, mutually exclusive enchantments can now be stacked on a single piece of gear. No need to load a 1.16.4 world to get armor with all four protection types!"
+    }
+  ]
+}

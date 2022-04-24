@@ -1,0 +1,36 @@
+{
+  "name": "More Villagers",
+  "icon": "morevillagers:blueprint_table",
+  "category": "patchouli:wp_villagers",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "We have a number of new villager professions included in this pack! Some are provided by the $(o)More Villagers$() mod, and others are from the $(o)Miniblock Traders$() datapack."
+    },
+    {
+      "type": "patchouli:empty"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "Miniblock Traders",
+      "text": "As you play, you may come across \"special\" versions of items such as redstone, blaze powder, etc. Throw one of these items at a villager to change them to the corresponding miniblock trader. $(l)This will overwrite any trades they already have!$()",
+      "url": "https://www.planetminecraft.com/data-pack/miniblock-traders/",
+      "link_text": "Planet MC Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:villagers/miniblock-traders-1.png", "patchouli:villagers/miniblock-traders-2.png", "patchouli:villagers/miniblock-traders-3.png"]
+    },
+    {
+      "type": "patchouli:link",
+      "title": "More Villagers",
+      "text": "For the professions coming from $(o)More Villagers$(), you simply craft their workstation and grant the villager their profession like normal.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:villagers/more-villagers.png"]
+    }
+  ]
+}

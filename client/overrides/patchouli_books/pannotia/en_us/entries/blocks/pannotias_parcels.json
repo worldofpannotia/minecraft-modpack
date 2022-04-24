@@ -1,0 +1,53 @@
+{
+  "name": "Pannotia's Parcels",
+  "icon": "pannotiasparcels:compressed_stone_4x",
+  "category": "patchouli:wp_blocks",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Pannotia's Parcels is a mod made specifically for this pack. It is currently fairly light on content, but will grow over time.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/pannotias-parcels",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "text",
+      "text": "At the moment, the mod solely contains various compressed blocks suitable for bulk storage of common items as well as for building."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "patchouli:blocks/pannotias_parcels/bamboo.jpg",
+        "patchouli:blocks/pannotias_parcels/sugar_cane.jpg",
+        "patchouli:blocks/pannotias_parcels/sticks.jpg",
+        "patchouli:blocks/pannotias_parcels/compressed_1.jpg",
+        "patchouli:blocks/pannotias_parcels/compressed_2.jpg"
+      ],
+      "text": "The current content of the mod"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pannotiasparcels:bamboo_bundle",
+      "recipe2": "pannotiasparcels:cane_bundle",
+      "title": "Recipes"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pannotiasparcels:stick_bundle",
+      "title": "Recipes"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pannotiasparcels:compressed_cobblestone_1x",
+      "recipe2": "pannotiasparcels:compressed_cobblestone_2x",
+      "title": "Compressed Blocks",
+      "text": "Also available in stone, dirt,"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "pannotiasparcels:compressed_cobblestone_3x",
+      "recipe2": "pannotiasparcels:compressed_cobblestone_4x",
+      "title": "Compressed Blocks",
+      "text": "sand, or gravel!"
+    }
+  ]
+}

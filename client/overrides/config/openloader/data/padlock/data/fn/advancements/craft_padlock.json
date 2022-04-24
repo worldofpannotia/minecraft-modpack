@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft_padlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fn:padlock"
+      }
+    }
+  },
+  "rewards": {
+    "function": "fn:craft/padlock"
+  }
+}

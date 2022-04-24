@@ -1,0 +1,15 @@
+{
+  "name": "Homes",
+  "icon": "minecraft:compass",
+  "category": "patchouli:wp_exploration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To make it easier to get around the world, we have included a couple of datapacks which allow you to set a home location and teleport there with a command. For more information, open your Advancements screen, select the \"Vanilla Tweaks\" tab, and hover over the door icon."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "We have also included a \"back\" command, so you can get right $(o)back$() to what you were doing!$(br2)Note: that you cannot teleport to an unloaded area, so while you may be able to teleport $(o)home$(), you may not always be able to teleport directly $(o)back$()."
+    }
+  ]
+}

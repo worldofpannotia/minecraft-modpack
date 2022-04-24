@@ -1,0 +1,15 @@
+{
+  "name": "Nether Portals",
+  "icon": "minecraft:obsidian",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Linking up nether portals can be a pain! Fortunately, we include a datapack which takes all the guesswork out of the equation. Simply type $(o)/function nether_portal_coords:overworld$() or $(o)/function nether_portal_coords:nether$() (based on your current dimension). You'll see a message telling you where to place a portal in the other dimension to properly link them!"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:gameplay/other/nether_portal_1.png", "patchouli:gameplay/other/nether_portal_2.png"]
+    }
+  ]
+}

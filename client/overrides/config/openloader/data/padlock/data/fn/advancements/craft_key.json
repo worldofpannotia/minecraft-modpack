@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft_key": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fn:key"
+      }
+    }
+  },
+  "rewards": {
+    "function": "fn:craft/key"
+  }
+}

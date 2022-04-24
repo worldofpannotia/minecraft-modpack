@@ -1,3 +1,694 @@
+### 2022-04-23 (11.0.0)
+#### Breaking Changes
+* With the update to 1.18.2, a few mods had to be removed. There are also some big differences under the hood between 1.18.1 and 1.18.2, meaning several mods have undergone significant refactoring. Therefore, this update is considered a breaking change. Back up your world before upgrading!
+
+#### Added Mods
+* Sponj
+* Towers of the Wild: Reworked (Datapack)
+
+#### Removed Mods
+* BetterF3
+* Towers of the Wild: Reworked (Fabric)
+
+#### Temporarily Removed Mods (not yet 1.18.2)
+* Aliven't Messenger
+* Sky Villages [Fabric]
+* Traveler's Titles (Fabric)
+* YUNG's Better Dungeons (Fabric)
+* YUNG's Better Mineshafts (Fabric)
+* YUNG's Better Strongholds (Fabric)
+* YUNG's Bridges (Fabric)
+* YUNG's Extras (Fabric)
+
+#### Updated Mods
+* Additional Bars [FABRIC]: 2.2.1 -> 3.0.0
+* Advanced Netherite [FABRIC]: 1.4.0 -> 1.4.1
+* AdvancementInfo: 0.43.1-1.3 -> 0.47.10-1.3.1
+* Animatica: 0.3 -> 0.4
+* AntiGhost: 0.43.1-1.1.4 -> 0.47.10-1.1.4
+* AppleSkin: 2.3.0 -> 2.4.0
+* Architectury API (Fabric): 3.7.37 -> 4.2.50
+* Balm (Fabric Edition): 2.4.1+0 -> 3.0.0+0
+* Better Beacon / Conduit: 1.0.7 -> 1.0.8
+* Better Spawner Control (Fabric): 1.5 -> 1.6
+* Borderless Mining: 1.1.1 -> 1.1.2
+* Carpet Extra: 1.4.56 -> 1.4.72
+* Carpet: 1.4.57 -> 1.4.69
+* Cauldron Dyeing: 1.0.0 -> 1.0.2
+* Cloth API (Fabric): 3.1.61 -> 3.2.64
+* Clumps: 8.0.0+5 -> 8.0.0+8
+* Collective (Fabric): 4.9 -> 4.26
+* Colormatic: 3.0.0 -> 3.1.1
+* Companion 🐕 (Fabric): 1.1.1 -> 2.0.1
+* Continuity: 1.0.3 -> 1.1.0
+* Crawl (Fabric): 0.10.2 -> 0.10.6
+* Dark Paintings: 9.0.3 -> 10.0.1
+* Deepslate Instamine - Fabric/Forge: 1.3 -> 1.5
+* Diggus Maximus: 1.5.2 -> 
+* Double Doors (Fabric): 3.1 -> 3.3
+* Easy Magic [Fabric]: 3.2.1 -> 3.3.0
+* Enchantment Descriptions: 9.0.13 -> 10.0.3
+* Enhanced Block Entities: 0.5 -> 0.6
+* Entity Culling Fabric/Forge: 1.5.0 -> 1.5.1
+* Extended Bone Meal (Fabric): 1.4 -> 1.6
+* Extreme sound muffler (Fabric) Official: 3.22 -> 3.24
+* Fabric API: 0.46.6 -> 0.51.1
+* Fabric Capes: 1.2.2 -> 1.3.0
+* Fabric Language Kotlin: 1.7.1+kotlin.1.6.10 -> 1.7.4+kotlin.1.6.21
+* Fabrishot: 1.6.2 -> 1.7.0
+* Feature NBT Deadlock Be Gone: 1.0.1 -> 2.0.0
+* FerriteCore (Fabric): 4.1.1 -> 4.2.0
+* Forge Config API Port [Fabric]: 3.1.1 -> 3.2.0
+* Gamma Utils: 1.5.5 -> 1.5.6
+* Grind Enchantments: 1.5.0 -> 1.6.3
+* InfiniteVillagerTrading: 0.43.1-1.1 -> 0.47.10-1.1
+* Inventory Profiles Next: 1.18.1-1.3.5 -> 1.18.2-1.3.5
+* Item Scroller: 1.18.1-0.16.0 -> 1.18.2-0.16.0
+* LambdaBetterGrass: 1.2.2 -> 1.2.3
+* Light Overlay (Rift/Forge/Fabric): 6.0.4 -> 6.0.5
+* Litematica: 0.10.4 -> 0.11.2
+* Lithium (Fabric): 0.7.8 -> 0.7.9
+* MaLiLib: 0.11.8 -> 0.12.1
+* Minekea (Fabric): 2.1.0 -> 2.3.2
+* Mo' Structures (Fabric): 1.3.0-pre1 -> 1.4.1
+* Mod Menu: 3.0.1 -> 3.1.1
+* More Villagers [Fabric]: 3.1.1 -> 3.2.0
+* Nbt Crafting (Fabric): 1.18.1-2.1.3 -> 1.18.2-2.1.3
+* Not Enough Crashes (Fabric): 4.1.4 -> 4.1.6
+* Open Loader: 11.0.4 -> 12.0.1
+* Pannotia's Parcels: 1.0.0 -> 1.1.0
+* Patchouli (Fabric): 65 -> 67
+* Puzzles Lib [Fabric]: 3.1.5 -> 3.3.1
+* RandomBlockPlacement: 0.43.1-1.1.2 -> 0.47.10-1.1.2
+* Repurposed Structures (Fabric): 3.3.12 -> 4.1.6
+* Roughly Enough Items Fabric/Forge (REI): 7.3.443 -> 8.1.449
+* Sheep Consistency: 1.0.3 -> 1.0.4
+* SilkSpawners: 1.1.0 -> 1.1.1
+* 'Slight' Gui Modifications: 2.0.3 -> 2.1.0
+* Smooth Boot (Fabric): 1.18-1.7.0 -> 1.18.2-1.7.0
+* Subterrestrial (Fabric): 1.0.0 -> 1.0.2
+* Surface Mushrooms (Fabric): 1.2 -> 1.4
+* Tiny Skeletons [Fabric]: 3.1.0 -> 3.2.1
+* Trade Cycling: 1.18.1-1.0.2 -> 1.18.2-1.0.2
+* TrashSlot (Fabric Edition): 11.0.1 -> 11.0.2
+* Tree Harvester (Fabric): 4.1 -> 5.1
+* Tweakeroo: 0.12.3 -> 0.13.1
+* Visual Workbench [Fabric]: 3.1.0 -> 3.2.0
+* Wandering Collector: 1.1.1 -> 1.1.2
+* WI Zoom: 1.3-1.18.1 -> 1.3-1.18.2
+* WTHIT: 4.5.5 -> 4.8.1
+* Xaero's Minimap: 22.3.0 -> 22.6.1
+* Xaero's World Map: 1.20.3.1 -> 1.20.7
+* You're in Grave Danger: 1.2.22 -> 1.3.1
+* YUNG's API (Fabric): 36 -> 2.0.7
+
+
+### 2022-04-06 (10.1.0)
+#### Updated Mods
+* Architectury API: 3.3.17 -> 3.7.37
+* Charcoal+: 1.1.1 -> 1.1.2
+* CIT Resewn: 0.9.1 -> 1.0.1
+* Collective: 4.4 -> 4.9
+* CompleteConfig: 1.3.3 -> 1.4.0
+* Custom Entity Models: 0.7.0 -> 0.7.1
+* Inventory Profiles Next: 1.3.1 -> 1.3.5
+* Item Scroller: 0.15.0 -> 0.16.0
+* Litematica: 0.10.1 -> 0.10.4
+* Lithium: 0.7.7 -> 0.7.8
+* MaLiLib: 0.11.6 -> 0.11.8
+* Minekea: 2.0.0 -> 2.1.0
+* NBT Crafting: 2.1.0 -> 2.1.3
+* Roughly Enough Items: 7.2.425 -> 7.3.443
+* WTHIT: 4.5.1 -> 4.5.5
+* Xaero's Minimap: 1.20.1 -> 1.20.3.1
+* Xaero's Minimap: 22.1.2 -> 22.3.0
+* You're In Grave Danger: 1.2.16 -> 1.2.22
+
+
+### 2022-03-28 (10.0.0)
+#### Breaking Changes
+* Because the Shelf Storage mod ID has changed, this is technically a breaking change in the pack (hence the major version bump)! If you have a world which uses blocks such as the variant bookshelves or storage bookshelves, you need to remove them before updating. Any blocks not removed will get deleted (along with their contents) when your world is loaded!
+
+#### Updated Mods
+* Shelf Storage: 1.1.1 -> 2.0.0 (now called "Minekea")
+
+
+### 2022-03-21 (9.0.0-beta.10)
+
+#### Updated Mods
+* Shelf Storage: 1.1.0 -> 1.1.1
+
+
+### 2022-03-20 (9.0.0-beta.9)
+
+#### Updated Mods
+* Shelf Storage: 1.0.1 -> 1.1.0
+
+
+### 2022-03-15 (9.0.0-beta.8)
+
+#### Config Changes
+* Add upgraded netherite hoes to Improved Hoes config
+* Update some loot tables for YUNG's Better Strongholds to include things from our datapacks
+
+#### Added Mods
+* Shelf Storage
+* Traveler's Titles
+* YUNG's Better Dungeons
+* YUNG's Better Mineshafts
+* YUNG's Better Strongholds
+* YUNG's Bridges
+* YUNG's Extras
+
+#### Removed Mods
+* (Datapack) Shelf Storage
+* Effective
+
+#### Updated Mods
+* Fabric API: 0.46.4 -> 0.46.6
+* Repurposed Structures: 3.3.9 -> 3.3.12
+
+
+### 2022-02-11 (9.0.0-beta.7)
+
+#### Config Changes
+* Minor tweak to zombie loot table
+
+#### Added Mods
+* (Datapack) Global Trades
+* InfiniteVillagerTrading
+* Sky Villages (yes, you read that right)
+* Subterrestrial
+* You're in Grave Danger
+
+#### Removed Mods
+* (Datapack) Graves: removed in favor of Fabric mod that should be less error-prone
+* Infinite Trading (Fabric): removed in favor of a different mod that will hopefully work more reliably
+
+#### Updated Mods
+* Architectury API: 3.5.12 -> 3.6.17
+* Better Mount HUD: 1.1.3 -> 1.1.4
+* Cloth Config API: 6.1.48 -> 6.2.57
+* Collective: 3.14 -> 4.4
+* Enchantment Descriptions: 9.0.12 -> 9.0.13
+* Entity Culling: 1.3.3 -> 1.5.0
+* Fabric API: 0.46.1 -> 0.46.4
+* Fabrishot: 1.6.0 -> 1.6.2
+* FerriteCore: 4.0.0 -> 4.1.1
+* Inventory Profiles Next: 1.2.4 -> 1.3.1
+* Language Reload: 1.2 -> 1.2.1
+* MaLiLib: 0.11.5 -> 0.11.6
+* Patchouli: 64 -> 65
+* Puzzles Lib: 3.1.3 -> 3.1.5
+* Repurposed Structures: 3.3.6 -> 3.3.9
+* Roughly Enough Items: 7.2.416 -> 7.2.425
+* Towers of the Wild: Reworked: 2.1.0 -> 2.1.1
+* Trade Cycling: 1.0.1 -> 1.0.2
+* Tweakeroo: 0.12.1 -> 0.12.3
+* WTHIT: 4.4.1 -> 4.5.1
+* Xaero's Minimap: 22.1.1 -> 22.1.2
+* YUNG's API: 35 -> 36
+
+
+### 2022-01-30 (9.0.0-beta.6)
+
+#### Updated Mods
+* Architectury API (Fabric): 3.5.11 -> 3.5.12
+
+
+### 2022-01-30 (9.0.0-beta.5)
+
+#### Notable Changes
+* Armored Elytra and Effective Netherite now support upgraded netherite armor
+* Added some new things to find in strongholds, woodland mansions, and (sometimes) everyday villager houses
+  * You may also find something if you're fishing or killing zombies
+* Wandering traders may now occasionally sell you back items you've lost!
+
+#### Bug Fixes
+* Fix issue with ancient debris bartering datapack which caused other datapacks to fail as well
+
+#### Added Mods
+* (Datapack) Armored Elytra: more flexible implementation of the armor+elytra concept
+* Fix Experience Bug: fixes the issue where your XP doesn't display after switching dimensions
+* Lithium: general-purpose optimizations and performance enhancements
+* Trade Cycling: adds a button to villagers who haven't been traded with that lets you cycle their trades without breaking/replacing their workstation
+* Wandering Collector: dropped/lost items (from players) get saved to a list and potentially added to wandering trader offerings
+
+#### Removed Mods
+* (Datapack) Plated Elytra
+
+#### Updated Mods
+* AppleSkin: 2.2.0 -> 2.3.0
+* Architectury API (Fabric): 3.4.9 -> 3.5.11
+* Armored Elytra: 3.0.1 -> 3.0.2
+* Crawl (Fabric): 0.10.1 -> 0.10.2
+* Fabric API: 0.46.0 -> 0.46.1
+* FastOpenLinksAndFolders: 1.0.1 -> 1.1.0
+* Repurposed Structures (Fabric): 3.3.3 -> 3.3.6
+* Roughly Enough Items Fabric/Forge (REI): 7.1.390 -> 7.2.416
+* Slight GUI Modifications: 2.0.2 -> 2.0.3
+* Xaero's Minimap: 22.1.0 -> 22.1.1
+* Xaero's World Map: 1.20.0 -> 1.20.1
+
+
+### 2022-01-24 (9.0.0-beta.4)
+
+#### Bug Fixes
+* Fix some issues with recipes/tags in the Pannotia datapack
+
+#### Removed Mods
+* Better Azalea
+
+
+### 2022-01-23 (9.0.0-beta.3)
+
+#### Notable Changes
+* Removed Sodium and related mods for now due to instability on 1.18
+
+#### Removed Mods
+* Indium
+* Iris Shaders
+* Reese's Sodium Options
+* Sodium
+* Sodium Extra
+
+
+### 2022-01-23 (9.0.0-beta.2)
+
+#### Added Mods
+* Additional Bars \[Fabric\]: adds some new bars (like vanilla's iron bars), including horizontal ones
+* Advanced Netherite \[Fabric\]: moar netherite!
+* Aliven't Messenger: server utility to log the death of nametagged entities (hopefully help in future "bees disappearing" situations)
+* (Datapack) Ancient Debris Bartering: adds a very small chance to get ancient debris from piglin bartering (intended to go along with the Advanced Netherite mod)
+* Armored Elytra: display both your armor and elytra after merging
+* Better Azalea: new wood type
+* Cauldron Dyeing: parity with how Bedrock allows dyeing leather armor and stuff via cauldrons
+* Charcoal+ \[Fabric\]: tiny coal/charcoal and charcoal blocks
+* Chat Up!: moves the chat overlay up 10px to stop overlap with armor bar
+* Concrete Conversion: throw concrete in water to convert it
+* Crawl (Fabric): crawling without a trapdoor
+* Dark Paintings: moar paintings
+* EffectsLeft (Fabric/Quilt): move status effects to the left of your inventory instead of the right (where it overlaps with REI)
+* Extreme Sound Muffler (Fabric): better targeted muting of sounds
+* Feature NBT Deadlock Be Gone: new required dependency for Repurposed Structures
+* Fire Spread Tweaks: fire no longer burns forever unless placed on netherrack, magma, or soul sand
+* Horse Stats Vanilla (Fabric): shows how good your horses are.. less guessing
+* Just Enough Keys \[JEK\] \[Fabric\]: better than Controlling, plus it allows mapping modified keys (e.g. "Ctrl + ," or "Alt + j")
+* More Villagers \[Fabric\]: adds a few more villager types with new trades
+* Pet Transfer: lets you transfer ownership of your tamed mobs to another player
+* Tiny Skeletons \[Fabric\]: adds "baby" variants of skeletons, strays, and wither skeletons. Beware!
+* Zombie Horse Spawn (Fabric): adds a small chance that a newly spawned zombie will be riding a horse
+
+#### Updated Mods
+* Balm (Fabric Edition): 2.4.0+0 -> 2.4.1+0
+* Carpet: 1.4.56 -> 1.4.57
+* CIT Resewn: 0.8.2 -> 0.9.1
+* Cloth API (Fabric): 3.0.55 -> 3.1.61
+* Clumps: 8.0.4 -> 8.0.0+5
+* Dynamic FPS: 2.0.6 -> 2.1.0
+* Enchantment Descriptions: 9.0.9 -> 9.0.12
+* Fabric API: 0.45.2 -> 0.46.0
+* Gamma Utils: 1.5.4 -> 1.5.5
+* Indium: 1.0.2-alpha.1 -> 1.0.2-alpha.2
+* Inventory Profiles Next: 1.2.3 -> 1.2.4
+* Iris Shaders: 1.1.4 -> 1.1.5
+* Item Scroller: 0.15.0 -> 0.15.0
+* Litematica: 0.9.0 -> 0.10.1
+* MaLiLib: 0.10.0-dev.26 -> 0.11.5
+* No Null Processors: 2.0.0 -> 2.0.1
+* Not Enough Crashes (Fabric): 4.1.3 -> 4.1.4
+* Open Loader: 11.0.3 -> 11.0.4
+* Repurposed Structures (Fabric): 3.2.0 -> 3.3.3
+* Roughly Enough Items (REI): 7.1.361 -> 7.1.390
+* Sodium: 0.4.0-alpha.5-build.9 -> 0.4.0-alpha.6
+* Sodium Extra: 0.3.7 -> 0.3.8
+* Tweakeroo: 0.11.0 -> 0.12.1
+* Xaero's Minimap: 21.23.0 -> 22.1.0
+* Xaero's World Map: 1.19.0 -> 1.20.0
+
+#### Removed Mods
+* (Datapack) Blasted Ore Blocks
+* Controlling: removed in favor of JEK
+* (Datapack) Crafty Oxidization
+* (Datapack) Further Fermentation
+* (Datapack) Layers2Blocks
+* Omega Mute (Fabric): removed in favor of Extreme Sound Muffler
+* (Datapack) Recyclables
+* (Datapack) Vanilla Tweaks
+
+
+### 2022-01-13 (9.0.0-beta.1)
+
+#### Notable Changes
+* _Actually_ remove the Leaves Us In Peace mod instead of just saying it...
+
+
+### 2022-01-13 (9.0.0-beta.0)
+
+#### Removed Mods
+* Leaves Us In Peace: the Tree Harvesting mod gives us enough of what we need... this turned out to be overly aggressive
+* Terralith: turns out you can't turn this on/off on a per-world basis
+
+#### Updated Mods
+* Fabric API: 0.45.1 -> 0.45.2
+* Roughly Enough Items: 7.1.357 -> 7.1.361
+
+
+### 2022-01-12 (9.0.0-alpha.10)
+
+#### Notable Changes
+* Actually update the mods that were supposed to be updated in alpha.9
+
+
+### 2022-01-11 (9.0.0-alpha.9)
+
+#### Removed Mods
+* Inventory Sorting: replaced by the Inventory Profiles Next mod
+* Tax Free Levels: no longer needed due to improvements to the No Enchant Cap mod
+* (Datapack) Fast Leaf Decay: removed in favor of mod that should hopefully work better
+
+#### Added Mods
+* [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)
+* [Carpet Extra](https://www.curseforge.com/minecraft/mc-mods/carpet-extra)
+* [Companion 🐕 (Fabric)](https://www.curseforge.com/minecraft/mc-mods/companion-fabric): quality-of-life improvements for pets and stuff
+* [Easy Magic (Fabric)](https://www.curseforge.com/minecraft/mc-mods/easy-magic-fabric)
+* [Inventory Profiles Next](https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next)
+* [Leaves Us In Peace](https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace): (hopefully) better fast leaf decay than what we currently have
+* [Now Playing](https://www.curseforge.com/minecraft/mc-mods/now-playing)
+* [Pannotia's Parcels](https://www.curseforge.com/minecraft/mc-mods/pannotias-parcels)
+* [Pretty Beaches (Fabric)](https://www.curseforge.com/minecraft/mc-mods/pretty-beaches-fabric)
+* [Terralith 2.0 ~ Overworld Evolved](https://www.curseforge.com/minecraft/mc-mods/terralith)
+* [TrashSlot (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition)
+
+#### Updated Mods
+* Cloth API (Fabric): 2.0.54 -> 3.0.55
+* Compostable Rotten Flesh (Fabric): 1.0.0 -> 1.0.0 (official 1.18 update)
+* Controlling: 9.0.8 -> 9.0.11
+* Enchantment Descriptions: 9.0.8 -> 9.0.9
+* Fabric API: 0.45.1 -> 0.45.2
+* Forge Config API Port \[Fabric\]: 3.1.0 -> 3.1.1
+* Iris Shaders: 1.1.3 -> 1.1.4
+* No Enchant Cap: 2.0.2 -> 2.1.1
+* Reese's Sodium Options: 1.2.4 -> 1.3.0
+* Xaero's Minimap: 21.23.0 -> 21.23.1
+* Xaero's World Map: 1.19.0 -> 1.19.1
+
+
+### 2022-01-06 (9.0.0-alpha.8)
+
+#### Fixes
+* Fix compatibility issue with Compostable Rotten Flesh
+
+#### Changes
+* Actually remove the grinding cost for removing enchants (instead of hotfixing on the server manually)
+
+
+### 2022-01-06 (9.0.0-alpha.7)
+
+#### Notable Changes
+* This update includes changes to resource packs and datapacks. Before updating, it is recommended to delete your `config/openloader` directory to ensure things don't conflict.
+
+#### Fixes
+* Fixed texture for redstone/terracotta rotation wrench
+
+#### Changes
+* Replace slime and shulker skull textures with better ones
+* Remove Vanilla Tweaks resource pack to allow players to choose their own texture/gui tweaks.
+* Make dyed shulker boxes stackable as well
+
+#### Added Mods
+* Axolotl Bucket Fix: makes it so the item texture matches the color/type of the actual axolotl (actualotl?) captured.
+
+#### Updated Mods
+* Animatica: 0.2 -> 0.3
+* Architectury API (Fabric): 3.3.5 -> 3.4.9
+* CIT Reswen: 0.8.1 -> 0.8.2
+* Colormatic: 2.4.0 -> 3.0.0
+* Controlling: 9.0.7 -> 9.0.8
+* Enchantment Descriptions: 9.0.5 -> 9.0.8
+* Fabric API: 0.45.0 -> 0.45.1
+* FastOpenLinksAndFolders: 1.0.0 -> 1.0.1
+* Inventory Sorting: 1.8.1 -> 1.8.3
+* Open Loader: 11.0.2 -> 11.0.3
+* Patchouli (Fabric): 63 -> 64
+* Repurposed Structures (Fabric): 3.1.12 -> 3.2.0
+* WTHIT: 4.4.0 -> 4.4.1
+
+
+### 2021-12-29 (9.0.0-alpha.6)
+
+#### Added Mods
+* Controlling: better UX around key binds
+
+#### Fixes
+* Fix issue with datapacks and resource packs not loading
+
+
+### 2021-12-29 (9.0.0-alpha.5)
+
+#### Notable Changes
+* Version bumps for various mods, including official 1.18 support for several
+* The rest(?) of the datapacks should be loading
+
+#### Release Progress
+##### Beta
+* YUNG's Better mods (coming soon)
+* Actual 1.18 support from all mods in the pack (may not fully block)
+
+##### 9.0.0 "gold"
+* Finalize default configs for mods in the pack
+
+#### Mod List (not incl. library/support mods)
+##### Cosmetic & Utility
+* [Advancement Screenshot (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/advancement-screenshot-fabric)
+* [AdvancementInfo (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/advancementinfo)
+* [Animatica (by FoundationGames)](https://www.curseforge.com/minecraft/mc-mods/animatica)
+* [AppleSkin (by squeek502)](https://www.curseforge.com/minecraft/mc-mods/appleskin)
+* [AntiGhost (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/antighost)
+* [BetterF3 (by cominixo)](https://www.curseforge.com/minecraft/mc-mods/betterf3)
+* [Borderless Mining (by comp500)](https://www.curseforge.com/minecraft/mc-mods/borderless-mining)
+* [Fabric Capes (by VictorKohler)](https://www.curseforge.com/minecraft/mc-mods/capes)
+* [Cherished Worlds (Fabric) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/cherished-worlds-fabric)
+* [CleanCut (by Rongmario)](https://www.curseforge.com/minecraft/mc-mods/cleancut)
+* [Crafting Tweaks (Fabric Edition) (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks-fabric)
+* [Custom Entity Models (CEM) (by dorianpb)](https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem)
+* [Death Backup (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/death-backup-fabric)
+* [Enchantment Descriptions (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+* [Fabrishot (by ramidzkh)](https://www.curseforge.com/minecraft/mc-mods/fabrishot)
+* [Inventory Sorting (by Kyrptonaught)](https://www.curseforge.com/minecraft/mc-mods/inventory-sorting)
+* [Iris Shaders (by coderbot)](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+* [Item Scroller (by masady)](https://www.curseforge.com/minecraft/mc-mods/item-scroller)
+* [Just Player Heads (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/just-player-heads-fabric)
+* [Light Overlay (Rift/Forge/Fabric) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/light-overlay)
+* [Litematica (by masady)](https://www.curseforge.com/minecraft/mc-mods/litematica)
+* [No Fade (by UltimateBoomer)](https://www.curseforge.com/minecraft/mc-mods/no-fade)
+* [No Recipe Book (Fabric) (by Gray_ray)](https://www.curseforge.com/minecraft/mc-mods/norecipebook-fabric)
+* [Omega Mute (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/omega-mute-fabric)
+* [Patchouli (Fabric) (by williewillus)](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric)
+* [Roughly Enough Items Fabric (REI) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
+* [Scaffolding Drops Nearby (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby-fabric)
+* [Sheep Consistency (by IMS21)](https://www.curseforge.com/minecraft/mc-mods/sheep-consistency)
+* ['Slight' Gui Modifications (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications)
+* [Tweakeroo (by masady)](https://www.curseforge.com/minecraft/mc-mods/tweakeroo)
+* [Visual Workbench [Fabric] (by Fuzs_)](https://www.curseforge.com/minecraft/mc-mods/visual-workbench-fabric)
+* [WI Zoom (by alexander9892)](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
+* [WTHIT (by badasintended)](https://www.curseforge.com/minecraft/mc-mods/wthit)
+
+##### Performance & Tweaks
+* [Clumps (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/clumps)
+* [Dynamic FPS (by juliand665)](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps)
+* [Indium (by comp500)](https://www.curseforge.com/minecraft/mc-mods/indium)
+* [Sodium Extra (by FlashyReese)](https://www.curseforge.com/minecraft/mc-mods/sodium-extra)
+* [Sodium (by jellysquid3_)](https://www.curseforge.com/minecraft/mc-mods/sodium)
+
+##### World Generation & Exploration
+* [Better Spawner Control (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-spawner-control-fabric)
+* [Effective 💦 (by doctor4t)](https://www.curseforge.com/minecraft/mc-mods/effective)
+* [LambdaBetterGrass (by LambdAurora)](https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass)
+* [LambDynamicLights (by LambdAurora)](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights)
+* [Mo' Structures (Fabric) (by ffrannny)](https://www.curseforge.com/minecraft/mc-mods/mo-structures)
+* [Repurposed Structures (Fabric) (by telepathicgrunt)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures-fabric)
+* [Towers of the Wild: Reworked (Fabric) (by xPand_4B)](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild-reworked)
+* [Xaero's Minimap (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap)
+* [Xaero's World Map (by xaero96)](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+
+##### Gameplay
+* [All Arrows Infinity Fix (by Jackbusters1)](https://www.curseforge.com/minecraft/mc-mods/all-arrows-infinity-fix)
+* [Auto Third Person (by quat1024)](https://www.curseforge.com/minecraft/mc-mods/auto-third-person)
+* [Better Beacon / Conduit (by sfort__)](https://www.curseforge.com/minecraft/mc-mods/better-beacon)
+* [Better Beacon Placement (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement-fabric)
+* [Better Conduit Placement (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement-fabric)
+* [Better Mount HUD (by Lortseam_)](https://www.curseforge.com/minecraft/mc-mods/better-mount-hud)
+* [Better Than Mending (by legobmw99)](https://www.curseforge.com/minecraft/mc-mods/better-than-mending)
+* [Crying Portals (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/crying-portals-fabric)
+* [Cycle Paintings (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/cycle-paintings-fabric)
+* [Deepslate Instamine - Fabric/Forge (by nicguzzo)](https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine)
+* [Diggus Maximus (by Kyrptonaught)](https://www.curseforge.com/minecraft/mc-mods/diggus-maximus)
+* [Discontinuous Beacon Beams (by supersaiyansubtlety)](https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams)
+* [Dismount Entity (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/dismount-entity-fabric)
+* [Double Doors (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/double-doors-fabric)
+* [Edibles (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/edibles-fabric)
+* [Extended Bone Meal (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal-fabric)
+* [Gamma Utils (by Sjouwer)](https://www.curseforge.com/minecraft/mc-mods/gamma-utils)
+* [Grass Seeds (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/grass-seeds-fabric)
+* [Grind Enchantments (by mschae23)](https://www.curseforge.com/minecraft/mc-mods/grind-enchantments)
+* [Hand Over Your Items (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/hand-over-your-items-fabric)
+* [Ice Prevents Crop Growth (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric)
+* [Improved Hoes (by Furgle)](https://www.curseforge.com/minecraft/mc-mods/improved-hoes)
+* [Infinite Trading (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/infinite-trading-fabric)
+* [Inventory Totem (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/inventory-totem-fabric)
+* [Keep My Soil Tilled (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled-fabric)
+* [Keep Head Names (Fabric/Forge) (by Fourmisain)](https://www.curseforge.com/minecraft/mc-mods/keepheadnames)
+* [Kelp Fertilizer (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/kelp-fertilizer-fabric)
+* [Lenient Stack Size (by zoeytheegoist)](https://www.curseforge.com/minecraft/mc-mods/lenient-stack-size)
+* [No Enchant Cap (by AmyMialee)](https://www.curseforge.com/minecraft/mc-mods/no-enchant-cap)
+* [Quick Paths (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/quick-paths-fabric)
+* [Rain Be Gone Ritual (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual-fabric)
+* [Random Bone Meal Flowers (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers-fabric)
+* [RandomBlockPlacement (by Giselbaer)](https://www.curseforge.com/minecraft/mc-mods/randomblockplacement)
+* [SilkSpawners (by LordDeatHunter)](https://www.curseforge.com/minecraft/mc-mods/silkspawners)
+* [Simple Measuring (by MrTurtle2005)](https://www.curseforge.com/minecraft/mc-mods/simple-measuring)
+* [Softer Hay Bales (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales-fabric)
+* [Superflat World No Slimes (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes-fabric)
+* [Surface Mushrooms (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms-fabric)
+* [Tax Free Levels (by Fourmisain)](https://www.curseforge.com/minecraft/mc-mods/tax-free-levels)
+* [Tree Harvester (Fabric) (by Serilum)](https://www.curseforge.com/minecraft/mc-mods/tree-harvester-fabric)
+* [Villagers follow Emeralds [Fabric] (by matjojo1000)](https://www.curseforge.com/minecraft/mc-mods/villagers-follow-emeralds-fabric)
+
+
+### 2021-12-22 (9.0.0-alpha.4)
+
+#### Notable Changes
+* Several minor mod additions and config tweaks
+* Some datapacks now included
+
+
+### 2021-12-20 (9.0.0-alpha.3)
+
+#### Notable Changes
+* Fabric upgrade
+* Mods mods mods!
+
+
+### 2021-12-20 (9.0.0-alpha.2)
+
+First alpha release of the 9.x line!
+
+#### Credits and Goals
+This version of the pack started out as a fork of Fabulously Optimized. We have made several additions to the mod list as well and plan to add a number datapacks. For this version of the pack, our goal is to stay as close to vanilla Minecraft as possible while adding some quality-of-life features and improved world generation. Essentially, you should be able to take a world created in this pack and load it in a completely un-modded Minecraft instance with zero issues. The biggest benefit we see from this is the ability to have a world that lasts across several major versions (or potentially even a "forever" world).
+
+#### Notable Changes
+* Fabric!
+  * This version of the pack uses the Fabric mod loader instead of Forge.
+
+
+### 2021-09-20 (8.18.0)
+
+#### Updated Mods
+* Alex's Mobs: 1.12.0 -> 1.12.1
+* CraftTweaker: 7.1.2.426 -> 7.1.2.431
+
+
+### 2021-09-20 (8.18.0-beta.0)
+
+#### Notable Changes
+* Abnormals Delight: several new food items
+* Alex's Mobs: added seagulls, plus lots of other new stuff! ([changelog](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs/files/3440131))
+* Supplementaries: tons of new stuff! See the links below for the changelogs for both major updates.
+  * [v0.16.0/0.16.1: The Explosive Update](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/3454417)
+  * [v0.17.0/0.17.1: The Enchantments & Enhancements update](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/3466032)
+
+#### Recipe Changes
+* Made rainbow coal cheaper since it isn't unlimited
+
+#### Updated Mods
+* Abnormals Core: 3.2.0 -> 3.3.0
+* Abnormals Delight: 1.1.1 -> 1.2.0
+* Advancement Screenshot: 1.4 -> 2.0
+* Alex's Mobs: 1.11.1 -> 1.12.0
+* Architectury API: 1.21.31 -> 1.23.33
+* Baubley Heart Canisters: 1.1.10 -> 1.1.11
+* Chisels & Bits: 1.0.0-alpha -> 1.0.1-beta
+* Citadel: 1.8.0 -> 1.8.1
+* Code Chicken Lib: 4.0.2.429 -> 4.0.3.434
+* Collective: 2.58 -> 2.64
+* Cookielicious: 1.4.1 -> 2.0.1
+* Cooking for Blockheads: 9.3.3 -> 9.3.4
+* CraftTweaker: 7.1.2.406 -> 7.1.2.426
+* CreateTweaker: 1.0.0.18 -> 1.0.0.23
+* Curios API: 4.0.5.2 -> 4.0.5.3
+* Customizable Elytra: 1.5.5 -> 1.5.7
+* Cycle Paintings: 1.7 -> 2.0
+* Cyclops Core: 1.11.8 -> 1.11.9
+* DisenchantingForge: 1.7.1 -> 1.7.2
+* Extreme Sound Muffler: 3.13 -> 3.14
+* Flywheel: 0.2.3 -> 0.2.4
+* FTB Library: 1605.3.2.64 -> 1605.3.3.71
+* Iron Furnaces: 2.7.4 -> 2.7.7
+* Jade: 2.7.2 -> 2.7.4
+* Jellyfishing: 1.6.10 -> 1.6.12
+* More Jellyfish: 1.1.5 -> 1.1.6
+* Panorama: 1.1 -> 1.2
+* Patchouli: 53.1 -> 53.2
+* Selene Lib: 1.6.1 -> 1.7.1
+* Simple Storage Network: 1.4.0 -> 1.4.3
+* Snow! Real Magic: 2.5.8 -> 2.6.1
+* Supplementaries: 0.15.2b -> 0.17.1
+* Tiny Redstone: 1.9.1 -> 1.10.5
+* Waystones: 7.6.2 -> 7.6.3
+
+#### Added Mods
+* Tiny Gates
+
+
+### 2021-08-25 (8.17.0)
+
+#### Notable Changes
+* Add crushing recipe for Quark's heart of diamond
+
+#### Bug Fixes
+* Actually nuke deepers
+
+#### Updated Mods
+* Architectury API: 1.20.29 -> 1.21.31
+* Chunk-Pregenerator: 3.1.0 -> 3.1.1
+* Citadel: 1.7.3 -> 1.8.0
+* Controlling: 7.0.0.23 -> 7.0.0.24
+* CraftTweaker: 7.1.1.402 -> 7.1.2.406
+* Customizable Elytra: 1.5.4 -> 1.5.5
+* FerriteCore: 2.0.5 -> 2.0.7
+* Iron Furnaces: 2.7.3 -> 2.7.4
+* Just Enough Items: 7.7.1.118 -> 7.7.1.121
+* Just Enough Resources: 0.12.1.127 -> 0.12.1.128
+* Lepton: 1.3.1 -> 1.3.2
+* Mantle: 1.6.115 -> 1.6.123
+* Pane in the Glass: 1.4.2 -> 2.0.1
+* Placebo: 4.5.0 -> 4.6.0
+* Selene: 1.6 -> 1.6.1
+* Torchmaster: 2.3.7 -> 2.3.8
+
+
+### 2021-08-23 (8.17.0-beta.0)
+
+#### Notable Changes
+* Actually added recipe for rainbow coal
+* No moar deepers!
+* Soul Snad!
+
+#### Config Changes
+* Disable spawning for deepers since they ignore mega torches and don't have any unique drops
+
+#### Updated Mods
+* Bad Wither No Cookie - Reloaded: 3.9.16 -> 3.10.16
+* Compressium: 1.2.2 -> 1.2.3
+* CraftTweaker: 7.1.0.390 -> 7.1.1.402
+* FTB Library: 1605.3.1.58 -> 1605.3.2.64
+* Iron Furnaces: 2.6.9 -> 2.7.3
+* MoreVanillaLib: 1.4.0 -> 1.4.1
+* Snad: 1.0.8 -> 1.0.9
+* Witherproofed: 2.4.1 -> 2.4.2
+
+
 ### 2021-08-15 (8.16.1)
 
 #### Recipe Changes

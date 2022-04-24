@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft_wrench": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "terracotta_wrench:wrench"
+      }
+    }
+  },
+  "rewards": {
+    "function": "terracotta_wrench:craft_wrench"
+  }
+}

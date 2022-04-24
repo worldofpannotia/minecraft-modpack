@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft_skeleton_key": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fn:skeleton_key"
+      }
+    }
+  },
+  "rewards": {
+    "function": "fn:craft/skeleton_key"
+  }
+}

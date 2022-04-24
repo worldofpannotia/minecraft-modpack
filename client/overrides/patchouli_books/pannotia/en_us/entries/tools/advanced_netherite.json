@@ -1,0 +1,18 @@
+{
+  "name": "Advanced Netherite",
+  "icon": "advancednetherite:netherite_diamond_block",
+  "category": "patchouli:wp_tools",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Is netherite gear just too \"early game\" for you? Have no fear! Now there are four more tiers above it! And with this stuff, you can avoid angering both endermen $(o)and$() piglins!",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/advanced-netherite-fabric",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["patchouli:tools/advanced-netherite.png"],
+      "text": "Now $(o)THAT'S$() a beacon!"
+    }
+  ]
+}

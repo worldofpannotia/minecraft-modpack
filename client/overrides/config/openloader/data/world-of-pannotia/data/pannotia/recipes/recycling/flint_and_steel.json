@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint_and_steel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  }
+}

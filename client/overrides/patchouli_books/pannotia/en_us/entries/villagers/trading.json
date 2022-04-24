@@ -1,0 +1,11 @@
+{
+  "name": "Trading",
+  "icon": "minecraft:emerald",
+  "category": "patchouli:wp_villagers",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Villager trades will never lock up! No more need to have a dozen of each type just to get decent amounts of items$(li)When you give a new villager a profession, you can cycle through trades without breaking+replacing their workstation repeatedly"
+    }
+  ]
+}

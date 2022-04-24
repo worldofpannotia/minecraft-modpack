@@ -1,0 +1,11 @@
+{
+  "name": "Spawners",
+  "icon": "minecraft:spawner",
+  "category": "patchouli:wp_gameplay/combat",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As you explore, you will inevitably come across monster spawners. In this pack, you can pick them up using a Silk Touch pickaxe! And if you left your silky tool at home and just want to disable the spawner, placing five torches (4 sides + top) on the spawner will disable it entirely."
+    }
+  ]
+}

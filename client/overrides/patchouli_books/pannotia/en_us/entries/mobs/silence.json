@@ -1,0 +1,11 @@
+{
+  "name": "Silencing Mobs",
+  "icon": "minecraft:name_tag",
+  "category": "patchouli:wp_mobs",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Silence, mob! That's right; you can stop those pesky mob sounds for things like your villager trading hall or iron farm. Simply use a name tag to rename any mob to \"silence me\", and they'll shut the heck up! Note: you can rename them after silencing. It is not required for them to keep the \"silence me\" name forever."
+    }
+  ]
+}

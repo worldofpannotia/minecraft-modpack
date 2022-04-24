@@ -1,0 +1,27 @@
+# Amount of lapis lazuli taken as cost for rerolling enchantments. Set to 0 to disable this kind of cost.
+# Requires "reroll_enchantments" to be set to "WITH_COST".
+# Range: 0 ~ 64
+reroll_lapis_cost = 3
+
+# Amount of enchantment levels taken as cost for rerolling enchantments. Set to 0 to disable this kind of cost.
+# Requires "reroll_enchantments" to be set to "WITH_COST".
+# Range: > 0
+reroll_level_cost = 0
+
+# Re-roll possible enchantments in an enchanting table every time an item is placed into the enchanting slot.
+# Allowed Values: FREE, WITH_COST, NEVER
+reroll_enchantments = "WITH_COST"
+
+# Choose how many enchantments are shown on the enchanting tooltip, if any at all.
+# Allowed Values: NONE, SINGLE, ALL
+show_enchantments = "ALL"
+
+# Amount of bookshelves required to perform enchantments at the highest level.
+# Range: > 0
+enchanting_power = 15
+
+# Blocks without a collision shape do not block bookshelves placed behind from counting towards current enchanting power.
+lenient_bookshelves = true
+
+# Only allow items that can be enchanted to be placed into the enchanting slot of an enchanting table. Useful when inserting items automatically with a hopper.
+filter_enchanting_input = true

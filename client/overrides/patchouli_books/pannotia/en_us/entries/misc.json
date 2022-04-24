@@ -1,0 +1,27 @@
+{
+  "name": "Misc",
+  "icon": "minecraft:cobblestone",
+  "category": "patchouli:wp_misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Only one player needs to sleep to pass the night$(li)Infinity works with all arrow types$(li)The Mending enchantment can use your XP. Shift + right-click to repair your tools$(li)You can dye leather armor using a cauldron like you can in Bedrock Edition$(li)Rotten flesh can be composted$(li)Throwing concrete powder into water converts the items to concrete blocks"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)You can crawl! (No keybind is set by default)$(li)Crying obsidian can be used to construct nether portals$(li)You can eat potion ingredients for a short-term effect$(li)Double doors (and connected trapdoors) open simultaneously$(li)Bone meal works on nether wart, sugar cane, cacti, and vines$(li)Fires will burn out over time, unless the block is netherrack, magma, or soul sand"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Using a seed on dirt will convert it to a grass block$(li)You can hand items to another player by shift + right-clicking on them with said items$(li)Kelp can be used like bone meal$(li)Dirt blocks under melon or pumpkin blocks (grown from seeds) remain tilled when the block is broken$(li)Hay bales prevent $(o)all$() fall damage (Assassin's Creed style)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Villagers will follow a player holding an emerald block$(li)Right-clicking a painting with another painting will cycle through all designs of the same size$(li)Shift + right-clicking an entity (mob) in a boat or minecart will make them exit without breaking the vehicle$(li)Crouching while breaking the bottom block of a tree will break the whole thing"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)You can mine up to 64 connected blocks of the same type. The hotkey mapping can be found under Mods -> Diggus Maximus ($(o)not$() the normal key bind config screen)$(li2)Note: there is currently a bug that will require you to re-configure your hotkey whenever the pack updates. (sorry)"
+    }
+  ]
+}
