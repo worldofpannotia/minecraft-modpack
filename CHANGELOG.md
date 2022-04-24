@@ -1,4 +1,4 @@
-### 2022-04-19 (11.0.0)
+### 2022-04-23 (11.0.0)
 #### Breaking Changes
 * With the update to 1.18.2, a few mods had to be removed. There are also some big differences under the hood between 1.18.1 and 1.18.2, meaning several mods have undergone significant refactoring. Therefore, this update is considered a breaking change. Back up your world before upgrading!
 
@@ -11,6 +11,7 @@
 * Towers of the Wild: Reworked (Fabric)
 
 #### Temporarily Removed Mods (not yet 1.18.2)
+* Aliven't Messenger
 * Sky Villages [Fabric]
 * Traveler's Titles (Fabric)
 * YUNG's Better Dungeons (Fabric)
@@ -31,7 +32,7 @@
 * Better Beacon / Conduit: 1.0.7 -> 1.0.8
 * Better Spawner Control (Fabric): 1.5 -> 1.6
 * Borderless Mining: 1.1.1 -> 1.1.2
-* Carpet Extra: 1.4.56 -> 1.4.69
+* Carpet Extra: 1.4.56 -> 1.4.72
 * Carpet: 1.4.57 -> 1.4.69
 * Cauldron Dyeing: 1.0.0 -> 1.0.2
 * Cloth API (Fabric): 3.1.61 -> 3.2.64
@@ -53,13 +54,13 @@
 * Extreme sound muffler (Fabric) Official: 3.22 -> 3.24
 * Fabric API: 0.46.6 -> 0.51.1
 * Fabric Capes: 1.2.2 -> 1.3.0
-* Fabric Language Kotlin: 1.7.1+kotlin.1.6.10 -> 1.7.3+kotlin.1.6.20
+* Fabric Language Kotlin: 1.7.1+kotlin.1.6.10 -> 1.7.4+kotlin.1.6.21
 * Fabrishot: 1.6.2 -> 1.7.0
 * Feature NBT Deadlock Be Gone: 1.0.1 -> 2.0.0
 * FerriteCore (Fabric): 4.1.1 -> 4.2.0
 * Forge Config API Port [Fabric]: 3.1.1 -> 3.2.0
 * Gamma Utils: 1.5.5 -> 1.5.6
-* Grind Enchantments: 1.5.0 -> 1.6.2
+* Grind Enchantments: 1.5.0 -> 1.6.3
 * InfiniteVillagerTrading: 0.43.1-1.1 -> 0.47.10-1.1
 * Inventory Profiles Next: 1.18.1-1.3.5 -> 1.18.2-1.3.5
 * Item Scroller: 1.18.1-0.16.0 -> 1.18.2-0.16.0
@@ -96,8 +97,8 @@
 * Wandering Collector: 1.1.1 -> 1.1.2
 * WI Zoom: 1.3-1.18.1 -> 1.3-1.18.2
 * WTHIT: 4.5.5 -> 4.8.1
-* Xaero's Minimap: 22.3.0 -> 22.6.0
-* Xaero's World Map: 1.20.3.1 -> 1.20.6
+* Xaero's Minimap: 22.3.0 -> 22.6.1
+* Xaero's World Map: 1.20.3.1 -> 1.20.7
 * You're in Grave Danger: 1.2.22 -> 1.3.1
 * YUNG's API (Fabric): 36 -> 2.0.7
 
