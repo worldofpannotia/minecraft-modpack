@@ -1,3 +1,13 @@
+### 2022-04-24 (11.1.0)
+#### Updated Mods
+* Minekea: 2.3.2 -> 2.4.0
+
+
+### 2022-04-23 (11.0.1)
+#### Added Mods
+* ARRP (I thought this was already in the pack... oops)
+
+
 ### 2022-04-23 (11.0.0)
 #### Breaking Changes
 * With the update to 1.18.2, a few mods had to be removed. There are also some big differences under the hood between 1.18.1 and 1.18.2, meaning several mods have undergone significant refactoring. Therefore, this update is considered a breaking change. Back up your world before upgrading!
