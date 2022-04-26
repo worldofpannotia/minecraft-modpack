@@ -1,3 +1,8 @@
+### 2022-XX-XX (11.2.0)
+#### Added Mods
+* Aliven't Messenger
+
+
 ### 2022-04-25 (11.1.2)
 #### Updated Mods
 * Minekea: 2.4.0 -> 2.4.1
