@@ -23,7 +23,6 @@ cd renameable-heads;7z a -tzip ../renameable-heads.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
-cd spawning-spheres;7z a -tzip ../spawning-spheres.zip .;cd ..
 cd terracotta-rotation-wrench;7z a -tzip ../terracotta-rotation-wrench.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd towers-of-the-wild;7z a -tzip ../towers-of-the-wild.zip .;cd ..

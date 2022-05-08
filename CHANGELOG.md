@@ -1,6 +1,39 @@
-### 2022-XX-XX (11.2.0)
+### 2022-05-07 (11.2.0)
 #### Added Mods
 * Aliven't Messenger
+* Bad Packets
+* MiniHUD
+* Traveler's Titles (Fabric)
+* YUNG's Better Dungeons (Fabric)
+* YUNG's Better Mineshafts (Fabric)
+* YUNG's Better Strongholds (Fabric)
+* YUNG's Bridges (Fabric)
+* YUNG's Extras (Fabric)
+
+#### Updated Mods
+* Advanced Netherite: 1.4.1 -> 1.5.0
+* Architectury API: 4.2.50 -> 4.4.58
+* CompleteConfig: 1.4.0 -> 1.4.1
+* Fabric Capes: 1.3.0 -> 1.3.1
+* FerriteCore: 4.2.0 -> 4.2.1
+* Gamma Utils: 1.5.6 -> 1.5.7
+* Inventory Profiles Next: 1.18.2-1.3.5 -> 1.18.2-1.3.6
+* Minekea: 2.4.1 -> 2.6.1
+* Mo' Structures: 1.4.1 -> 1.4.2
+* Mod Menu: 3.1.1 -> 3.2.1
+* Now Playing: 1.3.1 -> 1.4.0
+* Roughly Enough Items: 8.1.449 -> 8.1.457
+* Sponj: 1.0.1 -> 1.1.0
+* Visual Workbench [Fabric]: 3.2.0 -> 3.3.0
+* WTHIT: 4.8.1 -> 4.10.1
+* Xaero's Minimap: 22.6.1 -> 22.7.0
+* Xaero's World Map: 1.20.7 -> 1.21.2
+* You're in Grave Danger: 1.3.1 -> 1.3.4
+* YUNG's API: 2.0.7 -> 2.0.8
+
+#### Removed Mods
+* Light Overlay
+* (Datapack) Spawning Spheres
 
 
 ### 2022-04-25 (11.1.2)
