@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.18.2](https://img.shields.io/badge/Minecraft-1.18.2-3a6.svg?style=flat-square)
-![Pack 11.1.2](https://img.shields.io/badge/Pack-11.1.2-blue.svg?style=flat-square)
+![Pack 11.2.2](https://img.shields.io/badge/Pack-11.2.2-blue.svg?style=flat-square)
 ![Fabric 0.13.3](https://img.shields.io/badge/Fabric-0.13.3-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -36,7 +36,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/armored-elytra">Armored Elytra (by MrMelon54)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/auto-third-person">Auto Third Person (by quat1024)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/balm-fabric">Balm (Fabric Edition) (by BlayTheNinth)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-beacon-placement-fabric">Better Beacon Placement (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-beacon">Better Beacon / Conduit (by sfort__)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-conduit-placement-fabric">Better Conduit Placement (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-mount-hud">Better Mount HUD (by Lortseam_)</a></li>

@@ -18,12 +18,10 @@ cd multiplayer-sleep;7z a -tzip ../multiplayer-sleep.zip .;cd ..
 cd nether-portal-coords;7z a -tzip ../nether-portal-coords.zip .;cd ..
 cd padlock;7z a -tzip ../padlock.zip .;cd ..
 cd paper-lore;7z a -tzip ../paper-lore.zip .;cd ..
-cd redstone-rotation-wrench;7z a -tzip ../redstone-rotation-wrench.zip .;cd ..
 cd renameable-heads;7z a -tzip ../renameable-heads.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
-cd terracotta-rotation-wrench;7z a -tzip ../terracotta-rotation-wrench.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd towers-of-the-wild;7z a -tzip ../towers-of-the-wild.zip .;cd ..
 cd trader-notify;7z a -tzip ../trader-notify.zip .;cd ..

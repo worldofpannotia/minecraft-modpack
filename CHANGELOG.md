@@ -1,3 +1,25 @@
+### 2022-05-17 (11.3.0)
+#### Removed Mods
+* Big Beacons: currently not compatible with the extended beacon range
+
+#### Updated Mods
+* Architectury API: 4.4.58 -> 4.4.60
+* Inventory Profiles Next: 1.3.6 -> 1.3.8
+* Litematica: 0.11.2 -> 0.11.3
+* Minekea: 2.6.1 -> 2.7.1
+* Mod Menu: 3.2.1 -> 3.2.2
+* Repurposed Structures: 4.1.6 -> 4.1.8
+* Tweakeroo: 0.13.1 -> 0.13.3
+* WTHIT: 4.10.1 -> 4.10.3
+* You're in Grave Danger: 1.3.4 -> 1.3.5
+* YUNG's Better Mineshafts: 2.1.1 -> 2.1.3
+
+
+### 2022-05-09 (11.2.2)
+#### Removed Mods
+* Better Beacon Placement: causes block loss when breaking beacons
+
+
 ### 2022-05-07 (11.2.1)
 #### Added Mods
 * Big Beacons
