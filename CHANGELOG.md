@@ -1,3 +1,35 @@
+### 2022-06-07 (11.4.0)
+#### Added
+* Big Beacons
+* Discontinuous Beacon Beams
+* Polymorph
+* Starlight
+* YUNG's Better Desert Temples
+* YUNG's Better Witch Huts
+
+#### Updated
+* Advanced Netherite: 1.5.0 -> 1.5.1
+* Architectury API: 4.4.60 -> 4.4.68
+* Dark Paintings: 10.0.1 -> 10.0.3
+* Extreme Sound Muffler: 3.24 -> 3.27
+* Fabric API: 0.51.1 -> 0.55.1
+* FastOpenLinksAndFolders: 1.1.0 -> 1.1.1
+* Inventory Profiles Next: 1.3.8 -> 1.5.0
+* Lithium: 0.7.9 -> 0.7.10
+* Minekea: 2.7.1 -> 2.8.0
+* Patchouli: 67 -> 69
+* Puzzles Lib: 3.3.1 -> 3.3.5
+* Repurposed Structures: 4.1.8 -> 4.1.14
+* Roughly Enough Items: 8.1.457 -> 8.2.471
+* Xaero's Minimap: 22.7.0 -> 22.9.0
+* Xaero's World Map: 1.21.2 -> 1.23.1
+* You're in Grave Danger: 1.3.5 -> 1.3.6
+
+#### Removed
+* Better Beacon / Conduit
+* Pannotia's Parcels
+
+
 ### 2022-05-17 (11.3.0)
 #### Removed Mods
 * Big Beacons: currently not compatible with the extended beacon range
