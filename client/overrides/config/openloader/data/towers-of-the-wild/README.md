@@ -1,5 +1,4 @@
 # Towers of the Wild: Reworked (Datapack) <!-- omit in toc -->
-[![build](https://github.com/xPand4B/Towers_Of_The_Wild_Reworked/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/xPand4B/Towers_Of_The_Wild_Reworked/actions/workflows/build.yml)
 [![Discord](https://img.shields.io/badge/Chat%20on-Discord-informational?style=flat&logo=discord&logoColor=white&color=7289DA)](https://discord.gg/qYvPxzg7gM)
 
 This pack is based on the popular Forge Mod [Towers of the Wild](https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild), 
@@ -16,7 +15,7 @@ If you are running 1.18.1 or lower please refer to the branch for [1.17.x](https
 * [Getting started](#getting-started)
   * [Features](#features)
 * [How to install](#how-to-install)
-* [Credits](#credits)
+* [Contributer](#contributer)
 
 
 ## Getting started
@@ -58,13 +57,11 @@ This pack does not add any blocks or items to the game *(if that matters to you)
 * Advancements for every tower *(Can you climb all of them?)*
 
 ## How to install
-**Prerequisite:**
-* Minecraft 1.18.2 or above
+Simply put the file `Towers_Of_The_Wild-*.zip` inside the `.minecraft/saves/{WORLD}/datapacks` directory.
 
-Simply put the file `Towers_Of_The_Wild-*.zip` inside the `.minecraft/saves/world/datapacks` directory.
-
-## Credits
+## Contributer
 * [idrae_](https://github.com/Idrae) *(original author)*
 * [RawPineapple](https://github.com/RawPineapple) *(translation for zh_cn)*
 * [DracoExE](https://github.com/DracoExE) *(translation for es_cl)*
 * [scarf005](https://github.com/scarf005) *(translation for ko_kr)*
+* [WelpSTudenT](https://github.com/WelpSTudent)

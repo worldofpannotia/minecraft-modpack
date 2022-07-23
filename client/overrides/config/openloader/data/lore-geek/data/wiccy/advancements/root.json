@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYzOTIyOTMyNzA3NCwKICAicHJvZmlsZUlkIiA6ICIxMzMxODlmNzFiMTA0MjEzOGY5ZmRlMTc5M2NkOWFhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaWNjeSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMDliZGNlMWVhYzRkZGU1Mzc3MmFkMGU0Njc5YWY5YzRlM2Q3YWMxMzRkZGU0OGQzZDBmZjUzMzNmZmRmMzkwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0='}]}}}"
+		},
+		"title": "Wiccy's Datapacks",
+		"frame": "challenge",
+		"description": ["",{"text":"All of Wiccy's data packs currently loaded","color":"dark_purple"}],
+		"background": "minecraft:textures/block/black_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

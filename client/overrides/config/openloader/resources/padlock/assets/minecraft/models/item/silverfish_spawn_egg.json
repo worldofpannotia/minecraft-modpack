@@ -1,7 +1,0 @@
-{
-    "parent": "item/template_spawn_egg",
-    "overrides":[
-      { "predicate": {"custom_model_data":4765872}, "model": "new/padlock_closed" },
-      { "predicate": {"custom_model_data":476587201}, "model": "new/padlock_opened" }
-    ]
-}

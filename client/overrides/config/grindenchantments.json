@@ -1,4 +1,9 @@
 {
+  "allow_removing_curses": true,
+  "show_enchantment_cost": true,
+  "dedicated_server_options": {
+    "alternative_cost_display_enabled": true
+  },
   "disenchant_to_book": {
     "enabled": true,
     "consume_enchanted_item": false,
@@ -15,7 +20,5 @@
       "cost_factor": 0.0,
       "cost_offset": 0.0
     }
-  },
-  "allow_removing_curses": true,
-  "show_enchantment_cost": true
+  }
 }

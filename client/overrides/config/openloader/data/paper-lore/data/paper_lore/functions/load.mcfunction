@@ -1,1 +1,0 @@
-schedule function paper_lore:lore 1s

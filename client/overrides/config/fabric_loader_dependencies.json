@@ -1,9 +1,19 @@
 {
   "version": 1,
   "overrides": {
-    "fabric": {
-      "+depends": {
-        "fabricloader": ">=0.12.12"
+    "minihud": {
+      "-depends": {
+        "malilib": ""
+      }
+    },
+    "litematica": {
+      "-depends": {
+        "malilib": ""
+      }
+    },
+    "tweakeroo": {
+      "-depends": {
+        "malilib": ""
       }
     }
   }

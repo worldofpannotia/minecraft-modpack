@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 8,
+		"pack_format": 10,
 		"description": [{"text":"Multiplayer Sleep","color":"gold"},{"text":"\nvanillatweaks.net","color":"yellow"}]
 	}
 }
