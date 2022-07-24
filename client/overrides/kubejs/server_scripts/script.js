@@ -8,7 +8,16 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-	// Change recipes here
+	event.remove({ output: 'luggage:luggage' });
+	event.shaped(
+		'luggage:luggage',
+		['SDS', 'SCS', 'SSS'],
+		{
+			S: 'minecraft:stick',
+			C: 'minecraft:chest',
+			D: 'minecraft:diamond',
+		},
+	);
 });
 
 onEvent('item.tags', event => {

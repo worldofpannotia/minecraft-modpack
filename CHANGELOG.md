@@ -1,3 +1,28 @@
+### 2022-07-24 (12.0.0-alpha.2)
+#### Removed Mods
+* Just Enough Resources: causes client disconnect trying to log in to a server
+
+#### Added Mods
+* Here be no Dragons!: removes the experimental settings warning when loading a modded world in single player
+* More Brewable Potions: adds computers and modern technology... kidding
+* Naturally Charged Creepers: just what it sounds like :-)
+* Trajectory preview: see where your projectile will land before you shoot
+
+#### Updated Mods
+* Apollo's Additional Structures: 1.2.1 -> 1.3
+* Bookshelf: 14.1.7 -> 14.1.8
+* Enchantment Descriptions: 11.0.4 -> 11.0.7
+* Extreme Sound Muffler: 3.29 -> 3.30
+* Grind Enchantments: 1.6.4 -> 2.0.0-beta.1
+* Inventory Profiles Next: 1.6.0 -> 1.6.1
+* MegaParrot: 1.0.5 -> 1.0.6
+* Minekea: 3.3.0 -> 3.3.1
+* NBT Crafting: 2.1.4-beta.3 -> 2.1.4
+
+#### Bug Fixes
+* Fix recipe for luggage item
+
+
 ### 2022-07-23 (12.0.0-alpha.1)
 #### Fixes
 * Fix loot table references for new 1.19 mobs
