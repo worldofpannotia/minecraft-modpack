@@ -1,3 +1,9 @@
+### 2022-07-23 (12.0.0-alpha.1)
+#### Fixes
+* Fix loot table references for new 1.19 mobs
+* Use correct version of Extreme Sound Muffler
+
+
 ### 2022-07-23 (12.0.0-alpha.0)
 #### Notable Changes
 * First 1.19 version of the pack
