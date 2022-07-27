@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "pannotia:glass"
+    },
+    "O": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass",
+    "count": 8
+  }
+}

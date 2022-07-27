@@ -25,3 +25,4 @@ cd visible-shulker-boxes-names;7z a -tzip ../visible-shulker-boxes-names.zip .;c
 cd wandering-trader-announcements;7z a -tzip ../wandering-trader-announcements.zip .;cd ..
 cd wandering-trades-hermit-edition;7z a -tzip ../wandering-trades-hermit-edition.zip .;cd ..
 cd world-of-pannotia;7z a -tzip ../world-of-pannotia.zip .;cd ..
+cd world-of-pannotia-he;7z a -tzip ../world-of-pannotia-he.zip .;cd ..
