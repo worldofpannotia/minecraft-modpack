@@ -80,8 +80,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup-fabric">Death Backup (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine">Deepslate Instamine - Fabric/Forge (by nicguzzo)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-fences">Diagonal Fences (by Fuzs_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/diagonal-panes">Diagonal Panes (by magneticflux_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity-fabric">Dismount Entity (Fabric) (by Serilum)</a></li>

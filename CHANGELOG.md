@@ -1,3 +1,41 @@
+### 2022-07-25 (12.0.0-beta.0)
+#### Removed Mods
+* Diagonal Fences: compatibility issues
+* Diagonal Panes: compatibility issues
+
+#### Added Mods
+* Flat Bedrock
+* Leaves Us in Peace: fast leaf decay
+* Reacharound: adds a useful block placing mechanic from Quark
+
+#### Updated Mods
+* Lootr: 0.4.21.60 -> 0.4.22.61
+* WTHIT: 5.7.0 -> 
+
+#### Config Changes
+* Removed stack size changes in KubeJS script
+
+#### Hardcore Edition
+* Removed mods:
+  * All Arrows Infinity Fix
+  * Death Backup
+  * Diggus Maximus
+  * Easy Magic
+  * Gamma Utils
+  * Infinite Villager Trading
+  * Just Player Heads
+  * You're in Grave Danger
+* Removed datapacks:
+  * Back
+  * Global Trades
+  * Homes
+  * Multiplayer Sleep
+  * Spawn
+* Config changes:
+  * Removed recipes for item recycling
+  * Removed recipes for craftable ores
+
+
 ### 2022-07-24 (12.0.0-alpha.2)
 #### Removed Mods
 * Just Enough Resources: causes client disconnect trying to log in to a server
