@@ -1,3 +1,33 @@
+### 2022-07-27 (12.0.0-beta.1)
+#### Added Mods
+* AllStackable: replaces Lenient Stack Size, which hasn't been updated to 1.19 yet
+* Frameless: replaces invisible item frames datapack with a more user-friendly way to hide item frames
+* Nimble: replaces Auto Third Person for automatically switching in and out of 3P view when flying, riding horse, etc
+* Kiwi: dependency for Nimble
+* Better Third Person: dependency for Nimble, but also adds smoother transitions and such
+
+#### Removed Mods/Datapacks
+* Invisible Item Frames
+
+#### Updated Mods
+* Advanced Netherite: 1.6.0 -> 1.6.3
+* ARRP: 0.6.2 -> 0.6.4
+* Balm: 4.3.0+0 -> 4.5.1+0
+* Bookshelf: 14.1.8 -> 14.2.10
+* Clumps: 9.0.0+6 -> 9.0.0+7
+* Crafting Tweaks: 15.0.1 -> 15.0.2
+* Dark Paintings: 11.0.2 -> 11.1.3
+* Enchantment Descriptions: 11.0.7 -> 11.1.9
+* Forge Config API Port: 4.0.0 -> 4.0.1
+* Luggage: 1.4.2 -> 1.4.3
+* Minekea: 3.3.1 -> 3.3.2
+* Open Loader: 13.0.1 -> 13.1.2
+* Open Parties and Claims: 0.7.0 -> 0.8.0
+* Puzzles Lib: 4.0.17 -> 4.0.18
+* Roughly Enough Items: 9.1.517 -> 9.1.518
+* Roughly Enough Professions: 1.1.0 -> 1.1.1
+
+
 ### 2022-07-25 (12.0.0-beta.0)
 #### Removed Mods
 * Diagonal Fences: compatibility issues

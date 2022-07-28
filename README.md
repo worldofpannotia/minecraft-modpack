@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.0](https://img.shields.io/badge/Minecraft-1.19.0-3a6.svg?style=flat-square)
-![Pack 12.0.0-alpha.0](https://img.shields.io/badge/Pack-12.0.0-alpha.0-blue.svg?style=flat-square)
+![Pack 12.0.0-beta.1](https://img.shields.io/badge/Pack-12.0.0-beta.1-blue.svg?style=flat-square)
 ![Fabric 0.14.8](https://img.shields.io/badge/Fabric-0.14.8-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -30,7 +30,8 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-screenshot-fabric">Advancement Screenshot (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancementinfo">AdvancementInfo (by Giselbaer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/alivent-messenger">Aliven't Messenger (by A11v1r15)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/all-arrows-infinity-fix">All Arrows Infinity Fix (by Jackbusters1)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/all-arrows-infinity-fix">All Arrows Infinity Fix (by Jackbusters1)*</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/all-stackable">AllStackable (Fabric) (by Conn_Lost)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/amecs">Amecs (Fabric) (by Siphalor)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/animatica">Animatica (by FoundationGames)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/antighost">AntiGhost (by Giselbaer)</a></li>
@@ -47,6 +48,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric">Better Ping Display [Fabric] (by Quintinity)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control-fabric">Better Spawner Control (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-than-mending">Better Than Mending (by legobmw99)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">Better Third Person (by Socolio)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/big-beacons">Big Beacons (by colderlavalamp)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/blockmeterfabric">BlockMeterFabric (by ModProg)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
@@ -78,14 +80,14 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem">Custom Entity Models (CEM) (by dorianpb)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cycle-paintings-fabric">Cycle Paintings (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup-fabric">Death Backup (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup-fabric">Death Backup (Fabric) (by Serilum)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine">Deepslate Instamine - Fabric/Forge (by nicguzzo)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity-fabric">Dismount Entity (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/double-doors-fabric">Double Doors (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic (by Fuzs_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic (by Fuzs_)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/edibles-fabric">Edibles (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/effectsleft-fabric">EffectsLeft (Fabric/Quilt) (by CoolSimulations)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-trinket-fabric-updated-1-19">Elytra trinket (Fabric) Updated (by alonso7770)</a></li>
@@ -103,9 +105,11 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric">FerriteCore (Fabric) (by malte0811)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fire-spread-tweaks-fabric">Fire Spread Tweaks (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug">Fix Experience Bug (now with FABRIC and FORGE versions) (by MacTso)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/flat-bedrock-fabric">Flat Bedrock (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/flower-patch">Flower Patch (by Mrbysco)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric">Forge Config API Port (by Fuzs_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/gamma-utils">Gamma Utils (by Sjouwer)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/frameless">Frameless (by HeckinChloe)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/gamma-utils">Gamma Utils (by Sjouwer)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib (by ThanosGecko)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/grass-seeds-fabric">Grass Seeds (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/grind-enchantments">Grind Enchantments (by mschae23)</a></li>
@@ -114,15 +118,16 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/hoe-tweaks-fabric">Hoe Tweaks (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/horsestatsvanilla">Horse Stats Vanilla (Fabric) (by TeaJ4y)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric">Ice Prevents Crop Growth (Fabric) (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitevillagertrading">InfiniteVillagerTrading (by Giselbaer)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitevillagertrading">InfiniteVillagerTrading (by Giselbaer)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Inventory Profiles Next (by mirinimi)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem-fabric">Inventory Totem (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-model-fix">Item Model Fix (Fabric) (by Pepper_Bell)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-scroller">Item Scroller (by masady)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-player-heads-fabric">Just Player Heads (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-player-heads-fabric">Just Player Heads (Fabric) (by Serilum)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled-fabric">Keep My Soil Tilled (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keepheadnames">Keep Head Names (Fabric/Forge) (by Fourmisain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kelp-fertilizer-fabric">Kelp Fertilizer (Fabric) (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric">Kiwi 🥝 (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-ui">KubeJS UI (by LatvianModder)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs">KubeJS (by LatvianModder)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass">LambdaBetterGrass (by LambdAurora)</a></li>
@@ -147,6 +152,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers-fabric">Natually Charged Creepers (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/nbt-crafting">Nbt Crafting (Fabric) (by Siphalor)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/netherportalfix-fabric">NetherPortalFix (Fabric Edition) (by BlayTheNinth)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/nimble-fabric">Nimble (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-enchant-cap">No Enchant Cap (by AmyMialee)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-fade">No Fade (by UltimateBoomer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/norecipebook-fabric">No Recipe Book (Fabric) (by Grayray_75)</a></li>
@@ -192,9 +198,10 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Xaero's Minimap (by xaero96)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Xaero's World Map (by xaero96)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yosbr">Your Options Shall Be Respected (YOSBR) (by shedaniel)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger">You're in Grave Danger (by b1n_ry)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger">You're in Grave Danger (by b1n_ry)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/zombie-horse-spawn-fabric">Zombie Horse Spawn (Fabric) (by Serilum)</a></li>
     </ul>
+    _*_ Mod not included in Hardcore Edition of the pack
 </details>
 
 ### Issues & Suggestions

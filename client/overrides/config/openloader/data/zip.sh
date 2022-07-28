@@ -9,7 +9,6 @@ cd gem-villagers;7z a -tzip ../gem-villagers.zip .;cd ..
 cd global-trades;7z a -tzip ../global-trades.zip .;cd ..
 cd hiphoppers;7z a -tzip ../hiphoppers.zip .;cd ..
 cd homes;7z a -tzip ../homes.zip .;cd ..
-cd invisible-item-frames;7z a -tzip ../invisible-item-frames.zip .;cd ..
 cd lore-geek;7z a -tzip ../lore-geek.zip .;cd ..
 cd mob-statues-vanilla;7z a -tzip ../mob-statues-vanilla.zip .;cd ..
 cd multiplayer-sleep;7z a -tzip ../multiplayer-sleep.zip .;cd ..
