@@ -1,3 +1,39 @@
+### 2022-XX-XX (12.0.0-beta.2)
+#### Added Mods
+* Indium: compatibility bridge between Continuity and Sodium
+* JamLib: dependency for RightClickHarvest
+* Litematica: officially added to the pack (was unofficial already)
+* MiniHUD: officially added to the pack (was unofficial already)
+* RightClickHarvest: it's in the name
+* Servux: officially added to the pack (was unofficial already)
+* Sodium: performance optimizations
+* Tweakeroo: officially added to the pack (was unofficial already)
+
+#### Updated Mods
+* Cloth Config API: 7.0.73 -> 8.0.75
+* Discontinuous Beacon Beams: 1.1.3 -> 1.1.5
+* Forge Config API Port: 4.0.1 -> 4.0.2
+* Kiwi: 7.2.0 -> 7.2.1
+* Leaves Us in Peace: 1.0.6 -> 1.0.7
+* Roughly Enough Items: 9.1.518 -> 9.1.520
+* WTHIT: 5.8.0 -> 5.9.0
+
+#### Config Changes
+* Added missing config for AllStackable mod
+
+#### Hardcore Edition
+* Removed Mods:
+  * Better Than Mending
+  * Hand Over Your Items
+  * Inventory Totem
+  * Trade Cycling
+* Config Changes:
+  * Grind Enchantments: disable removing curses from items and increase overall cost of removing enchants
+  * Removed elytra from Ender Dragon loot table
+  * Removed ability to smelt rotten flesh into leather
+  * Removed several recipes
+
+
 ### 2022-07-27 (12.0.0-beta.1)
 #### Added Mods
 * AllStackable: replaces Lenient Stack Size, which hasn't been updated to 1.19 yet
@@ -20,7 +56,7 @@
 * Enchantment Descriptions: 11.0.7 -> 11.1.9
 * Forge Config API Port: 4.0.0 -> 4.0.1
 * Luggage: 1.4.2 -> 1.4.3
-* Minekea: 3.3.1 -> 3.3.2
+* Minekea: 3.3.1 -> 3.3.3
 * Open Loader: 13.0.1 -> 13.1.2
 * Open Parties and Claims: 0.7.0 -> 0.8.0
 * Puzzles Lib: 4.0.17 -> 4.0.18

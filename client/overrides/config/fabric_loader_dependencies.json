@@ -1,20 +1,4 @@
 {
   "version": 1,
-  "overrides": {
-    "minihud": {
-      "-depends": {
-        "malilib": ""
-      }
-    },
-    "litematica": {
-      "-depends": {
-        "malilib": ""
-      }
-    },
-    "tweakeroo": {
-      "-depends": {
-        "malilib": ""
-      }
-    }
-  }
+  "overrides": {}
 }
