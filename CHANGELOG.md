@@ -1,4 +1,13 @@
-### 2022-XX-XX (12.0.0-beta.2)
+### 2022-08-03 (12.0.0-beta.3)
+#### Updated Mods
+* Extreme Sound Muffler: 3.30 -> 3.32
+
+#### Added Mods
+* Polymorph (finally!)
+* Tom's Simple Storage Mod
+
+
+### 2022-08-01 (12.0.0-beta.2)
 #### Added Mods
 * Indium: compatibility bridge between Continuity and Sodium
 * JamLib: dependency for RightClickHarvest
