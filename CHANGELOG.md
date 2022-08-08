@@ -1,3 +1,33 @@
+### 2022-08-07 (12.0.1)
+#### Updated Mods / Bug Fixes
+* AudioPlayer: use the right version instead of the 1.19.2 one
+
+
+### 2022-08-07 (12.0.0)
+#### Added Mods
+* AudioPlayer: upload and play custom audio files to discs and horns!
+* Inmis: backpacks!
+* Simple Voice Chat: proximity chat for servers, but more importantly, required for custom audio files
+
+#### Updated Mods
+* Advanced Netherite: 1.6.3 -> 1.6.4
+* Architectury: 5.10.33 -> 5.10.36
+* Balm: 4.5.1 -> 4.5.2
+* Block Meter: 1.7 -> 1.7?
+* Crafting Tweaks: 15.0.2 -> 15.1.0
+* Deepslate Instamine: 1.5.1 -> 2.1
+* Inventory Profiles Next: 1.6.1 -> 1.6.2
+* JamLib: 0.4.1 -> 0.4.2
+* Leaves Us In Peace: 1.0.7 -> 1.0.8
+* Rhino: 1802.1.14-build.206 -> 1802.1.14-build.209
+* RightClickHarvest: 2.2.2 -> 2.2.3
+
+#### Removed Mods
+* Discontinuous Beacon Beams: not currently compatible with Big Beacons
+* Grass Seeds
+* SilkSpawners (Hardcore Edition only)
+
+
 ### 2022-08-03 (12.0.0-beta.3)
 #### Updated Mods
 * Extreme Sound Muffler: 3.30 -> 3.32
