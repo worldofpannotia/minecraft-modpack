@@ -1,0 +1,25 @@
+{
+  "enable_renewable_deepslate": true,
+  "renewable_deepslate_below_level": 11,
+  "enable_logs_instamine": true,
+  "speed_factor": 1000.0,
+  "pickaxe_instamine_blocks": [
+    "minecraft:deepslate",
+    "minecraft:cobblestone",
+    "minecraft:end_stone"
+  ],
+  "pickaxes_that_can_instamine": [
+    "minecraft:netherite_pickaxe",
+    "advancednetherite:netherite_iron_pickaxe",
+    "advancednetherite:netherite_gold_pickaxe",
+    "advancednetherite:netherite_emerald_pickaxe",
+    "advancednetherite:netherite_diamond_pickaxe"
+  ],
+  "axes_that_can_instamine": [
+    "minecraft:netherite_axe",
+    "advancednetherite:netherite_iron_axe",
+    "advancednetherite:netherite_gold_axe",
+    "advancednetherite:netherite_emerald_axe",
+    "advancednetherite:netherite_diamond_axe"
+  ]
+}

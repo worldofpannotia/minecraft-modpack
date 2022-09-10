@@ -1,3 +1,15 @@
+### 2022-09-10 (12.1.0)
+#### Config Changes
+* Added recipes for mangrove stairs, trapdoors, and wood to match other wood types
+* Added pickaxes from Advanced Netherite to the allowlist for Deepslate Instamine
+* Added mob head drops for all Mega-Chicken and Mega-Parrot variants
+
+#### Added Mods
+* Hopper X-Treme
+* More Banner Features
+* More Banner Layers
+
+
 ### 2022-08-07 (12.0.1)
 #### Updated Mods / Bug Fixes
 * AudioPlayer: use the right version instead of the 1.19.2 one

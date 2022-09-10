@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;315169847,1014713045,-1856482485,-313732122],Name:\"Chone Mega-Parrot (Chone)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJkZTEyOGY5MDNkMDI4YjJlYzFjYTlkNDYwNTQ0OWIxZTM2MGE3MjFmN2RkMGQxZjMyOGEyNmM3MmFhMWM5YSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "entity_properties",
+                    "predicate": {
+                        "nbt": "{CustomName:\"{\\\"text\\\":\\\"Chone\\\"}\"}"
+                    },
+                    "entity": "this"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.25,
+                    "looting_multiplier": 0.02
+                }
+            ]
+        }
+    ]
+}

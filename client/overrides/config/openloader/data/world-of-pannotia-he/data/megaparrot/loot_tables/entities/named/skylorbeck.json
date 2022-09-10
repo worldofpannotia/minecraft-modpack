@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;1098503804,-2144451790,-1243255683,1592842796],Name:\"Noise Mega-Parrot (SkylorBeck)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBjYWY4NGE5OTBjYTg2YzVkMTZhNGUwNDU1NGZkNWRjNmQwYjk3YjBkN2UxZTNjYzk3NTY2MDQxYmIxMWI5MyJ9fX0=\"}]}}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "entity_properties",
+                    "predicate": {
+                        "nbt": "{CustomName:\"{\\\"text\\\":\\\"SkylorBeck\\\"}\"}"
+                    },
+                    "entity": "this"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.25,
+                    "looting_multiplier": 0.02
+                }
+            ]
+        }
+    ]
+}
