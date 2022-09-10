@@ -1,6 +1,6 @@
 {
-"pack":{
-    "pack_format": 7,
-    "description": "Baby bees are cute. Keep em cute forever!"
-}
+    "pack": {
+        "pack_format": 10,
+        "description": "Baby bees are cute. Keep em cute forever!"
+    }
 }

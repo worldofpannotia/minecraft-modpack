@@ -1,0 +1,130 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:1,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:2,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:3,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:4,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:5,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:6,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:7,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:8,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:9,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:10,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{rnd:11,datapack:trader_announcements}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

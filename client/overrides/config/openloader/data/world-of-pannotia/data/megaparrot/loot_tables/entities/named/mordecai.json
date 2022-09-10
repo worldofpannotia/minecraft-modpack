@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;557185042,322717391,-1913465071,-512747275],Name:\"Mordecai Mega-Parrot (mordecai)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwYTFmZGMzMmUxMmFhYzcwYjBlZjUyMTk0Y2E0YzY4YWY3MTU1NjEyMjhiYzE4ZDM3MTc5OWMwMjUwZDkxNiJ9fX0=\"}]}}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "entity_properties",
+                    "predicate": {
+                        "nbt": "{CustomName:\"{\\\"text\\\":\\\"mordecai\\\"}\"}"
+                    },
+                    "entity": "this"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.25,
+                    "looting_multiplier": 0.02
+                }
+            ]
+        }
+    ]
+}

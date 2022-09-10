@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:writable_book"
+		},
+		"title": "Lore Geek         ",
+		"description": ["",
+                            {"text":"Adds the ability to add lore to items.\n","color":"dark_purple"},
+                            {"text":"Type ","color":"dark_purple"},
+                            {"text":"/trigger AddLore set -1 ","color":"red"},
+                            {"text":"to learn to how use Lore Geek.","color":"dark_purple"}
+                       ],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "wiccy:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

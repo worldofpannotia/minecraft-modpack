@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 8,
+    "description": [{"text":"Lore Geek","color":"dark_purple"},
+                    {"text":"\n"},
+                    {"text":"By:","color":"white"},
+                    {"text":" Wiccy","color":"red"}]
+  }
+}

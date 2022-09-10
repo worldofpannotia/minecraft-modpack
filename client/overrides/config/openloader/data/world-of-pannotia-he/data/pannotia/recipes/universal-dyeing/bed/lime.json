@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "minecraft:lime_bed",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "tag": "pannotia:beds"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ]
+}
