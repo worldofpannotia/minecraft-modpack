@@ -1,4 +1,4 @@
-### 2022-09-10 (12.2.0)
+### 2022-09-11 (12.2.0)
 #### Notable Changes
 * Updated Fabric loader from 0.14.8 -> 0.14.9
 * Echo geodes are now a thing! (More Geodes)
@@ -35,7 +35,6 @@
 * No Enchant Cap: 2.1.2 -> 2.1.2
 * Polymorph: 0.45.0 -> 0.45.0
 * Reacharound: 1.0.0 -> 1.1.0
-* Repurposed Structures: 6.1.1 -> 6.2.3
 * Rhino: 1802.1.14-build.209 -> 1802.1.14-build.225
 * RightClickHarvest: 2.2.3 -> 3.0.1
 * Roughly Enough Items: 9.1.520 -> 9.1.530
