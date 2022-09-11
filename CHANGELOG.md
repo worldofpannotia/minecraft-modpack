@@ -1,3 +1,52 @@
+### 2022-09-10 (12.2.0)
+#### Notable Changes
+* Updated Fabric loader from 0.14.8 -> 0.14.9
+* Echo geodes are now a thing! (More Geodes)
+
+#### Added Mods
+* Bow Infinity Fix: removes the need to have an arrow in your inventory (I thought this was already in the pack... oops)
+* Infinity Water Bucket: empty buckets and water buckets can be enchanted with Infinity; pick up or place (respectively) all day long!
+
+#### Updated Mods
+* Additional Structures: 4.0.0 -> 4.1.0
+* AppleSkin: 2.4.0 -> 2.4.1
+* Architectury API: 5.10.36 -> 5.12.44
+* AudioPlayer: 1.4.1 -> 1.4.3
+* CIT Resewn: 1.1.1 -> 1.1.2
+* Cauldron Dyeing: 1.0.3 -> 1.0.4
+* Charm of Undying: 6.0.0-beta.2 -> 6.0.0
+* Cherished Worlds: 6.0.0-beta.2 -> 6.0.0
+* Cloth Config API: 8.0.75 -> 8.2.88
+* Continuity: 2.0.0 -> 2.0.1
+* Fabric Capes: 1.4.4 -> 1.4.5
+* Fabric Language Kotlin: 1.8.2 -> 1.8.3
+* Falling Leaves: 1.12.1 -> 1.12.2
+* Forge Config API Port: 4.0.2 -> 4.2.6
+* Gamma Utils: 1.6.9 -> 1.6.10
+* Grind Enchantments: 2.0.0-beta.1 -> 2.0.0-beta.2
+* Hopper X-Treme: 1.0.0 -> 1.0.1
+* Inventory Profiles Next: 1.6.2 -> 1.7.1
+* Item Scroller: 0.17.0 -> 0.17.1
+* JamLib: 0.4.2 -> 0.4.4
+* Language Reload: 1.3.1 -> 1.3.2
+* Leaves Us In Peace: 1.0.8 -> 1.0.10
+* MidnightLib: 0.5.2 -> 0.6.0
+* More Geodes: 1.4.4 -> 1.5.1
+* No Enchant Cap: 2.1.2 -> 2.1.2
+* Polymorph: 0.45.0 -> 0.45.0
+* Reacharound: 1.0.0 -> 1.1.0
+* Repurposed Structures: 6.1.1 -> 6.2.3
+* Rhino: 1802.1.14-build.209 -> 1802.1.14-build.225
+* RightClickHarvest: 2.2.3 -> 3.0.1
+* Roughly Enough Items: 9.1.520 -> 9.1.530
+* Roughly Enough Professions: 1.1.1 -> 1.1.2
+* Simple Voice Chat: 2.3.2 -> 2.3.9
+* Slight GUI Modifications: 2.2.0 -> 2.2.1
+* Tom's Simple Storage: 1.3.5 -> 1.4.1
+* Trade Cycling: 1.0.3 -> 1.0.5
+* WTHIT: 5.9.0 -> 5.12.0
+
+
 ### 2022-09-10 (12.1.0)
 #### Config Changes
 * Added recipes for mangrove stairs, trapdoors, and wood to match other wood types
