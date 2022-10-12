@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.0](https://img.shields.io/badge/Minecraft-1.19.0-3a6.svg?style=flat-square)
-![Pack 12.2.0](https://img.shields.io/badge/Pack-12.2.0-blue.svg?style=flat-square)
+![Pack 12.3.0](https://img.shields.io/badge/Pack-12.3.0-blue.svg?style=flat-square)
 ![Fabric 0.14.9](https://img.shields.io/badge/Fabric-0.14.9-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -91,8 +91,9 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/edibles-fabric">Edibles (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/effectsleft-fabric">EffectsLeft (Fabric/Quilt) (by CoolSimulations)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-trinket-fabric-updated-1-19">Elytra trinket (Fabric) Updated (by alonso7770)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/emerald-geodes">More Geodes (by TheDeathlyCow)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions (by DarkhaxDev)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-numbers-fix">Enchantment Numbers Fix (by chimericdream)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchant-the-rainbow">Enchant the Rainbow (by Pepperoni__Jabroni__)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities">Enhanced Block Entities (by FoundationGames)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling">Entity Culling Fabric/Forge (by tr9zw)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal-fabric">Extended Bone Meal (Fabric) (by Serilum)</a></li>
@@ -118,7 +119,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/hoe-tweaks-fabric">Hoe Tweaks (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/horsestatsvanilla">Horse Stats Vanilla (Fabric) (by TeaJ4y)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth-fabric">Ice Prevents Crop Growth (Fabric) (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinitevillagertrading">InfiniteVillagerTrading (by Giselbaer)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-profiles-next">Inventory Profiles Next (by mirinimi)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem-fabric">Inventory Totem (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-model-fix">Item Model Fix (Fabric) (by Pepper_Bell)</a></li>
@@ -134,13 +134,12 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights">LambDynamicLights (by LambdAurora)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/language-reload">Language Reload (by Jerozgen)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazydfu">LazyDFU (by tuxed)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/libipn">libIPN (by mirinimi)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/litematica-tool">Litematica Tool (Forge and Fabric) (by finn3253)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lithium">Lithium (Fabric) (by jellysquid3_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr-fabric">Lootr (Fabric) (by Noobanidus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/luggage">Luggage (by GizmoTheMoonPig)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/malilib">MaLiLib (by masady)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/mavm">More Axolotl Variants Mod (by Akashii_Kun_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-brewable-potions">More Brewable Potions (by MR_LOLF_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/megachicken">MegaChicken (by SkylorBeck)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/megane">megane (by badasintended)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/megaparrot">MegaParrot (by SkylorBeck)</a></li>
@@ -148,6 +147,9 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/minekea-fabric">Minekea (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu">Mod Menu (by ProspectorDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-axolotls">More Axolotls (by KxmischesDomi)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/mavm">More Axolotl Variants Mod (by Akashii_Kun_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-brewable-potions">More Brewable Potions (by MR_LOLF_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/emerald-geodes">More Geodes (by TheDeathlyCow)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-villagers-fabric">More Villagers [Fabric] (by SameDifferent)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers-fabric">Natually Charged Creepers (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/nbt-crafting">Nbt Crafting (Fabric) (by Siphalor)</a></li>
@@ -192,6 +194,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition">TrashSlot (Fabric Edition) (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trinkets">Trinkets (Fabric) (by EmilyPloszaj)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagers-follow-emeralds-fabric">Villagers follow Emeralds [Fabric] (by matjojo1000)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagertweaks">VillagerTweaks (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wandering-collector">Wandering Collector (by Siphalor)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wi-zoom">WI Zoom (by alexander9892)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">WTHIT (by badasintended)</a></li>

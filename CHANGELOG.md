@@ -1,3 +1,37 @@
+### 2022-10-11 (12.3.0)
+#### Updated Mods
+* Apollo's Additional Structures: 1.3 -> 1.3.1
+* Architectury API: 5.12.44 -> 5.12.45
+* Fabric Language Kotlin: 1.8.3 -> 1.8.4
+* Fabrishot: 1.8.0 -> 1.9.1
+* Inventory Profiles Next: 1.7.1 -> 1.8.1
+* MidnightLib: 0.6.0 -> 0.6.1
+* NBT Crafting: 2.1.4 -> 2.2.1
+* No Enchant Cap: 2.1.2 -> 2.1.3
+* Roughly Enough Items: 9.1.530 -> 9.1.550
+* Simple Voice Chat: 2.3.9 -> 2.3.10
+* Tom's Simple Storage: 1.4.1 -> 1.4.3
+* Trade Cycling: 1.0.3 -> 1.0.5
+* WTHIT: 5.12.0 -> 5.13.0
+
+#### Removed Mods
+* Infinite Villager Trading
+
+#### Added Mods
+* Easy Shulker Boxes: QoL improvements to shulker boxes
+* Enchantment Numbers Fix: converts enchantment levels > 10 to roman numerals
+* Enchant the Rainbow: adds the ability to modify enchantment glint color
+* libIPN: new dependency for Inventory Profiles Next
+* Philip's Ruins: more structures and things to discover in the world
+* Trample No More: crops don't get trampled if you have Feather Falling
+* VillagerTweaks: swapped in for Infinite Villager Trading
+* Villager Job Fix (datapack): utility for fixing the problem of villagers losing their job block after zombification
+
+#### Config Changes
+* Added Pharaoh's head as a drop for boss in YUNG's Better Desert Temples
+* Removed wither rose patch from possible bonemeal results
+
+
 ### 2022-09-11 (12.2.0)
 #### Notable Changes
 * Updated Fabric loader from 0.14.8 -> 0.14.9

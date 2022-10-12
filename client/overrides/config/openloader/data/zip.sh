@@ -19,6 +19,7 @@ cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd towers-of-the-wild;7z a -tzip ../towers-of-the-wild.zip .;cd ..
+cd villager-job-fix;7z a -tzip ../villager-job-fix.zip .;cd ..
 cd villager-workstation-highlights;7z a -tzip ../villager-workstation-highlights.zip .;cd ..
 cd visible-shulker-boxes-names;7z a -tzip ../visible-shulker-boxes-names.zip .;cd ..
 cd wandering-trader-announcements;7z a -tzip ../wandering-trader-announcements.zip .;cd ..
