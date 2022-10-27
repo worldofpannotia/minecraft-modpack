@@ -4,5 +4,6 @@
 	"maxTradesOverrideAmount": 8,
 	"enableConversionTimeOverride": false,
 	"conversionTime": 3600,
-	"enableDemandBonusOverride": true
+	"enableDemandBonusOverride": true,
+	"enableEmeraldTemptation": true
 }

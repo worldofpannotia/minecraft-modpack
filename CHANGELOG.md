@@ -1,4 +1,4 @@
-### 2022-xx-xx (12.5.0)
+### 2022-10-26 (12.5.0)
 #### Updated Mods
 * Deepslate Instamine: 2.1 -> 2.2
 * Grind Enchantments: 2.0.0-beta.2 -> 2.0.0
