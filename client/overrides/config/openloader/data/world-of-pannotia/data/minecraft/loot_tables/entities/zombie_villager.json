@@ -310,6 +310,158 @@
                   "entity": "this"
                 }
               ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-441133472,-1307688327,-1849414874,-1978582999],Name:\"Zombie Enderologist\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgyOTE3ZTNlNDBmMTk5YjYzYjdhNDM5OTRlMjkxNThiZjYzNGZlNjZkNTRkNzA4YzA1YTkxOTljZDUzNGU2NCJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:enderian\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-448389663,-556708503,-1228546137,1566713452],Name:\"Zombie Engineer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJlODlhMDE2NzcyOGNlMWE1MTM0NGIyNzdlNzZiOWEwNjY3MjY3NzRlYjRmNWM2YTc3MDU1ODc4ZGYzMDhkNSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:engineer\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-383014391,2036089005,-1929741266,-540674199],Name:\"Zombie Florist\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3ZTFkZWYyMzAzZmI5YWM3OWVjOGY2MTQ3Zjk1YjkwZTQ0YmNhYzg4NTdkMThmNGQzM2ZhNTRhZDgwMWU0MyJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:florist\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;783595216,391858296,-1998557940,402211719],Name:\"Zombie Hunter\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM0N2QzMjhmNTczZWQ3ZWIzOWQzMjBiMjQ4ZTIwMDE0Y2NmMjY5MjBiM2ZiOWJmMTc3MjlhZWQ4NmJhMWI1NSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:hunter\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-185650552,-751024555,-1432283632,-1144167247],Name:\"Zombie Miner\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxOTQxYjdhMGMzYjQzODVkMGE3ZTRhMDYyY2ZmZTgyNDAwMDRlYzE4NjllNDRkMGUxNzhmMTAzM2M5ZmVjNSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:miner\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-2034083180,1590447324,-1737366693,-459210308],Name:\"Zombie Netherologist\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YjgyZTIwMDllYTlmYWYzOTcwM2NlODMzMjczYTYyZWE2YzQ5MDNkOTYxMzU4Njc2YmIyZTViNWQwZDNlYiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:netherian\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-48325304,945176684,-1562307259,-1650235312],Name:\"Zombie Oceanographer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM1Nzc0N2YxNGE4NGYyZTMxNDU4MTk4ODNlNjg5NmM1YTFmZjk1NjI3OGJjZjNmNjlhNGIzYjE2ZjFmNjZkZCJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:oceanographer\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;1130239298,-467909310,-2021243125,1149403282],Name:\"Zombie Forester\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzkyMzA1MzEzNDY2NjRkN2Y4OTk4ZDlmMzhkNDAyNWYxMzA4NTY3OTQwMTNkZmVlYjg0YzBlYzc2NDcxOGE3NiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:woodworker\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.0](https://img.shields.io/badge/Minecraft-1.19.0-3a6.svg?style=flat-square)
-![Pack 12.3.0](https://img.shields.io/badge/Pack-12.3.0-blue.svg?style=flat-square)
+![Pack 12.4.0](https://img.shields.io/badge/Pack-12.4.0-blue.svg?style=flat-square)
 ![Fabric 0.14.9](https://img.shields.io/badge/Fabric-0.14.9-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -43,7 +43,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/badpackets">bad packets (by badasintended)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/balm-fabric">Balm (Fabric Edition) (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/beenfo">Beenfo (by Giselbaer)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-impaling-fabric">Better Impaling (Fabric) (by Boomshaka08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-mount-hud">Better Mount HUD (by Lortseam_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric">Better Ping Display [Fabric] (by Quintinity)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control-fabric">Better Spawner Control (Fabric) (by Serilum)</a></li>
@@ -85,7 +84,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity-fabric">Dismount Entity (Fabric) (by Serilum)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/double-doors-fabric">Double Doors (Fabric) (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic (by Fuzs_)*</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/edibles-fabric">Edibles (Fabric) (by Serilum)</a></li>
@@ -193,7 +191,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trajectory-preview-fabric">Trajectory preview [Fabric] (by Alexiy_Orlov)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trashslot-fabric-edition">TrashSlot (Fabric Edition) (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/trinkets">Trinkets (Fabric) (by EmilyPloszaj)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagers-follow-emeralds-fabric">Villagers follow Emeralds [Fabric] (by matjojo1000)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagertweaks">VillagerTweaks (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wandering-collector">Wandering Collector (by Siphalor)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wi-zoom">WI Zoom (by alexander9892)</a></li>

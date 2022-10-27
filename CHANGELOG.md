@@ -1,3 +1,52 @@
+### 2022-xx-xx (12.5.0)
+#### Updated Mods
+* Deepslate Instamine: 2.1 -> 2.2
+* Grind Enchantments: 2.0.0-beta.2 -> 2.0.0
+* Inmis: 2.7.0 -> 2.7.1
+* Inventory Profiles Next: 1.8.1 -> 1.8.2
+* libIPN: 1.0.1 -> 1.0.3
+* Philip's Ruins: 1.6 -> 1.7
+* VillagerTweaks: 1.0.0 -> 1.1.0
+
+#### Removed Mods
+* Double Doors: buggy behavior when disabling individual coupled behavior
+* Renameable heads (datapack): seems to have compatibility issues in 1.19.x
+* Villagers Follow Emeralds: no longer needed as of VillagerTweaks 1.1.0
+
+#### Added Mods
+* Bottled Allays: makes it easier to get allays from one place to another
+* Couplings: replacement for Double Doors
+* More Frogs: what it says on the tin
+* Skull (datapack): replacement for renameable heads
+
+#### Config Changes
+* Added chance for creepers to drop their heads at the same rate as endermen
+* Added mob head drops for villagers and zombie villagers with professions from the More Villagers mod
+* Added support for More Villagers professions to the Villager Job Fix datapack 
+* Don't consume hunger when right-click harvesting (it was kinda broken)
+* Increased looting chance for enderman head from `0.5% + 0.01% / level` to `0.5% + 0.1% / level`
+
+
+### 2022-10-14 (12.4.0)
+#### Added Mods
+* Just Player Heads (re-added to hardcore edition)
+* TellMe
+* You're In Grave Danger (re-added to hardcore edition)
+
+#### Config Changes
+* INMIS: allow shulker boxes to be stored in backpacks
+
+
+### 2022-10-12 (12.3.2)
+#### Removed Mods
+* Better Impaling: causes crash in multi-player
+
+
+### 2022-10-11 (12.3.1-he)
+#### Notable Changes
+* Fix config and extra files in deployed zip
+
+
 ### 2022-10-11 (12.3.0)
 #### Updated Mods
 * Apollo's Additional Structures: 1.3 -> 1.3.1

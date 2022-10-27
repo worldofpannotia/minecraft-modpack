@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "HHH",
+        "H H",
+        "HHH"
+    ],
+    "key": {
+        "H": {
+            "tag": "altheads:heads"
+        }
+    },
+    "result": {
+        "item": "minecraft:player_head",
+        "count": 4
+    }
+}

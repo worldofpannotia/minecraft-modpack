@@ -13,9 +13,9 @@ cd lore-geek;7z a -tzip ../lore-geek.zip .;cd ..
 cd mob-statues-vanilla;7z a -tzip ../mob-statues-vanilla.zip .;cd ..
 cd multiplayer-sleep;7z a -tzip ../multiplayer-sleep.zip .;cd ..
 cd nether-portal-coords;7z a -tzip ../nether-portal-coords.zip .;cd ..
-cd renameable-heads;7z a -tzip ../renameable-heads.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
+cd skull;7z a -tzip ../skull.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd towers-of-the-wild;7z a -tzip ../towers-of-the-wild.zip .;cd ..

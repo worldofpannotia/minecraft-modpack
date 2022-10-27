@@ -1,3 +1,0 @@
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:player_head"},Tags:["checked2"]}] at @s if score REconfig REOneTimeBook matches 1 run kill @e[type=minecraft:item,limit=1,distance=..1.5,nbt={Item:{id:"minecraft:written_book",Count:1b}}]
-
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:player_head"},Tags:["checked2"]}] at @s run playsound minecraft:block.anvil.use block @a ~ ~ ~

@@ -305,6 +305,158 @@
                   "entity": "this"
                 }
               ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;776958213,-833794779,-1216605330,152490099],Name:\"Enderologist Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQxNzIzZDlkZDc2OTNhNDgzNTNjYjg2MDk4ZGMwNWE4NjViYTliZGQwOGFjOGQ1YjYxMDFmMjc5NGFhODE2MCJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:enderian\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;197510412,333268994,-1558179782,-1442985162],Name:\"Engineer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkzM2QwNTVjNjIwZjE3YmFjYTViMDRlNDZkZjU4YjM3OWJmODc0MTA0N2VmOGFkYzk5MWJjN2JkOTBiNjk4YSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:engineer\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;1608685073,-1144500235,-1583884325,-1953743798],Name:\"Florist Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE5ZGVhZGM5ZTI1OTBhNjNmYjVjMzA5YmRkYzU2ZjRjMTJkN2Q2ZWI2ZDY0ZDU0YjkyY2E5NGNhZDUwZDA4NSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:florist\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;-1803709670,655508951,-1231738615,1364713153],Name:\"Hunter Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmYTJlZWJlNzEyODVjZTUwMDRiZTIzZjI2NjQ3MmMyMGY2ZTk2YjAxNmY1NmM5YmIzZjZkMGI5MzRhM2RmNyJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:hunter\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;1736880644,-578860753,-1490748908,-1970762022],Name:\"Miner Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJiNjQ2MTU5NGU4NDMxOWE1MTgxNjJhOGU5MWFhOTZjNWJkNGM4NTFhZGJiNjljODA0ZjAxMmFkYjcyYjE3ZSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:miner\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;191593148,640895952,-2075418608,-1092536749],Name:\"Netherologist Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlNjU0NGEyMDkxMjYxMDA5NDM5M2Q1N2RjMGJlNTI5ZDcwYzcwMDljOGI0ZWZiY2IwMmE3ZDNlMmJkN2RhIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:netherian\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;1092570244,-968668428,-1947673260,-390071652],Name:\"Oceanographer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEzNjQ1OGUzZjYxM2UxODBjNGU4YTM3MzdmNTVmOGEyMzczZGIyYzQyOWU2OTk0YjhhYjc3MjRhNGJiYzRlIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:oceanographer\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;1391225698,100550116,-1428383120,1957996170],Name:\"Forester Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzg5Yjc2MWQxOTFhMTFmMGI1MDcwOTZiZDE0MTE0ZmYzMGFjZDNiZjgxMDg3MWE5MTY3NzVkMjUzMDVkZCJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:\"morevillagers:woodworker\"}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }
