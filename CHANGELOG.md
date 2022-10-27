@@ -1,3 +1,8 @@
+### 2022-10-26 (12.5.1)
+#### Removed Mods
+* Double Doors: for real this time
+
+
 ### 2022-10-26 (12.5.0)
 #### Updated Mods
 * Deepslate Instamine: 2.1 -> 2.2
