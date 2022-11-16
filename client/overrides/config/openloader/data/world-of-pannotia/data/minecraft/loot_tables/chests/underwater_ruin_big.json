@@ -9,15 +9,6 @@
           "name": "reference:chests/underwater_ruin_big"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "miniblock_traders:chests/underwater_ruin_big"
-        }
-      ]
     }
   ]
 }

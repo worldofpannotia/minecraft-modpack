@@ -1,6 +1,5 @@
 {
   "values": [
-    "miniblock_traders:utility/init",
     "pannotia:effective_netherite/main"
   ]
 }

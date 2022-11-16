@@ -18,15 +18,6 @@
           "name": "treasure_gems:random"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "miniblock_traders:chests/village/village_armorer"
-        }
-      ]
     }
   ]
 }

@@ -15,15 +15,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "miniblock_traders:chests/jungle_temple"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "name": "treasure_gems:random"
         }
       ]
