@@ -1,3 +1,39 @@
+### 2022-11-XX (12.6.0)
+#### Updated Mods
+* Advanced Netherite: 1.6.4 -> 1.6.5
+* Architectury API: 5.12.45 -> 5.13.55
+* Bad Packets: 0.1.2 -> 0.1.3
+* Extreme Sound Muffler: 3.32 -> 3.34
+* Fabric Language Kotlin: 1.8.4 -> 1.8.6
+* Falling Leaves: 1.12.2 -> 1.13.0
+* Forge Config API Port: 4.2.6 -> 4.2.7
+* Inventory Profiles Next: 1.8.2 -> 1.8.5
+* JamLib: 0.4.4 -> 0.5.0
+* KubeJS UI: 1900.1.8-build.20 -> 1902.1.9-build.25
+* libIPN: 1.0.3 -> 1.0.6
+* MidnightLib: 0.6.1 -> 1.0.0
+* Minekea: 3.3.3 -> 3.4.0
+* More Frogs: 1.2.3a -> 1.2.3b
+* More Geodes: 1.5.1 -> 1.5.2
+* NBT Crafting: 2.2.1 -> 2.2.3
+* Polymorph: 0.45.0 -> 0.46.0
+* Repurposed Structures: 6.1.1 -> 6.1.2
+* Rhino: 1802.1.14-build.225 -> 1802.2.1-build.255
+* RightClickHarvest: 3.0.1 -> 3.0.5
+* Roughly Enough Items: 9.1.550 -> 9.1.572
+* Simple Voice Chat: 2.3.10 -> 2.3.16
+* ToolTipFix: 1.0.5 -> 1.1.1
+* Trinkets: 3.4.0 -> 3.4.1
+* VillagerTweaks: 1.1.0 -> 1.2.0
+* WTHIT: 5.13.0 -> 5.13.4
+
+#### Removed Mods
+* Miniblock Traders (datapack)
+
+#### Added Mods
+* Miniblock Merchants
+
+
 ### 2022-10-26 (12.5.1)
 #### Removed Mods
 * Double Doors: for real this time
