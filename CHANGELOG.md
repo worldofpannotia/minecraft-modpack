@@ -1,4 +1,4 @@
-### 2022-11-XX (12.6.0)
+### 2022-11-28 (12.6.0)
 #### Updated Mods
 * Advanced Netherite: 1.6.4 -> 1.6.5
 * Architectury API: 5.12.45 -> 5.13.55
@@ -9,7 +9,6 @@
 * Forge Config API Port: 4.2.6 -> 4.2.7
 * Inventory Profiles Next: 1.8.2 -> 1.8.5
 * JamLib: 0.4.4 -> 0.5.0
-* KubeJS UI: 1900.1.8-build.20 -> 1902.1.9-build.25
 * libIPN: 1.0.3 -> 1.0.6
 * MidnightLib: 0.6.1 -> 1.0.0
 * Minekea: 3.3.3 -> 3.4.0
@@ -18,7 +17,6 @@
 * NBT Crafting: 2.2.1 -> 2.2.3
 * Polymorph: 0.45.0 -> 0.46.0
 * Repurposed Structures: 6.1.1 -> 6.1.2
-* Rhino: 1802.1.14-build.225 -> 1802.2.1-build.255
 * RightClickHarvest: 3.0.1 -> 3.0.5
 * Roughly Enough Items: 9.1.550 -> 9.1.572
 * Simple Voice Chat: 2.3.10 -> 2.3.16
