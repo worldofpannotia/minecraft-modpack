@@ -1,7 +1,7 @@
 {
   "allow_removing_curses": true,
   "dedicated_server_options": {
-    "alternative_cost_display_enabled": true
+    "alternative_cost_display_enabled": false
   },
   "client_options": {
     "show_enchantment_cost": true
@@ -9,27 +9,29 @@
   "disenchant_to_book": {
     "enabled": true,
     "consume_enchanted_item": false,
-    "cost_config": {
-      "count_mode": {
+    "cost_function": {
+      "function": {
         "type": "grindenchantments:count_min_power"
       },
-      "cost_factor": 0.0,
-      "cost_offset": 0.0
+      "factor": 0.0,
+      "offset": 0.0,
+      "type": "grindenchantments:transform"
     }
   },
   "move_enchantments": {
     "enabled": true,
-    "cost_config": {
-      "count_mode": {
-        "delegate": {
+    "cost_function": {
+      "function": {
+        "function": {
           "normal_factor": 0.0,
           "treasure_factor": 0.0,
           "type": "grindenchantments:count_levels"
         },
         "type": "grindenchantments:first_enchantment"
       },
-      "cost_factor": 0.0,
-      "cost_offset": 0.0
+      "factor": 0.0,
+      "offset": 0.0,
+      "type": "grindenchantments:transform"
     }
   }
 }

@@ -25,7 +25,6 @@ cd visible-shulker-boxes-names;7z a -tzip ../visible-shulker-boxes-names.zip .;c
 cd wandering-trader-announcements;7z a -tzip ../wandering-trader-announcements.zip .;cd ..
 cd wandering-trades-hermit-edition;7z a -tzip ../wandering-trades-hermit-edition.zip .;cd ..
 cd world-of-pannotia;7z a -tzip ../world-of-pannotia.zip .;cd ..
-cd world-of-pannotia-he;7z a -tzip ../world-of-pannotia-he.zip .;cd ..
 
 rm -rf anti-enderman-grief
 rm -rf armor-statues
@@ -52,4 +51,3 @@ rm -rf visible-shulker-boxes-names
 rm -rf wandering-trader-announcements
 rm -rf wandering-trades-hermit-edition
 rm -rf world-of-pannotia
-rm -rf world-of-pannotia-he

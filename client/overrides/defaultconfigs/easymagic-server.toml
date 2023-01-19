@@ -1,27 +1,24 @@
-# Amount of lapis lazuli taken as cost for rerolling enchantments. Set to 0 to disable this kind of cost.
-# Requires "reroll_enchantments" to be set to "WITH_COST".
-# Range: 0 ~ 64
-reroll_lapis_cost = 3
+#Amount of bookshelves required to perform enchantments at the highest level.
+#Range: > 0
+max_enchanting_power = 15
 
-# Amount of enchantment levels taken as cost for rerolling enchantments. Set to 0 to disable this kind of cost.
-# Requires "reroll_enchantments" to be set to "WITH_COST".
-# Range: > 0
-reroll_level_cost = 0
+#Add a button in the enchanting screen to allow for re-rolling enchantments.
+#This costs experience levels as well as lapis lazuli, or can be free when the costs are set to 0.
+reroll_enchantments = true
 
-# Re-roll possible enchantments in an enchanting table every time an item is placed into the enchanting slot.
-# Allowed Values: FREE, WITH_COST, NEVER
-reroll_enchantments = "WITH_COST"
+#Choose how many enchantments are shown on the enchanting tooltip, if any at all.
+#Allowed Values: NONE, SINGLE, ALL
+enchantment_hint = "ALL"
 
-# Choose how many enchantments are shown on the enchanting tooltip, if any at all.
-# Allowed Values: NONE, SINGLE, ALL
-show_enchantments = "ALL"
+#Amount of lapis lazuli taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
+#Requires the re-rolling option to be enabled.
+#Range: 0 ~ 64
+reroll_lapis_lazuli_cost = 1
 
-# Amount of bookshelves required to perform enchantments at the highest level.
-# Range: > 0
-enchanting_power = 15
+#Amount of experience points (not enchantment levels) taken as a cost for re-rolling enchantments. Set to 0 to disable this kind of cost.
+#Requires the re-rolling option to be enabled.
+#Range: > 0
+reroll_experience_points_cost = 5
 
-# Blocks without a collision shape do not block bookshelves placed behind from counting towards current enchanting power.
+#Blocks without a collision shape (e.g. grass or torches) do not block bookshelves placed behind from counting towards current enchanting power.
 lenient_bookshelves = true
-
-# Only allow items that can be enchanted to be placed into the enchanting slot of an enchanting table. Useful when inserting items automatically with a hopper.
-filter_enchanting_input = true
