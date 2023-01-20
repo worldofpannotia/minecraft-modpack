@@ -1,3 +1,29 @@
+### 2023-01-19 (13.0.0-alpha.0)
+
+First alpha release of 13.x pack!
+
+This version of the pack builds upon the 12.x line. The majority of the mods from the previous release are still
+present, but a few have been removed and/or added in the hope of ensuring long-term stability.
+
+See the [mod list](https://github.com/worldofpannotia/minecraft-modpack/tree/main#included-mods) for a
+complete listing of mods in the pack along with links to their respective CurseForge pages.
+
+#### Notable Mod Removals
+
+* Additional Bars
+* Big Beacons
+* More Geodes
+* Sky Villages
+* Tom's Simple Storage
+* Most structure mods (Apollo's Additional Structures, YUNG's Better *, etc)
+
+#### Notable New Aesthetic Mods
+
+* FabricSkyboxes: adds support for custom sky boxes (like Optifine)
+* New Default+: adds new block textures as well as _tons_ of custom armor and item models which can be acquired by renaming things in an anvil
+* Terralith, Incendium, and Nullscape: vanilla-style world generation on steroids
+
+
 ### 2022-11-28 (12.6.0)
 #### Updated Mods
 * Advanced Netherite: 1.6.4 -> 1.6.5
