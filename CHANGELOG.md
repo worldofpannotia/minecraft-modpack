@@ -1,3 +1,56 @@
+### 2023-01-19 (13.0.0-ht-alpha.0)
+
+First alpha release of 13.x HT (High Tech) pack!
+
+This version of the pack builds upon the 12.x line, but takes it out of the "Vanilla+" space and adds a bunch of new
+content, technology, magic, etc. The majority of the mods from the previous release are still present. Here are some of
+the notable additions (in-game documentation via Patchouli guide to be updated in future releases).
+
+See the [mod list](https://github.com/worldofpannotia/minecraft-modpack/tree/feature/13.x-ht#included-mods) for a
+complete listing of mods in the pack along with links to their respective CurseForge pages.
+
+#### Notable New Content Mods
+
+* Applied Energistics 2 (and addons): store your items in digital form!
+* Bosses of Mass Destruction: totally benign... ;-)
+* Botania: nature-themed tech mod
+* Botany Pots (and addons): make farming items easier
+* Building Wands: wands that make building go vroom
+* Composter ReComposted: adds a new composter block and mechanics for creating dirt-like blocks
+* Conjuring: something about souls and spawners (spooky)
+* Croptopia: more crops, plants, and food items
+* Dank Storage: portable mega storage
+* Dark Utilities: a variety of super handy blocks and items
+* Decorative Blocks: it's in the name
+* Deeper and Darker: totally not a scary new dimension related to the Deep Dark... nope
+* Eden Ring: fantasy themed dimension and blocks
+* Fabric Furnaces: faster furnaces
+* Farmer's Delight (and addons): expanded farming and cooking options!
+* Goblin Traders (and End Goblin Traders): adds goblins... that trade stuff
+* Guard Villagers: don't mess with them
+* Hearty Trinkets: moar hearts!
+* Immersive Weathering: adds weathering / aging mechanics to tons of blocks (similar to copper aging)
+* Let's Do Wine!: make boozahol
+* Linked Storage: ender chests, but so much better
+* Macaw's Bridges/Doors/Fences/etc: tons more building options
+* Magnum Torch: adds torches which can prevent mob spawning
+* Origins (and addons): RPG style mod where you select an origin for your player; lots of depth & complexity
+* Reinforced Barrels/Chests/Shulker Boxes: bigger storage
+* Rings of Ascension: magic rings with a variety of effects
+* Spectrum: color-based magic mod
+* Supplementaries: adds a variety of decorative and functional blocks and items
+* Tech Reborn (and addons): high-tech mod which adds power generation, ore processing, and more
+* Twigs: more decorative and functional blocks
+* Waystones: teleportation!
+* XP Obelisk: xp storage in block form
+
+#### Notable New Aesthetic Mods
+
+* FabricSkyboxes: adds support for custom sky boxes (like Optifine)
+* New Default+: adds new block textures as well as _tons_ of custom armor and item models which can be acquired by renaming things in an anvil 
+* Terralith, Incendium, and Nullscape: vanilla-style world generation on steroids
+
+
 ### 2022-11-28 (12.6.0)
 #### Updated Mods
 * Advanced Netherite: 1.6.4 -> 1.6.5
