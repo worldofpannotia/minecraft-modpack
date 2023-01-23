@@ -20,4 +20,14 @@ await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
 
 proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
 
+const manifest = await fse.readJson('./tmp/client/manifest.json');
+
+const {minecraft, version} = manifest;
+
+try {
+    await fse.move('./tmp/client.zip', `./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
+} catch (e) {
+    console.error(e);
+}
+
 console.log('done!');
