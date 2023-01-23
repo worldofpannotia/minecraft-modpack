@@ -1,3 +1,38 @@
+### 2023-01-23 (13.0.0-ht-alpha.2)
+
+#### Added Mods
+
+* Custom Roleplay Data (datapack)
+* Name Formatting Station (datapack): replaces "Lore Geek" datapack
+
+#### Removed Mods
+
+* Lore Geek (datapack)
+
+#### Updated Mods
+
+* Advanced Netherite: 1.6.5 -> 1.6.6
+* Advanced Reborn: 1.1.2 -> 1.1.3
+* Better Beacon / Conduit: 1.1.0 -> 1.0.8
+* Bookshelf: 16.2.16 -> 16.2.17
+* Botany Pots: 9.0.22 -> 9.0.24
+* Building Wands: 2.6.4 -> 2.6.5
+* Collective: 6.30 -> 6.40
+* Dark Paintings: 13.1.3 -> 13.1.5
+* Expanded Delight: 0.2.5 -> 0.2.5.1
+* Fabric API: 0.72.0 -> 0.73.0
+* MEGA Cells: 1.5.3 -> 2.0.0-beta.5
+* Moonlight Lib: 2.1.28 -> 2.1.30
+* owo-lib: 0.8.5 -> 0.9.3
+* Revelationary: 1.2.0 -> 1.2.0 (sic)
+* Roughly Enough Items: 9.1.580 -> 9.1.585
+* Spectrum: 1.6.4 -> 1.6.5
+* Supplementaries: 2.2.39 -> 2.2.41
+* Xaero's Minimap: 22.17.0 -> 22.17.1
+* Xaero's World Map: 1.28.7 -> 1.28.8
+* You're in Grave Danger: 1.4.7 -> 1.4.8
+
+
 ### 2023-01-19 (13.0.0-ht-alpha.0)
 
 First alpha release of 13.x HT (High Tech) pack!
