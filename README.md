@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-alpha.2](https://img.shields.io/badge/Pack-13.0.2--alpha.0-blue.svg?style=flat-square)
+![Pack 13.0.0-beta.0](https://img.shields.io/badge/Pack-13.0.2--beta.0-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -87,7 +87,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cycle-paintings">Cycle Paintings (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/daily-dad">Daily Dad (by Mrbysco)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup">Death Backup (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/debugify">Debugify (by XanderIsDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine">Deepslate Instamine - Fabric/Forge (by nicguzzo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deepslatecutting">DeepslateCutting (by NoComment1105)</a></li>
@@ -95,7 +94,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity">Dismount Entity (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes">Easy Shulker Boxes (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/edibles">Edibles (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/effectsleft-fabric">EffectsLeft (Fabric/Quilt) (by CoolSimulations)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-slot-fabric">Elytra Slot (Fabric) (by TheIllusiveC4)</a></li>
@@ -104,6 +102,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-numbers-fix">Enchantment Numbers Fix (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities">Enhanced Block Entities (by FoundationGames)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling">Entity Culling Fabric/Forge (by tr9zw)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric">Entity Texture Features - [Fabric & Forge] (by traben_0)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/explorers-compass">Explorer's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal">Extended Bone Meal (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-fabric-official">Extreme sound muffler (Fabric) Official (by LeoBeliik)</a></li>
@@ -241,6 +240,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wi-zoom">WI Zoom (by alexander9892)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">WTHIT (by badasintended)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Xaero's Minimap (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/texture-packs/xaeros-minimap-modded-support">Xaero's Minimap - Modded Support (by babybluetit)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Xaero's World Map (by xaero96)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yacl">YetAnotherConfigLib (by XanderIsDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger">You're in Grave Danger (by b1n_ry)</a></li>
