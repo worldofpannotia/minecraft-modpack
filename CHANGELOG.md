@@ -1,3 +1,40 @@
+### 2023-01-30 (13.0.0-ht-beta.0)
+
+#### Added Mods
+
+* Entity Texture Features: adds support for mob renaming (I thought this was already in the pack)
+
+#### Removed Mods
+
+* Death Backup: currently doesn't work with Curios
+* Easy Shulker Boxes: breaks bundle functionality
+* Roughly Enough Resources: I don't think this actually works with Terralith world generation, so removing it seems wise
+
+#### Updated Mods
+
+* Botania: 436 -> 437
+* Botany Pots: 9.0.24 -> 9.0.26
+* Botany Pots Tiers: 3.3.0 -> 3.3.1
+* Carry On: 2.0.3.4 -> 2.0.4.6
+* Collective: 6.40 -> 6.43
+* Deepslate Instamine: 2.2 -> 2.4
+* FabricSkyboxes: 0.6.1 -> 0.6.2
+* Fix Experience Bug: 18 -> 19
+* Inventory Profiles Next: 1.9.1 -> 1.9.2
+* libIPN: 2.0.1 -> 2.0.2
+* MEGA Cells: 2.0.0-beta.5 -> 2.0.0-beta.6
+* Moonlight Lib: 2.1.30 -> 2.2.2
+* More Geodes: 1.6.3 -> 1.6.4
+* OpenBlocks Elevator: 0.0.2 -> 0.0.2 (sic)
+* Reacharound: 1.1.1 -> 1.1.2
+* Revelationary: 1.2.0 -> 1.3.0
+* Roughly Enough Items: 9.1.585 -> 9.1.587
+* Simple Voice Chat: 2.3.27 -> 2.3.28
+* Supplementaries: 2.2.41 -> 2.2.45
+* WTHIT: 5.13.4 -> 5.13.5
+* YetAnotherConfigLib: 1.7.1 -> 2.2.0
+
+
 ### 2023-01-23 (13.0.0-ht-alpha.2)
 
 #### Added Mods

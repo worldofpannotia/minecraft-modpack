@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-ht-alpha.2](https://img.shields.io/badge/Pack-13.0.0--ht--alpha.2-blue.svg?style=flat-square)
+![Pack 13.0.0-ht-beta.0](https://img.shields.io/badge/Pack-13.0.0--ht--beta.0-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -108,7 +108,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dank-storage-fabric">Dank Storage Fabric (by tfarecnim)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-paintings">Dark Paintings (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dark-utilities">Dark Utilities (by DarkhaxDev)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup">Death Backup (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/debugify">Debugify (by XanderIsDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks">Decorative Blocks (by stohun)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deeperdarker">Deeper and Darker (by KyaniteMods)</a></li>
@@ -119,7 +118,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity">Dismount Entity (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic (by Fuzs_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes">Easy Shulker Boxes (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/eden-ring">Eden Ring (by paulevs)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/edibles">Edibles (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/effectsleft-fabric">EffectsLeft (Fabric/Quilt) (by CoolSimulations)</a></li>
@@ -133,6 +131,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities">Enhanced Block Entities (by FoundationGames)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-mob-spawners">Enhanced Mob Spawners (by BR4NDER5)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling">Entity Culling Fabric/Forge (by tr9zw)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric">Entity Texture Features - [Fabric & Forge] (by traben_0)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/expanded-delight">Expanded Delight [Fabric] (by ianm1647)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/explorers-compass">Explorer's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/extended-bone-meal">Extended Bone Meal (by Serilum)</a></li>
@@ -268,7 +267,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items">Roughly Enough Items Fabric/Forge (REI) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-loot-tables">Roughly Enough Loot Tables (by GrigLog)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-professions-rep">Roughly Enough Professions (REP) (by Mrbysco)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources">Roughly Enough Resources (by theorbagain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-trades">Roughly Enough Trades (by GrigLog)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/rpg-origins">RPG Origins (by DaBananaCat)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/runelic">Runelic (by DarkhaxDev)</a></li>
@@ -316,6 +314,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wi-zoom">WI Zoom (by alexander9892)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/wthit">WTHIT (by badasintended)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap">Xaero's Minimap (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/texture-packs/xaeros-minimap-modded-support">Xaero's Minimap - Modded Support (by babybluetit)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map">Xaero's World Map (by xaero96)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xp-obelisk">XP Obelisk (by Meridanus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xp-obelisk-additions">XP Obelisk Additions (by Meridanus)</a></li>
