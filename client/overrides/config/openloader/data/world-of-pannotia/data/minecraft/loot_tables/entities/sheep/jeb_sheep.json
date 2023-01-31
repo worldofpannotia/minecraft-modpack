@@ -5,7 +5,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
           "weight": 1,
           "functions": [

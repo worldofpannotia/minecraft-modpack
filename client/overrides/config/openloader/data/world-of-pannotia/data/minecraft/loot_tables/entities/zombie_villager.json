@@ -27,7 +27,7 @@
           ],
           "children": [
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -46,7 +46,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -65,7 +65,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -84,7 +84,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -103,7 +103,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -122,7 +122,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -141,7 +141,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -160,7 +160,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -179,7 +179,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -198,7 +198,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -217,7 +217,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -236,7 +236,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -255,7 +255,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -274,7 +274,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -293,7 +293,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -312,7 +312,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -331,7 +331,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -350,7 +350,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -369,7 +369,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -388,7 +388,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -407,7 +407,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -426,7 +426,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -445,7 +445,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -464,7 +464,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -483,7 +483,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -502,7 +502,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -521,7 +521,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -540,7 +540,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -559,7 +559,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -578,7 +578,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -597,7 +597,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -616,7 +616,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -635,7 +635,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -654,7 +654,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -673,7 +673,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -692,7 +692,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -711,7 +711,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -730,7 +730,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -749,7 +749,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -768,7 +768,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -787,7 +787,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -806,7 +806,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -825,7 +825,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -844,7 +844,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -863,7 +863,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -882,7 +882,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -901,7 +901,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
@@ -920,7 +920,7 @@
               ]
             },
             {
-              "type": "item",
+              "type": "minecraft:item",
               "name": "minecraft:player_head",
               "functions": [
                 {
