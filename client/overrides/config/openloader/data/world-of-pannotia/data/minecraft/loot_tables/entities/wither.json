@@ -19,7 +19,7 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
           "weight": 3,
           "functions": [
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
           "weight": 3,
           "functions": [
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
           "weight": 2,
           "functions": [
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
           "weight": 2,
           "functions": [
