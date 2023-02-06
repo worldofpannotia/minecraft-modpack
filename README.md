@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-ht-beta.0](https://img.shields.io/badge/Pack-13.0.0--ht--beta.0-blue.svg?style=flat-square)
+![Pack 13.0.0-ht-beta.1](https://img.shields.io/badge/Pack-13.0.0--ht--beta.1-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -57,6 +57,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-than-mending">Better Than Mending (by legobmw99)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-third-person">Better Third Person (by Socolio)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/blockmeterfabric">BlockMeterFabric (by ModProg)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/boat-item-view">Boat Item View (by 50ap5ud5)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bobby">Bobby (by Johni0702)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/borderless-mining">Borderless Mining (by comp500)</a></li>
@@ -116,6 +117,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity">Dismount Entity (by Serilum)</a></li>
+        <li><a href="https://beta.curseforge.com/minecraft/mc-mods/doodads-fabric">Doodads [Fabric] (by thearcanepigeon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/easy-magic">Easy Magic (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/eden-ring">Eden Ring (by paulevs)</a></li>
@@ -231,7 +233,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/netherportalfix-fabric">NetherPortalFix (Fabric Edition) (by BlayTheNinth)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric">Nether's Delight (Fabric) (by StevePlayzz_)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/texture-packs/newdefaultplus">New Default+ (by SeaOfPixels)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/nimble-fabric">Nimble (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-enchant-cap">No Enchant Cap (by AmyMialee)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-fade">No Fade (by UltimateBoomer)</a></li>
@@ -243,6 +244,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator-fabric">OpenBlocks Elevator (Fabric) (by farruchoo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/optigui">OptiGUI (by opekope2)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/origins">Origins (Fabric) (by Apace100)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/overweight-farming">Overweight Farming (by agentmhkskg)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/owo-lib">oωo (owo-lib) (by gliscowo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric">Patchouli (Fabric/Quilt) (by williewillus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/pehkui">Pehkui (by Virtuoel)</a></li>
@@ -256,7 +258,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reacharound">Reacharound (by spAnser)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reborncore">Reborn Core (by modmuss50)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/recomposted-addon">Recomposted Addon (by wondiws98)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options">Reese's Sodium Options (by FlashyReese)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reinforced-barrels">Reinforced Barrels (by atonkish)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reinforced-chests">Reinforced Chests (by atonkish)</a></li>
@@ -273,6 +274,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby">Scaffolding Drops Nearby (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/see-through-lava-water">See Through Water/Lava (by spoorn)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Moonlight Lib (by MehVahdJukaar)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save">Server Performance - Smooth Chunk Save[Forge/Fabric] (by someaddon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/servux">Servux (by masady)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sheep-consistency">Sheep Consistency (by IMS21)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulker-box-slot-fabric">Shulker Box Slot (Fabric) (by TheIllusiveC4)</a></li>

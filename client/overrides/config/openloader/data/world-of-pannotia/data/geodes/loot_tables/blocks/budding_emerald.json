@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "minecraft:budding_amethyst"
+              "name": "geodes:budding_emerald"
             },
             {
               "type": "minecraft:item",
@@ -34,7 +34,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "minecraft:amethyst_block"
+              "name": "geodes:emerald_geode"
             }
           ]
         }

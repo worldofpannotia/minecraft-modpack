@@ -1,3 +1,41 @@
+### 2023-02-06 (13.0.0-beta.1)
+
+#### Config Changes
+
+* Added a recipe for the Orb of Origins from the Origins mod
+* Made budding amethyst blocks harvestable with the Resonance enchant from Spectrum instead of Silk Touch
+* Made budding blocks from More Geodes harvestable with the Resonance enchant from Spectrum
+* Reduced spawn rate of chests/mimics from Probably Chests
+
+#### Added Mods
+
+* Advancements Debug: hopefully fix a crash caused by too many advancements (thanks moshner!)
+* Boat Item View: makes items in your main hand visible when in a boat (1st-person only)
+* Doodads: bits and bobs
+* Overweight Farming: thicc veggies
+* Server Performance - Smooth Chunk Save: performance mod which aims to reduce time spent saving chunks
+
+#### Removed Mods
+
+* New Default+: removed because of too many rendering issues
+* Recomposted Addon: removing this will re-enable the vanilla composter
+
+#### Updated Mods
+
+* Elytra Slot: 6.0.0 -> 6.1.0
+* Fabric API: 0.73.0 -> 0.73.2
+* Fabric Language Kotlin: 1.9.0 -> 1.9.1
+* Immersive Weathering: 1.2.5 -> 1.2.7
+* KubeJS: 1902.6.0-build.140 -> 1902.6.0-build.142
+* Macaw's Doors: 1.0.7 -> 1.0.8
+* MCPitanLibarch: 1.3.5 -> 1.3.6
+* MmmMmmMmmMmm: 1.6.2 -> 1.7.0
+* Moonlight Lib: 2.2.2 -> 2.2.5
+* OpenBlocks Elevator: 0.0.2 -> 0.0.3
+* See Through Water/Lava: 3.0.1 -> 3.1
+* Supplementaries: 2.2.45 -> 2.2.46
+
+
 ### 2023-01-30 (13.0.0-ht-beta.0)
 
 #### Added Mods
