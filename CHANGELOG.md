@@ -1,3 +1,10 @@
+### 2023-02-XX (13.0.0-ht-rc.0)
+
+#### Removed Mods
+
+* Flat Bedrock: not compatible with Terralith, and even if it were, it would break Spectrum's progression
+
+
 ### 2023-02-06 (13.0.0-beta.1)
 
 #### Config Changes

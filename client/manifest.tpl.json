@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "13.0.0-ht-beta.1",
+  "version": "13.0.0-ht-beta.2",
   "author": "cmrcdrm",
   "files": [
     {"projectID": 223794, "fileID": 4293536, "required": true, "name": "Applied Energistics 2"},
@@ -283,7 +283,6 @@
     {"projectID": 623764, "fileID": 4318554, "required": true, "name": "JamLib"},
     {"projectID": 627566, "fileID": 4147605, "required": true, "name": "MemoryLeakFix"},
     {"projectID": 629153, "fileID": 4126513, "required": true, "name": "Macaw's Paths and Pavings"},
-    {"projectID": 632218, "fileID": 3825758, "required": true, "name": "Flat Bedrock (Fabric)"},
     {"projectID": 636608, "fileID": 4344796, "required": true, "name": "Open Parties and Claims"},
     {"projectID": 638230, "fileID": 4031557, "required": true, "name": "RPG Origins"},
     {"projectID": 641038, "fileID": 3881255, "required": true, "name": "Flower Patch"},

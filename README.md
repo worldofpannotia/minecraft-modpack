@@ -154,7 +154,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric">FerriteCore (Fabric) (by malte0811)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fire-spread-tweaks">Fire Spread Tweaks (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fix-experience-bug">Fix Experience Bug (now with FABRIC and FORGE versions) (by MacTso)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/flat-bedrock-fabric">Flat Bedrock (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/flower-patch">Flower Patch (by Mrbysco)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric">Forge Config API Port (by Fuzs_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/frame-api">🔨 Frame API (by andantet)</a></li>
