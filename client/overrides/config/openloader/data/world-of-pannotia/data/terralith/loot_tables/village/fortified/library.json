@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "reference:chests/jungle_temple"
+                    "name": "modded_reference:terralith/village/fortified/library"
                 }
             ]
         },
@@ -20,24 +20,21 @@
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 8
+            },
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pannotia:chests/jungle_temple"
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
-            },
-            "entries": [
+                    "weight": 1,
+                    "name": "babel:books"
+                },
                 {
-                    "type": "minecraft:item",
-                    "name": "spectrum:quitoxic_reeds"
+                    "type": "minecraft:empty",
+                    "weight": 3
                 }
             ]
         }

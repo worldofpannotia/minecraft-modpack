@@ -1,8 +1,18 @@
-### 2023-02-XX (13.0.0-ht-rc.0)
+### 2023-02-08 (13.0.0-ht-rc.0)
 
 #### Removed Mods
 
 * Flat Bedrock: not compatible with Terralith, and even if it were, it would break Spectrum's progression
+
+#### Added Mods
+
+* Comforts: adds sleeping bags
+* Tech Reborn Patchouli: adds an in-game guide for Tech Reborn
+
+#### Config Changes
+
+* Added Spectrum's Quitoxic Reeds to a couple of loot tables since Terralith world generation makes it almost impossible for them to generate naturally
+* Updated a ton of loot tables for structures and chests (to add things like gems)
 
 
 ### 2023-02-06 (13.0.0-beta.1)

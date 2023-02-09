@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "reference:chests/jungle_temple"
+                    "name": "modded_reference:chests/probablychests/lush_items"
                 }
             ]
         },
@@ -20,19 +20,10 @@
             ]
         },
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "pannotia:chests/jungle_temple"
-                }
-            ]
-        },
-        {
             "rolls": {
                 "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
+                "min": 1,
+                "max": 3
             },
             "entries": [
                 {

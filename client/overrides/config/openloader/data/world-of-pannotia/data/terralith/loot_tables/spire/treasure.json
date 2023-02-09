@@ -6,12 +6,12 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "reference:chests/jungle_temple"
+                    "name": "modded_reference:terralith/spire/treasure"
                 }
             ]
         },
         {
-            "rolls": 1,
+            "rolls": 3,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
@@ -20,24 +20,21 @@
             ]
         },
         {
-            "rolls": 1,
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+            },
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "pannotia:chests/jungle_temple"
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
-            },
-            "entries": [
+                    "weight": 1,
+                    "name": "babel:books"
+                },
                 {
-                    "type": "minecraft:item",
-                    "name": "spectrum:quitoxic_reeds"
+                    "type": "minecraft:empty",
+                    "weight": 3
                 }
             ]
         }

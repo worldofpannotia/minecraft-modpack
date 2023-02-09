@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-ht-beta.1](https://img.shields.io/badge/Pack-13.0.0--ht--beta.1-blue.svg?style=flat-square)
+![Pack 13.0.0-ht-rc.0](https://img.shields.io/badge/Pack-13.0.0--ht--rc.0-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -90,6 +90,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/colormatic">Colormatic (by kwertiTheCats)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/comforts-fabric">Comforts (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/companion-fabric">Companion 🐕 (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/completeconfig">CompleteConfig (by Lortseam_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/compostables">Compostables (by yGlobalista)</a></li>
@@ -294,6 +295,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries (by MehVahdJukaar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/surface-mushrooms">Surface Mushrooms (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/techreborn">Tech Reborn (by modmuss50)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/tech-reborn-patchouli">Tech Reborn Patchouli (by Ayutac)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tellme">TellMe (by masady)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/terralith">Terralith (by Starmute)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/terralith-biome-language-support-tbls">Terralith Biome Language Support (TBLS) (by TheBuzzGod)</a></li>

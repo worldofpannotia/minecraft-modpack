@@ -6,20 +6,16 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "reference:chests/underwater_ruin_big"
+                    "name": "modded_reference:terralith/village/fortified/generic"
                 }
             ]
         },
         {
-            "rolls": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 2
-            },
+            "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "spectrum:quitoxic_reeds"
+                    "type": "minecraft:loot_table",
+                    "name": "treasure_gems:random"
                 }
             ]
         }
