@@ -25,7 +25,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(li)You can bottle your gathered xp by $(thing)crouch+right-clicking$(thing) an $(item)empty bottle$(item)."
+      "text": "$(li)You can bottle your gathered xp by $(thing)crouch+right-clicking$(thing) an $(item)empty bottle$(item).$(li)Hay bales negate fall damage entirely, Assassin's Creed style."
     }
   ]
 }
