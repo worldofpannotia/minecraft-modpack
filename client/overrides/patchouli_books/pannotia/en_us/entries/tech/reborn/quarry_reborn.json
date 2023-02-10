@@ -1,0 +1,30 @@
+{
+  "name": "Quarry Reborn",
+  "icon": "quarrymod:quarry",
+  "category": "patchouli:wp_tech/reborn",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Quarry Reborn",
+      "text": "Quarry Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds a Quarry machine which will mine ores in specific radius (7 by default), and consumes energy (6000 per block) (No book is available)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "quarrymod:quarry",
+      "title": "Quarry",
+      "text": "Using a lot of power this machine will mine out all the ores and/or blocks below it in a 7 block radius cube. Requires: Power, item output, and $(item)Quarry Tubes$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "quarrymod:drill_tube",
+      "title": "Quarry Tubes",
+      "text": "Each layer that you want your quarry to mine down will require one (1) quarry tube. Tip: You might want to make a way to import these automatically so it doesn't stop on you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "quarrymod:fortune_lvl3_upgrade",
+      "title": "Upgrades",
+      "text": "The quarry can be upgraded using special craftable upgrades including:$(li)$(item)Range Extender Upgrades$(): 3 levels, up to 24 block radius$(li)$(item)Fortune Upgrades$(): 3 levels, up to fortune 3, not enchantable$(li)$(item)Silk Touch Upgrade$(): Does as advertised"
+    }
+  ]
+}
