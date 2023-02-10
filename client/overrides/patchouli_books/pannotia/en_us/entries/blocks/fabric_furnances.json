@@ -1,0 +1,58 @@
+{
+  "name": "Fabric Furnaces",
+  "icon": "fabric-furnaces:emerald_furnace",
+  "category": "patchouli:wp_blocks",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Adds in new furnaces based on vanilla materials that scale in speed & ability. Mod by Draylar",
+      "url": "https://github.com/Draylar/fabric-furnaces/wiki",
+      "link_text": "Fabric Furnaces Wiki"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:fabric_furnace",
+      "recipe2": "fabric-furnaces:crystal_fabric_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:iron_furnace",
+      "recipe2": "fabric-furnaces:crystal_iron_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:gold_furnace",
+      "recipe2": "fabric-furnaces:crystal_gold_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:diamond_furnace",
+      "recipe2": "fabric-furnaces:crystal_diamond_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:obsidian_furnace",
+      "recipe2": "fabric-furnaces:crystal_obsidian_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:nether_furnace",
+      "recipe2": "fabric-furnaces:crystal_nether_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:emerald_furnace",
+      "recipe2": "fabric-furnaces:crystal_emerald_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:end_furnace",
+      "recipe2": "fabric-furnaces:crystal_end_furnace"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "fabric-furnaces:ethereal_furnace",
+      "recipe2": "fabric-furnaces:crystal_ethereal_furnace"
+    }
+  ]
+}
