@@ -10,6 +10,12 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "advanced_reborn:cardboard_box",
+      "title": "Cardboard Boxes",
+      "text": "Early game shulker boxes! Set them down, fill them up, and carry them around."
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "advanced_reborn:charge_pad",
       "title": "Charging Pads",
       "text": "Charge your gear just by standing on the pad. There are 5 varieties, each improving and building on the previous. You need to put a capacitor such as the $(item)Battery Box$() under this."
@@ -24,7 +30,86 @@
       "type": "patchouli:spotlight",
       "item": "advanced_reborn:induction_furnace",
       "title": "Induction Furnace",
-      "text": "This furnace can speed up smelting by adding two output slots and two insertion slots to the electric furnace and gives a redstone signal."
+      "text": "This furnace upgrade can speed up smelting by adding two output slots and two insertion slots to the electric furnace and gives a redstone signal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:rotary_grinder",
+      "title": "Rotary Grinder",
+      "text": "This grinder upgrade can speed up grinding by adding two output slots and two insertion slots and gives a redstone signal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:centrifugal_extractor",
+      "title": "Centrifugal Extractor",
+      "text": "This extractor upgrade can speed up grinding by adding two output slots and two insertion slots and gives a redstone signal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:singularity_compressor",
+      "title": "Singularity Compressor",
+      "text": "This compressor upgrade can speed up smelting by adding two output slots and two insertion slots and gives a redstone signal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:canning_machine",
+      "title": "Canning Machine",
+      "text": "This machine makes fuel cans and canned food."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:renaming_machine",
+      "title": "Renaming Machine",
+      "text": "This machine renames items automatically."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:teleporter",
+      "title": "Teleporter",
+      "text": "You can set the coordinates on the frequency transmitter and teleport. Requires: $(item)Frequency Transmitter$().$(br2)Right-clicks on the Teleporter with the transmitter to save the location of that Teleporter. Then left-click on another Teleporter to link them. Place a power storage device next to each Teleporter. Teleport an entity by sending a redstone signal."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:farming_machine",
+      "title": "Farming Machine",
+      "text": "Automatically harvest and plant your crops, I think."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:logging_machine",
+      "title": "Logging Machine",
+      "text": "Automatically chops trees and plants your sapplings, I think."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:fertilizer_spreader",
+      "title": "Fertilizer Spreader",
+      "text": "yuck"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:enchantment_extractor",
+      "title": "Enhancement Extractor",
+      "text": "Automatically removes enchantments"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:industrial_tnt",
+      "title": "Industrial TNT",
+      "text": "This TNT variant won't hurt entities. You can now safely blow up the village without hurting your villagers."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:dynamite",
+      "title": "Dynamite",
+      "text": "Four variants of throwable dynamite.$(br2)$(li)$(item)Dynamite$():Bounces around and explodes when thrown$(li)$(item)Sticky Dynamite$(): Sticks to the first thing it hits and explodes$(li)$(item)Industrial Dynamite$(): Bounces around and explodes blocks only$(li)$(item)Industrial Sticky Dynamite$(): Sticks to things and explodes blocks only"
+    }
+    ,
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:light",
+      "title": "Light",
+      "text": "Takes power, makes light"
     }
   ]
 }
