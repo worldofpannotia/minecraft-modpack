@@ -1,0 +1,11 @@
+{
+  "name": "Couplings",
+  "icon": "minecraft:oak_door",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Coupled usage of doors, fence gates, and trapdoors$(li)Double doors (with opposing hinges) will open together$(li)Vertically stacked fence gates will open together when used$(li)All trapdoors (and opposing counterparts) along their side axes will open together when used$(li)Any redstone signal above 7 (50%) will power all coupled blocks, whereas anything less will only power the immediate block."
+    }
+  ]
+}
