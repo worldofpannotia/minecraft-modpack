@@ -1,0 +1,109 @@
+{
+  "name": "Tweakeroo",
+  "icon": "minecraft:command_block",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Tweakeroo is a client-side mod, which adds a whole bunch of various different 'tweaks' to the game.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tweakeroo",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Accurate Block Placement$(): Allows placing blocks in a given orientation on carpet mod servers$(li)$(thing)After Clicker$(): Enables an 'after clicker' tweak, which does a configurable number of automatic right clicks on the just-placed block. Useful for example for placing Repeaters seemingly directly with a certain delay pre-set."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Angel Block$(): (Creative only) allows placing blocks in mid-air$(li)$(thing)Explosion reduced particles$(): Uses a smaller and less obstructive explosion particle for large explosions$(li)$(thing)Fast Block Placement$(): Enables fast/convenient block placement when moving the cursor over new blocks. Has different modes for avoiding unwanted block placements."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Fast Left Click$(): Enables automatic fast left clicking while holding down the attack button (left click). The number of clicks per game tick is set in the Generic configs.$(li)$(thing)Fast Right Click$(): Enables automatic fast right clicking while holding down the use button (right click). The number of clicks per game tick is set in the Generic configs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Fill/Clone limit change$(): Allows changing the /fill and /clone command block limits in single player$(li)$(thing)Flexible Block Placement$(): Enables placing blocks in different orientations while holding down the activation keybind. For example Hoppers or Logs facing in a different direction than what they would when placed normally."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Gamma Override$(): Overrides the video settings gamma value with the one set in the Generic configs.$(li)$(thing)Hand Restock$(): Swaps a new stack to the main or offhand when the previous stack runs out.$(li)$(thing)Hold Attack$(): Simulates holding down the attack button (usually left click)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Hold Use$(): Simulates holding down the use button (usually right click)$(li)$(thing)Hotbar Scroll$(): Allows swapping the hotbar with an inventory row (similar to Hotbar Swap)$(li)$(thing)Hotbar Slot Cycle$(): Cycles the selected hotbar slot after using an item. Has a configurable maximum slot number. Useful for building repeating block patterns."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Hotbar Swap$(): Enables swapping the hotbar with any of the three inventory rows. Has a preview of the inventory when a key is held."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Inventory Preview$(): Enables an inventory preview while having the cursor over a block with an inventory or an entity with an inventory and holding the configured modifier key for it.$(li)$(thing)Item Unstacking Protection$(): If enabled, then items configured in Lists -> unstackingItems won't be allowed to spill out when using. This is meant for example to prevent throwing buckets into lava when filling them."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Lava Visibility$(): If enabled and the player has a Respiration helmet and/or Water Breathing potion effect active, then the lava fog is greatly reduced.$(li)$(thing)Map Preview$(): Shows a preview of vanilla maps in inventories, when you hold shift while hovering the item"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Movement Keys Last$(): If enabled, then opposite movement keys won't cancel each other, but instead the last pressed key is the active input.$(li)$(thing)No Block Breaking Particles$(): Removes block breaking particles"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)No Client Entity Updates$(): Removes all (non-player) entity updates on the client side. Can help bein gable to fix stuff if there are huge number of entities in the world for some reason.$(li)$(thing)No Entity Rendering$(): Disables ALL except player entities from rendering. Can help fix things if there are huge number of entities in the world."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)No Falling Block Entity Rendering$(): If enabled, then falling block entities won't be rendered at all. Mainly useful for large contraptions with massive amounts of falling block entities, which would lower the FPS when rendered."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)No Item Switch Render Cooldown$(): If enabled, then there won't be any cooldown/equip animation when switching the held item or using the item.$(li)$(thing)No Light Updates$(): If enabled, disables client-side light updates. This can help client-side performance when lots of blocks are changing constantly, for example with large vanilla slimeblock flying machines."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)No Light Updates All$(): A lot more aggressive companion to the other No Light Updates tweak. Note that this one will also prevent any client-side chunk heightmap updates or light re-calculations.$(li)$(thing)No Portal Gui Closing$(): Allows opening the inventory GUI even while standing in a Nether portal"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)No Slime Block Slowdown$(): Removes the slowndown effect and slipperiness from slime blocks on the client side. Note that this also affects other entities in single player!$(li)$(thing)Permanent Sneak$(): Makes the player sneak without having to hold down the sneak key"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Pick Before Place$(): If enabled, then the targeted block that you are placing blocks against, is switched to hand (if found in the inventory) before placing/using the item.$(li)$(thing)Placement Grid$(): Allows restricting block placement to a grid, with a configurable size. NOTE: Currently this only works properly with the Fast Placement tweak enabled."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Placement Limit$(): Allows restricting the blocks you are able to place to a configurable maximum number, per use/right click action$(li)$(thing)Placement Restriction$(): Allows restricting the block placement to a given 'pattern', such as Plane, Line, Face, Column, Diagonal. This is what the Fast Block Placement mode uses internally, separated to a separate tweak that can be used without the fast placement part."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Placement Restriction First$(): Allows restriction block placement to only happen while targeting the same type of block that you initially click on$(li)$(thing)Placement Restriction Hand$(): Allows restricting block placement to only happen when you are targeting the same block that you are holding"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Player Inventory Peek$(): Enables a player inventory peek/preview, while holding the configured activation key for it.$(li)$(thing)Potion Warning$(): Prints a warning in the hotbar message slot when potion effects are about to run out"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Print Death Coordinates$(): Prints the player's coordinates to chat upon death$(li)$(thing)Remove own potion effects$(): Removes the potions effect particles from the player itself$(li)$(thing)Render Invisible Entities$(): Renders invisible entities translucent (the same way they would render if you were in spectator mode)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Render Limit Entities$(): Allows limiting the number of XP Orb and Item Entities that are rendered. Can significantly help the FPS if there are a lot of those entities in the world."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Repair Mode$(): Swaps damaged items with Mending on them to the player's hand, allowing automatically repairing them while standing in an XP farm$(li)$(thing)Shulker Box Display$(): Renders the contents of Shulker Boxes (and also all other vanilla blocks with inventories) while hovering over the item and holding shift"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Shulker Boxes Stack when empty$(): Enables empty Shulker Boxes stacking up to 64. NOTE: This only works properly in single player! In multiplayer the server would have to have the same functionality enabled by some other mod, otherwise you get de-synced inventories when moving around stacked Shulker Boxes!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(thing)Swap Almost Broken Tools$(): If enabled, then any damageable items held in the hand that are about to be used and which are about to break will be swapped to ones with durability left.$(li)$(thing)Tab Complete Coordinates$(): When you use tab-completion in commands while not looking at a block, uses the player's coordinates instead of inputting the '~' character"
+    }
+  ]
+}

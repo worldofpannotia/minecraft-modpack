@@ -30,7 +30,7 @@
     {
       "type": "patchouli:text",
       "title": "Sparks",
-      "text": "$(bold)Wired Sparks$()$(br)A spark can also be placed on the input of a Mana P2P tunnel, allowing an insane amount of mana throughput with a dominant spark augment and multiple pools!$(br2)$(bold)Corporea Index$()$(br)A Corporea spark can be placed on a public system's ME interface, and then the Corporea Index will be able to extract items right out of your ME system!      "
+      "text": "$(bold)Wired Sparks$()$(br)A spark can also be placed on the input of a Mana P2P tunnel, allowing an insane amount of mana throughput with a dominant spark augment and multiple pools!$(br2)$(bold)Corporea Index$()$(br)A Corporea spark can be placed on a public system's ME interface, and then the Corporea Index will be able to extract items right out of your ME system!"
     }
   ]
 }
