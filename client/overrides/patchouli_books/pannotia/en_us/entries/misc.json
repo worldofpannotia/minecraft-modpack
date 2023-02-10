@@ -22,6 +22,10 @@
     {
       "type": "patchouli:text",
       "text": "$(li)You can mine up to 64 connected blocks of the same type. The hotkey mapping can be found under Mods -> Diggus Maximus ($(o)not$() the normal key bind config screen)$(li2)Note: there is currently a bug that will require you to re-configure your hotkey whenever the pack updates. (sorry)$(li)You can automatically keep running with a keypress 'O' by default."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)You can bottle your gathered xp by $(thing)crouch+right-clicking$(thing) an $(item)empty bottle$(item)."
     }
   ]
 }
