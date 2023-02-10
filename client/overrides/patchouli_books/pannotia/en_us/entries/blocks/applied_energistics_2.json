@@ -1,0 +1,29 @@
+{
+  "name": "Applied Energistics 2",
+  "icon": "ae2:controller",
+  "category": "patchouli:wp_blocks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Applied Energistics 2 is a mod mostly centered around the concept of using Energy, and the Transformation of Energy in a unique way such as: $(li)Bulk storage $(li)Automatic crafting $(li)Automatic block placing/ breaking $(li)...and much more$(br2) $(l:https://appliedenergistics.github.io/)The wiki is available online$(/l)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ae2:charger",
+      "title": "Getting Started",
+      "text": "$(li)Build a $(item)Charger$() $(li)Power it with: $(li2)$(item)Vibration Chamber$() or $(li2)generators from Tech Reborn or $(li2)a $(item)Wooden Crank$() $(li)Put a $(item)Vanilla compass$() in the charger and charge it to craft a $(item)Meteorite Compass$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ae2:meteorite_compass",
+      "text": "Next: Use the meteorite compass to find meteorites, which have a chance to contain $(item)presses$(), $(item)quartz blocks$(), and $(item)budding quartz$()."
+    },
+    {
+      "type": "patchouli:link",
+      "title": "Read the wiki for more",
+      "text": "For much more information on AE2 please reference the online wiki",
+      "url": "https://appliedenergistics.github.io/",
+      "link_text": "AE2 Wiki"
+    }
+  ]
+}
