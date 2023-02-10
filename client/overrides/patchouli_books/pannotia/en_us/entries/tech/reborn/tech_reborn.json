@@ -1,7 +1,8 @@
 {
   "name": "Tech Reborn",
   "icon": "techreborn:advanced_solar_panel",
-  "category": "patchouli:wp_blocks",
+  "category": "patchouli:wp_tech/reborn",
+  "priority": true,
   "pages": [
     {
       "type": "patchouli:link",

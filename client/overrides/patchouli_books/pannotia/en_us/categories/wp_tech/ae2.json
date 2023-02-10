@@ -1,0 +1,6 @@
+{
+  "name": "AE2",
+  "description": "TODO",
+  "icon": "ae2:controller",
+  "parent": "patchouli:wp_tech"
+}

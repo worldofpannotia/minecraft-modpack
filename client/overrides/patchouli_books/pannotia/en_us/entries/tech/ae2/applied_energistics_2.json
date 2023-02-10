@@ -1,7 +1,8 @@
 {
   "name": "Applied Energistics 2",
   "icon": "ae2:controller",
-  "category": "patchouli:wp_blocks",
+  "category": "patchouli:wp_tech/ae2",
+  "priority": true,
   "pages": [
     {
       "type": "patchouli:text",

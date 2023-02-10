@@ -1,0 +1,30 @@
+{
+  "name": "Advanced Reborn",
+  "icon": "advanced_reborn:duct_tape",
+  "category": "patchouli:wp_tech/reborn",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Advanced Reborn",
+      "text": "Advanced Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds more machines, tools, armor, and automation options. (No book is available)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:charge_pad",
+      "title": "Charging Pads",
+      "text": "Charge your gear just by standing on the pad. There are 5 varieties, each improving and building on the previous. You need to put a capacitor such as the $(item)Battery Box$() under this."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:ray_solar_panel",
+      "title": "Auto Crafting Table",
+      "text": "These machines runs almost permanently without the sun. Tier 1 is required to build the $(item)Permanent Light Generators$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "advanced_reborn:induction_furnace",
+      "title": "Induction Furnace",
+      "text": "This furnace can speed up smelting by adding two output slots and two insertion slots to the electric furnace and gives a redstone signal."
+    }
+  ]
+}
