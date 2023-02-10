@@ -10,6 +10,11 @@
     {
       "type": "patchouli:image",
       "images": ["patchouli:gameplay/other/nether_portal_1.png", "patchouli:gameplay/other/nether_portal_2.png"]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Smaller Portals",
+      "text": "Smaller nether portals can be generated with sizes as small as 1x2! More information on curseforge: $(l:https://www.curseforge.com/minecraft/mc-mods/smaller-nether-portals)Smaller Nether Portals$(/l)"
     }
   ]
 }
