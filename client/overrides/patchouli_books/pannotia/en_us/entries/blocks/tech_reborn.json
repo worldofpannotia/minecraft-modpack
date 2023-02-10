@@ -1,0 +1,54 @@
+{
+  "name": "Tech Reborn",
+  "icon": "techreborn:advanced_solar_panel",
+  "category": "patchouli:wp_blocks",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Tech Reborn is a completely standalone tech mod including tools and machines to gather resources, process materials, and create power. It can be used for only it's power system or more.",
+      "url": "https://wiki.techreborn.ovh/doku.php?id=start",
+      "link_text": "Tech Reborn Wiki"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tr-patchouli:guide",
+      "title": "In-Game Guide",
+      "text": "Hint: Smelt a couple of $(item)Iron Ingots$() to get the $(item)Refined Iron Ingots$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Interesting Blocks",
+      "text": "What follows are a few of the most interesting parts of Tech Reborn"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "techreborn:basic_solar_panel",
+      "title": "Solar Panels",
+      "text": "There are several tiers of solar panels that create more and more energy. If you want to create energy even at night check out $(l:patchouli:advanced_reborn)Advanced Reborn's$(/l) $(item)Permanent Light Generators$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "techreborn:auto_crafting_table",
+      "title": "Auto Crafting Table",
+      "text": "The $(item)Auto Crafting Table$() is a machine that can automate large amounts of crafting. It requires power and ingredients. It can craft only a single recipe. It will automatically balance the input across the recipe slots."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "techreborn:recycler",
+      "title": "Recycler",
+      "text": "The $(item)Recycler$() is a machine that can convert your junk blocks into $(item)scrap$(). Nine $(item)scrap$() can be crafted into a $(item)scrap box$() which if $(thing)right clicked$() will give you an of 240 random items."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "techreborn:chunk_loader",
+      "title": "Industrial Chunkloader",
+      "text": "It loads chunks when it is powered!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "techreborn:quantum_chestplate",
+      "title": "Quantum Armor",
+      "text": "This endgame armor can take a beating and keep you safe inside. It even provides speed boost, extreme water breathing, and creative flight!"
+    }
+  ]
+}

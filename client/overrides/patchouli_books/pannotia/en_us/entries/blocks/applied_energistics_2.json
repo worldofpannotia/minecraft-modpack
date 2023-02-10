@@ -11,7 +11,7 @@
       "type": "patchouli:spotlight",
       "item": "ae2:charger",
       "title": "Getting Started",
-      "text": "$(li)Build a $(item)Charger$() $(li)Power it with: $(li2)$(item)Vibration Chamber$() or $(li2)generators from Tech Reborn or $(li2)a $(item)Wooden Crank$() $(li)Put a $(item)Vanilla compass$() in the charger and charge it to craft a $(item)Meteorite Compass$()."
+      "text": "$(li)Build a $(item)Charger$() $(li)Power it with: $(li2)$(item)Vibration Chamber$() or $(li2)generators from $(l:patchouli:blocks/tech_reborn)Tech Reborn$(/l) or $(li2)a $(item)Wooden Crank$() $(li)Put a $(item)Vanilla compass$() in the charger and charge it to craft a $(item)Meteorite Compass$()."
     },
     {
       "type": "patchouli:spotlight",
