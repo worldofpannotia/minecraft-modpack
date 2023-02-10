@@ -5,7 +5,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As you explore, you will inevitably come across monster spawners. In this pack, you can pick them up using a Silk Touch pickaxe! And if you left your silky tool at home and just want to disable the spawner, placing five torches (4 sides + top) on the spawner will disable it entirely."
+      "text": "As you explore, you will inevitably come across monster spawners. In this pack, you can pick them up using a Silk Touch pickaxe! And if you left your silky tool at home and just want to disable the spawner, provide it with a redstone signal e.g. a lever. Right-click on a mob spawner and it will drop its monster egg corresponding to what type of entity is inside."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "spawnermod:spawner_key",
+      "text": "Modify Mob Spawner stats such as count, speed and range. Example: make spawner active for a maximum of 128 blocks! Vanilla is 16"
     }
   ]
 }
