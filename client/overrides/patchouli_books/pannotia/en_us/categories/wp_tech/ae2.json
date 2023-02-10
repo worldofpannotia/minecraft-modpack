@@ -1,6 +1,6 @@
 {
   "name": "AE2",
-  "description": "TODO",
+  "description": "Applied Energistics 2 is a fantastic storage and automation mod. You need to bring your own power.",
   "icon": "ae2:controller",
   "parent": "patchouli:wp_tech"
 }

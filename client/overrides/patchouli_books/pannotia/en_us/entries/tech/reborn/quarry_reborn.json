@@ -6,13 +6,13 @@
     {
       "type": "patchouli:text",
       "title": "Quarry Reborn",
-      "text": "Quarry Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds a Quarry machine which will mine ores in specific radius (7 by default), and consumes energy (6000 per block) (No book is available)"
+      "text": "Quarry Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds a Quarry machine which will mine ores in specific radius (7 by default), and consumes energy (6000 per block)$(br2)(No in-game book available)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "quarrymod:quarry",
       "title": "Quarry",
-      "text": "Using a lot of power this machine will mine out all the ores and/or blocks below it in a 7 block radius cube. Requires: Power, item output, and $(item)Quarry Tubes$()."
+      "text": "Using a lot of power this machine will mine out all the ores and/or blocks below it in a 7 block radius cube. Requires: Power, item output, and $(item)Quarry Tubes$(). You can also replace excavated blocks with stone variants"
     },
     {
       "type": "patchouli:spotlight",

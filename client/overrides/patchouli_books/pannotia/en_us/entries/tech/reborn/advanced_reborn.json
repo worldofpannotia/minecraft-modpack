@@ -6,7 +6,7 @@
     {
       "type": "patchouli:text",
       "title": "Advanced Reborn",
-      "text": "Advanced Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds more machines, tools, armor, and automation options. (No book is available)"
+      "text": "Advanced Reborn is an extension of $(l:patchouli:blocks/tech_reborn)Tech Reborn$() that adds more machines, tools, armor, and automation options.$(br2)(No in-game book available)"
     },
     {
       "type": "patchouli:spotlight",
