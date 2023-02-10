@@ -1,0 +1,18 @@
+{
+  "name": "Trinkets",
+  "icon": "doodads:sun_ring",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Trinkets adds a slot group and slot system to Minecraft. Slot groups are collections of slots for a certain body part or more vague area. By default there are 6 slot groups (head, chest, legs, feet, offhand, hand) that can have slots added to them.",
+      "url": "https://github.com/emilyploszaj/trinkets/wiki/Default-Slots",
+      "link_text": "Trinkets Wiki"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Slots",
+      "text": "$(li)$(thing)head/hat$(): Hats, primarily cosmetics.$(li)$(thing)head/face$():Masks, glasses, monocles, other forms of face jewelry$(li)$(thing)chest/necklace$(): Necklaces, pendants.$(li)$(thing)chest/cape$(): Capes$(li)$(thing)chest/back$(): Backpacks, jetpacks, other gear affixed to the back or draped across the shoulders.$(li)$(thing)chest/elytra$(): Elytra.$(li)$(thing)legs/belt$(): Belts, skirts.$(li)$(thing)feet/shoes$(): Shoes, socks.$(li)$(thing)feet/aglet$(): Aglets.$(li)$(thing)hand/glove$(): Gloves.$(li)$(thing)hand/ring$():and Rings, other hand jewelry.$(li)$(thing)offhand/glove$(): Gloves.$(li)$(thing)offhand/ring$(): Rings, other hand jewelry."
+    }
+  ]
+}
