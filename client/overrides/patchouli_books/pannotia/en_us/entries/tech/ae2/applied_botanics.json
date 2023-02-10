@@ -1,0 +1,36 @@
+{
+  "name": "Applied Botanics",
+  "icon": "appbot:fluix_mana_pool",
+  "category": "patchouli:wp_tech/ae2",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is an addon for Botania and AES. Connect your AE2 networks to botania or store your mana in storage cells.$(br2)(No in-game book available)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "appbot:fluix_mana_pool",
+      "text": "Suck up that mana into your AE2 system!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "appbot:mana_p2p_tunnel",
+      "text": "Move your manna around your network like it's own fluid with this p2p tunnel"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "appbot:mana_storage_cell_1k",
+      "text": "You gotta have somewhere to keep all that mana, why not in your AE2 system? 1k, 4k, 16k, 64k and 246k sizes available"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "appbot:portable_mana_storage_cell_1k",
+      "text": "Carry around your mana in your pocket. 1k, 4k, 16k, 64k and 246k sizes available"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sparks",
+      "text": "$(bold)Wired Sparks$()$(br)A spark can also be placed on the input of a Mana P2P tunnel, allowing an insane amount of mana throughput with a dominant spark augment and multiple pools!$(br2)$(bold)Corporea Index$()$(br)A Corporea spark can be placed on a public system's ME interface, and then the Corporea Index will be able to extract items right out of your ME system!      "
+    }
+  ]
+}
