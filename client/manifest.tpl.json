@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "World of Pannotia",
-  "version": "13.0.0-ht-rc.0",
+  "version": "13.0.0-ht",
   "author": "cmrcdrm",
   "files": [
     {"projectID": 223794, "fileID": 4293536, "required": true, "name": "Applied Energistics 2"},
@@ -45,6 +45,7 @@
     {"projectID": 310111, "fileID": 4369090, "required": true, "name": "Roughly Enough Items Fabric/Forge (REI)"},
     {"projectID": 310205, "fileID": 3865813, "required": true, "name": "Borderless Mining"},
     {"projectID": 311120, "fileID": 3912405, "required": true, "name": "Couplings"},
+    {"projectID": 313219, "fileID": 4293389, "required": true, "name": "Health Overlay (Fabric)"},
     {"projectID": 314579, "fileID": 3972616, "required": true, "name": "Crawl (Fabric)"},
     {"projectID": 315534, "fileID": 4031463, "required": true, "name": "Fabric Furnaces"},
     {"projectID": 317121, "fileID": 3853858, "required": true, "name": "Cloth API (Fabric)"},

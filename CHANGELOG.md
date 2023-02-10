@@ -1,3 +1,18 @@
+### 2023-02-XX (13.0.0-ht)
+
+#### Config Changes
+
+* Added more ring slots
+* Increased range of OpenBlocks elevator
+* Increased stack size of hearty trinkets
+* Prevent a couple more modded flowers from spawning when bonemeal is used
+* Removed XP cost for waystones
+
+#### Added Mods
+
+* Health Overlay: adds colored rows of hearts instead of more rows
+
+
 ### 2023-02-08 (13.0.0-ht-rc.0)
 
 #### Removed Mods

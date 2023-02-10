@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-ht-rc.0](https://img.shields.io/badge/Pack-13.0.0--ht--rc.0-blue.svg?style=flat-square)
+![Pack 13.0.0-ht](https://img.shields.io/badge/Pack-13.0.0--ht-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -166,6 +166,7 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric">Guard Villagers (Fabric/Quilt) (by MrSterner_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/gui-followers">GUI Followers (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/hand-over-your-items">Hand Over Your Items (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/health-overlay-fabric">Health Overlay (Fabric) (by Terrails)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/hearty-trinkets">Hearty Trinkets (by traverse_joe)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/here-be-no-dragons">Here be no Dragons! (by kb1000)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/hoe-tweaks">Hoe Tweaks (by Serilum)</a></li>
