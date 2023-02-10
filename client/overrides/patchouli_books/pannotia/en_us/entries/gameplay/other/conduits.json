@@ -1,0 +1,11 @@
+{
+  "name": "Conduits",
+  "icon": "minecraft:conduit",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Conduits disable drowned zombie spawns around the player when the conduit effect is active."
+    }
+  ]
+}
