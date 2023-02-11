@@ -44,6 +44,16 @@
       "text": "If you crouch while breaking the bottom block of a tree, you will harvest the entire thing at once."
     },
     {
+      "type": "patchouli:text",
+      "title": "Grass Seeds",
+      "text": "Using a seed on dirt will convert it to a grass block."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trample No More",
+      "text": "The Feather Falling enchantment prevents farmland from being trampled. Leather boots and other items with the tramplenomore:soft_boots item tag prevent crop trampling. Creative mode players can not trample crops."
+    },
+    {
       "type": "patchouli:spotlight",
       "item": "botanypots:light_blue_glazed_terracotta_botany_pot",
       "title": "Botany Pots",
