@@ -5,7 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Botania is a \"magic-themed\" tech mod centered around "
+            "text": "Botania is a \"magic-themed\" tech mod themed around natural magic. To get started, craft the Lexica Botania and start looking for magical flowers in the world!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "botania:lexicon"
         }
     ]
 }
