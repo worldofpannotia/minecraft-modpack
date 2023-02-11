@@ -1,0 +1,11 @@
+{
+  "name": "Conduits",
+  "icon": "minecraft:conduit",
+  "category": "patchouli:wp_gameplay/beacons_conduits",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Conduits disable drowned zombie spawns around the player when the conduit effect is active.$(li)The better the materials used to construct the conduit, the further the range."
+    }
+  ]
+}

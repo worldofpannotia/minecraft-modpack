@@ -1,10 +1,11 @@
 {
-  "name": "Beacon Beams",
+  "name": "Beacon",
   "icon": "minecraft:beacon",
   "category": "patchouli:wp_gameplay/beacons_conduits",
   "pages": [
     {
       "type": "patchouli:link",
+      "title": "Beacon Beams",
       "text": "Sometimes you want to set up a beacon, but the beams just don't fit into the aesthetic of your build. In this pack, you can place a glass block above a beacon to disable the beam. What's more, you can place additional glass blocks to toggle rendering of the beam!",
       "url": "https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams",
       "link_text": "CurseForge Page"
@@ -12,6 +13,11 @@
     {
       "type": "patchouli:image",
       "images": ["patchouli:gameplay/beacons_conduits/discontinuous_beams.png"]
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Beacon Range",
+      "text": "The better the material used to make the beacon the farther the range of the beacon!"
     }
   ]
 }
