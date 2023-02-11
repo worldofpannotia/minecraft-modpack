@@ -1,4 +1,4 @@
-### 2023-02-XX (13.0.0-ht)
+### 2023-02-10 (13.0.0-ht-rc.1)
 
 #### Config Changes
 
@@ -7,6 +7,7 @@
 * Increased stack size of hearty trinkets
 * Prevent a couple more modded flowers from spawning when bonemeal is used
 * Removed XP cost for waystones
+* Updated in-game guide introducing the pack to new players (thank you, moshner!!)
 
 #### Added Mods
 
