@@ -1,0 +1,11 @@
+{
+    "name": "Botania",
+    "icon": "botania:twig_wand{color1:10,color2:11}",
+    "category": "patchouli:wp_magic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Botania is a \"magic-themed\" tech mod centered around "
+        }
+    ]
+}
