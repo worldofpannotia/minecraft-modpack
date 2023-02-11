@@ -1,0 +1,22 @@
+{
+  "name": "Moving Mobs",
+  "icon": "mob_catcher:mob_catcher_hostile",
+  "category": "patchouli:wp_mobs",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Lift with your Knees",
+      "text": "You can pick up animals (or any passive mob/entity) with two empty hands and a sneak + right-click!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mob_catcher:mob_catcher",
+      "text": "Catch yourself a passive mob"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mob_catcher:mob_catcher_hostile",
+      "text": "Are you rich? You can capture non-boss mobs and move them easily now."
+    }
+  ]
+}
