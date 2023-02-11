@@ -1,0 +1,48 @@
+{
+  "name": "Edibles",
+  "icon": "minecraft:leather",
+  "category": "patchouli:wp_gameplay/potions",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Makes lots of ingredients edible, after which the player receives a short status effect. By default there is a global cooldown of 1 second in between eating the edibles. - Mod by Serilum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/edibles",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:blaze_powder",
+      "text": "Gives the $(thing)strength$() effect"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:glowstone_dust",
+      "text": "Gives entities around the $(thing)glow$() effect"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:magma_cream",
+      "text": "Gives $(thing)fire resistance$(). Great for short trips to the nether"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:sugar",
+      "text": "Gives the $(thing)speed$() effect"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:ghast_tear",
+      "text": "Gives the $(thing)regeneration$() effect"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:phantom_membrane",
+      "text": "Gives $(thing)slow falling$() effect. Better than a bucket clutch!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:rabbit_foot",
+      "text": "Gives the $(thing)jump boost$() effect"
+    }
+  ]
+}
