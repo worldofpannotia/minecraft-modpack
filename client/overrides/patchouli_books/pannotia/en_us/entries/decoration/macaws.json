@@ -1,0 +1,41 @@
+{
+  "name": "Macaw's Mods",
+  "icon": "mcwbridges:bamboo_bridge_pier",
+  "category": "patchouli:wp_decoration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are several mods in the 'Macaw' family.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/macaws-bridges)Macaw's Bridges$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/macaws-doors)Macaw's Doors$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls)Macaw's Fences and Walls$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings)Macaw's Paths & Pavings$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/macaws-windows)Macaw's Windows$(/l)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcwbridges:rope_acacia_bridge",
+      "title": "Macaw's Bridges",
+      "text": "This simple mod adds a variety of bridges. The newest version adds corners, any width and bridge stairs. Bridges can be lighted with torches."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcwdoors:warped_glass_door",
+      "title": "Macaw's Doors",
+      "text": "Do you ever wanted each vanila door to have more wood variations? Or do you just want some new unique doors? Well, if so I present you Macaw's Doors. This mod gives you the opportunity to make vanila doors with every wood color. I included new doors too, for example: Shoji Doors, Metal Doors, Jail Doors, Modern Doors and more!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcwfences:birch_wired_fence",
+      "title": "Macaw's Fences and Walls",
+      "text": "We all know Minecraft could use more styled fences, walls and gates. Well I guess I've got good news for you! This mod adds new vanilla styled fences, walls and gates. This mod adds Wooden Picket Fence, Wooden Stockade Fence, Wooden Horse Fence (looks very good on farms and countryside), Wired Fence (does damage, great against spiders), Railing Stone Wall, Modern Stone Wall and new Highley Gates! It even adds a new bamboo fence and two new gates, the pyramid gate and railing gate."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcwpaths:oak_planks_path",
+      "title": "Macaw's Paths & Pavings",
+      "text": "Adds wooden paths (all wooden variations) and 6 pavings (with 11 texture variations). The paths are just for decoration, they do not have any pathfinding function for mobs"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "mcwwindows:nether_brick_gothic",
+      "title": "Macaw's Windows",
+      "text": "Do you ever wanted Windows in Minecraft? With parapets, sills, shutters or curtains?! Well here I got the perfect mod that could suit your decorative needs! This Minecraft Window mod is all about windows, it adds lots of windows. This mod also includes windows blinds, mosaic glass, mosaic glass panes, sills/parapets, gothic windows, shutters, curtains arrow slits."
+    }
+  ]
+}
