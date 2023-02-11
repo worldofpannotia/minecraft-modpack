@@ -32,6 +32,12 @@
       "text": "Grow netherwart, cactus, vines and sugarcane with the use of bone meal. instant grow crops while holding the sneak button."
     },
     {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:kelp",
+      "title": "Kelp Fertilizer",
+      "text": "Makes kelp act exactly like bone meal. This works both when a player right-clicks a crop and when used in a dispenser."
+    },
+    {
       "type": "patchouli:image",
       "images": ["patchouli:gameplay/farming/tree-harvest/tree-harvest-1.png", "patchouli:gameplay/farming/tree-harvest/tree-harvest-2.png", "patchouli:gameplay/farming/tree-harvest/tree-harvest-3.png"],
       "title": "Tree Harvester",
