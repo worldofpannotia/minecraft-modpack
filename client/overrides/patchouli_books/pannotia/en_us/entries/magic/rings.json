@@ -1,0 +1,136 @@
+{
+  "name": "Rings of Ascension",
+  "icon": "ringsofascension:ring_flight",
+  "category": "patchouli:wp_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rings of Ascension is a mod that uses the Trinkets API to add 20+ new rings to your minecraft. Each ring has its own special effect that is activated when the ring is equipped. Rings from this mod don't have a recipe and can only be found in specific locations. - Mod by Focomacho and PretoAlbino_"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_fire_resistance",
+      "text": "Grants fire resistance$(br2)Found in Nether Bridge chests, Ruined Portal chests, and Bastion Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_dolphin",
+      "text": "Grants dolphin's grace$(br2)Found in Underwater Ruins and Buried Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_invisibility",
+      "text": "Grants invisibility$(br2)Found in Abandoned Mineshaft and Buried Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_jump_boost",
+      "text": "Grants jump boost$(br2)Found in End City, Igloo, and Desert Pyramids"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_luck",
+      "text": "Grants luck boost$(br2)Found in Simple Dungeon and Jungle Temples"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_mining",
+      "text": "Grants haste$(br2)Found in Simple Dungeon and Abandoned Mineshafts"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_night_vision",
+      "text": "Grants night vision$(br2)Found in Spawn Bonus Chest, Simple Dungeon, and Abandoned Mineshaft"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_regeneration",
+      "text": "Grants regeneration$(br2)Found in Strongholds"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_slow_falling",
+      "text": "Grants slow falling$(br2)Found in Simple Dungeon, Buried Treasure, and End Cities"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_speed",
+      "text": "Grants speed for movement$(br2)Found in Spawn Bonus Chest, Simple Dungeon, and Buried Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_strength",
+      "text": "Grants strength$(br2)Found in Strongholds, Pillager Outpost, and Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_water_breathing",
+      "text": "Grants strength$(br2)Found in Spawn Bonus Chest, Underwater Ruins, Buried Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_slow_resistance",
+      "text": "Grants immunity to slowness$(br2)Found in End Cities, Shipwrecks, and Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_poison_resistance",
+      "text": "Grants immunity to poison$(br2)Found in Jungle Temples End Cities, Shipwrecks, and Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_wither",
+      "text": "Grants immunity to wither effect$(br2)Found in Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_magnetism",
+      "text": "Pulls items to the player$(br2)Found in Spawn Bonus Chest, Simple Dungeons, Buried Treasure, and Ruined Portals"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_flight",
+      "text": "Grants creative flight$(br2)Found in End Cities"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_hungerless",
+      "text": "Keeps your food bar always full$(br2)Found in Village Butcher Chests, End Cities, and Woodland Mansion"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_experience",
+      "text": "Pulls nearby xp orbs$(br2)Found in Spawn Bonus Chest, Simple Dungeons, Buried Treasure, and Ruined Portals"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_growth",
+      "text": "Grows nearby crops faster$(br2)Found in Jungle Temples"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_knockback_resistance",
+      "text": "+10 Knockback resistance$(br2)Found in End Cities, Nether Bridges, and Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_health",
+      "text": "+20 Max Health or 10 extra hearts$(br2)Found in End Cities, Strongholds, and Bastions"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_sponge",
+      "text": "Removes all nearby water blocks. Use with caution$(br2)Found in Underwater Ruins"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_water_walking",
+      "text": "Let's you walk on water$(br2)Found in Underwater Ruins and Buried Treasure"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "ringsofascension:ring_undying",
+      "text": "Works like a totem only reusable with a 600 second cooldown$(br2)Found in Woodland Mansions"
+    }
+  ]
+}
