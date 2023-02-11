@@ -5,6 +5,10 @@
   "pages": [
     {
       "type": "patchouli:text",
+      "text": "There are a few new painting features to spruce up your walls"
+    },
+    {
+      "type": "patchouli:text",
       "title": "Dark Paintings",
       "text": "This mod adds a large variety of new paintings to the game. These paintings are seamlessly integrated with the vanilla paintings and are placed in the world using the normal painting item. The mod currently features 30 paintings. - Mod by Darkhax"
     },
