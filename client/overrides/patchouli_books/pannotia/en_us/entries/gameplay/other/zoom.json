@@ -1,0 +1,18 @@
+{
+  "name": "Zoom",
+  "icon": "minecraft:spyglass",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Wurst-Imperium Zoom adds the ability to zoom in and out with the mouse wheel, providing up to 50x magnification without the need for the spyglass",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wi-zoom",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "How To Zoom",
+      "text": "Hold down the V key to activate the zoom (this keybind can be changed). While zooming, you can use the mouse wheel to zoom in further."
+    }
+  ]
+}
