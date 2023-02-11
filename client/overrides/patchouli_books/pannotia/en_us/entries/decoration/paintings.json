@@ -1,0 +1,17 @@
+{
+  "name": "Paintings",
+  "icon": "minecraft:painting",
+  "category": "patchouli:wp_decoration",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Dark Paintings",
+      "text": "This mod adds a large variety of new paintings to the game. These paintings are seamlessly integrated with the vanilla paintings and are placed in the world using the normal painting item. The mod currently features 30 paintings. - Mod by Darkhax"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cycle Paintings",
+      "text": "Cycle Paintings is a minimalistic mod which allows players to cycle through placed paintings by right-clicking them with another painting in their right hand. Also works with modded paintings. - Mod by Serilum"
+    }
+  ]
+}
