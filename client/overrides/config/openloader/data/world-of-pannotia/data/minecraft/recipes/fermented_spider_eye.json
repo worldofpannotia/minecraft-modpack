@@ -1,17 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:spider_eye"
-    },
-    {
-      "tag": "pannotia:mushrooms"
-    },
-    {
-      "item": "minecraft:sugar"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:spider_eye"
+        },
+        {
+            "tag": "pannotia:mushrooms"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "minecraft:fermented_spider_eye"
     }
-  ],
-  "result": {
-    "item": "minecraft:fermented_spider_eye"
-  }
 }

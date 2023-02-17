@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:diamond_chestplate"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond_chestplate"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 8
     }
-  ],
-  "result": {
-    "item": "minecraft:diamond",
-    "count": 8
-  }
 }

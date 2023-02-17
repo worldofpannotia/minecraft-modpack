@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "result": {
-    "item": "minecraft:brown_bed",
-    "count": 1
-  },
-  "ingredients": [
-    {
-      "tag": "pannotia:beds"
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:brown_bed",
+        "count": 1
     },
-    {
-      "item": "minecraft:brown_dye"
-    },
-    {
-      "item": "minecraft:brown_dye"
-    },
-    {
-      "item": "minecraft:brown_dye"
-    }
-  ]
+    "ingredients": [
+        {
+            "tag": "pannotia:beds"
+        },
+        {
+            "item": "minecraft:brown_dye"
+        },
+        {
+            "item": "minecraft:brown_dye"
+        },
+        {
+            "item": "minecraft:brown_dye"
+        }
+    ]
 }

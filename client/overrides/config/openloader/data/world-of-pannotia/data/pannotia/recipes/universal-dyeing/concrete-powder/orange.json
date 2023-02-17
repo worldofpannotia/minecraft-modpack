@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "XYX",
-    "XXX"
-  ],
-  "key": {
-    "X": {
-      "tag": "pannotia:concrete_powders"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "tag": "pannotia:concrete_powders"
+        },
+        "Y": {
+            "item": "minecraft:orange_dye"
+        }
     },
-    "Y": {
-      "item": "minecraft:orange_dye"
+    "result": {
+        "item": "minecraft:orange_concrete_powder",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:orange_concrete_powder",
-    "count": 8
-  }
 }

@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "result": {
-    "item": "minecraft:white_bed",
-    "count": 1
-  },
-  "ingredients": [
-    {
-      "tag": "pannotia:beds"
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:white_bed",
+        "count": 1
     },
-    {
-      "item": "minecraft:white_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
-    },
-    {
-      "item": "minecraft:white_dye"
-    }
-  ]
+    "ingredients": [
+        {
+            "tag": "pannotia:beds"
+        },
+        {
+            "item": "minecraft:white_dye"
+        },
+        {
+            "item": "minecraft:white_dye"
+        },
+        {
+            "item": "minecraft:white_dye"
+        }
+    ]
 }

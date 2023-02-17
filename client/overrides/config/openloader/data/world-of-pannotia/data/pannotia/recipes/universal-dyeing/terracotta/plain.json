@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#O#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "pannotia:terracotta"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "pannotia:terracotta"
+        },
+        "O": {
+            "item": "minecraft:ice"
+        }
     },
-    "O": {
-      "item": "minecraft:ice"
+    "result": {
+        "item": "minecraft:terracotta",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:terracotta",
-    "count": 8
-  }
 }

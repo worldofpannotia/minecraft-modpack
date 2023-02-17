@@ -1,33 +1,33 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "reference:chests/stronghold_library"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 8.0
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "babel:books"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "reference:chests/stronghold_library"
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 3
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 8.0
+            },
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "babel:books"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,28 +1,28 @@
 {
-  "type": "minecraft:fishing",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:fishing",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "reference:gameplay/fishing/treasure"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "babel:books",
-          "weight": 1
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "reference:gameplay/fishing/treasure"
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 31
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "babel:books",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 31
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

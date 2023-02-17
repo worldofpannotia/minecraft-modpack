@@ -1,17 +1,17 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:granite"
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:granite"
+        }
+    },
+    "result": {
+        "item": "minecraft:granite_stairs",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:granite_stairs",
-    "count": 8
-  }
 }

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:shears"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:shears"
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 2
     }
-  ],
-  "result": {
-    "item": "minecraft:iron_ingot",
-    "count": 2
-  }
 }

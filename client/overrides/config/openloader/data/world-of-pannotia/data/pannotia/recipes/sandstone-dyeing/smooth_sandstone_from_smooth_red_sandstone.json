@@ -1,18 +1,18 @@
 {
-  "type": "crafting_shapeless",
-  "result": {
-    "item": "minecraft:smooth_sandstone",
-    "count": 2
-  },
-  "ingredients": [
-    {
-      "item": "minecraft:smooth_red_sandstone"
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:smooth_sandstone",
+        "count": 2
     },
-    {
-      "item": "minecraft:smooth_red_sandstone"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ]
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_red_sandstone"
+        },
+        {
+            "item": "minecraft:smooth_red_sandstone"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ]
 }

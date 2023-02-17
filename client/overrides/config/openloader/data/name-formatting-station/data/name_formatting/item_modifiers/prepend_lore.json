@@ -1,15 +1,15 @@
 [
-	{
+    {
         "function": "minecraft:set_lore",
         "entity": "this",
         "replace": "true",
-		"lore": [
-			{
-				"nbt": "second_item.tag.display.Name", 
-				"storage": "name_formatting:item_storage", 
-				"interpret": "true"
-			}
-		]
+        "lore": [
+            {
+                "nbt": "second_item.tag.display.Name",
+                "storage": "name_formatting:item_storage",
+                "interpret": "true"
+            }
+        ]
     },
     {
         "function": "minecraft:copy_nbt",

@@ -1,33 +1,33 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 1
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_egg",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dragon_egg",
+                    "weight": 1
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_head"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dragon_head"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,36 +1,36 @@
 {
-  "type": "crafting_shapeless",
-  "result": {
-    "item": "minecraft:red_sand",
-    "count": 8
-  },
-  "ingredients": [
-    {
-      "item": "minecraft:sand"
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:red_sand",
+        "count": 8
     },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:red_dye"
-    }
-  ]
+    "ingredients": [
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:red_dye"
+        }
+    ]
 }

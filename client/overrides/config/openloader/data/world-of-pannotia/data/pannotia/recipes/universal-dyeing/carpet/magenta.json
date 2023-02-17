@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "carpet",
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "minecraft:carpets"
+    "type": "minecraft:crafting_shaped",
+    "group": "carpet",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:carpets"
+        },
+        "$": {
+            "item": "minecraft:magenta_dye"
+        }
     },
-    "$": {
-      "item": "minecraft:magenta_dye"
+    "result": {
+        "item": "minecraft:magenta_carpet",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:magenta_carpet",
-    "count": 8
-  }
 }

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:diamond_helmet"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond_helmet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 5
     }
-  ],
-  "result": {
-    "item": "minecraft:diamond",
-    "count": 5
-  }
 }

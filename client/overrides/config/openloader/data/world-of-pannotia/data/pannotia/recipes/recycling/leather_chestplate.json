@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:leather_chestplate"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:leather_chestplate"
+        }
+    ],
+    "result": {
+        "item": "minecraft:leather",
+        "count": 8
     }
-  ],
-  "result": {
-    "item": "minecraft:leather",
-    "count": 8
-  }
 }

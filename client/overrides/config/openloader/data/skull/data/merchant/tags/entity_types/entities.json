@@ -1,1 +1,6 @@
-{"replace": false,"values": ["minecraft:villager"]}
+{
+    "replace": false,
+    "values": [
+        "minecraft:villager"
+    ]
+}

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:bow"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:bow"
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 3
     }
-  ],
-  "result": {
-    "item": "minecraft:string",
-    "count": 3
-  }
 }

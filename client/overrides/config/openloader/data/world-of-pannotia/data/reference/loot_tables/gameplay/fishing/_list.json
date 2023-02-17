@@ -1,8 +1,8 @@
 {
-  "directories": [],
-  "files": [
-    "fish.json",
-    "junk.json",
-    "treasure.json"
-  ]
+    "directories": [],
+    "files": [
+        "fish.json",
+        "junk.json",
+        "treasure.json"
+    ]
 }

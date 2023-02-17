@@ -1,12 +1,12 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:waxed_exposed_cut_copper"
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:waxed_exposed_cut_copper"
+        }
+    ],
+    "result": {
+        "item": "minecraft:waxed_exposed_cut_copper_slab",
+        "count": 2
     }
-  ],
-  "result": {
-    "item": "minecraft:waxed_exposed_cut_copper_slab",
-    "count": 2
-  }
 }

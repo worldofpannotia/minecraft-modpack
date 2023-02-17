@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:stone_pickaxe"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stone_pickaxe"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cobblestone",
+        "count": 3
     }
-  ],
-  "result": {
-    "item": "minecraft:cobblestone",
-    "count": 3
-  }
 }

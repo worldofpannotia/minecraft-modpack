@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#O#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "pannotia:terracotta"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "pannotia:terracotta"
+        },
+        "O": {
+            "item": "minecraft:brown_dye"
+        }
     },
-    "O": {
-      "item": "minecraft:brown_dye"
+    "result": {
+        "item": "minecraft:brown_terracotta",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:brown_terracotta",
-    "count": 8
-  }
 }

@@ -1,12 +1,12 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:deepslate_tiles"
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:deepslate_tiles"
+        }
+    ],
+    "result": {
+        "item": "minecraft:deepslate_tile_slab",
+        "count": 2
     }
-  ],
-  "result": {
-    "item": "minecraft:deepslate_tile_slab",
-    "count": 2
-  }
 }

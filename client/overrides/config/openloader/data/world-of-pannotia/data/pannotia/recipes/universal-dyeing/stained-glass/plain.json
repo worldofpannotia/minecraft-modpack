@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#O#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "tag": "pannotia:glass"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#O#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "pannotia:glass"
+        },
+        "O": {
+            "item": "minecraft:ice"
+        }
     },
-    "O": {
-      "item": "minecraft:ice"
+    "result": {
+        "item": "minecraft:glass",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:glass",
-    "count": 8
-  }
 }

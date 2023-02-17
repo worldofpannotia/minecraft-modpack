@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "XYX",
-    "XXX"
-  ],
-  "key": {
-    "X": {
-      "tag": "minecraft:candles"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "tag": "minecraft:candles"
+        },
+        "Y": {
+            "item": "minecraft:blue_dye"
+        }
     },
-    "Y": {
-      "item": "minecraft:blue_dye"
+    "result": {
+        "item": "minecraft:blue_candle",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:blue_candle",
-    "count": 8
-  }
 }

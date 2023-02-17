@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "result": {
-    "item": "minecraft:magenta_bed",
-    "count": 1
-  },
-  "ingredients": [
-    {
-      "tag": "pannotia:beds"
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:magenta_bed",
+        "count": 1
     },
-    {
-      "item": "minecraft:magenta_dye"
-    },
-    {
-      "item": "minecraft:magenta_dye"
-    },
-    {
-      "item": "minecraft:magenta_dye"
-    }
-  ]
+    "ingredients": [
+        {
+            "tag": "pannotia:beds"
+        },
+        {
+            "item": "minecraft:magenta_dye"
+        },
+        {
+            "item": "minecraft:magenta_dye"
+        },
+        {
+            "item": "minecraft:magenta_dye"
+        }
+    ]
 }

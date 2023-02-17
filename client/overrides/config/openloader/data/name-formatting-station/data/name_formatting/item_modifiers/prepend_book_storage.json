@@ -14,7 +14,7 @@
                     "nbt": "SelectedItem.tag.display.Lore[1]",
                     "entity": "@s",
                     "interpret": "true"
-                }                
+                }
             ]
         ],
         "entity": "this",

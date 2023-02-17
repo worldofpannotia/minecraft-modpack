@@ -17,9 +17,9 @@
         "function": "minecraft:set_name",
         "entity": "this",
         "name": {
-            "nbt":"item.tag.display.Name",
-            "storage":"name_formatting:item_storage",
-            "interpret":"true"
+            "nbt": "item.tag.display.Name",
+            "storage": "name_formatting:item_storage",
+            "interpret": "true"
         }
     }
 ]

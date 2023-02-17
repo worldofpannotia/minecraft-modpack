@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:iron_shovel"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_shovel"
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 1
     }
-  ],
-  "result": {
-    "item": "minecraft:iron_ingot",
-    "count": 1
-  }
 }

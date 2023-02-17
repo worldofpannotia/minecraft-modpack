@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:iron_ingot"
-  },
-  "result": "minecraft:raw_iron",
-  "count": 1
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:iron_ingot"
+    },
+    "result": "minecraft:raw_iron",
+    "count": 1
 }

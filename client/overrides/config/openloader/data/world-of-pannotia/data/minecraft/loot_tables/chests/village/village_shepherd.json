@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "reference:chests/village/village_shepherd"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "reference:chests/village/village_shepherd"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

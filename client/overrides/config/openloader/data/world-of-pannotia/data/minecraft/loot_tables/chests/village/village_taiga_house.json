@@ -1,29 +1,29 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "reference:chests/village/village_taiga_house"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "babel:books"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "reference:chests/village/village_taiga_house"
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 9
+            "rolls": 1,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "babel:books"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 9
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

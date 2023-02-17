@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:brown_mushroom"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:brown_mushroom"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brown_dye"
     }
-  ],
-  "result": {
-    "item": "minecraft:brown_dye"
-  }
 }

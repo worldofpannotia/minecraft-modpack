@@ -1,21 +1,21 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:jungle_stairs"
-    },
-    {
-      "item": "minecraft:jungle_stairs"
-    },
-    {
-      "item": "minecraft:jungle_stairs"
-    },
-    {
-      "item": "minecraft:jungle_stairs"
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:jungle_stairs"
+        },
+        {
+            "item": "minecraft:jungle_stairs"
+        },
+        {
+            "item": "minecraft:jungle_stairs"
+        },
+        {
+            "item": "minecraft:jungle_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:jungle_planks",
+        "count": 3
     }
-  ],
-  "result": {
-    "item": "minecraft:jungle_planks",
-    "count": 3
-  }
 }

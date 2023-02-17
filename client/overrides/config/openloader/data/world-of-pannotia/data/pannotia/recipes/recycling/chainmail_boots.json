@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:chainmail_boots"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chainmail_boots"
+        }
+    ],
+    "result": {
+        "item": "minecraft:chain",
+        "count": 4
     }
-  ],
-  "result": {
-    "item": "minecraft:chain",
-    "count": 4
-  }
 }

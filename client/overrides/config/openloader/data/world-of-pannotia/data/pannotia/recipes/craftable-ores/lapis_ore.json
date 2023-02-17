@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "X#X",
-    "XXX"
-  ],
-  "key": {
-    "X": {
-      "item": "minecraft:lapis_lazuli"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "X#X",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "#": {
+            "item": "minecraft:stone"
+        }
     },
-    "#": {
-      "item": "minecraft:stone"
+    "result": {
+        "item": "minecraft:lapis_ore"
     }
-  },
-  "result": {
-    "item": "minecraft:lapis_ore"
-  }
 }

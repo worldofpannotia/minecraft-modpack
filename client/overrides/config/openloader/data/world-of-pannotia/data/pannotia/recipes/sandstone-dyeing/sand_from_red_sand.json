@@ -1,36 +1,36 @@
 {
-  "type": "crafting_shapeless",
-  "result": {
-    "item": "minecraft:sand",
-    "count": 8
-  },
-  "ingredients": [
-    {
-      "item": "minecraft:red_sand"
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:sand",
+        "count": 8
     },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:red_sand"
-    },
-    {
-      "item": "minecraft:ice"
-    }
-  ]
+    "ingredients": [
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:red_sand"
+        },
+        {
+            "item": "minecraft:ice"
+        }
+    ]
 }

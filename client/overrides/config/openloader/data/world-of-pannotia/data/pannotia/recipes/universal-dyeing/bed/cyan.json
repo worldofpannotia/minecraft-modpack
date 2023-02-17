@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "result": {
-    "item": "minecraft:cyan_bed",
-    "count": 1
-  },
-  "ingredients": [
-    {
-      "tag": "pannotia:beds"
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "minecraft:cyan_bed",
+        "count": 1
     },
-    {
-      "item": "minecraft:cyan_dye"
-    },
-    {
-      "item": "minecraft:cyan_dye"
-    },
-    {
-      "item": "minecraft:cyan_dye"
-    }
-  ]
+    "ingredients": [
+        {
+            "tag": "pannotia:beds"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        }
+    ]
 }

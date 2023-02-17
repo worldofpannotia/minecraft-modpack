@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
+        "nbt": "{VillagerData:{profession:\"minecraft:none\"}}"
     }
-  }
+}
   

@@ -1,17 +1,17 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_stairs",
+        "count": 8
     }
-  },
-  "result": {
-    "item": "minecraft:stone_stairs",
-    "count": 8
-  }
 }

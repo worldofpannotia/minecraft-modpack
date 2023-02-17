@@ -1,12 +1,12 @@
 {
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "pannotia:guides/pannotia_guidebook"
+        ]
     }
-  },
-  "rewards": {
-    "loot": [
-      "pannotia:guides/pannotia_guidebook"
-    ]
-  }
 }

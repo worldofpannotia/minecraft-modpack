@@ -1,21 +1,21 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:warped_stairs"
-    },
-    {
-      "item": "minecraft:warped_stairs"
-    },
-    {
-      "item": "minecraft:warped_stairs"
-    },
-    {
-      "item": "minecraft:warped_stairs"
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_stairs"
+        },
+        {
+            "item": "minecraft:warped_stairs"
+        },
+        {
+            "item": "minecraft:warped_stairs"
+        },
+        {
+            "item": "minecraft:warped_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:warped_planks",
+        "count": 3
     }
-  ],
-  "result": {
-    "item": "minecraft:warped_planks",
-    "count": 3
-  }
 }
