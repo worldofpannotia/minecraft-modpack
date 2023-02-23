@@ -4,6 +4,8 @@
         "minecraft:crimson_fungus",
         "minecraft:warped_fungus",
         "minecraft:brown_mushroom",
-        "minecraft:red_mushroom"
+        "minecraft:red_mushroom",
+        {"id": "edenring:balloon_mushroom_small", "required": false},
+        {"id": "edenring:tall_balloon_mushroom", "required": false}
     ]
 }

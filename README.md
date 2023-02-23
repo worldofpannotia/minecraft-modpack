@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.0.0-ht-rc.1](https://img.shields.io/badge/Pack-13.0.0--ht--rc.1-blue.svg?style=flat-square)
+![Pack 13.0.0-ht](https://img.shields.io/badge/Pack-13.0.0--ht-blue.svg?style=flat-square)
 ![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -76,7 +76,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cardinal-components">Cardinal Components (by UpcraftLP)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet">Carpet (by gnembon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/carpet-extra">Carpet Extra (by gnembon)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/carry-on">Carry On (by Tschipp)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cauldron-dyeing">Cauldron Dyeing (by TibiNonEst)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/charcoalplus">Charcoal+ [Fabric] (by Apis035)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric">Charm of Undying (Fabric 1.16.1 - 1.19.2) (by TheIllusiveC4)</a></li>

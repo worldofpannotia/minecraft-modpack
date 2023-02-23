@@ -1,6 +1,12 @@
 import proc from 'node:child_process';
 import fse from 'fs-extra';
 
+let override = false;
+if (process.argv?.[2] === '-f') {
+    console.log('-f detected; if the dist zip file exists, it will be overwritten');
+    override = true;
+}
+
 await fse.emptyDir('./tmp');
 
 await fse.ensureDir('./tmp/client');
@@ -25,6 +31,9 @@ const manifest = await fse.readJson('./tmp/client/manifest.json');
 const {minecraft, version} = manifest;
 
 try {
+    if (override) {
+        await fse.remove(`./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
+    }
     await fse.move('./tmp/client.zip', `./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
 } catch (e) {
     console.error(e);

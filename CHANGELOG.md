@@ -1,3 +1,52 @@
+### 2023-02-21 (13.0.0)
+
+### Config Changes
+
+* Added Botany Pots support for trees from Tech Reborn
+* Added Eden Ring balloon mushrooms to `pannotia:mushrooms` tag
+
+#### Removed Mods
+
+* Carry On: this has caused more problems than it has solved
+
+#### Updated Mods
+
+* Advanced Reborn
+* Advancement Screenshot
+* Applied Botanics Addon
+* Architectury API
+* BCLib
+* Botany Pots
+* Bottle Your XP
+* Bottled Air
+* Collective
+* Conduits Prevent Drowned
+* Crying Portals
+* Cycle Paintings
+* Edibles
+* Fire Spread Tweaks
+* Forge Config API Port
+* GeckoLib
+* GUI Followers
+* Health Overlay
+* Hoe Tweaks
+* Immersive Weathering
+* Just Player Heads
+* MCPitanLibarch
+* Moonlight Lib
+* Naturally Charged Creepers
+* Pick Up Notifier
+* Roughly Enough Items
+* Skeleton Horse Spawn
+* Smaller Nether Portals
+* Spectrum
+* Supplementaries
+* Visual Workbench
+* Xaero's Minimap
+* Xaero's World Map
+* Zombie Horse Spawn
+
+
 ### 2023-02-10 (13.0.0-ht-rc.1)
 
 #### Config Changes
