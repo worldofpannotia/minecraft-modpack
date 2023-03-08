@@ -6,6 +6,7 @@
 * Added centrifuge recipe to convert 2 charcoal dust to 1 coal dust
 * Fix universal dyeing recipe for carpets
 * Increased recipe output for all modded variants of stairs and wooden trapdoors
+* Make (empty) upgraded shulker boxes stack to 16
 
 #### Added Mods
 
@@ -15,6 +16,7 @@
 #### Updated Mods
 
 * Balm
+* Bookshelf
 * Botania
 * Botany Pots
 * Capes
@@ -33,6 +35,7 @@
 * GUI Followers
 * Hoe Tweaks
 * Kiwi
+* Lithium
 * MCPitanLib
 * megane
 * MmmMmmMmmMmm
@@ -42,6 +45,8 @@
 * OptiGUI
 * Pehkui
 * Random Bone Meal Flowers
+* Roughly Enough Professions
+* RPG Origins
 * Skeleton Horse Spawn
 * Smaller Nether Portals
 * Spectrum
