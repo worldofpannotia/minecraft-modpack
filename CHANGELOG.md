@@ -1,4 +1,8 @@
-### 2023-XX-XX (13.1.0)
+### 2023-03-08 (13.1.0)
+
+#### Notable Changes
+
+* Updated the Fabric loader version to 0.14.17
 
 #### Config Changes
 
@@ -24,7 +28,6 @@
 * Custom Entity Models
 * Cycle Paintings
 * Easy Magic
-* End Goblin Traders
 * Entity Culling
 * Entity Texture Features
 * Expanded Delight

@@ -3,7 +3,7 @@
         "version": "1.19.2",
         "modLoaders": [
             {
-                "id": "fabric-0.14.12",
+                "id": "fabric-0.14.17",
                 "primary": true
             }
         ]
@@ -16,7 +16,7 @@
     "files": [
         {"projectID": 223794, "fileID": 4293536, "required": true, "name": "Applied Energistics 2"},
         {"projectID": 224713, "fileID": 3859566, "required": true, "name": "Bow Infinity Fix (Forge/Fabric)"},
-        {"projectID": 225738, "fileID": 4410143, "required": true, "name": "MmmMmmMmmMmm (Target Dummy)"},
+        {"projectID": 225738, "fileID": 4410141, "required": true, "name": "MmmMmmMmmMmm (Target Dummy)"},
         {"projectID": 225781, "fileID": 3878660, "required": true, "name": "TellMe"},
         {"projectID": 228525, "fileID": 4354813, "required": true, "name": "Bookshelf"},
         {"projectID": 233564, "fileID": 4102770, "required": true, "name": "Tech Reborn"},
@@ -221,7 +221,7 @@
         {"projectID": 534373, "fileID": 3820596, "required": true, "name": "Goblin Traders (Fabric)"},
         {"projectID": 534489, "fileID": 4361782, "required": true, "name": "Deepslate Instamine - Fabric/Forge"},
         {"projectID": 536648, "fileID": 3898415, "required": true, "name": "ThonkUtil"},
-        {"projectID": 537653, "fileID": 4399658, "required": true, "name": "End Goblin Traders (Fabric)"},
+        {"projectID": 537653, "fileID": 3929401, "required": true, "name": "End Goblin Traders (Fabric)"},
         {"projectID": 539057, "fileID": 3945830, "required": true, "name": "Trading Post"},
         {"projectID": 539382, "fileID": 3922111, "required": true, "name": "Iceberg [Fabric]"},
         {"projectID": 541578, "fileID": 3921941, "required": true, "name": "Item Highlighter [Fabric]"},
@@ -306,7 +306,7 @@
         {"projectID": 667474, "fileID": 4381415, "required": true, "name": "OpenBlocks Elevator (Fabric)"},
         {"projectID": 677562, "fileID": 4009733, "required": true, "name": "Composter: ReComposted"},
         {"projectID": 679177, "fileID": 4370451, "required": true, "name": "libIPN"},
-        {"projectID": 682213, "fileID": 4427014, "required": true, "name": "MCPitanLib (Fabric/Forge)"},
+        {"projectID": 682213, "fileID": 4428027, "required": true, "name": "MCPitanLib (Fabric/Forge)"},
         {"projectID": 682997, "fileID": 4111020, "required": true, "name": "VillagerTweaks"},
         {"projectID": 683062, "fileID": 4013527, "required": true, "name": "Enchantment Numbers Fix"},
         {"projectID": 683408, "fileID": 4018555, "required": true, "name": "Compostables"},
