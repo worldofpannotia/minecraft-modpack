@@ -15,6 +15,15 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "heartytrinkets:blue_heart"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:player_head",
                     "weight": 1,
                     "functions": [
