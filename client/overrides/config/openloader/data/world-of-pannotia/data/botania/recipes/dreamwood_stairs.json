@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "Q": {
+            "item": "botania:dreamwood"
+        }
+    },
+    "pattern": [
+        "  Q",
+        " QQ",
+        "QQQ"
+    ],
+    "result": {
+        "count": 8,
+        "item": "botania:dreamwood_stairs"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "tag": "c:platinum_blocks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "count": 8,
+        "item": "techreborn:platinum_storage_block_stairs"
+    }
+}

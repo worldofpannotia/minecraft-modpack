@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "x  ",
+        "xx ",
+        "xxx"
+    ],
+    "key": {
+        "x": {
+            "item": "xps_additions:cut_soul_copper"
+        }
+    },
+    "result": {
+        "item": "xps_additions:cut_soul_copper_stairs",
+        "count": 8
+    }
+}

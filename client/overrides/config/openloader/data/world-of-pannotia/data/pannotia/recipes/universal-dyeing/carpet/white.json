@@ -8,7 +8,7 @@
     ],
     "key": {
         "#": {
-            "tag": "minecraft:carpets"
+            "tag": "minecraft:wool_carpets"
         },
         "$": {
             "item": "minecraft:yellow_dye"

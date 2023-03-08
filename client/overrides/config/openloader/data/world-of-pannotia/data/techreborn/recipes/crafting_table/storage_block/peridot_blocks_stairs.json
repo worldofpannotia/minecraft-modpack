@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "tag": "c:peridot_blocks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "count": 8,
+        "item": "techreborn:peridot_storage_block_stairs"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "tag": "c:red_garnet_blocks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "count": 8,
+        "item": "techreborn:red_garnet_storage_block_stairs"
+    }
+}

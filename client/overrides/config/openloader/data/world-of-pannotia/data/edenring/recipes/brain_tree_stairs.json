@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "stairs",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "edenring:brain_tree_planks"
+        }
+    },
+    "result": {
+        "item": "edenring:brain_tree_stairs",
+        "count": 8
+    }
+}

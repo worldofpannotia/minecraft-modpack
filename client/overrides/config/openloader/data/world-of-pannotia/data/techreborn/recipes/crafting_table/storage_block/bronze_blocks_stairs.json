@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "tag": "c:bronze_blocks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "count": 8,
+        "item": "techreborn:bronze_storage_block_stairs"
+    }
+}

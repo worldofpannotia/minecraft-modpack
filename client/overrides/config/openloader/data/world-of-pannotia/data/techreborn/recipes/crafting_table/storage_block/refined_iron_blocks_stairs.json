@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "tag": "c:refined_iron_blocks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "count": 8,
+        "item": "techreborn:refined_iron_storage_block_stairs"
+    }
+}
