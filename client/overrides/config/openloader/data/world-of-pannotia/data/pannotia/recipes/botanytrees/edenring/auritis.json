@@ -1,0 +1,45 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "edenring:auritis_sapling"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "edenring:auritis_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "edenring:auritis_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "edenring:auritis_log"
+            },
+            "minRolls": 2,
+            "maxRolls": 4
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "edenring:auritis_sapling"
+            }
+        }
+    ]
+}
