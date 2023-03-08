@@ -14,6 +14,15 @@
             "rolls": 1,
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "modded_reference:entities/deeperdarker/warden"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
                     "type": "minecraft:item",
                     "name": "heartytrinkets:blue_heart"
                 }
