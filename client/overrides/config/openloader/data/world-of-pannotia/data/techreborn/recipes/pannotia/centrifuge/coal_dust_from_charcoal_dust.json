@@ -1,0 +1,16 @@
+{
+    "type": "techreborn:centrifuge",
+    "power": 5,
+    "time": 2400,
+    "ingredients": [
+        {
+            "item": "tech_reborn:charcoal_dust",
+            "count": 2
+        }
+    ],
+    "results": [
+        {
+            "item": "tech_reborn:coal_dust"
+        }
+    ]
+}
