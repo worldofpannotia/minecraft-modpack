@@ -4,6 +4,7 @@
 
 * Added blue and green heart drops to various boss mobs
 * Added centrifuge recipe to convert 2 charcoal dust to 1 coal dust
+* Added support for several more modded saplings to Botany Pots
 * Fix universal dyeing recipe for carpets
 * Increased recipe output for all modded variants of stairs and wooden trapdoors
 * Make (empty) upgraded shulker boxes stack to 16
@@ -16,9 +17,7 @@
 #### Updated Mods
 
 * Balm
-* Bookshelf
 * Botania
-* Botany Pots
 * Capes
 * Collective
 * Crafting Tweaks
@@ -42,7 +41,6 @@
 * Mod Menu
 * Moonlight Lib
 * NetherPortalFix
-* OptiGUI
 * Pehkui
 * Random Bone Meal Flowers
 * Roughly Enough Professions
