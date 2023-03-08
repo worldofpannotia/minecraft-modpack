@@ -2,15 +2,58 @@
 
 #### Config Changes
 
-*
+* Added blue and green heart drops to various boss mobs
+* Added centrifuge recipe to convert 2 charcoal dust to 1 coal dust
+* Fix universal dyeing recipe for carpets
+* Increased recipe output for all modded variants of stairs and wooden trapdoors
 
 #### Added Mods
 
-*
+* Copper Hopper: this may be removed in the future if/when I get around to adding similar functionality in Hopper X-Treme
+* Simple Copper Pipes
 
 #### Updated Mods
 
-*
+* Balm
+* Botania
+* Botany Pots
+* Capes
+* Collective
+* Crafting Tweaks
+* Custom Entity Models
+* Cycle Paintings
+* Easy Magic
+* End Goblin Traders
+* Entity Culling
+* Entity Texture Features
+* Expanded Delight
+* Fabric API
+* Fire Spread Tweaks
+* GeckoLib
+* GUI Followers
+* Hoe Tweaks
+* Kiwi
+* MCPitanLib
+* megane
+* MmmMmmMmmMmm
+* Mod Menu
+* Moonlight Lib
+* NetherPortalFix
+* OptiGUI
+* Pehkui
+* Random Bone Meal Flowers
+* Skeleton Horse Spawn
+* Smaller Nether Portals
+* Spectrum
+* Supplementaries
+* TrashSlot
+* VisualWorkbench
+* Visuality
+* Waystones
+* WTHIT
+* Xaero's Minimap
+* Xaero's World Map
+* Zombie Horse Spawn
 
 
 ### 2023-02-21 (13.0.0)
