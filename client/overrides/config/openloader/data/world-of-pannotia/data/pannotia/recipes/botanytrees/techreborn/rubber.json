@@ -28,6 +28,14 @@
             "maxRolls": 4
         },
         {
+            "chance": 0.20,
+            "output": {
+                "item": "techreborn:rubber_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
             "chance": 0.25,
             "output": {
                 "item": "minecraft:stick"

@@ -28,6 +28,14 @@
             "maxRolls": 4
         },
         {
+            "chance": 0.20,
+            "output": {
+                "item": "spectrum:red_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
             "chance": 0.10,
             "output": {
                 "item": "spectrum:red_pigment"

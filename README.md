@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.1.0-ht](https://img.shields.io/badge/Pack-13.1.0--ht-blue.svg?style=flat-square)
-![Fabric 0.14.12](https://img.shields.io/badge/Fabric-0.14.12-c39.svg?style=flat-square)
+![Pack 13.2.0-ht](https://img.shields.io/badge/Pack-13.2.0--ht-blue.svg?style=flat-square)
+![Fabric 0.14.17](https://img.shields.io/badge/Fabric-0.14.17-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
 That said, the current version of the pack should be considered stable enough for everyday play.
@@ -65,7 +65,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/botania-fabric">Botania (Fabric/Quilt) (by williewillus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/botany-pots">Botany Pots (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers">Botany Pots Tiers (by Ultramegaaa)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/botany-trees">Botany Trees (by DarkhaxDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bottle-your-xp">Bottle Your Xp (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bottled-air">Bottled Air (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bottled-allays">Bottled Allays (by cyborg_pigeon)</a></li>

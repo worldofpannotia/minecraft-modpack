@@ -1,0 +1,37 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "minecraft:flowering_azalea"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "minecraft:flowering_azalea"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "minecraft:oak_log"
+            }
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:flowering_azalea_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "minecraft:flowering_azalea"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        }
+    ]
+}

@@ -1,3 +1,57 @@
+### 2023-03-37 (13.2.0)
+
+#### Notable Changes
+ 
+* Botany pots should no longer delete OmniTools
+* Trees placed in botany pots now produce leaves in addition to their other drops
+
+#### Removed Mods
+
+* Botany Trees: removed in favor of our own datapack, which also adds leaf drops
+
+#### Updated Mods
+
+* Balm
+* Bookshelf
+* Botany Pots
+* Botany Pots Tiers
+* Collective
+* Comforts
+* Continuity
+* Extreme Sound Muffler
+* Fabric API
+* Fabric Language Kotlin
+* Fire Spread Tweaks
+* Inventory Profiles Next
+* KleeSlabs
+* Language Reload
+* libIPN
+* Litematica
+* Lithium
+* Macaw's Bridges
+* Macaw's Doors
+* MCPitanLib
+* MEGA Cells
+* MemoryLeakFix
+* Moonlight Lib
+* Open Parties and Claims
+* Pehkui
+* Revelationary
+* Roughly Enough Items
+* RPG Origins
+* Skeleton Horse Spawn
+* Spectrum
+* Supplementaries
+* Trajectory Preview
+* Vinery
+* Visual Workbench
+* Waystones
+* WTHIT
+* Xaero's Minimap
+* Xaero's World Map
+* Zombie Horse Spawn
+
+
 ### 2023-03-08 (13.1.0)
 
 #### Notable Changes

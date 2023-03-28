@@ -28,6 +28,14 @@
             "maxRolls": 4
         },
         {
+            "chance": 0.05,
+            "output": {
+                "item": "vinery:grapevine_leaves"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
             "chance": 0.01,
             "output": {
                 "item": "vinery:red_grape_seeds"
