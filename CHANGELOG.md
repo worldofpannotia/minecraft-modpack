@@ -1,3 +1,10 @@
+### 2023-03-27 (13.3.1)
+
+#### Bug Fixes
+
+* Fixed Botany Pots config for Deeper and Darker's echo tree
+
+
 ### 2023-03-27 (13.3.0)
 
 #### Notable Changes

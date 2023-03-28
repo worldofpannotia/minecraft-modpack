@@ -9,14 +9,14 @@
     ],
     "type": "botanypots:crop",
     "seed": {
-        "item": "minecraft:echo_shard"
+        "item": "deeperdarker:reinforced_echo_shard"
     },
     "categories": [
         "dirt"
     ],
     "growthTicks": 2400,
     "display": {
-        "block": "minecraft:echo_shard"
+        "block": "deeperdarker:echo_leaves"
     },
     "drops": [
         {
