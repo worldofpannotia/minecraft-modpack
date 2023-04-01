@@ -5,8 +5,20 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "name": "modded_reference:chests/spectrum/ancient_ruins_main"
+                    "type": "minecraft:item",
+                    "name": "spectrum:hibernating_jade_vine_seeds"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "spectrum:music_disc_spectrum_theme"
                 }
             ]
         },
@@ -14,27 +26,102 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "name": "treasure_gems:random"
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 2,
+                        "max": 4
+                    }
                 }
             ]
         },
         {
             "rolls": {
-                "type": "minecraft:uniform",
                 "min": 2,
-                "max": 4
+                "max": 5
             },
-            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spectrum:citrine_shard"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spectrum:topaz_shard"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 7
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 1,
-                    "name": "babel:books"
+                    "name": "spectrum:chests/sub_tables/cmy_tier_gems_and_buds"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "spectrum:chests/sub_tables/onyx_tier_pigments"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 15
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:budding_amethyst"
                 },
                 {
-                    "type": "minecraft:empty",
-                    "weight": 3
+                    "type": "minecraft:item",
+                    "name": "spectrum:budding_citrine"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "spectrum:budding_topaz"
                 }
             ]
         }
