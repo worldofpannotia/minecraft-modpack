@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "13.3.1-ht",
+    "version": "13.3.2-ht",
     "author": "cmrcdrm",
     "files": [
         {"projectID": 223794, "fileID": 4293536, "required": true, "name": "Applied Energistics 2"},

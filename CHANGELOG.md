@@ -1,3 +1,11 @@
+### 2023-03-31 (13.3.2)
+
+#### Bug Fixes
+
+* Fixed loot table for Spectrum's ruin structure main chest
+* Fixed Botany Pots config for Croptopia's cherry tree (also fixes the cinnamon tree)
+
+
 ### 2023-03-27 (13.3.1)
 
 #### Bug Fixes
