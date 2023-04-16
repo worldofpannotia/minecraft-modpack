@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {"item": "megacells:mega_item_cell_housing"},
+        {"item": "dankstorage:dank_7"}
+    ],
+    "result": {
+        "item": "megacells:bulk_cell_component",
+        "count": 10
+    }
+}
