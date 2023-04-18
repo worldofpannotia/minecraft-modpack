@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.19.2](https://img.shields.io/badge/Minecraft-1.19.2-3a6.svg?style=flat-square)
-![Pack 13.3.2-ht](https://img.shields.io/badge/Pack-13.3.2--ht-blue.svg?style=flat-square)
-![Fabric 0.14.17](https://img.shields.io/badge/Fabric-0.14.17-c39.svg?style=flat-square)
+![Pack 13.4.0-ht](https://img.shields.io/badge/Pack-13.4.0--ht-blue.svg?style=flat-square)
+![Fabric 0.14.19](https://img.shields.io/badge/Fabric-0.14.19-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
 That said, the current version of the pack should be considered stable enough for everyday play.
@@ -182,7 +182,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem">Inventory Totem (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-highlighter-fabric">Item Highlighter [Fabric] (by Grend_G)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-model-fix">Item Model Fix (Fabric) (by Pepper_Bell)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/item-scroller">Item Scroller (by masady)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jamlib">JamLib (by jamalam360)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-player-heads">Just Player Heads (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled">Keep My Soil Tilled (by Serilum)</a></li>
@@ -280,7 +279,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulker-box-slot-fabric">Shulker Box Slot (Fabric) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-copper-pipes">Simple Copper Pipes (by AViewFromTheTop)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat">Simple Voice Chat (by henkelmax)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/skeleton-horse-spawn">Skeleton Horse Spawn (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/skylib">SkyLib (by SkylorBeck)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/slight-gui-modifications">'Slight' Gui Modifications (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smaller-nether-portals">Smaller Nether Portals (by Serilum)</a></li>
@@ -324,7 +322,6 @@ world even through multiple major versions of the game, instead of starting fres
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/xp-obelisk-additions">XP Obelisk Additions (by Meridanus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yacl">YetAnotherConfigLib (by XanderIsDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger">You're in Grave Danger (by b1n_ry)</a></li>
-        <li><a href="https://www.curseforge.com/minecraft/mc-mods/zombie-horse-spawn">Zombie Horse Spawn (by Serilum)</a></li>
     </ul>
 </details>
 

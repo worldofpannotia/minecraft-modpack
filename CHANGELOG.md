@@ -1,3 +1,51 @@
+### 2023-04-17 (13.4.0)
+
+#### Notable Changes
+
+* Update Fabric loader to 0.14.19
+
+#### Removed Mods
+
+* Item Scroller: breaks AE2's terminals
+* Skeleton Horse Spawn: way too frequent / makes them boring
+* Zombie Horse Spawn: way too frequent / makes them boring
+
+#### Updated Mods
+
+* Advanced Netherite
+* Advanced Reborn
+* Applied Energistics 2
+* Architectury API
+* Botany Pots
+* Brewin' and Chewin'
+* Building Wands
+* Extreme Sound Muffler
+* Fabric Language Kotlin
+* Flower Patch
+* Guard Villagers
+* Immersive Weathering
+* Inventory Profiles Next
+* MCPitanLib
+* MEGA Cells
+* MemoryLeakFix
+* Moonlight Lib
+* Open Parties and Claims
+* Pehkui
+* Revelationary
+* Rhino
+* RPG Origins
+* Simple Copper Pipes
+* Simple Voice Chat
+* Spectrum
+* Supplementaries
+* Trajectory Preview
+* Vinery
+* WTHIT
+* Xaero's Minimap
+* Xaero's World Map
+* XP Obelisk
+* XP Obelisk Additions
+
 ### 2023-03-31 (13.3.2)
 
 #### Bug Fixes
