@@ -1,3 +1,11 @@
+### 2023-04-22 (13.4.1)
+
+#### Config Changes
+
+* Made metal chests and barrels mineable with pickaxe
+* Added some crafting recipes for AE2 colored cables
+
+
 ### 2023-04-17 (13.4.0)
 
 #### Notable Changes

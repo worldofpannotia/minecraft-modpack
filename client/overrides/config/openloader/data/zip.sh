@@ -10,6 +10,7 @@ cd gem-villagers;7z a -tzip ../gem-villagers.zip .;cd ..
 cd global-trades;7z a -tzip ../global-trades.zip .;cd ..
 cd hiphoppers;7z a -tzip ../hiphoppers.zip .;cd ..
 cd homes;7z a -tzip ../homes.zip .;cd ..
+cd lag-buster;7z a -tzip ../lag-buster.zip .;cd ..
 cd mob-statues-vanilla;7z a -tzip ../mob-statues-vanilla.zip .;cd ..
 cd multiplayer-sleep;7z a -tzip ../multiplayer-sleep.zip .;cd ..
 cd name-formatting-station;7z a -tzip ../name-formatting-station.zip .;cd ..
@@ -37,7 +38,7 @@ rm -rf gem-villagers
 rm -rf global-trades
 rm -rf hiphoppers
 rm -rf homes
-rm -rf lore-geek
+rm -rf lag-buster
 rm -rf mob-statues-vanilla
 rm -rf multiplayer-sleep
 rm -rf name-formatting-station

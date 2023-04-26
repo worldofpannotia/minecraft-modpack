@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "13.4.0-ht",
+    "version": "13.4.1-ht",
     "author": "cmrcdrm",
     "files": [
         {"name": "Actually Useful Smithing Table [Fabric] [DISCONTINUED]", "projectID": 568328, "fileID": 4033256, "required": true},
