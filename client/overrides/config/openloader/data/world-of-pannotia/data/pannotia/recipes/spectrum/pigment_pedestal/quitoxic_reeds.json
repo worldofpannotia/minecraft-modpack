@@ -1,0 +1,29 @@
+{
+    "type": "spectrum:pedestal",
+    "time": 200,
+    "tier": "basic",
+    "cyan": 0,
+    "magenta": 1,
+    "yellow": 0,
+    "black": 0,
+    "white": 0,
+    "experience": 4.0,
+    "pattern": [
+        "psp",
+        "psp",
+        "psp"
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:sugar_cane"
+        },
+        "p": {
+            "item": "spectrum:purple_pigment"
+        }
+    },
+    "result": {
+        "item": "spectrum:quitoxic_reeds",
+        "count": 3
+    },
+    "required_advancement": "spectrum:collect_quitoxic_reeds"
+}

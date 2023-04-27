@@ -1,0 +1,18 @@
+{
+    "type": "spectrum:fusion_shrine",
+    "time": 600,
+    "experience": 4.0,
+    "fluid": "minecraft:water",
+    "ingredients": [
+        {"item": "spectrum:four_leaf_clover"},
+        {"item": "spectrum:light_blue_sapling"}
+    ],
+    "result": {
+        "item": "spectrum:mermaids_brush"
+    },
+    "required_advancement": "spectrum:collect_mermaids_gem",
+    "world_conditions": [],
+    "start_crafting_effect": "nothing",
+    "during_crafting_effects": [],
+    "finish_crafting_effect": "single_visual_explosion_on_shrine"
+}
