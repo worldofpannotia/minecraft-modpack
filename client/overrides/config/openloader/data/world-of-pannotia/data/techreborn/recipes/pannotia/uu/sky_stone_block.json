@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " u ",
+        " o "
+    ],
+    "key": {
+        "u": {
+            "item": "techreborn:uu_matter"
+        },
+        "o": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "ae2:sky_stone_block"
+    }
+}
