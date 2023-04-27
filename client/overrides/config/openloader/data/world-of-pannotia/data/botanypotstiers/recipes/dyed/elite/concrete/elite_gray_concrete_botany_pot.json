@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypotstiers:elite_gray_concrete_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypotstiers:elite_concrete_botany_pots"},
+        {"item": "minecraft:gray_dye"}
+    ]
+}

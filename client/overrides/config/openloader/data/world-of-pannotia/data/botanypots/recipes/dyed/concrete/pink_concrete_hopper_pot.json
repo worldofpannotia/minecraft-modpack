@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypots:pink_concrete_hopper_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypots:basic_concrete_hopper_botany_pots"},
+        {"item": "minecraft:pink_dye"}
+    ]
+}

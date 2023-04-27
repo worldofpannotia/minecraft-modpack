@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypotstiers:ultra_green_concrete_hopper_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypotstiers:ultra_concrete_hopper_botany_pots"},
+        {"item": "minecraft:green_dye"}
+    ]
+}

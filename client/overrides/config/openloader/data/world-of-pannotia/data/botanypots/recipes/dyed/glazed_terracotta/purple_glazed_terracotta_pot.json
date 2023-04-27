@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypots:purple_glazed_terracotta_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypots:basic_glazed_terracotta_botany_pots"},
+        {"item": "minecraft:purple_dye"}
+    ]
+}

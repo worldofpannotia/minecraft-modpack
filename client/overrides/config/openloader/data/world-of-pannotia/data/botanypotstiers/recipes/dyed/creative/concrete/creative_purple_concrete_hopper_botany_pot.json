@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypotstiers:creative_purple_concrete_hopper_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypotstiers:creative_concrete_hopper_botany_pots"},
+        {"item": "minecraft:purple_dye"}
+    ]
+}

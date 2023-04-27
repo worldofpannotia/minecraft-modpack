@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypotstiers:creative_light_blue_terracotta_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypotstiers:creative_terracotta_botany_pots"},
+        {"item": "minecraft:light_blue_dye"}
+    ]
+}

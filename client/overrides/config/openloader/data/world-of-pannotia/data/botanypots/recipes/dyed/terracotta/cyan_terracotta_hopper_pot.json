@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item": "botanypots:cyan_terracotta_hopper_botany_pot",
+        "count": 1
+    },
+    "ingredients": [
+        {"tag": "botanypots:basic_terracotta_hopper_botany_pots"},
+        {"item": "minecraft:cyan_dye"}
+    ]
+}
