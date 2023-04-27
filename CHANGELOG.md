@@ -1,3 +1,29 @@
+### 2023-04-XX (13.5.0)
+
+#### Config Changes
+
+* Recipe: Sky stone from UU-matter and obsidian
+* Recipe: Mermaid's brush in Spectrum Fusion Shrine
+* Recipe: Quitoxic reeds in Spectrum Pigment Pedestal
+
+#### Added Mods
+
+* Modern Dynamics: pipes for item and fluid transfer
+
+#### Updated Mods
+
+* Applied Botanics Addon
+* Entity Texture Features
+* Fabric Language Kotlin
+* Fabrishot
+* Inventory Profiles Next
+* libIPN
+* Open Parties and Claims
+* Puzzles Lib
+* Simple Voice Chat
+* You're in Grave Danger
+
+
 ### 2023-04-22 (13.4.1)
 
 #### Config Changes
