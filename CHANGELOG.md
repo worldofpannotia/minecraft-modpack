@@ -26,10 +26,6 @@
 * Simple Voice Chat
 * You're in Grave Danger
 
-#### Removed Mods
-
-* Mod Menu: only removed from the official CurseForge manifest. This has moved to Modrinth, but the author explicitly states that modpacks can include the binaries in their distribution
-
 
 ### 2023-04-22 (13.4.1)
 
