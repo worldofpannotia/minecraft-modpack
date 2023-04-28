@@ -1,13 +1,16 @@
-### 2023-04-XX (13.5.0)
+### 2023-04-27 (13.5.0)
 
 #### Config Changes
 
 * Recipe: Sky stone from UU-matter and obsidian
 * Recipe: Mermaid's brush in Spectrum Fusion Shrine
 * Recipe: Quitoxic reeds in Spectrum Pigment Pedestal
+* Recipe: tweaked output for Tech Reborn's IDSU and Superconductor Cables
 
 #### Added Mods
 
+* Item Scroller: re-added as there is an easy workaround to the AE2 compat issue
+* Just More Cakes: yum!
 * Modern Dynamics: pipes for item and fluid transfer
 
 #### Updated Mods
@@ -22,6 +25,10 @@
 * Puzzles Lib
 * Simple Voice Chat
 * You're in Grave Danger
+
+#### Removed Mods
+
+* Mod Menu: only removed from the official CurseForge manifest. This has moved to Modrinth, but the author explicitly states that modpacks can include the binaries in their distribution
 
 
 ### 2023-04-22 (13.4.1)
