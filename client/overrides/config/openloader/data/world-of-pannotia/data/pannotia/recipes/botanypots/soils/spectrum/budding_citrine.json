@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "spectrum:budding_citrine"
+    },
+    "display": {
+        "block": "spectrum:budding_citrine"
+    },
+    "categories": [
+        "citrine"
+    ],
+    "growthModifier": 1.0
+}

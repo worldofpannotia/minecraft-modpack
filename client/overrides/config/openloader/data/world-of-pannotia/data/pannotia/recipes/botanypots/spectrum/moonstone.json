@@ -1,0 +1,47 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "spectrum:moonstone_cluster"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "spectrum:moonstone_cluster"
+    },
+    "categories": [
+        "moonstone"
+    ],
+    "growthTicks": 24000,
+    "display": {
+        "block": "spectrum:moonstone_cluster"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "spectrum:moonstone_shard"
+            }
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "spectrum:moonstone_shard"
+            }
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "spectrum:moonstone_shard"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "spectrum:moonstone_shard"
+            }
+        }
+    ]
+}

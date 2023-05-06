@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "geodes:budding_echo_block"
+    },
+    "display": {
+        "block": "geodes:budding_echo_block"
+    },
+    "categories": [
+        "echo_block"
+    ],
+    "growthModifier": 1.0
+}

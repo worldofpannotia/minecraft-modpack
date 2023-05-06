@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "minecraft:budding_amethyst"
+    },
+    "display": {
+        "block": "minecraft:budding_amethyst"
+    },
+    "categories": [
+        "amethyst"
+    ],
+    "growthModifier": 1.0
+}

@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "spectrum:budding_topaz"
+    },
+    "display": {
+        "block": "spectrum:budding_topaz"
+    },
+    "categories": [
+        "topaz"
+    ],
+    "growthModifier": 1.0
+}

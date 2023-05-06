@@ -1,0 +1,38 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "spectrum:blood_orchid",
+                "spectrum:blood_orchid_petal"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "spectrum:blood_orchid"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 6000,
+    "display": {
+        "block": "spectrum:blood_orchid"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "spectrum:blood_orchid_petal"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "spectrum:blood_orchid_petal"
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "ae2:chipped_budding_quartz"
+    },
+    "display": {
+        "block": "ae2:chipped_budding_quartz"
+    },
+    "categories": [
+        "ae2_quartz"
+    ],
+    "growthModifier": 3.0
+}

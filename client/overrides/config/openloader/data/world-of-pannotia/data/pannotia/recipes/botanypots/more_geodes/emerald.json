@@ -1,0 +1,47 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "geodes:emerald_cluster"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "geodes:emerald_cluster"
+    },
+    "categories": [
+        "emerald"
+    ],
+    "growthTicks": 24000,
+    "display": {
+        "block": "geodes:emerald_cluster"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "geodes:emerald_shard"
+            }
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "geodes:emerald_shard"
+            }
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "geodes:emerald_shard"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "geodes:emerald_shard"
+            }
+        }
+    ]
+}

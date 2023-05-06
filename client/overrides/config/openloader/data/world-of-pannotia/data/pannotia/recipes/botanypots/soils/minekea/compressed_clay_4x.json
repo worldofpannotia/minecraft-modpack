@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "minekea:building/compressed/clay/4x"
+    },
+    "display": {
+        "block": "minecraft:clay"
+    },
+    "categories": [
+        "clay"
+    ],
+    "growthModifier": 24.0
+}

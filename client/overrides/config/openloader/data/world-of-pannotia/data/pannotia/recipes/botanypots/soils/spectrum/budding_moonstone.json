@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "spectrum:budding_moonstone"
+    },
+    "display": {
+        "block": "spectrum:budding_moonstone"
+    },
+    "categories": [
+        "moonstone"
+    ],
+    "growthModifier": 1.0
+}

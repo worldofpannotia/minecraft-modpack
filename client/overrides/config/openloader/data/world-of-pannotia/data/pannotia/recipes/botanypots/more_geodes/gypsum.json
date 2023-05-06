@@ -1,0 +1,47 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "geodes:gypsum_rose"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "geodes:gypsum_rose"
+    },
+    "categories": [
+        "gypsum"
+    ],
+    "growthTicks": 24000,
+    "display": {
+        "block": "geodes:gypsum_rose"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "geodes:gypsum_shard"
+            }
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "geodes:gypsum_shard"
+            }
+        },
+        {
+            "chance": 0.10,
+            "output": {
+                "item": "geodes:gypsum_shard"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "geodes:gypsum_shard"
+            }
+        }
+    ]
+}

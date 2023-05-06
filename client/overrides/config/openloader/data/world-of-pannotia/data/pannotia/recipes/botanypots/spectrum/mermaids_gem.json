@@ -1,0 +1,36 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "spectrum:mermaids_brush",
+                "spectrum:mermaids_gem"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "spectrum:mermaids_brush"
+    },
+    "categories": [
+        "water"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "spectrum:mermaids_brush"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "spectrum:mermaids_gem"
+            }
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "spectrum:mermaids_gem"
+            }
+        }
+    ]
+}
