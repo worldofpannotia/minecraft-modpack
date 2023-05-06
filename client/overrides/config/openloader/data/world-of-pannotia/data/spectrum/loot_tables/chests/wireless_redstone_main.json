@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "modded_reference:chests/spectrum/ancient_ruins_main"
+                    "name": "modded_reference:chests/spectrum/wireless_redstone_main"
                 }
             ]
         },

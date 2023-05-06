@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "modded_reference:chests/spectrum/ancient_ruins_main"
+                    "name": "modded_reference:chests/spectrum/ruined_pedestal_deepslate"
                 }
             ]
         },
@@ -16,6 +16,25 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "treasure_gems:random"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+            },
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "babel:books"
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
                 }
             ]
         }
