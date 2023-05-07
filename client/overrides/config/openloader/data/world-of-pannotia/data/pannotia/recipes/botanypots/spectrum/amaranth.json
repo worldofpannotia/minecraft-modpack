@@ -10,7 +10,7 @@
     ],
     "type": "botanypots:crop",
     "seed": {
-        "item": "spectrum:amaranth_bushel"
+        "item": "spectrum:amaranth_grains"
     },
     "categories": [
         "dirt"
@@ -23,7 +23,7 @@
         {
             "chance": 1.00,
             "output": {
-                "item": "spectrum:amaranth_grains"
+                "item": "spectrum:amaranth_bushel"
             },
             "minRolls": 1,
             "maxRolls": 2
@@ -31,7 +31,7 @@
         {
             "chance": 0.05,
             "output": {
-                "item": "spectrum:amaranth_grains"
+                "item": "spectrum:amaranth_bushel"
             }
         }
     ]

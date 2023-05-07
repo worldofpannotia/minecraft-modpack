@@ -23,7 +23,9 @@
             "chance": 1.00,
             "output": {
                 "item": "spectrum:quitoxic_reeds"
-            }
+            },
+            "minRolls": 2,
+            "maxRolls": 3
         },
         {
             "chance": 0.10,
