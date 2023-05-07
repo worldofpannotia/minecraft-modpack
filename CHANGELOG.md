@@ -1,3 +1,11 @@
+### 2023-05-06 (13.5.1)
+
+#### Config Changes
+
+* Added a bunch of botany pots recipes
+* Fix Spectrum loot generation
+
+
 ### 2023-04-27 (13.5.0)
 
 #### Config Changes
