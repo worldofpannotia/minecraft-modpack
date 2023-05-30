@@ -1,3 +1,10 @@
+#### 2023-XX-XX (13.x.x)
+
+#### Config Changes
+
+* Wandering Trader: increased miniblock trade limits from 1 to 8.
+
+
 ### 2023-05-29 (13.7.0)
 
 #### Updated Mods
