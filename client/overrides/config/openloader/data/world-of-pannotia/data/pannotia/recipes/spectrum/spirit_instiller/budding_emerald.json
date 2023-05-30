@@ -1,0 +1,18 @@
+{
+    "type": "spectrum:spirit_instiller",
+    "time": 800,
+    "experience": 4.0,
+    "ingredient1": {
+        "item": "spectrum:midnight_aberration"
+    },
+    "ingredient2": {
+        "item": "spectrum:moonstruck_nectar"
+    },
+    "center_ingredient": {
+        "item": "geodes:emerald_geode"
+    },
+    "result": {
+        "item": "geodes:budding_emerald"
+    },
+    "required_advancement": "spectrum:progression/unlock_budding_onyx"
+}

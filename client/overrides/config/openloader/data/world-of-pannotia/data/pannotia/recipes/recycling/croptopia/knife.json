@@ -1,0 +1,19 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "croptopia"
+            ]
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "croptopia:knife"
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_ingot"
+    }
+}

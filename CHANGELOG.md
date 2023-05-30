@@ -1,9 +1,63 @@
-### 2023-05-06 (13.5.1)
+### 2023-05-29 (13.7.0)
+
+#### Updated Mods
+
+* Twigs: downgraded due to removal of all the bamboo stuff
+
+
+### 2023-05-28 (13.6.0)
+
+#### Bug Fixes
+
+* Fix drops for More Frogs when they eat slimes and magma cubes
 
 #### Config Changes
 
 * Added a bunch of botany pots recipes
-* Fix Spectrum loot generation
+* Added recipes for converting Farmer's Delight and Croptopia back and forth
+* Added recycling recipes for Farmer's Delight and Croptopia knives
+* Added spirit instiller recipes for budding geode blocks
+* Changed output quantity for AE2 dusts created in the Tech Reborn grinder
+* Fixed Spectrum loot generation
+
+#### Added Mods
+
+* Torcherino: magic torch make tick rate go brrrrrr
+
+#### Updated Mods
+
+* Applied Energistics 2
+* Architectury API
+* Botania
+* Botany Pots
+* Brewin' and Chewin'
+* Charm of Undying
+* Crafting Tweaks
+* Elytra Slot
+* Entity Texture Features
+* Flower Patch
+* Grind Enchantments
+* Inventory Profiles Next
+* KleeSlabs
+* libIPN
+* Magnum Torch
+* Main Menu Credits
+* megane
+* Modern Dynamics
+* Moonlight Lib
+* More Geodes
+* Pehkui
+* RightClickHarvest
+* Simple Copper Pipes
+* Simple Voice Chat
+* Supplementaries
+* Terralith
+* Twigs
+* Vinery
+* Waystones
+* WTHIT
+* Xaero's Minimap
+* Xaero's World Map
 
 
 ### 2023-04-27 (13.5.0)

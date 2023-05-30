@@ -14,6 +14,15 @@
             "rolls": 1,
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "name": "modded_reference:entities/more_frogs/magma_cube"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
                     "type": "minecraft:item",
                     "name": "minecraft:player_head",
                     "weight": 1,
