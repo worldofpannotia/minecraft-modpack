@@ -16,14 +16,14 @@
                 "minecraft": ""
             }
         },
-        "trade_cycling": {
+        "indium": {
             "-depends": {
                 "minecraft": ""
             }
         },
-        "voicechat": {
+        "shuffle": {
             "-depends": {
-                "minecraft": ""
+                "ash": ""
             }
         }
     }
