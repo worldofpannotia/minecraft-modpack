@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "invisible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

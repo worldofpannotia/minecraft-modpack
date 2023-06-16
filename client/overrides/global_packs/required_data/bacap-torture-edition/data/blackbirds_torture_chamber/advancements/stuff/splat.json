@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "splat": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "diamond_boots"
+        },
+        "title": "Unlucky Break",
+        "description": {
+            "color": "dark_red",
+            "text": "Die from falling at least 1000 blocks"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:mining/lucky_break",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/splat"
+    }
+}

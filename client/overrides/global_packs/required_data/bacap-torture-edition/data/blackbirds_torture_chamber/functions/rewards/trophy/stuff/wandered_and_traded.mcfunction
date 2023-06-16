@@ -1,0 +1,2 @@
+give @s minecraft:compass{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"green\",\"translate\":\"Trader's Compass\"}",Lore:["{\"color\":\"green\",\"translate\":\"No-one who wanders is ever truly lost\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Wandered and Traded\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Trader's Compass"}]}

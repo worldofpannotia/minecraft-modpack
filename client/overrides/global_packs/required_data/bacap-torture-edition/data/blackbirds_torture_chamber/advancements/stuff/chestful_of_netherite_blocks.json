@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Have fun lol",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Netherite Blocks"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:nether/netherite_mad_lad",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_netherite_blocks"
+    }
+}

@@ -1,1 +1,0 @@
-execute as @e[type=area_effect_cloud,tag=pk_shulkerbox_marker] at @s run function pk_resh:main/marker_tick

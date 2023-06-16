@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": "I'm still standing",
+        "description": "Use 10 totems of undying",
+        "frame": "task"
+    },
+    "parent": "blazeandcave:statistics/root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:totem_of_undying",
+                                "value": {
+                                    "min": 10
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/10_totems"
+    }
+}

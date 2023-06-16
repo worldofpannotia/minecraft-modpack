@@ -1,0 +1,56 @@
+{
+    "criteria": {
+        "creamy": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "#blazeandcave:llamas",
+                    "nbt": "{Variant:0,Strength:5}"
+                }
+            }
+        },
+        "white": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "#blazeandcave:llamas",
+                    "nbt": "{Variant:1,Strength:5}"
+                }
+            }
+        },
+        "brown": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "#blazeandcave:llamas",
+                    "nbt": "{Variant:2,Strength:5}"
+                }
+            }
+        },
+        "gray": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "#blazeandcave:llamas",
+                    "nbt": "{Variant:3,Strength:5}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Llama farrier",
+        "description": {
+            "color": "dark_red",
+            "text": "Tame all Llama variants with strength 5"
+        },
+        "icon": {
+            "item": "llama_spawn_egg",
+            "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:animal/heavy_duty_caravan",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/llama_farrier"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "This one's free",
+        "description": {
+            "color": "dark_red",
+            "text": "Break 3 golden hoes"
+        },
+        "icon": {
+            "item": "golden_hoe"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "free": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:broken",
+                                "stat": "minecraft:golden_hoe",
+                                "value": {
+                                    "min": 3
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blazeandcave:mining/moar_broken_tools",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/this_ones_free"
+    }
+}

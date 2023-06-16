@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "title": "Macro Time",
+        "description": {
+            "color": "dark_red",
+            "text": "Break 100 warped fungi on a stick"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:nether/ride_strider_in_overworld_lava",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:broken",
+                                "stat": "minecraft:warped_fungus_on_a_stick",
+                                "value": {
+                                    "min": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/macro_time"
+    }
+}

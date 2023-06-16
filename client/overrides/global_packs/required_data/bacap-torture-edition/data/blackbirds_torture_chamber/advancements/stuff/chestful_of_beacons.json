@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Yes",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Beacons"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "minecraft:nether/create_beacon",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_beacons"
+    }
+}

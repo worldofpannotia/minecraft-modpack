@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "overrides": {
+        "morebannerlayers": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "deepslateinstamine": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "silkspawners": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "trade_cycling": {
+            "-depends": {
+                "minecraft": ""
+            }
+        },
+        "voicechat": {
+            "-depends": {
+                "minecraft": ""
+            }
+        }
+    }
+}

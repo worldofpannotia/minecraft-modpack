@@ -1,0 +1,2 @@
+give @s minecraft:enchanted_golden_apple{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\",\"translate\":\"Another One\"}",Lore:["{\"color\":\"gold\",\"translate\":\"Another One - DJ Khaled\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Superduperoverpowered\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Another One"}]}

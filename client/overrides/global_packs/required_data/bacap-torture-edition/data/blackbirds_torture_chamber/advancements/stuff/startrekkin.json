@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": ":startrekkin:",
+        "description": {
+            "color": "dark_red",
+            "text": "Use 100 stacks of ender pearls"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:monsters/enderman_destroyer",
+    "criteria": {
+        "startrekkin": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:ender_pearl",
+                                "value": {
+                                    "min": 1600
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/startrekkin"
+    }
+}

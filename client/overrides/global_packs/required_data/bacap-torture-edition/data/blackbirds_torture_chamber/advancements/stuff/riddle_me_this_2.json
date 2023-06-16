@@ -1,0 +1,50 @@
+{
+    "display": {
+        "title": "Riddle Me This 2.0",
+        "description": {
+            "color": "dark_red",
+            "text": "First, spy at the smallest from the farthest distance away\nSecond, gas that of forgotten caves in a far-out city\nThird, cause a furious test subject some furious remains\nFourth, gather freaks numbered this step to the last\nFifth, slay a three-headed menace far, far above limbo\nSixth, end the world ten times over with full uncured audiences from all over the world\nSeventh, slay a grayed invincible zombie\nEighth, frame perfection\nNinth, slay a spinoffs much memed character, the name of which must be guessed\nTenth, if you achieve it, you will waste 65 hours. Do this step 1000 times"
+        },
+        "icon": {
+            "item": "paper",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/riddle_me_this",
+    "criteria": {
+        "1": {
+            "trigger": "impossible"
+        },
+        "2": {
+            "trigger": "impossible"
+        },
+        "3": {
+            "trigger": "impossible"
+        },
+        "4": {
+            "trigger": "impossible"
+        },
+        "5": {
+            "trigger": "impossible"
+        },
+        "6": {
+            "trigger": "impossible"
+        },
+        "7": {
+            "trigger": "impossible"
+        },
+        "8": {
+            "trigger": "impossible"
+        },
+        "9": {
+            "trigger": "impossible"
+        },
+        "10": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/riddle_me_this_2"
+    }
+}

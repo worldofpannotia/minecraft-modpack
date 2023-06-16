@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": "What do you even need this for",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Reach 5000 experience levels"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/1000_levels",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "level": {
+                            "min": 5000
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/5000_levels"
+    }
+}

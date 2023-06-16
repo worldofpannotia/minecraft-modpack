@@ -1,0 +1,2 @@
+give @s minecraft:skeleton_skull{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Jack Skellington's Head\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"What's this? What's this?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Halloween Massacre\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Jack Skellington's Head"}]}

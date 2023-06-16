@@ -1,0 +1,2 @@
+give @s minecraft:golden_apple{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\",\"translate\":\"Doctors Hate Him\"}",Lore:["{\"color\":\"red\",\"translate\":\"Local man cures depression with this mind blowing trick!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"An Apple a Year\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Doctors Hate Him"}]}

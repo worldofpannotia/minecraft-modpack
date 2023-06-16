@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "title": "15 stacks + 40",
+        "description": {
+            "color": "dark_red",
+            "text": "Leave the game 1000 times"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/leave_100",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:leave_game",
+                                "value": {
+                                    "min": 1000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/leave_1000"
+    }
+}

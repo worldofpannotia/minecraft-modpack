@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "large_fern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:large_fern"
+                        ],
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:fern"
+        },
+        "title": "Phineas and Fern",
+        "description": {
+            "color": "dark_red",
+            "text": "Obtain a stack of large ferns"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/foliage",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/phineas_and_fern"
+    }
+}

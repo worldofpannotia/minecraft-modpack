@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": "Stop it, get some help",
+        "description": {
+            "color": "black",
+            "text": "Sprint 1 million km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/sprint_100_mil",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/sprint_1000_mil"
+    }
+}

@@ -1,0 +1,2 @@
+give @s minecraft:netherite_hoe{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_gray\",\"translate\":\"Al Gore's Hoe\"}",Lore:["{\"color\":\"dark_gray\",\"translate\":\"FixingGlobe is finally happy\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Ascended Dedication\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Al Gore's Hoe"}]}

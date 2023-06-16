@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Get an iron farm... or 50",
+        "description": {
+            "color": "dark_red",
+            "text": "Get 3 shulkers filled with every type of anvil"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "anvil": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_box",
+                        "nbt": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:anvil\",Count:64b},{Slot:1b,id:\"minecraft:anvil\",Count:64b},{Slot:2b,id:\"minecraft:anvil\",Count:64b},{Slot:3b,id:\"minecraft:anvil\",Count:64b},{Slot:4b,id:\"minecraft:anvil\",Count:64b},{Slot:5b,id:\"minecraft:anvil\",Count:64b},{Slot:6b,id:\"minecraft:anvil\",Count:64b},{Slot:7b,id:\"minecraft:anvil\",Count:64b},{Slot:8b,id:\"minecraft:anvil\",Count:64b},{Slot:9b,id:\"minecraft:anvil\",Count:64b},{Slot:10b,id:\"minecraft:anvil\",Count:64b},{Slot:11b,id:\"minecraft:anvil\",Count:64b},{Slot:12b,id:\"minecraft:anvil\",Count:64b},{Slot:13b,id:\"minecraft:anvil\",Count:64b},{Slot:14b,id:\"minecraft:anvil\",Count:64b},{Slot:15b,id:\"minecraft:anvil\",Count:64b},{Slot:16b,id:\"minecraft:anvil\",Count:64b},{Slot:17b,id:\"minecraft:anvil\",Count:64b},{Slot:18b,id:\"minecraft:anvil\",Count:64b},{Slot:19b,id:\"minecraft:anvil\",Count:64b},{Slot:20b,id:\"minecraft:anvil\",Count:64b},{Slot:21b,id:\"minecraft:anvil\",Count:64b},{Slot:22b,id:\"minecraft:anvil\",Count:64b},{Slot:23b,id:\"minecraft:anvil\",Count:64b},{Slot:24b,id:\"minecraft:anvil\",Count:64b},{Slot:25b,id:\"minecraft:anvil\",Count:64b},{Slot:26b,id:\"minecraft:anvil\",Count:64b}]}}"
+                    }
+                ]
+            }
+        },
+        "chipped_anvil": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_box",
+                        "nbt": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:1b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:2b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:3b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:4b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:5b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:6b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:7b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:8b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:9b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:10b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:11b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:12b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:13b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:14b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:15b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:16b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:17b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:18b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:19b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:20b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:21b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:22b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:23b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:24b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:25b,id:\"minecraft:chipped_anvil\",Count:64b},{Slot:26b,id:\"minecraft:chipped_anvil\",Count:64b}]}}"
+                    }
+                ]
+            }
+        },
+        "damaged_anvil": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_box",
+                        "nbt": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:1b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:2b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:3b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:4b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:5b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:6b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:7b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:8b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:9b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:10b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:11b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:12b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:13b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:14b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:15b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:16b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:17b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:18b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:19b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:20b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:21b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:22b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:23b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:24b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:25b,id:\"minecraft:damaged_anvil\",Count:64b},{Slot:26b,id:\"minecraft:damaged_anvil\",Count:64b}]}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "blazeandcave:enchanting/baron_of_blacksmiths",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/shulker_full_of_anvil"
+    }
+}

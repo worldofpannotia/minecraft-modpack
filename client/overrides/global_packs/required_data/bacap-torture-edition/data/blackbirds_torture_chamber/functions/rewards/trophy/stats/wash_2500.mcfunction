@@ -1,0 +1,2 @@
+give @s minecraft:leather_boots{Unbreakable:1,Trophy:1,CustomModelData:169,HideFlags:127,display:{color:16777215,Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Socks\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"Even after 2500 washes it still smells...\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"light_purple\",\"translate\":\"Washing Machine\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Socks"}]}

@@ -1,0 +1,2 @@
+give @s minecraft:player_head{SkullOwner:MHF_Villager,Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_green\",\"translate\":\"There is another\"}",Lore:["{\"color\":\"dark_green\",\"translate\":\"Curing villagers you must learn\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"There has to be another way 2.0\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"There is another"}]}

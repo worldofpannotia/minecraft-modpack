@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:damaged_anvil"
+        },
+        "title": "896,754 dragons worth of exp",
+        "description": {
+            "color": "black",
+            "text": "Reach 10,000 experience levels"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/5000_levels",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "level": {
+                            "min": 10000
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/10000_levels"
+    }
+}

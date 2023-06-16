@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": "And now without getting air",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Swim 500km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/swim_250",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:swim_one_cm",
+                                "value": {
+                                    "min": 50000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/swim_500"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": "And eventually it'll turn to ash",
+        "description": {
+            "color": "black",
+            "text": "Ride 250km on a pig"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/pig_100",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:pig_one_cm",
+                                "value": {
+                                    "min": 25000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/pig_250"
+    }
+}

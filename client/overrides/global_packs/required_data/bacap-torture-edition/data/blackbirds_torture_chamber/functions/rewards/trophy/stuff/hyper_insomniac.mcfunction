@@ -1,0 +1,2 @@
+give @s minecraft:red_bed{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_red\",\"translate\":\"Bed of Eternal Rest\"}",Lore:["{\"color\":\"dark_red\",\"translate\":\"You may sleep now child. \"}","{\"color\":\"dark_red\",\"text\":\"Enjoy your rest\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Hyper Insomniac\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Bed of Eternal Rest"}]}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "The End of City looting",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Dragon Heads"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:end/off_with_his_head",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_dragon_head"
+    }
+}

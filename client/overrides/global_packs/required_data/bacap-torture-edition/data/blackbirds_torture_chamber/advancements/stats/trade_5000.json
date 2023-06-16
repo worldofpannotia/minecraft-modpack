@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": "MEGA STONKS!",
+        "description": {
+            "color": "dark_red",
+            "text": "Trade with villagers 5000 times"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/stonks",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:traded_with_villager",
+                                "value": {
+                                    "min": 5000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/trade_5000"
+    }
+}

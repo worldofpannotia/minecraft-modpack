@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "nautilus_shell"
+        },
+        "title": "Fisher Addict",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Fish 1 million items"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/fish_100k",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/fish_1_mil"
+    }
+}

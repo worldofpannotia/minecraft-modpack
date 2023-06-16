@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "title": "The statistics tab SHALL be",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Walk 100,000km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/65_hours_of_walking",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/walk_100_mil"
+    }
+}

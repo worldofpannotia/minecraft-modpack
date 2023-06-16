@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": "Dragon Destroyer",
+        "description": {
+            "color": "dark_red",
+            "text": "Defeat the Ender Dragon 100 times"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:end/ring_of_the_end",
+    "criteria": {
+        "ring_of_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:ender_dragon",
+                                "value": {
+                                    "min": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/dragon_destroyer"
+    }
+}

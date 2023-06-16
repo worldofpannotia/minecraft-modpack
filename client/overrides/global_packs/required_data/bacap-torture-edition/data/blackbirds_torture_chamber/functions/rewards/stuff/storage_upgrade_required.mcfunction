@@ -1,0 +1,4 @@
+function blackbirds_torture_chamber:rewards/msg/stuff/storage_upgrade_required
+execute if score trophy bac_settings matches 1 run function blackbirds_torture_chamber:rewards/trophy/stuff/storage_upgrade_required
+execute if score reward bac_settings matches 1 run function blackbirds_torture_chamber:rewards/reward/stuff/storage_upgrade_required
+execute if score exp bac_settings matches 1 run function blackbirds_torture_chamber:rewards/exp/stuff/storage_upgrade_required

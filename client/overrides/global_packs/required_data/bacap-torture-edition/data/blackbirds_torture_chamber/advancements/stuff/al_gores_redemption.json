@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": "Al Gore's Redemption",
+        "description": {
+            "color": "dark_red",
+            "text": "Defeat a Warden named Manbearpig with a netherite hoe while just wearing an elytra"
+        },
+        "icon": {
+            "item": "elytra",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:nether/obtain_netherite_hoe",
+    "criteria": {
+        "globe_do_be_happy_now": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "warden",
+                    "nbt": "{CustomName:\"{\\\"text\\\":\\\"Manbearpig\\\"}\"}"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"al_gore_check\"]}"
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:netherite_hoe"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/al_gores_redemption"
+    }
+}

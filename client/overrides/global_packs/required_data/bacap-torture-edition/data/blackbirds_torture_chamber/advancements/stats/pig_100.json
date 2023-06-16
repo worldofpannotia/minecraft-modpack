@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_porkchop"
+        },
+        "title": "Riding something gives off heat",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Ride 100km on a pig"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/pig_50",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:pig_one_cm",
+                                "value": {
+                                    "min": 10000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/pig_100"
+    }
+}

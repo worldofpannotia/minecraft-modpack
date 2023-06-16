@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots"
+        },
+        "title": "The grindy Super Challenge tab",
+        "description": {
+            "color": "black",
+            "text": "Walk 1 million km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/walk_100_mil",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/walk_1000_mil"
+    }
+}

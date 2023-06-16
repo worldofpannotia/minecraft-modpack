@@ -1,0 +1,101 @@
+{
+    "criteria": {
+        "3": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "blackbirds_torture_chamber:riddle/2": "true"
+                        }
+                    }
+                },
+                "item": {
+                    "items": [
+                        "minecraft:flint_and_steel"
+                    ]
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:creeper",
+                            "effects": {
+                                "minecraft:speed": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:slowness": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:strength": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:weakness": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:jump_boost": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:regeneration": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:resistance": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:fire_resistance": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:water_breathing": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:invisibility": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:night_vision": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:poison": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                },
+                                "minecraft:slow_falling": {
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:riddle/3"
+    }
+}

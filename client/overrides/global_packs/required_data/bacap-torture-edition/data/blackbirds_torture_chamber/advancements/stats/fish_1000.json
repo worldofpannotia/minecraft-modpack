@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "salmon"
+        },
+        "title": "Fishing Fun",
+        "description": {
+            "color": "#75E1FF",
+            "text": "Fish 1000 items"
+        },
+        "frame": "goal"
+    },
+    "parent": "blackbirds_torture_chamber:stats/fish_100",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/fish_1000"
+    }
+}

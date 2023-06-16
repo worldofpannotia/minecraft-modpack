@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "fishing_rod",
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": "Get some help",
+        "description": {
+            "color": "black",
+            "text": "Fish 10 million items"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/fish_1_mil",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/fish_10_mil"
+    }
+}

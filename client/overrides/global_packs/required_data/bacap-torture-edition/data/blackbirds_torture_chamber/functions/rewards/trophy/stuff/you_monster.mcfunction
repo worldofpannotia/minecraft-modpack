@@ -1,0 +1,2 @@
+give @s minecraft:red_dye{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\",\"translate\":\"The Baby's Blood\"}",Lore:["{\"color\":\"red\",\"translate\":\"It's all that is left of these small helpless creatures\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"You Monster\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Baby's Blood"}]}

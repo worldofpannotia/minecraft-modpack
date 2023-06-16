@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {
+            "translate": "I enjoy long walks & playing MC"
+        },
+        "description": {
+            "translate": "Walk 1000km"
+        },
+        "announce_to_chat": true,
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/who_needs_cars",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/walk_1000"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:walk_one_cm",
+                                "value": {
+                                    "min": 100000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

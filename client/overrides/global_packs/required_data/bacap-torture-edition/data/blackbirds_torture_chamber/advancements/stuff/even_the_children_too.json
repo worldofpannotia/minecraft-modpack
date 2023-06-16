@@ -1,0 +1,82 @@
+{
+    "display": {
+        "title": "Even the children too",
+        "description": {
+            "color": "dark_red",
+            "text": "Slay every type of baby villager"
+        },
+        "icon": {
+            "item": "wooden_sword"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "jungle": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:jungle\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "swamp": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:swamp\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "plains": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:plains\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "desert": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:desert\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "taiga": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:taiga\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "snow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:snow\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        },
+        "savanna": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:savanna\"},Tags:[\"baby_villager\"]}"
+                }
+            }
+        }
+    },
+    "parent": "blackbirds_torture_chamber:stuff/extinction_of_the_villagers",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/even_the_children_too"
+    }
+}

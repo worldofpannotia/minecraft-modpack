@@ -1,0 +1,17 @@
+{
+    "parent": "blackbirds_torture_chamber:stuff/torture_legend",
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:crafting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

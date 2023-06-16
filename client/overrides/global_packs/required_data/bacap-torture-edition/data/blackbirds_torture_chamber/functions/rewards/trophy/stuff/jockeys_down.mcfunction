@@ -1,0 +1,2 @@
+give @s minecraft:bow{Trophy:1,CustomModelData:169,HideFlags:126,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\",\"translate\":\"Arson Bow\"}",Lore:["{\"color\":\"gold\",\"translate\":\"Used by the one, the only, Jackey Down\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Jockeys Down\"}"]},Enchantments:[{id:flame,lvl:1}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Arson Bow"}]}

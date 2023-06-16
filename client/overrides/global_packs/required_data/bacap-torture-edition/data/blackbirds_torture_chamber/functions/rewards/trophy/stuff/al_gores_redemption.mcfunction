@@ -1,0 +1,2 @@
+give @s minecraft:black_wool{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_gray\",\"translate\":\"Heart of Manbearpig\"}",Lore:["{\"color\":\"dark_gray\",\"translate\":\"You did it. You located Manbearpig, and killed him\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Al Gore's Redemption\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Heart of Manbearpig"}]}

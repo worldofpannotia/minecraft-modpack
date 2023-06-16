@@ -1,0 +1,916 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish_bucket"
+        },
+        "title": "Wandered and Traded",
+        "description": {
+            "color": "dark_red",
+            "text": "Trade for everything from the Wandering Trader"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/travelling_merchant",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/wandered_and_traded"
+    },
+    "criteria": {
+        "allium": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:allium"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "fern": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:fern"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "vine": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:vine"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "dandelion": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:dandelion"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "poppy": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:poppy"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "blue_orchid": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:blue_orchid"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "azure_bluet": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:azure_bluet"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "red_tulip": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:red_tulip"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "orange_tulip": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:orange_tulip"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "pink_tulip": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pink_tulip"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "white_tulip": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:white_tulip"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "oxeye_daisy": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:oxeye_daisy"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "cornflower": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cornflower"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "wheat_seeds": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:wheat_seeds"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "beetroot_seeds": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beetroot_seeds"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "pumpkin_seeds": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pumpkin_seeds"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "melon_seeds": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:melon_seeds"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "red_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:red_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "yellow_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:yellow_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "orange_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:orange_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "lime_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:lime_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "green_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:green_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "cyan_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cyan_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "light_blue_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:light_blue_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "purple_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:purple_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "magenta_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:magenta_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "pink_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pink_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "gray_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:gray_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "light_gray_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:light_gray_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "blue_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:blue_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "brown_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:brown_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "white_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:white_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "black_dye": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:black_dye"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "brown_mushroom": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:brown_mushroom"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "red_mushroom": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:red_mushroom"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "sugar_cane": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:sugar_cane"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "sand": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:sand"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "lily_of_the_valley": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:lily_of_the_valley"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "red_sand": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:red_sand"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "lily_pad": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:lily_pad"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "pointed_dripstone": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pointed_dripstone"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "moss_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:moss_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "rooted_dirt": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:rooted_dirt"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "small_dripleaf": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:small_dripleaf"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "pumpkin": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pumpkin"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "sea_pickle": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:sea_pickle"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "glowstone": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:glowstone"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "kelp": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:kelp"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "cactus": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:cactus"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "brain_coral_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:brain_coral_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "bubble_coral_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:bubble_coral_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "fire_coral_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:fire_coral_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "horn_coral_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:horn_coral_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "tube_coral_block": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tube_coral_block"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "slime_ball": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:slime_ball"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "acacia_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:acacia_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "dark_oak_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:dark_oak_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "oak_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:oak_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "jungle_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:jungle_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "birch_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:birch_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "spruce_sapling": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:spruce_sapling"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "nautilus_shell": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:nautilus_shell"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "gunpowder": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:gunpowder"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "podzol": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:podzol"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "packed_ice": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:packed_ice"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "bucket_of_pufferfish": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:pufferfish_bucket"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "bucket_of_tropical_fish": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tropical_fish_bucket"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "blue_ice": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:blue_ice"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        },
+        "mangrove_propagule": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:mangrove_propagule"
+                    ]
+                },
+                "villager": {
+                    "type": "wandering_trader"
+                }
+            }
+        }
+    }
+}

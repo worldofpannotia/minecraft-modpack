@@ -1,0 +1,1265 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book",
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+        },
+        "title": "Complete Waste",
+        "description": {
+            "color": "dark_red",
+            "text": "Acquire max enchantments on an entire set of wooden tools and leather armor"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/a_rather_pointy_fence_post",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/complete_waste"
+    },
+    "criteria": {
+        "helmet_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "helmet_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "helmet_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "helmet_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "chestplate_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "chestplate_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "chestplate_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "chestplate_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "leggings_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:swift_sneak",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "leggings_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:swift_sneak",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "leggings_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:swift_sneak",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "leggings_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:swift_sneak",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_fire_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_projectile_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_blast_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_fire_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_projectile_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "boots_blast_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "perfect_sword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:looting",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:sweeping",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "perfect_sword_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:looting",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:sweeping",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "perfect_sword_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:bane_of_arthropods",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:fire_aspect",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:looting",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:sweeping",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:bane_of_arthropods",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:bane_of_arthropods",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_shovel"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_shovel"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_hoe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_hoe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_hoe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_hoe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_pickaxe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_pickaxe"
+                        ],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "helmet_protection",
+            "helmet_fire_protection",
+            "helmet_projectile_protection",
+            "helmet_blast_protection"
+        ],
+        [
+            "chestplate_protection",
+            "chestplate_fire_protection",
+            "chestplate_projectile_protection",
+            "chestplate_blast_protection"
+        ],
+        [
+            "leggings_protection",
+            "leggings_fire_protection",
+            "leggings_projectile_protection",
+            "leggings_blast_protection"
+        ],
+        [
+            "boots_protection_depth_strider",
+            "boots_fire_protection_depth_strider",
+            "boots_projectile_protection_depth_strider",
+            "boots_blast_protection_depth_strider",
+            "boots_protection_frost_walker",
+            "boots_fire_protection_frost_walker",
+            "boots_projectile_protection_frost_walker",
+            "boots_blast_protection_frost_walker"
+        ],
+        [
+            "perfect_sword",
+            "perfect_sword_smite",
+            "perfect_sword_bane"
+        ],
+        [
+            "wooden_axe_silk_touch",
+            "wooden_axe_fortune",
+            "wooden_axe_silk_touch_smite",
+            "wooden_axe_fortune_smite",
+            "wooden_axe_silk_touch_bane",
+            "wooden_axe_fortune_bane"
+        ],
+        [
+            "wooden_hoe_fortune",
+            "wooden_hoe_silk_touch"
+        ],
+        [
+            "wooden_pickaxe_silk_touch",
+            "wooden_pickaxe_fortune"
+        ],
+        [
+            "wooden_shovel_silk_touch",
+            "wooden_shovel_fortune"
+        ]
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/consistency"
+    },
+    "criteria": {
+        "kill_magic": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                },
+                "killing_blow": {
+                    "is_magic": "true",
+                    "direct_entity": {
+                        "type": "minecraft:area_effect_cloud"
+                    }
+                }
+            }
+        }
+    }
+}

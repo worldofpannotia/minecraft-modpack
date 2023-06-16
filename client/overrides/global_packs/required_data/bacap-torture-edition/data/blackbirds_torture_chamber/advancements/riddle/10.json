@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "10": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "blackbirds_torture_chamber:riddle/9": "true"
+                        },
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:warped_button",
+                                "value": {
+                                    "min": 1000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:riddle/10"
+    }
+}

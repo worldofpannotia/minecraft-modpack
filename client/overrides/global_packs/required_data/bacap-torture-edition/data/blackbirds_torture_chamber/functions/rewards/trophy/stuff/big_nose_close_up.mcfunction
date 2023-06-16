@@ -1,0 +1,2 @@
+give @s minecraft:brown_wool{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Villager's Nose\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"Got your nose! HAHAHA!\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Big Nose Close-up\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Villager's Nose"}]}

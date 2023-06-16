@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": "Washing Machine",
+        "description": "Wash 2500 items",
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/wash_500",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/wash_2500"
+    }
+}

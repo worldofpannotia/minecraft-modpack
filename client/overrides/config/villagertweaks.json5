@@ -1,9 +1,9 @@
 {
-	"reset": "Erase to reset",
-	"enableMaxTradeOverride": true,
-	"maxTradesOverrideAmount": 100000,
-	"enableConversionTimeOverride": true,
-	"conversionTime": 2400,
-	"enableDemandBonusOverride": true,
-	"enableEmeraldTemptation": true
+    "reset": "Erase to reset",
+    "enableMaxTradeOverride": false,
+    "maxTradesOverrideAmount": -1,
+    "enableConversionTimeOverride": false,
+    "conversionTime": 3600,
+    "enableDemandBonusOverride": false,
+    "enableEmeraldTemptation": false
 }

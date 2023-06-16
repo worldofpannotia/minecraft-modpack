@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": "Superduperoverpowered",
+        "description": {
+            "color": "dark_red",
+            "text": "Eat a stack of Notch Apples"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/overpowered",
+    "criteria": {
+        "ring_of_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:enchanted_golden_apple",
+                                "value": {
+                                    "min": 64
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/superduperoverpowered"
+    }
+}

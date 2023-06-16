@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "7": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "blackbirds_torture_chamber:riddle/6": "true"
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{HandItems:[{id:\"minecraft:stone_sword\",Count:1b}],ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:3290681}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:10645634}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:8470846}}},{id:\"minecraft:leather_helmet\",Count:1b,tag:{display:{color:3290681}}}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:riddle/7"
+    }
+}

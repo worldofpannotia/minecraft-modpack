@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "potion",
+            "nbt": "{Potion:regeneration}"
+        },
+        "title": "Hardcore Hell 2.0",
+        "description": {
+            "color": "dark_red",
+            "text": "Stay on half a heart for 6 real life hours without any armor or potion effects"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stuff/hardcore_hell",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/hardcore_hell_2"
+    }
+}

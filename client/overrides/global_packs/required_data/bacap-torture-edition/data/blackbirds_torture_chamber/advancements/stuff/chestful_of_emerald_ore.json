@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_ore",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Mountain Miner",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a chest filled with Emerald Ore"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:mining/emerald_miner",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_emerald_ore"
+    }
+}

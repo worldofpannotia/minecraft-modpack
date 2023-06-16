@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mutton"
+        },
+        "title": "( ͡° ͜ʖ ͡°)",
+        "description": {
+            "color": "dark_red",
+            "text": "Breed 5000 animals"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/two_by_two",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:animals_bred",
+                                "value": {
+                                    "min": 5000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/breed_5000"
+    }
+}

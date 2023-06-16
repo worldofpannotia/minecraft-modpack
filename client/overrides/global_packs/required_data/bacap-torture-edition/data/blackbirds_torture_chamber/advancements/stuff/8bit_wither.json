@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "title": "8bit Wither",
+        "description": {
+            "color": "dark_red",
+            "text": "Defeat the Wither 255 times"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "ring_of_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:wither",
+                                "value": {
+                                    "min": 255
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/8bit_wither"
+    }
+}

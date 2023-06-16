@@ -1,0 +1,2 @@
+give @s minecraft:netherite_scrap{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_gray\",\"translate\":\"Chestplate Piece\"}",Lore:["{\"color\":\"dark_gray\",\"translate\":\"The broken chestplate has become debris once more\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"This one isn't as free\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Chestplate Piece"}]}

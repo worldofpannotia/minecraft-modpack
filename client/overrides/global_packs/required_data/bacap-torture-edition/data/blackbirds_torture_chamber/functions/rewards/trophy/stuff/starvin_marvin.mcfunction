@@ -1,0 +1,2 @@
+give @s minecraft:player_head{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Marvin's Head\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"Why did you starve Marvin? \"}","{\"color\":\"#DCD9C0\",\"text\":\"He just wanted a friend\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Starvin' Marvin\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Marvin's Head"}]}

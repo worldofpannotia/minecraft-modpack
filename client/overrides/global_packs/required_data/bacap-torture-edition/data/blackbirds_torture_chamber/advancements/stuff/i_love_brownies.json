@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "brownies": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "I love brownies",
+        "description": {
+            "color": "dark_red",
+            "text": "Breed 100 brown pandas"
+        },
+        "icon": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:biomes/qinling",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/i_love_brownies"
+    }
+}

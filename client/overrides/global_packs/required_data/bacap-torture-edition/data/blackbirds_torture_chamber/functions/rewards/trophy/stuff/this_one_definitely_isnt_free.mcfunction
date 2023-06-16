@@ -1,0 +1,2 @@
+give @s minecraft:prismarine_shard{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_aqua\",\"translate\":\"Broken Trident Prong\"}",Lore:["{\"color\":\"dark_aqua\",\"translate\":\"Hey, what ARE tridents made of?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"This one definitely isn't free\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Broken Trident Prong"}]}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "This one isn't as free",
+        "description": {
+            "color": "dark_red",
+            "text": "Break 12 netherite chestplates"
+        },
+        "icon": {
+            "item": "netherite_chestplate"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "not_as_free": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:broken",
+                                "stat": "minecraft:netherite_chestplate",
+                                "value": {
+                                    "min": 12
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blackbirds_torture_chamber:stuff/this_ones_free",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/this_one_isnt_as_free"
+    }
+}

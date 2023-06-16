@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "feather"
+        },
+        "title": "Supersonic",
+        "description": {
+            "color": "#8b00e8",
+            "text": "Sprint 100,000km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/sprint_10_mil",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/sprint_100_mil"
+    }
+}

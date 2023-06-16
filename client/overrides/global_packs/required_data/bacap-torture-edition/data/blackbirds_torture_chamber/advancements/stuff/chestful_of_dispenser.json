@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dispenser",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Dispensers are stackable bows",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Dispensers"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:redstone/dispense_with_this",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_dispenser"
+    }
+}

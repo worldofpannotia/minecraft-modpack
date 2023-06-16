@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "iron_helmet",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "title": "Waiting is Fun",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill 400 skeleton horses"
+        }
+    },
+    "criteria": {
+        "waiting": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:skeleton_horse",
+                                "value": {
+                                    "min": 400
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blazeandcave:monsters/the_undead_cavalry",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/waiting_is_fun"
+    }
+}

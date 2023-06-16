@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Impossible... 2.0...",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill the Wither with an arrow"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:monsters/impossible",
+    "criteria": {
+        "wither_arrow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither",
+                    "distance": {
+                        "absolute": {
+                            "max": 5
+                        }
+                    }
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{SelectedItem:{id:\"minecraft:arrow\",}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/impossible2"
+    }
+}

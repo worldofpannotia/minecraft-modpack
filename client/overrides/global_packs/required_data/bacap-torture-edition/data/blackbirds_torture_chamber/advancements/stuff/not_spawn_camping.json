@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "title": "Not Spawn Camping",
+        "description": {
+            "color": "dark_red",
+            "text": "Place a campfire not at spawn"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:building/spawn_camping",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:campfire",
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 1894255,
+                            "max": 1894255
+                        },
+                        "y": {
+                            "min": 14,
+                            "max": 14
+                        },
+                        "z": {
+                            "min": -804313,
+                            "max": -804313
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/not_spawn_camping"
+    }
+}

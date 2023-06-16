@@ -1,0 +1,115 @@
+{
+    "parent": "blazeandcave:challenges/farlander",
+    "criteria": {
+        "north_east": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "z": {
+                                        "max": -29999980
+                                    },
+                                    "x": {
+                                        "min": 29999980
+                                    }
+                                },
+                                "dimension": "overworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "south_east": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 29999980
+                                    },
+                                    "z": {
+                                        "min": 29999980
+                                    }
+                                },
+                                "dimension": "overworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "south_west": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "z": {
+                                        "min": 29999980
+                                    },
+                                    "x": {
+                                        "max": -29999980
+                                    }
+                                },
+                                "dimension": "overworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "north_west": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "max": -29999980
+                                    },
+                                    "z": {
+                                        "max": -29999980
+                                    }
+                                },
+                                "dimension": "overworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": "Overworld Limit",
+        "description": {
+            "color": "dark_red",
+            "text": "Visit all Overworld world border corners"
+        },
+        "icon": {
+            "item": "grass_block"
+        },
+        "frame": "challenge"
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/overworld_limit"
+    }
+}

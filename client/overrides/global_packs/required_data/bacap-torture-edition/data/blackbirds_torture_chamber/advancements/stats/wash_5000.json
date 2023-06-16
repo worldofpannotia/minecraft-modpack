@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Electrolux-EFLS627U",
+        "description": {
+            "color": "dark_red",
+            "text": "Wash 5000 items"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/wash_2500",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/wash_5000"
+    }
+}

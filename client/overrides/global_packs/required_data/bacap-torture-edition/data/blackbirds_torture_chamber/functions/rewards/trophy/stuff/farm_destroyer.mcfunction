@@ -1,0 +1,2 @@
+give @s minecraft:experience_bottle{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_blue\",\"translate\":\"Destroyed Spawner\"}",Lore:["{\"color\":\"dark_blue\",\"translate\":\"It's the only thing you got apart from a headache\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Farm Destroyer\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Destroyed Spawner"}]}

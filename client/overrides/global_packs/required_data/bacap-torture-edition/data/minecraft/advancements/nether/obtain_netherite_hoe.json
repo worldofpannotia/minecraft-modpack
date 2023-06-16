@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "title": "Cereal Dedication",
+        "description": "A netherite hoe is needed to defeat Manbearpig",
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:nether/soul_runnings",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/bacap/cereal_dedication"
+    },
+    "criteria": {
+        "globe_happy_now": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_hoe"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}

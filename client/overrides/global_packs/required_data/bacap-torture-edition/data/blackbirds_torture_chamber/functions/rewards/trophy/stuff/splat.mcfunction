@@ -1,0 +1,2 @@
+give @s minecraft:bone_meal{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"blue\",\"translate\":\"Your Broken Leg\"}",Lore:["{\"color\":\"blue\",\"translate\":\"Don't ask why it's outside your body\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Unlucky Break\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Your Broken Leg"}]}

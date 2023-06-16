@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bell",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "It's all I hear",
+        "description": {
+            "color": "black",
+            "text": "Ring bells 10 million times"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/ring_1000000",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:bell_ring",
+                                "value": {
+                                    "min": 10000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/ring_10000000"
+    }
+}

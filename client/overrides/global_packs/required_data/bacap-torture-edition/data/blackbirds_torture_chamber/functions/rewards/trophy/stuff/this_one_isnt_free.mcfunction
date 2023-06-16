@@ -1,0 +1,2 @@
+give @s minecraft:cobblestone_wall{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Your Sanity's Grave\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"The bow is broken. The cross remains\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"This one isn't free\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Your Sanity's Grave"}]}

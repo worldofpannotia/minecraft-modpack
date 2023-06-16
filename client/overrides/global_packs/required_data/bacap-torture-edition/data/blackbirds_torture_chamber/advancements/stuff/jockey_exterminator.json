@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Jockey Exterminator",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill 500 Jockeys"
+        },
+        "icon": {
+            "item": "skeleton_skull"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "jockey_exterminator": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:monsters/spider_skeleton",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/jockey_exterminator"
+    }
+}

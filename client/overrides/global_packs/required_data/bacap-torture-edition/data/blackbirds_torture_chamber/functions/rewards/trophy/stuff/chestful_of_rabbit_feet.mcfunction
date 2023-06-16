@@ -1,0 +1,2 @@
+give @s minecraft:rabbit_foot{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"#DCD9C0\",\"translate\":\"Actual Lucky Charm\"}",Lore:["{\"color\":\"#DCD9C0\",\"translate\":\"It isn't like the others\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Build a rabbit farm\"}"]},LuckyCharm:1,Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Actual Lucky Charm"}]}

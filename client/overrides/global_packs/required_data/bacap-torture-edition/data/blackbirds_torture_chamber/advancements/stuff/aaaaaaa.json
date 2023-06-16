@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill 100 Screaming Goats"
+        },
+        "icon": {
+            "item": "goat_spawn_egg"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:animal/screaming_milk",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/aaaaaaa"
+    }
+}

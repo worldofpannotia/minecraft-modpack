@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Because I'm Batman",
+        "description": {
+            "color": "dark_red",
+            "text": "Pick up at least 100 more spyglasses than you've dropped, which you can use to spy on bats"
+        },
+        "icon": {
+            "item": "spyglass"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "because_im_batman": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:mining/nananananananana",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/because_im_batman"
+    }
+}

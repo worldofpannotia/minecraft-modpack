@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_candle"
+        },
+        "title": "Happy 10 years Minecraft",
+        "description": {
+            "color": "dark_red",
+            "text": "Play for 10 whole years!"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/happy_new_year",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/10_years"
+    }
+}

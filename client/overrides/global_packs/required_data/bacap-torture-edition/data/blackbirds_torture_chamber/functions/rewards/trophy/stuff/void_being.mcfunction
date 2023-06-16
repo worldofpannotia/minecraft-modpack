@@ -1,0 +1,2 @@
+give @s minecraft:firework_star{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_gray\",\"translate\":\"The Northern Star\"}",Lore:["{\"color\":\"dark_gray\",\"translate\":\"You have looked at it for so long that it's now burned up\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Void Being\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Northern Star"}]}

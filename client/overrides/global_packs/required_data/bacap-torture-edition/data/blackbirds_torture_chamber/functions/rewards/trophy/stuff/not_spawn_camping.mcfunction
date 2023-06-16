@@ -1,0 +1,2 @@
+give @s minecraft:compass{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gray\",\"translate\":\"Not Spawn Compass\"}",Lore:["{\"color\":\"gray\",\"translate\":\"Mostly doesn't point to spawn\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Not Spawn Camping\"}"]},LodestoneTracked:1b,Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Not Spawn Compass"}]}

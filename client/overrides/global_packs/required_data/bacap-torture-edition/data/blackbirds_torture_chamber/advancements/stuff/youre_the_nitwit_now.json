@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": "You're the Nitwit now",
+        "description": {
+            "color": "dark_red",
+            "text": "Slay 100 of every Nitwit variant"
+        },
+        "icon": {
+            "item": "dirt"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "jungle": {
+            "trigger": "impossible"
+        },
+        "swamp": {
+            "trigger": "impossible"
+        },
+        "plains": {
+            "trigger": "impossible"
+        },
+        "desert": {
+            "trigger": "impossible"
+        },
+        "taiga": {
+            "trigger": "impossible"
+        },
+        "snow": {
+            "trigger": "impossible"
+        },
+        "savanna": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:adventure/you_are_the_pillager",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/youre_the_nitwit_now"
+    }
+}

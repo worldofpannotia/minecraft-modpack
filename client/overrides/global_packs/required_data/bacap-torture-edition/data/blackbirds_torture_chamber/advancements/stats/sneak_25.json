@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:invisibility\"}"
+        },
+        "title": "I'm invisible",
+        "description": {
+            "color": "dark_red",
+            "text": "Sneak 50km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/ancient_kung_fu_master",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:crouch_one_cm",
+                                "value": {
+                                    "min": 5000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/sneak_25"
+    }
+}

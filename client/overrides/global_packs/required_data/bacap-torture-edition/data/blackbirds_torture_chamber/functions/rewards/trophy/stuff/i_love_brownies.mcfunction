@@ -1,0 +1,2 @@
+give @s minecraft:flower_banner_pattern{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_red\",\"translate\":\"The Dragon Scroll\"}",Lore:["{\"color\":\"dark_red\",\"translate\":\"Maybe one of you will become the next Dragon Warrior\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"I love brownies\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Dragon Scroll"}]}

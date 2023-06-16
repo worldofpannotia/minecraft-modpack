@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "title": "Globe walker",
+        "description": {
+            "color": "dark_red",
+            "text": "Walk 10,000km"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:walk_one_cm",
+                                "value": {
+                                    "min": 1000000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/bacap/65_hours_of_walking"
+    }
+}

@@ -1,0 +1,2 @@
+give @s minecraft:tripwire_hook{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"light_purple\",\"translate\":\"The Key\"}",Lore:["{\"color\":\"light_purple\",\"translate\":\"You know what they say! Consistency is key\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Consistency\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Key"}]}

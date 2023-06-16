@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "https://chunkbase.com",
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Conduits"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:biomes/moskstraumen",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_conduit"
+    }
+}

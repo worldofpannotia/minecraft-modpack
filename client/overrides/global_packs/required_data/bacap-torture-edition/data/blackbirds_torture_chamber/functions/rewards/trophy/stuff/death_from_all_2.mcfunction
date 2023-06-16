@@ -1,0 +1,2 @@
+give @s minecraft:mossy_cobblestone_wall{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_green\",\"translate\":\"Your Grave\"}",Lore:["{\"color\":\"dark_green\",\"translate\":\"You really do suck at this game, don't you?\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Death from all 2.0\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Your Grave"}]}

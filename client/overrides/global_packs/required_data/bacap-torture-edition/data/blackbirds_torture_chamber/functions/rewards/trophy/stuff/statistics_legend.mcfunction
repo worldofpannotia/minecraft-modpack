@@ -1,0 +1,2 @@
+give @s minecraft:paper{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"gold\",\"translate\":\"Caves and Cliffs Part 12\"}",Lore:["{\"color\":\"gold\",\"translate\":\"The year is 2028. \"}","{\"color\":\"gold\",\"text\":\"Minecraft 1.29 just released\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"purple\",\"translate\":\"Statistics Legend\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Caves and Cliffs Part 12"}]}

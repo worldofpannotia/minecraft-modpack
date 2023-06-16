@@ -1,0 +1,2 @@
+give @s minecraft:black_candle{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\",\"translate\":\"Candle of Darkness\"}",Lore:["{\"color\":\"red\",\"translate\":\"The Lord of Light would not be pleased with you\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"The Ritual Continues\"}"]},Enchantments:[{}],DarknessCandle:1} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Candle of Darkness"}]}

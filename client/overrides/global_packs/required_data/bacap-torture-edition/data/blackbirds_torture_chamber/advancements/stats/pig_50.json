@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "title": "It'll die if you ride it too much",
+        "description": {
+            "color": "dark_red",
+            "text": "Ride 50km on a pig"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/lightning_mcpig",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:pig_one_cm",
+                                "value": {
+                                    "min": 5000000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stats/pig_50"
+    }
+}

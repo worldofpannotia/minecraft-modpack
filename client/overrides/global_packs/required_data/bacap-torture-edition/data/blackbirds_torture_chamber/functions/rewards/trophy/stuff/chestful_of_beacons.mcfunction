@@ -1,0 +1,2 @@
+give @s minecraft:wither_skeleton_skull{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"dark_blue\",\"translate\":\"Beacon of Salvation\"}",Lore:["{\"color\":\"dark_blue\",\"translate\":\"1728 wither fights. A small price to pay for beacons\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Yes\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Beacon of Salvation"}]}

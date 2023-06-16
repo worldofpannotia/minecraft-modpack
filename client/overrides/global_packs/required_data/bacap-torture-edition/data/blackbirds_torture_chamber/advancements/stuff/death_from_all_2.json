@@ -1,0 +1,2282 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brick_wall",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Death from all 2.0",
+        "description": {
+            "color": "dark_red",
+            "text": "Die from every hostile mob and variant"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/death_from_all",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/death_from_all_2"
+    },
+    "criteria": {
+        "cave_spider": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "cave_spider"
+                }
+            }
+        },
+        "enderman": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "enderman"
+                }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "spider"
+                }
+            }
+        },
+        "zombified_piglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "zombified_piglin_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "blaze": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "drowned",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "drowned_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "drowned",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "elder_guardian": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "endermite"
+                }
+            }
+        },
+        "evoker": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "evoker"
+                }
+            }
+        },
+        "ghast": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "guardian"
+                }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "husk",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "husk_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "husk",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "magma_cube_small": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube",
+                    "nbt": "{Size:0}"
+                }
+            }
+        },
+        "magma_cube_medium": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube",
+                    "nbt": "{Size:1}"
+                }
+            }
+        },
+        "magma_cube_big": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube",
+                    "nbt": "{Size:3}"
+                }
+            }
+        },
+        "phantom": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "phantom"
+                }
+            }
+        },
+        "pillager": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "pillager"
+                }
+            }
+        },
+        "ravager": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "ravager"
+                }
+            }
+        },
+        "shulker": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            }
+        },
+        "silverfish": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "silverfish"
+                }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "skeleton"
+                }
+            }
+        },
+        "slime_small": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "slime",
+                    "nbt": "{Size:0}"
+                }
+            }
+        },
+        "slime_medium": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "slime",
+                    "nbt": "{Size:1}"
+                }
+            }
+        },
+        "slime_big": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "slime",
+                    "nbt": "{Size:3}"
+                }
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "stray"
+                }
+            }
+        },
+        "vex": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "vex"
+                }
+            }
+        },
+        "vindicator": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "vindicator"
+                }
+            }
+        },
+        "witch": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            }
+        },
+        "wither_skeleton": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "wither_skeleton"
+                }
+            }
+        },
+        "zombie": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "zombie_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "ender_dragon": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "hoglin",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "hoglin_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "hoglin",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "piglin",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "piglin_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "piglin",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zoglin",
+                    "nbt": "{IsBaby:0b}"
+                }
+            }
+        },
+        "zoglin_baby": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zoglin",
+                    "nbt": "{IsBaby:1b}"
+                }
+            }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "piglin_brute"
+                }
+            }
+        },
+        "baby_farmer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_fisherman_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_shepherd_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_fletcher_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_librarian_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_cartographer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_cleric_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_armorer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_butcher_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_mason_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_nitwit_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_none_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "baby_farmer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_fisherman_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_shepherd_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_fletcher_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_librarian_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_cartographer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_cleric_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_armorer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_butcher_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_mason_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_nitwit_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_none_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "baby_farmer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_fisherman_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_shepherd_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_fletcher_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_librarian_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_cartographer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_cleric_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_armorer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_butcher_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_mason_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_nitwit_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_none_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "baby_farmer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_fisherman_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_shepherd_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_fletcher_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_librarian_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_cartographer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_cleric_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_armorer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_butcher_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_mason_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_nitwit_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_none_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "baby_farmer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_fisherman_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_shepherd_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_fletcher_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_librarian_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_cartographer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_cleric_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_armorer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_butcher_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_mason_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_nitwit_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_none_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "baby_farmer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_fisherman_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_shepherd_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_fletcher_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_librarian_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_cartographer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_cleric_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_armorer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_butcher_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_mason_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_nitwit_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_none_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "baby_farmer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_fisherman_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_shepherd_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_fletcher_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_librarian_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_cartographer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_cleric_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_armorer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_weapon_smith_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_tool_smith_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_butcher_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_leatherworker_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_mason_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_nitwit_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "baby_none_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:1b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "farmer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "fisherman_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "shepherd_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "fletcher_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "librarian_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "cartographer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "cleric_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "armorer_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "weapon_smith_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "tool_smith_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "butcher_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "leatherworker_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "mason_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "nitwit_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "none_plains": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:plains\"}}"
+                }
+            }
+        },
+        "farmer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "fisherman_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "shepherd_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "fletcher_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "librarian_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "cartographer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "cleric_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "armorer_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "weapon_smith_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "tool_smith_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "butcher_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "leatherworker_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "mason_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "nitwit_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "none_taiga": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:taiga\"}}"
+                }
+            }
+        },
+        "farmer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "fisherman_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "shepherd_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "fletcher_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "librarian_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "cartographer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "cleric_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "armorer_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "weapon_smith_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "tool_smith_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "butcher_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "leatherworker_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "mason_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "nitwit_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "none_desert": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:desert\"}}"
+                }
+            }
+        },
+        "farmer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "fisherman_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "shepherd_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "fletcher_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "librarian_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "cartographer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "cleric_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "armorer_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "weapon_smith_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "tool_smith_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "butcher_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "leatherworker_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "mason_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "nitwit_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "none_savanna": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:savanna\"}}"
+                }
+            }
+        },
+        "farmer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "fisherman_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "shepherd_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "fletcher_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "librarian_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "cartographer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "cleric_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "armorer_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "weapon_smith_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "tool_smith_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "butcher_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "leatherworker_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "mason_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "nitwit_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "none_snow": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:snow\"}}"
+                }
+            }
+        },
+        "farmer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "fisherman_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "shepherd_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "fletcher_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "librarian_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "cartographer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "cleric_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "armorer_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "weapon_smith_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "tool_smith_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "butcher_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "leatherworker_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "mason_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "nitwit_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "none_jungle": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:jungle\"}}"
+                }
+            }
+        },
+        "farmer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:farmer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "fisherman_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fisherman\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "shepherd_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:shepherd\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "fletcher_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:fletcher\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "librarian_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:librarian\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "cartographer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cartographer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "cleric_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:cleric\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "armorer_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:armorer\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "weapon_smith_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:weaponsmith\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "tool_smith_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:toolsmith\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "butcher_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:butcher\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "leatherworker_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:leatherworker\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "mason_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:mason\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "nitwit_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        },
+        "none_swamp": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "nbt": "{IsBaby:0b,VillagerData:{profession:\"minecraft:none\",type:\"minecraft:swamp\"}}"
+                }
+            }
+        }
+    }
+}

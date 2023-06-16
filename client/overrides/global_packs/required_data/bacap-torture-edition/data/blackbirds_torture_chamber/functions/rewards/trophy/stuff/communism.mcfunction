@@ -1,0 +1,2 @@
+give @s minecraft:book{Trophy:1,CustomModelData:169,HideFlags:127,display:{Name:"{\"italic\":\"false\",\"bold\":\"true\",\"color\":\"red\",\"translate\":\"The Communist Manifesto\"}",Lore:["{\"color\":\"red\",\"translate\":\"OUR items\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":\"false\",\"color\":\"dark_red\",\"translate\":\"Communism\"}"]},Enchantments:[{}]} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Communist Manifesto"}]}

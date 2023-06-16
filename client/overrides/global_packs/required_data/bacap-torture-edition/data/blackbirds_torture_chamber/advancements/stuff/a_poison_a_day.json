@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:poisonous_potato",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "A Poison a Day",
+        "description": {
+            "color": "dark_red",
+            "text": "Eat a Poisonous Potato every day for 365 in-game days"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/not_today",
+    "criteria": {
+        "an_apple_a_day": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/a_poison_a_day"
+    }
+}

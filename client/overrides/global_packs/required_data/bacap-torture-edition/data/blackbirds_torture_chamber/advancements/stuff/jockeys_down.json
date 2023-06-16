@@ -1,0 +1,165 @@
+{
+    "display": {
+        "title": "Jockeys Down",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill every type of Jockey"
+        },
+        "icon": {
+            "item": "zombie_head"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "chicken_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+                    "nbt": "{Passengers:[{id:\"minecraft:zombie\"}]}"
+                }
+            }
+        },
+        "chicken_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+                    "nbt": "{Passengers:[{id:\"minecraft:husk\"}]}"
+                }
+            }
+        },
+        "chicken_zombie_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+                    "nbt": "{Passengers:[{id:\"minecraft:zombie_villager\"}]}"
+                }
+            }
+        },
+        "chicken_drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+                    "nbt": "{Passengers:[{id:\"minecraft:drowned\"}]}"
+                }
+            }
+        },
+        "zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "vehicle": {
+                        "type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_ziglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken",
+                    "nbt": "{Passengers:[{id:\"minecraft:zombified_piglin\"}]}"
+                }
+            }
+        },
+        "zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin",
+                    "vehicle": {
+                        "type": "chicken"
+                    }
+                }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "husk",
+                    "vehicle": {
+                        "type": "chicken"
+                    }
+                }
+            }
+        },
+        "zombie_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager",
+                    "vehicle": {
+                        "type": "chicken"
+                    }
+                }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "drowned",
+                    "vehicle": {
+                        "type": "chicken"
+                    }
+                }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "spider",
+                    "nbt": "{Passengers:[{id:\"minecraft:skeleton\"}]}"
+                }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "skeleton",
+                    "vehicle": {
+                        "type": "spider"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blazeandcave:monsters/poultry_boy",
+    "requirements": [
+        [
+            "spider",
+            "skeleton"
+        ],
+        [
+            "zombie",
+            "chicken_zombie"
+        ],
+        [
+            "husk",
+            "chicken_husk"
+        ],
+        [
+            "zombie_villager",
+            "chicken_zombie_villager"
+        ],
+        [
+            "drowned",
+            "chicken_drowned"
+        ],
+        [
+            "zombified_piglin",
+            "chicken_ziglin"
+        ]
+    ],
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/jockeys_down"
+    }
+}

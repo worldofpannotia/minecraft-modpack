@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": "Farm Destroyer",
+        "description": {
+            "color": "dark_red",
+            "text": "Mine a stack of spawners and realise you get none"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:mining/dungeons_and_spawners",
+    "criteria": {
+        "ring_of_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "stats": [
+                            {
+                                "type": "minecraft:mined",
+                                "stat": "minecraft:spawner",
+                                "value": {
+                                    "min": 64
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/farm_destroyer"
+    }
+}
