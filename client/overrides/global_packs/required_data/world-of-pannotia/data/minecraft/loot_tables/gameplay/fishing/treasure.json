@@ -23,20 +23,6 @@
                     "weight": 31
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "spectrum:mermaids_gem",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:empty",
-                    "weight": 64
-                }
-            ]
         }
     ]
 }
