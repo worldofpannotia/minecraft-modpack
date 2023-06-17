@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "14.0.0-alpha.0",
+    "version": "14.0.0-alpha.1",
     "author": "cmrcdrm",
     "files": [
         {"name": "Advancement Screenshot", "projectID": 414086, "fileID": 4583758, "required": true},
@@ -130,7 +130,7 @@
         {"name": "WI Zoom", "projectID": 349630, "fileID": 4582468, "required": true},
         {"name": "Xaero's Minimap", "projectID": 263420, "fileID": 4569861, "required": true},
         {"name": "Xaero's World Map", "projectID": 317780, "fileID": 4582070, "required": true},
-        {"name": "YetAnotherConfigLib", "projectID": 667299, "fileID": 4574723, "required": true},
+        {"name": "YetAnotherConfigLib", "projectID": 667299, "fileID": 4574163, "required": true},
         {"name": "Your Items Are Safe", "projectID": 525792, "fileID": 4583442, "required": true},
         {"name": "Zombie Villagers From Spawner", "projectID": 345039, "fileID": 4583432, "required": true}
     ],
