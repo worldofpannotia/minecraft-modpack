@@ -107,6 +107,7 @@
         {"name": "RightClickHarvest", "projectID": 452834, "fileID": 4584147, "required": true},
         {"name": "Roughly Enough Items Fabric/Forge (REI)", "projectID": 310111, "fileID": 4582622, "required": true},
         {"name": "Scaffolding Drops Nearby", "projectID": 412742, "fileID": 4583511, "required": true},
+        {"name": "Server Performance - Smooth Chunk Save[Forge/Fabric]", "projectID": 582327, "fileID": 4591938, "required":  true},
         {"name": "Shuffle", "projectID": 360916, "fileID": 4576761, "required": true},
         {"name": "ShulkerBoxTooltip [Fabric/Forge]", "projectID": 315811, "fileID": 4587479, "required": true},
         {"name": "SilkSpawners", "projectID": 410896, "fileID": 3823602, "required": true},
