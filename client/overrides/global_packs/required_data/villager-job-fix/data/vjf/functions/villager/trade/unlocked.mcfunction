@@ -22,16 +22,6 @@ execute if block ~ ~ ~ minecraft:loom unless entity @s[nbt={VillagerData:{profes
 execute if block ~ ~ ~ minecraft:smithing_table unless entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith"}}] run function vjf:villager/data/remove_offers
 execute if block ~ ~ ~ minecraft:grindstone unless entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith"}}] run function vjf:villager/data/remove_offers
 
-# Support for More Villagers professions
-execute if block ~ ~ ~ morevillagers:purpur_altar unless entity @s[nbt={VillagerData:{profession:"morevillagers:enderian"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:blueprint_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:engineer"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:gardening_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:florist"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:hunting_post unless entity @s[nbt={VillagerData:{profession:"morevillagers:hunter"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:mining_bench unless entity @s[nbt={VillagerData:{profession:"morevillagers:miner"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:decayed_workbench unless entity @s[nbt={VillagerData:{profession:"morevillagers:netherian"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:oceanography_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:oceanographer"}}] run function vjf:villager/data/remove_offers
-execute if block ~ ~ ~ morevillagers:woodworking_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:woodworker"}}] run function vjf:villager/data/remove_offers
-
 
 # Give him the work station's profession
 execute if block ~ ~ ~ minecraft:blast_furnace unless entity @s[nbt={VillagerData:{profession:"minecraft:armorer"}}] run function vjf:villager/profession/armorer
@@ -48,15 +38,6 @@ execute if block ~ ~ ~ minecraft:loom unless entity @s[nbt={VillagerData:{profes
 execute if block ~ ~ ~ minecraft:smithing_table unless entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith"}}] run function vjf:villager/profession/toolsmith
 execute if block ~ ~ ~ minecraft:grindstone unless entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith"}}] run function vjf:villager/profession/weaponsmith
 
-# Support for More Villagers professions
-execute if block ~ ~ ~ morevillagers:purpur_altar unless entity @s[nbt={VillagerData:{profession:"morevillagers:enderian"}}] run function vjf:villager/profession/morevillagers/enderian
-execute if block ~ ~ ~ morevillagers:blueprint_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:engineer"}}] run function vjf:villager/profession/morevillagers/engineer
-execute if block ~ ~ ~ morevillagers:gardening_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:florist"}}] run function vjf:villager/profession/morevillagers/florist
-execute if block ~ ~ ~ morevillagers:hunting_post unless entity @s[nbt={VillagerData:{profession:"morevillagers:hunter"}}] run function vjf:villager/profession/morevillagers/hunter
-execute if block ~ ~ ~ morevillagers:mining_bench unless entity @s[nbt={VillagerData:{profession:"morevillagers:miner"}}] run function vjf:villager/profession/morevillagers/miner
-execute if block ~ ~ ~ morevillagers:decayed_workbench unless entity @s[nbt={VillagerData:{profession:"morevillagers:netherian"}}] run function vjf:villager/profession/morevillagers/netherian
-execute if block ~ ~ ~ morevillagers:oceanography_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:oceanographer"}}] run function vjf:villager/profession/morevillagers/oceanographer
-execute if block ~ ~ ~ morevillagers:woodworking_table unless entity @s[nbt={VillagerData:{profession:"morevillagers:woodworker"}}] run function vjf:villager/profession/morevillagers/woodworker
 
 function vjf:entity/magma_cube/copy_data
 

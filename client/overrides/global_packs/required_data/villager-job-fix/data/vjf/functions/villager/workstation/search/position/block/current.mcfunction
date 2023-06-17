@@ -18,13 +18,3 @@ execute if block ~ ~ ~ minecraft:stonecutter run function vjf:entity/magma_cube/
 execute if block ~ ~ ~ minecraft:loom run function vjf:entity/magma_cube/summon
 execute if block ~ ~ ~ minecraft:smithing_table run function vjf:entity/magma_cube/summon
 execute if block ~ ~ ~ minecraft:grindstone run function vjf:entity/magma_cube/summon
-
-# Support for More Villagers professions
-execute if block ~ ~ ~ morevillagers:oceanography_table run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:woodworking_table run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:decayed_workbench run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:purpur_altar run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:blueprint_table run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:gardening_table run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:hunting_post run function vjf:entity/magma_cube/summon
-execute if block ~ ~ ~ morevillagers:mining_bench run function vjf:entity/magma_cube/summon
