@@ -14,7 +14,6 @@
     "version": "14.0.0-beta.0",
     "author": "cmrcdrm",
     "files": [
-
         {"name": "Advancement Screenshot", "projectID": 414086, "fileID": 4583758, "required": true},
         {"name": "Anvil Restoration", "projectID": 523801, "fileID": 4583751, "required": true},
         {"name": "AppleSkin", "projectID": 248787, "fileID": 4573208, "required": true},
