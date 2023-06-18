@@ -39,6 +39,7 @@
         {"name": "Capes [Fabric/Forge]", "projectID": 408481, "fileID": 4580689, "required": true},
         {"name": "Carpet", "projectID": 349239, "fileID": 4573334, "required": true},
         {"name": "Cherished Worlds (Fabric/Forge/Quilt)", "projectID": 308240, "fileID": 4591010, "required": true},
+        {"name": "CleanCut", "projectID": 392805, "fileID": 4574770, "required": true},
         {"name": "CleanView", "projectID": 375465, "fileID": 4592938, "required": true},
         {"name": "Clean Tooltips", "projectID": 855017, "fileID": 4578387, "required": true},
         {"name": "Cloth Config API (Fabric/Forge)", "projectID": 348521, "fileID": 4573053, "required": true},
