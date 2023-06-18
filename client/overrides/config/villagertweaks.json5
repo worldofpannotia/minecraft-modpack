@@ -1,9 +1,12 @@
 {
-    "reset": "Erase to reset",
-    "enableMaxTradeOverride": false,
-    "maxTradesOverrideAmount": -1,
-    "enableConversionTimeOverride": false,
-    "conversionTime": 3600,
-    "enableDemandBonusOverride": false,
-    "enableEmeraldTemptation": false
+	"reset": "Erase to reset",
+	"enableMaxTradeOverride": true,
+	"maxTradesOverrideAmount": -1,
+	"enableConversionTimeOverride": true,
+	"conversionTime": 200,
+	"enableDemandBonusOverride": true,
+	"enableEmeraldTemptation": true,
+	"enableGlobalReputation": true,
+	"enableBadReputation": true,
+	"forceVillagerConversion": true
 }
