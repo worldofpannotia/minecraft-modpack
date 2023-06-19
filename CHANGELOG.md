@@ -12,6 +12,10 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 
 * Amecs
 
+#### Removed Mods
+
+* Stack Refill
+
 #### Updated Mods
 
 

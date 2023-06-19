@@ -128,7 +128,6 @@
         {"name": "Smaller Nether Portals", "projectID": 345614, "fileID": 4583500, "required": true},
         {"name": "Sodium Extra", "projectID": 447673, "fileID": 4572125, "required": true},
         {"name": "Softer Hay Bales", "projectID": 344178, "fileID": 4583496, "required": true},
-        {"name": "Stack Refill", "projectID": 411813, "fileID": 4583491, "required": true},
         {"name": "Starlight (Fabric)", "projectID": 521783, "fileID": 4572096, "required": true},
         {"name": "SuperMartijn642's Config Lib", "projectID": 438332, "fileID": 4571885, "required": true},
         {"name": "Superflat World No Slimes", "projectID": 344185, "fileID": 4583483, "required": true},
