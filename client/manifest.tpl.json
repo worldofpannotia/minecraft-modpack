@@ -15,6 +15,7 @@
     "author": "cmrcdrm",
     "files": [
         {"name": "Advancement Screenshot", "projectID": 414086, "fileID": 4583758, "required": true},
+        {"name": "Amecs (Fabric)", "projectID": 324564, "fileID": 4542146, "required": true},
         {"name": "Anvil Restoration", "projectID": 523801, "fileID": 4583751, "required": true},
         {"name": "AppleSkin", "projectID": 248787, "fileID": 4573208, "required": true},
         {"name": "Architectury API (Fabric/Forge)", "projectID": 419699, "fileID": 4581904, "required": true},

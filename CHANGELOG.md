@@ -6,6 +6,16 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 * Mod Menu: Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
+### 2023-06-XX (14.0.0-beta.1)
+
+#### Added Mods
+
+* Amecs
+
+#### Updated Mods
+
+
+
 ### 2023-06-18 (14.0.0-beta.0)
 
 #### Bug Fixes
