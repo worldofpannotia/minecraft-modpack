@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:diamond_helmet"
+    },
+    "result": "minecraft:diamond",
+    "count": 2
+}
