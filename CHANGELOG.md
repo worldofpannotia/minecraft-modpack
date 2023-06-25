@@ -6,18 +6,58 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 * Mod Menu: Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
-### 2023-06-XX (14.0.0-beta.1)
+### 2023-06-25 (14.0.0)
 
 #### Added Mods
 
+* AdvancementInfo
+* Always Loaded
 * Amecs
+* Better Beacon / Conduit
+* Better Ping Display
+* Better Statistics Screen
+* Bountiful
+* Charm of Undying
+* Clumps
+* Discontinuous Beacon Beams
+* Elytra Slot
+* EnchantedShulkers
+* FixBookGUI
+* Kambrik
+* Model Gap Fix
+* Passable Foliage
+* Random Mob Sizes
+* Shulker Box Slot
+* Trinkets
+* Universal Shops
 
 #### Removed Mods
 
+* Plated Elytra (datapack): removed in favor of Elytra Slot
 * Stack Refill
 
 #### Updated Mods
 
+* Advancement Screenshot
+* Areas
+* Balm
+* Collective
+* Diggus Maximus
+* Dynamic FPS
+* Entity Model Features (CEM)
+* Fabric API
+* Fabric Language Kotlin
+* Inventory Profiles Next
+* Jade
+* Leaves Us In Peace
+* Mod Menu
+* Open Parties and Claims
+* SilkSpawners
+* Simple Voice Chat
+* Xaero's Minimap
+* Xaero's World Map
+* YetAnotherConfigLib
+* Your Items Are Safe
 
 
 ### 2023-06-18 (14.0.0-beta.0)

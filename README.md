@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-3a6.svg?style=flat-square)
-![Pack 14.0.0-beta.0](https://img.shields.io/badge/Pack-14.0.0--beta.0-blue.svg?style=flat-square)
+![Pack 14.0.0](https://img.shields.io/badge/Pack-14.0.0-blue.svg?style=flat-square)
 ![Fabric 0.14.21](https://img.shields.io/badge/Fabric-0.14.19-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -12,7 +12,9 @@ That said, the current version of the pack should be considered stable enough fo
 <details>
     <summary>Click to expand</summary>
     <ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancementinfo">AdvancementInfo (by Giselbaer)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-screenshot">Advancement Screenshot (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/always-loaded">Always Loaded (by forward_nern)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/amecs">Amecs (Fabric) (by Siphalor)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/anvil-restoration">Anvil Restoration (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin (by squeek502)</a></li>
@@ -24,14 +26,20 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/auth-me">Auth Me (by Axieum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/auto-third-person">Auto Third Person (by quat1024)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/axolotl-bucket-fix">Axolotl Bucket Fix (by colderlavalamp)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-beacon">Better Beacon / Conduit (by sfort__)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-mount-hud">Better Mount HUD (by Lortseam_)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric">Better Ping Display [Fabric] (by Quintinity)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-spawner-control">Better Spawner Control (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-stats">Better Statistics Screen (Fabric) (by Dev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-trim-tooltips">Better Trim Tooltips (by Andrew6rant)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bottle-your-xp">Bottle Your Xp (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/bottled-air">Bottled Air (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/bountiful-fabric">Bountiful (Fabric) (by Ejektaflex)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-of-undying">Charm of Undying (Fabric/Forge/Quilt) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/clean-tooltips">Clean Tooltips (by Stal)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cleancut">CleanCut (by Rongmario)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cleanview-fabric">CleanView (Fabric) (by LainMI)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/clumps">Clumps (by Jaredlll08)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/curvebuilding">CurveBuilding (by kous500)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API (Fabric/Forge) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
@@ -43,9 +51,12 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/death-backup">Death Backup (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/deepslate-instamine">Deepslate Instamine - Fabric/Forge (by nicguzzo)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/diggus-maximus">Diggus Maximus (by Kyrptonaught)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/discontinuous-beacon-beams">Discontinuous Beacon Beams (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dismount-entity">Dismount Entity (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/durability-tooltip">Durability Tooltip (by SuperMartijn642)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-fps">Dynamic FPS (by juliand665)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/elytra-slot">Elytra Slot (Fabric/Forge/Quilt) (by TheIllusiveC4)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantedshulkers">EnchantedShulkers (by RubixDev)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanting-commands">Enchanting Commands (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-model-features">Entity Model Features [CEM] [Fabric & Forge] (by traben_0)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric">Entity Texture Features - [Fabric & Forge] (by traben_0)</a></li>
@@ -56,6 +67,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabricskyboxes">FabricSkyboxes (by AMereBagatelle)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabricskyboxes-interop">FabricSkyBoxes Interop (by FlashyReese)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fire-spread-tweaks">Fire Spread Tweaks (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/fixbookgui">FixBookGUI (by KosmoMoustache)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fluid-void-fading">Fluid Void Fading (by DaFuqsy)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/followers-teleport-too">Followers Teleport Too (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric">Forge Config API Port [Fabric] (by Fuzs)</a></li>
@@ -71,6 +83,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem">Inventory Totem (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/jamlib">JamLib (by jamalam360)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/kambrik">Kambrik (by Ejektaflex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled">Keep My Soil Tilled (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keepheadnames">Keep Head Names (Fabric/Forge) (by Fourmisain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace">Leaves Us In Peace (by supersaiyansubtlety)</a></li>
@@ -80,13 +93,16 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/map-tooltip">Map Tooltip (by VendoAU)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/miniblock-merchants">Miniblock Merchants (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/minihud">MiniHUD (by masady)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/model-gap-fix">Model Gap Fix (by MehVahdJukaar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-banner-layers">More banner layers (by MisionThi)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/name-tag-tweaks">Name Tag Tweaks (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/now-playing">Now Playing (by AppleTheGold)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims">Open Parties and Claims (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/passable-foliage-fabric">Passable Foliage 🌳 (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual">Rain Be Gone Ritual (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-mob-sizes">Random Mob Sizes (by Buecher_wurm)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reacharound">Reacharound (by spAnser)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options">Reese's Sodium Options (by FlashyReese)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/replanting-crops">Replanting Crops (by Serilum)</a></li>
@@ -95,6 +111,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby">Scaffolding Drops Nearby (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save">Server Performance - Smooth Chunk Save[Forge/Fabric] (by someaddon)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shuffle">Shuffle (by Trikzon)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulker-box-slot">Shulker Box Slot (Fabric/Forge/Quilt) (by TheIllusiveC4)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip">ShulkerBoxTooltip [Fabric/Forge] (by MisterPeModder)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/silkspawners">SilkSpawners (by LordDeatHunter)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat">Simple Voice Chat (by henkelmax)</a></li>
@@ -108,7 +125,9 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/suspicious-sand-maker">suspicious sand maker (by pashkovd)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tax-free-levels">Tax Free Levels (Fabric/Forge) (by Fourmisain)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tooltipfix">ToolTipFix (by Kyrptonaught)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/trinkets">Trinkets (Fabric) (by EmilyPloszaj)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/tweakeroo">Tweakeroo (by masady)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/universal-shops">Universal Shops (by Patbox)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/villager-death-messages">Villager Death Messages (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/villagertweaks">VillagerTweaks (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/visuality">Visuality (by PinkGoosik)</a></li>
