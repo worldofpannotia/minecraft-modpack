@@ -106,6 +106,7 @@
         {"name": "Keep Head Names (Fabric/Forge)", "projectID": 442278, "fileID": 4143327, "required": true},
         {"name": "Keep My Soil Tilled", "projectID": 547961, "fileID": 4583601, "required": true},
         {"name": "Kelp Fertilizer", "projectID": 367598, "fileID": 4583599, "required": true},
+        {"name": "Kiwi 🥝 (Fabric)", "projectID": 549404, "fileID": 4571945, "required": true},
         {"name": "KleeSlabs (Fabric Edition)", "projectID": 547695, "fileID": 4583103, "required": true},
         {"name": "Leaves Us In Peace", "projectID": 565173, "fileID": 4603894, "required": true},
         {"name": "libIPN", "projectID": 679177, "fileID": 4574567, "required": true},

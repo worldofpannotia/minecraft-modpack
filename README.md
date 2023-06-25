@@ -86,6 +86,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/kambrik">Kambrik (by Ejektaflex)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keep-my-soil-tilled">Keep My Soil Tilled (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/keepheadnames">Keep Head Names (Fabric/Forge) (by Fourmisain)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric">Kiwi 🥝 (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace">Leaves Us In Peace (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay">Light Overlay (Rift/Forge/Fabric) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Litematica (by masady)</a></li>

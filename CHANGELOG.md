@@ -30,6 +30,7 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 * EnchantedShulkers
 * FixBookGUI
 * Kambrik
+* Kiwi
 * Model Gap Fix
 * Passable Foliage
 * Random Mob Sizes
