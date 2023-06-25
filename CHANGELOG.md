@@ -8,6 +8,12 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 
 ### 2023-06-25 (14.0.0)
 
+#### Config / Recipe Changes
+
+* Added blasting recipe to convert concrete back to powder
+* Added alternate recipe for trapped chests
+* Nerfed item recycling recipes
+
 #### Added Mods
 
 * AdvancementInfo
