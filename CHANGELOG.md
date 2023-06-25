@@ -33,7 +33,6 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 
 #### Removed Mods
 
-* Plated Elytra (datapack): removed in favor of Elytra Slot
 * Stack Refill
 
 #### Updated Mods
