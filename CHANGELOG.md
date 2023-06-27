@@ -1,9 +1,11 @@
 ### Disclaimer
 
-This modpack zip includes the following jar files. Each one is allowed by its license as well as explicit permission on its respective mod page.
+_**CurseForge moderators, please read**_
 
-* Sodium: Redistributing this file is allowed by their license as well as [explicitly stated in their FAQ](https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy). ([Modrinth link](https://modrinth.com/mod/sodium))
-* Mod Menu: Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+This modpack zip includes jar files for the following mods. Each one is allowed by its license as well as explicit permission on its respective mod page.
+
+* Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+* Sodium (`sodium-fabric-mc1.20-0.4.10+build.27.jar`): Redistributing this file is allowed by their license as well as [explicitly stated in their FAQ](https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
 ### 2023-XX-XX (14.1.0)
