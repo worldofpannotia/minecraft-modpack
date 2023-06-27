@@ -6,6 +6,17 @@ This modpack zip includes the following jar files. Each one is allowed by its li
 * Mod Menu: Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
+### 2023-XX-XX (14.1.0)
+
+#### Added Mods
+
+* Crawl
+* Litematica Tool
+* Lootr
+* Overworld Piglins
+* Sponj
+
+
 ### 2023-06-25 (14.0.0)
 
 #### Config / Recipe Changes

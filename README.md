@@ -45,6 +45,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/conduits-prevent-drowned">Conduits Prevent Drowned (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/connectivity">Connectivity[Forge/Fabric] (by someaddon)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/crawl">Crawl (Fabric) (by fewizz_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/crying-portals">Crying Portals (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cycle-paintings">Cycle Paintings (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/daily-dad-server">Daily Dad - Server (by Mrbysco)</a></li>
@@ -90,6 +91,8 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/leaves-us-in-peace">Leaves Us In Peace (by supersaiyansubtlety)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay">Light Overlay (Rift/Forge/Fabric) (by shedaniel)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Litematica (by masady)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/litematica-tool">Litematica Tool (Forge and Fabric) (by finndog_123)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr-fabric">Lootr (Fabric) (by Noobanidus)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/malilib">MaLiLib (by masady)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/map-tooltip">Map Tooltip (by VendoAU)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/miniblock-merchants">Miniblock Merchants (by chimericdream)</a></li>
@@ -100,6 +103,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/now-playing">Now Playing (by AppleTheGold)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims">Open Parties and Claims (by xaero96)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/overworld-piglins">Overworld Piglins (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/passable-foliage-fabric">Passable Foliage 🌳 (Fabric) (by Snownee_)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual">Rain Be Gone Ritual (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
@@ -120,6 +124,7 @@ That said, the current version of the pack should be considered stable enough fo
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/smaller-nether-portals">Smaller Nether Portals (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra">Sodium Extra (by FlashyReese)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales">Softer Hay Bales (by Serilum)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/sponj-fabric">Sponj (Fabric) (by chimericdream)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/starlight">Starlight (Fabric) (by Spottedstar)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/superflat-world-no-slimes">Superflat World No Slimes (by Serilum)</a></li>
         <li><a href="https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib">SuperMartijn642's Config Lib (by SuperMartijn642)</a></li>
