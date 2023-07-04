@@ -8,6 +8,14 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 * Sodium (`sodium-fabric-mc1.20-0.4.10+build.27.jar`): Redistributing this file is allowed by their license as well as [explicitly stated in their FAQ](https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
+### 2023-07-04 (14.1.1)
+
+#### Notable Changes
+
+* Removed a mod I didn't mean to include, since it causes a crash.
+* Removed conflicting smelting/blasting recipes for nuggets
+
+
 ### 2023-07-03 (14.1.0)
 
 #### Updated Mods

@@ -1,7 +1,7 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-3a6.svg?style=flat-square)
-![Pack 14.1.0](https://img.shields.io/badge/Pack-14.1.0-blue.svg?style=flat-square)
+![Pack 14.1.1](https://img.shields.io/badge/Pack-14.1.1-blue.svg?style=flat-square)
 ![Fabric 0.14.21](https://img.shields.io/badge/Fabric-0.14.19-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
@@ -90,7 +90,6 @@ That said, the current version of the pack should be considered stable enough fo
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/hand-over-your-items">Hand Over Your Items (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/hoe-tweaks">Hoe Tweaks (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/ice-prevents-crop-growth">Ice Prevents Crop Growth (by Serilum)</a></li>
-    <li><a href="https://www.curseforge.com/minecraft/mc-mods/infinite-banner-pattern-stack">Infinite Banner Pattern Stack (by ApfelRauber)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-totem">Inventory Totem (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/jade">Jade 🔍 (by Snownee_)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/jamlib">JamLib (by jamalam360)</a></li>
@@ -110,6 +109,7 @@ That said, the current version of the pack should be considered stable enough fo
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/minihud">MiniHUD (by masady)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/model-gap-fix">Model Gap Fix (by MehVahdJukaar)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Moonlight Lib (by MehVahdJukaar)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-banner-layers">More banner layers (by MisionThi)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/name-tag-tweaks">Name Tag Tweaks (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/newdefaultplus">New Default+ (by SeaOfPixels)</a></li>

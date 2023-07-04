@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "14.1.0",
+    "version": "14.1.1",
     "author": "cmrcdrm",
     "files": [
         {"name": "AdvancementInfo", "projectID": 403815, "fileID": 4594462, "required": true},
@@ -132,7 +132,7 @@
         {"name": "MiniHUD", "projectID": 244260, "fileID": 4593082, "required": true},
         {"name": "Model Gap Fix", "projectID": 676136, "fileID": 4607204, "required": true},
         {"name": "Moonlight Lib", "projectID": 499980, "fileID": 4621125, "required": true},
-        {"name": "More banner layers", "projectID": 610406, "fileID": 3828056, "required": true},
+        {"name": "More Banner Layers", "projectID": 610406, "fileID": 3828056, "required": true},
         {"name": "Name Tag Tweaks", "projectID": 391972, "fileID": 4583587, "required": true},
         {"name": "Nature's Compass", "projectID": 252848, "fileID": 4591880, "required": true},
         {"name": "New Default+", "projectID": 318963, "fileID": 4618373, "required": true},
