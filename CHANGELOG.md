@@ -10,13 +10,17 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 
 ### 2023-XX-XX (14.2.0)
 
-#### Updated Mods
-
-* World of Pannotia (core datapack)
-
 #### Config Changes
 
 * Added a chance for sand to drop from husks, making sand renewable
+
+#### Added Mods
+
+* Identity
+
+#### Updated Mods
+
+* World of Pannotia (core datapack)
 
 
 ### 2023-07-04 (14.1.1)

@@ -106,6 +106,7 @@
         {"name": "Hoe Tweaks", "projectID": 523830, "fileID": 4583614, "required": true},
         {"name": "Horse Stats Vanilla (Fabric)", "projectID": 351393, "fileID": 4587364, "required": true},
         {"name": "Ice Prevents Crop Growth", "projectID": 390161, "fileID": 4583608, "required": true},
+        {"name": "Identity", "projectID": 391390, "fileID": 4625254, "required": true},
         {"name": "Indium", "projectID": 459496, "fileID": 4572105, "required": true},
         {"name": "Inventory Profiles Next", "projectID": 495267, "fileID": 4616637, "required": true},
         {"name": "Inventory Totem", "projectID": 349071, "fileID": 4583605, "required": true},
