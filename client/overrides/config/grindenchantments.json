@@ -33,5 +33,6 @@
       "offset": 0.0,
       "type": "grindenchantments:transform"
     }
-  }
+  },
+  "version": 2
 }
