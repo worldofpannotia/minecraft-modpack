@@ -109,6 +109,7 @@ That said, the current version of the pack should be considered stable enough fo
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/miniblock-merchants">Miniblock Merchants (by chimericdream)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/minihud">MiniHUD (by masady)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/model-gap-fix">Model Gap Fix (by MehVahdJukaar)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Moonlight Lib (by MehVahdJukaar)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/name-tag-tweaks">Name Tag Tweaks (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/texture-packs/newdefaultplus">New Default+ (by SeaOfPixels)</a></li>
@@ -117,6 +118,7 @@ That said, the current version of the pack should be considered stable enough fo
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/overworld-piglins">Overworld Piglins (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/passable-foliage-fabric">Passable Foliage 🌳 (Fabric) (by Snownee_)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/polymer">Polymer (by Patbox)</a></li>
+    <li><a href="https://www.curseforge.com/minecraft/mc-mods/puzzles-lib">Puzzles Lib [Forge & Fabric] (by Fuzs)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/rain-be-gone-ritual">Rain Be Gone Ritual (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers">Random Bone Meal Flowers (by Serilum)</a></li>
     <li><a href="https://www.curseforge.com/minecraft/mc-mods/random-mob-sizes">Random Mob Sizes (by Buecher_wurm)</a></li>

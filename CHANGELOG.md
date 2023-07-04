@@ -28,10 +28,6 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 * Simple Voice Chat
 * Tweakeroo
 
-#### Removed Mods
-
-* More Banner Layers: removed in favor of Infinite Banner Pattern Stack
-
 #### Added Mods
 
 * Bow Infinity Fix
@@ -44,13 +40,13 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 * Easy Shulker Boxes
 * Fabrishot
 * Fast Paintings
-* Infinite Banner Pattern Stack
 * Leaky Farm Leak Detection
 * Litematica Tool
 * Lootr
 * New Default+ (resource pack)
 * Overworld Piglins
 * Polymer
+* Puzzles Lib
 * Roughly Enough Professions
 * Sponj
 * Ugly Scoreboard Fix
