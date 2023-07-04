@@ -8,15 +8,53 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 * Sodium (`sodium-fabric-mc1.20-0.4.10+build.27.jar`): Redistributing this file is allowed by their license as well as [explicitly stated in their FAQ](https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
-### 2023-XX-XX (14.1.0)
+### 2023-07-03 (14.1.0)
+
+#### Updated Mods
+
+* Armor Points ++
+* Ash API
+* Better Statistics Screen
+* Clumps
+* Connectivity
+* Fabric API
+* Inventory Profiles Next
+* Jade
+* MaLiLib
+* Open Parties and Claims
+* Roughly Enough Items
+* Shuffle
+* ShulkerBoxTooltip
+* Simple Voice Chat
+* Tweakeroo
+
+#### Removed Mods
+
+* More Banner Layers: removed in favor of Infinite Banner Pattern Stack
 
 #### Added Mods
 
+* Bow Infinity Fix
+* Cave Survey
+* CIT Resewn
+* CompleteConfig
+* Compostables
+* Corner Portal Linking
 * Crawl
+* Easy Shulker Boxes
+* Fabrishot
+* Fast Paintings
+* Infinite Banner Pattern Stack
+* Leaky Farm Leak Detection
 * Litematica Tool
 * Lootr
+* New Default+ (resource pack)
 * Overworld Piglins
+* Polymer
+* Roughly Enough Professions
 * Sponj
+* Ugly Scoreboard Fix
+* WorldEdit CUI
 
 
 ### 2023-06-25 (14.0.0)
