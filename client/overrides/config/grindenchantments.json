@@ -4,7 +4,7 @@
     "alternative_cost_display_enabled": false
   },
   "client_options": {
-    "show_enchantment_cost": true
+    "show_enchantment_cost": false
   },
   "disenchant_to_book": {
     "enabled": true,

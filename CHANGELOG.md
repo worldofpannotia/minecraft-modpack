@@ -8,19 +8,49 @@ This modpack zip includes jar files for the following mods. Each one is allowed 
 * Sodium (`sodium-fabric-mc1.20-0.4.10+build.27.jar`): Redistributing this file is allowed by their license as well as [explicitly stated in their FAQ](https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
-### 2023-XX-XX (14.2.0)
+### 2023-07-14 (14.2.0)
 
 #### Config Changes
 
 * Added a chance for sand to drop from husks, making sand renewable
+* Made leaves only passable by players, fixing a bug that broke cobblestone generators
 
 #### Added Mods
 
+* Dispenser Configurator
+* FastAnim
 * Identity
+* Patchouli
+* Sneak Through Berries
+
+#### Removed Mods
+
+* FixBookGUI: removed for now due to bug preventing the use of writable books
 
 #### Updated Mods
 
+* AdvancementInfo
+* Architectury API
+* AudioPlayer
+* Bountiful
+* Cherished Worlds
+* Cloth Config
+* Collective
+* Debugify
+* Entity Model Features
+* Fabric Language Kotlin
+* FabricSkyboxes
+* Indium
+* Jade
+* Litematica
+* Moonlight Lib
+* Open Parties and Claims
+* OptiGUI
+* Polymer
+* Roughly Enough Items
+* SuperMartijn642's Config Lib
 * World of Pannotia (core datapack)
+* YetAnotherConfigLib
 
 
 ### 2023-07-04 (14.1.1)

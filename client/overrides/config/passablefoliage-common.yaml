@@ -6,8 +6,8 @@ fallDamageReduction: 0.5
 fallDamageThreshold: 20
 speedReductionHorizontal: 1.0
 speedReductionVertical: 1.0
-modifyPathFinding: true
-playerOnly: false
+modifyPathFinding: false
+playerOnly: true
 alwaysNotViewBlocking: true
 alwaysLeafWalking: true
 sounds:
