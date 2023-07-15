@@ -1,4 +1,4 @@
-This modpack zip includes jar files for the following mods. Each one is allowed by its license as well as explicit permission on its respective mod page.
+This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
 ----
 
@@ -10,14 +10,3 @@ Redistributing this file is allowed by their license as well as explicitly state
 
 CF Page: https://www.curseforge.com/minecraft/mc-mods/modmenu
 Modrinth: https://modrinth.com/mod/modmenu
-
-----
-
-Sodium
-
-`sodium-fabric-mc1.20-0.4.10+build.27.jar`
-
-Redistributing this file is allowed by their license as well as explicitly stated in their FAQ.
-
-FAQ: https://github.com/CaffeineMC/caffeine-meta/wiki/FAQ#what-is-the-modpack-policy
-Modrinth: https://modrinth.com/mod/sodium

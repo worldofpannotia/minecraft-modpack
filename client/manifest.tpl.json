@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "14.2.0",
+    "version": "14.2.1",
     "author": "cmrcdrm",
     "files": [
         {"name": "AdvancementInfo", "projectID": 403815, "fileID": 4613752, "required": true},
@@ -167,6 +167,7 @@
         {"name": "SlimyFloor", "projectID": 456996, "fileID": 4578851, "required": true},
         {"name": "Smaller Nether Portals", "projectID": 345614, "fileID": 4583500, "required": true},
         {"name": "Sneak Through Berries", "projectID": 324945, "fileID": 4616177, "required": true},
+        {"name": "Sodium","projectID": 394468, "fileID": 4620563, "required": true},
         {"name": "Sodium Extra", "projectID": 447673, "fileID": 4572125, "required": true},
         {"name": "Softer Hay Bales", "projectID": 344178, "fileID": 4583496, "required": true},
         {"name": "Sponj (Fabric)", "projectID": 614336, "fileID": 4573176, "required": true},
