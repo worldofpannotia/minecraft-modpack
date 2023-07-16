@@ -34,7 +34,7 @@
     // A list of Advancements required before the player can fly using an Identity.
     "advancementsRequiredForFlight": [],
     // Whether Identities modify your max health value based on their max health value.
-    "scalingHealth": true,
+    "scalingHealth": false,
     // The maximum value of scaling health. Useful for not giving players 300 HP when they turn into a wither.
     "maxHealth": 40,
     // If set to false, only operators can switch identities through the ` menu. Note that this config option is synced from S2C when a client joins the game, but a client can still open the menu if they have a modified version of Identity.
