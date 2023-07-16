@@ -5,6 +5,14 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
+### 2023-XX-XX (14.3.0)
+
+#### Config Changes
+
+* Disable scaling health in Identity mod
+* Fix effective netherite predicate for fire resistance
+
+
 ### 2023-07-15 (14.2.1)
 
 #### Added Mods
