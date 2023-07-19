@@ -5,12 +5,45 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
-### 2023-XX-XX (14.3.0)
+### 2023-07-19 (14.3.0)
+
+#### Notable Changes
+
+* Stack size for many items, especially some unstackables (looking at you, shulker boxes!), has been increased
 
 #### Config Changes
 
+* Add uncrafting recipe to convert bamboo blocks back to bamboo items
+* Add uncrafting recipe to convert honeycomb blocks back to honeycomb items
+* Add utility recipe to craft 2 chests from 8 bamboo blocks
 * Disable scaling health in Identity mod
+* Increase base beacon range and tweak beacon range scaling based on material
 * Fix effective netherite predicate for fire resistance
+* Fix husk drop for YUNG's Better Desert Temple Pharaoh mobs
+* Tweak bamboo plank recipe to prevent conflict with bamboo blocks back to items recipe
+
+#### Added Mods
+
+* AllStackable: allow some items to stack more than usual
+* Couplings: doors and trapdoors can be opened simultaneously if they are touching
+* Distracting Trims: allows armor with gold trim to distract piglins like fully gold armor does
+* Stendhal: client side mod that adds a few features to book and sign GUIs
+
+#### Updated Mods
+
+* Ash API
+* Auto Third Person
+* Bountiful
+* CompleteConfig
+* Crawl
+* Fabric API
+* FabricSkyBoxes Interop
+* Falling Leaves
+* Kambrik
+* Moonlight Lib
+* Roughly Enough Items
+* Simple Voice Chat
+* Sodium Extra
 
 
 ### 2023-07-15 (14.2.1)
