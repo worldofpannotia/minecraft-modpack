@@ -5,6 +5,31 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
+### 2023-07-23 (14.4.0)
+
+#### Config Changes
+
+* Added utility recipe to convert moss carpet to blocks
+
+#### Added Mods
+
+* JAMD: Just Another Mining Dimension (adds a new dimension for mining)
+* Trenzalore: library mod required by JAMD
+
+#### Updated Mods
+
+* AudioPlayer
+* Continuity
+* Fabric Language Kotlin
+* Kambrik
+* Moonlight Lib
+* Open Parties and Claims
+* OptiGUI
+* Puzzles Lib
+* Simple Voice Chat
+* Trinkets
+
+
 ### 2023-07-19 (14.3.0)
 
 #### Notable Changes
