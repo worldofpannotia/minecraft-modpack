@@ -5,6 +5,13 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
 
+### 2023-XX-XX (14.5.0)
+
+#### Added Mods
+
+* Bottled Allays: shift-right-click on an allay with an empty bottle to capture it!
+
+
 ### 2023-07-23 (14.4.0)
 
 #### Config Changes

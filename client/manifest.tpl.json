@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "14.4.0",
+    "version": "14.5.0",
     "author": "cmrcdrm",
     "files": [
         {"name": "AdvancementInfo", "projectID": 403815, "fileID": 4613752, "required": true},
@@ -42,6 +42,7 @@
         {"name": "Bobby", "projectID": 409301, "fileID": 4584239, "required": true},
         {"name": "Bottle Your Xp", "projectID": 344020, "fileID": 4583732, "required": true},
         {"name": "Bottled Air", "projectID": 514444, "fileID": 4583727, "required": true},
+        {"name": "Bottled Allays", "projectID": 654029, "fileID": 4662547, "required": true},
         {"name": "Bountiful (Fabric)", "projectID": 521673, "fileID": 4650417, "required": true},
         {"name": "Bow Infinity Fix (Forge/Fabric)", "projectID": 224713, "fileID": 4615222, "required": true},
         {"name": "Capes [Fabric/Forge]", "projectID": 408481, "fileID": 4580689, "required": true},
