@@ -197,6 +197,7 @@
         {"name": "WorldEdit CUI (Fabric)", "projectID": 402098, "fileID": 4575022, "required": true},
         {"name": "Xaero's Minimap", "projectID": 263420, "fileID": 4593188, "required": true},
         {"name": "Xaero's World Map", "projectID": 317780, "fileID": 4594989, "required": true},
+        {"name": "Yeetus Experimentus", "projectID": 635427, "fileID": 4589803, "required": true},
         {"name": "YetAnotherConfigLib", "projectID": 667299, "fileID": 4625198, "required": true},
         {"name": "Your Items Are Safe", "projectID": 525792, "fileID": 4598783, "required": true},
         {"name": "Zombie Villagers From Spawner", "projectID": 345039, "fileID": 4583432, "required": true}
