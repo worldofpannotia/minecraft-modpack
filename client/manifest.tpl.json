@@ -83,6 +83,7 @@
         {"name": "Elytra Slot (Fabric/Forge/Quilt)", "projectID": 317716, "fileID": 4598377, "required": true},
         {"name": "EnchantedShulkers", "projectID": 657667, "fileID": 4606664, "required": true},
         {"name": "Enchanting Commands", "projectID": 341721, "fileID": 4583668, "required": true},
+        {"name": "Enhanced Block Entities", "projectID": 452046, "fileID": 4610052, "required": true},
         {"name": "Entity Culling Fabric/Forge", "projectID": 448233, "fileID": 4573623, "required": true},
         {"name": "Entity Model Features [CEM] [Fabric & Forge]", "projectID": 844662, "fileID": 4641336, "required": true},
         {"name": "Entity Texture Features - [Fabric & Forge]", "projectID": 568563, "fileID": 4575726, "required": true},
