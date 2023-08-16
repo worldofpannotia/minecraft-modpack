@@ -1,7 +1,17 @@
 {
-    "criteria": {
-        "invisible": {
-            "trigger": "minecraft:impossible"
+  "criteria": {
+    "a_furious_cocktail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stuff/1": "true"
+            }
+          }
         }
+      }
     }
+  }
 }

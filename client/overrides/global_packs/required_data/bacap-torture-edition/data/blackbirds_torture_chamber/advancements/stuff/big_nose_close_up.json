@@ -1,49 +1,49 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:MHF_Villager}"
-        },
-        "title": "Big Nose Close-up",
-        "description": {
-            "color": "dark_red",
-            "text": "Use a spyglass to zoom in on a villagers nose from less than 1 block away"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:MHF_Villager}"
     },
-    "parent": "minecraft:adventure/trade",
-    "criteria": {
-        "big_nose": {
-            "trigger": "minecraft:using_item",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "predicate": {
-                            "type_specific": {
-                                "type": "player",
-                                "looking_at": {
-                                    "type": "minecraft:villager",
-                                    "distance": {
-                                        "absolute": {
-                                            "max": 1
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "entity": "this"
+    "title": "Big Nose Close-up",
+    "description": {
+      "color": "dark_red",
+      "text": "Use a spyglass to zoom in on a villagers nose from less than 1 block away"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "big_nose": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:villager",
+                  "distance": {
+                    "absolute": {
+                      "max": 1
                     }
-                ],
-                "item": {
-                    "items": [
-                        "minecraft:spyglass"
-                    ]
+                  }
                 }
-            }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/big_nose_close_up"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/big_nose_close_up"
+  }
 }

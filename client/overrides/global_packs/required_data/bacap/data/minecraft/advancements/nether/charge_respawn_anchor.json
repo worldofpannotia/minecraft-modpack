@@ -1,55 +1,55 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glowstone"
-        },
-        "title": {
-            "translate": "Not Quite 'Nine' Lives"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Charge a Respawn Anchor to the maximum"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:glowstone"
     },
-    "parent": "blazeandcave:nether/anchorman",
-    "rewards": {
-        "function": "bc_rewards:nether/not_quite_nine_lives"
+    "title": {
+      "translate": "Not Quite 'Nine' Lives"
     },
-    "criteria": {
-        "charge_respawn_anchor": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": [
-                                    "minecraft:respawn_anchor"
-                                ],
-                                "state": {
-                                    "charges": "4"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:glowstone"
-                            ]
-                        }
-                    }
-                ]
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Charge a Respawn Anchor to the maximum"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:nether/anchorman",
+  "rewards": {
+    "function": "bc_rewards:nether/not_quite_nine_lives"
+  },
+  "criteria": {
+    "charge_respawn_anchor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ],
+                "state": {
+                  "charges": "4"
+                }
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "charge_respawn_anchor"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glowstone"
+              ]
+            }
+          }
         ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "charge_respawn_anchor"
     ]
+  ]
 }

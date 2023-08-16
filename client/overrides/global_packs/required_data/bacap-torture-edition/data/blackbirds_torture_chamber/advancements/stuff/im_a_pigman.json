@@ -1,23 +1,23 @@
 {
-    "display": {
-        "title": "I'm a Pigman",
-        "description": {
-            "color": "dark_red",
-            "text": "My name's Dan and I've been stuck here for a full ingame year"
-        },
-        "icon": {
-            "item": "player_head",
-            "nbt": "{SkullOwner:MHF_PigZombie}"
-        },
-        "frame": "challenge"
+  "display": {
+    "title": "I'm a Pigman",
+    "description": {
+      "color": "dark_red",
+      "text": "My name's Dan and I've been stuck here for a full ingame year"
     },
-    "criteria": {
-        "im_a_pigman": {
-            "trigger": "impossible"
-        }
+    "icon": {
+      "item": "player_head",
+      "nbt": "{SkullOwner:MHF_PigZombie}"
     },
-    "parent": "blazeandcave:nether/let_me_out",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/im_a_pigman"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "im_a_pigman": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:nether/let_me_out",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/im_a_pigman"
+  }
 }

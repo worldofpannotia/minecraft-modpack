@@ -1,10 +1,10 @@
 {
-    "criteria": {
-        "4": {
-            "trigger": "impossible"
-        }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:riddle/4"
+  "criteria": {
+    "4": {
+      "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:riddle/4"
+  }
 }

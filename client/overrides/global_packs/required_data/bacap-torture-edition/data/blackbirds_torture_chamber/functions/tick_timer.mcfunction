@@ -9,11 +9,15 @@ execute as @a if data entity @s ActiveEffects run scoreboard players set @s hard
 execute as @a unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:boat"}}}] run scoreboard players set @s must_find_land 0
 execute as @a at @s unless block ~ ~ ~ water unless block ~ ~ ~ kelp unless block ~ ~ ~ seagrass unless block ~ ~ ~ tall_seagrass run scoreboard players set @s must_find_land 0
 
-# Candle of Darkness
-execute if score candle_of_darkness bac_settings matches 1 run function blackbirds_torture_chamber:candle_of_darkness
+# Interactable trophies
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/candle_of_darkness
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/actual_lucky_charm
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/batbow
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/villager_nose
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/ya_like_jazz
+execute if score interactable_trophies bac_settings matches 1 as @a[nbt={Inventory:[{tag:{HeavenlyBell:1}}]}] run playsound minecraft:block.bell.use block @s ~ ~ ~ 100 1
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/youngling_slayer
 
-# Actual Lucky Charm
-execute if score actual_lucky_charm bac_settings matches 1 run function blackbirds_torture_chamber:actual_lucky_charm
 
 # Friends?
 scoreboard objectives add friends dummy

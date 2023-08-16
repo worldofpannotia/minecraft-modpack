@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:cooked_rabbit"
-        },
-        "title": {
-            "translate": "Rabbit Season"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Killing bunnies is cruel. Period."
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_rabbit"
     },
-    "parent": "minecraft:husbandry/root",
-    "rewards": {
-        "function": "bc_rewards:animal/rabbit_season"
+    "title": {
+      "translate": "Rabbit Season"
     },
-    "criteria": {
-        "cooked_rabbit": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:cooked_rabbit"
-                    ]
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Killing bunnies is cruel. Period."
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bc_rewards:animal/rabbit_season"
+  },
+  "criteria": {
+    "cooked_rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
         }
+      }
     }
+  }
 }

@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bee_nest",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "Barried Alive",
-        "description": {
-            "color": "dark_red",
-            "text": "Stand on a Chest filled with Bee Nests"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:bee_nest",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "Barried Alive",
+    "description": {
+      "color": "dark_red",
+      "text": "Stand on a Chest filled with Bee Nests"
     },
-    "parent": "blazeandcave:animal/honey_im_home",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_bee_nest"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:animal/honey_im_home",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_bee_nest"
+  }
 }

@@ -1,45 +1,45 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:conduit"
-        },
-        "title": {
-            "translate": "Moskstraumen"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Construct a Conduit in the ocean"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
     },
-    "parent": "blazeandcave:biomes/x_marks_the_spot",
-    "rewards": {
-        "function": "bc_rewards:biomes/moskstraumen"
+    "title": {
+      "translate": "Moskstraumen"
     },
-    "criteria": {
-        "conduit_power": {
-            "trigger": "minecraft:effects_changed",
-            "conditions": {
-                "effects": {
-                    "minecraft:conduit_power": {}
-                },
-                "player": [
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type_specific": {
-                                    "type": "player",
-                                    "gamemode": "spectator"
-                                }
-                            }
-                        }
-                    }
-                ]
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Construct a Conduit in the ocean"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/x_marks_the_spot",
+  "rewards": {
+    "function": "bc_rewards:biomes/moskstraumen"
+  },
+  "criteria": {
+    "conduit_power": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

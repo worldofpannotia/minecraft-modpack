@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:rabbit_foot",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "Build a Rabbit Farm",
-        "description": {
-            "color": "dark_red",
-            "text": "Stand on a Chest filled with Rabbit Feet"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "Build a Rabbit Farm",
+    "description": {
+      "color": "dark_red",
+      "text": "Stand on a Chest filled with Rabbit Feet"
     },
-    "parent": "blazeandcave:animal/lucky_charm",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_rabbit_feet"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:animal/lucky_charm",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_rabbit_feet"
+  }
 }

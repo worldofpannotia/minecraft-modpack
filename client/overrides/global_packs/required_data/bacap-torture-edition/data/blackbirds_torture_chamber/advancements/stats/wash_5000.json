@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:cauldron",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "Electrolux-EFLS627U",
-        "description": {
-            "color": "dark_red",
-            "text": "Wash 5000 items"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:cauldron",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "parent": "blackbirds_torture_chamber:stats/wash_2500",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "Electrolux-EFLS627U",
+    "description": {
+      "color": "dark_red",
+      "text": "Wash 5000 items"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/wash_5000"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/wash_2500",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/wash_5000"
+  }
 }

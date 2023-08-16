@@ -1,0 +1,18 @@
+{
+  "parent": "blackbirds_torture_chamber:stuff/end_limit",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/root": "true"
+            }
+          }
+        }
+      }
+    }
+  }
+}

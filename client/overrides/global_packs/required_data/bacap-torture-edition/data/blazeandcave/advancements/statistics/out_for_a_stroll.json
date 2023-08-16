@@ -1,39 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots"
-        },
-        "title": {
-            "translate": "Out for a stroll"
-        },
-        "description": {
-            "translate": "Walk 10km"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
     },
-    "parent": "blazeandcave:statistics/root",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/walk_10"
+    "title": {
+      "translate": "Out for a stroll"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:walk_one_cm",
-                                "value": {
-                                    "min": 1000000
-                                }
-                            }
-                        ]
-                    }
+    "description": {
+      "translate": "Walk 10km"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:statistics/root",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/walk_10"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:walk_one_cm",
+                "value": {
+                  "min": 1000000
                 }
-            }
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }

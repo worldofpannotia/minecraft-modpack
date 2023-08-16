@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:music_disc_11"
-        },
-        "title": "Stuck in my head",
-        "description": {
-            "color": "#75E1FF",
-            "text": "Ring bells 1000 times"
-        },
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_11"
     },
-    "parent": "blackbirds_torture_chamber:stats/ring_100",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:bell_ring",
-                                "value": {
-                                    "min": 1000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Stuck in my head",
+    "description": {
+      "color": "#75E1FF",
+      "text": "Ring bells 1000 times"
+    },
+    "frame": "goal"
+  },
+  "parent": "blackbirds_torture_chamber:stats/ring_100",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:bell_ring",
+                "value": {
+                  "min": 1000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/ring_1000"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/ring_1000"
+  }
 }

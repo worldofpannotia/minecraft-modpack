@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:tinted_glass"
-        },
-        "title": {
-            "translate": "Blackout"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft Tinted Glass using Glass and Amethyst Shards and use it to block out light"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:tinted_glass"
     },
-    "parent": "blazeandcave:mining/galileo_figaro",
-    "rewards": {
-        "function": "bc_rewards:mining/blackout"
+    "title": {
+      "translate": "Blackout"
     },
-    "criteria": {
-        "tinted_glass": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": [
-                                    "minecraft:tinted_glass"
-                                ]
-                            }
-                        }
-                    }
+    "description": {
+      "color": "green",
+      "translate": "Craft Tinted Glass using Glass and Amethyst Shards and use it to block out light"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:mining/galileo_figaro",
+  "rewards": {
+    "function": "bc_rewards:mining/blackout"
+  },
+  "criteria": {
+    "tinted_glass": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tinted_glass"
                 ]
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,754 +1,898 @@
 {
-    "display": {
-        "title": "The Great Flood",
-        "description": {
-            "color": "dark_red",
-            "text": "Waterlog every waterloggable block and stand in them"
-        },
-        "icon": {
-            "item": "water_bucket"
-        },
-        "frame": "challenge"
+  "display": {
+    "title": "The Great Flood",
+    "description": {
+      "color": "dark_red",
+      "text": "Waterlog every waterloggable block and stand in them"
     },
-    "parent": "blazeandcave:biomes/sleep_with_the_fishes",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/the_great_flood"
+    "icon": {
+      "item": "water_bucket"
     },
-    "criteria": {
-        "activator_rail": {
-            "trigger": "impossible"
-        },
-        "small_amethyst_bud": {
-            "trigger": "impossible"
-        },
-        "medium_amethyst_bud": {
-            "trigger": "impossible"
-        },
-        "large_amethyst_bud": {
-            "trigger": "impossible"
-        },
-        "amethyst_cluster": {
-            "trigger": "impossible"
-        },
-        "big_dripleaf": {
-            "trigger": "impossible"
-        },
-        "small_dripleaf": {
-            "trigger": "impossible"
-        },
-        "campfire": {
-            "trigger": "impossible"
-        },
-        "soul_campfire": {
-            "trigger": "impossible"
-        },
-        "candle": {
-            "trigger": "impossible"
-        },
-        "red_candle": {
-            "trigger": "impossible"
-        },
-        "orange_candle": {
-            "trigger": "impossible"
-        },
-        "yellow_candle": {
-            "trigger": "impossible"
-        },
-        "lime_candle": {
-            "trigger": "impossible"
-        },
-        "green_candle": {
-            "trigger": "impossible"
-        },
-        "light_blue_candle": {
-            "trigger": "impossible"
-        },
-        "cyan_candle": {
-            "trigger": "impossible"
-        },
-        "blue_candle": {
-            "trigger": "impossible"
-        },
-        "purple_candle": {
-            "trigger": "impossible"
-        },
-        "magenta_candle": {
-            "trigger": "impossible"
-        },
-        "pink_candle": {
-            "trigger": "impossible"
-        },
-        "white_candle": {
-            "trigger": "impossible"
-        },
-        "light_gray_candle": {
-            "trigger": "impossible"
-        },
-        "gray_candle": {
-            "trigger": "impossible"
-        },
-        "black_candle": {
-            "trigger": "impossible"
-        },
-        "brown_candle": {
-            "trigger": "impossible"
-        },
-        "chain": {
-            "trigger": "impossible"
-        },
-        "chest": {
-            "trigger": "impossible"
-        },
-        "conduit": {
-            "trigger": "impossible"
-        },
-        "tube_coral": {
-            "trigger": "impossible"
-        },
-        "brain_coral": {
-            "trigger": "impossible"
-        },
-        "bubble_coral": {
-            "trigger": "impossible"
-        },
-        "fire_coral": {
-            "trigger": "impossible"
-        },
-        "horn_coral": {
-            "trigger": "impossible"
-        },
-        "tube_coral_fan": {
-            "trigger": "impossible"
-        },
-        "brain_coral_fan": {
-            "trigger": "impossible"
-        },
-        "bubble_coral_fan": {
-            "trigger": "impossible"
-        },
-        "fire_coral_fan": {
-            "trigger": "impossible"
-        },
-        "horn_coral_fan": {
-            "trigger": "impossible"
-        },
-        "dead_tube_coral": {
-            "trigger": "impossible"
-        },
-        "dead_brain_coral": {
-            "trigger": "impossible"
-        },
-        "dead_bubble_coral": {
-            "trigger": "impossible"
-        },
-        "dead_fire_coral": {
-            "trigger": "impossible"
-        },
-        "dead_horn_coral": {
-            "trigger": "impossible"
-        },
-        "dead_tube_coral_fan": {
-            "trigger": "impossible"
-        },
-        "dead_brain_coral_fan": {
-            "trigger": "impossible"
-        },
-        "dead_bubble_coral_fan": {
-            "trigger": "impossible"
-        },
-        "dead_fire_coral_fan": {
-            "trigger": "impossible"
-        },
-        "dead_horn_coral_fan": {
-            "trigger": "impossible"
-        },
-        "detector_rail": {
-            "trigger": "impossible"
-        },
-        "ender_chest": {
-            "trigger": "impossible"
-        },
-        "oak_fence": {
-            "trigger": "impossible"
-        },
-        "spruce_fence": {
-            "trigger": "impossible"
-        },
-        "birch_fence": {
-            "trigger": "impossible"
-        },
-        "jungle_fence": {
-            "trigger": "impossible"
-        },
-        "acacia_fence": {
-            "trigger": "impossible"
-        },
-        "dark_oak_fence": {
-            "trigger": "impossible"
-        },
-        "mangrove_fence": {
-            "trigger": "impossible"
-        },
-        "crimson_fence": {
-            "trigger": "impossible"
-        },
-        "warped_fence": {
-            "trigger": "impossible"
-        },
-        "nether_brick_fence": {
-            "trigger": "impossible"
-        },
-        "glass_pane": {
-            "trigger": "impossible"
-        },
-        "red_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "orange_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "yellow_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "lime_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "green_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "light_blue_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "cyan_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "blue_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "purple_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "magenta_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "pink_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "white_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "light_gray_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "gray_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "black_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "brown_stained_glass_pane": {
-            "trigger": "impossible"
-        },
-        "glow_lichen": {
-            "trigger": "impossible"
-        },
-        "hanging_roots": {
-            "trigger": "impossible"
-        },
-        "iron_bars": {
-            "trigger": "impossible"
-        },
-        "ladder": {
-            "trigger": "impossible"
-        },
-        "rail": {
-            "trigger": "impossible"
-        },
-        "polished_deepslate_wall": {
-            "trigger": "impossible"
-        },
-        "deepslate_brick_wall": {
-            "trigger": "impossible"
-        },
-        "deepslate_tile_wall": {
-            "trigger": "impossible"
-        },
-        "cobbled_deepslate_wall": {
-            "trigger": "impossible"
-        },
-        "end_stone_brick_wall": {
-            "trigger": "impossible"
-        },
-        "mossy_cobblestone_wall": {
-            "trigger": "impossible"
-        },
-        "red_nether_brick_wall": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_wall": {
-            "trigger": "impossible"
-        },
-        "andesite_wall": {
-            "trigger": "impossible"
-        },
-        "blackstone_wall": {
-            "trigger": "impossible"
-        },
-        "diorite_wall": {
-            "trigger": "impossible"
-        },
-        "granite_wall": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_brick_wall": {
-            "trigger": "impossible"
-        },
-        "prismarine_wall": {
-            "trigger": "impossible"
-        },
-        "brick_wall": {
-            "trigger": "impossible"
-        },
-        "mossy_stone_brick_wall": {
-            "trigger": "impossible"
-        },
-        "mud_brick_wall": {
-            "trigger": "impossible"
-        },
-        "sandstone_wall": {
-            "trigger": "impossible"
-        },
-        "red_sandstone_wall": {
-            "trigger": "impossible"
-        },
-        "lantern": {
-            "trigger": "impossible"
-        },
-        "soul_lantern": {
-            "trigger": "impossible"
-        },
-        "oak_leaves": {
-            "trigger": "impossible"
-        },
-        "birch_leaves": {
-            "trigger": "impossible"
-        },
-        "spruce_leaves": {
-            "trigger": "impossible"
-        },
-        "jungle_leaves": {
-            "trigger": "impossible"
-        },
-        "acacia_leaves": {
-            "trigger": "impossible"
-        },
-        "dark_oak_leaves": {
-            "trigger": "impossible"
-        },
-        "mangrove_leaves": {
-            "trigger": "impossible"
-        },
-        "mangrove_roots": {
-            "trigger": "impossible"
-        },
-        "mangrove_propagule": {
-            "trigger": "impossible"
-        },
-        "lightning_rod": {
-            "trigger": "impossible"
-        },
-        "pointed_dripstone": {
-            "trigger": "impossible"
-        },
-        "powered_rail": {
-            "trigger": "impossible"
-        },
-        "scaffolding": {
-            "trigger": "impossible"
-        },
-        "sculk_sensor": {
-            "trigger": "impossible"
-        },
-        "sculk_shrieker": {
-            "trigger": "impossible"
-        },
-        "sculk_vein": {
-            "trigger": "impossible"
-        },
-        "sea_pickle": {
-            "trigger": "impossible"
-        },
-        "trapped_chest": {
-            "trigger": "impossible"
-        },
-        "oak_sign": {
-            "trigger": "impossible"
-        },
-        "spruce_sign": {
-            "trigger": "impossible"
-        },
-        "birch_sign": {
-            "trigger": "impossible"
-        },
-        "jungle_sign": {
-            "trigger": "impossible"
-        },
-        "acacia_sign": {
-            "trigger": "impossible"
-        },
-        "dark_oak_sign": {
-            "trigger": "impossible"
-        },
-        "mangrove_sign": {
-            "trigger": "impossible"
-        },
-        "crimson_sign": {
-            "trigger": "impossible"
-        },
-        "warped_sign": {
-            "trigger": "impossible"
-        },
-        "oak_trapdoor": {
-            "trigger": "impossible"
-        },
-        "spruce_trapdoor": {
-            "trigger": "impossible"
-        },
-        "birch_trapdoor": {
-            "trigger": "impossible"
-        },
-        "jungle_trapdoor": {
-            "trigger": "impossible"
-        },
-        "acacia_trapdoor": {
-            "trigger": "impossible"
-        },
-        "dark_oak_trapdoor": {
-            "trigger": "impossible"
-        },
-        "mangrove_trapdoor": {
-            "trigger": "impossible"
-        },
-        "crimson_trapdoor": {
-            "trigger": "impossible"
-        },
-        "warped_trapdoor": {
-            "trigger": "impossible"
-        },
-        "iron_trapdoor": {
-            "trigger": "impossible"
-        },
-        "oak_stairs": {
-            "trigger": "impossible"
-        },
-        "spruce_stairs": {
-            "trigger": "impossible"
-        },
-        "birch_stairs": {
-            "trigger": "impossible"
-        },
-        "jungle_stairs": {
-            "trigger": "impossible"
-        },
-        "acacia_stairs": {
-            "trigger": "impossible"
-        },
-        "dark_oak_stairs": {
-            "trigger": "impossible"
-        },
-        "mangrove_stairs": {
-            "trigger": "impossible"
-        },
-        "crimson_stairs": {
-            "trigger": "impossible"
-        },
-        "warped_stairs": {
-            "trigger": "impossible"
-        },
-        "stone_stairs": {
-            "trigger": "impossible"
-        },
-        "cobblestone_stairs": {
-            "trigger": "impossible"
-        },
-        "mossy_cobblestone_stairs": {
-            "trigger": "impossible"
-        },
-        "stone_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "mossy_stone_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "andesite_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_andesite_stairs": {
-            "trigger": "impossible"
-        },
-        "diorite_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_diorite_stairs": {
-            "trigger": "impossible"
-        },
-        "granite_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_granite_stairs": {
-            "trigger": "impossible"
-        },
-        "sandstone_stairs": {
-            "trigger": "impossible"
-        },
-        "smooth_sandstone_stairs": {
-            "trigger": "impossible"
-        },
-        "red_sandstone_stairs": {
-            "trigger": "impossible"
-        },
-        "smooth_red_sandstone_stairs": {
-            "trigger": "impossible"
-        },
-        "brick_stairs": {
-            "trigger": "impossible"
-        },
-        "prismarine_stairs": {
-            "trigger": "impossible"
-        },
-        "prismarine_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "dark_prismarine_stairs": {
-            "trigger": "impossible"
-        },
-        "nether_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "red_nether_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "quartz_stairs": {
-            "trigger": "impossible"
-        },
-        "smooth_quartz_stairs": {
-            "trigger": "impossible"
-        },
-        "purpur_stairs": {
-            "trigger": "impossible"
-        },
-        "end_stone_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "blackstone_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "exposed_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "weathered_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "oxidized_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "waxed_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "waxed_exposed_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "waxed_weathered_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "waxed_oxidized_cut_copper_stairs": {
-            "trigger": "impossible"
-        },
-        "cobbled_deepslate_stairs": {
-            "trigger": "impossible"
-        },
-        "polished_deepslate_stairs": {
-            "trigger": "impossible"
-        },
-        "deepslate_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "deepslate_tile_stairs": {
-            "trigger": "impossible"
-        },
-        "mud_brick_stairs": {
-            "trigger": "impossible"
-        },
-        "oak_slab": {
-            "trigger": "impossible"
-        },
-        "spruce_slab": {
-            "trigger": "impossible"
-        },
-        "birch_slab": {
-            "trigger": "impossible"
-        },
-        "jungle_slab": {
-            "trigger": "impossible"
-        },
-        "acacia_slab": {
-            "trigger": "impossible"
-        },
-        "dark_oak_slab": {
-            "trigger": "impossible"
-        },
-        "mangrove_slab": {
-            "trigger": "impossible"
-        },
-        "crimson_slab": {
-            "trigger": "impossible"
-        },
-        "warped_slab": {
-            "trigger": "impossible"
-        },
-        "stone_slab": {
-            "trigger": "impossible"
-        },
-        "smooth_stone_slab": {
-            "trigger": "impossible"
-        },
-        "cobblestone_slab": {
-            "trigger": "impossible"
-        },
-        "mossy_cobblestone_slab": {
-            "trigger": "impossible"
-        },
-        "stone_brick_slab": {
-            "trigger": "impossible"
-        },
-        "mossy_stone_brick_slab": {
-            "trigger": "impossible"
-        },
-        "andesite_slab": {
-            "trigger": "impossible"
-        },
-        "polished_andesite_slab": {
-            "trigger": "impossible"
-        },
-        "diorite_slab": {
-            "trigger": "impossible"
-        },
-        "polished_diorite_slab": {
-            "trigger": "impossible"
-        },
-        "granite_slab": {
-            "trigger": "impossible"
-        },
-        "polished_granite_slab": {
-            "trigger": "impossible"
-        },
-        "sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "cut_sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "smooth_sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "red_sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "cut_red_sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "smooth_red_sandstone_slab": {
-            "trigger": "impossible"
-        },
-        "brick_slab": {
-            "trigger": "impossible"
-        },
-        "prismarine_slab": {
-            "trigger": "impossible"
-        },
-        "prismarine_brick_slab": {
-            "trigger": "impossible"
-        },
-        "dark_prismarine_slab": {
-            "trigger": "impossible"
-        },
-        "nether_brick_slab": {
-            "trigger": "impossible"
-        },
-        "red_nether_brick_slab": {
-            "trigger": "impossible"
-        },
-        "quartz_slab": {
-            "trigger": "impossible"
-        },
-        "smooth_quartz_slab": {
-            "trigger": "impossible"
-        },
-        "purpur_slab": {
-            "trigger": "impossible"
-        },
-        "end_stone_brick_slab": {
-            "trigger": "impossible"
-        },
-        "blackstone_slab": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_slab": {
-            "trigger": "impossible"
-        },
-        "polished_blackstone_brick_slab": {
-            "trigger": "impossible"
-        },
-        "cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "exposed_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "weathered_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "oxidized_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "waxed_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "waxed_exposed_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "waxed_weathered_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "waxed_oxidized_cut_copper_slab": {
-            "trigger": "impossible"
-        },
-        "cobbled_deepslate_slab": {
-            "trigger": "impossible"
-        },
-        "deepslate_brick_slab": {
-            "trigger": "impossible"
-        },
-        "deepslate_tile_slab": {
-            "trigger": "impossible"
-        },
-        "mud_brick_slab": {
-            "trigger": "impossible"
-        },
-        "azalea_leaves": {
-            "trigger": "impossible"
-        },
-        "flowering_azalea_leaves": {
-            "trigger": "impossible"
-        }
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:biomes/sleep_with_the_fishes",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/the_great_flood"
+  },
+  "criteria": {
+    "activator_rail": {
+      "trigger": "impossible"
+    },
+    "small_amethyst_bud": {
+      "trigger": "impossible"
+    },
+    "medium_amethyst_bud": {
+      "trigger": "impossible"
+    },
+    "large_amethyst_bud": {
+      "trigger": "impossible"
+    },
+    "amethyst_cluster": {
+      "trigger": "impossible"
+    },
+    "big_dripleaf": {
+      "trigger": "impossible"
+    },
+    "small_dripleaf": {
+      "trigger": "impossible"
+    },
+    "campfire": {
+      "trigger": "impossible"
+    },
+    "soul_campfire": {
+      "trigger": "impossible"
+    },
+    "candle": {
+      "trigger": "impossible"
+    },
+    "red_candle": {
+      "trigger": "impossible"
+    },
+    "orange_candle": {
+      "trigger": "impossible"
+    },
+    "yellow_candle": {
+      "trigger": "impossible"
+    },
+    "lime_candle": {
+      "trigger": "impossible"
+    },
+    "green_candle": {
+      "trigger": "impossible"
+    },
+    "light_blue_candle": {
+      "trigger": "impossible"
+    },
+    "cyan_candle": {
+      "trigger": "impossible"
+    },
+    "blue_candle": {
+      "trigger": "impossible"
+    },
+    "purple_candle": {
+      "trigger": "impossible"
+    },
+    "magenta_candle": {
+      "trigger": "impossible"
+    },
+    "pink_candle": {
+      "trigger": "impossible"
+    },
+    "white_candle": {
+      "trigger": "impossible"
+    },
+    "light_gray_candle": {
+      "trigger": "impossible"
+    },
+    "gray_candle": {
+      "trigger": "impossible"
+    },
+    "black_candle": {
+      "trigger": "impossible"
+    },
+    "brown_candle": {
+      "trigger": "impossible"
+    },
+    "chain": {
+      "trigger": "impossible"
+    },
+    "chest": {
+      "trigger": "impossible"
+    },
+    "conduit": {
+      "trigger": "impossible"
+    },
+    "tube_coral": {
+      "trigger": "impossible"
+    },
+    "brain_coral": {
+      "trigger": "impossible"
+    },
+    "bubble_coral": {
+      "trigger": "impossible"
+    },
+    "fire_coral": {
+      "trigger": "impossible"
+    },
+    "horn_coral": {
+      "trigger": "impossible"
+    },
+    "tube_coral_fan": {
+      "trigger": "impossible"
+    },
+    "brain_coral_fan": {
+      "trigger": "impossible"
+    },
+    "bubble_coral_fan": {
+      "trigger": "impossible"
+    },
+    "fire_coral_fan": {
+      "trigger": "impossible"
+    },
+    "horn_coral_fan": {
+      "trigger": "impossible"
+    },
+    "dead_tube_coral": {
+      "trigger": "impossible"
+    },
+    "dead_brain_coral": {
+      "trigger": "impossible"
+    },
+    "dead_bubble_coral": {
+      "trigger": "impossible"
+    },
+    "dead_fire_coral": {
+      "trigger": "impossible"
+    },
+    "dead_horn_coral": {
+      "trigger": "impossible"
+    },
+    "dead_tube_coral_fan": {
+      "trigger": "impossible"
+    },
+    "dead_brain_coral_fan": {
+      "trigger": "impossible"
+    },
+    "dead_bubble_coral_fan": {
+      "trigger": "impossible"
+    },
+    "dead_fire_coral_fan": {
+      "trigger": "impossible"
+    },
+    "dead_horn_coral_fan": {
+      "trigger": "impossible"
+    },
+    "detector_rail": {
+      "trigger": "impossible"
+    },
+    "ender_chest": {
+      "trigger": "impossible"
+    },
+    "oak_fence": {
+      "trigger": "impossible"
+    },
+    "spruce_fence": {
+      "trigger": "impossible"
+    },
+    "cherry_fence": {
+      "trigger": "impossible"
+    },
+    "bamboo_fence": {
+      "trigger": "impossible"
+    },
+    "birch_fence": {
+      "trigger": "impossible"
+    },
+    "jungle_fence": {
+      "trigger": "impossible"
+    },
+    "acacia_fence": {
+      "trigger": "impossible"
+    },
+    "dark_oak_fence": {
+      "trigger": "impossible"
+    },
+    "mangrove_fence": {
+      "trigger": "impossible"
+    },
+    "crimson_fence": {
+      "trigger": "impossible"
+    },
+    "warped_fence": {
+      "trigger": "impossible"
+    },
+    "nether_brick_fence": {
+      "trigger": "impossible"
+    },
+    "glass_pane": {
+      "trigger": "impossible"
+    },
+    "red_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "orange_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "yellow_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "lime_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "green_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "light_blue_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "cyan_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "blue_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "purple_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "magenta_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "pink_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "white_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "light_gray_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "gray_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "black_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "brown_stained_glass_pane": {
+      "trigger": "impossible"
+    },
+    "glow_lichen": {
+      "trigger": "impossible"
+    },
+    "hanging_roots": {
+      "trigger": "impossible"
+    },
+    "iron_bars": {
+      "trigger": "impossible"
+    },
+    "ladder": {
+      "trigger": "impossible"
+    },
+    "rail": {
+      "trigger": "impossible"
+    },
+    "polished_deepslate_wall": {
+      "trigger": "impossible"
+    },
+    "deepslate_brick_wall": {
+      "trigger": "impossible"
+    },
+    "deepslate_tile_wall": {
+      "trigger": "impossible"
+    },
+    "cobbled_deepslate_wall": {
+      "trigger": "impossible"
+    },
+    "end_stone_brick_wall": {
+      "trigger": "impossible"
+    },
+    "mossy_cobblestone_wall": {
+      "trigger": "impossible"
+    },
+    "red_nether_brick_wall": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_wall": {
+      "trigger": "impossible"
+    },
+    "andesite_wall": {
+      "trigger": "impossible"
+    },
+    "blackstone_wall": {
+      "trigger": "impossible"
+    },
+    "diorite_wall": {
+      "trigger": "impossible"
+    },
+    "granite_wall": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_brick_wall": {
+      "trigger": "impossible"
+    },
+    "prismarine_wall": {
+      "trigger": "impossible"
+    },
+    "brick_wall": {
+      "trigger": "impossible"
+    },
+    "mossy_stone_brick_wall": {
+      "trigger": "impossible"
+    },
+    "mud_brick_wall": {
+      "trigger": "impossible"
+    },
+    "sandstone_wall": {
+      "trigger": "impossible"
+    },
+    "red_sandstone_wall": {
+      "trigger": "impossible"
+    },
+    "lantern": {
+      "trigger": "impossible"
+    },
+    "soul_lantern": {
+      "trigger": "impossible"
+    },
+    "oak_leaves": {
+      "trigger": "impossible"
+    },
+    "birch_leaves": {
+      "trigger": "impossible"
+    },
+    "cherry_leaves": {
+      "trigger": "impossible"
+    },
+    "spruce_leaves": {
+      "trigger": "impossible"
+    },
+    "jungle_leaves": {
+      "trigger": "impossible"
+    },
+    "acacia_leaves": {
+      "trigger": "impossible"
+    },
+    "dark_oak_leaves": {
+      "trigger": "impossible"
+    },
+    "mangrove_leaves": {
+      "trigger": "impossible"
+    },
+    "mangrove_roots": {
+      "trigger": "impossible"
+    },
+    "mangrove_propagule": {
+      "trigger": "impossible"
+    },
+    "lightning_rod": {
+      "trigger": "impossible"
+    },
+    "pointed_dripstone": {
+      "trigger": "impossible"
+    },
+    "powered_rail": {
+      "trigger": "impossible"
+    },
+    "scaffolding": {
+      "trigger": "impossible"
+    },
+    "sculk_sensor": {
+      "trigger": "impossible"
+    },
+    "sculk_shrieker": {
+      "trigger": "impossible"
+    },
+    "sculk_vein": {
+      "trigger": "impossible"
+    },
+    "sea_pickle": {
+      "trigger": "impossible"
+    },
+    "trapped_chest": {
+      "trigger": "impossible"
+    },
+    "oak_sign": {
+      "trigger": "impossible"
+    },
+    "spruce_sign": {
+      "trigger": "impossible"
+    },
+    "birch_sign": {
+      "trigger": "impossible"
+    },
+    "jungle_sign": {
+      "trigger": "impossible"
+    },
+    "acacia_sign": {
+      "trigger": "impossible"
+    },
+    "dark_oak_sign": {
+      "trigger": "impossible"
+    },
+    "mangrove_sign": {
+      "trigger": "impossible"
+    },
+    "crimson_sign": {
+      "trigger": "impossible"
+    },
+    "warped_sign": {
+      "trigger": "impossible"
+    },
+    "oak_trapdoor": {
+      "trigger": "impossible"
+    },
+    "spruce_trapdoor": {
+      "trigger": "impossible"
+    },
+    "birch_trapdoor": {
+      "trigger": "impossible"
+    },
+    "cherry_trapdoor": {
+      "trigger": "impossible"
+    },
+    "bamboo_trapdoor": {
+      "trigger": "impossible"
+    },
+    "jungle_trapdoor": {
+      "trigger": "impossible"
+    },
+    "acacia_trapdoor": {
+      "trigger": "impossible"
+    },
+    "dark_oak_trapdoor": {
+      "trigger": "impossible"
+    },
+    "mangrove_trapdoor": {
+      "trigger": "impossible"
+    },
+    "crimson_trapdoor": {
+      "trigger": "impossible"
+    },
+    "warped_trapdoor": {
+      "trigger": "impossible"
+    },
+    "iron_trapdoor": {
+      "trigger": "impossible"
+    },
+    "oak_stairs": {
+      "trigger": "impossible"
+    },
+    "spruce_stairs": {
+      "trigger": "impossible"
+    },
+    "birch_stairs": {
+      "trigger": "impossible"
+    },
+    "cherry_stairs": {
+      "trigger": "impossible"
+    },
+    "bamboo_stairs": {
+      "trigger": "impossible"
+    },
+    "jungle_stairs": {
+      "trigger": "impossible"
+    },
+    "acacia_stairs": {
+      "trigger": "impossible"
+    },
+    "dark_oak_stairs": {
+      "trigger": "impossible"
+    },
+    "mangrove_stairs": {
+      "trigger": "impossible"
+    },
+    "crimson_stairs": {
+      "trigger": "impossible"
+    },
+    "warped_stairs": {
+      "trigger": "impossible"
+    },
+    "stone_stairs": {
+      "trigger": "impossible"
+    },
+    "cobblestone_stairs": {
+      "trigger": "impossible"
+    },
+    "mossy_cobblestone_stairs": {
+      "trigger": "impossible"
+    },
+    "stone_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "mossy_stone_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "andesite_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_andesite_stairs": {
+      "trigger": "impossible"
+    },
+    "diorite_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_diorite_stairs": {
+      "trigger": "impossible"
+    },
+    "granite_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_granite_stairs": {
+      "trigger": "impossible"
+    },
+    "sandstone_stairs": {
+      "trigger": "impossible"
+    },
+    "smooth_sandstone_stairs": {
+      "trigger": "impossible"
+    },
+    "red_sandstone_stairs": {
+      "trigger": "impossible"
+    },
+    "smooth_red_sandstone_stairs": {
+      "trigger": "impossible"
+    },
+    "brick_stairs": {
+      "trigger": "impossible"
+    },
+    "prismarine_stairs": {
+      "trigger": "impossible"
+    },
+    "prismarine_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "dark_prismarine_stairs": {
+      "trigger": "impossible"
+    },
+    "nether_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "red_nether_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "quartz_stairs": {
+      "trigger": "impossible"
+    },
+    "smooth_quartz_stairs": {
+      "trigger": "impossible"
+    },
+    "purpur_stairs": {
+      "trigger": "impossible"
+    },
+    "end_stone_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "blackstone_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "exposed_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "weathered_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "oxidized_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "waxed_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "waxed_exposed_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "waxed_weathered_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "waxed_oxidized_cut_copper_stairs": {
+      "trigger": "impossible"
+    },
+    "cobbled_deepslate_stairs": {
+      "trigger": "impossible"
+    },
+    "polished_deepslate_stairs": {
+      "trigger": "impossible"
+    },
+    "deepslate_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "deepslate_tile_stairs": {
+      "trigger": "impossible"
+    },
+    "mud_brick_stairs": {
+      "trigger": "impossible"
+    },
+    "oak_slab": {
+      "trigger": "impossible"
+    },
+    "spruce_slab": {
+      "trigger": "impossible"
+    },
+    "birch_slab": {
+      "trigger": "impossible"
+    },
+    "cherry_slab": {
+      "trigger": "impossible"
+    },
+    "bamboo_slab": {
+      "trigger": "impossible"
+    },
+    "jungle_slab": {
+      "trigger": "impossible"
+    },
+    "acacia_slab": {
+      "trigger": "impossible"
+    },
+    "dark_oak_slab": {
+      "trigger": "impossible"
+    },
+    "mangrove_slab": {
+      "trigger": "impossible"
+    },
+    "crimson_slab": {
+      "trigger": "impossible"
+    },
+    "warped_slab": {
+      "trigger": "impossible"
+    },
+    "stone_slab": {
+      "trigger": "impossible"
+    },
+    "smooth_stone_slab": {
+      "trigger": "impossible"
+    },
+    "cobblestone_slab": {
+      "trigger": "impossible"
+    },
+    "mossy_cobblestone_slab": {
+      "trigger": "impossible"
+    },
+    "stone_brick_slab": {
+      "trigger": "impossible"
+    },
+    "mossy_stone_brick_slab": {
+      "trigger": "impossible"
+    },
+    "andesite_slab": {
+      "trigger": "impossible"
+    },
+    "polished_andesite_slab": {
+      "trigger": "impossible"
+    },
+    "diorite_slab": {
+      "trigger": "impossible"
+    },
+    "polished_diorite_slab": {
+      "trigger": "impossible"
+    },
+    "granite_slab": {
+      "trigger": "impossible"
+    },
+    "polished_granite_slab": {
+      "trigger": "impossible"
+    },
+    "sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "cut_sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "smooth_sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "red_sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "cut_red_sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "smooth_red_sandstone_slab": {
+      "trigger": "impossible"
+    },
+    "brick_slab": {
+      "trigger": "impossible"
+    },
+    "prismarine_slab": {
+      "trigger": "impossible"
+    },
+    "prismarine_brick_slab": {
+      "trigger": "impossible"
+    },
+    "dark_prismarine_slab": {
+      "trigger": "impossible"
+    },
+    "nether_brick_slab": {
+      "trigger": "impossible"
+    },
+    "red_nether_brick_slab": {
+      "trigger": "impossible"
+    },
+    "quartz_slab": {
+      "trigger": "impossible"
+    },
+    "smooth_quartz_slab": {
+      "trigger": "impossible"
+    },
+    "purpur_slab": {
+      "trigger": "impossible"
+    },
+    "end_stone_brick_slab": {
+      "trigger": "impossible"
+    },
+    "blackstone_slab": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_slab": {
+      "trigger": "impossible"
+    },
+    "polished_blackstone_brick_slab": {
+      "trigger": "impossible"
+    },
+    "cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "exposed_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "weathered_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "oxidized_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "waxed_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "waxed_exposed_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "waxed_weathered_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "waxed_oxidized_cut_copper_slab": {
+      "trigger": "impossible"
+    },
+    "cobbled_deepslate_slab": {
+      "trigger": "impossible"
+    },
+    "deepslate_brick_slab": {
+      "trigger": "impossible"
+    },
+    "deepslate_tile_slab": {
+      "trigger": "impossible"
+    },
+    "mud_brick_slab": {
+      "trigger": "impossible"
+    },
+    "azalea_leaves": {
+      "trigger": "impossible"
+    },
+    "flowering_azalea_leaves": {
+      "trigger": "impossible"
+    },
+    "decorated_pot": {
+      "trigger": "impossible"
+    },
+    "oak_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "birch_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "dark_oak_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "acacia_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "spruce_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "jungle_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "crimson_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "warped_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "bamboo_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "cherry_wall_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "mangrove_wall_hangingsign": {
+      "trigger": "impossible"
+    },
+    "mangrove_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "bamboo_sign": {
+      "trigger": "impossible"
+    },
+    "cherry_sign": {
+      "trigger": "impossible"
+    },
+    "bamboo_mosaic_stairs": {
+      "trigger": "impossible"
+    },
+    "bamboo_mosaic_slab": {
+      "trigger": "impossible"
+    },
+    "oak_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "birch_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "dark_oak_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "acacia_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "spruce_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "jungle_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "crimson_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "warped_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "bamboo_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "cherry_hanging_sign": {
+      "trigger": "impossible"
+    },
+    "mangrove_wall_sign": {
+      "trigger": "impossible"
+    },
+    "oak_wall_sign": {
+      "trigger": "impossible"
+    },
+    "birch_wall_sign": {
+      "trigger": "impossible"
+    },
+    "dark_oak_wall_sign": {
+      "trigger": "impossible"
+    },
+    "acacia_wall_sign": {
+      "trigger": "impossible"
+    },
+    "spruce_wall_sign": {
+      "trigger": "impossible"
+    },
+    "jungle_wall_sign": {
+      "trigger": "impossible"
+    },
+    "crimson_wall_sign": {
+      "trigger": "impossible"
+    },
+    "warped_wall_sign": {
+      "trigger": "impossible"
+    },
+    "bamboo_wall_sign": {
+      "trigger": "impossible"
+    },
+    "cherry_wall_sign": {
+      "trigger": "impossible"
+    },
+    "calibrated_sculk_sensor": {
+      "trigger": "impossible"
     }
+  }
 }

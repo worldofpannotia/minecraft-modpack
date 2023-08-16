@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:acacia_sapling",
-        "minecraft:acacia_log"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:acacia_sapling",
+    "minecraft:acacia_log"
+  ]
 }

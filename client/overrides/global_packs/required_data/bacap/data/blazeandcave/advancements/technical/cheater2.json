@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:barrier"
-        },
-        "title": {
-            "translate": "You are a big cheater!"
-        },
-        "description": {
-            "color": "red",
-            "translate": "You don't want to have this advancement unlocked!"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal",
-        "hidden": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
     },
-    "parent": "blazeandcave:technical/big_cheater",
-    "rewards": {
-        "function": "bc_rewards:technical/cheater2"
+    "title": {
+      "translate": "You are a big cheater!"
     },
-    "criteria": {
-        "big_cheater": {
-            "trigger": "minecraft:impossible"
-        }
+    "description": {
+      "color": "red",
+      "translate": "You don't want to have this advancement unlocked!"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal",
+    "hidden": "true"
+  },
+  "parent": "blazeandcave:technical/big_cheater",
+  "rewards": {
+    "function": "bc_rewards:technical/cheater2"
+  },
+  "criteria": {
+    "big_cheater": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

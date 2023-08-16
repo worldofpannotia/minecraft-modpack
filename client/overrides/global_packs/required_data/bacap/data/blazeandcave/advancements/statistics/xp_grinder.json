@@ -1,36 +1,36 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:lapis_block",
-            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
-        },
-        "title": {
-            "translate": "XP Grinder"
-        },
-        "description": {
-            "color": "dark_purple",
-            "translate": "Reach 300 experience levels"
-        },
-        "announce_to_chat": "true",
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:lapis_block",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
     },
-    "parent": "blazeandcave:statistics/overlevelling",
-    "rewards": {
-        "function": "bc_rewards:statistics/xp_grinder"
+    "title": {
+      "translate": "XP Grinder"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "level": {
-                            "min": 300
-                        }
-                    }
-                }
+    "description": {
+      "color": "dark_purple",
+      "translate": "Reach 300 experience levels"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/overlevelling",
+  "rewards": {
+    "function": "bc_rewards:statistics/xp_grinder"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "level": {
+              "min": 300
             }
+          }
         }
+      }
     }
+  }
 }

@@ -1,32 +1,32 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:torchflower_seeds"
-        },
-        "title": {
-            "translate": "Jurassic Sniff"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Breed two Sniffers together using Torchflower Seeds"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:torchflower_seeds"
     },
-    "parent": "blazeandcave:adventure/truffle_worm",
-    "rewards": {
-        "function": "bc_rewards:adventure/jurassic_sniff"
+    "title": {
+      "translate": "Jurassic Sniff"
     },
-    "criteria": {
-        "sniffer": {
-            "trigger": "minecraft:bred_animals",
-            "conditions": {
-                "parent": {
-                    "type": "minecraft:sniffer"
-                },
-                "partner": {
-                    "type": "minecraft:sniffer"
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Breed two Sniffers together using Torchflower Seeds"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:adventure/truffle_worm",
+  "rewards": {
+    "function": "bc_rewards:adventure/jurassic_sniff"
+  },
+  "criteria": {
+    "sniffer": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:sniffer"
+        },
+        "partner": {
+          "type": "minecraft:sniffer"
         }
+      }
     }
+  }
 }

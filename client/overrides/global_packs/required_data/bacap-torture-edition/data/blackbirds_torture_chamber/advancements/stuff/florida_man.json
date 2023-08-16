@@ -1,32 +1,32 @@
 {
-    "criteria": {
-        "florida_man": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "killing_blow": {
-                    "source_entity": {
-                        "nbt": "{Tags:[\"florida_man\"]}"
-                    }
-                },
-                "entity": {
-                    "type": "wither"
-                }
-            }
+  "criteria": {
+    "florida_man": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "nbt": "{Tags:[\"florida_man\"]}"
+          }
+        },
+        "entity": {
+          "type": "wither"
         }
-    },
-    "display": {
-        "icon": {
-            "item": "red_sand"
-        },
-        "title": "Florida Man",
-        "description": {
-            "color": "dark_red",
-            "text": "Kill a wither while having nothing in your inventory"
-        },
-        "frame": "challenge"
-    },
-    "parent": "blackbirds_torture_chamber:stuff/8bit_wither",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/florida_man"
+      }
     }
+  },
+  "display": {
+    "icon": {
+      "item": "red_sand"
+    },
+    "title": "Florida Man",
+    "description": {
+      "color": "dark_red",
+      "text": "Kill a wither while having nothing in your inventory"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stuff/8bit_wither",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/florida_man"
+  }
 }

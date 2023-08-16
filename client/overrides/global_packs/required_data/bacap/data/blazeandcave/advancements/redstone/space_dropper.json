@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:dropper"
-        },
-        "title": {
-            "translate": "Space Dropper"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft a dropper for item transportation"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper"
     },
-    "parent": "blazeandcave:redstone/space_hopper",
-    "rewards": {
-        "function": "bc_rewards:redstone/space_dropper"
+    "title": {
+      "translate": "Space Dropper"
     },
-    "criteria": {
-        "dropper": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:dropper"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Craft a dropper for item transportation"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:redstone/space_hopper",
+  "rewards": {
+    "function": "bc_rewards:redstone/space_dropper"
+  },
+  "criteria": {
+    "dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

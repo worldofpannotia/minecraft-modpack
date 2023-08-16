@@ -1,35 +1,35 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:raw_iron"
-        },
-        "title": {
-            "translate": "Iron Miner"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Mine a stack of Raw Iron"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_iron"
     },
-    "parent": "blazeandcave:mining/iron_man",
-    "rewards": {
-        "function": "bc_rewards:mining/iron_miner"
+    "title": {
+      "translate": "Iron Miner"
     },
-    "criteria": {
-        "raw_iron": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:raw_iron"
-                        ],
-                        "count": 64
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine a stack of Raw Iron"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/iron_man",
+  "rewards": {
+    "function": "bc_rewards:mining/iron_miner"
+  },
+  "criteria": {
+    "raw_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ],
+            "count": 64
+          }
+        ]
+      }
     }
+  }
 }

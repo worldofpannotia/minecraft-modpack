@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:skeleton_skull",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "What did it cost? 8 years.",
-        "description": {
-            "color": "dark_red",
-            "text": "Stand on a Chest filled with Skeleton Skulls"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "What did it cost? 8 years.",
+    "description": {
+      "color": "dark_red",
+      "text": "Stand on a Chest filled with Skeleton Skulls"
     },
-    "parent": "blazeandcave:monsters/spooky_skulls",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_skeleton_skulls"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:monsters/spooky_skulls",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_skeleton_skulls"
+  }
 }

@@ -1,107 +1,107 @@
 {
-    "criteria": {
-        "outer_pos_x": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "x": {
-                                        "min": 12550820.0
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
+  "criteria": {
+    "outer_pos_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 12550820.0
+                  }
+                }
+              }
             }
-        },
-        "outer_pos_z": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "z": {
-                                        "min": 12550820.0
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        "outer_neg_x": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "x": {
-                                        "max": -12550820.0
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        "outer_neg_z": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "z": {
-                                        "max": -12550820.0
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "outer_pos_x",
-            "outer_pos_z",
-            "outer_neg_x",
-            "outer_neg_z"
+          }
         ]
-    ],
-    "display": {
-        "title": "Where are the farlands?",
-        "description": {
-            "color": "dark_red",
-            "text": "Reach where the farlands once were"
-        },
-        "icon": {
-            "item": "structure_void"
-        },
-        "frame": "challenge"
+      }
     },
-    "parent": "blazeandcave:challenges/a_million_blocks_away",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/where_are_the_farlands"
+    "outer_pos_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "z": {
+                    "min": 12550820.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "outer_neg_x": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "max": -12550820.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "outer_neg_z": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "z": {
+                    "max": -12550820.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
     }
+  },
+  "requirements": [
+    [
+      "outer_pos_x",
+      "outer_pos_z",
+      "outer_neg_x",
+      "outer_neg_z"
+    ]
+  ],
+  "display": {
+    "title": "Where are the farlands?",
+    "description": {
+      "color": "dark_red",
+      "text": "Reach where the farlands once were"
+    },
+    "icon": {
+      "item": "structure_void"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/a_million_blocks_away",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/where_are_the_farlands"
+  }
 }

@@ -1,48 +1,48 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:arrow"
-        },
-        "title": {
-            "translate": "Impossible..."
-        },
-        "description": {
-            "color": "dark_purple",
-            "translate": "Kill an Enderman with an arrow"
-        },
-        "announce_to_chat": "true",
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:arrow"
     },
-    "parent": "blazeandcave:monsters/plane_walker",
-    "rewards": {
-        "function": "bc_rewards:monsters/impossible"
+    "title": {
+      "translate": "Impossible..."
     },
-    "criteria": {
-        "enderman_arrow": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "type": "enderman",
-                    "distance": {
-                        "absolute": {
-                            "max": 5
-                        }
-                    }
-                },
-                "killing_blow": {
-                    "source_entity": {
-                        "equipment": {
-                            "mainhand": {
-                                "items": [
-                                    "minecraft:arrow",
-                                    "minecraft:tipped_arrow",
-                                    "minecraft:spectral_arrow"
-                                ]
-                            }
-                        }
-                    }
-                }
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill an Enderman with an arrow"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:monsters/plane_walker",
+  "rewards": {
+    "function": "bc_rewards:monsters/impossible"
+  },
+  "criteria": {
+    "enderman_arrow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "enderman",
+          "distance": {
+            "absolute": {
+              "max": 5
             }
+          }
+        },
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:arrow",
+                  "minecraft:tipped_arrow",
+                  "minecraft:spectral_arrow"
+                ]
+              }
+            }
+          }
         }
+      }
     }
+  }
 }

@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "oak_boat"
-        },
-        "title": "Must... Find... Land...!",
-        "description": {
-            "color": "dark_red",
-            "text": "Stay in a boat in water for at least 25 hours"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "oak_boat"
     },
-    "parent": "blazeandcave:biomes/sleep_with_the_fishes",
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "Must... Find... Land...!",
+    "description": {
+      "color": "dark_red",
+      "text": "Stay in a boat in water for at least 25 hours"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/must_find_land"
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:biomes/sleep_with_the_fishes",
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/must_find_land"
+  }
 }

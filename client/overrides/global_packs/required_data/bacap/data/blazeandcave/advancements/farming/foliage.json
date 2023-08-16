@@ -1,51 +1,51 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:grass"
-        },
-        "title": {
-            "translate": "Foliage"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Use shears to pick up tall grass or ferns"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:grass"
     },
-    "parent": "blazeandcave:farming/trimming_the_treetops",
-    "rewards": {
-        "function": "bc_rewards:farming/foliage"
+    "title": {
+      "translate": "Foliage"
     },
-    "criteria": {
-        "grass": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:grass"
-                        ]
-                    }
-                ]
-            }
-        },
-        "fern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:fern"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Use shears to pick up tall grass or ferns"
     },
-    "requirements": [
-        [
-            "grass",
-            "fern"
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "rewards": {
+    "function": "bc_rewards:farming/foliage"
+  },
+  "criteria": {
+    "grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass"
+            ]
+          }
         ]
+      }
+    },
+    "fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "grass",
+      "fern"
     ]
+  ]
 }

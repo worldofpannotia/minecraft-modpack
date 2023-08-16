@@ -1,35 +1,35 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:zombie_spawn_egg"
-        },
-        "title": {
-            "translate": "Zombie Slayer"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Collect a stack of rotten flesh"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_spawn_egg"
     },
-    "parent": "blazeandcave:monsters/desert_nomad",
-    "rewards": {
-        "function": "bc_rewards:monsters/zombie_slayer"
+    "title": {
+      "translate": "Zombie Slayer"
     },
-    "criteria": {
-        "rotten_flesh": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:rotten_flesh"
-                        ],
-                        "count": 64
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Collect a stack of rotten flesh"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:monsters/desert_nomad",
+  "rewards": {
+    "function": "bc_rewards:monsters/zombie_slayer"
+  },
+  "criteria": {
+    "rotten_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh"
+            ],
+            "count": 64
+          }
+        ]
+      }
     }
+  }
 }

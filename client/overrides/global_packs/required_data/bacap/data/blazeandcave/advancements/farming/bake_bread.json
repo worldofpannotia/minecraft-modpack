@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bread"
-        },
-        "title": {
-            "translate": "Bake Bread"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Grow wheat and use it to bake bread"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
     },
-    "parent": "minecraft:husbandry/plant_seed",
-    "rewards": {
-        "function": "bc_rewards:farming/bake_bread"
+    "title": {
+      "translate": "Bake Bread"
     },
-    "criteria": {
-        "bread": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:bread"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Grow wheat and use it to bake bread"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "rewards": {
+    "function": "bc_rewards:farming/bake_bread"
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:hopper_minecart"
-        },
-        "title": "250km in a minecart",
-        "description": {
-            "color": "dark_red",
-            "text": "That's more than 3 rails"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper_minecart"
     },
-    "parent": "blazeandcave:statistics/global_railway_network",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:minecart_one_cm",
-                                "value": {
-                                    "min": 25000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "250km in a minecart",
+    "description": {
+      "color": "dark_red",
+      "text": "That's more than 3 rails"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/global_railway_network",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:minecart_one_cm",
+                "value": {
+                  "min": 25000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/minecart_250"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/minecart_250"
+  }
 }

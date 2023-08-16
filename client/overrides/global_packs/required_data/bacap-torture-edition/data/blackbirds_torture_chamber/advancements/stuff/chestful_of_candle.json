@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:red_candle",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "title": "The Ritual Continues",
-        "description": {
-            "color": "dark_red",
-            "text": "Stand on a Chest filled with Red Candles"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:red_candle",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "The Ritual Continues",
+    "description": {
+      "color": "dark_red",
+      "text": "Stand on a Chest filled with Red Candles"
     },
-    "parent": "blazeandcave:building/the_ritual_begins",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_candle"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:building/the_ritual_begins",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_candle"
+  }
 }

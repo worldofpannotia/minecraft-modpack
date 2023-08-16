@@ -1,48 +1,48 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:barrier"
-        },
-        "title": "Pixel Perfecter",
-        "description": {
-            "color": "dark_red",
-            "text": "Use a Spyglass to stare at a bat from exactly 100 blocks away"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
     },
-    "parent": "blazeandcave:mining/pixel_perfect",
-    "criteria": {
-        "pixel_perfecter": {
-            "trigger": "minecraft:using_item",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "predicate": {
-                            "type_specific": {
-                                "type": "player",
-                                "looking_at": {
-                                    "type": "minecraft:bat",
-                                    "distance": {
-                                        "absolute": {
-                                            "min": 100
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "entity": "this"
+    "title": "Pixel Perfecter",
+    "description": {
+      "color": "dark_red",
+      "text": "Use a Spyglass to stare at a bat from exactly 100 blocks away"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:mining/pixel_perfect",
+  "criteria": {
+    "pixel_perfecter": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:bat",
+                  "distance": {
+                    "absolute": {
+                      "min": 100
                     }
-                ],
-                "item": {
-                    "items": [
-                        "minecraft:spyglass"
-                    ]
+                  }
                 }
-            }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/pixel_perfecter"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/pixel_perfecter"
+  }
 }

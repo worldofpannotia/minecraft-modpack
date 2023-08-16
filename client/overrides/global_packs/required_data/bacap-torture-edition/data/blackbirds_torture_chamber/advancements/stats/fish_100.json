@@ -1,18 +1,18 @@
 {
-    "display": {
-        "icon": {
-            "item": "cod"
-        },
-        "title": "Fisherman",
-        "description": "Fish 100 items"
+  "display": {
+    "icon": {
+      "item": "cod"
     },
-    "parent": "blazeandcave:statistics/root",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/fish_100"
+    "title": "Fisherman",
+    "description": "Fish 100 items"
+  },
+  "parent": "blazeandcave:technical/cheater5",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/fish_100"
+  }
 }

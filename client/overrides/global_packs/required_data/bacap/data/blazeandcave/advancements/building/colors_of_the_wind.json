@@ -1,390 +1,390 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:yellow_dye"
-        },
-        "title": {
-            "translate": "Colors of the Wind"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Dye a sign with each color of dye"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_dye"
     },
-    "parent": "blazeandcave:building/sign_off",
-    "rewards": {
-        "function": "bc_rewards:building/colors_of_the_wind"
+    "title": {
+      "translate": "Colors of the Wind"
     },
-    "criteria": {
-        "white_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:white_dye"
-                            ]
-                        }
-                    }
-                ]
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Dye a sign with each color of dye"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:building/sign_off",
+  "rewards": {
+    "function": "bc_rewards:building/colors_of_the_wind"
+  },
+  "criteria": {
+    "white_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "orange_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:orange_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:white_dye"
+              ]
             }
-        },
-        "magenta_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:magenta_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "orange_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "light_blue_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:light_blue_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:orange_dye"
+              ]
             }
-        },
-        "yellow_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:yellow_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "magenta_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "lime_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:lime_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:magenta_dye"
+              ]
             }
-        },
-        "pink_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:pink_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "light_blue_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "gray_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:gray_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_blue_dye"
+              ]
             }
-        },
-        "light_gray_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:light_gray_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "yellow_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "cyan_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:cyan_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:yellow_dye"
+              ]
             }
-        },
-        "purple_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:purple_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "lime_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "blue_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:blue_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:lime_dye"
+              ]
             }
-        },
-        "brown_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:brown_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "pink_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "green_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:green_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:pink_dye"
+              ]
             }
-        },
-        "red_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:red_dye"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "gray_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
             }
-        },
-        "black_dye": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:all_signs"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:black_dye"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:gray_dye"
+              ]
             }
-        }
+          }
+        ]
+      }
+    },
+    "light_gray_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:light_gray_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "cyan_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:cyan_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "purple_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:purple_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "blue_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:blue_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "brown_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:brown_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "green_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:green_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "red_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:red_dye"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "black_dye": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:black_dye"
+              ]
+            }
+          }
+        ]
+      }
     }
+  }
 }

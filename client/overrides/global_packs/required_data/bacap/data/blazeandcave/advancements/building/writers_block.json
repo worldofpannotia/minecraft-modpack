@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:lectern"
-        },
-        "title": {
-            "translate": "Writer's Block"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft a lectern using wooden slabs and a bookshelf then place it"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:lectern"
     },
-    "parent": "blazeandcave:building/barrel_rider",
-    "rewards": {
-        "function": "bc_rewards:building/writers_block"
+    "title": {
+      "translate": "Writer's Block"
     },
-    "criteria": {
-        "lectern": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": [
-                                    "minecraft:lectern"
-                                ]
-                            }
-                        }
-                    }
+    "description": {
+      "color": "green",
+      "translate": "Craft a lectern using wooden slabs and a bookshelf then place it"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:building/barrel_rider",
+  "rewards": {
+    "function": "bc_rewards:building/writers_block"
+  },
+  "criteria": {
+    "lectern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lectern"
                 ]
+              }
             }
-        }
+          }
+        ]
+      }
     }
+  }
 }

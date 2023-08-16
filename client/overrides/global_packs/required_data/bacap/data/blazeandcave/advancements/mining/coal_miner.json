@@ -1,35 +1,35 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:coal_block"
-        },
-        "title": {
-            "translate": "Coal Miner"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Mine a stack of coal"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:coal_block"
     },
-    "parent": "blazeandcave:mining/fossil_fuel",
-    "rewards": {
-        "function": "bc_rewards:mining/coal_miner"
+    "title": {
+      "translate": "Coal Miner"
     },
-    "criteria": {
-        "coal": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:coal"
-                        ],
-                        "count": 64
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Mine a stack of coal"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:mining/fossil_fuel",
+  "rewards": {
+    "function": "bc_rewards:mining/coal_miner"
+  },
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ],
+            "count": 64
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,25 +1,25 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:ender_eye"
-        },
-        "title": {
-            "translate": "Event Horizon"
-        },
-        "description": {
-            "color": "dark_purple",
-            "translate": "Survive void damage"
-        },
-        "announce_to_chat": "true",
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
     },
-    "parent": "blazeandcave:end/the_point_of_no_return",
-    "rewards": {
-        "function": "bc_rewards:end/event_horizon"
+    "title": {
+      "translate": "Event Horizon"
     },
-    "criteria": {
-        "event_horizon": {
-            "trigger": "minecraft:impossible"
-        }
+    "description": {
+      "color": "dark_purple",
+      "translate": "Survive void damage"
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:end/the_point_of_no_return",
+  "rewards": {
+    "function": "bc_rewards:end/event_horizon"
+  },
+  "criteria": {
+    "event_horizon": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

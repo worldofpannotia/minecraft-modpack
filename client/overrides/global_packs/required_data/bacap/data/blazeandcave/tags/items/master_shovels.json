@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:diamond_shovel",
-        "minecraft:netherite_shovel"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:diamond_shovel",
+    "minecraft:netherite_shovel"
+  ]
 }

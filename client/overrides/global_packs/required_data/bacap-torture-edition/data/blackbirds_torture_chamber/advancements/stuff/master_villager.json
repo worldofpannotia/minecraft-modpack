@@ -1,0 +1,4640 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": "Master Villager",
+    "description": {
+      "color": "dark_red",
+      "text": "Trade for everything from a villager"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/businessman",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/master_villager"
+  },
+  "criteria": {
+    "emerald": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_helmet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_helmet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_chestplate"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_leggings": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_leggings"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_boots"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bell": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bell"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "chainmail_leggings": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chainmail_leggings"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "chainmail_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chainmail_boots"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "chainmail_helmet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chainmail_helmet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "chainmail_chestplate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chainmail_chestplate"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "shield": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_leggings"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_boots"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_helmet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_chestplate"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_porkchop"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:map"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:filled_map"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "item_frame": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:item_frame"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "globe_terracotta_pattern": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:globe_banner_pattern"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "white_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_gray_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "gray_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "black_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brown_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "red_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "yellow_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "orange_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lime_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "green_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cyan_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_blue_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blue_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "purple_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "magenta_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pink_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:redstone"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lapis_lazuli"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glowstone"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_pearl"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "experience_bottle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:experience_bottle"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bread": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pumpkin_pie"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "apple": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cake": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cake"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blindness_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:15}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "jump_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:8}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "night_vision_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:16}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "weakness_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:18}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "poison_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:19}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "saturation_suspicious_stew": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:23}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_carrot"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "glistering_melon_slice": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glistering_melon_slice"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_cod"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bucket_of_cod": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod_bucket"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_salmon"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:campfire"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "flint": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bow_enchanted": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "nbt": "{Enchantments:[{}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "crossbow_enchanted": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "nbt": "{Enchantments:[{}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "night_vision_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:night_vision"
+        }
+      }
+    },
+    "long_night_vision_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_night_vision"
+        }
+      }
+    },
+    "invisibility_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:invisibility"
+        }
+      }
+    },
+    "long_invisibility_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_invisibility"
+        }
+      }
+    },
+    "leaping_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:leaping"
+        }
+      }
+    },
+    "long_leaping_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_leaping"
+        }
+      }
+    },
+    "strong_leaping_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_leaping"
+        }
+      }
+    },
+    "fire_resistance_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:fire_resistance"
+        }
+      }
+    },
+    "long_fire_resistance_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_fire_resistance"
+        }
+      }
+    },
+    "swiftness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:swiftness"
+        }
+      }
+    },
+    "long_swiftness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_swiftness"
+        }
+      }
+    },
+    "strong_swiftness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_swiftness"
+        }
+      }
+    },
+    "slowness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:slowness"
+        }
+      }
+    },
+    "long_slowness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_slowness"
+        }
+      }
+    },
+    "strong_slowness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_slowness"
+        }
+      }
+    },
+    "water_breathing_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:water_breathing"
+        }
+      }
+    },
+    "long_water_breathing_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_water_breathing"
+        }
+      }
+    },
+    "healing_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:healing"
+        }
+      }
+    },
+    "strong_healing_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_healing"
+        }
+      }
+    },
+    "harming_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:harming"
+        }
+      }
+    },
+    "strong_harming_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_harming"
+        }
+      }
+    },
+    "normal_poison_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:poison"
+        }
+      }
+    },
+    "long_poison_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_poison"
+        }
+      }
+    },
+    "strong_poison_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_poison"
+        }
+      }
+    },
+    "regeneration_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:regeneration"
+        }
+      }
+    },
+    "long_regeneration_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_regeneration"
+        }
+      }
+    },
+    "strong_regeneration_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_regeneration"
+        }
+      }
+    },
+    "strength_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strength"
+        }
+      }
+    },
+    "long_strength_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_strength"
+        }
+      }
+    },
+    "strong_strength_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_strength"
+        }
+      }
+    },
+    "weakness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:weakness"
+        }
+      }
+    },
+    "long_weakness_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_weakness"
+        }
+      }
+    },
+    "turtle_master_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:turtle_master"
+        }
+      }
+    },
+    "long_turtle_master_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_turtle_master"
+        }
+      }
+    },
+    "strong_turtle_master_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:strong_turtle_master"
+        }
+      }
+    },
+    "slow_falling_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:slow_falling"
+        }
+      }
+    },
+    "long_slow_falling_arrow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+          "potion": "minecraft:long_slow_falling"
+        }
+      }
+    },
+    "leather_leggings": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_leggings"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "leather_chestplate": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_chestplate"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "leather_helmet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "leather_boots": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_boots"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "leather_horse_armor": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_horse_armor"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:saddle"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "bookshelf": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bookshelf"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lantern": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lantern"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "glass": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "clock": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:clock"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "compass": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:compass"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "name_tag": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brick": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brick"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "chiseled_stone_bricks": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chiseled_stone_bricks"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "polished_andesite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_andesite"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "polished_granite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_granite"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "polished_diorite": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_diorite"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "dripstone_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dripstone_block"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "white_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_gray_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "gray_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "black_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brown_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "red_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "yellow_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "orange_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lime_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "green_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cyan_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_blue_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blue_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "purple_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "magenta_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pink_glazed_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_glazed_terracotta"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "white_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_gray_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "gray_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "black_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brown_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "red_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "yellow_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "orange_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lime_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "green_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cyan_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_blue_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blue_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "purple_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "magenta_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pink_wool": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_wool"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "quartz_pillar": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:quartz_pillar"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "quartz_block": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:quartz_block"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "shears": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "white_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_gray_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "gray_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "black_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brown_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "red_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "yellow_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "orange_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lime_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "green_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cyan_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_blue_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blue_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "purple_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "magenta_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pink_carpet": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_carpet"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "white_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_gray_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "gray_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "black_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "brown_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "red_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "yellow_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "orange_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "lime_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "green_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "cyan_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "light_blue_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "blue_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "purple_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "magenta_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "pink_bed": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_bed"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "painting": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:painting"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_axe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_shovel"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_pickaxe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_hoe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_axe_enchanted": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_axe"
+          ],
+          "nbt": "{Enchantments:[{}]}"
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_shovel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_shovel"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_pickaxe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_hoe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_axe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_pickaxe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_shovel"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_axe"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_sword"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_sword"
+          ]
+        },
+        "villager": {
+          "type": "villager"
+        }
+      }
+    },
+    "protection1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:protection",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "protection2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:protection",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "protection3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:protection",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "protection4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:protection",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_protection1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_protection",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_protection2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_protection",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_protection3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_protection",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_protection4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_protection",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "feather_falling1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:feather_falling",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "feather_falling2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:feather_falling",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "feather_falling3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:feather_falling",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "feather_falling4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:feather_falling",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "blast_protection1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:blast_protection",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "blast_protection2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:blast_protection",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "blast_protection3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:blast_protection",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "blast_protection4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:blast_protection",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "projectile_protection1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:projectile_protection",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "projectile_protection2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:projectile_protection",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "projectile_protection3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:projectile_protection",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "projectile_protection4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:projectile_protection",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "respiration1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:respiration",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "respiration2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:respiration",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "respiration3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:respiration",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "aqua_affinity_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:aqua_affinity",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "thorns1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:thorns",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "thorns2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:thorns",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "thorns3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:thorns",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "depth_strider1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:depth_strider",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "depth_strider2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:depth_strider",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "depth_strider3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:depth_strider",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "frost_walker1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:frost_walker",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "frost_walker2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:frost_walker",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "binding_curse_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sharpness1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sharpness",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sharpness2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sharpness",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sharpness3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sharpness",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sharpness4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sharpness",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sharpness5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sharpness",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "smite1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:smite",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "smite2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:smite",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "smite3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:smite",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "smite4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:smite",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "smite5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:smite",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "bane_of_arthropods1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:bane_of_arthropods",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "bane_of_arthropods2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:bane_of_arthropods",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "bane_of_arthropods3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:bane_of_arthropods",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "bane_of_arthropods4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:bane_of_arthropods",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "bane_of_arthropods5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:bane_of_arthropods",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "knockback1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:knockback",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "knockback2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:knockback",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_aspect1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_aspect",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fire_aspect2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fire_aspect",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "looting1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:looting",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "looting2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:looting",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "looting3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:looting",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sweeping1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sweeping",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sweeping2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sweeping",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "sweeping3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:sweeping",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "efficiency1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "efficiency2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "efficiency3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "efficiency4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "efficiency5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:efficiency",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "silk_touch_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "unbreaking1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "unbreaking2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "unbreaking3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:unbreaking",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fortune1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fortune",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fortune2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fortune",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "fortune3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:fortune",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "power1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:power",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "power2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:power",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "power3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:power",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "power4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:power",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "power5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:power",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "punch1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:punch",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "punch2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:punch",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "flame_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:flame",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "infinity_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:infinity",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "luck_of_the_sea1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:luck_of_the_sea",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "luck_of_the_sea2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:luck_of_the_sea",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "luck_of_the_sea3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:luck_of_the_sea",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "lure1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:lure",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "lure2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:lure",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "lure3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:lure",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "mending_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:mending",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "vanishing_curse_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "loyalty1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:loyalty",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "loyalty2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:loyalty",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "loyalty3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:loyalty",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "riptide1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:riptide",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "riptide2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:riptide",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "riptide3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:riptide",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "impaling1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:impaling",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "impaling2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:impaling",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "impaling3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:impaling",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "impaling4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:impaling",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "impaling5_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:impaling",
+              "levels": 5
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "channeling_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:channeling",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "quick_charge1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:quick_charge",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "quick_charge2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:quick_charge",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "quick_charge3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:quick_charge",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "piercing1_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:piercing",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "piercing2_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:piercing",
+              "levels": 2
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "piercing3_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:piercing",
+              "levels": 3
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "piercing4_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:piercing",
+              "levels": 4
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    },
+    "multishot_book": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "stored_enchantments": [
+            {
+              "enchantment": "minecraft:multishot",
+              "levels": 1
+            }
+          ]
+        },
+        "villager": {
+          "type": "minecraft:villager"
+        }
+      }
+    }
+  }
+}

@@ -1,76 +1,76 @@
 {
-    "criteria": {
-        "yes": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": {
-                    "effects": {
-                        "minecraft:speed": {},
-                        "minecraft:slowness": {},
-                        "minecraft:strength": {},
-                        "minecraft:jump_boost": {},
-                        "minecraft:regeneration": {},
-                        "minecraft:fire_resistance": {},
-                        "minecraft:water_breathing": {},
-                        "minecraft:invisibility": {},
-                        "minecraft:night_vision": {},
-                        "minecraft:weakness": {},
-                        "minecraft:poison": {},
-                        "minecraft:resistance": {}
-                    },
-                    "distance": {
-                        "absolute": {
-                            "min": 0.001
-                        }
-                    }
-                },
-                "player": {
-                    "effects": {
-                        "minecraft:speed": {},
-                        "minecraft:slowness": {},
-                        "minecraft:strength": {},
-                        "minecraft:jump_boost": {},
-                        "minecraft:regeneration": {},
-                        "minecraft:fire_resistance": {},
-                        "minecraft:water_breathing": {},
-                        "minecraft:invisibility": {},
-                        "minecraft:night_vision": {},
-                        "minecraft:weakness": {},
-                        "minecraft:poison": {},
-                        "minecraft:wither": {},
-                        "minecraft:haste": {},
-                        "minecraft:mining_fatigue": {},
-                        "minecraft:levitation": {},
-                        "minecraft:glowing": {},
-                        "minecraft:absorption": {},
-                        "minecraft:hunger": {},
-                        "minecraft:nausea": {},
-                        "minecraft:resistance": {},
-                        "minecraft:slow_falling": {},
-                        "minecraft:conduit_power": {},
-                        "minecraft:dolphins_grace": {},
-                        "minecraft:blindness": {},
-                        "minecraft:bad_omen": {},
-                        "minecraft:hero_of_the_village": {},
-                        "minecraft:darkness": {}
-                    }
-                }
+  "criteria": {
+    "yes": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "effects": {
+            "minecraft:speed": {},
+            "minecraft:slowness": {},
+            "minecraft:strength": {},
+            "minecraft:jump_boost": {},
+            "minecraft:regeneration": {},
+            "minecraft:fire_resistance": {},
+            "minecraft:water_breathing": {},
+            "minecraft:invisibility": {},
+            "minecraft:night_vision": {},
+            "minecraft:weakness": {},
+            "minecraft:poison": {},
+            "minecraft:resistance": {}
+          },
+          "distance": {
+            "absolute": {
+              "min": 0.001
             }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:speed": {},
+            "minecraft:slowness": {},
+            "minecraft:strength": {},
+            "minecraft:jump_boost": {},
+            "minecraft:regeneration": {},
+            "minecraft:fire_resistance": {},
+            "minecraft:water_breathing": {},
+            "minecraft:invisibility": {},
+            "minecraft:night_vision": {},
+            "minecraft:weakness": {},
+            "minecraft:poison": {},
+            "minecraft:wither": {},
+            "minecraft:haste": {},
+            "minecraft:mining_fatigue": {},
+            "minecraft:levitation": {},
+            "minecraft:glowing": {},
+            "minecraft:absorption": {},
+            "minecraft:hunger": {},
+            "minecraft:nausea": {},
+            "minecraft:resistance": {},
+            "minecraft:slow_falling": {},
+            "minecraft:conduit_power": {},
+            "minecraft:dolphins_grace": {},
+            "minecraft:blindness": {},
+            "minecraft:bad_omen": {},
+            "minecraft:hero_of_the_village": {},
+            "minecraft:darkness": {}
+          }
         }
-    },
-    "display": {
-        "title": "How did we get here 2.0",
-        "description": {
-            "color": "dark_red",
-            "text": "kill a mob with every potion effect, while having every effect"
-        },
-        "icon": {
-            "item": "brewing_stand"
-        },
-        "frame": "challenge"
-    },
-    "parent": "minecraft:nether/all_effects",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/how_did_we_get_here_2"
+      }
     }
+  },
+  "display": {
+    "title": "How did we get here 2.0",
+    "description": {
+      "color": "dark_red",
+      "text": "Kill a mob with every potion effect, while having every effect"
+    },
+    "icon": {
+      "item": "brewing_stand"
+    },
+    "frame": "challenge"
+  },
+  "parent": "minecraft:nether/all_effects",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/how_did_we_get_here_2"
+  }
 }

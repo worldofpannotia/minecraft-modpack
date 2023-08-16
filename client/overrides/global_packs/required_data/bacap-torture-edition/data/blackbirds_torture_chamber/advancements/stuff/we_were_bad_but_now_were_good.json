@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_apple",
-            "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
-        },
-        "title": "We were bad, but now were good",
-        "description": {
-            "color": "dark_red",
-            "text": "Cure 10,000 Zombie Villagers"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple",
+      "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
     },
-    "parent": "minecraft:story/cure_zombie_villager",
-    "criteria": {
-        "trigger": {
-            "trigger": "impossible"
-        }
+    "title": "We were bad, but now were good",
+    "description": {
+      "color": "dark_red",
+      "text": "Cure 10,000 Zombie Villagers"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/we_were_bad_but_now_were_good"
+    "frame": "challenge"
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "trigger": {
+      "trigger": "impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/we_were_bad_but_now_were_good"
+  }
 }

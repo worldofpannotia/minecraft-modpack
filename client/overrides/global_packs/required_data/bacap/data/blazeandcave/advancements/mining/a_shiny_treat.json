@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glow_berries"
-        },
-        "title": {
-            "translate": "A Shiny Treat"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Eat some Glow Berries"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries"
     },
-    "parent": "blazeandcave:mining/leaflet_drop",
-    "rewards": {
-        "function": "bc_rewards:mining/a_shiny_treat"
+    "title": {
+      "translate": "A Shiny Treat"
     },
-    "criteria": {
-        "glow_berries": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:glow_berries"
-                    ]
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Eat some Glow Berries"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:mining/leaflet_drop",
+  "rewards": {
+    "function": "bc_rewards:mining/a_shiny_treat"
+  },
+  "criteria": {
+    "glow_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_berries"
+          ]
         }
+      }
     }
+  }
 }

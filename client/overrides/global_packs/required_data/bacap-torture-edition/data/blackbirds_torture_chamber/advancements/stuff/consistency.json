@@ -1,22 +1,22 @@
 {
-    "display": {
-        "title": "Consistency",
-        "description": {
-            "color": "dark_red",
-            "text": "Murder 500 Witches with lingering potions"
-        },
-        "icon": {
-            "item": "lingering_potion"
-        },
-        "frame": "challenge"
+  "display": {
+    "title": "Consistency",
+    "description": {
+      "color": "dark_red",
+      "text": "Murder 500 Witches with lingering potions"
     },
-    "criteria": {
-        "consistency": {
-            "trigger": "impossible"
-        }
+    "icon": {
+      "item": "lingering_potion"
     },
-    "parent": "blazeandcave:monsters/taste_of_your_own_medicine",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/consistency"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "consistency": {
+      "trigger": "impossible"
     }
+  },
+  "parent": "blazeandcave:monsters/taste_of_your_own_medicine",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/consistency"
+  }
 }

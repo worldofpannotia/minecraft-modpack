@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:skeleton_skull"
-        },
-        "title": "CAN'T GET IT OUT",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Ring bells 1 million times"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
     },
-    "parent": "blackbirds_torture_chamber:stats/ring_100000",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:bell_ring",
-                                "value": {
-                                    "min": 1000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "CAN'T GET IT OUT",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Ring bells 1 million times"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/ring_100000",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:bell_ring",
+                "value": {
+                  "min": 1000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/ring_1000000"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/ring_1000000"
+  }
 }

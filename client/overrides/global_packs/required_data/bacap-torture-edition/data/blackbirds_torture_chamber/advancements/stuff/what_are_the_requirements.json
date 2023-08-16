@@ -1,94 +1,94 @@
 {
-    "criteria": {
-        "kill_zombie": {
-            "trigger": "placed_block",
-            "conditions": {
-                "block": "coal_ore",
-                "location": {
-                    "position": {
-                        "x": {
-                            "min": -173085,
-                            "max": -173085
-                        },
-                        "y": {
-                            "min": 21,
-                            "max": 21
-                        },
-                        "z": {
-                            "min": 190347,
-                            "max": 190347
-                        }
-                    },
-                    "dimension": "the_nether"
-                }
+  "criteria": {
+    "kill_zombie": {
+      "trigger": "placed_block",
+      "conditions": {
+        "block": "coal_ore",
+        "location": {
+          "position": {
+            "x": {
+              "min": -173085,
+              "max": -173085
+            },
+            "y": {
+              "min": 21,
+              "max": 21
+            },
+            "z": {
+              "min": 190347,
+              "max": 190347
             }
-        },
-        "eat_notch_apple": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:leather_boots"
-                        ],
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:blast_protection",
-                                "levels": 2
-                            },
-                            {
-                                "enchantment": "minecraft:unbreaking",
-                                "levels": 3
-                            },
-                            {
-                                "enchantment": "minecraft:depth_strider",
-                                "levels": 2
-                            },
-                            {
-                                "enchantment": "minecraft:feather_falling",
-                                "levels": 3
-                            },
-                            {
-                                "enchantment": "minecraft:soul_speed",
-                                "levels": 1
-                            },
-                            {
-                                "enchantment": "minecraft:vanishing_curse",
-                                "levels": 1
-                            }
-                        ],
-                        "nbt": "{display:{Name:'{\"text\":\"I am a cheater\"}'}}"
-                    }
-                ]
-            }
-        },
-        "defeat_herobrine": {
-            "trigger": "minecraft:bee_nest_destroyed",
-            "conditions": {
-                "block": "minecraft:beehive",
-                "item": {
-                    "items": [
-                        "minecraft:golden_hoe"
-                    ]
-                },
-                "num_bees_inside": 1
-            }
+          },
+          "dimension": "the_nether"
         }
+      }
     },
-    "parent": "blazeandcave:challenges/riddle_me_this",
-    "display": {
-        "title": "What are the requirements?",
-        "description": {
-            "color": "dark_red",
-            "text": "Do some things. If you do the right things you'll get this advancement"
-        },
-        "icon": {
-            "item": "barrier",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "frame": "challenge"
+    "eat_notch_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:blast_protection",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:depth_strider",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:feather_falling",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:soul_speed",
+                "levels": 1
+              },
+              {
+                "enchantment": "minecraft:vanishing_curse",
+                "levels": 1
+              }
+            ],
+            "nbt": "{display:{Name:'{\"text\":\"I am a cheater\"}'}}"
+          }
+        ]
+      }
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/what_are_the_requirements"
+    "defeat_herobrine": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:beehive",
+        "item": {
+          "items": [
+            "minecraft:golden_hoe"
+          ]
+        },
+        "num_bees_inside": 1
+      }
     }
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "display": {
+    "title": "What are the requirements?",
+    "description": {
+      "color": "dark_red",
+      "text": "Do some things. If you do the right things you'll get this advancement"
+    },
+    "icon": {
+      "item": "barrier",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/what_are_the_requirements"
+  }
 }

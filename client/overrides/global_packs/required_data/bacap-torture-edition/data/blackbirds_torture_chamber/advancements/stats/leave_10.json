@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:spruce_leaves"
-        },
-        "title": "10 leaves",
-        "description": {
-            "color": "#75E1FF",
-            "text": "Leave the game 10 times"
-        },
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_leaves"
     },
-    "parent": "blackbirds_torture_chamber:stats/leave_1",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:leave_game",
-                                "value": {
-                                    "min": 10
-                                }
-                            }
-                        ]
-                    }
+    "title": "10 leaves",
+    "description": {
+      "color": "#75E1FF",
+      "text": "Leave the game 10 times"
+    },
+    "frame": "goal"
+  },
+  "parent": "blackbirds_torture_chamber:stats/leave_1",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:leave_game",
+                "value": {
+                  "min": 10
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/leave_10"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/leave_10"
+  }
 }

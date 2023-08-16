@@ -4,6 +4,8 @@ scoreboard players set challenge bac_settings 0
 scoreboard players set super_challenge bac_settings 0
 scoreboard players set milestone bac_settings 0
 
-gamerule announceAdvancements true
+execute in the_end run gamerule announceAdvancements true
+execute in overworld run gamerule announceAdvancements true
+execute in the_nether run gamerule announceAdvancements true
 
 function blazeandcave:config/msg_settings

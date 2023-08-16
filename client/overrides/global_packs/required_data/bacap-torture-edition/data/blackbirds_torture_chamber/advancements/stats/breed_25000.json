@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:honey_bottle"
-        },
-        "title": "( ͡O ͜ʖ ͡O)",
-        "description": {
-            "color": "black",
-            "text": "Breed 25,000 animals"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
     },
-    "parent": "blackbirds_torture_chamber:stats/breed_10000",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:animals_bred",
-                                "value": {
-                                    "min": 25000
-                                }
-                            }
-                        ]
-                    }
+    "title": "( ͡O ͜ʖ ͡O)",
+    "description": {
+      "color": "black",
+      "text": "Breed 25,000 animals"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/breed_10000",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:animals_bred",
+                "value": {
+                  "min": 25000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/breed_25000"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/breed_25000"
+  }
 }

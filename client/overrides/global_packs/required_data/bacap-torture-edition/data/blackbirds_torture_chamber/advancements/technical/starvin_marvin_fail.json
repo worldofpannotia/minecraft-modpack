@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "FAILURE": {
+      "trigger": "consume_item"
+    }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:impossibles/starvin_marvin"
+  }
+}

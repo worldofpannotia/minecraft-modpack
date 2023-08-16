@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "translate": "I'm not fat, you're fat."
+    },
+    "description": {
+      "color": "black",
+      "translate": "Eat 50.000 food items",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "italic": "true",
+          "color": "dark_gray",
+          "translate": "To view progress, run:"
+        },
+        {
+          "color": "gray",
+          "text": "\n/trigger bac_statistics"
+        }
+      ]
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/eat_25k",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/eat_50k"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

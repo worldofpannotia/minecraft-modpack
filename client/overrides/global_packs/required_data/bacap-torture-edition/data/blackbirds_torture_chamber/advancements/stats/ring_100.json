@@ -1,35 +1,35 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stick"
-        },
-        "title": "Ding, Ding, Ding!",
-        "description": "Ring bells 100 times",
-        "frame": "task"
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
     },
-    "parent": "blazeandcave:statistics/root",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:bell_ring",
-                                "value": {
-                                    "min": 100
-                                }
-                            }
-                        ]
-                    }
+    "title": "Ding, Ding, Ding!",
+    "description": "Ring bells 100 times",
+    "frame": "task"
+  },
+  "parent": "blazeandcave:statistics/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:bell_ring",
+                "value": {
+                  "min": 100
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/ring_100"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/ring_100"
+  }
 }

@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:poisonous_potato"
-        },
-        "title": {
-            "translate": "Not Today!"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Eat a poisonous potato"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:poisonous_potato"
     },
-    "parent": "blazeandcave:farming/die_potato",
-    "rewards": {
-        "function": "bc_rewards:farming/not_today"
+    "title": {
+      "translate": "Not Today!"
     },
-    "criteria": {
-        "poisonous_potato": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:poisonous_potato"
-                    ]
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Eat a poisonous potato"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:farming/die_potato",
+  "rewards": {
+    "function": "bc_rewards:farming/not_today"
+  },
+  "criteria": {
+    "poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
         }
+      }
     }
+  }
 }

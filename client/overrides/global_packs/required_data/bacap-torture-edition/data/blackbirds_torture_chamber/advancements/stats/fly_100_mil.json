@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:firework_star"
-        },
-        "title": "Are you a plane?",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Fly 100,000km with elytra"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_star"
     },
-    "parent": "blackbirds_torture_chamber:stats/fly_10_mil",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "Are you a plane?",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Fly 100,000km with elytra"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/fly_100_mil"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/fly_10_mil",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/fly_100_mil"
+  }
 }

@@ -1,39 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bow",
-            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
-        },
-        "title": "Eternal Enchanter",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Enchant 5000 items"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
     },
-    "parent": "blackbirds_torture_chamber:stats/enchant_1000",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:enchant_item",
-                                "value": {
-                                    "min": 5000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Eternal Enchanter",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Enchant 5000 items"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/enchant_1000",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:enchant_item",
+                "value": {
+                  "min": 5000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/enchant_5000"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/enchant_5000"
+  }
 }

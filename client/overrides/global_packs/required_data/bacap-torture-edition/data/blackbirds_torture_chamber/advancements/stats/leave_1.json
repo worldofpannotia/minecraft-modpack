@@ -1,34 +1,34 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:oak_leaves"
-        },
-        "title": "RAGE QUIT",
-        "description": "Leave the game once"
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_leaves"
     },
-    "parent": "blazeandcave:statistics/root",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:leave_game",
-                                "value": {
-                                    "min": 1
-                                }
-                            }
-                        ]
-                    }
+    "title": "RAGE QUIT",
+    "description": "Leave the game once"
+  },
+  "parent": "blazeandcave:statistics/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:leave_game",
+                "value": {
+                  "min": 1
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/leave_1"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/leave_1"
+  }
 }

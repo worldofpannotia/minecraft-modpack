@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "DEATH": {
-            "trigger": "impossible"
-        }
-    },
-    "display": {
-        "title": "The World Is Actually Ending",
-        "description": {
-            "color": "dark_red",
-            "text": "Summon 64 Withers at once"
-        },
-        "icon": {
-            "item": "nether_star"
-        },
-        "frame": "challenge"
-    },
-    "parent": "blazeandcave:challenges/the_world_is_ending",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/the_world_is_actually_ending"
+  "criteria": {
+    "DEATH": {
+      "trigger": "impossible"
     }
+  },
+  "display": {
+    "title": "The World Is Actually Ending",
+    "description": {
+      "color": "dark_red",
+      "text": "Summon 64 Withers at once"
+    },
+    "icon": {
+      "item": "nether_star"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/the_world_is_ending",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/the_world_is_actually_ending"
+  }
 }

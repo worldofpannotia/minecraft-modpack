@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:blue_carpet"
-        },
-        "title": {
-            "translate": "Deal's Off!"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Get spat at by one of the Trader Llamas"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_carpet"
     },
-    "parent": "blazeandcave:adventure/rebuilding_the_oceans",
-    "rewards": {
-        "function": "bc_rewards:adventure/deals_off"
+    "title": {
+      "translate": "Deal's Off!"
     },
-    "criteria": {
-        "llama_hurt_player": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "source_entity": {
-                        "type": "minecraft:trader_llama"
-                    }
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Get spat at by one of the Trader Llamas"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:adventure/rebuilding_the_oceans",
+  "rewards": {
+    "function": "bc_rewards:adventure/deals_off"
+  },
+  "criteria": {
+    "llama_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:trader_llama"
+          }
         }
+      }
     }
+  }
 }

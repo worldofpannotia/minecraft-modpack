@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:shulker_box"
-        },
-        "title": "You know what makes no sense?",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Wash 10,000 items"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
     },
-    "parent": "blackbirds_torture_chamber:stats/wash_5000",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "You know what makes no sense?",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Wash 10,000 items"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/wash_10000"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/wash_5000",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/wash_10000"
+  }
 }

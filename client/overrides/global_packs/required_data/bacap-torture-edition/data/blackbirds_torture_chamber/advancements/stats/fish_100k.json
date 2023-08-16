@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "pufferfish"
-        },
-        "title": "Go watch a Movie",
-        "description": {
-            "color": "dark_red",
-            "text": "Fish 100,000 items"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "pufferfish"
     },
-    "parent": "blackbirds_torture_chamber:stats/fish_10000",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "Go watch a Movie",
+    "description": {
+      "color": "dark_red",
+      "text": "Fish 100,000 items"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/fish_100k"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/fish_10000",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/fish_100k"
+  }
 }

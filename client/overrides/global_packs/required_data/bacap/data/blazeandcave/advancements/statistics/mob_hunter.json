@@ -1,40 +1,40 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stone_sword"
-        },
-        "title": {
-            "translate": "Mob Hunter"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Defeat 250 mobs"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
     },
-    "parent": "blazeandcave:technical/you_are_a_big_cheater",
-    "rewards": {
-        "function": "bc_rewards:statistics/mob_hunter"
+    "title": {
+      "translate": "Mob Hunter"
     },
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:mob_kills",
-                                "value": {
-                                    "min": 250
-                                }
-                            }
-                        ]
-                    }
+    "description": {
+      "color": "green",
+      "translate": "Defeat 250 mobs"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:technical/you_are_a_big_cheater",
+  "rewards": {
+    "function": "bc_rewards:statistics/mob_hunter"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:mob_kills",
+                "value": {
+                  "min": 250
                 }
-            }
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }

@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:melon_stem",
-        "minecraft:attached_melon_stem"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:melon_stem",
+    "minecraft:attached_melon_stem"
+  ]
 }

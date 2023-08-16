@@ -1,32 +1,32 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:strider_spawn_egg"
-        },
-        "title": {
-            "translate": "Bobbleheads"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Breed two Striders using Warped Fungus"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:strider_spawn_egg"
     },
-    "parent": "minecraft:nether/ride_strider",
-    "rewards": {
-        "function": "bc_rewards:nether/bobbleheads"
+    "title": {
+      "translate": "Bobbleheads"
     },
-    "criteria": {
-        "strider": {
-            "trigger": "minecraft:bred_animals",
-            "conditions": {
-                "parent": {
-                    "type": "minecraft:strider"
-                },
-                "partner": {
-                    "type": "minecraft:strider"
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Breed two Striders using Warped Fungus"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:nether/ride_strider",
+  "rewards": {
+    "function": "bc_rewards:nether/bobbleheads"
+  },
+  "criteria": {
+    "strider": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:strider"
+        },
+        "partner": {
+          "type": "minecraft:strider"
         }
+      }
     }
+  }
 }

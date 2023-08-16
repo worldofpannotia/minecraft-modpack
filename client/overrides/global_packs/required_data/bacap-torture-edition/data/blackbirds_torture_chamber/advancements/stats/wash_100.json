@@ -1,19 +1,19 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:white_banner"
-        },
-        "title": "Spin Cycle",
-        "description": "Wash 100 items",
-        "frame": "task"
+  "display": {
+    "icon": {
+      "item": "minecraft:white_banner"
     },
-    "parent": "blazeandcave:statistics/root",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/wash_100"
+    "title": "Spin Cycle",
+    "description": "Wash 100 items",
+    "frame": "task"
+  },
+  "parent": "blazeandcave:technical/cheater5",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/wash_100"
+  }
 }

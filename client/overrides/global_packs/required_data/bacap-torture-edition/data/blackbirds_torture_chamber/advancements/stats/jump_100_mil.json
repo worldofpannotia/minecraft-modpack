@@ -1,39 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{Potion:\"minecraft:leaping\"}"
-        },
-        "title": "This took at least 1,5 years",
-        "description": {
-            "color": "black",
-            "text": "Jump 100 million times"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:leaping\"}"
     },
-    "parent": "blackbirds_torture_chamber:stats/jump_10_mil",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:jump",
-                                "value": {
-                                    "min": 100000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "This took at least 1,5 years",
+    "description": {
+      "color": "black",
+      "text": "Jump 100 million times"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/jump_10_mil",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 100000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/jump_100_mil"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/jump_100_mil"
+  }
 }

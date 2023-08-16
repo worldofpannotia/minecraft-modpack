@@ -1,306 +1,332 @@
 {
-    "display": {
-        "title": "Statistics Legend",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Complete all purple (super torturous) statistics"
-        },
-        "icon": {
-            "item": "writable_book",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "frame": "goal"
+  "display": {
+    "title": "Statistics Legend",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Complete all purple (super torturous) statistics"
     },
-    "parent": "blazeandcave:bacap/enchanting_milestone",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/statistics_legend"
+    "icon": {
+      "item": "writable_book",
+      "nbt": "{Enchantments:[{}]}"
     },
-    "criteria": {
-        "50_years": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/50_years": "true"
-                        }
-                    }
-                }
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:bacap/enchanting_milestone",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/statistics_legend"
+  },
+  "criteria": {
+    "50_years": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/50_years": "true"
             }
-        },
-        "5000_levels": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/5000_levels": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "100000_totems": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/100000_totems": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "breed_10000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/breed_10000": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "enchant_5000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/enchant_5000": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "fish_1_mil": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/fish_1_mil": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "fly_100_mil": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/fly_100_mil": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "horse_250": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/horse_250": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "jump_10_mil": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/jump_10_mil": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "kill_100k_mobs": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/kill_100k_mobs": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "leave_10000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/leave_10000": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "minecart_500": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/minecart_500": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "pig_100": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/pig_100": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "sail_250": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/sail_250": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "sneak_50": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/sneak_50": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "sprint_100_mil": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/sprint_100_mil": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "stride_1000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/stride_1000": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "swim_500": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/swim_500": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "trade_10k": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/trade_10k": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "walk_100_mil": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/walk_100_mil": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "wash_10000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/wash_10000": "true"
-                        }
-                    }
-                }
-            }
-        },
-        "ring_1000000": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:stats/ring_1000000": "true"
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
+    },
+    "5000_levels": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/5000_levels": "true"
+            }
+          }
+        }
+      }
+    },
+    "100000_totems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/100000_totems": "true"
+            }
+          }
+        }
+      }
+    },
+    "breed_10000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/breed_10000": "true"
+            }
+          }
+        }
+      }
+    },
+    "enchant_5000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/enchant_5000": "true"
+            }
+          }
+        }
+      }
+    },
+    "fish_1_mil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/fish_1_mil": "true"
+            }
+          }
+        }
+      }
+    },
+    "fly_100_mil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/fly_100_mil": "true"
+            }
+          }
+        }
+      }
+    },
+    "horse_250": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/horse_250": "true"
+            }
+          }
+        }
+      }
+    },
+    "jump_10_mil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/jump_10_mil": "true"
+            }
+          }
+        }
+      }
+    },
+    "kill_100k_mobs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/kill_100k_mobs": "true"
+            }
+          }
+        }
+      }
+    },
+    "leave_10000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/leave_10000": "true"
+            }
+          }
+        }
+      }
+    },
+    "minecart_500": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/minecart_500": "true"
+            }
+          }
+        }
+      }
+    },
+    "pig_100": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/pig_100": "true"
+            }
+          }
+        }
+      }
+    },
+    "sail_250": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/sail_250": "true"
+            }
+          }
+        }
+      }
+    },
+    "sneak_50": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/sneak_50": "true"
+            }
+          }
+        }
+      }
+    },
+    "sprint_100_mil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/sprint_100_mil": "true"
+            }
+          }
+        }
+      }
+    },
+    "stride_1000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/stride_1000": "true"
+            }
+          }
+        }
+      }
+    },
+    "swim_500": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/swim_500": "true"
+            }
+          }
+        }
+      }
+    },
+    "trade_10k": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/trade_10k": "true"
+            }
+          }
+        }
+      }
+    },
+    "walk_100_mil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/walk_100_mil": "true"
+            }
+          }
+        }
+      }
+    },
+    "wash_10000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/wash_10000": "true"
+            }
+          }
+        }
+      }
+    },
+    "ring_1000000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/ring_1000000": "true"
+            }
+          }
+        }
+      }
+    },
+    "eat_25k": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/eat_25k": "true"
+            }
+          }
+        }
+      }
+    },
+    "loot_5000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:stats/loot_5000": "true"
+            }
+          }
+        }
+      }
     }
+  }
 }

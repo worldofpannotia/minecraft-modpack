@@ -1,47 +1,47 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:potato"
-        },
-        "title": {
-            "translate": "Die, Potato!"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Squash and eat a potato"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:potato"
     },
-    "parent": "minecraft:husbandry/plant_seed",
-    "rewards": {
-        "function": "bc_rewards:farming/die_potato"
+    "title": {
+      "translate": "Die, Potato!"
     },
-    "criteria": {
-        "potato": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:potato"
-                    ]
-                }
-            }
-        },
-        "baked_potato": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:baked_potato"
-                    ]
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Squash and eat a potato"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "rewards": {
+    "function": "bc_rewards:farming/die_potato"
+  },
+  "criteria": {
+    "potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potato"
+          ]
         }
+      }
     },
-    "requirements": [
-        [
-            "potato",
-            "baked_potato"
-        ]
+    "baked_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "potato",
+      "baked_potato"
     ]
+  ]
 }

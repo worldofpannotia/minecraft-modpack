@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:bamboo",
-        "minecraft:bamboo_sapling"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling"
+  ]
 }

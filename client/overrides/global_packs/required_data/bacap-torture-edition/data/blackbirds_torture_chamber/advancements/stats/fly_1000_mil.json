@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:elytra",
-            "nbt": "{Damage:431}"
-        },
-        "title": "You're a birdplane.",
-        "description": {
-            "color": "black",
-            "text": "Fly 1 million km with elytra"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra",
+      "nbt": "{Damage:431}"
     },
-    "parent": "blackbirds_torture_chamber:stats/fly_100_mil",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "You're a birdplane.",
+    "description": {
+      "color": "black",
+      "text": "Fly 1 million km with elytra"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/fly_1000_mil"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/fly_100_mil",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/fly_1000_mil"
+  }
 }

@@ -1,32 +1,32 @@
 {
-    "criteria": {
-        "oak_log": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:tall_grass"
-                        ],
-                        "count": 64
-                    }
-                ]
-            }
-        }
-    },
-    "display": {
-        "icon": {
-            "item": "grass"
-        },
-        "title": "Pain in the Grass",
-        "description": {
-            "color": "dark_red",
-            "text": "Obtain a stack of tall grass"
-        },
-        "frame": "challenge"
-    },
-    "parent": "blazeandcave:farming/foliage",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/pain_in_the_grass"
+  "criteria": {
+    "oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tall_grass"
+            ],
+            "count": 64
+          }
+        ]
+      }
     }
+  },
+  "display": {
+    "icon": {
+      "item": "grass"
+    },
+    "title": "Pain in the Grass",
+    "description": {
+      "color": "dark_red",
+      "text": "Obtain a stack of tall grass"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:farming/foliage",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/pain_in_the_grass"
+  }
 }

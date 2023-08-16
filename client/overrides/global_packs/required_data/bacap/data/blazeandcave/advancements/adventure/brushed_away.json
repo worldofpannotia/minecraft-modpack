@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:brush"
-        },
-        "title": {
-            "translate": "Brushed Away"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft a Brush using a feather, copper and a stick"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
     },
-    "parent": "blazeandcave:adventure/grave_robber",
-    "rewards": {
-        "function": "bc_rewards:adventure/brushed_away"
+    "title": {
+      "translate": "Brushed Away"
     },
-    "criteria": {
-        "brush": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:brush"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Craft a Brush using a feather, copper and a stick"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:adventure/grave_robber",
+  "rewards": {
+    "function": "bc_rewards:adventure/brushed_away"
+  },
+  "criteria": {
+    "brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

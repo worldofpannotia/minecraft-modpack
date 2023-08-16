@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "panda": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:impossibles/i_love_brownies"
+  }
+}

@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_sword"
-        },
-        "title": "Rock or let Roll",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Defeat 100,000 mobs"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
     },
-    "parent": "blackbirds_torture_chamber:stats/kill_50k_mobs",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:mob_kills",
-                                "value": {
-                                    "min": 100000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Rock or let Roll",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Defeat 100,000 mobs"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/kill_50k_mobs",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:mob_kills",
+                "value": {
+                  "min": 100000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/kill_100k_mobs"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/kill_100k_mobs"
+  }
 }

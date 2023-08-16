@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:glass"
-        },
-        "title": "UBER STONKS!",
-        "description": {
-            "color": "black",
-            "text": "Trade with villagers 25,000 times"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:glass"
     },
-    "parent": "blackbirds_torture_chamber:stats/trade_10k",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:traded_with_villager",
-                                "value": {
-                                    "min": 25000
-                                }
-                            }
-                        ]
-                    }
+    "title": "UBER STONKS!",
+    "description": {
+      "color": "black",
+      "text": "Trade with villagers 25,000 times"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/trade_10k",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:traded_with_villager",
+                "value": {
+                  "min": 25000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/trade_25k"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/trade_25k"
+  }
 }

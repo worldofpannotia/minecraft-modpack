@@ -1,229 +1,229 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:rabbit"
-        },
-        "title": {
-            "translate": "Delicious, Hot Schmoes!"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Place every type of cookable food on a campfire"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit"
     },
-    "parent": "blazeandcave:building/camping_out",
-    "rewards": {
-        "function": "bc_rewards:building/delicious_hot_schmoes"
+    "title": {
+      "translate": "Delicious, Hot Schmoes!"
     },
-    "criteria": {
-        "porkchop": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:porkchop"
-                            ]
-                        }
-                    }
-                ]
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place every type of cookable food on a campfire"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:building/camping_out",
+  "rewards": {
+    "function": "bc_rewards:building/delicious_hot_schmoes"
+  },
+  "criteria": {
+    "porkchop": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
             }
-        },
-        "beef": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:beef"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:porkchop"
+              ]
             }
-        },
-        "chicken": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:chicken"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
             }
-        },
-        "cod": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:cod"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:beef"
+              ]
             }
-        },
-        "salmon": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:salmon"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
             }
-        },
-        "potato": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:potato"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:chicken"
+              ]
             }
-        },
-        "mutton": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:mutton"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
             }
-        },
-        "rabbit": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:rabbit"
-                            ]
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:cod"
+              ]
             }
-        },
-        "kelp": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "tag": "minecraft:campfires"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:kelp"
-                            ]
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
             }
-        }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:salmon"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potato"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:mutton"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:rabbit"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "kelp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:kelp"
+              ]
+            }
+          }
+        ]
+      }
     }
+  }
 }

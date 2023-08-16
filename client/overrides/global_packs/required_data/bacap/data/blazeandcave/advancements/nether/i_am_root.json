@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crimson_roots"
-        },
-        "title": {
-            "translate": "I am Root"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Pick up some crimson or warped roots"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:crimson_roots"
     },
-    "parent": "blazeandcave:nether/what_a_fungi",
-    "rewards": {
-        "function": "bc_rewards:nether/i_am_root"
+    "title": {
+      "translate": "I am Root"
     },
-    "criteria": {
-        "nether_roots": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "tag": "minecraft:nether_roots"
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Pick up some crimson or warped roots"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:nether/what_a_fungi",
+  "rewards": {
+    "function": "bc_rewards:nether/i_am_root"
+  },
+  "criteria": {
+    "nether_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:nether_roots"
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:comparator"
-        },
-        "title": {
-            "translate": "Comparing Comparator"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft a redstone comparator"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
     },
-    "parent": "blazeandcave:redstone/quirky_quartz",
-    "rewards": {
-        "function": "bc_rewards:redstone/comparing_comparator"
+    "title": {
+      "translate": "Comparing Comparator"
     },
-    "criteria": {
-        "comparator": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:comparator"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Craft a redstone comparator"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:redstone/quirky_quartz",
+  "rewards": {
+    "function": "bc_rewards:redstone/comparing_comparator"
+  },
+  "criteria": {
+    "comparator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:comparator"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

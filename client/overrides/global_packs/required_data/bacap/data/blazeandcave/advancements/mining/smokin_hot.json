@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:smoker"
-        },
-        "title": {
-            "translate": "Smokin' Hot"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Upgrade your furnace to a smoker using some logs"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker"
     },
-    "parent": "blazeandcave:mining/renewable_energy",
-    "rewards": {
-        "function": "bc_rewards:mining/smokin_hot"
+    "title": {
+      "translate": "Smokin' Hot"
     },
-    "criteria": {
-        "smoker": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:smoker"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Upgrade your furnace to a smoker using some logs"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:mining/renewable_energy",
+  "rewards": {
+    "function": "bc_rewards:mining/smokin_hot"
+  },
+  "criteria": {
+    "smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

@@ -1,25 +1,25 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:pillager_spawn_egg"
-        },
-        "title": {
-            "translate": "Redemption Arc"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Befriend a Pillager that doesn’t have a crossbow"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:pillager_spawn_egg"
     },
-    "parent": "blazeandcave:adventure/riot_shield",
-    "rewards": {
-        "function": "bc_rewards:adventure/redemption_arc"
+    "title": {
+      "translate": "Redemption Arc"
     },
-    "criteria": {
-        "redemption_arc": {
-            "trigger": "minecraft:impossible"
-        }
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Befriend a Pillager that doesn’t have a crossbow"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:adventure/riot_shield",
+  "rewards": {
+    "function": "bc_rewards:adventure/redemption_arc"
+  },
+  "criteria": {
+    "redemption_arc": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

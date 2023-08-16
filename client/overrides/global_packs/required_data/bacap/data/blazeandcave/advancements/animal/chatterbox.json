@@ -1,29 +1,29 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:beetroot_seeds"
-        },
-        "title": {
-            "translate": "Chatterbox"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Tame a Parrot using seeds. WARNING: Do not use a cookie!"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:beetroot_seeds"
     },
-    "parent": "blazeandcave:animal/feeding_the_chickens",
-    "rewards": {
-        "function": "bc_rewards:animal/chatterbox"
+    "title": {
+      "translate": "Chatterbox"
     },
-    "criteria": {
-        "tamed_animal": {
-            "trigger": "minecraft:tame_animal",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:parrot"
-                }
-            }
+    "description": {
+      "color": "green",
+      "translate": "Tame a Parrot using seeds. WARNING: Do not use a cookie!"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:animal/feeding_the_chickens",
+  "rewards": {
+    "function": "bc_rewards:animal/chatterbox"
+  },
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot"
         }
+      }
     }
+  }
 }

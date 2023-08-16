@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:player_head"
-        },
-        "title": "Hardcore player",
-        "description": {
-            "color": "#75E1FF",
-            "text": "Use 100 totems of undying"
-        },
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
     },
-    "parent": "blackbirds_torture_chamber:stats/10_totems",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:used",
-                                "stat": "minecraft:totem_of_undying",
-                                "value": {
-                                    "min": 100
-                                }
-                            }
-                        ]
-                    }
+    "title": "Hardcore player",
+    "description": {
+      "color": "#75E1FF",
+      "text": "Use 100 totems of undying"
+    },
+    "frame": "goal"
+  },
+  "parent": "blackbirds_torture_chamber:stats/10_totems",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:totem_of_undying",
+                "value": {
+                  "min": 100
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/100_totems"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/100_totems"
+  }
 }

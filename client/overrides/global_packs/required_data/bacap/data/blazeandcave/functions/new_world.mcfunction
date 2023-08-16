@@ -12,4 +12,6 @@ scoreboard players set extra_trophy bac_settings 0
 
 scoreboard players set bac_created bac_created 1
 
-gamerule announceAdvancements false
+execute in the_end run gamerule announceAdvancements false 
+execute in overworld run gamerule announceAdvancements false 
+execute in the_nether run gamerule announceAdvancements false

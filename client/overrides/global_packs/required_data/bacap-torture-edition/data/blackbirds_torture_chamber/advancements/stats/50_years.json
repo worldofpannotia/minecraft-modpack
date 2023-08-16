@@ -1,22 +1,36 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:cake"
-        },
-        "title": "Hello from 2059",
-        "description": {
-            "color": "#8b00e8",
-            "text": "Play for half a century"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
     },
-    "parent": "blackbirds_torture_chamber:stats/10_years",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
+    "title": "Hello from 2059",
+    "description": {
+      "color": "#8b00e8",
+      "text": "Play for half a century",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "italic": "true",
+          "color": "dark_gray",
+          "translate": "To view progress, run:"
+        },
+        {
+          "color": "gray",
+          "text": "\n/trigger bac_statistics"
         }
+      ]
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/50_years"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/10_years",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/50_years"
+  }
 }

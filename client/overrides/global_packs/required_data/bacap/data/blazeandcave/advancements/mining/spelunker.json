@@ -1,109 +1,109 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chainmail_helmet"
-        },
-        "title": {
-            "translate": "Spelunker"
-        },
-        "description": {
-            "color": "#75E1FF",
-            "translate": "Discover every cave biome"
-        },
-        "announce_to_chat": "true",
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:chainmail_helmet"
     },
-    "parent": "minecraft:story/mine_stone",
-    "rewards": {
-        "function": "bc_rewards:mining/spelunker"
+    "title": {
+      "translate": "Spelunker"
     },
-    "criteria": {
-        "lush_caves": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "minecraft:lush_caves"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type_specific": {
-                                    "type": "player",
-                                    "gamemode": "spectator"
-                                }
-                            }
-                        }
-                    }
-                ]
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Discover every cave biome"
+    },
+    "announce_to_chat": "true",
+    "frame": "goal"
+  },
+  "parent": "minecraft:story/mine_stone",
+  "rewards": {
+    "function": "bc_rewards:mining/spelunker"
+  },
+  "criteria": {
+    "lush_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:lush_caves"
+              }
             }
-        },
-        "dripstone_caves": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "minecraft:dripstone_caves"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type_specific": {
-                                    "type": "player",
-                                    "gamemode": "spectator"
-                                }
-                            }
-                        }
-                    }
-                ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
             }
-        },
-        "deep_dark": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "minecraft:deep_dark"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type_specific": {
-                                    "type": "player",
-                                    "gamemode": "spectator"
-                                }
-                            }
-                        }
-                    }
-                ]
+          }
+        ]
+      }
+    },
+    "dripstone_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:dripstone_caves"
+              }
             }
-        }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:deep_dark"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "spectator"
+                }
+              }
+            }
+          }
+        ]
+      }
     }
+  }
 }

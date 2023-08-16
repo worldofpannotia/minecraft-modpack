@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:golden_sword"
-        },
-        "title": "Live or let Die",
-        "description": {
-            "color": "dark_red",
-            "text": "Defeat 50,000 mobs"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
     },
-    "parent": "blazeandcave:statistics/kill_or_be_killed",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:mob_kills",
-                                "value": {
-                                    "min": 50000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Live or let Die",
+    "description": {
+      "color": "dark_red",
+      "text": "Defeat 50,000 mobs"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/kill_or_be_killed",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:mob_kills",
+                "value": {
+                  "min": 50000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/kill_50k_mobs"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/kill_50k_mobs"
+  }
 }

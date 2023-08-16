@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:hopper_minecart"
-        },
-        "title": {
-            "translate": "Moving Moving Storage"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Put a hopper in a minecart"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper_minecart"
     },
-    "parent": "blazeandcave:redstone/moving_storage",
-    "rewards": {
-        "function": "bc_rewards:redstone/moving_moving_storage"
+    "title": {
+      "translate": "Moving Moving Storage"
     },
-    "criteria": {
-        "hopper_minecart": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:hopper_minecart"
-                        ]
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Put a hopper in a minecart"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:redstone/moving_storage",
+  "rewards": {
+    "function": "bc_rewards:redstone/moving_moving_storage"
+  },
+  "criteria": {
+    "hopper_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper_minecart"
+            ]
+          }
+        ]
+      }
     }
+  }
 }

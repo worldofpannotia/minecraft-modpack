@@ -1,31 +1,31 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:oak_door"
-        },
-        "title": {
-            "translate": "Your Door Was Locked"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Craft a door to stop monsters from entering your house"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_door"
     },
-    "parent": "blazeandcave:building/root",
-    "rewards": {
-        "function": "bc_rewards:building/your_door_was_locked"
+    "title": {
+      "translate": "Your Door Was Locked"
     },
-    "criteria": {
-        "door": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "tag": "minecraft:doors"
-                    }
-                ]
-            }
-        }
+    "description": {
+      "color": "green",
+      "translate": "Craft a door to stop monsters from entering your house"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:building/root",
+  "rewards": {
+    "function": "bc_rewards:building/your_door_was_locked"
+  },
+  "criteria": {
+    "door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:doors"
+          }
+        ]
+      }
     }
+  }
 }

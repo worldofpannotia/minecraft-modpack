@@ -1,23 +1,23 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:leather_boots",
-            "nbt": "{display:{color:16711816}}"
-        },
-        "title": "Got me Spinning like a Ballerina",
-        "description": {
-            "color": "#75E1FF",
-            "text": "Wash 500 items"
-        },
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots",
+      "nbt": "{display:{color:16711816}}"
     },
-    "parent": "blackbirds_torture_chamber:stats/wash_100",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": "Got me Spinning like a Ballerina",
+    "description": {
+      "color": "#75E1FF",
+      "text": "Wash 500 items"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/wash_500"
+    "frame": "goal"
+  },
+  "parent": "blackbirds_torture_chamber:stats/wash_100",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/wash_500"
+  }
 }

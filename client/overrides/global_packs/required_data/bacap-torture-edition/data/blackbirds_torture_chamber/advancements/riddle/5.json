@@ -1,29 +1,29 @@
 {
-    "criteria": {
-        "5": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:riddle/4": "true"
-                        }
-                    }
-                },
-                "entity": {
-                    "type": "wither",
-                    "location": {
-                        "dimension": "the_nether",
-                        "y": {
-                            "min": "10000"
-                        }
-                    }
-                }
+  "criteria": {
+    "5": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:riddle/4": "true"
             }
+          }
+        },
+        "entity": {
+          "type": "wither",
+          "location": {
+            "dimension": "the_nether",
+            "y": {
+              "min": "10000"
+            }
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:riddle/5"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:riddle/5"
+  }
 }

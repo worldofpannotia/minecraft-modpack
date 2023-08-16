@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "blackbirds_torture_chamber:tick_timer"
-    ]
+  "replace": false,
+  "values": [
+    "blackbirds_torture_chamber:tick_timer"
+  ]
 }

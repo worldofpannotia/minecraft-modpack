@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "splat^2": {
-            "trigger": "impossible"
-        }
-    },
-    "display": {
-        "icon": {
-            "item": "minecraft:netherite_boots"
-        },
-        "title": "Splat",
-        "description": {
-            "color": "dark_red",
-            "text": "Die from falling at least 100,000 blocks"
-        },
-        "frame": "challenge"
-    },
-    "parent": "blackbirds_torture_chamber:stuff/splat",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/splat2"
+  "criteria": {
+    "splat^2": {
+      "trigger": "impossible"
     }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots"
+    },
+    "title": "Splat",
+    "description": {
+      "color": "dark_red",
+      "text": "Die from falling at least 100,000 blocks"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stuff/splat",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/splat2"
+  }
 }

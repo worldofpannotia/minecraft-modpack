@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:crimson_fungus",
-        "minecraft:crimson_stem"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:crimson_fungus",
+    "minecraft:crimson_stem"
+  ]
 }

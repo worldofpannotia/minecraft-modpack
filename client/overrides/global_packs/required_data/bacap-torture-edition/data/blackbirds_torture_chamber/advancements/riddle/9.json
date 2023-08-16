@@ -1,23 +1,23 @@
 {
-    "criteria": {
-        "9": {
-            "trigger": "player_killed_entity",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "blackbirds_torture_chamber:riddle/8": "true"
-                        }
-                    }
-                },
-                "entity": {
-                    "nbt": "{CustomName:\"{\\\"text\\\":\\\"a spinoffs much memed character\\\"}\"}"
-                }
+  "criteria": {
+    "9": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blackbirds_torture_chamber:riddle/8": "true"
             }
+          }
+        },
+        "entity": {
+          "nbt": "{CustomName:\"{\\\"text\\\":\\\"a spinoffs much memed character\\\"}\"}"
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:riddle/9"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:riddle/9"
+  }
 }

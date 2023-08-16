@@ -1,39 +1,39 @@
 {
-    "display": {
-        "title": "Puffer Poppers",
-        "description": {
-            "color": "dark_red",
-            "text": "Eat 1000 Pufferfish"
-        },
-        "icon": {
-            "item": "pufferfish",
-            "nbt": "{Enchantments:[{}]}"
-        },
-        "frame": "challenge"
+  "display": {
+    "title": "Puffer Poppers",
+    "description": {
+      "color": "dark_red",
+      "text": "Eat 1000 Pufferfish"
     },
-    "criteria": {
-        "puffer_popper": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:used",
-                                "stat": "minecraft:pufferfish",
-                                "value": {
-                                    "min": 1000
-                                }
-                            }
-                        ]
-                    }
+    "icon": {
+      "item": "pufferfish",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "puffer_popper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:pufferfish",
+                "value": {
+                  "min": 1000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "parent": "blazeandcave:animal/direct_fishing",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/puffer_poppers"
+      }
     }
+  },
+  "parent": "blazeandcave:animal/direct_fishing",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/puffer_poppers"
+  }
 }

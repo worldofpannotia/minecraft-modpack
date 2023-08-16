@@ -21,6 +21,16 @@ execute as @e[scores={bac_day_count=3650..}] run advancement grant @s only black
 execute as @e[scores={bac_day_count=18250..}] run advancement grant @s only blackbirds_torture_chamber:stats/50_years
 execute as @e[scores={bac_day_count=36500..}] run advancement grant @s only blackbirds_torture_chamber:stats/100_years
 
+# Grant food advancements
+execute as @e[scores={bac_stat_food=10000..}] run advancement grant @s only blackbirds_torture_chamber:stats/eat_10k
+execute as @e[scores={bac_stat_food=25000..}] run advancement grant @s only blackbirds_torture_chamber:stats/eat_25k
+execute as @e[scores={bac_stat_food=50000..}] run advancement grant @s only blackbirds_torture_chamber:stats/eat_50k
+
+# Grant loot chest advancements
+execute as @e[scores={bac_stat_loot_chest=1000..}] run advancement grant @s only blackbirds_torture_chamber:stats/loot_1000
+execute as @e[scores={bac_stat_loot_chest=5000..}] run advancement grant @s only blackbirds_torture_chamber:stats/loot_5000
+execute as @e[scores={bac_stat_loot_chest=10000..}] run advancement grant @s only blackbirds_torture_chamber:stats/loot_10000
+
 # Grant :startrekkin:
 scoreboard objectives add startrekkin minecraft.used:minecraft.ender_pearl
 execute as @e[scores={startrekkin=1600}] run advancement grant @s only blackbirds_torture_chamber:stuff/startrekkin
@@ -82,7 +92,7 @@ execute as @a[scores={washing_total=10000..}] run advancement grant @s only blac
 execute as @a[scores={washing_total=25000..}] run advancement grant @s only blackbirds_torture_chamber:stats/wash_25000
 
 # Al Gore's Redemption
-execute as @a unless data entity @s {Inventory:[{Slot:100b}]} unless data entity @s {Inventory:[{Slot:101b}]} unless data entity @s {Inventory:[{Slot:103b}]} if entity @a[predicate=blackbirds_torture_chamber:al_gore_armor_check] run tag @s add al_gore_check
+execute as @a unless data entity @s {Inventory:[{Slot:100b}]} unless data entity @s {Inventory:[{Slot:101b}]} unless data entity @s {Inventory:[{Slot:103b}]} if entity @s[predicate=blackbirds_torture_chamber:al_gore_armor_check] run tag @s add al_gore_check
 tag @a[nbt={Inventory:[{Slot:100b}]}] remove al_gore_check
 tag @a[nbt={Inventory:[{Slot:101b}]}] remove al_gore_check
 tag @a[nbt={Inventory:[{Slot:103b}]}] remove al_gore_check
@@ -185,7 +195,15 @@ scoreboard players remove @a[scores={aviateing=1000000000..}] aviateing 10000000
 advancement grant @a[scores={aviateed_10k_km=10..}] only blackbirds_torture_chamber:stats/fly_100_mil
 advancement grant @a[scores={aviateed_10k_km=100..}] only blackbirds_torture_chamber:stats/fly_1000_mil
 
+# Nose Wars
+execute as @a at @s as @e[type=sniffer,distance=..16] at @s if entity @e[type=warden,distance=..5] as @a[distance=..16] run advancement grant @s only blackbirds_torture_chamber:stuff/nose_wars
 
+# Scoreboards
+scoreboard objectives add torture_advancements dummy "TE Advancements"
+scoreboard objectives add bac_and_torture_advancements dummy "BAC and TE Advancements"
+
+# Interactable Trophies
+execute if score interactable_trophies bac_settings matches 1 run function blackbirds_torture_chamber:interactable_trophies/stackable_bow
 
 
 

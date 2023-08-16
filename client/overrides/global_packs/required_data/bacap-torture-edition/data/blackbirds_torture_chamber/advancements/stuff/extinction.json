@@ -1,46 +1,46 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:crossbow"
-        },
-        "title": "EXTINCTION",
-        "description": {
-            "color": "dark_red",
-            "text": "Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
     },
-    "parent": "blazeandcave:end/good_luck_getting_this_one",
-    "criteria": {
-        "exctinction": {
-            "trigger": "minecraft:killed_by_crossbow",
-            "conditions": {
-                "victims": [
-                    {
-                        "type": "minecraft:llama",
-                        "nbt": "{Strength:5}"
-                    },
-                    {
-                        "type": "minecraft:rabbit",
-                        "nbt": "{RabbitType:2}"
-                    },
-                    {
-                        "type": "minecraft:panda",
-                        "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
-                    },
-                    {
-                        "type": "minecraft:axolotl",
-                        "nbt": "{Variant:4}"
-                    },
-                    {
-                        "type": "minecraft:villager",
-                        "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
-                    }
-                ]
-            }
-        }
+    "title": "EXTINCTION",
+    "description": {
+      "color": "dark_red",
+      "text": "Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow"
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/extinction"
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:end/good_luck_getting_this_one",
+  "criteria": {
+    "exctinction": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:llama",
+            "nbt": "{Strength:5}"
+          },
+          {
+            "type": "minecraft:rabbit",
+            "nbt": "{RabbitType:2}"
+          },
+          {
+            "type": "minecraft:panda",
+            "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+          },
+          {
+            "type": "minecraft:axolotl",
+            "nbt": "{Variant:4}"
+          },
+          {
+            "type": "minecraft:villager",
+            "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/extinction"
+  }
 }

@@ -1,34 +1,34 @@
 {
-    "display": {
-        "title": "Get out of my sky",
-        "description": {
-            "color": "dark_red",
-            "text": "Get killed by a phantom while above y=100,000"
-        },
-        "icon": {
-            "item": "phantom_spawn_egg"
-        },
-        "frame": "challenge"
+  "display": {
+    "title": "Get out of my sky",
+    "description": {
+      "color": "dark_red",
+      "text": "Get killed by a phantom while above y=100,000"
     },
-    "criteria": {
-        "get_out_of_my_sky": {
-            "trigger": "minecraft:entity_killed_player",
-            "conditions": {
-                "entity": {
-                    "type": "phantom",
-                    "location": {
-                        "position": {
-                            "y": {
-                                "min": 100000
-                            }
-                        }
-                    }
-                }
+    "icon": {
+      "item": "phantom_spawn_egg"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "get_out_of_my_sky": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "phantom",
+          "location": {
+            "position": {
+              "y": {
+                "min": 100000
+              }
             }
+          }
         }
-    },
-    "parent": "blackbirds_torture_chamber:stuff/celestial_protocol",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/get_out_of_my_sky"
+      }
     }
+  },
+  "parent": "blackbirds_torture_chamber:stuff/nice_view",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/get_out_of_my_sky"
+  }
 }

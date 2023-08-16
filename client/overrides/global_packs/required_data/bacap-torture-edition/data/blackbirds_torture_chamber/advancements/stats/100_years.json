@@ -1,22 +1,36 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:red_candle"
-        },
-        "title": "You are already dead",
-        "description": {
-            "color": "black",
-            "text": "Play for a full century"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:red_candle"
     },
-    "parent": "blackbirds_torture_chamber:stats/50_years",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:impossible"
+    "title": "You are already dead",
+    "description": {
+      "color": "black",
+      "text": "Play for a full century",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "italic": "true",
+          "color": "dark_gray",
+          "translate": "To view progress, run:"
+        },
+        {
+          "color": "gray",
+          "text": "\n/trigger bac_statistics"
         }
+      ]
     },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/100_years"
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/50_years",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/100_years"
+  }
 }

@@ -1,30 +1,30 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:black_shulker_box"
-        },
-        "title": "2b2t Player",
-        "description": {
-            "color": "dark_red",
-            "text": "Fill a Shulker Box with Ender Chests"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:black_shulker_box"
     },
-    "criteria": {
-        "ender_chest": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:shulker_box",
-                        "nbt": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:ender_chest\",Count:64b},{Slot:1b,id:\"minecraft:ender_chest\",Count:64b},{Slot:2b,id:\"minecraft:ender_chest\",Count:64b},{Slot:3b,id:\"minecraft:ender_chest\",Count:64b},{Slot:4b,id:\"minecraft:ender_chest\",Count:64b},{Slot:5b,id:\"minecraft:ender_chest\",Count:64b},{Slot:6b,id:\"minecraft:ender_chest\",Count:64b},{Slot:7b,id:\"minecraft:ender_chest\",Count:64b},{Slot:8b,id:\"minecraft:ender_chest\",Count:64b},{Slot:9b,id:\"minecraft:ender_chest\",Count:64b},{Slot:10b,id:\"minecraft:ender_chest\",Count:64b},{Slot:11b,id:\"minecraft:ender_chest\",Count:64b},{Slot:12b,id:\"minecraft:ender_chest\",Count:64b},{Slot:13b,id:\"minecraft:ender_chest\",Count:64b},{Slot:14b,id:\"minecraft:ender_chest\",Count:64b},{Slot:15b,id:\"minecraft:ender_chest\",Count:64b},{Slot:16b,id:\"minecraft:ender_chest\",Count:64b},{Slot:17b,id:\"minecraft:ender_chest\",Count:64b},{Slot:18b,id:\"minecraft:ender_chest\",Count:64b},{Slot:19b,id:\"minecraft:ender_chest\",Count:64b},{Slot:20b,id:\"minecraft:ender_chest\",Count:64b},{Slot:21b,id:\"minecraft:ender_chest\",Count:64b},{Slot:22b,id:\"minecraft:ender_chest\",Count:64b},{Slot:23b,id:\"minecraft:ender_chest\",Count:64b},{Slot:24b,id:\"minecraft:ender_chest\",Count:64b},{Slot:25b,id:\"minecraft:ender_chest\",Count:64b},{Slot:26b,id:\"minecraft:ender_chest\",Count:64b}]}}"
-                    }
-                ]
-            }
-        }
+    "title": "2b2t Player",
+    "description": {
+      "color": "dark_red",
+      "text": "Fill a Shulker Box with Ender Chests"
     },
-    "parent": "blazeandcave:nether/enders_chest",
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stuff/2b2t_player"
+    "frame": "challenge"
+  },
+  "criteria": {
+    "ender_chest": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shulker_box",
+            "nbt": "{BlockEntityTag:{Items:[{Slot:0b,id:\"minecraft:ender_chest\",Count:64b},{Slot:1b,id:\"minecraft:ender_chest\",Count:64b},{Slot:2b,id:\"minecraft:ender_chest\",Count:64b},{Slot:3b,id:\"minecraft:ender_chest\",Count:64b},{Slot:4b,id:\"minecraft:ender_chest\",Count:64b},{Slot:5b,id:\"minecraft:ender_chest\",Count:64b},{Slot:6b,id:\"minecraft:ender_chest\",Count:64b},{Slot:7b,id:\"minecraft:ender_chest\",Count:64b},{Slot:8b,id:\"minecraft:ender_chest\",Count:64b},{Slot:9b,id:\"minecraft:ender_chest\",Count:64b},{Slot:10b,id:\"minecraft:ender_chest\",Count:64b},{Slot:11b,id:\"minecraft:ender_chest\",Count:64b},{Slot:12b,id:\"minecraft:ender_chest\",Count:64b},{Slot:13b,id:\"minecraft:ender_chest\",Count:64b},{Slot:14b,id:\"minecraft:ender_chest\",Count:64b},{Slot:15b,id:\"minecraft:ender_chest\",Count:64b},{Slot:16b,id:\"minecraft:ender_chest\",Count:64b},{Slot:17b,id:\"minecraft:ender_chest\",Count:64b},{Slot:18b,id:\"minecraft:ender_chest\",Count:64b},{Slot:19b,id:\"minecraft:ender_chest\",Count:64b},{Slot:20b,id:\"minecraft:ender_chest\",Count:64b},{Slot:21b,id:\"minecraft:ender_chest\",Count:64b},{Slot:22b,id:\"minecraft:ender_chest\",Count:64b},{Slot:23b,id:\"minecraft:ender_chest\",Count:64b},{Slot:24b,id:\"minecraft:ender_chest\",Count:64b},{Slot:25b,id:\"minecraft:ender_chest\",Count:64b},{Slot:26b,id:\"minecraft:ender_chest\",Count:64b}]}}"
+          }
+        ]
+      }
     }
+  },
+  "parent": "blazeandcave:nether/enders_chest",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/2b2t_player"
+  }
 }

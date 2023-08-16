@@ -1,39 +1,39 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:splash_potion",
-            "nbt": "{Potion:\"minecraft:swiftness\"}"
-        },
-        "title": "Fitness gram pacer test",
-        "description": {
-            "color": "dark_red",
-            "text": "Sprint 10,000km"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:swiftness\"}"
     },
-    "parent": "blazeandcave:statistics/did_you_just_run_across_earth",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:sprint_one_cm",
-                                "value": {
-                                    "min": 1000000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Fitness gram pacer test",
+    "description": {
+      "color": "dark_red",
+      "text": "Sprint 10,000km"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/marathon",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:sprint_one_cm",
+                "value": {
+                  "min": 1000000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/sprint_10_mil"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/sprint_10_mil"
+  }
 }

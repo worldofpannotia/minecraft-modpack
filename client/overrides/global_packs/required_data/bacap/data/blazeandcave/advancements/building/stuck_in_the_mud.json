@@ -1,46 +1,46 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:mud"
-        },
-        "title": {
-            "translate": "Stuck in the Mud"
-        },
-        "description": {
-            "color": "green",
-            "translate": "Use a Water Bottle on some Dirt to turn it into Mud"
-        },
-        "announce_to_chat": "true"
+  "display": {
+    "icon": {
+      "item": "minecraft:mud"
     },
-    "parent": "blazeandcave:building/classy_glassy",
-    "rewards": {
-        "function": "bc_rewards:building/stuck_in_the_mud"
+    "title": {
+      "translate": "Stuck in the Mud"
     },
-    "criteria": {
-        "mud": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": [
-                                    "minecraft:mud"
-                                ]
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": [
-                                "minecraft:potion"
-                            ]
-                        }
-                    }
+    "description": {
+      "color": "green",
+      "translate": "Use a Water Bottle on some Dirt to turn it into Mud"
+    },
+    "announce_to_chat": "true"
+  },
+  "parent": "blazeandcave:building/classy_glassy",
+  "rewards": {
+    "function": "bc_rewards:building/stuck_in_the_mud"
+  },
+  "criteria": {
+    "mud": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mud"
                 ]
+              }
             }
-        }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:potion"
+              ]
+            }
+          }
+        ]
+      }
     }
+  }
 }

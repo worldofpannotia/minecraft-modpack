@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Still no notch apples :("
+    },
+    "description": {
+      "color": "dark_red",
+      "translate": "Open 1000 loot chests",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "italic": "true",
+          "color": "dark_gray",
+          "translate": "To view progress, run:"
+        },
+        {
+          "color": "gray",
+          "text": "\n/trigger bac_statistics"
+        }
+      ]
+    },
+    "announce_to_chat": "true",
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/i_heart_chests",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/loot_1000"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

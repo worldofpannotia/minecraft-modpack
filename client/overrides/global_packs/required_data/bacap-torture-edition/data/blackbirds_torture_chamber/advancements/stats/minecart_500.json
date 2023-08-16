@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:chest_minecart"
-        },
-        "title": "500km in a minecart",
-        "description": {
-            "color": "#8b00e8",
-            "text": "That's more than 6 rails"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:chest_minecart"
     },
-    "parent": "blackbirds_torture_chamber:stats/minecart_250",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:minecart_one_cm",
-                                "value": {
-                                    "min": 50000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "500km in a minecart",
+    "description": {
+      "color": "#8b00e8",
+      "text": "That's more than 6 rails"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:stats/minecart_250",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:minecart_one_cm",
+                "value": {
+                  "min": 50000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/minecart_500"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/minecart_500"
+  }
 }

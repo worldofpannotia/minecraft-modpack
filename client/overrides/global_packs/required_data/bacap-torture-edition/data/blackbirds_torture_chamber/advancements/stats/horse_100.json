@@ -1,38 +1,38 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:bone"
-        },
-        "title": "Is it a Skeleton Horse yet?",
-        "description": {
-            "color": "dark_red",
-            "text": "Ride 100km on a horse"
-        },
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
     },
-    "parent": "blazeandcave:statistics/scourge_of_the_west",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "stats": [
-                            {
-                                "type": "minecraft:custom",
-                                "stat": "minecraft:horse_one_cm",
-                                "value": {
-                                    "min": 10000000
-                                }
-                            }
-                        ]
-                    }
+    "title": "Is it a Skeleton Horse yet?",
+    "description": {
+      "color": "dark_red",
+      "text": "Ride 100km on a horse"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:statistics/scourge_of_the_west",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:horse_one_cm",
+                "value": {
+                  "min": 10000000
                 }
-            }
+              }
+            ]
+          }
         }
-    },
-    "rewards": {
-        "function": "blackbirds_torture_chamber:rewards/stats/horse_100"
+      }
     }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/horse_100"
+  }
 }
