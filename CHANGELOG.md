@@ -3,6 +3,7 @@
 This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
 * Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+* Sodium (`sodium-fabric-mc1.20.1-0.5.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
 ### 2023-XX-XX (14.5.0)
@@ -10,6 +11,53 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 #### Added Mods
 
 * Bottled Allays: shift-right-click on an allay with an empty bottle to capture it!
+* Cupboard: library mod needed by connectivity
+* DeepslateCutting: adds some stonecutter recipes using regular deepslate
+* Enhanced Block Entities: adds support for custom block entities provided by some resource packs
+* Iceberg: library mod needed by item highlighter
+* Item Highlighter: highlights items you recently picked up in case you weren't paying attention
+* Organizable Play Screens: too many worlds? put them in folders!
+* Sodium: added version from Modrinth
+* Timestamp Chat: adds timestamps to chat messages
+* Vectorientation: items flying through the air will point in the direction they're going
+* Yeetus Experimentus: removes the "This world was created with experimental settings" warning
+
+
+#### Removed Mods
+
+* Sodium: removed the CurseForge version from the pack
+
+#### Updated Mods
+
+* Amecs
+* Architectury API
+* Armor Points++
+* Balm
+* CompleteConfig
+* Connectivity
+* CurveBuilding
+* Entity Texture Features
+* Fabric API
+* FabricSkyBoxes Interop
+* Fluid Void Fading
+* Identity
+* Indium
+* Jade
+* JamLib
+* Kiwi
+* NewDefault+
+* Open Parties and Claims
+* Passable Foliage
+* Polymer
+* Puzzles Lib
+* Reese's Sodium Options
+* Roughly Enough Items
+* Simple Voice Chat
+* Sodium Extra
+* Trade Cycling
+* Xaero's Minimap
+* Xaero's World Map
+* YetAnotherConfigLib
 
 
 ### 2023-07-23 (14.4.0)
