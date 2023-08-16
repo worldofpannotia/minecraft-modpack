@@ -7,6 +7,13 @@ if (process.argv?.[2] === '-f') {
     override = true;
 }
 
+let devBuild = false;
+if (process.argv?.[2] === '-d') {
+    console.log('-d detected; building dev version');
+    devBuild = true;
+    override = true;
+}
+
 await fse.emptyDir('./tmp');
 
 await fse.ensureDir('./tmp/client');
@@ -24,17 +31,26 @@ await fse.remove('./tmp/client/overrides/global_packs/required_resources/zip.sh'
 
 await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
 
-proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
-
 const manifest = await fse.readJson('./tmp/client/manifest.json');
 
 const {minecraft, version} = manifest;
 
+let fileName = `world-of-pannotia--${minecraft.version}-${version}`;
+
+if (devBuild) {
+    manifest.name = 'World of Pannotia (dev build)';
+    fileName += '--dev';
+
+    await fse.writeJSON('./tmp/client/manifest.json', manifest, {spaces: 4});
+}
+
+proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
+
 try {
     if (override) {
-        await fse.remove(`./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
+        await fse.remove(`./dist/${fileName}.zip`);
     }
-    await fse.move('./tmp/client.zip', `./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
+    await fse.move('./tmp/client.zip', `./dist/${fileName}.zip`);
 } catch (e) {
     console.error(e);
 }
