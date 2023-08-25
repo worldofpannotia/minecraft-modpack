@@ -1,8 +1,8 @@
 ## World of Pannotia Minecraft Modpack
 
 ![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-3a6.svg?style=flat-square)
-![Pack 14.3.0](https://img.shields.io/badge/Pack-14.3.0-blue.svg?style=flat-square)
-![Fabric 0.14.21](https://img.shields.io/badge/Fabric-0.14.19-c39.svg?style=flat-square)
+![Pack 14.5.0](https://img.shields.io/badge/Pack-14.5.0-blue.svg?style=flat-square)
+![Fabric 0.14.22](https://img.shields.io/badge/Fabric-0.14.22-c39.svg?style=flat-square)
 
 This modpack is continually evolving. From time to time, we add or change recipes, mod configs, or even entire mods.
 That said, the current version of the pack should be considered stable enough for everyday play.

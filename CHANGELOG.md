@@ -2,11 +2,15 @@
 
 This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
-* Mod Menu (`modmenu-7.1.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
-* Sodium (`sodium-fabric-mc1.20.1-0.5.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
+* Mod Menu (`modmenu-7.2.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+* Sodium (`sodium-fabric-mc1.20.1-0.5.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
 
-### 2023-XX-XX (14.5.0)
+### 2023-08-24 (14.5.0)
+
+#### Notable Changes
+
+* Updated the Fabric loader to 0.14.22
 
 #### Added Mods
 
@@ -33,27 +37,42 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Architectury API
 * Armor Points++
 * Balm
+* Bobby
+* Clean Tooltips
 * CompleteConfig
 * Connectivity
 * CurveBuilding
+* Distracting Trims
 * Entity Texture Features
+* Explorer's Compass
+* Extreme Sound Muffler
 * Fabric API
+* Fabric Language Kotlin
 * FabricSkyBoxes Interop
 * Fluid Void Fading
 * Identity
 * Indium
+* Inventory Profiles Next
 * Jade
+* JAMD
 * JamLib
 * Kiwi
+* Leaky
+* libIPN
+* ModMenu
+* Moonlight Lib
+* Nature's Compass
 * NewDefault+
 * Open Parties and Claims
 * Passable Foliage
 * Polymer
 * Puzzles Lib
 * Reese's Sodium Options
+* RightClickHarvest
 * Roughly Enough Items
 * Simple Voice Chat
 * Sodium Extra
+* SuperMartinj642's Config Lib
 * Trade Cycling
 * Xaero's Minimap
 * Xaero's World Map
