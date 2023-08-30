@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "World of Pannotia",
-    "version": "14.5.0",
+    "version": "14.6.0",
     "author": "cmrcdrm",
     "files": [
         {"name": "AdvancementInfo", "projectID": 403815, "fileID": 4613752, "required": true},
@@ -197,7 +197,7 @@
         {"name": "Universal Shops", "projectID": 705362, "fileID": 4607122, "required": true},
         {"name": "Vectorientation", "projectID": 457394, "fileID": 4665520, "required": true},
         {"name": "Villager Death Messages", "projectID": 341777, "fileID": 4583460, "required": true},
-        {"name": "VillagerTweaks", "projectID": 682997, "fileID": 4588087, "required": true},
+        {"name": "VillagerTweaks", "projectID": 682997, "fileID": 4728938, "required": true},
         {"name": "Visuality", "projectID": 521126, "fileID": 4571997, "required": true},
         {"name": "WI Zoom", "projectID": 349630, "fileID": 4582468, "required": true},
         {"name": "WorldEdit", "projectID": 225608, "fileID": 4586218, "required": true},

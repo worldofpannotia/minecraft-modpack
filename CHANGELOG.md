@@ -5,6 +5,12 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.2.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 * Sodium (`sodium-fabric-mc1.20.1-0.5.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
+### 2023-XX-XX (14.6.0)
+
+#### Updated Mods
+
+* VillagerTweaks
+
 
 ### 2023-08-24 (14.5.0)
 
