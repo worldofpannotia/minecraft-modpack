@@ -5,11 +5,26 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.2.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 * Sodium (`sodium-fabric-mc1.20.1-0.5.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
-### 2023-XX-XX (14.6.0)
+### 2023-08-31 (14.6.0)
+
+#### Added Mods
+
+* Enchanting Tweaker: remove the anvil limit, exclusive enchantments, and more
+* Simple Magnets: magnets for items and XP orbs
+* SuperMartijn642's Core Lib: library mod needed by Simple Magnets
 
 #### Updated Mods
 
+* AudioPlayer
+* Auto Third Person
+* Cupboard
+* Fabric Language Kotlin
+* MaLiLib
+* Moonlight Lib
+* Polymer
+* Simple Voice Chat
 * VillagerTweaks
+* YetAnotherConfigLib
 
 
 ### 2023-08-24 (14.5.0)
