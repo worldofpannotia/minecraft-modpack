@@ -5,6 +5,47 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Mod Menu (`modmenu-7.2.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 * Sodium (`sodium-fabric-mc1.20.1-0.5.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
+### 2023-09-XX (14.7.0)
+
+#### Notable Changes
+
+YUNG's mods have been officially re-added to the pack!
+
+#### Added Mods
+
+* See Through Water/Lava: reduces fog underwater and in lava
+* YUNG's API
+* YUNG's Better Desert Temples
+* YUNG's Better Dungeons 
+* YUNG's Better Jungle Temples
+* YUNG's Better Mineshafts 
+* YUNG's Better Nether Fortresses
+* YUNG's Better Ocean Monuments
+* YUNG's Better Strongholds 
+* YUNG's Better Witch Huts
+* YUNG's Bridges
+* YUNG's Extras
+
+#### Updated Mods
+
+* Balm
+* Cherished Worlds
+* Cupboard
+* Dynamic FPS
+* Entity Model Features
+* Fabric API
+* Falling Leaves
+* Jade
+* Moonlight Lib
+* New Default+
+* Polymer
+* Roughly Enough Items
+* Server Performance - Smooth Chunk Save
+* SuperMartijn642's Core Lib
+* Xaero's Minimap
+* Xaero's World Map
+
+
 ### 2023-08-31 (14.6.0)
 
 #### Added Mods
