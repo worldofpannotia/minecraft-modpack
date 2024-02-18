@@ -13,6 +13,7 @@ YUNG's mods have been officially re-added to the pack!
 
 #### Added Mods
 
+* Roughly Enough Resources: adds a JEI-like interface for viewing worldgen
 * See Through Water/Lava: reduces fog underwater and in lava
 * YUNG's API
 * YUNG's Better Desert Temples

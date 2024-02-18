@@ -2,12 +2,10 @@
 
 cd afk-display;7z a -tzip ../afk-display.zip .;cd ..
 cd anti-enderman-grief;7z a -tzip ../anti-enderman-grief.zip .;cd ..
-cd babees;7z a -tzip ../babees.zip .;cd ..
 cd bacap;7z a -tzip ../bacap.zip .;cd ..
 cd bacap-torture-edition;7z a -tzip ../bacap-torture-edition.zip .;cd ..
 cd back;7z a -tzip ../back.zip .;cd ..
 cd custom-roleplay-data;7z a -tzip ../custom-roleplay-data.zip .;cd ..
-cd hiphoppers;7z a -tzip ../hiphoppers.zip .;cd ..
 cd homes;7z a -tzip ../homes.zip .;cd ..
 cd lag-buster;7z a -tzip ../lag-buster.zip .;cd ..
 cd name-formatting-station;7z a -tzip ../name-formatting-station.zip .;cd ..
@@ -28,12 +26,10 @@ cd world-of-pannotia;7z a -tzip ../world-of-pannotia.zip .;cd ..
 
 rm -rf afk-display
 rm -rf anti-enderman-grief
-rm -rf babees
 rm -rf bacap
 rm -rf bacap-torture-edition
 rm -rf back
 rm -rf custom-roleplay-data
-rm -rf hiphoppers
 rm -rf homes
 rm -rf lag-buster
 rm -rf name-formatting-station

@@ -169,6 +169,7 @@
         {"name": "RightClickHarvest", "projectID": 452834, "fileID": 4690489, "required": true},
         {"name": "Roughly Enough Items Fabric/Forge (REI)", "projectID": 310111, "fileID": 4732240, "required": true},
         {"name": "Roughly Enough Professions (REP)", "projectID": 597988, "fileID": 4614612, "required": true},
+        {"name": "Roughly Enough Resources", "projectID": 325625, "fileID": 4721545, "required": true},
         {"name": "Scaffolding Drops Nearby", "projectID": 412742, "fileID": 4583511, "required": true},
         {"name": "See Through Water/Lava", "projectID": 460519, "fileID": 4625805, "required": true},
         {"name": "Server Performance - Smooth Chunk Save[Forge/Fabric]", "projectID": 582327, "fileID": 4748796, "required":  true},
