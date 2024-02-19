@@ -1,0 +1,462 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "reference:entities/tropical_fish"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.15,
+                            "looting_multiplier": 0.025
+                        }
+                    ],
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-650372106,1634680858,-1351681607,-2143682524],Name:\"Clownfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:65536}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;665204869,-544388694,-1076902511,-675701715],Name:\"Triggerfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMwZDFlNmQyYTlkZjRmMGViYmNkNTQ3NzhmZjMxYjdjMjQ5ZTBkOTk0NGZjZWQ0YjFhODNhZmJhZWVhY2ZjYSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:459008}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-7722382,-1066319097,-1976479354,-1801584138],Name:\"Tomato Clownfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5MmYwYjBmNzljN2JhOWRjODE1NzdiZTMzYTVjNzEzZmJlMzk3MjgyNmI0NGJjZjI2ZmViNmNjMTJiNjQzNCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:917504}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1624288860,1983202239,-2002962648,874973350],Name:\"Red Snapper\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4MjI2YWI5ODcwYjdjNmM1OWQzMWI0MGI4NmVkZjczMjRlY2E2NzRiNzBkNTViZThhYWU2YTBiODllN2Q4YiJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:918273}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;2096263233,1782271278,-1331525675,1807671609],Name:\"Red Cichlid\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3ZThjYzc2MDYzMDI4Mjc3YjhiOGZkZGNmMTA3MmY4MjZkNmM3MjAyY2IyOTU0ODFiZGU3MGJhYzk1MGY4OCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:918529}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1372572493,1304513573,-1958313550,886004237],Name:\"Ornate Butterflyfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE0MzQ5ZWIxMmIxMDE5MWUwYzA0Y2EzNDlmZTI2ZjI0MTlkYWNjNWJjMDk1NjllZTlmNjk4ZDAyYWEwNGI4ZSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:16778497}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;2134376388,1000622341,-1133566441,-96753415],Name:\"Queen Angelfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYjRkN2RmZjU0NTZkZTcwNDk2NDE0ZTg3NGM2NjUwYTFlODM5NTYzY2M3NWQ0Yjk5MzgwYjIxNmNmZGJjZCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:50660352}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-398207971,1514094979,-1130459103,-1181862551],Name:\"Cotton Candy Betta\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNkNzc2N2RlN2FjZDlmZTllMDM4MzI1NzRiMjQ4MzQ0ZjBhZTA2ZjRjMWE3YzZjYjVjNGIwOTIzYWVmZTU2ZCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:50726144}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1242927899,1271745419,-1247762849,-1701548508],Name:\"Threadfin\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0NDRkOTA1YTk5MzA0NGFhNTBkZThjNTUwYmI2NTgzYWQ1N2E4ZDE5OWRhMjliOTkxYmVmMDMwYjQ2ZTM3In19fQ==\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:67108865}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1556931223,1560889115,-1178185551,-842602101],Name:\"Goatfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNDdiNDBhYzMxMDM0YTZhYzAyOGNlNWU5NmQ2YWUyNzBiNzM5Zjc0MmIzNTU3MmE5OTk0N2I5MzA2YmQ3In19fQ==\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:67110144}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-449917097,1750551007,-1960785595,2092045791],Name:\"Yellow Tang\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IwMjZhYjBmNDcxZjVjNmUzOWM5ZDM1ODViYzg4MjRlOWQxYjVmMzczZDJjYjcwMThlNjE1MDBlMWE5ZWIzYSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:67371009}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1682382593,266291651,-2070156557,450444387],Name:\"Yellowtail Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3YjkyYTFiZGM3MzNkMmE1M2ZiMDk1YzcwYjczMmI3MWEyMjNhOWNlY2E3MmI4NzJlMWVlOTkwYTZhOTA3ZSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:67699456}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;1440531293,-691319151,-1324310632,1532372969],Name:\"Dottyback\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhMWY1NWFlMWEwMWM1ZGJkMGM2NGIzMTg4OTFjZWJlNmVmMTVjODk2MmNkZTZlMDRjM2E5Njg0ZTg1MjI0NyJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:67764993}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;47790171,-1534703243,-1923371611,-1477809151],Name:\"Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzViYTM5M2I5MjZlZTY5YTE0ZDRkODUzYjI1ZDI4NWE4NjhiMTZjNTZjOTE5ZDJiODI0NDEzZTY1NjZkNGU1NSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:101253888}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1721763734,-1823719339,-1528424844,-526057996],Name:\"Moorish Idol\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UzNDU1Y2RlZTNjODRjYzhiZWY3OWM5MmI1MzZjMjg4OWVhZjhmOTQxMjYxNjFmNmJiZjlkNjNiZTc1OGE1NCJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:117441025}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-1077707295,-1235661912,-1974189369,-1124997755],Name:\"Butterflyfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1Zjc3ZDkxN2FjZmQzNzEzYzUzNTUyY2FkYmEwNjdmNWI2ZGY3MjM5M2IxYjMwYTJkYzEwODMzZDkxM2NlMiJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:117441793}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;11075993,1826637156,-1755413872,560759654],Name:\"Anemone\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThkMjc1NThiYTYzYmI2ZTE0MTFmY2ZiYWRjMjMzNzk1N2RjMDBjNjIzYmFlZDEwMWZmOTFlYjVlOGQ3Mzc3ZSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:117506305}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-395206446,-606844888,-1324731928,471487276],Name:\"Black Tang\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM5MzIzYzk2Y2JkYjhmNzJmYWYyZjMzOTZhZmUxNDc5MjQ2ODUyNTZkZTZlZmZjNDgxOTg5NzhiM2YwMThmYiJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:117899265}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;1664570609,-1055174788,-1320241852,-768508757],Name:\"Cichlid\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNjYWU0MzY2NWYxMjNhODRjZWUzN2Y1MGVlMjQxODc3ZTA1ZGJjZmEyODA5ZWM1OWFjNTdkMGNlZDZmZTc5OSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:118161664}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-219205640,1444498468,-2147391842,-391598115],Name:\"Blue Tang\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE3MmVhZDI3MmRjNmQwMzdkZmFiMGVjMzJmNjdjY2U5NTIyMzFmMDU5NWVhM2VlMjhmY2NhMTUzYjlmOTgxOSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:185008129}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;-212136859,1078086494,-1954123000,1368048945],Name:\"Emperor Red Snapper\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjhkNDRiMzNlYWY5YTY4OGYxYzVmMWUwOTM0ZDFmYjQwMzM3NzkxNjk4N2UyMWMzZjNhMDg1ZGI2NmU1ZWYzNyJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:234882305}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;1464146414,1904558718,-1341754586,-1905240023],Name:\"Red Lipped Blenny\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjJiZTEyZTE0NjY0Y2FlM2ZlMjI2ZDFiMzQ4N2VlMmE3ZDhlNzZhMGUyOWJjYTRkYmY5OTY0YjJhMGY2MyJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "predicate": {
+                                        "nbt": "{Variant:235340288}"
+                                    },
+                                    "entity": "this"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "set_nbt",
+                                    "tag": "{SkullOwner:{Id:[I;1487997170,-272283534,-1813130350,-1556131307],Name:\"Tropical Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRhMGM4NGRjM2MwOTBkZjdiYWZjNDM2N2E5ZmM2Yzg1MjBkYTJmNzNlZmZmYjgwZTkzNGQxMTg5ZWFkYWM0MSJ9fX0=\"}]}},BlockEntityTag:{note_block_sound:\"minecraft:entity.tropical_fish.flop\"}}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
