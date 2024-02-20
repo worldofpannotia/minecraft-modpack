@@ -3,7 +3,13 @@
 This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
 * Mod Menu (`modmenu-7.2.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
-* Sodium (`sodium-fabric-0.5.8+mc1.20.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
+
+#### 2024-02-20 (14.8.1)
+
+#### Notable Changes
+
+* Apparently Sodium resumed uploading to CurseForge, so it's back in the pack as part of the manifest instead of manually adding it
+
 
 #### 2024-02-20 (14.8.0)
 

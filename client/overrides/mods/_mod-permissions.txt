@@ -10,14 +10,3 @@ Redistributing this file is allowed by their license as well as explicitly state
 
 CF Page: https://www.curseforge.com/minecraft/mc-mods/modmenu
 Modrinth: https://modrinth.com/mod/modmenu
-
-----
-
-Sodium
-
-`sodium-fabric-0.5.8+mc1.20.1.jar`
-
-Redistributing this file is allowed by their license as well as explicitly stated on their CurseForge page
-
-CF Page: https://www.curseforge.com/minecraft/mc-mods/sodium
-Modrinth: https://modrinth.com/mod/sodium
