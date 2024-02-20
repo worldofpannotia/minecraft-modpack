@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "modded_reference:yungsextras/desert/extra_archeology"
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:archaeology/desert_well"
+}
