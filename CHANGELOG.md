@@ -2,10 +2,141 @@
 
 This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
-* Mod Menu (`modmenu-7.2.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
-* Sodium (`sodium-fabric-mc1.20.1-0.5.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
+* Mod Menu (`modmenu-7.2.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+* Sodium (`sodium-fabric-0.5.8+mc1.20.1.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/sodium). ([Modrinth link](https://modrinth.com/mod/sodium))
 
-### 2023-09-XX (14.7.0)
+#### 2024-02-20 (14.8.0)
+
+#### Notable Changes
+
+* Updated the Fabric loader to 0.15.7
+
+#### Updated Mods
+
+* Advancement Screenshot
+* Amecs
+* Anvil Restoration
+* AppleSkin
+* Architectury API
+* Areas
+* AudioPlayer
+* Auth Me
+* Balm
+* Better Spawner Control
+* Better Statistics Screen
+* Bottle Your Xp
+* Bottled Air
+* Charm of Undying
+* Cherished Worlds
+* Cloth Config API
+* Collective
+* Compostables
+* Conduits Prevent Drowned
+* Connectivity
+* Continuity
+* Crying Portals
+* Cupboard
+* Cycle Paintings
+* Death Backup
+* Deepslate Instamine
+* Dismount Entity
+* Durability Tooltip
+* Dynamic FPS
+* Easy Shulker Boxes
+* EnchantedShulkers
+* Enchanting Commands
+* Entity Culling
+* Entity Model Features
+* Entity Texture Features
+* Extended Bone Meal
+* Extreme Sound Muffler
+* Fabric API
+* Fabric Language Kotlin
+* FabricSkyboxes
+* FabricSkyBoxes Interop
+* Fabrishot
+* Falling Leaves
+* Fast Paintings
+* Fire Spread Tweaks
+* Fluid Void Fading
+* Followers Teleport Too
+* Full Brightness Toggle
+* Grass Seeds
+* GUI Followers
+* Hand Over Your Items
+* Hoe Tweaks
+* Ice Prevents Crop Growth
+* Iceberg
+* Indium
+* Inventory Profiles Next
+* Inventory Totem
+* Item Highlighter
+* Jade
+* JAMD
+* Just Player Heads
+* Keep My Soil Tilled
+* Kelp Fertilizer
+* Kiwi
+* libIPN
+* LibreExpFix
+* Lootr
+* MaLiLib
+* Mod Menu
+* Moonlight Lib
+* Name Tag Tweaks
+* New Default+ (resource pack)
+* No Recipe Book
+* Open Parties and Claims
+* OptiGUI
+* Overworld Piglins
+* Passable Foliage
+* Patchouli
+* Polymer
+* Puzzles Lib
+* Rain Be Gone Ritual
+* Random Bone Meal Flowers
+* Reese's Sodium Options
+* Replanting Crops
+* Roughly Enough Items
+* Roughly Enough Professions
+* Scaffolding Drops Nearby
+* Server Performance - Smooth Chunk Save
+* Shulker Box Slot
+* Simple Magnets
+* Simple Voice Chat
+* Smaller Nether Portals
+* Sodium
+* Sodium Extra
+* Softer Hay Bales
+* Stendhal
+* Superflat World No Slimes
+* SuperMartijn642's Config Lib
+* SuperMartijn642's Core Lib
+* Tax Free Levels
+* Trade Cycling
+* Trash Slot
+* Trenzalore
+* Villager Death Messages
+* Visuality
+* WI Zoom
+* Xaero's Minimap
+* Xaero's World Map
+* YetAnotherConfigLib
+* Your Items Are Safe
+* YUNG's API
+* YUNG's Better Desert Temples
+* YUNG's Better Dungeons
+* YUNG's Better Jungle Temples
+* YUNG's Better Mineshafts
+* YUNG's Better Nether Fortresses
+* YUNG's Better Ocean Monuments
+* YUNG's Better Strongholds
+* YUNG's Better Witch Huts
+* YUNG's Bridges
+* YUNG's Extras
+* Zombie Villagers From Spawner
+
+### 2023-09-XX (14.7.0) -- SKIPPED
 
 #### Notable Changes
 
