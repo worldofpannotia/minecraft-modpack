@@ -2,7 +2,197 @@
 
 This modpack zip includes jar files for the following mod(s). Each one is allowed by its license as well as explicit permission on its respective mod page.
 
-* Mod Menu (`modmenu-7.2.2.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+* Mod Menu (`modmenu-9.0.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
+
+#### 2024-XX-XX (15.0.0)
+
+#### Notable Changes
+
+* Updated Minecraft to 1.20.4
+
+#### Incompatible Mods
+* Auto Third Person
+* Better Trim Tooltips
+* Cave Survey
+* CIT Resewn
+* Connectivity
+* Cupboard
+* CurveBuilding
+* Elytra Slot: **critical**
+* Enchanting Tweaker: **has been updated but not uploaded to CF**
+* Fluid Void Fading
+* Leaky - Farm Leak Detection
+* More Banner Layers
+* Now Playing
+* Patchouli
+* Roughly Enough Resources
+* Server Performance - Smooth Chunk Save
+* Shulker Box Slot: **critical**
+* Suspicious Sand Maker
+
+#### Added Mods
+* Double Doors: replaces Couplings
+* Paxi: replaces Global Packs
+* Remorphed: replaces Identity
+
+#### Removed Mods
+
+* Bountiful: not compatible with 1.20.4 and not used by many players anyway
+* Couplings: replaced by Double Doors
+* Global Packs: replaced with Paxi
+* Kambrik: only required for Bountiful
+* Identity: replaced with Remorphed
+* Light Overlay: removed in favor of MiniHUD
+* Ugly Scoreboard Fix
+
+#### Updated Mods
+
+* AdvancementInfo
+* Advancement Screenshot
+* AllStackable
+* Amecs
+* Anvil Restoration
+* AppleSkin
+* Architectury API
+* Areas
+* Armor Points++
+* Ash API
+* AudioPlayer
+* Auth Me
+* Balm
+* Better Ping Display
+* Better Spawner Control
+* Better Statistics Screen
+* Better Than Mending
+* Bobby
+* Bottle Your Xp
+* Bottled Air
+* Capes
+* Carpet
+* Cherished Worlds
+* CleanView
+* Cloth Config API
+* Clumps
+* Collective
+* CompleteConfig
+* Conduits Prevent Drowned
+* Continuity
+* Crawl
+* Crying Portals
+* Cycle Paintings
+* Daily Dad - Server
+* Death Backup
+* Debugify
+* DeepslateCutting
+* Discontinuous Beacon Beams
+* Dismount Entity
+* Dispenser Configurator
+* Distracting Trims
+* Dynamic FPS
+* Easy Shulker Boxes
+* EnchantedShulkers
+* Enchanting Commands
+* Enhanced Block Entities
+* Entity Culling
+* Entity Model Features
+* Entity Texture Features
+* Explorer's Compass
+* Extended Bone Meal
+* Extreme Sound Muffler
+* Fabric API
+* FabricSkyBoxes
+* FabricSkyBoxes Interop
+* Fabrishot
+* Fast Paintings
+* Fire Spread Tweaks
+* Followers Teleport Too
+* Forge Config API Port
+* Full Brightness Toggle
+* Grass Seeds
+* Grind Enchantments
+* GUI Followers
+* Hand Over Your Items
+* Hoe Tweaks
+* Ice Prevents Crop Growth
+* Iceberg
+* Inventory Profiles Next
+* Inventory Totem
+* Item Highlighter
+* Jade
+* JAMD
+* JamLib
+* Just Player Heads
+* Keep Head Names
+* Keep My Soil Tilled
+* Kelp Fertilizer
+* Kiwi
+* KleeSlabs
+* Leaves Us In Peace
+* libIPN
+* LibreExpFix
+* Litematica
+* Lootr
+* MaLiLib
+* MiniHUD
+* Moonlight Lib
+* Name Tag Tweaks
+* Nature's Compass
+* No Recipe Book
+* Open Parties and Claims
+* Organizable Play Screens
+* Overworld Piglins
+* Polymer
+* Puzzles Lib
+* Rain Be Gone Ritual
+* Random Bone Meal Flowers
+* Reese's Sodium Options
+* Replanting Crops
+* RightClickHarvest
+* Roughly Enough Items
+* Roughly Enough Professions
+* Scaffolding Drops Nearby
+* Shuffle
+* Shulker Box Tooltip
+* Simple Magnets
+* Simple Voice Chat
+* Smaller Nether Portals
+* Sneak Through Berries
+* Sodium
+* Sodium Extra
+* Softer Hay Bales
+* Starlight
+* Stendhal
+* Superflat World No Slimes
+* SuperMartijn642's Config Lib
+* SuperMartijn642's Core Lib
+* Trade Cycling
+* TrashSlot
+* Trenzalore
+* Trinkets
+* Tweakeroo
+* Universal Shops
+* Villager Death Messages
+* Visuality
+* WI Zoom
+* WorldEdit
+* WorldEdit CUI
+* Xaero's Minimap
+* Xaero's World Map
+* Yeetus Experimentus
+* YetAnotherConfigLib
+* Your Items Are Safe
+* YUNG's API
+* YUNG's Better Desert Temples
+* YUNG's Better Dungeons
+* YUNG's Better Jungle Temples
+* YUNG's Better Mineshafts
+* YUNG's Better Nether Fortresses
+* YUNG's Better Ocean Monuments
+* YUNG's Better Strongholds
+* YUNG's Better Witch Huts
+* YUNG's Bridges
+* YUNG's Extras
+* Zombie Villagers From Spawner
 
 #### 2024-02-20 (14.8.1)
 

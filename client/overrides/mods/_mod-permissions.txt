@@ -4,7 +4,7 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 
 Mod Menu
 
-`modmenu-7.2.2.jar`
+`modmenu-9.0.0.jar`
 
 Redistributing this file is allowed by their license as well as explicitly stated on their CurseForge page.
 
