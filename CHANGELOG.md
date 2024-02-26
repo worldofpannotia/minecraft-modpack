@@ -4,13 +4,14 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 
 * Mod Menu (`modmenu-9.0.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
-#### 2024-XX-XX (15.0.0)
+#### 2024-02-26 (15.0.0-alpha.0)
 
 #### Notable Changes
 
 * Updated Minecraft to 1.20.4
 
 #### Incompatible Mods
+
 * Auto Third Person
 * Better Trim Tooltips
 * Cave Survey
@@ -31,9 +32,12 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 * Suspicious Sand Maker
 
 #### Added Mods
+
+* Crafted Core: required by Remorphed
 * Double Doors: replaces Couplings
 * Paxi: replaces Global Packs
 * Remorphed: replaces Identity
+* Woodwalkers: required by Remorphed
 
 #### Removed Mods
 

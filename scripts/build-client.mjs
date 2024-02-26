@@ -22,12 +22,12 @@ await fse.copy('./scripts/zip-client.sh', './tmp/zip-client.sh');
 
 await fse.copy('./client', './tmp/client');
 
-proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/global_packs/required_data'});
-proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/global_packs/required_resources'});
+proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/datapacks'});
+proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/resourcepacks'});
 
-await fse.remove('./tmp/client/overrides/global_packs/required_data/.gitignore');
-await fse.remove('./tmp/client/overrides/global_packs/required_data/zip.sh');
-await fse.remove('./tmp/client/overrides/global_packs/required_resources/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks/.gitignore');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks/zip.sh');
 
 await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
 
