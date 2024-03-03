@@ -4,6 +4,22 @@ This modpack zip includes jar files for the following mod(s). Each one is allowe
 
 * Mod Menu (`modmenu-9.0.0.jar`): Redistributing this file is allowed by their license as well as [explicitly stated on their CurseForge page](https://www.curseforge.com/minecraft/mc-mods/modmenu). ([Modrinth link](https://modrinth.com/mod/modmenu))
 
+#### 2024-XX-XX (15.0.0-alpha.1)
+
+#### Updated Mods
+
+* Enchanting Tweaker
+* Suspicious Sand Maker
+
+#### Added Mods
+
+* Banner Tweaks: replaces More Banner Layers
+
+#### Removed Mods
+
+* More Banner Layers: replaced with Banner Tweaks
+
+
 #### 2024-02-26 (15.0.0-alpha.0)
 
 #### Notable Changes
