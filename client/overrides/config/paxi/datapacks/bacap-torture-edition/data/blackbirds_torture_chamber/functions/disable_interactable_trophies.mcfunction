@@ -1,1 +1,0 @@
-scoreboard players set interactable_trophies bac_settings 0

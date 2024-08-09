@@ -1,0 +1,17 @@
+{
+    "result": {
+        "id": "minecraft:copper_trapdoor",
+        "count": 12
+    },
+    "type": "crafting_shaped",
+    "group": "wooden_trapdoor",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ingot"
+        }
+    }
+}

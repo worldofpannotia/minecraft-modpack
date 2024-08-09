@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "minecraft:chainmail_boots"
-    },
-    "result": "minecraft:chain",
-    "count": 2
-}

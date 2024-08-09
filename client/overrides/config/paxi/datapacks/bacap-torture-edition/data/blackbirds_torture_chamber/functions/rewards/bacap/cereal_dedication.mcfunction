@@ -1,2 +1,0 @@
-function blackbirds_torture_chamber:rewards/msg/bacap/cereal_dedication
-

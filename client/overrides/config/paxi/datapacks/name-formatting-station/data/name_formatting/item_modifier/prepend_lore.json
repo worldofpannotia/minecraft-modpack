@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "mode": "insert",
+        "offset": 0,
+        "lore": [
+            {
+                "nbt": "Inventory[{Slot:-106b}].components.minecraft:custom_name",
+                "entity": "@s",
+                "interpret": true
+            }
+        ]
+    }
+]

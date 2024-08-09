@@ -1,1 +1,0 @@
-scoreboard players set @s splat_death 0

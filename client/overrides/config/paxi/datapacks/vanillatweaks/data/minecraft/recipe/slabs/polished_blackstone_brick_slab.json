@@ -1,0 +1,13 @@
+{
+    "result": {
+        "id": "minecraft:polished_blackstone_brick_slab",
+        "count": 2
+    },
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:polished_blackstone_bricks"
+        }
+    ],
+    "group": "block_to_2_slabs"
+}

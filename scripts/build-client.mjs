@@ -28,6 +28,9 @@ proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/resourcep
 await fse.remove('./tmp/client/overrides/config/paxi/datapacks/.gitignore');
 await fse.remove('./tmp/client/overrides/config/paxi/datapacks/zip.sh');
 await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks.old');
+await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks.old');
+await fse.remove('./tmp/client/overrides/config/paxi/.gitignore');
 
 await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
 

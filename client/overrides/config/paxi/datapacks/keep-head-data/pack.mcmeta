@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "Keep all data of placed player heads",
+        "pack_format": 48
+    }
+}

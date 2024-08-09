@@ -1,1 +1,0 @@
-execute at @s[tag=vjf_range,tag=vjf_range_0] run function vjf:villager/fix/range
