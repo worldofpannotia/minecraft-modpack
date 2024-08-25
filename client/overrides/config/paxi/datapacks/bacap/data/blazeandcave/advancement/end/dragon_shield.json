@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components":{
+				"minecraft:base_color": "purple",
+				"minecraft:banner_patterns":[
+					{
+						"color":"magenta",
+						"pattern":"minecraft:gradient"
+					},
+					{
+						"color":"black",
+						"pattern":"minecraft:curly_border"
+					},
+					{
+						"color":"purple",
+						"pattern":"minecraft:stripe_right"
+					},
+					{
+						"color":"black",
+						"pattern":"minecraft:flower"
+					},
+					{
+						"color":"black",
+						"pattern":"minecraft:stripe_middle"
+					},
+					{
+						"color":"purple",
+						"pattern":"minecraft:triangle_top"
+					},
+					{
+						"color":"black",
+						"pattern":"minecraft:mojang"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Dragon Shield"},
+		"description": {"color":"green","translate":"Attempt to block the dragon's attacks"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/root",
+	"rewards": {
+		"function": "bc_rewards:end/dragon_shield"
+	},
+	"criteria": {
+		"deflected_dragon": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "ender_dragon"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:slime_ball"
+		},
+		"title": {"translate":"Bogged Down"},
+		"description": {"color":"green","translate":"Kill a Bogged. Watch those poison arrows!"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/frosty",
+	"rewards": {
+		"function": "bc_rewards:monsters/bogged_down"
+	},		
+	"criteria": {
+		"bogged": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "bogged"
+				}
+			}
+		}
+	}
+}

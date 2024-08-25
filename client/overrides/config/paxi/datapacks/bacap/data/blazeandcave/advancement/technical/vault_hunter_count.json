@@ -1,0 +1,61 @@
+{
+	"rewards": {
+		"function": "blazeandcave:vault_hunter_count"
+	},
+	"criteria": {
+		"vault": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:vault",
+								"state": {
+									"ominous": "false"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:trial_key"
+						}
+					}
+				]
+			}
+		},
+		"ominous_vault": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:vault",
+								"state": {
+									"ominous": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:ominous_trial_key"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"vault",
+			"ominous_vault"
+		]
+	]
+}

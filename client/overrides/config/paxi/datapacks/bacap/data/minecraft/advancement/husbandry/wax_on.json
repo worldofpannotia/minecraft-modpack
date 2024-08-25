@@ -1,0 +1,296 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:honeycomb"
+		},
+		"title": {"translate":"Wax On"},
+		"description": {"color":"green","translate":"Use Honeycombs to wax a Copper Block, preventing it from oxidising"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/grate_expectations",
+	"rewards": {
+		"function": "bc_rewards:mining/wax_on"
+	},		
+	"criteria": {
+		"minecraft:waxed_copper_block_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_copper_block_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_cut_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_cut_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_cut_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_cut_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_cut_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_cut_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_cut_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_cut_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_cut_copper_slab_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_cut_copper_slab_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_cut_copper_slab_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_cut_copper_slab_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_cut_copper_stairs_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_cut_copper_stairs_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_chiseled_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_chiseled_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_chiseled_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_chiseled_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_chiseled_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_chiseled_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_chiseled_copper_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_copper_grate_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_copper_grate_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_copper_grate_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_copper_grate_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_copper_grate_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_copper_grate_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_copper_grate_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_copper_grate_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_copper_door_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_copper_door_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_copper_door_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_copper_door_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_copper_door_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_copper_door_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_copper_door_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_copper_door_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_copper_trapdoor_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_copper_trapdoor_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_copper_trapdoor_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_copper_trapdoor_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_copper_trapdoor_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_copper_trapdoor_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_copper_bulb_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_copper_bulb_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_exposed_copper_bulb_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_exposed_copper_bulb_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_weathered_copper_bulb_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_weathered_copper_bulb_from_honeycomb"
+			}
+		},
+		"minecraft:waxed_oxidized_copper_bulb_from_honeycomb": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:waxed_oxidized_copper_bulb_from_honeycomb"
+			}
+		},
+		"directly_wax_block": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#blazeandcave:waxed_copper_blocks"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:honeycomb"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"minecraft:waxed_copper_block_from_honeycomb",
+			"minecraft:waxed_exposed_copper_from_honeycomb",
+			"minecraft:waxed_weathered_copper_from_honeycomb",
+			"minecraft:waxed_oxidized_copper_from_honeycomb",
+			"minecraft:waxed_cut_copper_from_honeycomb",
+			"minecraft:waxed_exposed_cut_copper_from_honeycomb",
+			"minecraft:waxed_weathered_cut_copper_from_honeycomb",
+			"minecraft:waxed_oxidized_cut_copper_from_honeycomb",
+			"minecraft:waxed_cut_copper_slab_from_honeycomb",
+			"minecraft:waxed_exposed_cut_copper_slab_from_honeycomb",
+			"minecraft:waxed_weathered_cut_copper_slab_from_honeycomb",
+			"minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb",
+			"minecraft:waxed_cut_copper_stairs_from_honeycomb",
+			"minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb",
+			"minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb",
+			"minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb",
+			"minecraft:waxed_chiseled_copper_from_honeycomb",
+			"minecraft:waxed_exposed_chiseled_copper_from_honeycomb",
+			"minecraft:waxed_weathered_chiseled_copper_from_honeycomb",
+			"minecraft:waxed_oxidized_chiseled_copper_from_honeycomb",
+			"minecraft:waxed_copper_grate_from_honeycomb",
+			"minecraft:waxed_exposed_copper_grate_from_honeycomb",
+			"minecraft:waxed_weathered_copper_grate_from_honeycomb",
+			"minecraft:waxed_oxidized_copper_grate_from_honeycomb",
+			"minecraft:waxed_copper_door_from_honeycomb",
+			"minecraft:waxed_exposed_copper_door_from_honeycomb",
+			"minecraft:waxed_weathered_copper_door_from_honeycomb",
+			"minecraft:waxed_oxidized_copper_door_from_honeycomb",
+			"minecraft:waxed_copper_trapdoor_from_honeycomb",
+			"minecraft:waxed_exposed_copper_trapdoor_from_honeycomb",
+			"minecraft:waxed_weathered_copper_trapdoor_from_honeycomb",
+			"minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb",
+			"minecraft:waxed_copper_bulb_from_honeycomb",
+			"minecraft:waxed_exposed_copper_bulb_from_honeycomb",
+			"minecraft:waxed_weathered_copper_bulb_from_honeycomb",
+			"minecraft:waxed_oxidized_copper_bulb_from_honeycomb",
+			"directly_wax_block"
+		]
+	]
+}

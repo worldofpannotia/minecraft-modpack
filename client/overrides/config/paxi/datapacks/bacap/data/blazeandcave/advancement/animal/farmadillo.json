@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spider_eye"
+		},
+		"title": {"translate":"Farmadillo"},
+		"description": {"color":"green","translate":"Breed two Armadillos using Spider Eyes"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/brush_armadillo",
+	"rewards": {
+		"function": "bc_rewards:animal/farmadillo"
+	},		
+	"criteria": {
+		"armadillo": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:armadillo"
+				},
+				"partner": {
+					"type": "minecraft:armadillo"
+				}
+			}
+		}
+	}
+}

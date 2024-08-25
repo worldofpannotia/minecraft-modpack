@@ -1,0 +1,324 @@
+{
+	"rewards": {
+		"function": "blazeandcave:whack_a_mole_count"
+	},
+	"criteria": {
+		"whack_a_mole": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 10.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"effects": {
+									"minecraft:strength": {
+										"amplifier": {
+											"min": 0
+										}
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"whack_a_mole_strength1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 14.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 0,
+										"max": 0
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"whack_a_mole_strength2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 19.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 1,
+										"max": 1
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"whack_a_mole_strength3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 23.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 2,
+										"max": 2
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"whack_a_mole_strength4": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 28.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 3,
+										"max": 3
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"whack_a_mole_strength5": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "armadillo"
+				},
+				"damage": {
+					"dealt": {
+						"min": 32.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:wind_burst"
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 4
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"whack_a_mole",
+			"whack_a_mole_strength1",
+			"whack_a_mole_strength2",
+			"whack_a_mole_strength3",
+			"whack_a_mole_strength4",
+			"whack_a_mole_strength5"
+		]
+	]
+}

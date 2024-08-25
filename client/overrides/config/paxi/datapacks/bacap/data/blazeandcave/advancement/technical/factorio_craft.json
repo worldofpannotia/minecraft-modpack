@@ -1,0 +1,13 @@
+{
+	"rewards": {
+		"function": "blazeandcave:factorio_craft"
+	},
+	"criteria": {
+		"factorio_craft": {
+			"trigger": "minecraft:crafter_recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:dispenser"
+			}
+		}
+	}
+}

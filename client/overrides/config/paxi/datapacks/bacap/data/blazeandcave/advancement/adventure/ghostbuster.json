@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_sword"
+		},
+		"title": {"translate":"Ghostbuster!"},
+		"description": {"color":"green","translate":"Bust a Vex summoned by an Evoker"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:adventure/the_shielding",
+	"rewards": {
+		"function": "bc_rewards:adventure/ghostbuster"
+	},		
+	"criteria": {
+		"vex": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "vex"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+give @s book[item_name='{"translate":"Statistician\'s Trophy","color":"#654B17","bold":true,"italic":false}',lore=['{"translate":"Lies, damned lies, and statistics","color":"#654B17"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Statistics Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Statistician's Trophy"}]

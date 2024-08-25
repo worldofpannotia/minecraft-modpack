@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_door"
+		},
+		"title": {"translate":"Do You Want to Trade?"},
+		"description": {"color":"green","translate":"Find an NPC village"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/root",
+	"rewards": {
+		"function": "bc_rewards:adventure/do_you_want_to_trade"
+	},		
+	"criteria": {
+		"village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "#blazeandcave:village"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

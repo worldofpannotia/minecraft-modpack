@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:experience_bottle",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Level Up"},
+		"description": {"color":"green","translate":"Reach 30 experience levels"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:technical/you_are_a_big_cheater",
+	"rewards": {
+		"function": "bc_rewards:statistics/level_up"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 30
+						}
+					}
+				}
+			}
+		}
+	}
+}

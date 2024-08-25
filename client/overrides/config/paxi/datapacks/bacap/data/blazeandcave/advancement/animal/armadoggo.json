@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wolf_armor"
+		},
+		"title": {"translate":"Armadoggo"},
+		"description": {"color":"green","translate":"Equip your canine best friend with Wolf Armor"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:animal/farmadillo",
+	"rewards": {
+		"function": "bc_rewards:animal/armadoggo"
+	},
+	"criteria": {
+		"wolf_armor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor"
+				}
+			}
+		}
+	}
+}

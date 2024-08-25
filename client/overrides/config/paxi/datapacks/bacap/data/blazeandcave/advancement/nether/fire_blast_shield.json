@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "black",
+				"minecraft:banner_patterns": [
+					{"color": "red","pattern": "minecraft:triangles_bottom"},
+					{"color": "red","pattern": "minecraft:circle"},
+					{"color": "white","pattern": "minecraft:creeper"},
+					{"color": "white","pattern": "minecraft:stripe_top"},
+					{"color": "white","pattern": "minecraft:curly_border"},
+					{"color": "white","pattern": "minecraft:cross"}
+				]
+			}
+		},
+		"title": {"translate":"Fire Blast Shield"},
+		"description": {"color":"green","translate":"Block the explosion of a ghast's fireball"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:nether/giant_floating_jellyfish",
+	"rewards": {
+		"function": "bc_rewards:nether/fire_blast_shield"
+	},
+	"criteria": {
+		"deflected_explosion": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"source_entity": {
+						"type": "ghast"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "yellow",
+				"minecraft:banner_patterns": [
+					{
+						"color": "black",
+						"pattern": "minecraft:creeper"
+					},
+					{
+						"color": "orange",
+						"pattern": "minecraft:cross"
+					},
+					{
+						"color": "brown",
+						"pattern": "minecraft:half_horizontal_bottom"
+					},
+					{
+						"color": "orange",
+						"pattern": "minecraft:triangle_top"
+					},
+					{
+						"color": "orange",
+						"pattern": "minecraft:gradient_up"
+					}
+				]
+			}
+		},
+		"title": {"translate":"The Nether's Shield"},
+		"description": {"color":"green","translate":"Block some blaze fireballs"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/obtain_blaze_rod",
+	"rewards": {
+		"function": "bc_rewards:nether/the_nethers_shield"
+	},
+	"criteria": {
+		"deflected_fireball": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"blocked": true,
+					"direct_entity": {
+						"type": "small_fireball"
+					},
+					"source_entity": {
+						"type": "blaze",
+						"distance": {
+							"absolute": {
+								"min": 3.0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

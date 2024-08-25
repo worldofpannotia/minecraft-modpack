@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stick",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Expelliarmus!"},
+		"description": {"color":"green","translate":"Hit a mob with a stick"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/root",
+	"rewards": {
+		"function": "bc_rewards:weaponry/expelliarmus"
+	},		
+	"criteria": {
+		"stick": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				},			
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:stick"
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		}		
+	}
+}

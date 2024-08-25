@@ -1,0 +1,59 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:triangle_bottom"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:triangle_top"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:rhombus"
+					},
+					{
+						"color": "light_gray",
+						"pattern": "minecraft:curly_border"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:skull"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Not Today, Thank You"},
+		"description": {"color":"green","translate":"Deflect a Skeleton's arrow with a Shield"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/boned",
+	"rewards": {
+		"function": "bc_rewards:monsters/not_today_thank_you"
+	},
+	"criteria": {
+		"deflected_skeleton": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
+					},
+					"blocked": true,
+					"source_entity": {
+						"type": "#minecraft:skeletons"
+					}
+				}
+			}
+		}	
+	}
+}

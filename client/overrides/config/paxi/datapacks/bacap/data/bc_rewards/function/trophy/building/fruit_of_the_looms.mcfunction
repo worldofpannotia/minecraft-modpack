@@ -1,0 +1,3 @@
+give @s written_book[item_name='{"translate":"The Journal","color":"#DAD2BC","bold":true,"italic":false}',lore=['{"translate":"After all these years, I finally have them all...","color":"#DAD2BC"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Fruit of the Looms","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},written_book_content={title:"The Journal",author:"Unknown",pages:['{"translate":"What are you doing reading this for? Go get Advancement Legend already!"}']}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"The Journal"}]

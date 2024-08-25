@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:dyed_color": 16383998
+			}
+		},
+		"title": {"translate":"Kung Fu Panda!"},
+		"description": {"color":"green","translate":"Get beaten up by an angry panda"},
+		"announce_to_chat": true
+
+	},
+	"parent": "blazeandcave:biomes/zoologist",
+	"rewards": {
+		"function": "bc_rewards:biomes/kung_fu_panda"
+	},		
+	"criteria": {
+		"panda": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "panda"
+				}
+			}
+		}
+	}
+}

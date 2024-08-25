@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:vault"
+		},
+		"title": {"translate":"Vault Hunter"},
+		"description": {"color":"#75E1FF","translate":"Unlock 25 Vaults across Trial Chambers"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/revaulting",
+	"rewards": {
+		"function": "bc_rewards:adventure/vault_hunter"
+	},		
+	"criteria": {
+		"vault_hunter": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

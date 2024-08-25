@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sculk",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Giga XP Grinder"},
+		"description": {"color":"light_purple","translate":"Reach 1000 experience levels"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "blazeandcave:statistics/xp_grinder",
+	"rewards": {
+		"function": "bc_rewards:statistics/giga_xp_grinder"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"level": {
+							"min": 1000
+						}
+					}
+				}
+			}
+		}
+	}
+}

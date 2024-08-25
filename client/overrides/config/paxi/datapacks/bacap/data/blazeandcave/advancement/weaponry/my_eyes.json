@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:firework_star",
+			"components": {
+				"minecraft:firework_explosion": {
+					"shape": "small_ball",
+					"colors": [11743532]
+				}
+			}
+		},
+		"title": {"translate":"My eyes!"},
+		"description": {"color":"green","translate":"Kill a mob using a firework's explosion"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/explosive_fire",
+	"rewards": {
+		"function": "bc_rewards:weaponry/my_eyes"
+	},		
+	"criteria": {
+		"firework_rocket_kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"type": "minecraft:firework_rocket"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sculk"
+		},
+		"title": {"translate":"Warden Extinction"},
+		"description": {"color":"dark_purple","translate":"Deal 250 hearts of damage in a single hit using the Mace… to one-shot a Warden"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/overoverkill",
+	"rewards": {
+		"function": "bc_rewards:weaponry/warden_extinction"
+	},
+	"criteria": {
+		"overoverkill": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:player",
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					},
+					"dealt": {
+						"min": 500.0
+					}
+				},
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	}
+}

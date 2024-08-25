@@ -1,0 +1,79 @@
+{
+	"rewards": {
+		"function": "blazeandcave:riddle/third_line"
+	},		
+	"criteria": {
+		"dinnerbone": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"nbt": "{CustomName:\'\"Dinnerbone\"\'}"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_second_line": true
+						}
+					}
+				}
+			}
+		},
+		"grumm": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"nbt": "{CustomName:\'\"Grumm\"\'}"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_second_line": true
+						}
+					}
+				}
+			}
+		},
+		"dinnerbone_old": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"nbt": "{CustomName:\"{\\\"text\\\":\\\"Dinnerbone\\\"}\"}"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_second_line": true
+						}
+					}
+				}
+			}
+		},
+		"grumm_old": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"nbt": "{CustomName:\"{\\\"text\\\":\\\"Grumm\\\"}\"}"
+					},
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"blazeandcave:technical/riddle_second_line": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"dinnerbone",
+			"grumm",
+			"dinnerbone_old",
+			"grumm_old"
+		]
+	]
+}

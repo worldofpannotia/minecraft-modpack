@@ -1,0 +1,3 @@
+give @s prismarine_shard[item_name='{"translate":"Spinny Top","color":"#89AEBF","bold":true,"italic":false}',lore=['{"translate":"If it falls over, it\'s not a dream","color":"#89AEBF"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Inception","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Spinny Top"}]

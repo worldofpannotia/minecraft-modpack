@@ -1,0 +1,274 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": {"translate":"Nice to Mace You!"},
+		"description": {"color":"#75E1FF","translate":"Craft a Mace using a Breeze Rod and a Heavy Core, then do a smash attack by hitting a mob after falling"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/root",
+	"rewards": {
+		"function": "bc_rewards:weaponry/nice_to_mace_you"
+	},
+	"criteria": {
+		"mace_no_strength": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 10.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"effects": {
+									"minecraft:strength": {
+										"amplifier": {
+											"min": 0
+										}
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"mace_strength1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 14.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 0,
+										"max": 0
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"mace_strength2": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 19.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 1,
+										"max": 1
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"mace_strength3": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 23.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 2,
+										"max": 2
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"mace_strength4": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 28.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 3,
+										"max": 3
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"mace_strength5": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 32.0,
+						"max": 3999.0
+					},
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:player_attack",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							},
+							"effects": {
+								"minecraft:strength": {
+									"amplifier": {
+										"min": 4
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"mace_no_strength",
+			"mace_strength1",
+			"mace_strength2",
+			"mace_strength3",
+			"mace_strength4",
+			"mace_strength5"
+		]
+	]
+}

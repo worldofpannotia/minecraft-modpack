@@ -1,0 +1,3 @@
+give @s purple_dye[item_name='{"translate":"Power Stone","color":"#8338B7","bold":true,"italic":false}',lore=['{"translate":"Maybe you should start a cool rock collection","color":"#8338B7"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Dragon vs Wither: Pre-Sequel","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Power Stone"}]

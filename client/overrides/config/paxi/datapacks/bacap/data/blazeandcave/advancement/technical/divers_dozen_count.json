@@ -1,0 +1,28 @@
+{
+	"rewards": {
+		"function": "blazeandcave:divers_dozen_count"
+	},
+	"criteria": {
+		"divers_dozen": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"items": "minecraft:elytra"
+								}
+							},
+							"flags": {
+								"is_flying": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

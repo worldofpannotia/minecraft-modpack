@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "cyan",
+				"minecraft:banner_patterns": [
+					{
+						"color": "light_blue",
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "cyan",
+						"pattern": "minecraft:stripe_center"
+					},
+					{
+						"color": "green",
+						"pattern": "minecraft:triangles_top"
+					},
+					{
+						"color": "light_blue",
+						"pattern": "minecraft:stripe_bottom"
+					},
+					{
+						"color": "brown",
+						"pattern": "minecraft:triangles_bottom"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Tridented Shield"},
+		"description": {"color":"green","translate":"Block a trident thrown by a Drowned"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/a_watery_grave",
+	"rewards": {
+		"function": "bc_rewards:monsters/tridented_shield"
+	},
+	"criteria": {
+		"deflected_trident": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
+					},
+					"blocked": true,
+					"source_entity": {
+						"type": "drowned"
+					}
+				}
+			}
+		}
+	}
+}

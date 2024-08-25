@@ -1,0 +1,457 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tropical_fish_bucket"
+		},
+		"title": {"translate":"Tropical Collection"},
+		"description": {"color":"dark_purple","translate":"Collect all 22 of the common types of tropical fish"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:animal/aquarium",
+	"rewards": {
+		"function": "bc_rewards:animal/tropical_collection"
+	},		
+	"criteria": {
+		"fish1": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:65536}"
+						}
+					}
+				]
+			}
+		},
+		"fish2": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:917504}"
+						}
+					}
+				]
+			}
+		},
+		"fish3": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:918273}"
+						}
+					}
+				]
+			}
+		},
+		"fish4": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:918529}"
+						}
+					}
+				]
+			}
+		},
+		"fish5": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:16778497}"
+						}
+					}
+				]
+			}
+		},
+		"fish6": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:50660352}"
+						}
+					}
+				]
+			}
+		},
+		"fish7": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:50726144}"
+						}
+					}
+				]
+			}
+		},
+		"fish8": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67108865}"
+						}
+					}
+				]
+			}
+		},
+		"fish9": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67110144}"
+						}
+					}
+				]
+			}
+		},
+		"fish10": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67371009}"
+						}
+					}
+				]
+			}
+		},
+		"fish11": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67764993}"
+						}
+					}
+				]
+			}
+		},
+		"fish12": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:101253888}"
+						}
+					}
+				]
+			}
+		},
+		"fish13": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117441025}"
+						}
+					}
+				]
+			}
+		},
+		"fish14": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:67699456}"
+						}
+					}
+				]
+			}
+		},
+		"fish15": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117441793}"
+						}
+					}
+				]
+			}
+		},
+		"fish16": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117506305}"
+						}
+					}
+				]
+			}
+		},
+		"fish17": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:117899265}"
+						}
+					}
+				]
+			}
+		},
+		"fish18": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:118161664}"
+						}
+					}
+				]
+			}
+		},
+		"fish19": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:459008}"
+						}
+					}
+				]
+			}
+		},
+		"fish20": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:185008129}"
+						}
+					}
+				]
+			}
+		},
+		"fish21": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:234882305}"
+						}
+					}
+				]
+			}
+		},
+		"fish22": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:water_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tropical_fish",
+							"nbt": "{Variant:235340288}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

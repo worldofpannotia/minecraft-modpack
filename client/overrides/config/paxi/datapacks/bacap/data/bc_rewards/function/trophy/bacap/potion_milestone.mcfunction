@@ -1,0 +1,3 @@
+give @s glass_bottle[item_name='{"translate":"Potion Brewer\'s Trophy","color":"#D9CC3F","bold":true,"italic":false}',lore=['{"translate":"How did you get here?","color":"#D9CC3F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Potions Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Potion Brewer's Trophy"}]

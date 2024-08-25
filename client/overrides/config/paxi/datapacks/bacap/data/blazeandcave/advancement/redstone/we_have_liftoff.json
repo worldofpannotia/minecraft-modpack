@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tnt"
+		},
+		"title": {"translate":"We Have Liftoff!"},
+		"description": {"color":"dark_purple","translate":"Build a redstone machine that uses TNT to launch you at least 100 blocks into the stratosphere"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:redstone/dispense_with_this",
+	"rewards": {
+		"function": "bc_rewards:redstone/we_have_liftoff"
+	},
+	"criteria": {
+		"we_have_liftoff": {
+			"trigger": "minecraft:fall_after_explosion",
+			"conditions": {
+				"cause": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:tnt"
+						}
+					}
+				],
+				"distance": {
+					"y": {
+						"min": 100.0
+					}
+				}
+			}
+		}
+	}
+}

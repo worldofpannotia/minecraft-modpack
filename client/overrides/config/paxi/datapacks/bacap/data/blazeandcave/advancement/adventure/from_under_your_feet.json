@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oxidized_copper_trapdoor"
+		},
+		"title": {"translate":"From Under Your Feet"},
+		"description": {"color":"green","translate":"Throw a Wind Charge at a mob that is standing on top of a trapdoor"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/who_needs_rockets",
+	"rewards": {
+		"function": "bc_rewards:adventure/from_under_your_feet"
+	},		
+	"criteria": {
+		"from_under_your_feet": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"stepping_on": {
+						"block": {
+							"blocks": "#minecraft:trapdoors"
+						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:wind_charge"
+						}
+					}
+				}
+			}
+		}
+	}
+}

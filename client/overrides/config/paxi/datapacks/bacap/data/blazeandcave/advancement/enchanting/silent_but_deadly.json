@@ -1,0 +1,78 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_leggings",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Silent But Deadly"},
+		"description": {"color":"dark_purple","translate":"Sneak and sprint on sculk with Speed II while wearing Swift Sneak III leggings. Try saying that six times swiftly"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/like_a_ninja",
+	"rewards": {
+		"function": "bc_rewards:enchanting/silent_but_deadly"
+	},
+	"criteria": {
+		"silent_but_deadly": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:sculk"
+									]
+								}
+							},
+							"equipment": {
+								"legs": {
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:swift_sneak",
+												"levels": {
+													"min": 3
+												}
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:speed": {
+									"amplifier": {
+										"min": 1
+									}
+								}
+							},
+							"flags": {
+								"is_sprinting": true,
+								"is_sneaking": true
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

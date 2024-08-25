@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod"
+		},
+		"title": {"translate":"Indiana Jones"},
+		"description": {"color":"green","translate":"Pull a monster using a fishing rod"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/pig_fishing_tournament",
+	"rewards": {
+		"function": "bc_rewards:weaponry/indiana_jones"
+	},		
+	"criteria": {
+		"indiana_jones": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "#blazeandcave:hostile_monsters"
+				}
+			}
+		}
+	}
+}

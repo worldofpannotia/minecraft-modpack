@@ -1,0 +1,3 @@
+give @s paper[item_name='{"translate":"Potion Master\'s Diploma","color":"#FF0036","bold":true,"italic":false}',lore=['{"translate":"A certificate granting you the ability to teach","color":"#FF0036"}','{"translate":"the subtle science and exact art of potion-making","color":"#FF0036"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Potion Master","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Potion Master's Diploma"}]

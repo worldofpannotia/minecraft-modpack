@@ -1,0 +1,3 @@
+give @s splash_potion[item_name='{"translate":"Instant Death","color":"#880000","bold":true,"italic":false}',lore=['{"translate":"Since you like dying so much...","color":"#880000"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Death From All","color":"#FF2A2A","italic":false}'],custom_data={Trophy:1},custom_model_data=131,potion_contents={custom_effects:[{"id":"minecraft:instant_damage","amplifier":2}],show_in_tooltip:false},hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Instant Death"}]

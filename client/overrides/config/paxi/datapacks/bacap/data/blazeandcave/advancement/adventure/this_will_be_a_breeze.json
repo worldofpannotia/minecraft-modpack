@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trial_spawner"
+		},
+		"title": {"translate":"This will be a breeze!"},
+		"description": {"color":"green","translate":"Famous last words. Get killed by a Breeze"},
+		"announce_to_chat": true
+
+	},
+	"parent": "minecraft:adventure/minecraft_trials_edition",
+	"rewards": {
+		"function": "bc_rewards:adventure/this_will_be_a_breeze"
+	},		
+	"criteria": {
+		"breeze": {
+			"trigger": "minecraft:entity_killed_player",
+			"conditions": {
+				"entity": {
+					"type": "breeze"
+				}
+			}
+		}
+	}
+}

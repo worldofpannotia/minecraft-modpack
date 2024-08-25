@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crossbow",
+			"components": {
+				"minecraft:charged_projectiles": [
+					{
+						"id": "minecraft:firework_rocket",
+						"count": 1
+					}
+				]
+			}
+		},
+		"title": {"translate":"Explosive Fire"},
+		"description": {"color":"green","translate":"Load your crossbow with a firework"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/fireworks_display",
+	"rewards": {
+		"function": "bc_rewards:weaponry/explosive_fire"
+	},		
+	"criteria": {
+		"crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crossbow"
+						],
+						"components": {
+							"minecraft:charged_projectiles": [
+								{
+									"id": "minecraft:firework_rocket"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

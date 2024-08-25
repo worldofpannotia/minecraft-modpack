@@ -1,0 +1,85 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:poison"
+				}
+			}
+		},
+		"title": {"translate":"Poison Dart"},
+		"description": {"color":"green","translate":"Shoot a mob with a Tipped Arrow of Poison"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/bogged_down",
+	"rewards": {
+		"function": "bc_rewards:monsters/poison_dart"
+	},	
+	"criteria": {
+		"normal_poison": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:arrow",
+							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
+						}
+					}
+				}
+			}
+		},
+		"long_poison": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:arrow",
+							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
+						}
+					}
+				}
+			}
+		},
+		"strong_poison": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"type": "minecraft:arrow",
+							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"normal_poison",
+			"long_poison",
+			"strong_poison"
+		]
+	]
+}

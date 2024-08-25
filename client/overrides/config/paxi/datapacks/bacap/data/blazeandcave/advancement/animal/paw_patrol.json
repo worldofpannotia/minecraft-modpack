@@ -1,0 +1,140 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wolf_armor",
+			"components": {
+				"minecraft:dyed_color": 3949738
+			}
+		},
+		"title": {"translate":"Paw Patrol"},
+		"description": {"color":"#75E1FF","translate":"Equip Wolves with Wolf Armor dyed blue, red, yellow, lime, pink and orange"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/remove_wolf_armor",
+	"rewards": {
+		"function": "bc_rewards:animal/paw_patrol"
+	},
+	"criteria": {
+		"blue": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 3949738
+					}
+				}
+			}
+		},
+		"red": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 11546150
+					}
+				}
+			}
+		},
+		"yellow": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 16701501
+					}
+				}
+			}
+		},
+		"lime": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 8439583
+					}
+				}
+			}
+		},
+		"pink": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 15961002
+					}
+				}
+			}
+		},
+		"orange": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:wolf_armor",
+					"components": {
+						"minecraft:dyed_color": 16351261
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,245 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ice"
+		},
+		"title": {"translate":"Let It Go!"},
+		"description": {"color":"#75E1FF","translate":"Using Frost Walker boots, walk on frozen water over a deep ocean"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/gotta_go_fast",
+	"rewards": {
+		"function": "bc_rewards:enchanting/let_it_go"
+	},			
+	"criteria": {
+		"frost_walker_deep_lukewarm_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:frosted_ice"
+									]
+								}
+							},
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots",
+										"minecraft:chainmail_boots",
+										"minecraft:golden_boots",
+										"minecraft:iron_boots",
+										"minecraft:diamond_boots",
+										"minecraft:netherite_boots"
+									],					
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:frost_walker"
+											}
+										]
+									}
+								}
+							},
+							"location": {
+								"biomes": "minecraft:deep_lukewarm_ocean"
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"frost_walker_deep_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:frosted_ice"
+									]
+								}
+							},
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots",
+										"minecraft:chainmail_boots",
+										"minecraft:golden_boots",
+										"minecraft:iron_boots",
+										"minecraft:diamond_boots",
+										"minecraft:netherite_boots"
+									],					
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:frost_walker"
+											}
+										]
+									}
+								}
+							},
+							"location": {
+								"biomes": "minecraft:deep_ocean"
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"frost_walker_deep_cold_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:frosted_ice"
+									]
+								}
+							},
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots",
+										"minecraft:chainmail_boots",
+										"minecraft:golden_boots",
+										"minecraft:iron_boots",
+										"minecraft:diamond_boots",
+										"minecraft:netherite_boots"
+									],					
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:frost_walker"
+											}
+										]
+									}
+								}
+							},
+							"location": {
+								"biomes": "minecraft:deep_cold_ocean"
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"frost_walker_deep_frozen_ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": [
+										"minecraft:frosted_ice"
+									]
+								}
+							},
+							"equipment": {
+								"feet": {
+									"items": [
+										"minecraft:leather_boots",
+										"minecraft:chainmail_boots",
+										"minecraft:golden_boots",
+										"minecraft:iron_boots",
+										"minecraft:diamond_boots",
+										"minecraft:netherite_boots"
+									],					
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:frost_walker"
+											}
+										]
+									}
+								}
+							},
+							"location": {
+								"biomes": "minecraft:deep_frozen_ocean"
+							}
+						},
+						"entity": "this"
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"frost_walker_deep_lukewarm_ocean",
+			"frost_walker_deep_ocean",
+			"frost_walker_deep_cold_ocean",
+			"frost_walker_deep_frozen_ocean"
+		]
+	]
+}

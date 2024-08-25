@@ -1,0 +1,3 @@
+give @s leather_chestplate[item_name='{"translate":"Yellow T-Shirt","color":"#FFF600","bold":true,"italic":false}',lore=['{"translate":"I completed BlazeandCave\'s Advancements Pack","color":"#FFF600"}','{"translate":"and all I got was this lousy T-shirt","color":"#FFF600"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Advancement Legend","color":"gold","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},dyed_color={rgb:16774656,show_in_tooltip:false},trim={material:"minecraft:netherite",pattern:"minecraft:snout",show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Yellow T-Shirt"}]
