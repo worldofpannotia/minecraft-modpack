@@ -1,4 +1,13 @@
 {
     "version": 1,
-    "overrides": {}
+    "overrides": {
+        "ante": {
+            "-depends": {
+                "minecraft": ""
+            },
+            "+depends": {
+                "minecraft": "~1.21"
+            }
+        }
+    }
 }
