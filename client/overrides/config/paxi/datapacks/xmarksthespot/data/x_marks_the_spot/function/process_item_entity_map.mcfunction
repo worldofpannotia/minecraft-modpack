@@ -1,0 +1,3 @@
+data remove storage x_marks_the_spot:curr Decoration
+data modify storage x_marks_the_spot:curr Decoration set from entity @s Item{id:"minecraft:filled_map"}.components."minecraft:map_decorations"."+"{type:"minecraft:red_x",rotation:180.0f}
+execute if data storage x_marks_the_spot:curr Decoration as @a[tag=x_marks_the_spot_curr_player,limit=1] run function x_marks_the_spot:show_x/from_decoration_data
