@@ -1,0 +1,107 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.exploding_impact"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:explode",
+                    "radius": 4,
+                    "offset": [
+                        0,
+                        1,
+                        0
+                    ],
+                    "block_interaction": "none",
+                    "small_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "large_particle": {
+                        "type": "minecraft:explosion_emitter"
+                    },
+                    "sound": "minecraft:entity.generic.explode",
+                    "knockback_multiplier": {
+                        "type": "minecraft:lookup",
+                        "values": [
+                            2.2,
+                            2.75,
+                            3.2
+                        ],
+                        "fallback": {
+                            "type": "minecraft:linear",
+                            "base": 2.5,
+                            "per_level_above_first": 0.35
+                        }
+                    },
+                    "attribute_to_user": true,
+                    "create_fire": false
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:trident"
+                    }
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:explode",
+                    "damage_type": "minecraft:player_explosion",
+                    "radius": 1.25,
+                    "block_interaction": "none",
+                    "small_particle": {
+                        "type": "minecraft:explosion"
+                    },
+                    "large_particle": {
+                        "type": "minecraft:explosion"
+                    },
+                    "sound": "minecraft:entity.generic.explode",
+                    "knockback_multiplier": {
+                        "type": "minecraft:lookup",
+                        "values": [
+                            0.2,
+                            0.5,
+                            0.7
+                        ],
+                        "fallback": {
+                            "type": "minecraft:linear",
+                            "base": 0.5,
+                            "per_level_above_first": 0.1
+                        }
+                    },
+                    "attribute_to_user": false,
+                    "create_fire": false
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "type": "minecraft:trident"
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/exploding_impact",
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 8
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/exploding_impact",
+    "weight": 2
+}

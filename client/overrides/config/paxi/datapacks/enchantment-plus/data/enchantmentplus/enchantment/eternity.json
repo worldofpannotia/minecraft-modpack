@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 16,
+    "description": {
+        "translate": "enchantment.enchantmentplus.eternity"
+    },
+    "effects": {
+        "minecraft:ammo_use": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                },
+                "requirements": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": "#minecraft:arrows"
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/eternity",
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/eternity",
+    "weight": 1
+}

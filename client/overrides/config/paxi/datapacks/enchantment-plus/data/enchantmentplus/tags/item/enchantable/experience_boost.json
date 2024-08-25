@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#minecraft:enchantable/trident",
+        "#minecraft:enchantable/weapon",
+        "#minecraft:pickaxes",
+        "#minecraft:shovels",
+        "#minecraft:hoes"
+    ]
+}

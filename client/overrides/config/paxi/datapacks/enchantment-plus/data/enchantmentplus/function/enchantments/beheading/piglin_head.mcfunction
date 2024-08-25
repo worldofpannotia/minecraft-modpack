@@ -1,0 +1,2 @@
+# Drop Loot
+loot spawn ~ ~ ~ loot {"type":"minecraft:entity","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:piglin_head"}]}]}

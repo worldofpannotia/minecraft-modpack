@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.feeding_module"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/feeding_module/check_hunger"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "periodic_tick": 32
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 12,
+        "per_level_above_first": 10
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/feeding_module",
+    "weight": 5
+}

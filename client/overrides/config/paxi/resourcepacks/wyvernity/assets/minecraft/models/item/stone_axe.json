@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/stone_axe"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 6960001}, "model": "wyvernity:simple_paxels/stone_paxel"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+# Version 4.1 - Enchantment Additions, Tweaks and Fixes
+
+- Added:
+
+• Added 10 new enchantments;
+
+• Added a new masterwork enchantment for helmets: Shock Dampener
+-   Completely negates damage from kinetic energy, falling stalactites, anvils and blocks. Max level is 1.
+-   Can be obtained very rarely from enchanting table by spending 3 levels.
+
+• Added a new enchantment for pickaxes: Compressing
+-   Ores in the inventory will be compressed into their block form when the user hits the matching ore. Max level is 1.
+-   Great for long mining sessions, saves inventory space automatically.
+-   Can be obtained from enchanting table, loot chests or villager trades.
+-   Only the ores that can be uncompressed will be compressed (Ignores Nether Quartz and Amethyst).
+
+• Added a new enchantment for weapons: Voidfused
+-   Increases damage against End based mobs. Max level is 10.
+-   Can be obtained from enchanting table, loot chests or villager trades.
+-   Mutually exclusive with other damage increasing enchantments (Sharpness, Smite etc.).
+
+• Added a new enchantment for weapons: Decaying
+-   Grants +4% chance per level to inflict wither to the victim on hit. Max level is 10.
+-   Can be obtained from enchanting table, loot chests or villager trades.
+-   Mutually exclusive with other offensive hit effect enchantments (Icy, Venomous etc.)
+
+• Added a new enchantment for weapons: Weakening
+-   Grants +4% chance per level to weaken to the victim on hit. Max level is 10.
+-   Can be obtained from enchanting table, loot chests or villager trades.
+-   Mutually exclusive with other defensive hit effect enchantments (Cleansing, Vampiric Bite etc.)
+
+• Added a new enchantment for weapons: Combustion
+-   Increases damage against mobs that are on fire. Max level is 10.
+-   Synergizes greatly with Fire Aspect and Flame enchantments.
+-   Can be obtained from enchanting table, loot chests or villager trades.
+-   Mutually exclusive with other damage increasing enchantments (Sharpness, Smite etc.).
+-   (For damage comparison, this is stronger than Sharpness and weaker than Smite, Torment etc.)
+
+• Added a new enchantment for elytra: Flight Extender
+-   Grants +10% chance per level to retrieve a firework rocket back when used while flying. Max level is 5.
+-   Can be obtained from loot chests or villager trades.
+-   Only works for plain firework rockets with flight duration of 1, 2 or 3.
+
+• Added a new enchantment for weapons: Prosperous
+-   Killed mobs have +2.5% chance per level to drop emerald on death. Max level is 4.
+-   The amount of emeralds dropped is 1-2 and is affected by Looting enchantment.
+-   Can be obtained from loot chests or villager trades.
+
+• Added a new sacrificial enchantment for weapons: Soul Rend
+-   Attacking drains life from the user to grant one soul stack. At 5 stacks, souls are channeled into the next attack, multiplying the damage.
+-   Max level is 3. One level triples, two levels quadruples and three levels quintuples the damage. Drained life on attack is 0.5 heart.
+-   Can be obtained from loot chests or villager trades.
+-   Mutually exclusive with Swirling enchantment.
+
+• Added a new curse enchantment for weapons, armors and tools: Curse of Clumsiness
+-   Reduces experience gain to 0. Max level is 1.
+-   Can be obtained from loot chests or villager trades.
+
+• Beheading enchantment now also causes players to drop their head when killed.
+
+
+- Changed:
+
+• Deflect enchantment negates damage from all sources again.
+• Icy enchantment now slows the victim down for 5 seconds instead of 4 seconds (For consistency).
+• Lava Walker maximum level value has been increased from 2 to 4 (For consistency with Frost Walker).
+• Swift Sneak maximum level value has been reduced from 6 to 4 (Values above 4 make the player don't lose any speed while sneaking).
+• Thermal Plating and Health Boost enchantments are no longer applicable to Elytra (For consistency with Deflect).
+• Hit effect enchantments have been split into three types. An item can only have one of each;
+-   Offensive: Decaying, Icy, Fire Aspect, Venomous
+-   Defensive: Cleansing, Vampiric Bite, Weakening
+-   Special: Soul Rend, Swirling
+• Made following changes with Swirling enchantment;
+-   Now triggers on hit instead of kill.
+-   The swirling attack is now centered on the victim instead of the user.
+-   Now can be applied to swords and tridents as well (Will only work on melee damage).
+-   Changed the particle and sound effects to make it distinct from normal attacks.
+• Made following changes with Vampiric Bite enchantment;
+-   Now triggers on hit instead of kill.
+-   Now can be applied to axes, maces and tridents as well (Will only work on melee damage).
+
+
+
+- Fixed:
+
+• Fixed a bug where Deflect enchantment was not triggering on fall and explosion damage, making the user immune.
+• Fixed the chance of obtaining masterwork enchantments.
+• Fixed a bug where Swirling enchantment damage values were incorrect.
+• Beheading enchantment now drops the head/skull at the victims location instead of directly giving it to the user.

@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "soulorbs",
+            "prefix": "soulorbs/"
+        },
+        {
+            "type": "directory",
+            "source": "simple_paxels",
+            "prefix": "simple_paxels/"
+        }
+    ]
+}
