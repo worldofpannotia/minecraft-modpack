@@ -1,10 +1,10 @@
 {
-	"rewards": {
-		"function": "blazeandcave:inventory_changed"
-	},
-	"criteria": {
-		"inventory_changed": {
-			"trigger": "inventory_changed"
-		}
-	}
+    "rewards": {
+        "function": "blazeandcave:inventory_changed"
+    },
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "inventory_changed"
+        }
+    }
 }

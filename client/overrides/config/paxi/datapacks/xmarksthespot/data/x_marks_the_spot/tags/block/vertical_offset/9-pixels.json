@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"#minecraft:beds",
-		"minecraft:stonecutter"
-	]
+    "replace": false,
+    "values": [
+        "#minecraft:beds",
+        "minecraft:stonecutter"
+    ]
 }

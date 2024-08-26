@@ -1,12 +1,12 @@
 {
-	"criteria": {
-		"summoned_wither": {
-			"trigger": "minecraft:summoned_entity",
-			"conditions": {
-				"entity": {
-					"type": "wither"
-				}
-			}
-		}
-	}
+    "criteria": {
+        "summoned_wither": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        }
+    }
 }

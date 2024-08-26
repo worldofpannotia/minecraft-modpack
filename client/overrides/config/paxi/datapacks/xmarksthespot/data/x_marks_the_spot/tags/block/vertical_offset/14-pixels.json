@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:trapped_chest",
-		"minecraft:ender_chest"
-	]
+    "replace": false,
+    "values": [
+        "minecraft:trapped_chest",
+        "minecraft:ender_chest"
+    ]
 }

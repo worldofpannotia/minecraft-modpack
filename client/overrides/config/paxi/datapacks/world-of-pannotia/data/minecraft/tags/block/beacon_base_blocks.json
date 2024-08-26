@@ -1,0 +1,23 @@
+{
+    "values": [
+        "minecraft:copper_block",
+        "minecraft:exposed_copper",
+        "minecraft:weathered_copper",
+        "minecraft:oxidized_copper",
+        "minecraft:waxed_copper_block",
+        "minecraft:waxed_exposed_copper",
+        "minecraft:waxed_weathered_copper",
+        "minecraft:waxed_oxidized_copper",
+        "minecraft:netherite_block",
+        "minecraft:emerald_block",
+        "minecraft:diamond_block",
+        "minecraft:gold_block",
+        "minecraft:iron_block",
+        "minecraft:lapis_block",
+        "minecraft:redstone_block",
+        "minecraft:coal_block",
+        "minecraft:quartz_block",
+        "minecraft:smooth_quartz",
+        "minecraft:amethyst_block"
+    ]
+}

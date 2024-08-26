@@ -1,15 +1,15 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"description": [
-			{
-				"text": "Spawn",
-				"color": "gold"
-			},
-			{
-				"text": "\nvanillatweaks.net",
-				"color": "yellow"
-			}
-		]
-	}
+    "pack": {
+        "pack_format": 48,
+        "description": [
+            {
+                "text": "Spawn",
+                "color": "gold"
+            },
+            {
+                "text": "\nvanillatweaks.net",
+                "color": "yellow"
+            }
+        ]
+    }
 }

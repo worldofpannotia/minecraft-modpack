@@ -1,23 +1,23 @@
 {
-	"criteria": {
-		"dragon": {
-			"trigger": "minecraft:summoned_entity",
-			"conditions": {
-				"entity": {
-					"type": "ender_dragon"
-				}
-			}
-		},
-		"wither": {
-			"trigger": "minecraft:summoned_entity",
-			"conditions": {
-				"entity": {
-					"type": "wither"
-				}
-			}
-		},
-		"raid": {
-			"trigger": "minecraft:voluntary_exile"
-		}
-	}
+    "criteria": {
+        "dragon": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        },
+        "raid": {
+            "trigger": "minecraft:voluntary_exile"
+        }
+    }
 }

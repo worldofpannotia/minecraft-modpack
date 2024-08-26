@@ -1,8 +1,8 @@
 {
-	"replace": false,
-	"values": [
-		"minecraft:snow",
-		"#minecraft:slabs",
-		"#minecraft:trapdoors"
-	]
+    "replace": false,
+    "values": [
+        "minecraft:snow",
+        "#minecraft:slabs",
+        "#minecraft:trapdoors"
+    ]
 }

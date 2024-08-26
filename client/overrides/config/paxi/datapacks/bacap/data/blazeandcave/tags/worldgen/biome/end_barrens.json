@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "values": [
-	"minecraft:end_barrens"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:end_barrens"
+    ]
 }

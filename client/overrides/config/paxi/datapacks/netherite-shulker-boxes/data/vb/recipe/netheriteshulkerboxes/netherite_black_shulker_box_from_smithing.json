@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "base": {
+        "item": "minecraft:black_shulker_box"
+    },
+    "result": {
+        "count": 1,
+        "id": "minecraft:black_shulker_box",
+        "components": {
+            "fire_resistant": {},
+            "lore": [
+                "{\"text\":\"Fire Resistant\", \"color\": \"red\", \"italic\": false}"
+            ]
+        }
+    },
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+}
