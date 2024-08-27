@@ -112,7 +112,6 @@
         {"name": "YUNG's Better Witch Huts", "projectID":  631403, "fileID": 5124346, "required":  true},
         {"name": "YUNG's Bridges", "projectID":  590988, "fileID": 5124352, "required":  true},
         {"name": "YUNG's Extras", "projectID":  590993, "fileID": 5124350, "required":  true},
-        {"name": "Yeetus Experimentus", "projectID": 635427, "fileID": 5444190, "required": true},
         {"name": "YetAnotherConfigLib", "projectID": 667299, "fileID": 5424169, "required": true}
     ],
     "files": [
