@@ -155,6 +155,7 @@
         {"name": "Daily Dad - Server", "projectID": 596992, "fileID": 5437551, "required": true},
         {"name": "Death Backup", "projectID": 411571, "fileID": 5609754, "required": true},
         {"name": "Deepslate Instamine - Fabric/Forge", "projectID": 534489, "fileID": 5511661, "required": true},
+        {"name": "Disable Custom Worlds Advice", "projectID": 401978, "fileID": 5510699, "required": true},
         {"name": "Discontinuous Beacon Beams", "projectID": 431698, "fileID": 5623166, "required": true},
         {"name": "Dismount Entity", "projectID": 348262, "fileID": 5609741, "required": true},
         {"name": "Double Doors", "projectID": 348831, "fileID": 5609734, "required": true},
