@@ -22,7 +22,7 @@ cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd silk-touch-budding-amethyst;7z a -tzip ../silk-touch-budding-amethyst.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
 cd terracotta-rotation-wrench;7z a -tzip ../terracotta-rotation-wrench.zip .;cd ..
-#cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
+cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd track-raw-statistics;7z a -tzip ../track-raw-statistics.zip .;cd ..
 cd track-statistics;7z a -tzip ../track-statistics.zip .;cd ..
 cd trim-trader;7z a -tzip ../trim-trader.zip .;cd ..
@@ -56,7 +56,7 @@ rm -rf silence-mobs
 rm -rf silk-touch-budding-amethyst
 rm -rf spawn
 rm -rf terracotta-rotation-wrench
-#rm -rf thunder-shrine
+rm -rf thunder-shrine
 rm -rf track-raw-statistics
 rm -rf track-statistics
 rm -rf trim-trader
