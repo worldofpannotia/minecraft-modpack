@@ -102,5 +102,14 @@ execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ hopper[facing=down]{I
 execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ hopper[facing=west]{Items:[]} run setblock ~ ~ ~ hopper[facing=down]
 execute as @s if block ~ ~ ~ hopper unless block ~ ~ ~ hopper{Items:[]} run title @s actionbar ["",{"text":"You cannot rotate a block with items inside!","color":"red"}]
 
+# Rotates the Lightning Rod
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=north] run scoreboard players set @s wrench_stopLoop 1
+execute as @s[scores={wrench_stopLoop=..1}] if block ~ ~ ~ lightning_rod[facing=north] run setblock ~ ~ ~ lightning_rod[facing=west]
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=east] run setblock ~ ~ ~ lightning_rod[facing=north]
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=south] run setblock ~ ~ ~ lightning_rod[facing=east]
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=up] run setblock ~ ~ ~ lightning_rod[facing=south]
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=down] run setblock ~ ~ ~ lightning_rod[facing=up]
+execute as @s[scores={wrench_stopLoop=..0}] if block ~ ~ ~ lightning_rod[facing=west] run setblock ~ ~ ~ lightning_rod[facing=down]
+
 scoreboard players set @s wrench_stopLoop 0
 scoreboard players set @s wrench_raycast 0

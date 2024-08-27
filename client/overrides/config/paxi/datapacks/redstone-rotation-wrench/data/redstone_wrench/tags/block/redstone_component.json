@@ -7,6 +7,7 @@
         "minecraft:dropper",
         "minecraft:hopper",
         "minecraft:sticky_piston",
-        "minecraft:piston"
+        "minecraft:piston",
+        "minecraft:lightning_rod"
     ]
 }
