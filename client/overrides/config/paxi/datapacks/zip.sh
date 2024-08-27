@@ -6,6 +6,7 @@ cd armor-statues;7z a -tzip ../armor-statues.zip .;cd ..
 cd bacap;7z a -tzip ../bacap.zip .;cd ..
 #cd bacap-torture-edition;7z a -tzip ../bacap-torture-edition.zip .;cd ..
 cd back;7z a -tzip ../back.zip .;cd ..
+cd better-item-frames;7z a -tzip ../better-item-frames.zip .;cd ..
 cd custom-roleplay-data;7z a -tzip ../custom-roleplay-data.zip .;cd ..
 cd effective-netherite-armor;7z a -tzip ../effective-netherite-armor.zip .;cd ..
 cd enchantment-plus;7z a -tzip ../enchantment-plus.zip .;cd ..
@@ -40,6 +41,7 @@ rm -rf armor-statues
 rm -rf bacap
 #rm -rf bacap-torture-edition
 rm -rf back
+rm -rf better-item-frames
 rm -rf custom-roleplay-data
 rm -rf effective-netherite-armor
 rm -rf enchantment-plus
