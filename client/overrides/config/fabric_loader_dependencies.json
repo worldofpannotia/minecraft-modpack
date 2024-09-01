@@ -8,6 +8,14 @@
             "+depends": {
                 "minecraft": "~1.21"
             }
+        },
+        "dispenser_configurator": {
+            "-depends": {
+                "minecraft": ""
+            },
+            "+depends": {
+                "minecraft": "~1.21"
+            }
         }
     }
 }
