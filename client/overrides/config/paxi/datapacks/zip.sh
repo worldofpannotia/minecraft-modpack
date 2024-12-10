@@ -17,12 +17,10 @@ cd name-formatting-station;7z a -tzip ../name-formatting-station.zip .;cd ..
 cd nether-portal-coords;7z a -tzip ../nether-portal-coords.zip .;cd ..
 cd netherite-mace;7z a -tzip ../netherite-mace.zip .;cd ..
 cd netherite-shulker-boxes;7z a -tzip ../netherite-shulker-boxes.zip .;cd ..
-cd redstone-rotation-wrench;7z a -tzip ../redstone-rotation-wrench.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd silk-touch-budding-amethyst;7z a -tzip ../silk-touch-budding-amethyst.zip .;cd ..
 cd spawn;7z a -tzip ../spawn.zip .;cd ..
-cd terracotta-rotation-wrench;7z a -tzip ../terracotta-rotation-wrench.zip .;cd ..
 cd thunder-shrine;7z a -tzip ../thunder-shrine.zip .;cd ..
 cd track-raw-statistics;7z a -tzip ../track-raw-statistics.zip .;cd ..
 cd track-statistics;7z a -tzip ../track-statistics.zip .;cd ..
@@ -52,12 +50,10 @@ rm -rf name-formatting-station
 rm -rf nether-portal-coords
 rm -rf netherite-mace
 rm -rf netherite-shulker-boxes
-rm -rf redstone-rotation-wrench
 rm -rf shulkermites
 rm -rf silence-mobs
 rm -rf silk-touch-budding-amethyst
 rm -rf spawn
-rm -rf terracotta-rotation-wrench
 rm -rf thunder-shrine
 rm -rf track-raw-statistics
 rm -rf track-statistics
