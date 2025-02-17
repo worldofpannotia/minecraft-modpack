@@ -1,4 +1,10 @@
-#### 2025-02-16 (16.0.0-alpha.0)
+### 2025-XX-XX (16.0.0-alpha.1)
+
+#### Removed Mods
+
+* Netherite Shulker Boxes (datapack): redundant with Shulker Stuff mod
+
+### 2025-02-16 (16.0.0-alpha.0)
 
 #### Notable Changes
 
@@ -223,7 +229,7 @@
 * YUNG's Extras
 * Zombie Villagers From Spawner
 
-#### 2024-02-26 (15.0.0-alpha.0)
+### 2024-02-26 (15.0.0-alpha.0)
 
 #### Notable Changes
 
@@ -417,14 +423,14 @@
 * YUNG's Extras
 * Zombie Villagers From Spawner
 
-#### 2024-02-20 (14.8.1)
+### 2024-02-20 (14.8.1)
 
 #### Notable Changes
 
 * Apparently Sodium resumed uploading to CurseForge, so it's back in the pack as part of the manifest instead of manually adding it
 
 
-#### 2024-02-20 (14.8.0)
+### 2024-02-20 (14.8.0)
 
 #### Notable Changes
 

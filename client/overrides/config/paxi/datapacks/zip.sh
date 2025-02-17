@@ -16,7 +16,6 @@ cd more-effective-tools;7z a -tzip ../more-effective-tools.zip .;cd ..
 cd name-formatting-station;7z a -tzip ../name-formatting-station.zip .;cd ..
 cd nether-portal-coords;7z a -tzip ../nether-portal-coords.zip .;cd ..
 cd netherite-mace;7z a -tzip ../netherite-mace.zip .;cd ..
-cd netherite-shulker-boxes;7z a -tzip ../netherite-shulker-boxes.zip .;cd ..
 cd shulkermites;7z a -tzip ../shulkermites.zip .;cd ..
 cd silence-mobs;7z a -tzip ../silence-mobs.zip .;cd ..
 cd silk-touch-budding-amethyst;7z a -tzip ../silk-touch-budding-amethyst.zip .;cd ..
@@ -49,7 +48,6 @@ rm -rf more-effective-tools
 rm -rf name-formatting-station
 rm -rf nether-portal-coords
 rm -rf netherite-mace
-rm -rf netherite-shulker-boxes
 rm -rf shulkermites
 rm -rf silence-mobs
 rm -rf silk-touch-budding-amethyst
