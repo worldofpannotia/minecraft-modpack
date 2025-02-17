@@ -25,16 +25,16 @@
                     "knockback_multiplier": {
                         "type": "minecraft:lookup",
                         "values": [
-                            2.2,
-                            2.75,
-                            3.2
+                          2.2,
+                          2.75,
+                          3.2
                         ],
                         "fallback": {
-                            "type": "minecraft:linear",
-                            "base": 2.5,
-                            "per_level_above_first": 0.35
+                          "type": "minecraft:linear",
+                          "base": 2.5,
+                          "per_level_above_first": 0.35
                         }
-                    },
+                      },
                     "attribute_to_user": true,
                     "create_fire": false
                 },
@@ -66,16 +66,16 @@
                     "knockback_multiplier": {
                         "type": "minecraft:lookup",
                         "values": [
-                            0.2,
-                            0.5,
-                            0.7
+                          0.2,
+                          0.5,
+                          0.7
                         ],
                         "fallback": {
-                            "type": "minecraft:linear",
-                            "base": 0.5,
-                            "per_level_above_first": 0.1
+                          "type": "minecraft:linear",
+                          "base": 0.5,
+                          "per_level_above_first": 0.1
                         }
-                    },
+                      },
                     "attribute_to_user": false,
                     "create_fire": false
                 },
@@ -92,12 +92,12 @@
     "exclusive_set": "#enchantmentplus:exclusive_set/exploding_impact",
     "max_cost": {
         "base": 21,
-        "per_level_above_first": 8
+        "per_level_above_first": 11
     },
     "max_level": 3,
     "min_cost": {
         "base": 1,
-        "per_level_above_first": 8
+        "per_level_above_first": 11
     },
     "slots": [
         "mainhand"

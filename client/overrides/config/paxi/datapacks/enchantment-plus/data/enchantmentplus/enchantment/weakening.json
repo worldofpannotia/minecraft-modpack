@@ -42,12 +42,12 @@
     "exclusive_set": "#enchantmentplus:exclusive_set/defensive_hit_effect",
     "max_cost": {
         "base": 25,
-        "per_level_above_first": 8
+        "per_level_above_first": 4
     },
     "max_level": 10,
     "min_cost": {
         "base": 5,
-        "per_level_above_first": 8
+        "per_level_above_first": 4
     },
     "slots": [
         "mainhand"

@@ -2,8 +2,8 @@
 playsound minecraft:entity.phantom.bite player @a ~ ~ ~ 0.5 1.3
 
 # Particles
-execute anchored eyes run particle minecraft:block{block_state:"minecraft:redstone_block"} ^ ^ ^2 0.5 0.5 0.5 0 15
-execute anchored eyes run particle minecraft:falling_dust{block_state:"minecraft:redstone_block"} ^ ^ ^2 0.5 0.5 0.5 0 15
+execute anchored eyes run particle minecraft:block{block_state:"minecraft:redstone_block"} ^ ^ ^2.5 0.5 0.5 0.5 0 15
+execute anchored eyes run particle minecraft:falling_dust{block_state:"minecraft:redstone_block"} ^ ^ ^2.5 0.5 0.5 0.5 0 15
 
 # Calculate Expected Health
 execute store result score %CurrentHealth eplus.temp run data get entity @s Health

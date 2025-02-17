@@ -10,141 +10,7 @@
                 "affected": "victim",
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/creeper_head"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:creeper",
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/dragon_head"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:ender_dragon",
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/piglin_head"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": [
-                                    "minecraft:piglin",
-                                    "minecraft:piglin_brute"
-                                ],
-                                "flags": {
-                                    "is_baby": false
-                                },
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/player_head"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:player",
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/skeleton_skull"
+                    "function": "enchantmentplus:enchantments/beheading/drop_loot"
                 },
                 "requirements": {
                     "condition": "minecraft:all_of",
@@ -155,81 +21,19 @@
                             "predicate": {
                                 "type": [
                                     "minecraft:bogged",
-                                    "minecraft:skeleton",
-                                    "minecraft:stray"
-                                ],
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/wither_skeleton_skull"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:wither_skeleton",
-                                "nbt": "{Health:0f}"
-                            }
-                        },
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": {
-                                "type": "minecraft:enchantment_level",
-                                "amount": {
-                                    "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "enchanted": "attacker",
-                "affected": "victim",
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "enchantmentplus:enchantments/beheading/zombie_head"
-                },
-                "requirements": {
-                    "condition": "minecraft:all_of",
-                    "terms": [
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": [
+                                    "minecraft:creeper",
                                     "minecraft:drowned",
+                                    "minecraft:ender_dragon",
                                     "minecraft:husk",
+                                    "minecraft:piglin",
+                                    "minecraft:piglin_brute",
+                                    "minecraft:player",
+                                    "minecraft:skeleton",
+                                    "minecraft:stray",
+                                    "minecraft:wither_skeleton",
                                     "minecraft:zombie",
                                     "minecraft:zombie_villager"
                                 ],
-                                "flags": {
-                                    "is_baby": false
-                                },
                                 "nbt": "{Health:0f}"
                             }
                         },
@@ -239,8 +43,8 @@
                                 "type": "minecraft:enchantment_level",
                                 "amount": {
                                     "type": "minecraft:linear",
-                                    "base": 0.08,
-                                    "per_level_above_first": 0.08
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
                                 }
                             }
                         }
@@ -250,13 +54,13 @@
         ]
     },
     "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
+        "base": 51,
+        "per_level_above_first": 5
     },
-    "max_level": 5,
+    "max_level": 10,
     "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
+        "base": 1,
+        "per_level_above_first": 5
     },
     "slots": [
         "mainhand"

@@ -20,6 +20,13 @@
                             "chance": 0.2
                         },
                         {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "#enchantmentplus:is_animate"
+                            }
+                        },
+                        {
                             "condition": "minecraft:damage_source_properties",
                             "predicate": {
                                 "is_direct": true

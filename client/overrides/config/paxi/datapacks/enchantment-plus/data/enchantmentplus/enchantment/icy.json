@@ -39,15 +39,15 @@
             }
         ]
     },
-    "exclusive_set": "#enchantmentplus:exclusive_set/offensive_hit_effect",
+    "exclusive_set": "#enchantmentplus:exclusive_set/defensive_hit_effect",
     "max_cost": {
         "base": 16,
-        "per_level_above_first": 10
+        "per_level_above_first": 5
     },
     "max_level": 10,
     "min_cost": {
         "base": 1,
-        "per_level_above_first": 10
+        "per_level_above_first": 5
     },
     "slots": [
         "mainhand"

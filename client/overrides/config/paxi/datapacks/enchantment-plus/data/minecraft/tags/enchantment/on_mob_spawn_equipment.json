@@ -1,6 +1,7 @@
 {
     "values": [
         "enchantmentplus:deflect",
+        "enchantmentplus:devouring",
         "enchantmentplus:enlarged",
         "enchantmentplus:enraged",
         "enchantmentplus:entity_reach",
@@ -13,7 +14,9 @@
         "enchantmentplus:prosperous",
         "enchantmentplus:shrinked",
         "enchantmentplus:soaring",
+        "enchantmentplus:soul_exchange",
         "enchantmentplus:soul_rend",
+        "enchantmentplus:soul_reserve",
         "enchantmentplus:swirling",
         "enchantmentplus:thermal_plating",
         "enchantmentplus:vampiric_bite"

@@ -5,7 +5,7 @@
     },
     "effects": {
         "minecraft:attributes": [
-            {
+			{
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.5,
@@ -15,16 +15,16 @@
                 "id": "enchantmentplus:enchantment.high_step",
                 "operation": "add_value"
             }
-        ]
+		]
     },
     "max_cost": {
-        "base": 16,
-        "per_level_above_first": 10
+        "base": 51,
+        "per_level_above_first": 9
     },
     "max_level": 5,
     "min_cost": {
         "base": 1,
-        "per_level_above_first": 10
+        "per_level_above_first": 9
     },
     "slots": [
         "feet"

@@ -4,6 +4,10 @@
 
 * Netherite Shulker Boxes (datapack): redundant with Shulker Stuff mod
 
+#### Updated Mods
+
+* Enchantment+ (datapack)
+
 ### 2025-02-16 (16.0.0-alpha.0)
 
 #### Notable Changes

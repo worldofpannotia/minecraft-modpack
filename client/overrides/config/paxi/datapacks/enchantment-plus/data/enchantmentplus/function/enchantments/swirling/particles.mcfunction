@@ -1,5 +1,5 @@
 # Particles
-particle minecraft:dust_color_transition{from_color:[0.15,1.0,0.65],to_color:[1.0,0.0,0.0],scale:1} ~ ~0.1 ~ 0.75 0 0.75 0 100
+particle minecraft:dust_color_transition{from_color:[0.15,1.0,0.65],to_color:[1.0,0.0,0.0],scale:1} ~ ~0.1 ~ 0.4 0 0.4 0 30
 particle minecraft:electric_spark ~ ~0.25 ~ 1 0 0 2.5 0
 particle minecraft:electric_spark ~ ~0.25 ~ 0.96 0 0.2 2.5 0
 particle minecraft:electric_spark ~ ~0.25 ~ 0.9 0 0.4 2.5 0
