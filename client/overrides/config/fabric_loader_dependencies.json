@@ -1,7 +1,7 @@
 {
     "version": 1,
     "overrides": {
-        "ante": {
+        "bobby": {
             "-depends": {
                 "minecraft": ""
             },
