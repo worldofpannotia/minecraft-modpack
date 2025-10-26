@@ -1,6 +1,15 @@
 import proc from 'node:child_process';
 import fse from 'fs-extra';
 
+if (process.argv?.[2] === '-h' || process.argv?.[2] === '--help') {
+    console.log('Usage:');
+    console.log('node ./scripts/build-client.mjs <flag>\n');
+    console.log('-f          Force overwriting existing output zip file');
+    console.log('-d,--dev    Build a dev version of the pack');
+    console.log('-h,--help   Display this help screen');
+    process.exit(0);
+}
+
 let override = false;
 if (process.argv?.[2] === '-f') {
     console.log('-f detected; if the dist zip file exists, it will be overwritten');
@@ -8,7 +17,7 @@ if (process.argv?.[2] === '-f') {
 }
 
 let devBuild = false;
-if (process.argv?.[2] === '-d') {
+if (process.argv?.[2] === '-d' || process.argv?.[2] === '--dev') {
     console.log('-d detected; building dev version');
     devBuild = true;
     override = true;

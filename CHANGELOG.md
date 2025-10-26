@@ -1,4 +1,275 @@
-### 2025-XX-XX (16.0.0-alpha.1)
+### 2025-xx-xx (17.0.0-alpha.0)
+
+#### Notable Changes
+
+* Updated Minecraft to 1.21.10
+
+#### Removed Mods
+
+* Always Loaded (functionality added to vanilla)
+* Yeetus Experimentus (replaced by Hide Experimental Warning)
+
+#### Added Mods
+
+* Chorus Fruit Drops Nearby
+* Hide Experimental Warning (replaces Yeetus Experimentus)
+* Improved Sign Editing
+* Mooshroom Tweaks
+* No Feather Trample
+* Prickle (new dependency of DarkhaxDev's mods)
+* Random Village Names
+
+#### Updated Datapacks
+
+* New Default+
+
+#### Updated Mods
+
+* Advancement Screenshot
+* Anvil Never Too Expensive
+* Anvil Restoration
+* AppleSkin
+* Architectury API (Fabric/Forge)
+* Areas
+* AudioPlayer
+* AutoRun (Fabric)
+* Axolotl Bucket Fix
+* Balm
+* Better Advancements
+* Better Spawner Control
+* Better Statistics Screen
+* Better Than Mending
+* Boat Item View
+* Bobby
+* Bottle Your Xp
+* Bottled Air
+* Bow Infinity Fix (Forge/Fabric)
+* Capes [Fabric/Forge]
+* Carpet
+* Cherished Worlds (Fabric/Forge/Quilt)
+* Clumps
+* Collective
+* Conduits Prevent Drowned
+* Controlling
+* Crafted Core
+* Crying Portals
+* Cut Through
+* Cycle Paintings
+* Death Backup
+* Diggus Maximus Reborn
+* Dismount Entity
+* Dispenser Configurator
+* Double Doors
+* Durability Tooltip
+* Dynamic FPS
+* Easy Anvils
+* Easy Shulker Boxes
+* Enchanting Commands
+* Enchantment Descriptions
+* Entity Culling Fabric/Forge
+* Entity Model Features [CEM] [Fabric & Forge]
+* Entity Texture Features - [Fabric & Forge]
+* Explorer's Compass
+* Extended Bone Meal
+* Extreme sound muffler (Fabric) Official
+* Fabric API
+* Fabric Language Kotlin
+* Fabrishot
+* Falling Leaves (Fabric)
+* Fire Spread Tweaks
+* Followers Teleport Too
+* Forge Config API Port [Fabric]
+* Full Brightness Toggle
+* Grass Seeds
+* Grind Enchantments
+* GUI Followers
+* Hand Over Your Items
+* Hoe Tweaks
+* Horse Expert
+* Ice Prevents Crop Growth
+* Inventory Profiles Next
+* Inventory Totem
+* Jade 🔍
+* JamLib
+* Just Player Heads
+* Keep My Soil Tilled
+* Kelp Fertilizer
+* KleeSlabs
+* Leaves Us In Peace
+* libIPN
+* Litematica
+* Lootr (Fabric)
+* MaLiLib
+* MiniHUD
+* Model Gap Fix
+* Name Tag Tweaks
+* Nature's Compass
+* No Recipe Book (Fabric)
+* Open Parties and Claims
+* OptiGUI
+* Overflowing Bars
+* Overworld Piglins
+* Polymer
+* Puzzles Lib [Forge & Fabric]
+* Rain Be Gone Ritual
+* Random Bone Meal Flowers
+* Replanting Crops
+* RightClickHarvest
+* Scaffolding Drops Nearby
+* Searchables
+* Shulker Box Tooltip [Fabric/Forge]
+* Simple Voice Chat
+* Smaller Nether Portals
+* Sodium
+* Sodium Extra
+* Softer Hay Bales
+* Superflat World No Slimes
+* SuperMartijn642's Config Lib
+* Tax Free Levels (Fabric/Forge)
+* TCDCommons API
+* Trade Cycling
+* TrashSlot
+* Tweakeroo
+* Universal Shops
+* Visual Workbench [Forge & Fabric]
+* Visuality
+* WI Zoom
+* Xaero's Minimap
+* Xaero's World Map
+* YetAnotherConfigLib
+* Zombie Villagers From Spawner
+
+#### Pending Datapacks
+
+* AFK Display
+* Anti-Enderman Grief
+* BACAP
+* BACAP Torture Edition
+* Back
+* Better Item Frames
+* Custom Roleplay Data
+* Effective Netherite Armor
+* Enchantment+
+* Homes
+* More Effective Tools
+* Name Formatting Station
+* Nether Portal Coords
+* Netherite Mace
+* Shulkermites
+* Silence Mobs
+* Silk Touch Budding Amethyst
+* Spawn
+* Thunder Shrine
+* Track Raw Statistics
+* Track Statistics
+* Trim Trader
+* VanillaTweaks
+* Villager Workstation Highlights
+* Wandering Trader Announcements
+* Wandering Trades: Hermit Edition
+* World of Pannotia
+* X Marks the Spot
+
+#### Pending Mods
+
+* AllStackable
+* Archaeology Tweaks (Fabric/NeoForge)
+* Ash API
+* Auth Me
+* Auto Third Person
+* Banner Tweaks (Fabric/NeoForge)
+* Beacon & Conduit Tweaks (Fabric/NeoForge)
+* Better Mount HUD
+* Better Ping Display [Fabric]
+* Better Trim Tooltips
+* Bookshelf
+* CIT Resewn
+* Charm of Undying (Fabric/Forge/Quilt)
+* ChimericLib (Fabric/NeoForge)
+* Clean Tooltips
+* CleanView
+* Cloth Config API (Fabric/Forge)
+* Compostables
+* Connectivity [Forge/Fabric]
+* Continuity
+* Corner Portal Linking
+* Crawl (Fabric)
+* Cupboard
+* CurveBuilding
+* Daily Dad - Server
+* Debugify
+* Deepslate Instamine - Fabric/Forge
+* Distracting Trims
+* Elytra Slot (Fabric/Forge/Quilt)
+* Enchantment Numbers Fix (Fabric/NeoForge)
+* Enhanced Block Entities
+* FabricSkyBoxes Interop
+* FabricSkyboxes
+* Fast Paintings
+* FastAnim
+* Fog Overrides
+* Folders! (Organizable Play Screens)
+* Get It Together, Drops!
+* Hopper X-Treme (Fabric/NeoForge)
+* Houdini Block (Fabric/NeoForge)
+* Iceberg [Fabric]
+* Infinite Fluid Bucket
+* Item Highlighter [Fabric]
+* Keep Head Data
+* Kiwi 🥝 (Fabric)
+* Leaky - Item Lag Fix [Forge/Fabric]
+* Litematica Tool (Forge and Fabric)
+* Map Tooltip
+* Mine Spawners
+* Minekea (Fabric/NeoForge)
+* Miniblock Merchants (Fabric/NeoForge)
+* Mining Dimensions [FABRIC]
+* Mod Menu
+* Modern KeyBinding [Fabric]
+* Moonlight Lib
+* Passable Foliage 🌳 (Fabric)
+* Patchouli (Fabric/Quilt)
+* Paxi
+* Prevent Despawn
+* Prickle
+* Rain Growth
+* Random Mob Sizes
+* Reacharound
+* Reese's Sodium Options
+* Remorphed
+* Roughly Enough Items Fabric/Forge (REI)
+* Roughly Enough Professions (REP)
+* Roughly Enough Resources
+* Server Performance - Smooth Chunk Save [Forge/Fabric]
+* Shuffle
+* Shulker Box Slot (Fabric/Forge/Quilt)
+* Shulker Stuff (Fabric/NeoForge)
+* Simple Magnets
+* SlimyFloor
+* Sneak Through Berries
+* Sponj (Fabric)
+* SuperMartijn642's Core Lib
+* The Athenaeum (Fabric/NeoForge)
+* Timestamp Chat
+* Trinkets (Fabric)
+* Vectorientation
+* Villager Death Messages
+* VillagerTweaks (Fabric/NeoForge)
+* Woodwalkers
+* YUNG's API
+* YUNG's Better Desert Temples
+* YUNG's Better Dungeons
+* YUNG's Better Jungle Temples
+* YUNG's Better Mineshafts
+* YUNG's Better Nether Fortresses
+* YUNG's Better Ocean Monuments
+* YUNG's Better Strongholds
+* YUNG's Better Witch Huts
+* YUNG's Bridges
+* YUNG's Extras
+* You're in Grave Danger
+
+### Not released (16.0.0-alpha.1)
 
 #### Removed Mods
 
