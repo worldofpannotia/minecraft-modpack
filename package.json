@@ -1,5 +1,6 @@
 {
     "name": "minecraft-modpack",
+    "type": "module",
     "version": "1.0.0",
     "description": "",
     "repository": {

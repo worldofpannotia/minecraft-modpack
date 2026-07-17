@@ -1,0 +1,3 @@
+give @s heart_of_the_sea[item_name='{"translate":"Heart of a Siren","color":"#1F96B1","bold":true,"italic":false}',lore=['{"translate":"No, not sirenhead!","color":"#1F96B1"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Hearts of the Stack","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Heart of a Siren"}]

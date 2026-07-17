@@ -1,0 +1,62 @@
+{
+    "anvil_cost": 16,
+    "description": {
+        "translate": "enchantment.enchantmentplus.shock_dampener"
+    },
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "condition": "minecraft:any_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "tags": [
+                                    {
+                                        "expected": true,
+                                        "id": "minecraft:damages_helmet"
+                                    },
+                                    {
+                                        "expected": false,
+                                        "id": "minecraft:bypasses_invulnerability"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "tags": [
+                                    {
+                                        "expected": true,
+                                        "id": "enchantmentplus:fly_into_wall"
+                                    },
+                                    {
+                                        "expected": false,
+                                        "id": "minecraft:bypasses_invulnerability"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/shock_dampener",
+    "weight": 1
+}

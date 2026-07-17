@@ -1,0 +1,3 @@
+give @s wooden_shovel[item_name='{"translate":"Baseball Bat","color":"#EAC7A7","bold":true,"italic":false}',lore=['{"translate":"What?... Oh, when you said stare at a bat,","color":"#EAC7A7"}','{"translate":"I thought you meant this bat!","color":"#EAC7A7"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Pixel Perfect","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Baseball Bat"}]

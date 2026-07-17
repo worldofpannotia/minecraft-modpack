@@ -1,0 +1,3 @@
+give @s chipped_anvil[item_name='{"translate":"Etho\'s Anvil","color":"#668674","bold":true,"italic":false}',lore=['{"translate":"Awarded to distinguished individuals who complete Etho’s challenge","color":"#668674"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Pupil Poppers","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Etho's Anvil"}]

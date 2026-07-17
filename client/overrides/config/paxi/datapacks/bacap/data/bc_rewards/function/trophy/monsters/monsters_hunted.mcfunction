@@ -1,0 +1,3 @@
+give @s book[item_name='{"translate":"Mobestiary","color":"#6D864C","bold":true,"italic":false}',lore=['{"translate":"Available at stores now","color":"#6D864C"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Monsters Hunted","color":"light_purple","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mobestiary"}]

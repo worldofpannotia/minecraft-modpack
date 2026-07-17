@@ -1,0 +1,3 @@
+give @s raw_gold_block[item_name='{"translate":"Golden Cobblestone","color":"#F7C431","bold":true,"italic":false}',lore=['{"translate":"Congratulations!","color":"#F7C431"}','{"translate":"You mined 10,000 blocks of Cobblestone","color":"#F7C431"}','{"translate":"and unlocked the Golden Cobblestone Skin!","color":"#F7C431"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Bulldozer","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Golden Cobblestone"}]

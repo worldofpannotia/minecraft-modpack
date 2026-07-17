@@ -1,0 +1,3 @@
+give @s sugar[item_name='{"translate":"Amphitrite","color":"#F2C66F","bold":true,"italic":false}',lore=['{"translate":"Many people called her the personification of the sea itself...","color":"#F2C66F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Abyss Lord","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Amphitrite"}]

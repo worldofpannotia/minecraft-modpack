@@ -1,0 +1,3 @@
+give @s warped_sign[item_name='{"translate":"The Warden\'s Sign","color":"#1C99A1","bold":true,"italic":false}',lore=['{"translate":"This sign can’t stop me because I can\'t see!","color":"#1C99A1"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Not Afraid of Heights","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"The Warden's Sign"}]

@@ -1,0 +1,3 @@
+give @s emerald[item_name='{"translate":"Farmer\'s Badge","color":"#17DD62","bold":true,"italic":false}',lore=['{"translate":"For the continued work you\'ve put out there, take this reward!","color":"#17DD62"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Serious Dedication","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Farmer's Badge"}]

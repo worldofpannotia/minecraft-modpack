@@ -1,0 +1,27 @@
+{
+  "name": "Breeding",
+  "icon": "minecraft:leather",
+  "category": "patchouli:wp_gameplay/other",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Animal breeding has never been easier!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "animal_feeding_trough:feeding_trough",
+      "text": "Mobs that could be tempted will look for a feeding trough with their favorite food. A chicken will look for feeding trough with seeds inside, a pig for carrots and so on. Mobs will act like if the player feed them, entering in love and eventually breeding."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Lift with your Knees",
+      "text": "You can pick up animals (or any mob/entity) with two empty hands and a sneak + right-click!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mob_catcher:mob_catcher",
+      "title": "Magical Lasso",
+      "text": "Catch yourself a passive mob"
+    }
+  ]
+}

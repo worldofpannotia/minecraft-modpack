@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/diamond_shovel"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 6960001}, "model": "wyvernity:simple_paxels/diamond_paxel"
+        }
+    ]
+}

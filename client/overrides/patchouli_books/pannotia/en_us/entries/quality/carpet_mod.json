@@ -1,0 +1,20 @@
+{
+  "name": "Carpet Mod",
+  "icon": "minecraft:orange_carpet",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Carpet Mod is a mod for vanilla Minecraft that allows you to take full control of what matters from a technical perspective of the game. Read the wiki and watch the youtube video to see it's power!",
+      "url": "https://github.com/gnembon/fabric-carpet/wiki",
+      "link_text": "Carpet Mod Wiki"
+    },
+    {
+      "type": "patchouli:link",
+      "title": "Carpet Extra",
+      "text": "Extra Features for Carpet Mod.",
+      "url": "https://github.com/gnembon/carpet-extra",
+      "link_text": "Carpet Mod Extra"
+    }
+  ]
+}

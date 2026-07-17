@@ -1,0 +1,3 @@
+give @s arrow[item_name='{"translate":"Ender Arrow","color":"#CC00FA","bold":true,"italic":false}',lore=['{"translate":"This arrow ended an enderman. Seems impossible...","color":"#CC00FA"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Impossible...","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Ender Arrow"}]

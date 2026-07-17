@@ -1,0 +1,3 @@
+give @s chest[item_name='{"translate":"Treasure Chest","color":"#A76E1F","bold":true,"italic":false}',lore=['{"translate":"One of each block is stored in there","color":"#A76E1F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"All the Blocks!","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Treasure Chest"}]

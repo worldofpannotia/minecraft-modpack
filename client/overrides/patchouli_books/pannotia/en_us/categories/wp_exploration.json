@@ -1,5 +1,5 @@
 {
   "name": "Exploration",
-  "description": "$(o)Oh, the places you'll go$()$(br)$(br)While we have avoided any mods which overhaul terrain generation or add new blocks, we have made a fair number of additions to the game in the form of new structures and treasure to find on your adventures!",
+  "description": "$(o)Oh, the places you'll go$()$(br)$(br)In addition to Terralith, which overhauls terrain generation, we have made a fair number of additions to the game in the form of new structures and treasure to find on your adventures!",
   "icon": "minecraft:spyglass"
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "wyvernity:simple_paxels/wooden_paxel"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.beheading"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/beheading/drop_loot"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": [
+                                    "minecraft:bogged",
+                                    "minecraft:creeper",
+                                    "minecraft:drowned",
+                                    "minecraft:ender_dragon",
+                                    "minecraft:husk",
+                                    "minecraft:piglin",
+                                    "minecraft:piglin_brute",
+                                    "minecraft:player",
+                                    "minecraft:skeleton",
+                                    "minecraft:stray",
+                                    "minecraft:wither_skeleton",
+                                    "minecraft:zombie",
+                                    "minecraft:zombie_villager"
+                                ],
+                                "nbt": "{Health:0f}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 51,
+        "per_level_above_first": 5
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 5
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/beheading",
+    "weight": 2
+}

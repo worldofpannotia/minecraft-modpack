@@ -1,0 +1,3 @@
+give @s firework_rocket[item_name='{"translate":"New Year\'s Firework","color":"#B92929","bold":true,"italic":false}',lore=['{"translate":"It\'s the final countdown!","color":"#B92929"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Happy New Year!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},fireworks={flight_duration:3,explosions:[{shape:"star",has_twinkle:true,has_trail:true,colors:[I;12134697,16777215],fade_colors:[I;16777215]}]}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"New Year's Firework"}]

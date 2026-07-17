@@ -5,17 +5,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Does your gear just $(o)need$() a little extra flair? Rename a piece of paper in an anvil, then throw it on top of the anvil with your item to add custom lore!"
+      "text": "Does your gear just $(o)need$() a little extra flair? Add custom lore using the $(l:https://www.curseforge.com/minecraft/customization/name-formatting-station-datapack)Name Formatting Station$() datapack! Get started by typing $(o)/trigger FormatName$() in chat."
     },
     {
       "type": "patchouli:image",
       "images": [
-        "patchouli:tools/item-lore/item-lore-1.png",
-        "patchouli:tools/item-lore/item-lore-2.png",
-        "patchouli:tools/item-lore/item-lore-3.png",
-        "patchouli:tools/item-lore/item-lore-4.png",
-        "patchouli:tools/item-lore/item-lore-5.png",
-        "patchouli:tools/item-lore/item-lore-6.png"
+        "patchouli:tools/item-lore/name-formatting.png"
       ]
     }
   ]

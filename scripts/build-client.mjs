@@ -1,6 +1,28 @@
 import proc from 'node:child_process';
 import fse from 'fs-extra';
 
+if (process.argv?.[2] === '-h' || process.argv?.[2] === '--help') {
+    console.log('Usage:');
+    console.log('node ./scripts/build-client.mjs <flag>\n');
+    console.log('-f          Force overwriting existing output zip file');
+    console.log('-d,--dev    Build a dev version of the pack');
+    console.log('-h,--help   Display this help screen');
+    process.exit(0);
+}
+
+let override = false;
+if (process.argv?.[2] === '-f') {
+    console.log('-f detected; if the dist zip file exists, it will be overwritten');
+    override = true;
+}
+
+let devBuild = false;
+if (process.argv?.[2] === '-d' || process.argv?.[2] === '--dev') {
+    console.log('-d detected; building dev version');
+    devBuild = true;
+    override = true;
+}
+
 await fse.emptyDir('./tmp');
 
 await fse.ensureDir('./tmp/client');
@@ -9,23 +31,38 @@ await fse.copy('./scripts/zip-client.sh', './tmp/zip-client.sh');
 
 await fse.copy('./client', './tmp/client');
 
-proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/openloader/data'});
-proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/openloader/resources'});
+proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/datapacks'});
+proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/resourcepacks'});
 
-await fse.remove('./tmp/client/overrides/config/openloader/data/.gitignore');
-await fse.remove('./tmp/client/overrides/config/openloader/data/zip.sh');
-await fse.remove('./tmp/client/overrides/config/openloader/resources/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks/.gitignore');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks/zip.sh');
+await fse.remove('./tmp/client/overrides/config/paxi/datapacks.old');
+await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks.old');
+await fse.remove('./tmp/client/overrides/config/paxi/.gitignore');
 
 await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
-
-proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
 
 const manifest = await fse.readJson('./tmp/client/manifest.json');
 
 const {minecraft, version} = manifest;
 
+let fileName = `world-of-pannotia--${minecraft.version}-${version}`;
+
+if (devBuild) {
+    manifest.name = 'World of Pannotia (dev build)';
+    fileName += '--dev';
+
+    await fse.writeJSON('./tmp/client/manifest.json', manifest, {spaces: 4});
+}
+
+proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
+
 try {
-    await fse.move('./tmp/client.zip', `./dist/world-of-pannotia--${minecraft.version}-${version}.zip`);
+    if (override) {
+        await fse.remove(`./dist/${fileName}.zip`);
+    }
+    await fse.move('./tmp/client.zip', `./dist/${fileName}.zip`);
 } catch (e) {
     console.error(e);
 }

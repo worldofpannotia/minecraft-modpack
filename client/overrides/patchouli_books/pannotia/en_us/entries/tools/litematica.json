@@ -1,0 +1,22 @@
+{
+  "name": "Litematica",
+  "icon": "litematicatool:the_stick",
+  "category": "patchouli:wp_tools",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Litematica is a schematic mod. The main feature of a schematic mod is to display a 'hologram' version of a structure, which shows you exactly how to build the structure and where to place the blocks. It also includes a (configurable) overlay to highlight missing, extra or wrongly placed blocks.",
+      "url": "https://github.com/maruohon/litematica/wiki",
+      "link_text": "Litematica Wiki"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Litematica also includes a nice Material List, including a Material List HUD, to help you collect the materials needed for the build. There is also a Schematic Verifier feature, including an overlay, which you can use to scan the entire schematic area and look for any mistakes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "litematicatool:the_stick",
+      "text": "A simple mod that allows you to craft a special stick for use in litematica. Change the config to $(br)'litematicatool:the_stick' in order to use this."
+    }
+  ]
+}

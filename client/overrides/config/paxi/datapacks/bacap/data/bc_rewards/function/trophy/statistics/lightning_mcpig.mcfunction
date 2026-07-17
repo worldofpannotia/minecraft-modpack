@@ -1,0 +1,3 @@
+give @s piston[item_name='{"translate":"Piston Cup","color":"#E4493E","bold":true,"italic":false}',lore=['{"translate":"It\'s just an empty cup","color":"#E4493E"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Lightning McPig","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Piston Cup"}]

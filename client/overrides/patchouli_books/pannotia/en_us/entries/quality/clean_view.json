@@ -1,0 +1,11 @@
+{
+  "name": "Clean View",
+  "icon": "minecraft:glass_pane",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "CleanView will remove particles, came from potion effects, from your character or any other type camera entities. (The potion effects will still affect you.) There is a key can be used to toggle this feature. This key can be found under Miscellaneous category. - Mod by LainMI"
+    }
+  ]
+}

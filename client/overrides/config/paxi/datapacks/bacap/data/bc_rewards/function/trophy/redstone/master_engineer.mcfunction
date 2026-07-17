@@ -1,0 +1,3 @@
+give @s blast_furnace[item_name='{"translate":"Steam Engine","color":"#595858","bold":true,"italic":false}',lore=['{"translate":"The beginning of the Industrial Revolution","color":"#595858"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Engineer","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Steam Engine"}]

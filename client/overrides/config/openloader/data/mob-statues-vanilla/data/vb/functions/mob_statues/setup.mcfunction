@@ -1,1 +1,0 @@
-scoreboard objectives add statue.health dummy "Statue Health"

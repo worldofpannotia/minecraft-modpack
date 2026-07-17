@@ -1,0 +1,67 @@
+{
+  "name": "Decorative Blocks Mod",
+  "icon": "decorative_blocks:brazier",
+  "category": "patchouli:wp_decoration",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "A small mod that adds several new decorative blocks including: bonfires, thatch, wooden palisades, braziers, chandeliers, rocky dirt, and more.",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/decorative-blocks",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bonfire",
+      "text": "Toss blaze powder into fire and BOOM"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Thatch",
+      "text": "Thatch, 'fluid' from cutting open a hay bale with shears, remove with hoes"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:oak_beam",
+      "text": "Wood types available: oak, spruce, acacia, jungle, dark oak, mangrove, crimson, and warped"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:oak_seat",
+      "text": "Wood types available: oak, spruce, acacia, jungle, dark oak, mangrove, crimson, and warped"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:oak_support",
+      "text": "Wood types available: oak, spruce, acacia, jungle, dark oak, mangrove, crimson, and warped"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:oak_palisade",
+      "text": "Wood types available: oak, spruce, acacia, jungle, dark oak, mangrove, crimson, and warped"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:chandelier",
+      "recipe2": "decorative_blocks:soul_chandelier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:brazier",
+      "recipe2": "decorative_blocks:soul_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:bar_panel",
+      "recipe2": "decorative_blocks:lattice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:chain",
+      "recipe2": "decorative_blocks:stone_pillar"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "decorative_blocks:rocky_dirt"
+    }
+  ]
+}

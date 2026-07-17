@@ -1,0 +1,3 @@
+give @s string[item_name='{"translate":"Harp String","color":"#E1E1E1","bold":true,"italic":false}',lore=['{"translate":"Playing so much must be wearing out your strings...","color":"#DF9A35"}','{"translate":"Here! Have an extra.","color":"#DF9A35"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Travelling Bard","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Harp String"}]

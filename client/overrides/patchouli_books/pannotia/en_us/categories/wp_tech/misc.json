@@ -1,0 +1,7 @@
+{
+  "name": "MISC",
+  "description": "Several other tech tools are available as well",
+  "icon": "darkutils:filter_illager",
+  "parent": "patchouli:wp_tech",
+  "sortnum": 99
+}

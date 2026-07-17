@@ -1,0 +1,3 @@
+give @s golden_helmet[item_name='{"translate":"Golden Crown","color":"#E9B115","bold":true,"italic":false}',lore=['{"translate":"Piglin-approved","color":"#E9B115"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Gold Miner","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:fortune":1},show_in_tooltip:false},trim={material:"minecraft:gold",pattern:"minecraft:wayfinder",show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Golden Crown"}]

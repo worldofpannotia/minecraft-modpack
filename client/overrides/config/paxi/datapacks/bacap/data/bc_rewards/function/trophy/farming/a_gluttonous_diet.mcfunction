@@ -1,0 +1,3 @@
+give @s rabbit_stew[item_name='{"translate":"A Glutton\'s Meal","color":"#93E9FF","bold":true,"italic":false}',lore=['{"translate":"I see you have quite the appetite. Fatty.","color":"#93E9FF"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"A Gluttonous Diet","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"A Glutton's Meal"}]

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#pk_be_it:item_frames"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_be_it:events/player/player_interacted_with_entity/item_frame/start"
+    }
+}

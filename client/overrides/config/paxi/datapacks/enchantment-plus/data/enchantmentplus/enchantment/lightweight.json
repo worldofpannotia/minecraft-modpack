@@ -1,0 +1,44 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.lightweight"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.15,
+                    "per_level_above_first": 0.15
+                },
+                "attribute": "minecraft:generic.attack_speed",
+                "id": "enchantmentplus:enchantment.lightweight_attack_speed",
+                "operation": "add_multiplied_total"
+            },
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": -0.15,
+                    "per_level_above_first": -0.15
+                },
+                "attribute": "minecraft:generic.attack_damage",
+                "id": "enchantmentplus:enchantment.lightweight_attack_damage",
+                "operation": "add_multiplied_total"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 8
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/lightweight",
+    "weight": 1
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Block Meter",
+  "icon": "minecraft:polished_diorite",
+  "category": "patchouli:wp_tools",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "It allows you to measure sizes of builds or areas, so you can verify things line up the way you want, or having the distances they're expected to. To use, hold any item and tap the BlockMeter key. Right click that item anywhere to set a starting point. Right-click the item somewhere else to get a second point. ",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/blockmeterfabric",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "BlockMeter will draw a cuboid and show the lengths of each of the sides. Tap the key again to deactivate the BlockMeter cubes. Tap Shift and the key to remove the last cube. Tap Ctrl and the key to remove all cubes. To edit an existing box, right click while crouching to \"loosen\" one corner and right click again to place it somewhere else."
+    }
+  ]
+}

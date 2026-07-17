@@ -1,0 +1,33 @@
+{
+  "name": "Building Wands",
+  "icon": "wands:diamond_wand",
+  "category": "patchouli:wp_tools",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Wands to help you build more effectively. They can place blocks directionally, in rows or columns, fill areas, repeat shapes, in a grid, in a line, in a circle, and more. Mod by nicguzzo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/building-wands",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wands:stone_wand",
+      "recipe2": "wands:iron_wand"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wands:diamond_wand",
+      "text": "$(br2)$(bold)Netherite Wand$(): Put $(item)Diamond Wand$() in smithing table with on $(item)Netherite Ingot$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wands:palette",
+      "recipe2": "wands:magic_bag_1"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wands:magic_bag_2",
+      "recipe2": "wands:magic_bag_3"
+    }
+  ]
+}

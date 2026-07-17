@@ -1,0 +1,3 @@
+give @s beetroot[item_name='{"translate":"Ch-ch-ch-ch-ch-ch-Cherry bomb!","color":"#92191D","bold":true,"italic":false}',lore=['{"translate":"“I wanna explode,” says Cherry #1","color":"#92191D"}','{"translate":"“No, let\'s detonate instead!” says his brother, Cherry #2","color":"#92191D"}','{"translate":"After intense consultation they agree to EXPLODONATE","color":"#92191D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Cherry Bomb","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Ch-ch-ch-ch-ch-ch-Cherry bomb!"}]

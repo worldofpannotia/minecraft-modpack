@@ -1,0 +1,56 @@
+schedule clear track_stats:tick
+
+scoreboard objectives remove hc_elytraKmShow
+scoreboard objectives remove hc_elytraKm
+scoreboard objectives remove hc_elytraCm
+
+scoreboard objectives remove hc_playTimeShow
+scoreboard objectives remove hc_playTime
+scoreboard objectives remove hc_playTick
+
+scoreboard objectives remove hc_swimKmShow
+scoreboard objectives remove hc_swimKm
+scoreboard objectives remove hc_swimCm
+
+scoreboard objectives remove hc_MineOreShow
+scoreboard objectives remove hc_MineOre
+
+scoreboard objectives remove hc_MineCoalShow
+scoreboard objectives remove hc_MineDiamondShow
+scoreboard objectives remove hc_MineEmeraldShow
+scoreboard objectives remove hc_MineRedstoneShow
+scoreboard objectives remove hc_MineLapisShow
+scoreboard objectives remove hc_MineIronShow
+scoreboard objectives remove hc_MineGoldShow
+scoreboard objectives remove hc_MineCopperShow
+
+scoreboard objectives remove hc_MineCoal
+scoreboard objectives remove hc_MineDiamond
+scoreboard objectives remove hc_MineEmerald
+scoreboard objectives remove hc_MineRedstone
+scoreboard objectives remove hc_MineLapis
+scoreboard objectives remove hc_MineIron
+scoreboard objectives remove hc_MineGold
+scoreboard objectives remove hc_MineCopper
+
+scoreboard objectives remove hc_MineSCoal
+scoreboard objectives remove hc_MineSDiamond
+scoreboard objectives remove hc_MineSEmerald
+scoreboard objectives remove hc_MineQuartz
+scoreboard objectives remove hc_MineSRedstone
+scoreboard objectives remove hc_MineSLapis
+scoreboard objectives remove hc_MineSIron
+scoreboard objectives remove hc_MineSGold
+scoreboard objectives remove hc_MineSCopper
+scoreboard objectives remove hc_MineNetherite
+
+scoreboard objectives remove hc_MineDCoal
+scoreboard objectives remove hc_MineDDiamond
+scoreboard objectives remove hc_MineDEmerald
+scoreboard objectives remove hc_MineDRedstone
+scoreboard objectives remove hc_MineDLapis
+scoreboard objectives remove hc_MineDIron
+scoreboard objectives remove hc_MineDGold
+scoreboard objectives remove hc_MineDCopper
+
+scoreboard objectives remove hc_constant

@@ -1,0 +1,15 @@
+{
+    "name": "Botania",
+    "icon": "botania:twig_wand{color1:10,color2:11}",
+    "category": "patchouli:wp_magic",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Botania is a \"magic-themed\" tech mod themed around natural magic. To get started, craft the Lexica Botania and start looking for magical flowers in the world!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "botania:lexicon"
+        }
+    ]
+}

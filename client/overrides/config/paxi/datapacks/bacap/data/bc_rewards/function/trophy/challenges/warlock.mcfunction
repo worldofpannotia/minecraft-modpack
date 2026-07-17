@@ -1,0 +1,3 @@
+give @s beacon[item_name='{"translate":"Corrupted Beacon","color":"#BE03D9","bold":true,"italic":false}',lore=['{"translate":"The Corrupted Beacon holds immense power within","color":"#BE03D9"}','{"translate":"It waits for the moment to unleash its wrath","color":"#BE03D9"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Warlock","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Corrupted Beacon"}]

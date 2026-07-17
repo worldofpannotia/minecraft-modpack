@@ -1,0 +1,3 @@
+give @s spectral_arrow[item_name='{"translate":"Really Really Pointy Arrow","color":"#dab930","bold":true,"italic":false}',lore=['{"translate":"This deals more damage than it seems","color":"#dab930"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"There it goes…","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Really Really Pointy Arrow"}]

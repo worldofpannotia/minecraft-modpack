@@ -1,3 +1,0 @@
-execute align xyz run summon minecraft:area_effect_cloud ~0.5 ~0.37 ~0.5 {Tags:["pk_shulkerbox_marker","pk_to_init"],Age:-2147483648,Duration:-1,WaitTime:-2147483648}
-execute as @e[type=area_effect_cloud,tag=pk_shulkerbox_marker,tag=pk_to_init,distance=..16] at @s run data modify entity @s CustomName set from block ~ ~ ~ CustomName
-tag @e[type=area_effect_cloud,tag=pk_shulkerbox_marker,tag=pk_to_init,distance=..16] remove pk_to_init

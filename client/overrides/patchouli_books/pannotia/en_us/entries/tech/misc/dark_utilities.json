@@ -1,0 +1,52 @@
+{
+  "name": "Dark Utilities",
+  "icon": "darkutils:filter_illager",
+  "category": "patchouli:wp_tech/misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Dark Utilities mod (by Darkhax) adds many new items and blocks which expand upon the vanilla game. This mod aims to be useful in a wide range of circumstances while also adding fun and interesting mechanics. You can learn more about the mod by checking out the $(l:https://github.com/Darkhax-Minecraft/Dark-Utilities/wiki)wiki$(/l). All blocks and items in the mod also have tooltips with a brief summary of what they do."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:vector_plate",
+      "title": "Vector Plates",
+      "text": "The Vector Plate is a flat tile that will push mobs and entities in the direction the arrow is facing. Mobs can spawn on and in these tiles making them a good alternative to water in mob farms. It can be waterlogged by right clicking on it with a bucket. It is disabled when powered with redstone. $(bold)There are several variants to explore.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:damage_plate_player",
+      "title": "Effect Plates",
+      "text": "The trap will inflict any mob that collides with it with the related effect (poison, weakness, slowing, etc.) This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged. $(bold)There are several variants to explore.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:filter_player",
+      "title": "Filter Blocks",
+      "text": "The ____ filter is a block that allows certain mobs to move and pathfind through it as if it were air. For example the child variant will allow baby animals and baby zombies to move through it but other mobs will see it as a solid block. Sneaking and right clicking on a filter will invert it. Disabled filters (redstone signal) do not let any mobs move through them. $(bold)There are several variants to explore.$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:shielded_redstone",
+      "text": "Emits a redstone signal from only one of it's faces. Can be rotated in all six directions. Can also be moved by pistons."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:redstone_randomizer",
+      "text": "Will randomly toggle it's redstone state. Providing a random powered output from one of it's faces. This block can be oriented in all 6 directions. The side with the face is where the power will come out.      "
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "darkutils:charm_portal",
+      "title": "Charms",
+      "text": "3 charms are available to help with quality of life. $(li)$(item)Portal Charm$(): Walk through portals instantly$(li)$(item)Sleep Charm$()Sleep instantly and reduce insomnia counter$(li)$(item)Warding Charm$(): Wards off negative effects."
+    },
+    {
+      "type": "patchouli:link",
+      "title": "Read the wiki for more",
+      "text": "For much more information on dark utilities please reference the online wiki",
+      "url": "https://github.com/Darkhax-Minecraft/Dark-Utilities/wiki",
+      "link_text": "Dark Utilities Wiki"
+    }
+  ]
+}

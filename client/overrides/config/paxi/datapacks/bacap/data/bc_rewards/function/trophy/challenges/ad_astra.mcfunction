@@ -1,0 +1,3 @@
+give @s iron_helmet[item_name='{"translate":"Astronaut Helmet","color":"#F1F1F1","bold":true,"italic":false}',lore=['{"translate":"In zero gravity, a feather and a hammer falls at the same speed","color":"#F1F1F1"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Ad Astra","color":"#FF2A2A","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=132,custom_data={Trophy:1},trim={material:"minecraft:iron",pattern:"minecraft:snout",show_in_tooltip:false}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Astronaut Helmet"}]

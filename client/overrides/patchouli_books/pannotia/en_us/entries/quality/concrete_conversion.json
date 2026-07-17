@@ -1,0 +1,11 @@
+{
+  "name": "Concrete Conversion",
+  "icon": "minecraft:gray_concrete_powder",
+  "category": "patchouli:wp_quality",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This mod adds a new way to convert concrete powder to concrete.$(li)$(item)Make Concrete$(): Throw the concrete powder in item form into water.$(li)$(item)Make Concrete Powder$(): Cook concrete in furnace to get concrete powder back"
+    }
+  ]
+}

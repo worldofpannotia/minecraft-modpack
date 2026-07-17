@@ -1,0 +1,3 @@
+give @s furnace_minecart[item_name='{"translate":"Thomas the Tank Engine","color":"#2AB9E5","bold":true,"italic":false}',lore=['{"translate":"He\'s number one","color":"#2AB9E5"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Global Railway Network","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Thomas the Tank Engine"}]

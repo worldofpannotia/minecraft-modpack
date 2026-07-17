@@ -1,0 +1,3 @@
+give @s milk_bucket[item_name='{"translate":"Stale Milk","color":"#F4FFD6","bold":true,"italic":false}',lore=['{"translate":"Please drink this","color":"#F4FFD6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"How Did We Get Here?","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Stale Milk"}]

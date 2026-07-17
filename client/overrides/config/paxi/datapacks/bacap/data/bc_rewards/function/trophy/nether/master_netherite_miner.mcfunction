@@ -1,0 +1,3 @@
+give @s nether_brick[item_name='{"translate":"Brick Astley","color":"#AD604B","bold":true,"italic":false}',lore=['{"translate":"Nether gonna brick you up!","color":"#AD604B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Master Netherite Miner","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Brick Astley"}]

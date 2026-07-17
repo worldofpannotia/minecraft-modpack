@@ -1,0 +1,3 @@
+give @s player_head[item_name='{"translate":"Eye of the Apocalypse","color":"#AA0000","bold":true,"italic":false}',lore=['{"translate":"The beginning of the end","color":"#AA0000"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The World Is Ending","color":"#FF2A2A","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},profile={id:[I;102013593,-1930604834,-1800072889,-619121541],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU1NTYwODNjOWNkZTE5ZjU0YmY3OGE0MjFjYjk3MzFmNjBmMWQzZGUzY2Y1ODRmNTRiMmQ0MzY3N2RmMmE3In19fQ=="}]}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Eye of the Apocalypse"}]

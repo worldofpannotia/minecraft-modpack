@@ -1,0 +1,34 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.high_step"
+    },
+    "effects": {
+        "minecraft:attributes": [
+			{
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
+                },
+                "attribute": "minecraft:generic.step_height",
+                "id": "enchantmentplus:enchantment.high_step",
+                "operation": "add_value"
+            }
+		]
+    },
+    "max_cost": {
+        "base": 51,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/high_step",
+    "weight": 4
+}

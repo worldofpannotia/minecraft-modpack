@@ -1,0 +1,3 @@
+give @s diamond_shovel[item_name='{"translate":"Ice Wand","color":"#9CFEFD","bold":true,"italic":false}',lore=['{"translate":"The Ice Wand was trapped in a tomb of ice for ages,","color":"#9CFEFD"}','{"translate":"sealed away by those who feared its power","color":"#9CFEFD"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Iceologer Should\'ve Won","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantments={levels:{"minecraft:silk_touch":1}},hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Ice Wand"}]

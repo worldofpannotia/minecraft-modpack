@@ -1,8 +1,0 @@
-removeAnvilXPLimit = true
-allowAllEnchantmentCombinations = true
-allowAnyEnchantOnAnyItem = true
-removeAnvilLevelLimit = true
-fairLevelCost = true
-removeRepairCostIncrease = true
-newAnvilLevelLimit = 255
-capEnchantPotency = false

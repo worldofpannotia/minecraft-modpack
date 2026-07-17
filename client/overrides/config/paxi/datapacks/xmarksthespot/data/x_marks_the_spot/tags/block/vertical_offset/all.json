@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "#x_marks_the_spot:vertical_offset/1-pixels",
+        "#x_marks_the_spot:vertical_offset/2-pixels",
+        "#x_marks_the_spot:vertical_offset/4-pixels",
+        "#x_marks_the_spot:vertical_offset/6-pixels",
+        "#x_marks_the_spot:vertical_offset/8-pixels",
+        "#x_marks_the_spot:vertical_offset/9-pixels",
+        "#x_marks_the_spot:vertical_offset/11-pixels",
+        "#x_marks_the_spot:vertical_offset/12-pixels",
+        "#x_marks_the_spot:vertical_offset/14-pixels",
+        "#x_marks_the_spot:vertical_offset/17-pixels",
+        "#x_marks_the_spot:vertical_offset/variable"
+    ]
+}

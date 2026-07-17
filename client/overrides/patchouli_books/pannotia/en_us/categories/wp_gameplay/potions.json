@@ -1,0 +1,6 @@
+{
+  "name": "Potions",
+  "description": "$(o)Drink up...$()$(br)$(br)Potions and potion mechanics have changed with a few mods",
+  "icon": "minecraft:brewing_stand",
+  "parent": "patchouli:wp_gameplay"
+}

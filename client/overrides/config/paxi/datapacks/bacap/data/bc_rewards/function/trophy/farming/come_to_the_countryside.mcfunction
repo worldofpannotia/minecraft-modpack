@@ -1,0 +1,3 @@
+give @s iron_hoe[item_name='{"translate":"Mr Finch\'s Hoe","color":"#6A573D","bold":true,"italic":false}',lore=['{"translate":"Did you at least harvest the sugar cane?","color":"#6A573D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Come to the countryside!","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mr Finch's Hoe"}]

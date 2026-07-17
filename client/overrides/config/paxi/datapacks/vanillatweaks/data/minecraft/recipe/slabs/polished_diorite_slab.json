@@ -1,0 +1,13 @@
+{
+    "result": {
+        "id": "minecraft:polished_diorite_slab",
+        "count": 2
+    },
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:polished_diorite"
+        }
+    ],
+    "group": "block_to_2_slabs"
+}

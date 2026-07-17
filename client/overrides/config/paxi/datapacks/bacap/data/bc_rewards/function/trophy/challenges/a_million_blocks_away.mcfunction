@@ -1,0 +1,3 @@
+give @s light_blue_dye[item_name='{"translate":"Space Stone","color":"#62B5FB","bold":true,"italic":false}',lore=['{"translate":"This universe is finite, its resources, finite","color":"#62B5FB"}','{"translate":"If life is left unchecked, life will cease to exist","color":"#62B5FB"}','{"translate":"It needs correcting","color":"#62B5FB"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"A Million Blocks Away","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Space Stone"}]

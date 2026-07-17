@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:smithing_transform",
+    "category": "equipment",
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "minecraft:mace"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "minecraft:mace",
+        "components": {
+            "minecraft:fire_resistant": {},
+            "minecraft:lore": [
+                "{\"text\":\"Fire Resistant\", \"color\": \"red\", \"italic\": false}"
+            ],
+            "minecraft:max_damage": 1000
+        }
+    }
+}

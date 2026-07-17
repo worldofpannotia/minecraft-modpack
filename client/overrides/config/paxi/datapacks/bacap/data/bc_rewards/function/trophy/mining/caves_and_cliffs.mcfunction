@@ -1,0 +1,3 @@
+give @s flowering_azalea[item_name='{"translate":"Azalea Parachute","color":"#70922D","bold":true,"italic":false}',lore=['{"translate":"Good thing you didn\'t need this","color":"#70922D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Caves & Cliffs","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Azalea Parachute"}]

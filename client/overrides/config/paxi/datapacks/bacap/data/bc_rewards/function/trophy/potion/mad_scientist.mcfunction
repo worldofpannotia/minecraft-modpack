@@ -1,0 +1,3 @@
+give @s potion[item_name='{"translate":"Unknown Mixture","color":"#83B32F","bold":true,"italic":false}',lore=['{"translate":"Side effects include possible stomach ache, 20/20 vision,","color":"#83B32F"}','{"translate":"acne, extensive back pain and more...","color":"#83B32F"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Mad Scientist","color":"light_purple","italic":false}'],custom_model_data=132,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},potion_contents={potion:"minecraft:long_poison"}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Unknown Mixture"}]

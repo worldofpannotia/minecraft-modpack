@@ -1,0 +1,79 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.flight_extender"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/flight_extender/main"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.used_firework_rocket": {
+                                    "min": 1
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_flying": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.1,
+                                    "per_level_above_first": 0.1
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/flight_extender/reset"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "eplus.used_firework_rocket": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/flight_extender",
+    "weight": 1
+}

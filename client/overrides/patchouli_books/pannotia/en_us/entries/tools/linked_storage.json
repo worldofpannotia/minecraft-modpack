@@ -1,0 +1,23 @@
+{
+  "name": "Linked Storage",
+  "icon": "linkedstorage:storageblock",
+  "category": "patchouli:wp_tools",
+  "pages": [
+    {
+      "type": "patchouli:link",
+      "text": "Linked storage allows you to link your inventories together. Chest block acts like other chests with hoppers and can be public or privately accessed. Mod by Kyrptonaught",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/linked-storage",
+      "link_text": "CurseForge Page"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "linkedstorage:storageblock",
+      "text": "By applying a dye to the dye-able pads on top of the chest you can specify the 'channel' that chest is linked to. Right clicking on a chest while holding a diamond will turn the chest into a personal dye channel chest. Personal dye channel's are unique to you."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "linkedstorage:storageitem",
+      "text": "Crafting a Handheld storage will allow you to access the inventories remotely. The dye channel will be copied to the Handheld storage when crafting. Right clicking on a Storage Block will copy the dye channel to your Handheld storage."
+    }
+  ]
+}

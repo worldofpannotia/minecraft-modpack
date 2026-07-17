@@ -1,0 +1,3 @@
+give @s oak_boat[item_name='{"translate":"Noah\'s Ark","color":"#1604FF","bold":true,"italic":false}',lore=['{"translate":"A deluge is imminent","color":"#1604FF"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Two By Two","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Noah's Ark"}]
