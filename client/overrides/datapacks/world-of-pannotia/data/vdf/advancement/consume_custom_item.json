@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_water_potion": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:potion_contents": {
+                            "potion": "minecraft:water"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vdf:give_starter_kit"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "predicates": {
+                            "minecraft:custom_model_data": 7001
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "vdf_sneak_time": {
+                    "min": 1
+                }
+            }
+        }
+    ]
+}
