@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:sticky_piston",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2ZmVlNWI2MWVmYzYzYjliNDRmYzMyMjA2N2ZiNjIwZGQ1ZWE5YTdmYjJmODVhMGFhZGVjODAzOGJjMTM3NCJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Sticky Piston",
+      "minecraft:rarity": "common"
+    }
+  }
+}

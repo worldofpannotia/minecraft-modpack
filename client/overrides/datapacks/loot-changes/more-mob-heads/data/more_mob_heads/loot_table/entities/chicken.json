@@ -1,0 +1,110 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:player_head",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.chicken.ambient",
+								"minecraft:profile": {
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJhZjZlNTg0N2VlYTA5OWUxYjBhYjhjMjBhOWU1ZjNjNzE5MDE1OGJkYTU0ZTI4MTMzZDliMjcxZWMwY2I0YiJ9fX0="
+										}
+									]
+								},
+								"minecraft:item_name": "Temperate Chicken Head"
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"components": {
+											"minecraft:chicken/variant": "minecraft:temperate"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.chicken.ambient",
+								"minecraft:profile": {
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA3NzM2MWExOGZjMWRjM2EwYzhlMmNlZTEyMmRiNmNkMGUyZmIwODAzMzU0OGFlOWM0N2U2ZjMzZmE0ZGIzOCJ9fX0="
+										}
+									]
+								},
+								"minecraft:item_name": "Cold Chicken Head"
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"components": {
+											"minecraft:chicken/variant": "minecraft:cold"
+										}
+									}
+								}
+							]
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.chicken.ambient",
+								"minecraft:profile": {
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q2NmIwYTM1NWFhMjdmMzY0OWRmZjQwODBmZTkyYWI1ZjJhMWUxOWJhOGM3ZjE1Y2E2NzUwNjg0M2RlYTBkNyJ9fX0="
+										}
+									]
+								},
+								"minecraft:item_name": "Warm Chicken Head"
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"components": {
+											"minecraft:chicken/variant": "minecraft:warm"
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_enchanted_bonus",
+					"enchantment": "minecraft:looting",
+					"unenchanted_chance": 0.01,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.011,
+						"per_level_above_first": 0.001
+					}
+				}
+			]
+		}
+	]
+}

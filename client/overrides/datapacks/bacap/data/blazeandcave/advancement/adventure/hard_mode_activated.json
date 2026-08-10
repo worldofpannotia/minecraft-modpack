@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": {"translate":"Hard Mode Activated"},
+		"description": {"color":"green","translate":"Drink an Ominous Bottle in a Trial Chamber to cast a greater challenge"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/under_lock_and_key",
+	"rewards": {
+		"function": "bacap_rewards:adventure/hard_mode_activated"
+	},		
+	"criteria": {
+		"trial_omen": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:trial_omen": {}
+				}
+			}
+		}
+	}
+}

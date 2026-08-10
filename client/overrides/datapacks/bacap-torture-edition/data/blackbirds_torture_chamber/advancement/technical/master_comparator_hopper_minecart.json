@@ -1,0 +1,21 @@
+{
+        "criteria": {
+        "wither": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {},
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:hopper_minecart"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/master_comparator_hopper_minecart"
+    }
+}

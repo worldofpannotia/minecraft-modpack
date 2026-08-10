@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cobweb"
+		},
+		"title": {"translate":"Spider-skeleton"},
+		"description": {"color":"#75E1FF","translate":"Does whatever a spider can"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:monsters/spider_smasher",
+	"rewards": {
+		"function": "bacap_rewards:monsters/spider_skeleton"
+	},	
+	"criteria": {
+		"spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "spider",
+					"passenger": {
+						"entity_type": "#minecraft:skeletons"
+					}
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#minecraft:skeletons",
+					"vehicle": {
+						"entity_type": "spider"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"spider",
+			"skeleton"
+		]
+	]
+}

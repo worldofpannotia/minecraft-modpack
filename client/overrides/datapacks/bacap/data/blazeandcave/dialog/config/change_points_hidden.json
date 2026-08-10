@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:notice",
+	"title": {"text":""},
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": {"text":" "}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {"translate":"How many points would you like this advancement tier to award?"}
+		},
+		{
+			"type": "minecraft:item",
+			"item": {
+				"id": "minecraft:structure_void",
+				"count": 1
+			},
+			"show_decoration": true,
+			"show_tooltip": false
+		}
+	],
+	"inputs": [
+		{
+			"type": "minecraft:text",
+			"label": {"text":""},
+			"label_visible": false,
+			"width": 50,
+			"initial": "0",
+			"max_length": 6,
+			"key": "input"
+		}
+	],
+	"action": {
+		"label": {"translate":"Done"},
+		"action": {
+			"type": "dynamic/run_command",
+			"template": "/function blazeandcave:config/scoreboard_change_points_hidden {points:\"$(input)\"}"
+		}
+	},
+	"columns": 1,
+	"pause": false,
+	"can_close_with_escape": true,
+	"after_action": "close"
+}

@@ -1,0 +1,60 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantmentplus.amplified_shot",
+        "fallback": "Amplified Shot"
+    },
+    "effects": {
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 0.75,
+                        "per_level_above_first": 0.75
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "entity_type": "#minecraft:arrows"
+                    }
+                }
+            }
+        ],
+        "minecraft:ammo_use": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 1
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "items": "#minecraft:arrows"
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 4
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 4
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/amplified_shot",
+    "weight": 10
+}

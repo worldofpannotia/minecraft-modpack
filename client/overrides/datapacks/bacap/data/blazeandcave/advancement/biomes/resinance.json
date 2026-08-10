@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:resin_clump"
+		},
+		"title": {"translate":"Resinance"},
+		"description": {"color":"green","translate":"Pick off a Resin Clump growing on the side of a Pale Oak tree"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/heart_breaker",
+	"rewards": {
+		"function": "bacap_rewards:biomes/resinance"
+	},		
+	"criteria": {
+		"resin_clump": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:resin_clump"
+						]
+					}
+				]
+			}
+		}
+	}
+}

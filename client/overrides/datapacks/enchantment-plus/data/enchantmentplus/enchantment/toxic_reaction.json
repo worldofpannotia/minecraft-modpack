@@ -1,0 +1,195 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.toxic_reaction",
+        "fallback": "Toxic Reaction"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/tag_user"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player",
+                                "nbt": "{Health:0f}"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/player"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "minecraft:player",
+                                "nbt": "{Health:0f}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.15,
+                                    "per_level_above_first": 0.15
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/hostile"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_hostile",
+                                "nbt": "{Health:0f}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.15,
+                                    "per_level_above_first": 0.15
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/neutral"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_neutral",
+                                "nbt": "{Health:0f}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.15,
+                                    "per_level_above_first": 0.15
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/passive"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_passive",
+                                "nbt": "{Health:0f}"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.15,
+                                    "per_level_above_first": 0.15
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/toxic_reaction/tag_remove"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player",
+                                "nbt": "{Health:0f}"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/toxic_reaction",
+    "weight": 1
+}

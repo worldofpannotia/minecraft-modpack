@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/eat_100k",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

@@ -1,0 +1,186 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:pale_moss_block"
+		},
+		"title": {"translate":"Pale in Comparison"},
+		"description": {"color":"green","translate":"Place a block of Pale Moss next to a block of regular Moss"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/heart_breaker",
+	"rewards": {
+		"function": "bacap_rewards:biomes/pale_in_comparison"
+	},		
+	"criteria": {
+		"pale_moss_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"block": "minecraft:pale_moss_block",
+						"condition": "minecraft:block_state_property"
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:location_check",
+								"offsetZ": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetZ": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetX": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetX": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:moss_block"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"moss_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"block": "minecraft:moss_block",
+						"condition": "minecraft:block_state_property"
+					},
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:location_check",
+								"offsetZ": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetZ": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetX": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetX": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": 1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"offsetY": -1,
+								"predicate": {
+									"block": {
+										"blocks": [
+											"minecraft:pale_moss_block"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pale_moss_block",
+			"moss_block"
+		]
+	]
+}

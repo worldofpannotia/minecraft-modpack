@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dragon_head"
+		},
+		"title": {"translate":"Dragon vs Dragon II: Electric Boogaloo"},
+		"description": {"color":"#FF2A2A","translate":"Defeat the Ender Dragon while wearing a dragon head... without touching the ground","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_dragon"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/were_in_the_endgame_now",
+	"rewards": {
+		"function": "bacap_rewards:challenges/dragon_vs_dragon_ii_electric_boogaloo"
+	},		
+	"criteria": {
+		"ten_withers": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

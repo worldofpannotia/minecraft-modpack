@@ -1,0 +1,1 @@
+advancement grant @s only blackbirds_torture_chamber:stuff/a_complete_collection loot_suspicious_stew_saturation

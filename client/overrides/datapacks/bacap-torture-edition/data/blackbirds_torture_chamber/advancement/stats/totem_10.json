@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "title": "I'm still standing",
+        "description": "Use 10 Totems of Undying",
+        "frame": "task"
+    },
+    "parent": "blazeandcave:technical/cheater5",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/totem_10"
+	}
+}

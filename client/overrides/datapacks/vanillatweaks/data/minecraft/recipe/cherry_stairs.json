@@ -1,0 +1,16 @@
+{
+	"result": {
+		"id": "minecraft:cherry_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:cherry_planks"
+	},
+	"group": "wooden_stairs"
+}

@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/golden_carrot_eaten"
+	},	
+	"criteria": {
+		"golden_carrot": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_carrot"
+					]
+				}
+			}
+		}
+	}
+}

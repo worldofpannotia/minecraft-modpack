@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:purple_harness"
+		},
+		"title": {"translate":"No Tears left to Happ'"},
+		"description": {"color":"#8b00e8","translate":"Ride 100km on a Happy Ghast"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blackbirds_torture_chamber:stats/happy_ghast_50",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/happy_ghast_100"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:happy_ghast_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

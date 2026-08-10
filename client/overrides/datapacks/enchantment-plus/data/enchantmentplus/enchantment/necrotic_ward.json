@@ -1,0 +1,75 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.necrotic_ward",
+        "fallback": "Necrotic Ward"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:absorption",
+                            "min_duration": {
+                                "type": "minecraft:linear",
+                                "base": 10,
+                                "per_level_above_first": 10
+                            },
+                            "max_duration": {
+                                "type": "minecraft:linear",
+                                "base": 10,
+                                "per_level_above_first": 10
+                            },
+                            "min_amplifier": 2,
+                            "max_amplifier": 2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/necrotic_ward/post_attack"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player",
+                                "effects": {
+                                    "minecraft:wither": {}
+                                },
+                                "nbt": "{Health:0f}"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/special_hit_effect",
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/necrotic_ward",
+    "weight": 1
+}

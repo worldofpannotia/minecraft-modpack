@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:notice",
+    "title": "Shield Slam",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:enchanted_book",
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "enchantmentplus:shield_slam": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Type:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Normal\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Description:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Melee attacking mobs are knocked back when blocked.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Maximum Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 1\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Enchantment Cost Per Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 2",
+                    "color": "white"
+                },
+                {
+                    "text": "   (!)\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cost is halved if applied from an enchanted book"
+                    }
+                },
+                {
+                    "text": "Can be applied to:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Shield\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Can be obtained from:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Enchanting Table, Loot Chests, Fishing, Librarian Villager Trades\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Incompatible with:",
+                    "color": "red"
+                },
+                {
+                    "text": " -\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Details:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Doesn't work against players. Also available in Enchanting Table, however shields in vanilla can't be enchanted in it.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:new_enchantments"
+        }
+    }
+}

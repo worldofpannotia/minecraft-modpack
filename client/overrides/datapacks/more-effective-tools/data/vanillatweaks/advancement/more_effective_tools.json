@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_pickaxe"
+		},
+		"title": "More Effective Tools  ",
+		"description": {"text": "Sets an effective tool for blocks that annoyingly don't have one (e.g. pickaxe for glass, axe for cactus).\n\nThis excludes blocks specifically intended to have no effective tool (e.g. powder snow, reinforced deepslate, vault).", "color": "gold"},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

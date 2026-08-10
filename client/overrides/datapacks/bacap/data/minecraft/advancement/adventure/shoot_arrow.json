@@ -1,0 +1,60 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bow"
+		},
+		"title": {"translate":"Take Aim"},
+		"description": {"color":"green","translate":"Shoot something with a bow and arrow"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/root",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/take_aim"
+	},		
+	"criteria": {
+		"shot_arrow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:arrow",
+							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+						}
+					}
+				}
+			}
+		},
+		"shot_spectral_arrow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:spectral_arrow",
+							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shot_arrow",
+			"shot_spectral_arrow"
+		]
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_wash_100001",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

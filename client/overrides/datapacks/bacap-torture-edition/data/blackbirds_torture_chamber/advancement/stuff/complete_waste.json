@@ -1,0 +1,960 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book",
+            "components": {
+				"minecraft:enchantment_glint_override": true
+			}
+        },
+        "title": "Complete Waste",
+        "description": {
+            "color": "dark_red",
+            "text": "Acquire Max Enchantments on an Entire Set of Wooden Tools and Leather Armor"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:enchanting/a_rather_pointy_fence_post",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/complete_waste"
+    },
+    "criteria": {
+        "leather_helmet_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:aqua_affinity":1,
+                                "minecraft:respiration":3,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:fire_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:aqua_affinity":1,
+                                "minecraft:respiration":3,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:projectile_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:aqua_affinity":1,
+                                "minecraft:respiration":3,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_helmet_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_helmet"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:blast_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:aqua_affinity":1,
+                                "minecraft:respiration":3,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:fire_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:projectile_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_chestplate_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_chestplate"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:blast_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1,
+                                "minecraft:swift_sneak":3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_fire_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:fire_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1,
+                                "minecraft:swift_sneak":3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_projectile_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:projectile_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1,
+                                "minecraft:swift_sneak":3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_leggings_blast_protection": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_leggings"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:blast_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1,
+                                "minecraft:swift_sneak":3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:depth_strider":3,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_fire_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:fire_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:depth_strider":3,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_projectile_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:projectile_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:depth_strider":3,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_blast_protection_depth_strider": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:blast_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:depth_strider":3,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:frost_walker":2,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_fire_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:fire_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:frost_walker":2,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_projectile_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:projectile_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:frost_walker":2,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "leather_boots_blast_protection_frost_walker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:blast_protection":4,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:thorns":3,
+                                "minecraft:frost_walker":2,
+                                "minecraft:feather_falling":4,
+                                "minecraft:soul_speed":3,
+                                "minecraft:binding_curse":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_sharpness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:sharpness":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:sweeping_edge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:smite":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:sweeping_edge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_sword_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:bane_of_arthropods":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:sweeping_edge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:sharpness":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:sharpness":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:smite":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:smite":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_fortune_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:bane_of_arthropods":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_axe_silk_touch_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:bane_of_arthropods":5,
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_shovel"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_shovel_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_shovel"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_hoe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_hoe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_hoe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_hoe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_fortune": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_pickaxe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:fortune":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_pickaxe_silk_touch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_pickaxe"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:efficiency":5,
+                                "minecraft:silk_touch":1,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_spear_sharpness": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_spear"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:sharpness":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:lunge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_spear_smite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_spear"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:smite":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:lunge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wooden_spear_bane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wooden_spear"
+                        ],
+                        "components": {
+                            "minecraft:enchantments": {
+                                "minecraft:bane_of_arthropods":5,
+                                "minecraft:knockback":2,
+                                "minecraft:fire_aspect":2,
+                                "minecraft:looting":3,
+                                "minecraft:lunge":3,
+                                "minecraft:unbreaking":3,
+                                "minecraft:mending":1,
+                                "minecraft:vanishing_curse":1
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "leather_helmet_protection",
+            "leather_helmet_fire_protection",
+            "leather_helmet_projectile_protection",
+            "leather_helmet_blast_protection"
+        ],
+        [
+            "leather_chestplate_protection",
+            "leather_chestplate_fire_protection",
+            "leather_chestplate_projectile_protection",
+            "leather_chestplate_blast_protection"
+        ],
+        [
+            "leather_leggings_protection",
+            "leather_leggings_fire_protection",
+            "leather_leggings_projectile_protection",
+            "leather_leggings_blast_protection"
+        ],
+        [
+            "leather_boots_protection_depth_strider",
+            "leather_boots_fire_protection_depth_strider",
+            "leather_boots_projectile_protection_depth_strider",
+            "leather_boots_blast_protection_depth_strider",
+            "leather_boots_protection_frost_walker",
+            "leather_boots_fire_protection_frost_walker",
+            "leather_boots_projectile_protection_frost_walker",
+            "leather_boots_blast_protection_frost_walker"
+        ],
+        [
+            "wooden_sword_sharpness",
+            "wooden_sword_smite",
+            "wooden_sword_bane"
+        ],
+        [
+            "wooden_axe_silk_touch",
+            "wooden_axe_fortune",
+            "wooden_axe_silk_touch_smite",
+            "wooden_axe_fortune_smite",
+            "wooden_axe_silk_touch_bane",
+            "wooden_axe_fortune_bane"
+        ],
+        [
+            "wooden_hoe_fortune",
+            "wooden_hoe_silk_touch"
+        ],
+        [
+            "wooden_pickaxe_silk_touch",
+            "wooden_pickaxe_fortune"
+        ],
+        [
+            "wooden_shovel_silk_touch",
+            "wooden_shovel_fortune"
+        ],
+        [
+            "wooden_spear_sharpness",
+            "wooden_spear_smite",
+            "wooden_spear_bane"
+        ]
+    ]
+}

@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bow"
+		},
+		"title": {"translate":"Dogfight"},
+		"description": {"color":"dark_purple","translate":"Kill a Skeleton while both you and it have levitation"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:end/levitate",
+	"rewards": {
+		"function": "bacap_rewards:end/dogfight"
+	},		
+	"criteria": {
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:skeletons_with_bows",
+					"effects": {
+						"minecraft:levitation": {
+							"amplifier": {
+								"min": 0
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:levitation": {
+									"amplifier": {
+										"min": 0
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

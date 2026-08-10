@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "description": "\u00A77Adds new enchantments and useful enchantment utilities.",
+        "pack_format": 107,
+        "min_format": [107,1],
+        "max_format": [107,1]
+    }
+}

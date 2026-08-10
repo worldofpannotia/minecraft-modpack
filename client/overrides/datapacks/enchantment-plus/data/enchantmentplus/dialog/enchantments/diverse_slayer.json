@@ -1,0 +1,106 @@
+{
+    "type": "minecraft:notice",
+    "title": "Diverse Slayer",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:enchanted_book",
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "enchantmentplus:diverse_slayer": 10
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Type:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Normal\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Description:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Increases damage against all entities except players.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Maximum Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 10\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Enchantment Cost Per Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 1",
+                    "color": "white"
+                },
+                {
+                    "text": "   (!)\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cost is halved if applied from an enchanted book"
+                    }
+                },
+                {
+                    "text": "Can be applied to:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Axe, Mace, Spear, Sword, Trident\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Can be obtained from:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Enchanting Table, Loot Chests, Fishing, Librarian Villager Trades\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Incompatible with:",
+                    "color": "red"
+                },
+                {
+                    "text": " <Full List>\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Bane of Arthropods\nBlessing of Kings\nBreach\nCombustion\nDensity\nImpaling\nRetribution\nSharpness\nSmite\nTorment\nVoidfused"
+                    }
+                },
+                {
+                    "text": "Details:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Increases damage by +1 per level.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:new_enchantments"
+        }
+    }
+}

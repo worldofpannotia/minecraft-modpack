@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:anvil"
+        },
+        "title": "What do you even need this for",
+        "description": {"color":"#8b00e8","text":"Reach 1500 Experience Levels"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/giga_xp_grinder",		
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+						"level": {
+							"min": 1500
+						}
+                    }
+                }
+            }
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/1500_levels"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:brown_harness"
+		},
+		"title": {"translate":"Who Needs Elytra?"},
+		"description": {"color":"#75E1FF","translate":"Ride 1km on a Happy Ghast"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:statistics/test_flight",
+	"rewards": {
+		"function": "bacap_rewards:statistics/who_needs_elytra"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:happy_ghast_one_cm",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

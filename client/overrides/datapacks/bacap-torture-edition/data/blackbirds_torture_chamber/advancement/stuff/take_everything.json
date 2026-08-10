@@ -1,0 +1,596 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:piglin_banner_pattern"
+		},
+		"title": "Take Everything",
+		"frame": "challenge",
+		"description": {"color":"dark_red","text":"Give Everything Possible to Adult Piglins"}
+	},
+	"parent": "blackbirds_torture_chamber:stuff/pig_ben",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/take_everything"
+	},
+	"criteria": {
+		"bell": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:bell"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"block_of_gold": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:gold_block"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"block_of_raw_gold": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:raw_gold_block"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"clock": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:clock"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"deepslate_gold_ore": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:deepslate_gold_ore"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"enchanted_golden_apple": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:enchanted_golden_apple"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"gilded_blackstone": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:gilded_blackstone"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"glistering_melon_slice": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:glistering_melon_slice"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"gold_ingot": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:gold_ingot"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"gold_nugget": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:gold_nugget"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"gold_ore": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:gold_ore"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_apple": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_apple"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_axe": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_axe"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_boots": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_boots"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_carrot": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_carrot"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_chestplate": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_chestplate"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_helmet": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_helmet"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_hoe": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_hoe"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_horse_armor": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_horse_armor"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_leggings": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_leggings"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_pickaxe": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_pickaxe"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_shovel": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_shovel"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_sword": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_sword"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"light_weighted_pressure_plate": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:light_weighted_pressure_plate"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"nether_gold_ore": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:nether_gold_ore"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"raw_gold": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:raw_gold"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_spear": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_spear"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_nautilus_armor": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_nautilus_armor"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_dandelion": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:golden_dandelion"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:piglin",
+							"flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:swiftness"
+				}
+			}
+		},
+		"title": {"translate":"Imbued Projectiles"},
+		"description": {"color":"green","translate":"Craft some Tipped Arrows using arrows and a Lingering Potion"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:potion/gas",
+	"rewards": {
+		"function": "bacap_rewards:potion/imbued_projectiles"
+	},		
+	"criteria": {
+		"tipped_arrow": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:tipped_arrow"
+			}
+		}
+	}
+}

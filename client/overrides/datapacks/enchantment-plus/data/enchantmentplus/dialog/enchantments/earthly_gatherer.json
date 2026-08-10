@@ -1,0 +1,114 @@
+{
+    "type": "minecraft:notice",
+    "title": "Earthly Gatherer",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:enchanted_book",
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "enchantmentplus:earthly_gatherer": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Type:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Normal\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Description:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Mining certain natural blocks also breaks connected matching blocks.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Maximum Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 1\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Enchantment Cost Per Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 2",
+                    "color": "white"
+                },
+                {
+                    "text": "   (!)\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cost is halved if applied from an enchanted book"
+                    }
+                },
+                {
+                    "text": "Can be applied to:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Axe, Hoe, Pickaxe, Shovel\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Can be obtained from:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Enchanting Table, Loot Chests, Fishing, Librarian Villager Trades\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Incompatible with:",
+                    "color": "red"
+                },
+                {
+                    "text": " Extended, Lumberjack, Ore Excavation, Soul Enriching\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Details:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Works on ",
+                    "color": "white"
+                },
+                {
+                    "text": "<these>",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "All Coral Blocks\nAll Dead Coral Blocks\nAndesite, Diorite, Granite\nBlackstone\nBone Block\nCalcite\nCinnabar\nClay\nDripstone Block, Pointed Dripstone\nGlowstone\nGravel\nIce, Packed Ice, Blue Ice\nMagma Block\nMelon, Pumpkin\nMoss Block, Pale Moss Block\nMud\nObsidian, Crying Obsidian\nSand, Red Sand\nSoul Sand, Soul Soil\nSulfur\nTuff"
+                    }
+                },
+                {
+                    "text": " blocks. Block drops will be gathered at the broken block for easier item collecting. Damages the tool for each broken block. Durability loss can be negated with other enchantments. Stops working at 1 durability to prevent unintended tool loss. Sneaking temporarily disables the enchantment. All connected matching blocks within 10 blocks circular area centered around the origin block will be broken.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:new_enchantments"
+        }
+    }
+}

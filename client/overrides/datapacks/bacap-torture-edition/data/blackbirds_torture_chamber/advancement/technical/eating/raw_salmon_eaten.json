@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/raw_salmon_eaten"
+	},	
+	"criteria": {
+		"raw_salmon": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				}
+			}
+		}
+	}
+}

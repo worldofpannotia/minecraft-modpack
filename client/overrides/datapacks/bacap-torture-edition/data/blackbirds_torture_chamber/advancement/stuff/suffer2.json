@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "suffer": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:tall_grass"
+        },
+        "title": "Suffer 2.0",
+        "description": {"color":"dark_red","text":"Willingly compost a Stack of Tall Grass"},
+        "frame":"challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stuff/pain_in_the_grass",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/suffer2"
+	}
+}

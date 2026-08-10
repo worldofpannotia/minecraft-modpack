@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/statistics/consume_honey_bottle"
+	},
+	"criteria": {
+		"consume_honey_bottle": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					]
+				}
+			}
+		}
+	}
+}

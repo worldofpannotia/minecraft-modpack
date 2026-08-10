@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/kill_250k_mobs",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

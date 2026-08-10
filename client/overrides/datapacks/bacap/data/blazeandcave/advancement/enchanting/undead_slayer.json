@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:rotten_flesh"
+		},
+		"title": {"translate":"Undead Slayer"},
+		"description": {"color":"#75E1FF","translate":"Obtain Smite V"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/needle_sharp",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/undead_slayer"
+	},			
+	"criteria": {
+		"smite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"smite_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"smite",
+			"smite_book"
+		]
+	]
+}

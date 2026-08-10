@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:open_eyeblossom"
+		},
+		"title": {"translate":"Eyeball Forest"},
+		"description": {"color":"green","translate":"Obtain an Eyeblossom from a Pale Garden"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/enchanted_forest",
+	"rewards": {
+		"function": "bacap_rewards:biomes/eyeball_forest"
+	},		
+	"criteria": {
+		"eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:closed_eyeblossom",
+							"minecraft:open_eyeblossom"
+						]
+					}
+				]
+			}
+		}
+	}
+}

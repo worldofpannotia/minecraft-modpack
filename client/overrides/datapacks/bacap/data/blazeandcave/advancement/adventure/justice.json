@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:leaping"
+				}
+			}
+		},
+		"title": {"translate":"Justice"},
+		"description": {"color":"dark_purple","translate":"Kill a Pillager, Vindicator, Evoker, Ravager and Witch with a single crossbow arrow"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:adventure/superhero_of_the_village",
+	"rewards": {
+		"function": "bacap_rewards:adventure/justice"
+	},	
+	"criteria": {
+		"arbalistic": {
+			"trigger": "minecraft:killed_by_arrow",
+			"conditions": {
+				"victims": [
+					{
+						"entity_type": "minecraft:pillager"
+					},
+					{
+						"entity_type": "minecraft:vindicator"
+					},
+					{
+						"entity_type": "minecraft:evoker"
+					},
+					{
+						"entity_type": "minecraft:ravager"
+					},
+					{
+						"entity_type": "minecraft:witch"
+					}
+				],
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:polished_sulfur"
+		},
+		"title": {"translate":"Punching Bag"},
+		"description": {"color":"green","translate":"Have a Sulfur Cube swallow up a block"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/mitosis",
+	"rewards": {
+		"function": "bacap_rewards:mining/punching_bag"
+	},
+	"criteria": {
+		"sulfur_cube": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sulfur_cube_directly": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sulfur_cube",
+			"sulfur_cube_directly"
+		]
+	]
+}

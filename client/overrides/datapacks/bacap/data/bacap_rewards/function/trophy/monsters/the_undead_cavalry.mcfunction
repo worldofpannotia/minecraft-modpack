@@ -1,0 +1,3 @@
+give @s diamond_helmet[custom_name={"translate":"Constable Clomper's Helmet","color":"#39a1be","bold":true,"italic":false},lore=[{"translate":"He accepted this name because he thought it's cool","color":"#39a1be"},{"translate":"Little does he know, it's because his horse is always clomping around!","color":"#39a1be"},{"text":" "},{"translate":"Awarded for achieving","color":"gray"},{"translate":"The Undead Cavalry","color":"#75E1FF","italic":false}],custom_model_data={floats:[131]},custom_data={Trophy:1b},enchantment_glint_override=true,!attribute_modifiers] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Constable Clomper's Helmet"}]

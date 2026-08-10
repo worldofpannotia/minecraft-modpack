@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/glow_berries_eaten"
+	},	
+	"criteria": {
+		"glow_berries": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				}
+			}
+		}
+	}
+}

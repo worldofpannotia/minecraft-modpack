@@ -1,0 +1,46 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#enchantmentplus:extended/is_stripped"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#minecraft:axes",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "enchantmentplus:extended"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": false
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantmentplus:enchantments/extended/stripping/raycast_prepare"
+    }
+}

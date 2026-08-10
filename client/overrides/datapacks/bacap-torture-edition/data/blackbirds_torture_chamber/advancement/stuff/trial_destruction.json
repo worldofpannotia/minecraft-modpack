@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trial_spawner"
+		},
+		"title": "Trial Destruction",
+		"frame": "challenge",
+		"description": {"color":"dark_red","text":"Yeah and those Trial Spawners will need to go too. 32 will do."}
+	},
+	"parent": "blackbirds_torture_chamber:stuff/revaulting_destruction",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/trial_destruction"
+	},
+	"criteria": {
+        "trial_spawner": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:trial_spawner",
+								"value": {
+									"min": 32
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+	}
+}

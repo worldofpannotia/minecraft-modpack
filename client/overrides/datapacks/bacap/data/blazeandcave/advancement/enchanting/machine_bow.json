@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crossbow"
+		},
+		"title": {"translate":"Machine Bow"},
+		"description": {"color":"#75E1FF","translate":"Fire a crossbow as rapidly as possible"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/librarian",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/machine_bow"
+	},			
+	"criteria": {
+		"shot_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:crossbow"
+					],
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "minecraft:quick_charge",
+								"levels": {
+									"min": 3
+								}
+							}
+						]		
+					}			
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:exposed_copper_golem_statue",
+			"components": {"minecraft:block_state":{"copper_golem_pose":"star"}}
+		},
+		"title": {"translate":"Such a poser"},
+		"announce_to_chat": true,
+		"description": {"color":"green","translate":"Cycle a Copper Golem Statue through all its poses"},
+		"frame": "task"
+	},
+	"parent": "blazeandcave:mining/the_statue_of_liberty",
+	"rewards": {
+		"function": "bacap_rewards:mining/such_a_poser"
+	},		
+	"criteria": {
+		"standing": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:copper_golem_statues",
+								"state": {
+									"copper_golem_pose": "standing"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"sitting": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:copper_golem_statues",
+								"state": {
+									"copper_golem_pose": "sitting"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"running": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:copper_golem_statues",
+								"state": {
+									"copper_golem_pose": "running"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"star": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:copper_golem_statues",
+								"state": {
+									"copper_golem_pose": "star"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}		
+}

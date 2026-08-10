@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "sulfur_cube_bucket": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:sulfur_cube_bucket"
+                },
+                "entity": {
+                    "minecraft:entity_type": "minecraft:zombie"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/communism_empty_sulfur_cube"
+    }
+}

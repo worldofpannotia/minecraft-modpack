@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:notice",
+	"title": {"text":""},
+	"body": [
+		{
+			"type": "minecraft:plain_message",
+			"contents": {"text":" "}
+		},
+		{
+			"type": "minecraft:plain_message",
+			"contents": {"translate":"How many points would you like this advancement tier to award?"}
+		},
+		{
+			"type": "minecraft:item",
+			"item": {
+				"id": "minecraft:player_head",
+				"components": {"minecraft:profile":{"id":[-1915600451,-335789442,-1161758725,291830941],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk5YzBkYjJhMjE2MjU1OGVmYThhYTU2MmM5YWU3YmFiZmU3MWQwODNkYzA5MmEwNTIzM2EzMWQ4YmRiM2JhYSJ9fX0="}]}},
+				"count": 1
+			},
+			"show_decoration": true,
+			"show_tooltip": false
+		}
+	],
+	"inputs": [
+		{
+			"type": "minecraft:text",
+			"label": {"text":""},
+			"label_visible": false,
+			"width": 50,
+			"initial": "500",
+			"max_length": 6,
+			"key": "input"
+		}
+	],
+	"action": {
+		"label": {"translate":"Done"},
+		"action": {
+			"type": "dynamic/run_command",
+			"template": "/function blazeandcave:config/scoreboard_change_points_advancement_legend {points:\"$(input)\"}"
+		}
+	},
+	"columns": 1,
+	"pause": false,
+	"can_close_with_escape": true,
+	"after_action": "close"
+}

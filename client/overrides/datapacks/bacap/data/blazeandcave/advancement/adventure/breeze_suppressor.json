@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:breeze_spawn_egg"
+		},
+		"title": {"translate":"Breeze Suppressor"},
+		"description": {"color":"#75E1FF","translate":"Defeat enough Breezes to collect a stack of Breeze Rods"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/who_needs_rockets",
+	"rewards": {
+		"function": "bacap_rewards:adventure/breeze_suppressor"
+	},		
+	"criteria": {
+		"breeze_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:breeze_rod",
+						"count": 64
+					}
+				]
+			}
+		}		
+	}
+}

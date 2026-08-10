@@ -1,0 +1,62 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_saturation_suspicious_stew_for_communism"
+    },
+    "criteria": {
+        "8ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"saturation",
+								"duration":8
+							}
+						]
+					}
+				}
+			}
+		},
+        "9ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"saturation",
+								"duration":9
+							}
+						]
+					}
+				}
+			}
+		},
+        "10ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"saturation",
+								"duration":10
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+    "requirements": [
+        [
+            "8ticks",
+            "9ticks",
+            "10ticks"
+        ]
+    ]
+}

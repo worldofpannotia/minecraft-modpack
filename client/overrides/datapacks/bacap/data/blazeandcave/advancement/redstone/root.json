@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:redstone"
+		},
+		"title": {"translate":"Redstone"},
+		"description": {"color":"#CCCCCC","translate":"Cracking contraptions"},
+		"background": "block/piston_side",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "bacap_rewards:redstone/root"
+	},
+	"criteria": {
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:redstone"
+						]
+					}
+				]
+			}
+		}
+	}
+}

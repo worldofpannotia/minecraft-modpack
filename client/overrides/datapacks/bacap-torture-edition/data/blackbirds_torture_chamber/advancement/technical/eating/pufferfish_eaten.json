@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/pufferfish_eaten"
+	},	
+	"criteria": {
+		"pufferfish": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				}
+			}
+		}
+	}
+}

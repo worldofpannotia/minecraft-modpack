@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/bread_eaten"
+	},	
+	"criteria": {
+		"bread": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bread"
+					]
+				}
+			}
+		}
+	}
+}

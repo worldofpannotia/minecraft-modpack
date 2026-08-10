@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.heros_landing",
+        "fallback": "\u00A76Hero's Landing"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": -1,
+                "attribute": "minecraft:fall_damage_multiplier",
+                "id": "enchantmentplus:enchantment.heros_landing_fall_damage_multiplier",
+                "operation": "add_multiplied_base"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/heros_landing",
+    "weight": 1
+}

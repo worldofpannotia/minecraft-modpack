@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "chicken",
+		"passenger": {
+			"entity_type": "#blazeandcave:chicken_jockeys"
+		}
+	}
+}

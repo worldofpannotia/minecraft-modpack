@@ -1,0 +1,18 @@
+{
+	"parent": "blazeandcave:challenges/a_million_blocks_away",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"blazeandcave:challenges/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

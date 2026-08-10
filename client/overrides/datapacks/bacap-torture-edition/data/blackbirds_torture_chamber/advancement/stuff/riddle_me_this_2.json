@@ -1,0 +1,52 @@
+{
+    "display": {
+        "title": "Riddle me this 2.0",
+        "description": {
+            "color": "dark_red",
+            "text": "First is to spy from far away, the smallest, so far pretty lame\nSecond is to gas that of forgotten caves in the city at the end of the game\nThird is to cause a furious test subject some furious remains\nFourth is to gather freaks numbered this step to the previous' claims\nFifth is to slay a three-headed menace far, far above limbo\nSixth is to end the world ten times over with full uncured audiences bingo\nSeventh is to slay a grayed invincible zombie\nEighth is to frame one of each perfect trophy\nNinth is to slay a spinoff's much memed character, the name of which must be guessed\nTenth, this step 1000 times, this must be stressed"
+        },
+        "icon": {
+            "id": "paper",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/riddle_me_this",
+    "criteria": {
+        "1": {
+            "trigger": "impossible"
+        },
+        "2": {
+            "trigger": "impossible"
+        },
+        "3": {
+            "trigger": "impossible"
+        },
+        "4": {
+            "trigger": "impossible"
+        },
+        "5": {
+            "trigger": "impossible"
+        },
+        "6": {
+            "trigger": "impossible"
+        },
+        "7": {
+            "trigger": "impossible"
+        },
+        "8": {
+            "trigger": "impossible"
+        },
+        "9": {
+            "trigger": "impossible"
+        },
+        "10": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/riddle_me_this_2"
+	}
+}

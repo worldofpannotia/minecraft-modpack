@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:pale_moss_block",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExNDg4Y2ZlYmMyYTg0ZTRkODUwY2Q4ZGJkNTc0ZDM4MTg3ZDI3MGEwYmVkNzA2N2JkYTc4NTI2MDg3MmQ2MyJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Pale Moss Block",
+      "minecraft:rarity": "common"
+    }
+  }
+}

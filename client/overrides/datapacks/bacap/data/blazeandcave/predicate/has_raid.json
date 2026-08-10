@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "#minecraft:raiders",
+		"minecraft:type_specific/raider": {
+			"has_raid": true
+		}
+	}	
+}

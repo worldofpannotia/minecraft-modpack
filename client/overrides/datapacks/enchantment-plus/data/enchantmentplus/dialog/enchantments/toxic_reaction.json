@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:notice",
+    "title": "Toxic Reaction",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:enchanted_book",
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "enchantmentplus:toxic_reaction": 5
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Type:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Normal\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Description:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Slain poisoned enemies have a chance to transfer poison to a nearby non-poisoned target.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Maximum Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 5\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Enchantment Cost Per Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 4",
+                    "color": "white"
+                },
+                {
+                    "text": "   (!)\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cost is halved if applied from an enchanted book"
+                    }
+                },
+                {
+                    "text": "Can be applied to:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Axe, Mace, Spear, Sword, Trident\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Can be obtained from:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Loot Chests, Fishing, Librarian Villager Trades\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Incompatible with:",
+                    "color": "red"
+                },
+                {
+                    "text": " Blinding Strike, Necrotic Ward, Shattering, Soul Rend, Swirling\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Details:",
+                    "color": "gray"
+                },
+                {
+                    "text": " The chance of transferring is +15% per level with a range of 8 blocks. Transfers Poison for 4 seconds at level 2 to non-poisoned entities. Slain players only transfer to other players. Slain hostile mobs only transfer to other hostile mobs. Slain neutral mobs only transfer to other neutral mobs that are angry towards the user. Slain passive mobs only transfer to other passive mobs that are not owned by the user. Synergizes greatly with Venomous enchantment.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:new_enchantments"
+        }
+    }
+}

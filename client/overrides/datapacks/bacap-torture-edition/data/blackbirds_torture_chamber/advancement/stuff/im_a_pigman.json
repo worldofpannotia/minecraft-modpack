@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": "I'm a Pigman",
+        "description": {
+            "color": "dark_red",
+            "text": "My Name's Dan and I've been stuck here for a Full In-Game Year"
+        },
+        "icon": {
+            "id": "player_head",
+            "components": {
+                "profile": {
+                    "id": [
+                        413317968,
+                        860504196,
+                        -1853608904,
+                        38904395
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTM0NTg2NTAxOCwKICAicHJvZmlsZUlkIiA6ICIxOGEyYmI1MDMzNGE0MDg0OTE4NDJjMzgwMjUxYTI0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfUGlnWm9tYmllIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkxNmQxNjdjNTc0NGVkMTRlYmMwMmY0NDdmMzI2MTQwNTkzNjJiN2QyZWNiODA4ZmYwNjE2NWQyYzM0M2JlZjIiCiAgICB9CiAgfQp9"
+                        }
+                    ]
+                }
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "im_a_pigman": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:nether/let_me_out",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/im_a_pigman"
+    }
+}

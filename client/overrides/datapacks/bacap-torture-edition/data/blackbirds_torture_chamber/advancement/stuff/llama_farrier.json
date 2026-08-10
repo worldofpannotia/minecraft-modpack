@@ -1,0 +1,90 @@
+{
+    "criteria": {
+        "creamy_trader": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "nbt": "{Variant:0,Strength:5}"
+                }
+            }
+        },
+        "white_trader": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "nbt": "{Variant:1,Strength:5}"
+                }
+            }
+        },
+        "brown_trader": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "nbt": "{Variant:2,Strength:5}"
+                }
+            }
+        },
+        "gray_trader": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "nbt": "{Variant:3,Strength:5}"
+                }
+            }
+        },"creamy_llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "nbt": "{Variant:0,Strength:5}"
+                }
+            }
+        },
+        "white_llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "nbt": "{Variant:1,Strength:5}"
+                }
+            }
+        },
+        "brown_llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "nbt": "{Variant:2,Strength:5}"
+                }
+            }
+        },
+        "gray_llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "nbt": "{Variant:3,Strength:5}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": "Llama Farrier",
+        "description": {"color":"dark_red","text":"Tame all Llama Variants with Strength 5"},
+        "icon": {
+            "id": "llama_spawn_egg",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:animal/heavy_duty_caravan",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/llama_farrier"
+	}
+}

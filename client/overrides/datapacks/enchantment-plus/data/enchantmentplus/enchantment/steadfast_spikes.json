@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantmentplus.steadfast_spikes",
+        "fallback": "Steadfast Spikes"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.15,
+                    "per_level_above_first": 0.15
+                },
+                "attribute": "minecraft:knockback_resistance",
+                "id": "enchantmentplus:enchantment.steadfast_spikes",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 12
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/steadfast_spikes",
+    "weight": 2
+}

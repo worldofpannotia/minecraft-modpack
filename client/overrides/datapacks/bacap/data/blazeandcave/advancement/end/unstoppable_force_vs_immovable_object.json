@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wind_charge"
+		},
+		"title": {"translate":"Unstoppable Force vs Immovable Object"},
+		"description": {"color":"green","translate":"Hit a Shulker with a thrown Wind Charge"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+	"rewards": {
+		"function": "bacap_rewards:end/unstoppable_force_vs_immovable_object"
+	},		
+	"criteria": {
+		"from_under_your_feet": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:shulker"
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:wind_charge"
+						}
+					}
+				}
+			}
+		}
+	}
+}

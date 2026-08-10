@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:mangrove_planks",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYzYWVjM2IyMDczODI2YjI5MjdhZTY0NmIzNDVmMTk3ZTdlMmYxNjFmMWE3Mzg3NjhjMGRmNGZhZTA2YjBjYSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Mangrove Planks",
+      "minecraft:rarity": "common"
+    }
+  }
+}

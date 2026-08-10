@@ -1,0 +1,233 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:pale_oak_sapling"
+		},
+		"title": {"translate":"Pale Gardener"},
+		"description": {"color":"#75E1FF","translate":"Craft every item made out of pale oak wood"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:building/professor_dark_oak",
+	"rewards": {
+		"function": "bacap_rewards:building/pale_gardener"
+	},		
+	"criteria": {
+		"pale_oak_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_planks"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_log"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_wood"
+						]
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_pale_oak_log"
+						]
+					}
+				]
+			}
+		},
+		"stripped_pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stripped_pale_oak_wood"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_slab"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_pressure_plate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_pressure_plate"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_fence": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_fence"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_trapdoor"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_fence_gate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_fence_gate"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_stairs"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_button": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_button"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_door"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_boat"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_chest_boat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_chest_boat"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_sign"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_hanging_sign": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_hanging_sign"
+						]
+					}
+				]
+			}
+		},
+		"pale_oak_shelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pale_oak_shelf"
+						]
+					}
+				]
+			}
+		}
+	}
+}

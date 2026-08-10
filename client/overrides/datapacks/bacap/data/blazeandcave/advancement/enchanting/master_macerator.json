@@ -1,0 +1,212 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Master Macerator"},
+		"description": {"color":"dark_purple","translate":"Create a mace with all possible enchantments at max level"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/master_tridenteer",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/master_macerator"
+	},		
+	"criteria": {
+		"perfect_mace_smite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mace"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:wind_burst",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_mace_bane_of_arthropods": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mace"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:wind_burst",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_mace_density": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mace"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:density",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:wind_burst",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_mace_breach": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mace"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:breach",
+									"levels": {
+										"min": 4
+									}
+								},
+								{
+									"enchantments": "minecraft:wind_burst",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_mace_smite",
+			"perfect_mace_bane_of_arthropods",
+			"perfect_mace_density",
+			"perfect_mace_breach"
+		]
+	]
+}

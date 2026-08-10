@@ -1,0 +1,93 @@
+{
+    "type": "minecraft:dialog_list",
+    "title": "New Enchantments",
+    "columns": 5,
+    "button_width": 120,
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "This data pack adds 66 new enchantments into the game;",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "dialogs": [
+        "enchantmentplus:enchantments/air_burst",
+        "enchantmentplus:enchantments/amplified_shot",
+        "enchantmentplus:enchantments/beheading",
+        "enchantmentplus:enchantments/blessing_of_kings",
+        "enchantmentplus:enchantments/blinding_strike",
+        "enchantmentplus:enchantments/block_reach",
+        "enchantmentplus:enchantments/bouncing",
+        "enchantmentplus:enchantments/cleansing",
+        "enchantmentplus:enchantments/combustion",
+        "enchantmentplus:enchantments/compressing",
+        "enchantmentplus:enchantments/curse_of_aww_man",
+        "enchantmentplus:enchantments/curse_of_breaking",
+        "enchantmentplus:enchantments/curse_of_clumsiness",
+        "enchantmentplus:enchantments/curse_of_insatiable_hunger",
+        "enchantmentplus:enchantments/dashing",
+        "enchantmentplus:enchantments/decaying",
+        "enchantmentplus:enchantments/deflect",
+        "enchantmentplus:enchantments/devouring",
+        "enchantmentplus:enchantments/diverse_slayer",
+        "enchantmentplus:enchantments/divine_hunter",
+        "enchantmentplus:enchantments/earthly_gatherer",
+        "enchantmentplus:enchantments/enlarged",
+        "enchantmentplus:enchantments/enraged",
+        "enchantmentplus:enchantments/entity_reach",
+        "enchantmentplus:enchantments/eternity",
+        "enchantmentplus:enchantments/experience_boost",
+        "enchantmentplus:enchantments/exploding_impact",
+        "enchantmentplus:enchantments/extended",
+        "enchantmentplus:enchantments/eyes_of_owl",
+        "enchantmentplus:enchantments/feeding_module",
+        "enchantmentplus:enchantments/flight_extender",
+        "enchantmentplus:enchantments/health_boost",
+        "enchantmentplus:enchantments/heros_landing",
+        "enchantmentplus:enchantments/high_step",
+        "enchantmentplus:enchantments/icy",
+        "enchantmentplus:enchantments/indestructible",
+        "enchantmentplus:enchantments/isolated",
+        "enchantmentplus:enchantments/lava_walker",
+        "enchantmentplus:enchantments/leaping",
+        "enchantmentplus:enchantments/lightweight",
+        "enchantmentplus:enchantments/lumberjack",
+        "enchantmentplus:enchantments/necrotic_ward",
+        "enchantmentplus:enchantments/ore_excavation",
+        "enchantmentplus:enchantments/pounce",
+        "enchantmentplus:enchantments/prosperous",
+        "enchantmentplus:enchantments/radiance_gust",
+        "enchantmentplus:enchantments/retribution",
+        "enchantmentplus:enchantments/shattering",
+        "enchantmentplus:enchantments/shield_slam",
+        "enchantmentplus:enchantments/shock_dampener",
+        "enchantmentplus:enchantments/shrinked",
+        "enchantmentplus:enchantments/soaring",
+        "enchantmentplus:enchantments/soul_enriching",
+        "enchantmentplus:enchantments/soul_exchange",
+        "enchantmentplus:enchantments/soul_rend",
+        "enchantmentplus:enchantments/soul_reserve",
+        "enchantmentplus:enchantments/steadfast_spikes",
+        "enchantmentplus:enchantments/swirling",
+        "enchantmentplus:enchantments/thermal_plating",
+        "enchantmentplus:enchantments/torment",
+        "enchantmentplus:enchantments/toxic_reaction",
+        "enchantmentplus:enchantments/traveler",
+        "enchantmentplus:enchantments/vampiric_bite",
+        "enchantmentplus:enchantments/venomous",
+        "enchantmentplus:enchantments/voidfused",
+        "enchantmentplus:enchantments/weakening"
+    ],
+    "exit_action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:main"
+        }
+    }
+}

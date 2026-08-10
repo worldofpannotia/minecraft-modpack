@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wooden_pickaxe"
+		},
+		"title": {"translate":"Time to Mine!"},
+		"description": {"color":"green","translate":"Use planks and sticks to make a pickaxe"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:story/root",
+	"rewards": {
+		"function": "bacap_rewards:bacap/time_to_mine"
+	},		
+	"criteria": {
+		"pickaxes": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:pickaxes"
+					}
+				]
+			}
+		}
+	}
+}

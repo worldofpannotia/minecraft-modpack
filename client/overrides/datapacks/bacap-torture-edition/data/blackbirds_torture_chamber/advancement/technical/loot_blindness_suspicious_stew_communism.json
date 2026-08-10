@@ -1,0 +1,45 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_blindness_suspicious_stew_for_communism"
+    },
+    "criteria": {
+		"100ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"blindness",
+								"duration":100
+							}
+						]
+					}
+				}
+			}
+		},
+        "140ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"blindness",
+								"duration":140
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+    "requirements": [
+        [
+            "100ticks",
+            "140ticks"
+        ]
+    ]
+}

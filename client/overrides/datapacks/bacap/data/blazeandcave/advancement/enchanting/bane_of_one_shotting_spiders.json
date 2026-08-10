@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spider_eye"
+		},
+		"title": {"translate":"Bane of one-shotting spiders"},
+		"description": {"color":"#75E1FF","translate":"Obtain Bane of Arthropods V"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/undead_slayer",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/bane_of_one_shotting_spiders"
+	},			
+	"criteria": {
+		"bane_of_arthropods": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"bane_of_arthropods_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"bane_of_arthropods",
+			"bane_of_arthropods_book"
+		]
+	]
+}

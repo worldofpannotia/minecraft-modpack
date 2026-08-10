@@ -1,0 +1,143 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:copper_horse_armor"
+		},
+		"title": {"translate":"Whole Horse"},
+		"description": {"color":"#75E1FF","translate":"Ride Horses with every kind of Horse Armor"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/colorful_cavalry",
+	"rewards": {
+		"function": "bacap_rewards:animal/whole_horse"
+	},		
+	"criteria": {
+		"leather_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:leather_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"copper_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:copper_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"iron_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:iron_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"golden_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:golden_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"diamond_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:diamond_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"netherite_horse_armor": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#minecraft:can_wear_horse_armor",
+								"equipment": {
+									"body": {
+										"items": "minecraft:netherite_horse_armor"
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

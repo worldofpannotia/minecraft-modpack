@@ -1,0 +1,103 @@
+{
+    "display": {
+        "title": "Even the Children too",
+        "description": {
+            "color": "dark_red",
+            "text": "Slay every Type of Baby Villager"
+        },
+        "icon": {
+            "id": "wooden_sword"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "jungle": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "swamp": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "plains": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:plains\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "desert": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:desert\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "taiga": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "snow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:snow\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "savanna": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blazeandcave:adventure/murderer",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/even_the_children_too"
+    }
+}

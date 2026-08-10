@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:red_nether_bricks"
+		},
+		"title": {"translate":"Nether"},
+		"description": {"color":"#CCCCCC","translate":"Bring summer clothes"},
+		"background": "block/netherrack",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "bacap_rewards:nether/root"
+	},	
+	"criteria": {
+		"nether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "the_nether",
+				"from": "overworld"
+			}
+		}
+	}
+}

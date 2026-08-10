@@ -1,0 +1,668 @@
+{
+    "display": {
+        "title": "Jockeys up",
+        "description": {"color":"dark_red","text":"Kill all Mobs Jockeys Combinations Possible, not including Mob Variants"},
+        "icon": {
+            "id": "piglin_head"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:monsters/poultry_boy",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/jockeys_up"
+	},
+    "criteria": {
+        "chicken_under_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"zombie"
+                    }
+                }
+            }
+        },
+        "zombie_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"husk"
+                    }
+                }
+            }
+        },
+        "husk_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "husk",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"drowned"
+                    }
+                }
+            }
+        },
+        "drowned_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "drowned",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_zillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"zombie_villager"
+                    }
+                }
+            }
+        },
+        "zillager_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie_villager",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"villager"
+                    }
+                }
+            }
+        },
+        "villager_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "villager",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_witch": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"witch"
+                    }
+                }
+            }
+        },
+        "witch_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "witch",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "chicken_under_ziglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "chicken",
+                    "passenger":{
+                        "entity_type":"zombified_piglin"
+                    }
+                }
+            }
+        },
+        "ziglin_on_chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombified_piglin",
+                    "vehicle": {
+                        "entity_type": "chicken"
+                    }
+                }
+            }
+        },
+        "strider_under_ziglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "strider",
+                    "passenger":{
+                        "entity_type":"zombified_piglin"
+                    }
+                }
+            }
+        },
+        "ziglin_on_strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombified_piglin",
+                    "vehicle": {
+                        "entity_type": "strider"
+                    }
+                }
+            }
+        },
+        "strider_under_strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "strider",
+                    "passenger":{
+                        "entity_type":"strider"
+                    }
+                }
+            }
+        },
+        "strider_on_strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "strider",
+                    "vehicle": {
+                        "entity_type": "strider"
+                    }
+                }
+            }
+        },
+        "hoglin_under_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "hoglin",
+                    "passenger":{
+                        "entity_type":"piglin"
+                    }
+                }
+            }
+        },
+        "piglin_on_hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "piglin",
+                    "vehicle": {
+                        "entity_type": "hoglin"
+                    }
+                }
+            }
+        },
+        "piglin_under_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "piglin",
+                    "passenger":{
+                        "entity_type":"piglin"
+                    }
+                }
+            }
+        },
+        "piglin_on_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "piglin",
+                    "vehicle": {
+                        "entity_type": "piglin"
+                    }
+                }
+            }
+        },
+        "spider_under_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "spider",
+                    "passenger":{
+                        "entity_type":"skeleton"
+                    }
+                }
+            }
+        },
+        "skeleton_on_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "skeleton",
+                    "vehicle": {
+                        "entity_type": "spider"
+                    }
+                }
+            }
+        },
+        "spider_under_stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "spider",
+                    "passenger":{
+                        "entity_type":"stray"
+                    }
+                }
+            }
+        },
+        "stray_on_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "stray",
+                    "vehicle": {
+                        "entity_type": "spider"
+                    }
+                }
+            }
+        },
+        "skeleton_horse_under_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "skeleton_horse",
+                    "passenger":{
+                        "entity_type":"skeleton"
+                    }
+                }
+            }
+        },
+        "skeleton_on_skeleton_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "skeleton",
+                    "vehicle": {
+                        "entity_type": "skeleton_horse"
+                    }
+                }
+            }
+        },
+        "skeleton_horse_under_stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "skeleton_horse",
+                    "passenger":{
+                        "entity_type":"stray"
+                    }
+                }
+            }
+        },
+        "stray_on_skeleton_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "stray",
+                    "vehicle": {
+                        "entity_type": "skeleton_horse"
+                    }
+                }
+            }
+        },
+        "ravager_under_evoker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "ravager",
+                    "passenger":{
+                        "entity_type":"evoker"
+                    }
+                }
+            }
+        },
+        "evoker_on_ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "evoker",
+                    "vehicle": {
+                        "entity_type": "ravager"
+                    }
+                }
+            }
+        },
+        "ravager_under_pillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "ravager",
+                    "passenger":{
+                        "entity_type":"pillager"
+                    }
+                }
+            }
+        },
+        "pillager_on_ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "pillager",
+                    "vehicle": {
+                        "entity_type": "ravager"
+                    }
+                }
+            }
+        },
+        "ravager_under_vindicator": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "ravager",
+                    "passenger":{
+                        "entity_type":"vindicator"
+                    }
+                }
+            }
+        },
+        "vindicator_on_ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "vindicator",
+                    "vehicle": {
+                        "entity_type": "ravager"
+                    }
+                }
+            }
+        },
+        "zombie_nautilus_under_drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie_nautilus",
+                    "passenger":{
+                        "entity_type":"drowned"
+                    }
+                }
+            }
+        },
+        "drowned_on_zombie_nautilus": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "drowned",
+                    "vehicle": {
+                        "entity_type": "zombie_nautilus"
+                    }
+                }
+            }
+        },
+        "zombie_horse_under_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie_horse",
+                    "passenger":{
+                        "entity_type":"zombie"
+                    }
+                }
+            }
+        },
+        "zombie_on_zombie_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie",
+                    "vehicle": {
+                        "entity_type": "zombie_horse"
+                    }
+                }
+            }
+        },
+        "zombie_horse_under_drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie_horse",
+                    "passenger":{
+                        "entity_type":"drowned"
+                    }
+                }
+            }
+        },
+        "drowned_on_zombie_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "drowned",
+                    "vehicle": {
+                        "entity_type": "zombie_horse"
+                    }
+                }
+            }
+        },
+        "camel_husk_under_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "camel_husk",
+                    "passenger":{
+                        "entity_type":"husk"
+                    }
+                }
+            }
+        },
+        "husk_on_camel_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "husk",
+                    "vehicle": {
+                        "entity_type": "camel_husk"
+                    }
+                }
+            }
+        },
+        "camel_husk_under_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "camel_husk",
+                    "passenger":{
+                        "entity_type":"zombie"
+                    }
+                }
+            }
+        },
+        "zombie_on_camel_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "zombie",
+                    "vehicle": {
+                        "entity_type": "camel_husk"
+                    }
+                }
+            }
+        },
+        "camel_husk_under_drowned": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "camel_husk",
+                    "passenger":{
+                        "entity_type":"drowned"
+                    }
+                }
+            }
+        },
+        "drowned_on_camel_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "drowned",
+                    "vehicle": {
+                        "entity_type": "camel_husk"
+                    }
+                }
+            }
+        },
+        "camel_husk_under_parched": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "camel_husk",
+                    "passenger":{
+                        "entity_type":"parched"
+                    }
+                }
+            }
+        },
+        "parched_on_camel_husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "parched",
+                    "vehicle": {
+                        "entity_type": "camel_husk"
+                    }
+                }
+            }
+        }
+    },
+    "requirements":[
+        [
+            "chicken_under_zombie",
+            "zombie_on_chicken"
+        ],
+        [
+            "chicken_under_husk",
+            "husk_on_chicken"
+        ],
+        [
+            "chicken_under_drowned",
+            "drowned_on_chicken"
+        ],
+        [
+            "chicken_under_zillager",
+            "zillager_on_chicken"
+        ],
+        [
+            "chicken_under_villager",
+            "villager_on_chicken"
+        ],
+        [
+            "chicken_under_witch",
+            "witch_on_chicken"
+        ],
+        [
+            "chicken_under_ziglin",
+            "ziglin_on_chicken"
+        ],
+        [
+            "strider_under_ziglin",
+            "ziglin_on_strider"
+        ],
+        [
+            "strider_under_strider",
+            "strider_on_strider"
+        ],
+        [
+            "hoglin_under_piglin",
+            "piglin_on_hoglin"
+        ],
+        [
+            "piglin_under_piglin",
+            "piglin_on_piglin"
+        ],
+        [
+            "spider_under_skeleton",
+            "skeleton_on_spider"
+        ],
+        [
+            "spider_under_stray",
+            "stray_on_spider"
+        ],
+        [
+            "skeleton_horse_under_skeleton",
+            "skeleton_on_skeleton_horse"
+        ],
+        [
+            "skeleton_horse_under_stray",
+            "stray_on_skeleton_horse"
+        ],
+        [
+            "ravager_under_evoker",
+            "evoker_on_ravager"
+        ],
+        [
+            "ravager_under_pillager",
+            "pillager_on_ravager"
+        ],
+        [
+            "ravager_under_vindicator",
+            "vindicator_on_ravager"
+        ],
+        [
+            "zombie_nautilus_under_drowned",
+            "drowned_on_zombie_nautilus"
+        ],
+        [
+            "zombie_horse_under_zombie",
+            "zombie_on_zombie_horse"
+        ],
+        [
+            "zombie_horse_under_drowned",
+            "drowned_on_zombie_horse"
+        ],
+        [
+            "camel_husk_under_husk",
+            "husk_on_camel_husk"
+        ],
+        [
+            "camel_husk_under_zombie",
+            "zombie_on_camel_husk"
+        ],
+        [
+            "camel_husk_under_drowned",
+            "drowned_on_camel_husk"
+        ],
+        [
+            "camel_husk_under_parched",
+            "parched_on_camel_husk"
+        ]
+    ]
+}

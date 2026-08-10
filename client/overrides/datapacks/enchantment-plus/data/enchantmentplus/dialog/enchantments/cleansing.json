@@ -1,0 +1,114 @@
+{
+    "type": "minecraft:notice",
+    "title": "Cleansing",
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:enchanted_book",
+                "components": {
+                    "minecraft:stored_enchantments": {
+                        "enchantmentplus:cleansing": 10
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Type:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Normal\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Description:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Grants a chance on hit to clear all negative effects from the user.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Maximum Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 10\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Enchantment Cost Per Level:",
+                    "color": "gray"
+                },
+                {
+                    "text": " 1",
+                    "color": "white"
+                },
+                {
+                    "text": "   (!)\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cost is halved if applied from an enchanted book"
+                    }
+                },
+                {
+                    "text": "Can be applied to:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Axe, Mace, Spear, Sword, Trident\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Can be obtained from:",
+                    "color": "gray"
+                },
+                {
+                    "text": " Enchanting Table, Loot Chests, Fishing, Librarian Villager Trades\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Incompatible with:",
+                    "color": "red"
+                },
+                {
+                    "text": " Devouring, Icy, Vampiric Bite, Weakening\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Details:",
+                    "color": "gray"
+                },
+                {
+                    "text": " The chance of clearing effects is +4% per level. Will clear ",
+                    "color": "white"
+                },
+                {
+                    "text": "<these>",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Bad Luck\nBlindness\nDarkness\nHunger\nInfested\nLevitation\nMining Fatigue\nNausea\nOozing\nPoison\nSlowness\nWeakness\nWeaving\nWind Charged\nWither"
+                    }
+                },
+                {
+                    "text": " effects from the user.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:new_enchantments"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wooden_sword"
+		},
+		"title": {"translate":"Time to Strike!"},
+		"description": {"color":"green","translate":"Use planks and sticks to make a sword"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:bacap/time_to_mine",
+	"rewards": {
+		"function": "bacap_rewards:bacap/time_to_strike"
+	},		
+	"criteria": {
+		"swords": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:swords"
+					}
+				]
+			}
+		}
+	}
+}

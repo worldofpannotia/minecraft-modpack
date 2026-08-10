@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": {"translate":"Look Out!"},
+		"description": {"color":"green","translate":"Zoom in on a Creeper with a Spyglass from less than a block away"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/controlled_detonation",
+	"rewards": {
+		"function": "bacap_rewards:monsters/look_out"
+	},		
+	"criteria": {
+		"look_out": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"looking_at": {
+									"entity_type": "minecraft:creeper",
+									"distance": {
+										"absolute": {
+											"max": 1
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

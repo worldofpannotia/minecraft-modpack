@@ -1,0 +1,47 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.experience_boost",
+        "fallback": "Experience Boost"
+    },
+    "effects": {
+        "minecraft:block_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": {
+                        "type": "minecraft:linear",
+                        "base": 2.0,
+                        "per_level_above_first": 1.0
+                    }
+                }
+            }
+        ],
+        "minecraft:mob_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": {
+                        "type": "minecraft:linear",
+                        "base": 2.0,
+                        "per_level_above_first": 1.0
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 51,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/experience_boost",
+    "weight": 4
+}

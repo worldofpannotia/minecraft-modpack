@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": {"translate":"Nice to Mace You!"},
+		"description": {"color":"#75E1FF","translate":"Craft a Mace using a Breeze Rod and a Heavy Core, then do a smash attack by hitting a mob after falling"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/root",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/nice_to_mace_you"
+	},
+	"criteria": {
+		"mace": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:mace_smash",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

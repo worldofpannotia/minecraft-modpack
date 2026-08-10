@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "pufferfish"
+        },
+        "title": "Go watch a Movie",
+        "description": {"color":"dark_red","text":"Fish 5000 Items"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/fish_2500",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/fish_5000"
+	}
+}

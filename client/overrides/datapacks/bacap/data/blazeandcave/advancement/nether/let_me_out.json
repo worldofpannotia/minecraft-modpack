@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_bed"
+		},
+		"title": {"translate":"Let Me Out!"},
+		"description": {"color":"dark_purple","translate":"Stay in the Nether for twenty ingame days","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_timers"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:nether/fast_travel",
+	"rewards": {
+		"function": "bacap_rewards:nether/let_me_out"
+	},
+	"criteria": {
+		"let_me_out": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

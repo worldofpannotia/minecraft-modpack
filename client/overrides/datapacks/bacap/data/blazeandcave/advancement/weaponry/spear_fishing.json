@@ -1,0 +1,68 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:salmon"
+		},
+		"title": {"translate":"Spear Fishing"},
+		"description": {"color":"green","translate":"Skewer a fish with a Spear"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/time_to_hunt",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/spear_fishing"
+	},		
+	"criteria": {
+		"spear_fishing_mainhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:fish"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_player_attack",
+							"expected": true
+						}
+					]
+				},			
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears"
+						}
+					}
+				}
+			}
+		},
+		"spear_fishing_offhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:fish"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"spear_fishing_mainhand",
+			"spear_fishing_offhand"
+		]
+	]
+}

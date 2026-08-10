@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": "Is it a Skeleton Horse yet?",
+        "description": {"color":"dark_red","text":"Ride 100km on a Horse"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/scourge_of_the_west",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:horse_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/horse_100"
+	}
+}

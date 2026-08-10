@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:deepslate_copper_ore",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ2MWViZmYzZWZiMTk1NzIxYzRjNjQzZjEzNDFkMjg1NzMwMmYwZWYzY2U1MzdkZTA3MjI3ZWU5MzQ3NzYwNyJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Deepslate Copper Ore",
+      "minecraft:rarity": "common"
+    }
+  }
+}

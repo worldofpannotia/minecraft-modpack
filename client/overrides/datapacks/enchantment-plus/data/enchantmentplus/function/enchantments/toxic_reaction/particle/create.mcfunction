@@ -1,0 +1,12 @@
+# Particles
+$particle minecraft:trail{color:19744,duration:2,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:23040,duration:3,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:33300,duration:4,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:36864,duration:5,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:48906,duration:6,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:47360,duration:7,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:46600,duration:8,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:46095,duration:9,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:52241,duration:10,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:61736,duration:11,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)
+$particle minecraft:trail{color:65280,duration:12,target:[$(TargetPosX),$(TargetPosY),$(TargetPosZ)]} $(OriginPosX) $(OriginPosY) $(OriginPosZ)

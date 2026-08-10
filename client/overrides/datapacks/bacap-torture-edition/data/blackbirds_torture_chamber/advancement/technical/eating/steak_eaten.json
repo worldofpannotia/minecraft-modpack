@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/steak_eaten"
+	},	
+	"criteria": {
+		"steak": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_beef"
+					]
+				}
+			}
+		}
+	}
+}

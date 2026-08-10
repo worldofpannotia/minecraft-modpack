@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/sail_500",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

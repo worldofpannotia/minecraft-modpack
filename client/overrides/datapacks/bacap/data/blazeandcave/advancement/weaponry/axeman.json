@@ -1,0 +1,185 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_axe"
+		},
+		"title": {"translate":"Axeman"},
+		"description": {"color":"#75E1FF","translate":"Attack mobs using every kind of axe"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/viking",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/axeman"
+	},		
+	"criteria": {
+		"wooden_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:wooden_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"stone_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:stone_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"copper_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:copper_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"iron_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:iron_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"golden_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:golden_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"diamond_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:diamond_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"netherite_axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:netherite_axe"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,15 @@
+# Scoreboards
+scoreboard objectives add eplus.air_burst_delay dummy
+scoreboard objectives add eplus.air_burst_jumps dummy
+scoreboard objectives add eplus.dashing_delay dummy
+scoreboard objectives add eplus.deflect_delay dummy
+scoreboard objectives add eplus.deflect_damage_resisted minecraft.custom:damage_resisted
+scoreboard objectives add eplus.enchant_item minecraft.custom:minecraft.enchant_item
+scoreboard objectives add eplus.flight_extender_used minecraft.used:minecraft.firework_rocket
+scoreboard objectives add eplus.food food
+scoreboard objectives add eplus.health health
+scoreboard objectives add eplus.max_soul_stacks dummy
+scoreboard objectives add eplus.soul_stacks dummy
+scoreboard objectives add eplus.swirling_damage dummy
+scoreboard objectives add eplus.temp dummy
+scoreboard objectives add eplus.temp2 dummy

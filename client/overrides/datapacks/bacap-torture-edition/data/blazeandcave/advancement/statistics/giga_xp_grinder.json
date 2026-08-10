@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanting_table"
+        },
+        "title": "Over-Overleveled",
+        "description": {"color":"dark_red","text":"Reach 1000 Experience Levels"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/xp_grinder",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "level": {
+                            "min": 1000
+                        }
+                    }
+                }
+            }
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/1000_levels"
+	}
+}

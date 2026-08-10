@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/suspicious_stew_eaten"
+	},	
+	"criteria": {
+		"suspicious_stew": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:suspicious_stew"
+					]
+				}
+			}
+		}
+	}
+}

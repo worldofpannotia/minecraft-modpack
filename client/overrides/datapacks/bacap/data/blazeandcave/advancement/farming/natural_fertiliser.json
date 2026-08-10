@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:podzol"
+		},
+		"title": {"translate":"Natural Fertiliser"},
+		"description": {"color":"green","translate":"Fill up a composter"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:farming/the_garbage_will_do",
+	"rewards": {
+		"function": "bacap_rewards:farming/natural_fertiliser"
+	},
+	"criteria": {
+		"fill_composter": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:composter"
+								],
+								"state": {
+									"level": "7"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

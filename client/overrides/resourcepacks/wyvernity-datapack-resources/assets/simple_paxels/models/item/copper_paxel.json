@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "simple_paxels:item/copper_paxel"
+    }
+}

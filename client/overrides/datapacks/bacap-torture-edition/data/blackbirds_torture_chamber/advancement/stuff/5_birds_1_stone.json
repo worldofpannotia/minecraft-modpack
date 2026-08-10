@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crossbow",
+            "components": {
+              	"minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "5 Birds 1 Stone",
+        "description": {
+			"color":"dark_red",
+			"text":"Kill 5 Vexes with 1 Crossbow Shot"
+		},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/ghostbuster",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/5_birds_1_stone"
+	},
+	"criteria": {
+		"5_birds_1_stone": {
+			"trigger": "minecraft:killed_by_arrow",
+			"conditions": {
+			    "fired_from_weapon": {
+                    "items": "minecraft:crossbow"
+                },
+				"victims": [
+					{
+						"entity_type": "minecraft:vex"
+					},
+					{
+						"entity_type": "minecraft:vex"
+					},
+					{
+					    "entity_type": "minecraft:vex"
+					},
+					{
+					    "entity_type" :"minecraft:vex"
+					},
+					{
+					    "entity_type": "minecraft:vex"
+ 					}
+				]
+			}
+		}
+	}
+}

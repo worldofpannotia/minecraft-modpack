@@ -1,0 +1,772 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_weakness_suspicious_stew_for_a_complete_collection"
+    },
+    "criteria": {
+        "141ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":141
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "142ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":142
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "143ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":143
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "144ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":144
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "145ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":145
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "146ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":146
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "147ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":147
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "148ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":148
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "149ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":149
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "150ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":150
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "151ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":151
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "152ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":152
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "153ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":153
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "154ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":154
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "155ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":155
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "156ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":156
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "157ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":157
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "158ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":158
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "159ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":159
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "120ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":120
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "121ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":121
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "122ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":122
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "123ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":123
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "124ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":124
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "125ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":125
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "126ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":126
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "127ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":127
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "128ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":128
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "129ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":129
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "130ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":130
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "131ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":131
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "132ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":132
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "133ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":133
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "134ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":134
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "135ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":135
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "136ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":136
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "137ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":137
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "138ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":138
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "139ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":139
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "160ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"weakness",
+									"duration":160
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+            "141ticks",
+            "142ticks",
+            "143ticks",
+            "144ticks",
+            "145ticks",
+            "146ticks",
+            "147ticks",
+            "148ticks",
+            "149ticks",
+            "150ticks",
+            "151ticks",
+            "152ticks",
+            "153ticks",
+            "154ticks",
+            "155ticks",
+            "156ticks",
+            "157ticks",
+            "158ticks",
+            "159ticks",
+            "120ticks",
+            "121ticks",
+            "122ticks",
+            "123ticks",
+            "124ticks",
+            "125ticks",
+            "126ticks",
+            "127ticks",
+            "128ticks",
+            "129ticks",
+            "130ticks",
+            "131ticks",
+            "132ticks",
+            "133ticks",
+            "134ticks",
+            "135ticks",
+            "136ticks",
+            "137ticks",
+            "138ticks",
+            "139ticks",
+            "160ticks"
+            
+        ]
+    ]
+}

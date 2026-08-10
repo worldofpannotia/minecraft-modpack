@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "enchanted_golden_apple"
+        },
+        "title": "GMHorse",
+        "description": {"color":"dark_red","text":"Tame a Perfect Horse"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:animal/foal_play",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/gmhorse"
+	}
+}

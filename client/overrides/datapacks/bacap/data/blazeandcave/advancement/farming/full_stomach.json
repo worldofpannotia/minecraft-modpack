@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:beef"
+		},
+		"title": {"translate":"Full Stomach"},
+		"description": {"color":"green","translate":"Fill both your hunger bar and saturation level"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:farming/root",
+	"rewards": {
+		"function": "bacap_rewards:farming/full_stomach"
+	},		
+	"criteria": {
+		"ten_withers": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

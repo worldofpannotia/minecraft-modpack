@@ -1,0 +1,1 @@
+advancement grant @s only blackbirds_torture_chamber:stuff/you_monster panda_normal

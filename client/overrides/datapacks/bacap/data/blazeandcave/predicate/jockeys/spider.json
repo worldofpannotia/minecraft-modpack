@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "spider",
+		"passenger": {
+			"entity_type": "#blazeandcave:skeletons_with_bows"
+		}
+	}
+}

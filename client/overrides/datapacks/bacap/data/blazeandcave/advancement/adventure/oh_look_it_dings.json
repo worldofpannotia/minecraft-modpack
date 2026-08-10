@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bell"
+		},
+		"title": {"translate":"Oh, look, it dings!"},
+		"description": {"color":"green","translate":"Ring a bell in a village"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:adventure/do_you_want_to_trade",
+	"rewards": {
+		"function": "bacap_rewards:adventure/oh_look_it_dings"
+	},		
+	"criteria": {
+		"bell": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:bell"
+								]
+							},
+							"structures": "#blazeandcave:village"
+						}
+					}
+				]
+			}
+		}
+	}
+}

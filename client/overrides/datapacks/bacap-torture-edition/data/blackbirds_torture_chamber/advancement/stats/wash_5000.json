@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shulker_box"
+        },
+        "title": "You know what makes no Sense?",
+        "description": {"color":"#8b00e8","text":"Wash 5000 Items"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/wash_1000",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/wash_5000"
+	}
+}

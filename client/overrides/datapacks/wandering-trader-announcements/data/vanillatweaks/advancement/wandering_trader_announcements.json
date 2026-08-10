@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald"
+		},
+		"title": "Wandering Trader Announcements",
+		"description": {"text": "Notifies nearby players in chat when a wandering trader arrives.", "color": "gold"},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/check/multishot_crossbow"
+	},
+	"criteria": {
+		"killed_by_multishot": {
+			"trigger": "minecraft:killed_by_arrow",
+			"conditions": {
+				"fired_from_weapon": {
+					"items": "minecraft:crossbow",
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "minecraft:multishot"
+							}
+						]	
+					}
+				},
+				"victims": [
+					{
+						"distance": {
+							"horizontal": {
+								"min": 30
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

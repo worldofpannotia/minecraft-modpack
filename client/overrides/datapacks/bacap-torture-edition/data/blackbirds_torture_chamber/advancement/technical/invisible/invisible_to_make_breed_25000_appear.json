@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/breed_25000",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

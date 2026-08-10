@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/raw_mutton_eaten"
+	},	
+	"criteria": {
+		"raw_mutton": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mutton"
+					]
+				}
+			}
+		}
+	}
+}

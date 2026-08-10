@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:healing"
+				}
+			}
+		},
+		"title": {"translate":"More For Me"},
+		"description": {"color":"#75E1FF","translate":"Open 100 loot chests","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:statistics/loot_em",
+	"rewards": {
+		"function": "bacap_rewards:statistics/more_for_me"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

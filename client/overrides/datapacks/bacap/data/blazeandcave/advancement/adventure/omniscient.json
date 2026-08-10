@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Omniscient"},
+		"description": {"color":"dark_purple","translate":"Collect a stack of one tier of Ominous Bottles"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:adventure/tricky_treasures",
+	"rewards": {
+		"function": "bacap_rewards:adventure/omniscient"
+	},
+	"criteria": {
+		"ominous_bottle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ominous_bottle"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

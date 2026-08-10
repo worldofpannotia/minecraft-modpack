@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "no_friends": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "No Friends",
+        "description": {"color":"dark_red","text":"Be the only Entity loaded in the World"},
+        "icon": {
+            "id": "wither_skeleton_skull"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:husbandry/tame_an_animal",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/no_friends"
+	}
+}

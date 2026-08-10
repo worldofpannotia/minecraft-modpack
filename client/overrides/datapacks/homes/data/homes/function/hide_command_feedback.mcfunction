@@ -1,0 +1,2 @@
+gamerule minecraft:send_command_feedback false
+schedule function homes:restore_command_feedback 1t replace

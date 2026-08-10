@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond"
+		},
+		"title": {"translate":"Diemonds!"},
+		"description": {"color":"green","translate":"Hit a mob with diamonds"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/slapfish",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/diemonds"
+	},		
+	"criteria": {
+		"diamond": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:diamond"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}		
+	}
+}

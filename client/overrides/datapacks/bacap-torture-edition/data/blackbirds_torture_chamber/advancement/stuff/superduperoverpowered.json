@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "title": "Superduperoverpowered",
+        "description": {"color":"dark_red","text":"Eat a Stack of Enchanted Golden Apples"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/overpowered",
+    "criteria": {
+        "ring_of_the_end": {
+            "trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/superduperoverpowered"
+	}
+}

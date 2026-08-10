@@ -1,0 +1,71 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.shattering",
+        "fallback": "Shattering"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:damage_entity",
+                            "damage_type": "enchantmentplus:shattering",
+                            "min_damage": 2147483647,
+                            "max_damage": 2147483647
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/shattering/post_attack"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player",
+                                "effects": {
+                                    "minecraft:slowness": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.01,
+                                    "per_level_above_first": 0.01
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/special_hit_effect",
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/shattering",
+    "weight": 1
+}

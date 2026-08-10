@@ -1,0 +1,79 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_night_vision_suspicious_stew_for_communism"
+    },
+    "criteria": {
+		"140ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"night_vision",
+								"duration":140
+							}
+						]
+					}
+				}
+			}
+		},
+        "160ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"night_vision",
+								"duration":160
+							}
+						]
+					}
+				}
+			}
+		},
+        "180ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"night_vision",
+								"duration":180
+							}
+						]
+					}
+				}
+			}
+		},
+        "200ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"night_vision",
+								"duration":200
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+    "requirements": [
+        [
+            "140ticks",
+			"160ticks",
+            "180ticks",
+            "200ticks"
+        ]
+    ]
+}

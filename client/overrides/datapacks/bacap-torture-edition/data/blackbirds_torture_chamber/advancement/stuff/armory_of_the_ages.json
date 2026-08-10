@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "turtle_helmet",
+            "components": {
+				"minecraft:trim": {
+					"material": "minecraft:netherite",
+					"pattern": "minecraft:silence"
+				}
+			}
+        },
+        "title": "Armory of the Ages",
+        "description": {
+            "color": "dark_red",
+            "text": "Obtain every Armor Piece with every Armor Trim in every Material"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:adventure/chromatic_armory",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/armory_of_the_ages"
+    },
+    "criteria": {
+        "turtle": {
+            "trigger": "minecraft:impossible"
+        },
+        "leather": {
+            "trigger": "minecraft:impossible"
+        },
+        "chain": {
+            "trigger": "minecraft:impossible"
+        },
+        "gold": {
+            "trigger": "minecraft:impossible"
+        },
+        "iron": {
+            "trigger": "minecraft:impossible"
+        },
+        "diamond": {
+            "trigger": "minecraft:impossible"
+        },
+        "netherite": {
+            "trigger": "minecraft:impossible"
+        },
+        "copper": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

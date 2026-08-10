@@ -1,0 +1,3 @@
+advancement grant @a[advancements={blackbirds_torture_chamber:technical/a_complete_collection_any_sulfur_cube=true,blackbirds_torture_chamber:technical/a_complete_collection_sulfur_cube_non_empty=false}] only blackbirds_torture_chamber:stuff/a_complete_collection sulfur_cube_bucket_empty
+advancement revoke @a[advancements={blackbirds_torture_chamber:stuff/a_complete_collection={sulfur_cube_bucket_empty=false}}] only blackbirds_torture_chamber:technical/a_complete_collection_any_sulfur_cube
+advancement revoke @a[advancements={blackbirds_torture_chamber:stuff/a_complete_collection={sulfur_cube_bucket_empty=false}}] only blackbirds_torture_chamber:technical/a_complete_collection_sulfur_cube_non_empty

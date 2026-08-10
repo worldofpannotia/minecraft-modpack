@@ -1,0 +1,4 @@
+execute as @s at @s if entity @e[type=zombie,nbt={equipment:{mainhand:{components:{"minecraft:sulfur_cube_content":{}}}}},tag=!cubed] run tag @e[type=zombie,nbt={equipment:{mainhand:{components:{"minecraft:sulfur_cube_content":{}}}}},tag=!cubed] add cubed
+execute as @s at @s if entity @e[type=zombie,nbt={equipment:{mainhand:{id:"minecraft:sulfur_cube_bucket",count:1}}},tag=!cubed] run advancement grant @s only blackbirds_torture_chamber:stuff/communism sulfur_cube_bucket_empty
+execute as @s at @s if entity @e[type=zombie,nbt={equipment:{mainhand:{id:"minecraft:sulfur_cube_bucket",count:1}}},tag=!cubed] run tag @e[type=zombie,nbt={equipment:{mainhand:{id:"minecraft:sulfur_cube_bucket",count:1}}},tag=!cubed] add cubed
+advancement revoke @s[advancements={blackbirds_torture_chamber:stuff/communism={sulfur_cube_bucket_empty=false}}] only blackbirds_torture_chamber:technical/communism_empty_sulfur_cube

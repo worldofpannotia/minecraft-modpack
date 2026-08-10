@@ -1,0 +1,28 @@
+{
+    "pack": {
+        "description": [
+            {
+                "text": "More Mob Heads",
+                "color": "gold"
+            },
+            {
+                "text": "\nvanillatweaks.net",
+                "color": "yellow"
+            }
+        ],
+        "min_format": 101,
+        "max_format": [
+            107,
+            1
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay_107_1",
+                "min_format": 107,
+                "max_format": 2147483647
+            }
+        ]
+    }
+}

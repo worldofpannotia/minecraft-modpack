@@ -1,0 +1,1 @@
+schedule function blackbirds_torture_chamber:impossibles/a_complete_collection_sulfur_cube_check 1t

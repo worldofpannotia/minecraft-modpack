@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:jungle_boat"
+		},
+		"title": {"translate":"Swine Sailing"},
+		"description": {"color":"#75E1FF","translate":"Ride a saddled pig in a boat in a minecart"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/when_pigs_used_to_fly",
+	"rewards": {
+		"function": "bacap_rewards:animal/swine_sailing"
+	},		
+	"criteria": {
+		"swine_sailing": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "pig",
+								"vehicle": {
+									"entity_type": "#blazeandcave:all_boats",
+									"vehicle": {
+										"entity_type": "minecart"
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

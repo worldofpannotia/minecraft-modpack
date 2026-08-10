@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cookie"
+		},
+		"title": {"translate":"I'm gonna explode"},
+		"description": {"color":"#8b00e8","translate":"Eat 50.000 Food Items","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blackbirds_torture_chamber:stats/eat_25k",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/eat_50k"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:suspicious_sand"
+		},
+		"title": {"translate":"sus"},
+		"description": {"color":"light_purple","translate":"Obtain a stack of Suspicious Sand and Suspicious Gravel"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "blazeandcave:adventure/a_suspicious_advancement",
+	"rewards": {
+		"function": "bacap_rewards:adventure/sus"
+	},		
+	"criteria": {
+		"suspicious_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:suspicious_sand"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"suspicious_gravel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:suspicious_gravel"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

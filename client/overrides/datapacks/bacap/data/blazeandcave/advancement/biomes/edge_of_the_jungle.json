@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:jungle_sapling"
+		},
+		"title": {"translate":"Edge of the Jungle"},
+		"description": {"color":"light_purple","translate":"Enter a Modified Jungle Edge - the rarest biome in Minecraft"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "blazeandcave:biomes/kung_fu_panda",	
+	"rewards": {
+		"function": "bacap_rewards:biomes/edge_of_the_jungle"
+	},	
+	"criteria": {
+		"modified_jungle_edge": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

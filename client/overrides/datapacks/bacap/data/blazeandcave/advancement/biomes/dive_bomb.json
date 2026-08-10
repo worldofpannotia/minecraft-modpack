@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:leather_leggings",
+			"components": {
+				"minecraft:dyed_color": 3847130
+			}
+		},
+		"title": {"translate":"Dive Bomb"},
+		"description": {"color":"#75E1FF","translate":"Dive into water from a cliff at least 50 blocks tall"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:biomes/cargo_carrier",
+	"rewards": {
+		"function": "bacap_rewards:biomes/dive_bomb"
+	},		
+	"criteria": {
+		"dive_bomb": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:water",
+				"player": {
+					"minecraft:type_specific/player": {
+						"entity_type": "minecraft:player",
+						"advancements": {
+							"blazeandcave:technical/dive_bomb_check": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

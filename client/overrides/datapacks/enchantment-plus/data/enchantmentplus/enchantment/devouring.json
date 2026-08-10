@@ -1,0 +1,67 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.devouring",
+        "fallback": "Devouring"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/devouring/feed_user"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob",
+                                "nbt": "{Health:0f}",
+                                "flags": {
+                                    "is_baby": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/defensive_hit_effect",
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 4
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 4
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/devouring",
+    "weight": 2
+}

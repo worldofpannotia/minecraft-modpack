@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/nether_limit",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

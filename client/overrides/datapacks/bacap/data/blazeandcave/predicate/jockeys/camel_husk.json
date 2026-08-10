@@ -1,0 +1,30 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"entity_type": "camel_husk",
+				"passenger": {
+					"entity_type": [
+						"husk",
+						"zombie",
+						"drowned"
+					]
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"passenger": {
+					"entity_type": "parched"
+				}
+			}
+		}
+	]
+}
+
+

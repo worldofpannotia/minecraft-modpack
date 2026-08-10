@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:ochre_froglight",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzEzMWUyZGFlNjkyMTg3ZWQzYTYyMTc1ZWU2YmYwOGUzYjg5MWFkMjBkZTk2YmVlMDNkNTQ4M2I0MDBlMmVhOSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Ochre Froglight",
+      "minecraft:rarity": "common"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nautilus_spawn_egg"
+		},
+		"title": {"translate":"A Scute Off the Old Shell"},
+		"description": {"color":"green","translate":"Breed two Nautiluses together using fish"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/equiangular_spiral",
+	"rewards": {
+		"function": "bacap_rewards:biomes/a_scute_off_the_old_shell"
+	},		
+	"criteria": {
+		"nautilus": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"entity_type": "minecraft:nautilus"
+				},
+				"partner": {
+					"entity_type": "minecraft:nautilus"
+				}
+			}
+		}
+	}
+}

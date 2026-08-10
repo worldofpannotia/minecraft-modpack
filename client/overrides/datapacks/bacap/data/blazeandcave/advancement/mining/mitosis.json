@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sulfur_cube_spawn_egg"
+		},
+		"title": {"translate":"Mitosis"},
+		"description": {"color":"green","translate":"Slice a Sulfur Cube in two"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/heart_of_darkness",
+	"rewards": {
+		"function": "bacap_rewards:mining/mitosis"
+	},		
+	"criteria": {
+		"sulfur_cube": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube",
+					"flags": {
+						"is_baby": false
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"#blazeandcave:dont_trigger_piwe_sans_boats",
+	"#minecraft:boat",
+	"#blazeandcave:chest_boats"
+  ]
+}

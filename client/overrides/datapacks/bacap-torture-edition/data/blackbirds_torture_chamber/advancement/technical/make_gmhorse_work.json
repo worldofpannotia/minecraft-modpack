@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "creamy_trader": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse"
+                }
+            }
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/gmhorse_check"
+	}
+}

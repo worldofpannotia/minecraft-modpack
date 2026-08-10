@@ -1,0 +1,102 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:totem_of_undying"
+		},
+		"title": {"translate":"Feeling Ill"},
+		"description": {"color":"#75E1FF","translate":"Defeat every type of Illager as part of a raid"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:adventure/its_so_beast_like",
+	"rewards": {
+		"function": "bacap_rewards:adventure/feeling_ill"
+	},		
+	"criteria": {
+		"vindicator": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "vindicator",
+							"minecraft:type_specific/raider": {
+								"has_raid": true
+							}
+						}
+					}
+				]
+			}
+		},
+		"pillager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "pillager",
+							"minecraft:type_specific/raider": {
+								"has_raid": true
+							}
+						}
+					}
+				]
+			}
+		},
+		"ravager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "ravager",
+							"minecraft:type_specific/raider": {
+								"has_raid": true
+							}
+						}
+					}
+				]
+			}
+		},
+		"witch": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "witch",
+							"minecraft:type_specific/raider": {
+								"has_raid": true
+							}
+						}
+					}
+				]
+			}
+		},
+		"evoker": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "evoker",
+							"minecraft:type_specific/raider": {
+								"has_raid": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

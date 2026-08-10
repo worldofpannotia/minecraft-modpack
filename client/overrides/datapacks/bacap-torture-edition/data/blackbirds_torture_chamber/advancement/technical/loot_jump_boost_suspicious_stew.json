@@ -1,0 +1,68 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_jump_boost_suspicious_stew_for_a_complete_collection"
+    },
+    "criteria": {
+		"140ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"jump_boost",
+									"duration":140
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "180ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"jump_boost",
+									"duration":180
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "200ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"jump_boost",
+									"duration":200
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+            "140ticks",
+            "180ticks",
+            "200ticks"
+        ]
+    ]
+}

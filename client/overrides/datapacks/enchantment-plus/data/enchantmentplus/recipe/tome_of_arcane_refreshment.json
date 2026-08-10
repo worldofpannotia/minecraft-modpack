@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "GNG",
+        "DBD",
+        "GNG"
+    ],
+    "key": {
+        "B": "minecraft:book",
+        "G": "minecraft:glowstone",
+        "N": "minecraft:netherite_scrap",
+        "D": "minecraft:dragon_breath"
+    },
+    "result": {
+        "id": "minecraft:book",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.enchantmentplus.tome_of_arcane_refreshment",
+                "fallback": "Tome of Arcane Refreshment"
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "desc.enchantmentplus.tome_of_arcane_refreshment",
+                    "fallback": "Allows resetting the repair cost of an item.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:rarity": "rare",
+            "minecraft:item_model": "enchantmentplus:tome_of_arcane_refreshment",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "EnchantmentPlusData": {
+                    "TomeType": "arcane_refreshment"
+                }
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647,
+                "animation": "none",
+                "has_consume_particles": false
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:drowned_spawn_egg"
+		},
+		"title": {"translate":"Sleep with the Fishes"},
+		"description": {"color":"dark_purple","translate":"Spend a day underwater","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_timers"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:biomes/free_diver",
+	"rewards": {
+		"function": "bacap_rewards:biomes/sleep_with_the_fishes"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

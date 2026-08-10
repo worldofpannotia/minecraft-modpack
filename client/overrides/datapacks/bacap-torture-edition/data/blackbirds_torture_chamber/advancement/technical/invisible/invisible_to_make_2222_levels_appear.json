@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/2222_levels",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

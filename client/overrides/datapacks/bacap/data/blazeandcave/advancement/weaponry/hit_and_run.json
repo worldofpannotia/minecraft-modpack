@@ -1,0 +1,79 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:minecart"
+		},
+		"title": {"translate":"Hit and Run"},
+		"description": {"color":"#75E1FF","translate":"Kill a mob using the charge attack of a Spear while riding a high-speed Minecart"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/toasted_marshmallow",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/hit_and_run"
+	},		
+	"criteria": {
+		"hit_and_run_mainhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},			
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "minecart"
+					},
+					"movement": {
+						"speed": {
+							"min": 8.0
+						}
+					}
+				}
+			}
+		},
+		"hit_and_run_offhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "minecart"
+					},
+					"movement": {
+						"speed": {
+							"min": 8.0
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"hit_and_run_mainhand",
+			"hit_and_run_offhand"
+		]
+	]
+}

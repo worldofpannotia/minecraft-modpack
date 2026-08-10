@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:birch_leaves"
+        },
+        "title": "5 Shulkers + 21 Stacks + 16",
+        "description": {"color":"black","text":"Leave the Game 10,000 Times"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_leave_100002",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:leave_game",
+								"value": {
+									"min": 10000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/leave_10000"
+	}
+}

@@ -1,0 +1,65 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.soul_enriching",
+        "fallback": "\u00A75Soul Enriching"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/soul_enriching/place_marker"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#enchantmentplus:is_soul_enrichable"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "slots": {
+                                        "weapon.mainhand": {
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "minecraft:silk_touch"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/soul_enriching",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/soul_enriching",
+    "weight": 1
+}

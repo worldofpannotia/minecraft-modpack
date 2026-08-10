@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/cooked_chicken_eaten"
+	},	
+	"criteria": {
+		"cooked_chicken": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_chicken"
+					]
+				}
+			}
+		}
+	}
+}

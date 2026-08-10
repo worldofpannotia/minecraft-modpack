@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "minecraft:speed": {
+                        "amplifier": 1
+                    }
+                },
+                "flags":{
+                    "is_baby":true
+                }
+            }
+        }
+    ]
+}

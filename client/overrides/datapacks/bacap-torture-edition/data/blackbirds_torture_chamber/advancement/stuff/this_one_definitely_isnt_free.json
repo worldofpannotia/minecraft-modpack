@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": "This one definitely isn't Free",
+        "description": {"color":"dark_red","text":"Break 1728 Tridents"},
+        "icon": {
+            "id": "trident"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "definitely_not_free": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:broken",
+								"stat": "minecraft:trident",
+								"value": {
+									"min": 1728
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    },
+    "parent": "blackbirds_torture_chamber:stuff/this_one_isnt_free",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/this_one_definitely_isnt_free"
+	}
+}

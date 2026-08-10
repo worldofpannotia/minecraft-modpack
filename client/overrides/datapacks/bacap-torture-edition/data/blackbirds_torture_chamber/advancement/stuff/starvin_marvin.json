@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "starvin_marvin": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "title": "Starvin' Marvin",
+        "description": {"color":"dark_red","text":"Don't eat for a Full Minecraft Year"},
+        "frame":"challenge"
+    },
+    "parent": "blazeandcave:farming/a_gluttonous_diet",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/starvin_marvin"
+	}
+}

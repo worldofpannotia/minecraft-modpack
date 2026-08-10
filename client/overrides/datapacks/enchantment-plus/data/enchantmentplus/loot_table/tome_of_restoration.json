@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "item.enchantmentplus.tome_of_restoration",
+                                    "fallback": "Tome of Restoration"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "desc.enchantmentplus.tome_of_restoration",
+                                        "fallback": "Allows repairing a damaged item.",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:item_model": "enchantmentplus:tome_of_restoration",
+                                "minecraft:custom_data": {
+                                    "EnchantmentPlusData": {
+                                        "TomeType": "restoration"
+                                    }
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 2147483647,
+                                    "animation": "none",
+                                    "has_consume_particles": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

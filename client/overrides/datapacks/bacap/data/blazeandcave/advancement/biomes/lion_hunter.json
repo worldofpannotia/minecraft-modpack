@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cod"
+		},
+		"title": {"translate":"Lion Hunter"},
+		"description": {"color":"green","translate":"Feed an Ocelot fish to try and gain its trust"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/the_mighty_jungle",
+	"rewards": {
+		"function": "bacap_rewards:biomes/lion_hunter"
+	},		
+	"criteria": {
+		"ocelot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#blazeandcave:ocelot_feedable"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:ocelot"
+						}
+					}
+				]
+			}
+		}
+	}
+}

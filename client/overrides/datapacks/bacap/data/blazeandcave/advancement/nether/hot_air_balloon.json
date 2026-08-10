@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_harness"
+		},
+		"title": {"translate":"Hot Air Balloon"},
+		"description": {"color":"green","translate":"Craft a Harness, place it on a Happy Ghast, and ride it"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:nether/snow_cone",
+	"rewards": {
+		"function": "bacap_rewards:nether/hot_air_balloon"
+	},		
+	"criteria": {
+		"happy_ghast": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "minecraft:happy_ghast"
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

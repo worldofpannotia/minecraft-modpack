@@ -1,0 +1,136 @@
+{
+    "display": {
+        "title": "I'm still Hungry",
+        "description": {"color":"dark_red","text":"Eat a Full Chest of every Food","extra":[{"text":"\n"},{"italic":true,"color":"dark_gray","translate":"You only need a Stack of Enchanted Golden Apples, you need 1728 of all other Food Stuff, including Non-Stackable"}]},
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:bowl"
+        }
+    },
+    "parent": "blazeandcave:farming/a_gluttonous_diet",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/im_still_hungry"
+	},
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:impossible"
+        },
+        "mushroom_stew": {
+            "trigger": "minecraft:impossible"
+        },
+        "bread": {
+            "trigger": "minecraft:impossible"
+        },
+        "porkchop": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_porkchop": {
+            "trigger": "minecraft:impossible"
+        },
+        "golden_apple": {
+            "trigger": "minecraft:impossible"
+        },
+        "enchanted_golden_apple": {
+            "trigger": "minecraft:impossible"
+        },
+        "raw_cod": {
+            "trigger": "minecraft:impossible"
+        },
+        "raw_salmon": {
+            "trigger": "minecraft:impossible"
+        },
+        "tropical_fish": {
+            "trigger": "minecraft:impossible"
+        },
+        "pufferfish": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_cod": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_salmon": {
+            "trigger": "minecraft:impossible"
+        },
+        "cookie": {
+            "trigger": "minecraft:impossible"
+        },
+        "melon_slice": {
+            "trigger": "minecraft:impossible"
+        },
+        "beef": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_beef": {
+            "trigger": "minecraft:impossible"
+        },
+        "chicken": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_chicken": {
+            "trigger": "minecraft:impossible"
+        },
+        "rotten_flesh": {
+            "trigger": "minecraft:impossible"
+        },
+        "spider_eye": {
+            "trigger": "minecraft:impossible"
+        },
+        "carrot": {
+            "trigger": "minecraft:impossible"
+        },
+        "potato": {
+            "trigger": "minecraft:impossible"
+        },
+        "baked_potato": {
+            "trigger": "minecraft:impossible"
+        },
+        "poisonous_potato": {
+            "trigger": "minecraft:impossible"
+        },
+        "golden_carrot": {
+            "trigger": "minecraft:impossible"
+        },
+        "pumpkin_pie": {
+            "trigger": "minecraft:impossible"
+        },
+        "rabbit": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_rabbit": {
+            "trigger": "minecraft:impossible"
+        },
+        "rabbit_stew": {
+            "trigger": "minecraft:impossible"
+        },
+        "mutton": {
+            "trigger": "minecraft:impossible"
+        },
+        "cooked_mutton": {
+            "trigger": "minecraft:impossible"
+        },
+        "chorus_fruit": {
+            "trigger": "minecraft:impossible"
+        },
+        "beetroot": {
+            "trigger": "minecraft:impossible"
+        },
+        "beetroot_soup": {
+            "trigger": "minecraft:impossible"
+        },
+        "dried_kelp": {
+            "trigger": "minecraft:impossible"
+        },
+        "suspicious_stew": {
+            "trigger": "minecraft:impossible"
+        },
+        "sweet_berries": {
+            "trigger": "minecraft:impossible"
+        },
+        "honey_bottle": {
+            "trigger": "minecraft:impossible"
+        },
+        "glow_berries": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

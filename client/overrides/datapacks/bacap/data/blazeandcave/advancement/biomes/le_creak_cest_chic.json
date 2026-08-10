@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:creaking_spawn_egg"
+		},
+		"title": {"translate":"Le creak, c'est chic"},
+		"description": {"color":"dark_purple","translate":"Place fifty Creaking Hearts and inundate yourself with an absolute nightmare","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_progress"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/heart_transplanter",
+	"rewards": {
+		"function": "bacap_rewards:biomes/le_creak_cest_chic"
+	},		
+	"criteria": {
+		"creaking": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:rabbit_foot",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "Build a Rabbit Farm"
+        },
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Rabbit's Feet"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "blazeandcave:animal/lucky_charm",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_rabbit_feet"
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:mud_brick_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:mud_bricks"
+	}
+}

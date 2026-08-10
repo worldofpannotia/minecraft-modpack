@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spruce_stairs"
+		},
+		"title": {"translate":"Stairs? NOOOOO!"},
+		"description": {"color":"green","translate":"Craft some stairs"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/cut_in_half",
+	"rewards": {
+		"function": "bacap_rewards:building/stairs_no"
+	},		
+	"criteria": {
+		"stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:stairs"
+					}
+				]
+			}
+		}
+	}
+}

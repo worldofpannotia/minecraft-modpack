@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head"
+        },
+        "title": "Hardcore Player",
+        "description": {"color":"#75E1FF","text":"Use 50 Totems of Undying"},
+        "frame": "goal"
+    },
+    "parent": "blackbirds_torture_chamber:stats/totem_10",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/totem_50"
+	}
+}

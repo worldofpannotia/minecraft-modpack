@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": "harming"
+			}
+		},
+		"title": {"translate":"Oh baby a triple!"},
+		"description": {"color":"dark_purple","translate":"Kill three mobs at the same time using a Multishot Crossbow from at least 30 blocks away"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/arbalistic",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/oh_baby_a_triple"
+	},		
+	"criteria": {
+		"oh_baby_a_triple": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

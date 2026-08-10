@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/master_assassin",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

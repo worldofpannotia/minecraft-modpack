@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:stripped_mangrove_wood",
+		"count": 4
+	},
+	"type": "crafting_shaped",
+	"group": "bark",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": "minecraft:stripped_mangrove_log"
+	}
+}

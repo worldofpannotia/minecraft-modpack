@@ -1,0 +1,46 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.extended",
+        "fallback": "Extended"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/extended/place_marker"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/block_breaking_effect",
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 8
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/extended",
+    "weight": 2
+}

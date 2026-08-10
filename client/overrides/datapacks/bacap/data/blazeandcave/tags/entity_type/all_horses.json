@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"#blazeandcave:horses",
+	"minecraft:zombie_horse",
+	"minecraft:skeleton_horse"
+  ]
+}

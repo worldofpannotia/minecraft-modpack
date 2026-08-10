@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "guillotine": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "ender_dragon"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:shears"
+                            ],
+                            "components": {
+                                "minecraft:custom_data": "{guillotine:1}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/technical/guillotine"
+    }
+}

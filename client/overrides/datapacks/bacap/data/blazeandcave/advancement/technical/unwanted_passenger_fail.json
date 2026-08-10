@@ -1,0 +1,10 @@
+{
+	"rewards": {
+		"function": "blazeandcave:unwanted_passenger_fail"
+	},		
+	"criteria": {
+		"unwanted_passenger_fail": {
+			"trigger": "minecraft:started_riding"
+		}
+	}
+}

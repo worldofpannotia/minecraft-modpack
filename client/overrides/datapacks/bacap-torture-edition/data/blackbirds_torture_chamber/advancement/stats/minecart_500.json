@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:hopper_minecart"
+        },
+        "title": "500km in a Minecart",
+        "description": {"color":"dark_red","text":"That's more than 3 Rails"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/global_railway_network",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:minecart_one_cm",
+								"value": {
+									"min": 50000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/minecart_500"
+	}
+}

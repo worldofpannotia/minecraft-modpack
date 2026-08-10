@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_wool"
+		},
+		"title": {"translate":"Pillow Fight"},
+		"description": {"color":"#75E1FF","translate":"Slay a Ghast while riding a Happy Ghast"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:nether/lead_zeppelin",
+	"rewards": {
+		"function": "bacap_rewards:nether/pillow_fight"
+	},		
+	"criteria": {
+		"ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ghast"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "happy_ghast"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

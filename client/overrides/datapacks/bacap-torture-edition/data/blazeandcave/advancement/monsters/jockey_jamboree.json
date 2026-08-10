@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:saddle"
+		},
+		"title": {"translate":"Jockey Jamboree"},
+		"description": {"color":"dark_red","translate":"Unite every kind of jockey mob in one place"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": false
+	},
+	"parent": "blazeandcave:monsters/absolute_cinema",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/bacap/jockey_jamboree"
+	},
+	"criteria": {
+		"jockey_jamboree": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

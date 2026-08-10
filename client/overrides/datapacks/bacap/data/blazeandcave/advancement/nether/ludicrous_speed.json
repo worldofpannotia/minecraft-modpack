@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:red_glazed_terracotta"
+		},
+		"title": {"translate":"Ludicrous Speed!"},
+		"description": {"color":"dark_purple","translate":"Achieve an absolutely insane speed by combining the Speed II effect, Dolphin’s Grace, Depth Strider III, Soul Speed III and sprinting"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:nether/soul_runnings",
+	"rewards": {
+		"function": "bacap_rewards:nether/ludicrous_speed"
+	},
+	"criteria": {
+		"ludicrous_speed": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"stepping_on": {
+								"block": {
+									"blocks": "#minecraft:soul_speed_blocks"
+								}
+							},
+							"equipment": {
+								"feet": {
+									"predicates": {
+										"enchantments": [
+											{
+												"enchantments": "minecraft:soul_speed",
+												"levels": {
+													"min": 3
+												}
+											},
+											{
+												"enchantments": "minecraft:depth_strider",
+												"levels": {
+													"min": 3
+												}
+											}
+										]
+									}
+								}
+							},
+							"effects": {
+								"minecraft:speed": {
+									"amplifier": {
+										"min": 1
+									}
+								},
+								"minecraft:dolphins_grace": {
+									"amplifier": {
+										"min": 0
+									}
+								}
+							},
+							"flags": {
+								"is_sprinting": true
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:turtle_egg"
+        },
+        "title": "Fasty Flappy",
+        "description": {"color":"dark_red","text":"Go Little Buddy! Run!"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:potion/performance_enhancing_drugs",
+    "criteria": {
+        "not_sniffin_crack": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/fasty_flappy"
+	}
+}

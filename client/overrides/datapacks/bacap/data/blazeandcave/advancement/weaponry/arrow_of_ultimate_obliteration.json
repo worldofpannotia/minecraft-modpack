@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:elytra"
+		},
+		"title": {"translate":"Arrow of Ultimate Obliteration"},
+		"description": {"color":"dark_purple","translate":"Plow into a mob with the charge attack of a Spear while flying at a speed of at least 70 blocks per second"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:weaponry/hit_and_run",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/arrow_of_ultimate_obliteration"
+	},		
+	"criteria": {
+		"spear_mainhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"flags": {
+						"is_fall_flying": true
+					},
+					"movement": {
+						"speed": {
+							"min": 70.0
+						}
+					}
+				}
+			}
+		},
+		"spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"flags": {
+						"is_fall_flying": true
+					},
+					"movement": {
+						"speed": {
+							"min": 70.0
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"spear_mainhand",
+			"spear_offhand"
+		]
+	]
+}

@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": "This one isn't Free",
+        "description": {"color":"dark_red","text":"Break 384 Crossbows"},
+        "icon": {
+            "id": "crossbow"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "not_free": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:broken",
+								"stat": "minecraft:crossbow",
+								"value": {
+									"min": 384
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+    },
+    "parent": "blackbirds_torture_chamber:stuff/this_one_isnt_as_free",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/this_one_isnt_free"
+	}
+}

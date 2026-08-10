@@ -1,0 +1,87 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.lava_walker",
+        "fallback": "Lava Walker"
+    },
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:replace_disk",
+                    "block_state": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Name": "minecraft:basalt",
+                            "Properties": {
+                                "axis": "y"
+                            }
+                        }
+                    },
+                    "height": 1,
+                    "offset": [
+                        0,
+                        -1,
+                        0
+                    ],
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:air",
+                                "offset": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:lava"
+                            },
+                            {
+                                "type": "minecraft:unobstructed"
+                            }
+                        ]
+                    },
+                    "radius": {
+                        "type": "minecraft:clamped",
+                        "max": 16,
+                        "min": 0,
+                        "value": {
+                            "type": "minecraft:linear",
+                            "base": 3,
+                            "per_level_above_first": 1
+                        }
+                    },
+                    "trigger_game_event": "minecraft:block_place"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_on_ground": true
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/boots",
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 10
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 10
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/lava_walker",
+    "weight": 2
+}

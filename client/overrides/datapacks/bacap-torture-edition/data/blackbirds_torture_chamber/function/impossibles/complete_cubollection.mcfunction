@@ -1,0 +1,2 @@
+scoreboard players set @s complete_cubollection 1
+schedule function blackbirds_torture_chamber:impossibles/complete_cubollection_empty 1t

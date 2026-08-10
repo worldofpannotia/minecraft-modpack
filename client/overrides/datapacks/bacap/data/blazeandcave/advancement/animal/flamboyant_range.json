@@ -1,0 +1,99 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:yellow_bundle"
+		},
+		"title": {"translate":"Flamboyant Range"},
+		"description": {"color":"#75E1FF","translate":"Put 4 of each type of dye into a single Bundle"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/humble_bundle",
+	"rewards": {
+		"function": "bacap_rewards:animal/flamboyant_range"
+	},
+	"criteria": {
+		"bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:bundles",
+						"predicates": {
+							"minecraft:bundle_contents": {
+								"items": {
+									"contains": [
+										{
+											"items": "minecraft:white_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:light_gray_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:gray_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:black_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:brown_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:red_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:orange_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:yellow_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:lime_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:green_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:cyan_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:light_blue_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:blue_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:purple_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:magenta_dye",
+											"count": 4
+										},
+										{
+											"items": "minecraft:pink_dye",
+											"count": 4
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

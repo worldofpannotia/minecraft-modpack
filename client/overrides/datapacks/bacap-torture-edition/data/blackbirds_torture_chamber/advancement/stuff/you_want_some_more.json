@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": {"translate":"You want some more?"},
+		"description": {"color":"dark_red","text":"Feed a Parrot a Cookie"},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:biomes/chatterbox",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/you_want_some_more"
+	},		
+	"criteria": {
+		"parrot_cookie": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cookie"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		}
+	}
+}

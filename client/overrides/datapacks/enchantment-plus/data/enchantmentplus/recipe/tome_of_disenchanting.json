@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "LPL",
+        "CBC",
+        "LPL"
+    ],
+    "key": {
+        "B": "minecraft:book",
+        "L": "minecraft:lapis_lazuli",
+        "P": "minecraft:blaze_powder",
+        "C": "minecraft:prismarine_crystals"
+    },
+    "result": {
+        "id": "minecraft:book",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.enchantmentplus.tome_of_disenchanting",
+                "fallback": "Tome of Disenchanting"
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "desc.enchantmentplus.tome_of_disenchanting",
+                    "fallback": "Allows taking enchantments off of an already enchanted item.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_model": "enchantmentplus:tome_of_disenchanting",
+            "minecraft:custom_data": {
+                "EnchantmentPlusData": {
+                    "TomeType": "disenchanting"
+                }
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647,
+                "animation": "none",
+                "has_consume_particles": false
+            }
+        }
+    }
+}

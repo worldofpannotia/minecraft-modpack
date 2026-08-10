@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"dragon": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ender_dragon"
+				}
+			}
+		},
+		"wither": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "wither"
+				}
+			}
+		},
+		"raid": {
+			"trigger": "minecraft:voluntary_exile"
+		}
+	}
+}

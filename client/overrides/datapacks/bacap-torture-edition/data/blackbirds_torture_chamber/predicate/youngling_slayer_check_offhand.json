@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:diamond_sword"
+          ],
+          "components": {
+            "minecraft:custom_data": "{Trophy:1,YounglingSlayer:1}"
+          }
+        }
+      }
+    }
+  }

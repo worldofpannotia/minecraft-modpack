@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/check/battle_of_the_bands"
+	},		
+	"criteria": {
+		"goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					]
+				}
+			}
+		}
+	}
+}

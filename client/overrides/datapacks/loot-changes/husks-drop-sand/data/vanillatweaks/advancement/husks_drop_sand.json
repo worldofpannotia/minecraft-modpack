@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sand"
+		},
+		"title": "Husks Drop Sand  ",
+		"description": [
+			"",
+			{
+				"text": "Husks drop 0-2 sand on death, making it renewable. (With Looting, the amount is up to 2 + the Looting level).",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

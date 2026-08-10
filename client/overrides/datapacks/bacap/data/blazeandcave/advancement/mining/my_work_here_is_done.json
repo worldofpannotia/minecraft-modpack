@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gravel"
+		},
+		"title": {"translate":"My work here is done"},
+		"description": {"color":"green","translate":"Get caught in a cave-in of gravel"},
+		"announce_to_chat": true
+
+	},
+	"parent": "blazeandcave:mining/heart_of_darkness",
+	"rewards": {
+		"function": "bacap_rewards:mining/my_work_here_is_done"
+	},
+	"criteria": {
+		"enter_gravel": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:gravel",
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"vehicle": {
+									"entity_type": "#blazeandcave:all_boats_and_minecarts"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

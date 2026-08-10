@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/a_complete_collection_sulfur_cube_initiation"
+    },
+    "criteria": {
+		"any_sulfur_cube_bucket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket"
+					}
+				]
+			}
+		}
+    }
+}

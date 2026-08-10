@@ -1,0 +1,141 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/riddle/fourth_line"
+	},
+	"criteria": {
+		"pot_on_a_pot": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:flower_pot",
+									"minecraft:decorated_pot"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"offsetY": -1,
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:decorated_pot"
+								]
+							}
+						}
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"advancements": {
+									"blazeandcave:technical/riddle_third_line": true
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"pot_in_a_pot1": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:decorated_pot"
+								],
+								"nbt": "{\"item\":{\"id\":\"minecraft:decorated_pot\"}}"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flower_pot",
+								"minecraft:decorated_pot"
+							]
+						}
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"advancements": {
+									"blazeandcave:technical/riddle_third_line": true
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"pot_in_a_pot2": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:decorated_pot"
+								],
+								"nbt": "{\"item\":{\"id\":\"minecraft:flower_pot\"}}"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:flower_pot",
+								"minecraft:decorated_pot"
+							]
+						}
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"advancements": {
+									"blazeandcave:technical/riddle_third_line": true
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pot_on_a_pot"
+		],
+		[
+			"pot_in_a_pot1",
+			"pot_in_a_pot2"
+		]
+	]
+}

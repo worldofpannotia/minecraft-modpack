@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:music_disc_mall"
+		},
+		"title": {"translate":"Why do I hear boss music?"},
+		"description": {"color":"#75E1FF","translate":"Play a Music Disc while fighting the Ender Dragon"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:end/root",
+	"rewards": {
+		"function": "bacap_rewards:end/why_do_i_hear_boss_music"
+	},
+	"criteria": {
+		"boss_music": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

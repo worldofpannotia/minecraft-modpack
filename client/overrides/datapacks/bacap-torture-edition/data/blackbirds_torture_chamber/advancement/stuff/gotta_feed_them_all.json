@@ -1,0 +1,3743 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_shovel"
+		},
+		"title": "Gotta feed them all!",
+		"description": {
+			"color": "dark_red",
+			"text": "Feed every Entity Everything they can be fed"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:animal/so_hungry_i_could_eat_a_horse",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/gotta_feed_them_all"
+	},
+	"criteria": {
+		"allay_amethyst": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:amethyst_shard"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:allay"
+						}
+					}
+				]
+			}
+		},
+		"armadillo_spider_eye": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spider_eye"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:armadillo"
+						}
+					}
+				]
+			}
+		},
+		"axolotl_bucket_tropical_fish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:axolotl"
+						}
+					}
+				]
+			}
+		},
+		"bee_allium": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:allium"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_azure_bluet": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:azure_bluet"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_blue_orchid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:blue_orchid"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_cactus_flower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cactus_flower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_cherry_leaves": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cherry_leaves"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_chorus_flower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_flower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_cornflower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cornflower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_flowering_azalea": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flowering_azalea"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_flowering_azalea_leaves": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:flowering_azalea_leaves"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_lilac": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lilac"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_lily": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lily_of_the_valley"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_mangrove_propagule": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mangrove_propagule"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_open_eyeblossom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:open_eyeblossom"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_orange_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:orange_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_oxeye_daisy": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:oxeye_daisy"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_peony": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:peony"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_pink_petals": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pink_petals"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_pink_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pink_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_pitcher_plant": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pitcher_plant"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_poppy": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:poppy"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_red_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:red_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_rose_bush": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rose_bush"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_spore_blossom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spore_blossom"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_sunflower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sunflower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_torchflower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:torchflower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_white_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:white_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_wildflowers": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wildflowers"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"bee_wither_rose": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wither_rose"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"camel_cactus": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cactus"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:camel"
+						}
+					}
+				]
+			}
+		},
+		"cat_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:cat"
+						}
+					}
+				]
+			}
+		},
+		"cat_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:cat"
+						}
+					}
+				]
+			}
+		},
+		"chicken_beetroot_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"chicken_melon_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:melon_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"chicken_pitcher_pod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pitcher_pod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"chicken_pumpkin_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pumpkin_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"chicken_torchflower_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:torchflower_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"chicken_wheat_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"cow_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:cow"
+						}
+					}
+				]
+			}
+		},
+		"donkey_sugar": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sugar"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_golden_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_hay_block": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"donkey_enchanted_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"dolphin_pufferfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:dolphin"
+						}
+					}
+				]
+			}
+		},
+		"dolphin_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:dolphin"
+						}
+					}
+				]
+			}
+		},
+		"dolphin_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:dolphin"
+						}
+					}
+				]
+			}
+		},
+		"dolphin_tropical_fish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:dolphin"
+						}
+					}
+				]
+			}
+		},
+		"fox_glow_berries": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:fox"
+						}
+					}
+				]
+			}
+		},
+		"fox_sweet_berries": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:fox"
+						}
+					}
+				]
+			}
+		},
+		"frog_slime_ball": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:slime_ball"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:frog"
+						}
+					}
+				]
+			}
+		},
+		"furnace_minecart_charcoal": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:charcoal"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:furnace_minecart"
+						}
+					}
+				]
+			}
+		},
+		"furnace_minecart_coal": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:coal"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:furnace_minecart"
+						}
+					}
+				]
+			}
+		},
+		"goat_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:goat"
+						}
+					}
+				]
+			}
+		},
+		"hoglin_crimson_fungus": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:crimson_fungus"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:hoglin"
+						}
+					}
+				]
+			}
+		},
+		"horse_sugar": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sugar"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_golden_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_hay_block": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"horse_enchanted_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"inron_golem_iron_ingot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:iron_ingot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:iron_golem"
+						}
+					}
+				]
+			}
+		},
+		"llama_hay_block": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:llama"
+						}
+					}
+				]
+			}
+		},
+		"llama_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:llama"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_allium": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:allium"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_azure_bluet": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:azure_bluet"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_blue_orchid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:blue_orchid"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_closed_eyeblossom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:closed_eyeblossom"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_cornflower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cornflower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_lily": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:lily_of_the_valley"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_open_eyeblossom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:open_eyeblossom"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_orange_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:orange_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_oxeye_daisy": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:oxeye_daisy"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_pink_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pink_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_poppy": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:poppy"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_red_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:red_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_torchflower": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:torchflower"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_white_tulip": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:white_tulip"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_wither_rose": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wither_rose"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mule_sugar": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sugar"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_golden_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_hay_block": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"mule_enchanted_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"ocelot_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:ocelot"
+						}
+					}
+				]
+			}
+		},
+		"ocelot_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:ocelot"
+						}
+					}
+				]
+			}
+		},
+		"panda_bamboo": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bamboo"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:panda"
+						}
+					}
+				]
+			}
+		},
+		"parrot_beetroot_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_cookie": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cookie"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_melon_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:melon_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_pitcher_pod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pitcher_pod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_pumpkin_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pumpkin_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_torchflower_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:torchflower_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"parrot_wheat_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parrot"
+						}
+					}
+				]
+			}
+		},
+		"pig_beetroot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:pig"
+						}
+					}
+				]
+			}
+		},
+		"pig_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:pig"
+						}
+					}
+				]
+			}
+		},
+		"pig_potato": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:potato"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:pig"
+						}
+					}
+				]
+			}
+		},
+		"rabbit_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:rabbit"
+						}
+					}
+				]
+			}
+		},
+		"rabbit_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:rabbit"
+						}
+					}
+				]
+			}
+		},
+		"rabbit_golden_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:rabbit"
+						}
+					}
+				]
+			}
+		},
+		"sheep_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sheep"
+						}
+					}
+				]
+			}
+		},
+		"sniffer_torchflower_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:torchflower_seeds"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sniffer"
+						}
+					}
+				]
+			}
+		},
+		"strider_warped_fungus": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:warped_fungus"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:strider"
+						}
+					}
+				]
+			}
+		},
+		"tadpole_slime_ball": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:slime_ball"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:tadpole"
+						}
+					}
+				]
+			}
+		},
+		"trader_llama_hay_block": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:hay_block"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:trader_llama"
+						}
+					}
+				]
+			}
+		},
+		"trader_llama_wheat": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:wheat"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:trader_llama"
+						}
+					}
+				]
+			}
+		},
+		"turtle_seagrass": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:seagrass"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:turtle"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_chicken": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_chicken"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_mutton": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_mutton"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_porkchop": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_porkchop"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_rabbit": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_rabbit"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_cooked_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_pufferfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_rabbit_stew": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit_stew"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_beef": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beef"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_chicken": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chicken"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_mutton": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mutton"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_porkchop": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:porkchop"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_rabbit": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_rotten_flesh": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rotten_flesh"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_steak": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_beef"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"wolf_tropical_fish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"zombie_villager_golden_apple": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_villager"
+						}
+					}
+				]
+			}
+		},
+		"happy_ghast_snowball": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:snowball"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:happy_ghast"
+						}
+					}
+				]
+			}
+		},
+		"horse_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"mule_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"donkey_carrot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:carrot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"camel_husk_rabbit_foot": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit_foot"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:camel_husk"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_cod_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_cooked_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_pufferfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_pufferfish_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_salmon_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_cooked_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_tropical_fish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_tropical_fish_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_horse_red_mushroom": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:red_mushroom"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_horse"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_raw_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_cod_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_cooked_cod": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_pufferfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_pufferfish_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pufferfish_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_raw_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_salmon_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:salmon_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_cooked_salmon": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_salmon"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_tropical_fish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"zombie_nautilus_tropical_fish_bucket": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish_bucket"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:zombie_nautilus"
+						}
+					}
+				]
+			}
+		},
+		"armadillo_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:armadillo"
+						}
+					}
+				]
+			}
+		},
+		"axolotl_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:axolotl"
+						}
+					}
+				]
+			}
+		},
+		"bee_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:bee"
+						}
+					}
+				]
+			}
+		},
+		"camel_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:camel"
+						}
+					}
+				]
+			}
+		},
+		"cat_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:cat"
+						}
+					}
+				]
+			}
+		},
+		"chicken_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:chicken"
+						}
+					}
+				]
+			}
+		},
+		"cow_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:cow"
+						}
+					}
+				]
+			}
+		},
+		"dolphin_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:dolphin"
+						}
+					}
+				]
+			}
+		},
+		"donkey_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:donkey"
+						}
+					}
+				]
+			}
+		},
+		"fox_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:fox"
+						}
+					}
+				]
+			}
+		},
+		"happy_ghast_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:happy_ghast"
+						}
+					}
+				]
+			}
+		},
+		"glow_squid_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:glow_squid"
+						}
+					}
+				]
+			}
+		},
+		"goat_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:goat"
+						}
+					}
+				]
+			}
+		},
+		"hoglin_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:hoglin"
+						}
+					}
+				]
+			}
+		},
+		"horse_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:horse"
+						}
+					}
+				]
+			}
+		},
+		"llama_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:llama"
+						}
+					}
+				]
+			}
+		},
+		"mooshroom_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom"
+						}
+					}
+				]
+			}
+		},
+		"mule_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mule"
+						}
+					}
+				]
+			}
+		},
+		"nautilus_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:nautilus"
+						}
+					}
+				]
+			}
+		},
+		"ocelot_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:ocelot"
+						}
+					}
+				]
+			}
+		},
+		"panda_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:panda"
+						}
+					}
+				]
+			}
+		},
+		"pig_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:pig"
+						}
+					}
+				]
+			}
+		},
+		"polar_bear_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:polar_bear"
+						}
+					}
+				]
+			}
+		},
+		"rabbit_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:rabbit"
+						}
+					}
+				]
+			}
+		},
+		"sheep_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sheep"
+						}
+					}
+				]
+			}
+		},
+		"sniffer_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sniffer"
+						}
+					}
+				]
+			}
+		},
+		"squid_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:squid"
+						}
+					}
+				]
+			}
+		},
+		"strider_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:strider"
+						}
+					}
+				]
+			}
+		},
+		"tadpole_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:tadpole"
+						}
+					}
+				]
+			}
+		},
+		"trader_llama_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:trader_llama"
+						}
+					}
+				]
+			}
+		},
+		"turtle_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:turtle"
+						}
+					}
+				]
+			}
+		},
+		"wolf_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:wolf"
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_slime_ball": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:slime_ball"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube"
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_golden_dandelion": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_dandelion"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube"
+						}
+					}
+				]
+			}
+		}
+	}
+}

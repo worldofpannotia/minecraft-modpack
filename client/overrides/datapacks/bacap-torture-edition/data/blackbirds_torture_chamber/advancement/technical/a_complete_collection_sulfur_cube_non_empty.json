@@ -1,0 +1,5352 @@
+{
+    "criteria": {
+		"sulfur_cube_bucket_oak_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oak_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dark_oak_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dark_oak_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dark_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dark_oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_dark_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_dark_oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dark_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dark_oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_dark_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_dark_oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_jungle_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "jungle_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_jungle_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "jungle_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_jungle_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_jungle_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_jungle_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "jungle_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_jungle_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_jungle_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_spruce_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "spruce_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_spruce_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "spruce_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_spruce_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_spruce_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_spruce_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "spruce_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_spruce_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_spruce_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_birch_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "birch_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_birch_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "birch_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_birch_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_birch_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_birch_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "birch_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_birch_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_birch_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mangrove_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mangrove_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mangrove_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mangrove_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_mangrove_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_mangrove_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mangrove_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mangrove_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_mangrove_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_mangrove_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pale_oak_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pale_oak_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pale_oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_pale_oak_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_pale_oak_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pale_oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_pale_oak_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_pale_oak_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_warped_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "warped_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_warped_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "warped_stem"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_warped_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_warped_stem"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_warped_hyphae": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "warped_hyphae"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_warped_hyphae": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_warped_hyphae"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_crimson_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "crimson_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_crimson_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "crimson_stem"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_crimson_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_crimson_stem"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_crimson_hyphae": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "crimson_hyphae"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_crimson_hyphae": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_crimson_hyphae"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bamboo_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bamboo_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bamboo_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_bamboo_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_bamboo_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bamboo_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bamboo_mosaic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_acacia_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "acacia_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_acacia_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "acacia_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_acacia_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_acacia_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_acacia_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "acacia_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_acacia_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_acacia_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cherry_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cherry_planks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cherry_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_cherry_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_cherry_log"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cherry_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cherry_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stripped_cherry_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stripped_cherry_wood"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_horn_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "horn_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_tube_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "tube_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brain_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brain_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bubble_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bubble_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_fire_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "fire_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dead_fire_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dead_fire_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dead_horn_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dead_horn_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dead_tube_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dead_tube_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dead_brain_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dead_brain_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dead_bubble_coral_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dead_bubble_coral_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_sponge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "sponge"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_wet_sponge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "wet_sponge"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dried_kelp_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dried_kelp_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_moss_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "moss_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pale_moss_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pale_moss_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_resin_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "resin_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_resin_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "resin_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_resin_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_resin_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pumpkin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_melon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "melon"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_hay_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "hay_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_carved_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "carved_pumpkin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_jack_o_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "jack_o_lantern"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_verdant_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "verdant_froglight"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_ochre_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "ochre_froglight"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pearlescent_froglight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pearlescent_froglight"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_ice"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_packed_ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "packed_ice"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_snow_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "snow_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_soul_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "soul_sand"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_soul_soil": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "soul_soil"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magma_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magma_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_white_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "white_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_orange_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "orange_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_blue_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_blue_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magenta_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magenta_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_yellow_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "yellow_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lime_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lime_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pink_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pink_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cyan_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cyan_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gray_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gray_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_gray_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_gray_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purple_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purple_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_green_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "green_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_black_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "black_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_white_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "white_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_orange_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "orange_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_blue_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_blue_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magenta_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magenta_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_yellow_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "yellow_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lime_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lime_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pink_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pink_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cyan_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cyan_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gray_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gray_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_gray_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_gray_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purple_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purple_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_green_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "green_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_black_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "black_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mud": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mud"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_muddy_mangrove_roots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "muddy_mangrove_roots"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_packed_mud": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "packed_mud"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_coal_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "coal_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dirt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_coarse_dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "coarse_dirt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_rooted_dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "rooted_dirt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_podzol": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "podzol"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_grass_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "grass_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_clay": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "clay"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bone_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_white_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "white_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_orange_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "orange_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_blue_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_blue_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magenta_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magenta_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_yellow_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "yellow_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lime_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lime_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pink_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pink_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cyan_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cyan_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gray_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gray_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_gray_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_gray_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purple_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purple_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_green_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "green_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_black_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "black_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_white_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "white_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_orange_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "orange_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_blue_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_blue_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magenta_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magenta_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_yellow_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "yellow_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lime_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lime_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pink_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pink_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cyan_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cyan_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gray_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gray_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_gray_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_gray_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purple_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purple_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_green_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "green_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_black_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "black_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_white_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "white_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_orange_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "orange_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_blue_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_blue_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_magenta_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "magenta_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_yellow_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "yellow_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lime_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lime_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_pink_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "pink_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cyan_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cyan_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gray_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gray_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_light_gray_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "light_gray_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purple_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purple_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blue_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blue_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_green_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "green_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_black_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "black_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_amethyst_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "amethyst_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_andesite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "andesite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_basalt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "basalt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "blackstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_calcite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "calcite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_cinnabar"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_deepslate"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_nether_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_polished_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_polished_blackstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_quartz_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_quartz_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_stone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_sulfur"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_tuff"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_tuff_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_tuff_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cinnabar"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cinnabar_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cinnabar_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cobbled_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cobbled_deepslate"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cobblestone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cracked_deepslate_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cracked_deepslate_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cracked_deepslate_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cracked_deepslate_tiles"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cracked_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cracked_nether_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cracked_polished_blackstone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cracked_polished_blackstone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cracked_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cracked_stone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_crimson_nylium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "crimson_nylium"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_crying_obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "crying_obsidian"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cut_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cut_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cut_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cut_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dark_prismarine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dark_prismarine"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_tiles"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_diamond_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "diamond_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "diorite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_dripstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "dripstone_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_emerald_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "emerald_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_end_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "end_stone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_end_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "end_stone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gilded_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gilded_blackstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_glowstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "glowstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "granite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lapis_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lapis_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mossy_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mossy_cobblestone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mossy_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mossy_stone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mud_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mud_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "nether_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_netherrack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "netherrack"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_observer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "observer"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_obsidian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "obsidian"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_andesite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_andesite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_basalt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_basalt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_blackstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_blackstone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_blackstone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_cinnabar"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_deepslate"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_diorite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_granite"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_sulfur"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_polished_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "polished_tuff"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_prismarine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "prismarine"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_prismarine_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "prismarine_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purpur_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purpur_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_purpur_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "purpur_pillar"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_quartz_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "quartz_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_quartz_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "quartz_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_quartz_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "nether_quartz_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_quartz_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "quartz_pillar"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_nether_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_redstone_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "redstone_lamp"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_sea_lantern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "sea_lantern"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_smooth_basalt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "smooth_basalt"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_smooth_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "smooth_quartz"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_smooth_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "smooth_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_smooth_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "smooth_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_smooth_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "smooth_stone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_stone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "stone_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "sulfur"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_sulfur_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "sulfur_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "tuff"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_tuff_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "tuff_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_warped_nylium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "warped_nylium"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_coal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "coal_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_coal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_coal_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_lapis_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_lapis_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_lapis_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "lapis_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "redstone_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_redstone_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_diamond_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_diamond_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_diamond_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "diamond_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "emerald_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_emerald_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_iron_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "iron_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gold_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gold_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_raw_copper_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "raw_copper_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_raw_gold_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "raw_gold_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_raw_iron_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "raw_iron_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "gold_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_nether_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "nether_gold_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_iron_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "iron_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_copper_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "copper_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_netherite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "netherite_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_ancient_debris": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "ancient_debris"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_copper_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "copper_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_copper_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_copper_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_iron_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_iron_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_gold_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_deepslate_copper_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "deepslate_copper_ore"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oxidized_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oxidized_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oxidized_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oxidized_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oxidized_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oxidized_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_oxidized_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "oxidized_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_weathered_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "weathered_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_weathered_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "weathered_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_weathered_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "weathered_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_weathered_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "weathered_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_weathered_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_weathered_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_weathered_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_weathered_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_weathered_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_weathered_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_weathered_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_weathered_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_oxidized_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_oxidized_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_oxidized_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_oxidized_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_oxidized_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_oxidized_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_oxidized_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_oxidized_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_exposed_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "exposed_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_exposed_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "exposed_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_exposed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "exposed_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_exposed_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "exposed_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_exposed_chiseled_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_exposed_chiseled_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_exposed_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_exposed_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_exposed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_exposed_copper_bulb"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_waxed_exposed_cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "waxed_exposed_cut_copper"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_brown_mushroom_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "brown_mushroom_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_red_mushroom_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "red_mushroom_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mushroom_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mushroom_stem"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_mycelium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "mycelium"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_nether_wart_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "nether_wart_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_warped_wart_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "warped_wart_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_shroomlight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "shroomlight"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_honeycomb_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "honeycomb_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"sulfur_cube_bucket_tnt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sulfur_cube_bucket",
+						"components": {
+							"minecraft:sulfur_cube_content": {
+								"id": "tnt"
+							}
+						}
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+			"sulfur_cube_bucket_oak_planks",
+			"sulfur_cube_bucket_oak_log",
+			"sulfur_cube_bucket_stripped_oak_log",
+			"sulfur_cube_bucket_oak_wood",
+			"sulfur_cube_bucket_stripped_oak_wood",
+			"sulfur_cube_bucket_dark_oak_planks",
+			"sulfur_cube_bucket_dark_oak_log",
+			"sulfur_cube_bucket_stripped_dark_oak_log",
+			"sulfur_cube_bucket_dark_oak_wood",
+			"sulfur_cube_bucket_stripped_dark_oak_wood",
+			"sulfur_cube_bucket_jungle_planks",
+			"sulfur_cube_bucket_jungle_log",
+			"sulfur_cube_bucket_stripped_jungle_log",
+			"sulfur_cube_bucket_jungle_wood",
+			"sulfur_cube_bucket_stripped_jungle_wood",
+			"sulfur_cube_bucket_spruce_planks",
+			"sulfur_cube_bucket_spruce_log",
+			"sulfur_cube_bucket_stripped_spruce_log",
+			"sulfur_cube_bucket_spruce_wood",
+			"sulfur_cube_bucket_stripped_spruce_wood",
+			"sulfur_cube_bucket_birch_planks",
+			"sulfur_cube_bucket_birch_log",
+			"sulfur_cube_bucket_stripped_birch_log",
+			"sulfur_cube_bucket_birch_wood",
+			"sulfur_cube_bucket_stripped_birch_wood",
+			"sulfur_cube_bucket_mangrove_planks",
+			"sulfur_cube_bucket_mangrove_log",
+			"sulfur_cube_bucket_stripped_mangrove_log",
+			"sulfur_cube_bucket_mangrove_wood",
+			"sulfur_cube_bucket_stripped_mangrove_wood",
+			"sulfur_cube_bucket_pale_oak_planks",
+			"sulfur_cube_bucket_pale_oak_log",
+			"sulfur_cube_bucket_stripped_pale_oak_log",
+			"sulfur_cube_bucket_pale_oak_wood",
+			"sulfur_cube_bucket_stripped_pale_oak_wood",
+			"sulfur_cube_bucket_warped_planks",
+			"sulfur_cube_bucket_warped_stem",
+			"sulfur_cube_bucket_stripped_warped_stem",
+			"sulfur_cube_bucket_warped_hyphae",
+			"sulfur_cube_bucket_stripped_warped_hyphae",
+			"sulfur_cube_bucket_crimson_planks",
+			"sulfur_cube_bucket_crimson_stem",
+			"sulfur_cube_bucket_stripped_crimson_stem",
+			"sulfur_cube_bucket_crimson_hyphae",
+			"sulfur_cube_bucket_stripped_crimson_hyphae",
+			"sulfur_cube_bucket_bamboo_planks",
+			"sulfur_cube_bucket_bamboo_block",
+			"sulfur_cube_bucket_stripped_bamboo_block",
+			"sulfur_cube_bucket_bamboo_mosaic",
+			"sulfur_cube_bucket_acacia_planks",
+			"sulfur_cube_bucket_acacia_log",
+			"sulfur_cube_bucket_stripped_acacia_log",
+			"sulfur_cube_bucket_acacia_wood",
+			"sulfur_cube_bucket_stripped_acacia_wood",
+			"sulfur_cube_bucket_cherry_planks",
+			"sulfur_cube_bucket_cherry_log",
+			"sulfur_cube_bucket_stripped_cherry_log",
+			"sulfur_cube_bucket_cherry_wood",
+			"sulfur_cube_bucket_stripped_cherry_wood",
+			"sulfur_cube_bucket_horn_coral_block",
+			"sulfur_cube_bucket_tube_coral_block",
+			"sulfur_cube_bucket_brain_coral_block",
+			"sulfur_cube_bucket_bubble_coral_block",
+			"sulfur_cube_bucket_fire_coral_block",
+			"sulfur_cube_bucket_dead_fire_coral_block",
+			"sulfur_cube_bucket_dead_horn_coral_block",
+			"sulfur_cube_bucket_dead_tube_coral_block",
+			"sulfur_cube_bucket_dead_brain_coral_block",
+			"sulfur_cube_bucket_dead_bubble_coral_block",
+			"sulfur_cube_bucket_sponge",
+			"sulfur_cube_bucket_wet_sponge",
+			"sulfur_cube_bucket_dried_kelp_block",
+			"sulfur_cube_bucket_moss_block",
+			"sulfur_cube_bucket_pale_moss_block",
+			"sulfur_cube_bucket_resin_block",
+			"sulfur_cube_bucket_resin_bricks",
+			"sulfur_cube_bucket_chiseled_resin_bricks",
+			"sulfur_cube_bucket_pumpkin",
+			"sulfur_cube_bucket_melon",
+			"sulfur_cube_bucket_hay_block",
+			"sulfur_cube_bucket_carved_pumpkin",
+			"sulfur_cube_bucket_jack_o_lantern",
+			"sulfur_cube_bucket_verdant_froglight",
+			"sulfur_cube_bucket_ochre_froglight",
+			"sulfur_cube_bucket_pearlescent_froglight",
+			"sulfur_cube_bucket_blue_ice",
+			"sulfur_cube_bucket_packed_ice",
+			"sulfur_cube_bucket_snow_block",
+			"sulfur_cube_bucket_soul_sand",
+			"sulfur_cube_bucket_soul_soil",
+			"sulfur_cube_bucket_magma_block",
+			"sulfur_cube_bucket_white_concrete_powder",
+			"sulfur_cube_bucket_orange_concrete_powder",
+			"sulfur_cube_bucket_light_blue_concrete_powder",
+			"sulfur_cube_bucket_magenta_concrete_powder",
+			"sulfur_cube_bucket_yellow_concrete_powder",
+			"sulfur_cube_bucket_lime_concrete_powder",
+			"sulfur_cube_bucket_pink_concrete_powder",
+			"sulfur_cube_bucket_cyan_concrete_powder",
+			"sulfur_cube_bucket_gray_concrete_powder",
+			"sulfur_cube_bucket_light_gray_concrete_powder",
+			"sulfur_cube_bucket_purple_concrete_powder",
+			"sulfur_cube_bucket_blue_concrete_powder",
+			"sulfur_cube_bucket_brown_concrete_powder",
+			"sulfur_cube_bucket_green_concrete_powder",
+			"sulfur_cube_bucket_red_concrete_powder",
+			"sulfur_cube_bucket_black_concrete_powder",
+			"sulfur_cube_bucket_white_concrete",
+			"sulfur_cube_bucket_orange_concrete",
+			"sulfur_cube_bucket_light_blue_concrete",
+			"sulfur_cube_bucket_magenta_concrete",
+			"sulfur_cube_bucket_yellow_concrete",
+			"sulfur_cube_bucket_lime_concrete",
+			"sulfur_cube_bucket_pink_concrete",
+			"sulfur_cube_bucket_cyan_concrete",
+			"sulfur_cube_bucket_gray_concrete",
+			"sulfur_cube_bucket_light_gray_concrete",
+			"sulfur_cube_bucket_purple_concrete",
+			"sulfur_cube_bucket_blue_concrete",
+			"sulfur_cube_bucket_brown_concrete",
+			"sulfur_cube_bucket_green_concrete",
+			"sulfur_cube_bucket_red_concrete",
+			"sulfur_cube_bucket_black_concrete",
+			"sulfur_cube_bucket_mud",
+			"sulfur_cube_bucket_muddy_mangrove_roots",
+			"sulfur_cube_bucket_packed_mud",
+			"sulfur_cube_bucket_coal_block",
+			"sulfur_cube_bucket_dirt",
+			"sulfur_cube_bucket_coarse_dirt",
+			"sulfur_cube_bucket_rooted_dirt",
+			"sulfur_cube_bucket_podzol",
+			"sulfur_cube_bucket_grass_block",
+			"sulfur_cube_bucket_clay",
+			"sulfur_cube_bucket_bone_block",
+			"sulfur_cube_bucket_white_terracotta",
+			"sulfur_cube_bucket_orange_terracotta",
+			"sulfur_cube_bucket_light_blue_terracotta",
+			"sulfur_cube_bucket_magenta_terracotta",
+			"sulfur_cube_bucket_yellow_terracotta",
+			"sulfur_cube_bucket_lime_terracotta",
+			"sulfur_cube_bucket_pink_terracotta",
+			"sulfur_cube_bucket_cyan_terracotta",
+			"sulfur_cube_bucket_gray_terracotta",
+			"sulfur_cube_bucket_light_gray_terracotta",
+			"sulfur_cube_bucket_purple_terracotta",
+			"sulfur_cube_bucket_blue_terracotta",
+			"sulfur_cube_bucket_brown_terracotta",
+			"sulfur_cube_bucket_green_terracotta",
+			"sulfur_cube_bucket_red_terracotta",
+			"sulfur_cube_bucket_black_terracotta",
+			"sulfur_cube_bucket_white_glazed_terracotta",
+			"sulfur_cube_bucket_orange_glazed_terracotta",
+			"sulfur_cube_bucket_light_blue_glazed_terracotta",
+			"sulfur_cube_bucket_magenta_glazed_terracotta",
+			"sulfur_cube_bucket_yellow_glazed_terracotta",
+			"sulfur_cube_bucket_lime_glazed_terracotta",
+			"sulfur_cube_bucket_pink_glazed_terracotta",
+			"sulfur_cube_bucket_cyan_glazed_terracotta",
+			"sulfur_cube_bucket_gray_glazed_terracotta",
+			"sulfur_cube_bucket_light_gray_glazed_terracotta",
+			"sulfur_cube_bucket_purple_glazed_terracotta",
+			"sulfur_cube_bucket_blue_glazed_terracotta",
+			"sulfur_cube_bucket_brown_glazed_terracotta",
+			"sulfur_cube_bucket_green_glazed_terracotta",
+			"sulfur_cube_bucket_red_glazed_terracotta",
+			"sulfur_cube_bucket_black_glazed_terracotta",
+			"sulfur_cube_bucket_white_wool",
+			"sulfur_cube_bucket_orange_wool",
+			"sulfur_cube_bucket_light_blue_wool",
+			"sulfur_cube_bucket_magenta_wool",
+			"sulfur_cube_bucket_yellow_wool",
+			"sulfur_cube_bucket_lime_wool",
+			"sulfur_cube_bucket_pink_wool",
+			"sulfur_cube_bucket_cyan_wool",
+			"sulfur_cube_bucket_gray_wool",
+			"sulfur_cube_bucket_light_gray_wool",
+			"sulfur_cube_bucket_purple_wool",
+			"sulfur_cube_bucket_blue_wool",
+			"sulfur_cube_bucket_brown_wool",
+			"sulfur_cube_bucket_green_wool",
+			"sulfur_cube_bucket_red_wool",
+			"sulfur_cube_bucket_black_wool",
+			"sulfur_cube_bucket_amethyst_block",
+			"sulfur_cube_bucket_andesite",
+			"sulfur_cube_bucket_basalt",
+			"sulfur_cube_bucket_blackstone",
+			"sulfur_cube_bucket_bricks",
+			"sulfur_cube_bucket_calcite",
+			"sulfur_cube_bucket_chiseled_cinnabar",
+			"sulfur_cube_bucket_chiseled_deepslate",
+			"sulfur_cube_bucket_chiseled_nether_bricks",
+			"sulfur_cube_bucket_chiseled_polished_blackstone",
+			"sulfur_cube_bucket_chiseled_quartz_block",
+			"sulfur_cube_bucket_chiseled_red_sandstone",
+			"sulfur_cube_bucket_chiseled_sandstone",
+			"sulfur_cube_bucket_chiseled_stone_bricks",
+			"sulfur_cube_bucket_chiseled_sulfur",
+			"sulfur_cube_bucket_chiseled_tuff",
+			"sulfur_cube_bucket_chiseled_tuff_bricks",
+			"sulfur_cube_bucket_cinnabar",
+			"sulfur_cube_bucket_cinnabar_bricks",
+			"sulfur_cube_bucket_cobbled_deepslate",
+			"sulfur_cube_bucket_cobblestone",
+			"sulfur_cube_bucket_cracked_deepslate_bricks",
+			"sulfur_cube_bucket_cracked_deepslate_tiles",
+			"sulfur_cube_bucket_cracked_nether_bricks",
+			"sulfur_cube_bucket_cracked_polished_blackstone_bricks",
+			"sulfur_cube_bucket_cracked_stone_bricks",
+			"sulfur_cube_bucket_crimson_nylium",
+			"sulfur_cube_bucket_crying_obsidian",
+			"sulfur_cube_bucket_cut_red_sandstone",
+			"sulfur_cube_bucket_cut_sandstone",
+			"sulfur_cube_bucket_dark_prismarine",
+			"sulfur_cube_bucket_deepslate",
+			"sulfur_cube_bucket_deepslate_bricks",
+			"sulfur_cube_bucket_deepslate_tiles",
+			"sulfur_cube_bucket_diamond_block",
+			"sulfur_cube_bucket_diorite",
+			"sulfur_cube_bucket_dripstone_block",
+			"sulfur_cube_bucket_emerald_block",
+			"sulfur_cube_bucket_end_stone",
+			"sulfur_cube_bucket_end_stone_bricks",
+			"sulfur_cube_bucket_gilded_blackstone",
+			"sulfur_cube_bucket_glowstone",
+			"sulfur_cube_bucket_granite",
+			"sulfur_cube_bucket_lapis_block",
+			"sulfur_cube_bucket_mossy_cobblestone",
+			"sulfur_cube_bucket_mossy_stone_bricks",
+			"sulfur_cube_bucket_mud_bricks",
+			"sulfur_cube_bucket_nether_bricks",
+			"sulfur_cube_bucket_netherrack",
+			"sulfur_cube_bucket_observer",
+			"sulfur_cube_bucket_obsidian",
+			"sulfur_cube_bucket_polished_andesite",
+			"sulfur_cube_bucket_polished_basalt",
+			"sulfur_cube_bucket_polished_blackstone",
+			"sulfur_cube_bucket_polished_blackstone_bricks",
+			"sulfur_cube_bucket_polished_cinnabar",
+			"sulfur_cube_bucket_polished_deepslate",
+			"sulfur_cube_bucket_polished_diorite",
+			"sulfur_cube_bucket_polished_granite",
+			"sulfur_cube_bucket_polished_sulfur",
+			"sulfur_cube_bucket_polished_tuff",
+			"sulfur_cube_bucket_prismarine",
+			"sulfur_cube_bucket_prismarine_bricks",
+			"sulfur_cube_bucket_purpur_block",
+			"sulfur_cube_bucket_purpur_pillar",
+			"sulfur_cube_bucket_quartz_block",
+			"sulfur_cube_bucket_quartz_bricks",
+			"sulfur_cube_bucket_quartz_ore",
+			"sulfur_cube_bucket_quartz_pillar",
+			"sulfur_cube_bucket_red_nether_bricks",
+			"sulfur_cube_bucket_red_sandstone",
+			"sulfur_cube_bucket_redstone_lamp",
+			"sulfur_cube_bucket_sandstone",
+			"sulfur_cube_bucket_sea_lantern",
+			"sulfur_cube_bucket_smooth_basalt",
+			"sulfur_cube_bucket_smooth_quartz",
+			"sulfur_cube_bucket_smooth_red_sandstone",
+			"sulfur_cube_bucket_smooth_sandstone",
+			"sulfur_cube_bucket_smooth_stone",
+			"sulfur_cube_bucket_stone",
+			"sulfur_cube_bucket_stone_bricks",
+			"sulfur_cube_bucket_sulfur",
+			"sulfur_cube_bucket_sulfur_bricks",
+			"sulfur_cube_bucket_tuff",
+			"sulfur_cube_bucket_tuff_bricks",
+			"sulfur_cube_bucket_warped_nylium",
+			"sulfur_cube_bucket_coal_ore",
+			"sulfur_cube_bucket_deepslate_coal_ore",
+			"sulfur_cube_bucket_deepslate_lapis_ore",
+			"sulfur_cube_bucket_lapis_ore",
+			"sulfur_cube_bucket_redstone_ore",
+			"sulfur_cube_bucket_deepslate_redstone_ore",
+			"sulfur_cube_bucket_deepslate_diamond_ore",
+			"sulfur_cube_bucket_diamond_ore",
+			"sulfur_cube_bucket_emerald_ore",
+			"sulfur_cube_bucket_deepslate_emerald_ore",
+			"sulfur_cube_bucket_terracotta",
+			"sulfur_cube_bucket_iron_block",
+			"sulfur_cube_bucket_gold_block",
+			"sulfur_cube_bucket_raw_copper_block",
+			"sulfur_cube_bucket_raw_gold_block",
+			"sulfur_cube_bucket_raw_iron_block",
+			"sulfur_cube_bucket_gold_ore",
+			"sulfur_cube_bucket_nether_gold_ore",
+			"sulfur_cube_bucket_iron_ore",
+			"sulfur_cube_bucket_copper_ore",
+			"sulfur_cube_bucket_netherite_block",
+			"sulfur_cube_bucket_ancient_debris",
+			"sulfur_cube_bucket_copper_block",
+			"sulfur_cube_bucket_waxed_copper_block",
+			"sulfur_cube_bucket_deepslate_iron_ore",
+			"sulfur_cube_bucket_deepslate_gold_ore",
+			"sulfur_cube_bucket_deepslate_copper_ore",
+			"sulfur_cube_bucket_chiseled_copper",
+			"sulfur_cube_bucket_copper_bulb",
+			"sulfur_cube_bucket_cut_copper",
+			"sulfur_cube_bucket_oxidized_chiseled_copper",
+			"sulfur_cube_bucket_oxidized_copper",
+			"sulfur_cube_bucket_oxidized_copper_bulb",
+			"sulfur_cube_bucket_oxidized_cut_copper",
+			"sulfur_cube_bucket_weathered_chiseled_copper",
+			"sulfur_cube_bucket_weathered_copper",
+			"sulfur_cube_bucket_weathered_copper_bulb",
+			"sulfur_cube_bucket_weathered_cut_copper",
+			"sulfur_cube_bucket_waxed_weathered_chiseled_copper",
+			"sulfur_cube_bucket_waxed_weathered_copper",
+			"sulfur_cube_bucket_waxed_weathered_copper_bulb",
+			"sulfur_cube_bucket_waxed_weathered_cut_copper",
+			"sulfur_cube_bucket_waxed_oxidized_chiseled_copper",
+			"sulfur_cube_bucket_waxed_oxidized_copper",
+			"sulfur_cube_bucket_waxed_oxidized_copper_bulb",
+			"sulfur_cube_bucket_waxed_oxidized_cut_copper",
+			"sulfur_cube_bucket_waxed_chiseled_copper",
+			"sulfur_cube_bucket_waxed_copper_bulb",
+			"sulfur_cube_bucket_waxed_cut_copper",
+			"sulfur_cube_bucket_exposed_chiseled_copper",
+			"sulfur_cube_bucket_exposed_copper",
+			"sulfur_cube_bucket_exposed_copper_bulb",
+			"sulfur_cube_bucket_exposed_cut_copper",
+			"sulfur_cube_bucket_waxed_exposed_chiseled_copper",
+			"sulfur_cube_bucket_waxed_exposed_copper",
+			"sulfur_cube_bucket_waxed_exposed_copper_bulb",
+			"sulfur_cube_bucket_waxed_exposed_cut_copper",
+			"sulfur_cube_bucket_brown_mushroom_block",
+			"sulfur_cube_bucket_red_mushroom_block",
+			"sulfur_cube_bucket_mushroom_stem",
+			"sulfur_cube_bucket_mycelium",
+			"sulfur_cube_bucket_nether_wart_block",
+			"sulfur_cube_bucket_warped_wart_block",
+			"sulfur_cube_bucket_shroomlight",
+			"sulfur_cube_bucket_honeycomb_block",
+			"sulfur_cube_bucket_tnt"
+		]
+    ]
+}

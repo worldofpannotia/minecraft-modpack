@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:vine"
+		},
+		"title": {"translate":"Tarzan"},
+		"description": {"color":"green","translate":"Swing (or climb) on some vines"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/for_you_my_sweet",
+	"rewards": {
+		"function": "bacap_rewards:biomes/tarzan"
+	},
+	"criteria": {
+		"enter_vine": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:vine"
+			}
+		}
+	}
+}

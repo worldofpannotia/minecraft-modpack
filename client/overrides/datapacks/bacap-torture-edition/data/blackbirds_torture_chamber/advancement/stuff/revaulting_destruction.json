@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:vault"
+		},
+		"title": "Revaulting Destruction",
+		"frame": "challenge",
+		"description": {"color":"dark_red","text":"While you’re at it, might as well mine 16 Vaults"}
+	},
+	"parent": "blackbirds_torture_chamber:stuff/care_for_wardens",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/revaulting_destruction"
+	},
+	"criteria": {
+        "vault": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:vault",
+								"value": {
+									"min": 16
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+	}
+}

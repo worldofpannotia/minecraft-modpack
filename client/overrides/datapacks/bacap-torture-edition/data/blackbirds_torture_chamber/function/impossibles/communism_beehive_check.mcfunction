@@ -1,0 +1,3 @@
+advancement grant @a[advancements={blackbirds_torture_chamber:technical/communism_any_beehive=true,blackbirds_torture_chamber:technical/communism_beehive_non_empty=false}] only blackbirds_torture_chamber:stuff/communism beehive_honey_0
+advancement revoke @a[advancements={blackbirds_torture_chamber:stuff/a_complete_collection={beehive_honey_0=false}}] only blackbirds_torture_chamber:technical/communism_any_beehive
+advancement revoke @a[advancements={blackbirds_torture_chamber:stuff/a_complete_collection={beehive_honey_0=false}}] only blackbirds_torture_chamber:technical/communism_beehive_non_empty

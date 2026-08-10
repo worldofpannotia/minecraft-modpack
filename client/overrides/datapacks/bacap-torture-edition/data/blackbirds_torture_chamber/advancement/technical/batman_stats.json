@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/batman_stats_update"
+	},	
+  	"criteria": {
+		"spyglass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:spyglass"
+					}
+				]
+			}
+		}
+	}
+}

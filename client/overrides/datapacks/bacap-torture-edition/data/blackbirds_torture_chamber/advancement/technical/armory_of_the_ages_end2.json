@@ -1,0 +1,35 @@
+{
+	"parent": "blackbirds_torture_chamber:technical/armory_of_the_ages_netherite",	
+	"criteria": {
+		"root1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"advancements": {
+							"blazeandcave:adventure/coordinated_flair": true
+						}
+					}
+				}
+			}
+		},
+		"root2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"advancements": {
+							"blazeandcave:adventure/chromatic_armory": true
+						}
+					}
+				}
+			}
+		}
+	},
+    "requirements": [
+        [
+            "root1",
+            "root2"
+        ]
+	]
+}

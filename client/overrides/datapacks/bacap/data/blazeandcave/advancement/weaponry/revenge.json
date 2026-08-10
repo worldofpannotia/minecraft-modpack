@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:creeper_head"
+		},
+		"title": {"translate":"Revenge!"},
+		"description": {"color":"green","translate":"Blow up a creeper with TNT"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/bombs_away",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/revenge"
+	},		
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "creeper"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "tnt"
+					},
+					"tags": [
+						{
+							"id": "minecraft:is_explosion",
+							"expected": true
+						}
+					]
+				}
+			}
+		}
+	}
+}

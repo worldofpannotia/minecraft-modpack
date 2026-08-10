@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Actual Immortal",
+    "description": {
+      "color": "dark_red",
+      "text": "Don't die for 1000 Days Straight"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/actual_immortal"
+  },
+  "criteria": {
+    "actual_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:time_since_death",
+                "value": {
+                  "min": 24000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

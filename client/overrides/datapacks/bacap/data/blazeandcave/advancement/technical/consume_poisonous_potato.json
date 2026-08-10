@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/statistics/consume_poisonous_potato"
+	},
+	"criteria": {
+		"consume_poisonous_potato": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:poisonous_potato"
+					]
+				}
+			}
+		}
+	}
+}

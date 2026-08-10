@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/storage_upgrade_required",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

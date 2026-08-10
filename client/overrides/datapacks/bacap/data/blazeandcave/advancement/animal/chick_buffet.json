@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chicken"
+		},
+		"title": {"translate":"Chick Buffet"},
+		"description": {"color":"#75E1FF","translate":"Unite all Chicken variants in one place"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/omelette",
+	"rewards": {
+		"function": "bacap_rewards:animal/chick_buffet"
+	},		
+	"criteria": {
+		"unite": {
+			"trigger": "minecraft:impossible"
+		}		
+	}	
+}

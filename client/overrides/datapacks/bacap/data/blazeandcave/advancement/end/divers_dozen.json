@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:harming"
+				}
+			}
+		},
+		"title": {"translate":"Diver's Dozen"},
+		"description": {"color":"dark_purple","translate":"Kill 12 mobs while airborne using Elytra. Stopping flight or touching liquid will reset your progress"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:end/sky_high",
+	"rewards": {
+		"function": "bacap_rewards:end/divers_dozen"
+	},			
+	"criteria": {
+		"divers_dozen": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

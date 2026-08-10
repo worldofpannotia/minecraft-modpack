@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:dialog_list",
+    "title": "Enchantment+ Wiki",
+    "columns": 1,
+    "button_width": 250,
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Enchantment+",
+                    "color": "#DD9900"
+                },
+                {
+                    "text": " v5.4 for Minecraft 26.2\nMade by ",
+                    "color": "white"
+                },
+                {
+                    "text": "Wyvernity\n\n",
+                    "color": "dark_aqua"
+                },
+                {
+                    "text": "This wiki provides detailed information about Enchantment+ data pack.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "dialogs": [
+        "enchantmentplus:increased_enchantment_levels",
+        "enchantmentplus:tomes",
+        "enchantmentplus:new_enchantment_types",
+        "enchantmentplus:new_enchantments",
+        "enchantmentplus:new_villager_trades"
+    ],
+    "exit_action": {
+        "label": "Exit"
+    }
+}

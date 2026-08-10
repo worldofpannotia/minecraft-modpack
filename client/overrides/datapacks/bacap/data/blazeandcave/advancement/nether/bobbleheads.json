@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:strider_spawn_egg"
+		},
+		"title": {"translate":"Bobbleheads"},
+		"description": {"color":"green","translate":"Breed two Striders using Warped Fungus"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/ride_strider",
+	"rewards": {
+		"function": "bacap_rewards:nether/bobbleheads"
+	},		
+	"criteria": {
+		"strider": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"entity_type": "minecraft:strider"
+				},
+				"partner": {
+					"entity_type": "minecraft:strider"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wither_skeleton_skull"
+        },
+        "title": "I hope you've built a Raid Farm",
+        "description": {"color":"#8b00e8","text":"Use 1000 Totems of Undying"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/totem_500",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/totem_1000"
+	}
+}

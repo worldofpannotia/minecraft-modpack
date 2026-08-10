@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chiseled_tuff_bricks"
+		},
+		"title": {"translate":"Tuff Stuff"},
+		"description": {"color":"green","translate":"Craft or collect all forms of Tuff, Polished Tuff, and Tuff Bricks"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/fake_stronghold",
+	"rewards": {
+		"function": "bacap_rewards:building/tuff_stuff"
+	},		
+	"criteria": {
+		"tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff"
+						]
+					}
+				]
+			}
+		},
+		"tuff_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_slab"
+						]
+					}
+				]
+			}
+		},
+		"tuff_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_stairs"
+						]
+					}
+				]
+			}
+		},
+		"tuff_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_wall"
+						]
+					}
+				]
+			}
+		},
+		"polished_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_tuff"
+						]
+					}
+				]
+			}
+		},
+		"polished_tuff_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_tuff_slab"
+						]
+					}
+				]
+			}
+		},
+		"polished_tuff_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_tuff_stairs"
+						]
+					}
+				]
+			}
+		},
+		"polished_tuff_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_tuff_wall"
+						]
+					}
+				]
+			}
+		},
+		"tuff_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_bricks"
+						]
+					}
+				]
+			}
+		},
+		"tuff_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_brick_slab"
+						]
+					}
+				]
+			}
+		},
+		"tuff_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_brick_stairs"
+						]
+					}
+				]
+			}
+		},
+		"tuff_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff_brick_wall"
+						]
+					}
+				]
+			}
+		},
+		"chiseled_tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_tuff"
+						]
+					}
+				]
+			}
+		},
+		"chiseled_tuff_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_tuff_bricks"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:barrier"
+		},
+		"title": "Pixel Perfecter",
+		"description": {
+			"color": "dark_red",
+			"text": "Use a Spyglass to stare at a bat from exactly 100 Blocks away",
+			"extra": [
+				{
+					"text": "\n"
+				},
+				{
+					"italic": true,
+					"color": "dark_gray",
+					"translate": "The Distance needs to be Horizontal"
+				}
+			]
+		},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:mining/pixel_perfect",
+	"criteria": {
+		"pixel_perfecter": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific/player": {
+								"looking_at": {
+									"entity_type": "minecraft:bat",
+									"distance": {
+										"absolute": {
+											"min": 100
+										}
+									}
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/pixel_perfecter"
+	}
+}

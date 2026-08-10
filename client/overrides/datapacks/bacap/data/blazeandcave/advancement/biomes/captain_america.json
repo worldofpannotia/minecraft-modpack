@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {"base_color":"white","banner_patterns":[{"color":"red","pattern":"minecraft:rhombus"},{"color":"white","pattern":"minecraft:circle"},{"color":"blue","pattern":"minecraft:flower"},{"color":"red","pattern":"minecraft:curly_border"}]}
+		},
+		"title": {"translate":"Captain America"},
+		"description": {"color":"dark_purple","translate":"Get completely frozen inside two blocks of Powder Snow for a loooong time.","extra":[{"text":"\n"},{"translate":"Big question is: Can you do this all day?"},{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_timers"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+	"rewards": {
+		"function": "bacap_rewards:biomes/captain_america"
+	},		
+	"criteria": {
+		"captain_america": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

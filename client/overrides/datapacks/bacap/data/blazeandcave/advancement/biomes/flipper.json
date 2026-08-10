@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:light_blue_wool"
+		},
+		"title": {"translate":"Flipper"},
+		"description": {"color":"green","translate":"Give a Dolphin something to play with"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/the_sea_calls_you",
+	"rewards": {
+		"function": "bacap_rewards:biomes/flipper"
+	},
+	"criteria": {
+		"flipper": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "dolphin"
+				}
+			}
+		}
+	}
+}

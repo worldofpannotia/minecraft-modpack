@@ -1,0 +1,17 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/where_are_the_farlands",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"advancements": {
+							"blazeandcave:challenges/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

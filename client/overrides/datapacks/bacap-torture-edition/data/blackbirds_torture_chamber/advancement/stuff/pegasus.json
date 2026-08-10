@@ -1,0 +1,125 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:elytra"
+		},
+		"title": {"translate":"Pegasus"},
+		"description": {"color":"dark_red","text":"Ride a White Flying Horse"},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:animal/master_farrier",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/pegasus"
+	},
+	"criteria": {
+		"pegasus_none": {
+		  	"trigger": "minecraft:started_riding",
+		  	"conditions": {
+				"player": [
+			  		{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+				  			"vehicle": {
+								"entity_type": "minecraft:horse",
+								"effects":{
+									"minecraft:levitation": {}
+								},
+								"nbt":"{Variant:0}"
+				  			}
+						}
+			  		}
+				]
+		  	}
+		},
+		"pegasus_white": {
+		  	"trigger": "minecraft:started_riding",
+		  	"conditions": {
+				"player": [
+			  		{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+				  			"vehicle": {
+								"entity_type": "minecraft:horse",
+								"effects":{
+									"minecraft:levitation": {}
+								},
+								"nbt":"{Variant:256}"
+				  			}
+						}
+			  		}
+				]
+		  	}
+		},
+		"pegasus_white_field": {
+		  	"trigger": "minecraft:started_riding",
+		  	"conditions": {
+				"player": [
+			  		{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+				  			"vehicle": {
+								"entity_type": "minecraft:horse",
+								"effects":{
+									"minecraft:levitation": {}
+								},
+								"nbt":"{Variant:512}"
+				  			}
+						}
+			  		}
+				]
+		  	}
+		},
+		"pegasus_white_dots": {
+		  	"trigger": "minecraft:started_riding",
+		  	"conditions": {
+				"player": [
+			  		{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+				  			"vehicle": {
+								"entity_type": "minecraft:horse",
+								"effects":{
+									"minecraft:levitation": {}
+								},
+								"nbt":"{Variant:768}"
+				  			}
+						}
+			  		}
+				]
+		  	}
+		},
+		"pegasus_black_dots": {
+		  	"trigger": "minecraft:started_riding",
+		  	"conditions": {
+				"player": [
+			  		{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+				  			"vehicle": {
+								"entity_type": "minecraft:horse",
+								"effects":{
+									"minecraft:levitation": {}
+								},
+								"nbt":"{Variant:1024}"
+				  			}
+						}
+			  		}
+				]
+		  	}
+		}
+	},
+	"requirements":[
+		[
+			"pegasus_none",
+			"pegasus_white",
+			"pegasus_white_field",
+			"pegasus_white_dots",
+			"pegasus_black_dots"
+		]
+	]
+}

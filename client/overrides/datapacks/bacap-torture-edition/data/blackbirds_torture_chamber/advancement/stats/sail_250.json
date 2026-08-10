@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:acacia_boat"
+        },
+        "title": "Captain Coldbeard",
+        "description": {"color":"#8b00e8","text":"Sail 250km in a Boat"},
+		"frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/sail_100",	
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:boat_one_cm",
+								"value": {
+									"min": 25000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/sail_250"
+	}
+}

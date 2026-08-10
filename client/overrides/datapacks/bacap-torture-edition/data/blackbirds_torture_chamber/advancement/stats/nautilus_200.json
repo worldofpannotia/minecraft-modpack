@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_nautilus_armor"
+		},
+		"title": {
+			"text": "20.000 ",
+			"extra": [
+				{
+					"text": "Leagues",
+					"strikethrough": true
+				},
+				{
+					"text": " Decameters under the Sea"
+				}
+			]
+		},
+		"description": {
+			"color": "#8b00e8",
+			"text": "Ride 200km on a Nautilus"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blackbirds_torture_chamber:stats/nautilus_100",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:nautilus_one_cm",
+								"value": {
+									"min": 20000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/nautilus_200"
+	}
+}

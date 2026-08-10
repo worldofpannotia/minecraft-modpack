@@ -1,0 +1,38 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.divine_hunter",
+        "fallback": "\u00A76Divine Hunter"
+    },
+    "effects": {
+        "minecraft:projectile_spawned": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/divine_hunter/shot_arrow"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "minecraft:spectral_arrow"
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 4,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/divine_hunter",
+    "weight": 1
+}

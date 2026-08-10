@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "gluttonous": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "title": "Gluttonous",
+        "description": {"color":"dark_red","text":"Eat 10,000 cakes"},
+        "icon": {
+            "id": "cake"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/must_be_your_birthday",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/gluttonous"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_trial_key"
+		},
+		"title": {"translate":"Revaulting"},
+		"description": {"color":"#75E1FF","translate":"Unlock an Ominous Vault with an Ominous Trial Key"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:adventure/hard_mode_activated",
+	"rewards": {
+		"function": "bacap_rewards:adventure/revaulting"
+	},
+	"criteria": {
+		"revaulting": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:vault",
+								"state": {
+									"ominous": "true"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:ominous_trial_key"
+						}
+					}
+				]
+			}
+		}
+	}
+}

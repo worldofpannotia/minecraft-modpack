@@ -1,0 +1,189 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.swirling",
+        "fallback": "Swirling"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/swirling/tag_user"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/swirling/hostile"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_hostile"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/swirling/neutral"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_neutral"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/swirling/passive"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_passive"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/swirling/tag_remove"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:damage_source_properties",
+                            "predicate": {
+                                "is_direct": true
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/special_hit_effect",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/swirling",
+    "weight": 1
+}

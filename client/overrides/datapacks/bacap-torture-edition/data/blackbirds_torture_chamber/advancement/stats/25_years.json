@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cake"
+        },
+        "title": "Hello from 2034",
+        "description": {"color":"#8b00e8","text":"Play for Half a Half-Century","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_statistics"}]},
+		"frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/10_years",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/25_years"
+	}
+}

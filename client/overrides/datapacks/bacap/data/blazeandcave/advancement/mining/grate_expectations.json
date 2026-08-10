@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:copper_grate"
+		},
+		"title": {"translate":"Grate Expectations"},
+		"description": {"color":"green","translate":"Craft or obtain a Copper Grate"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/dont_come_a_copper",
+	"rewards": {
+		"function": "bacap_rewards:mining/grate_expectations"
+	},		
+	"criteria": {
+		"cut_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_grate",
+							"minecraft:exposed_copper_grate",
+							"minecraft:weathered_copper_grate",
+							"minecraft:oxidized_copper_grate",
+							"minecraft:waxed_copper_grate",
+							"minecraft:waxed_exposed_copper_grate",
+							"minecraft:waxed_weathered_copper_grate",
+							"minecraft:waxed_oxidized_copper_grate"
+						]
+					}
+				]
+			}
+		}
+	}
+}

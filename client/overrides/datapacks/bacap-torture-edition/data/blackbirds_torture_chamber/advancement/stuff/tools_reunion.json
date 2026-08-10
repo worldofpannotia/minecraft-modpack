@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_sword"
+        },
+        "title": {
+            "translate": "Tools Reunion"
+        },
+        "description": {
+            "color": "dark_red",
+            "translate": "Gather Zombified Piglins holding all natural tools possible around you"
+        },
+        "announce_to_chat": true
+    },
+    "parent": "blazeandcave:nether/the_tribal_snouts",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/tools_reunion"
+    },
+    "criteria": {
+        "reunion": {
+            "trigger": "impossible"
+        }
+    }
+}

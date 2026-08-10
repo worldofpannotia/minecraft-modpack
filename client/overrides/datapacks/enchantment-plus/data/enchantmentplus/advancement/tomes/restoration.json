@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"restoration\"}}"
+                                    }
+                                },
+                                "offhand": {
+                                    "predicates": {
+                                        "minecraft:damage": {
+                                            "damage": {
+                                                "min": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"restoration\"}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantmentplus:tomes/restoration/used"
+    }
+}

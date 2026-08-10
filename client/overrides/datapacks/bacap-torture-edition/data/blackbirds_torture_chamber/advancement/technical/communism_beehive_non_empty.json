@@ -1,0 +1,93 @@
+{
+    "criteria": {
+        "beehive_honey_1": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive",
+                    "components": {
+                        "minecraft:block_state": {
+                            "honey_level": "1"
+                        }
+                    }
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        },
+        "beehive_honey_2": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive",
+                    "components": {
+                        "minecraft:block_state": {
+                            "honey_level": "2"
+                        }
+                    }
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        },
+        "beehive_honey_3": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive",
+                    "components": {
+                        "minecraft:block_state": {
+                            "honey_level": "3"
+                        }
+                    }
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        },
+        "beehive_honey_4": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive",
+                    "components": {
+                        "minecraft:block_state": {
+                            "honey_level": "4"
+                        }
+                    }
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        },
+        "beehive_honey_5": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive",
+                    "components": {
+                        "minecraft:block_state": {
+                            "honey_level": "5"
+                        }
+                    }
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+			"beehive_honey_1",
+			"beehive_honey_2",
+			"beehive_honey_3",
+			"beehive_honey_4",
+			"beehive_honey_5"
+		]
+    ]
+}

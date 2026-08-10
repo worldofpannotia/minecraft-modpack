@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trial_key"
+		},
+		"title": {"translate":"Under Lock and Key"},
+		"description": {"color":"green","translate":"Unlock a Vault using a Trial Key"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/minecraft_trials_edition",
+	"rewards": {
+		"function": "bacap_rewards:adventure/under_lock_and_key"
+	},
+	"criteria": {
+		"under_lock_and_key": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:vault",
+								"state": {
+									"ominous": "false"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:trial_key"
+						}
+					}
+				]
+			}
+		}
+	}
+}

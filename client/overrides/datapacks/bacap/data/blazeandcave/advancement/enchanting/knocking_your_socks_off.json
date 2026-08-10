@@ -1,0 +1,91 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_sword"
+		},
+		"title": {"translate":"Knocking Your Socks Off"},
+		"description": {"color":"#75E1FF","translate":"Obtain Knockback and Punch enchantments"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/armor_for_the_masses",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/knocking_your_socks_off"
+	},			
+	"criteria": {
+		"knockback": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:knockback"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"punch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:punch"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"knockback_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:knockback"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"punch_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:punch"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"knockback",
+			"knockback_book"
+		],
+		[
+			"punch",
+			"punch_book"
+		]
+	]
+}

@@ -1,0 +1,18 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/communism_beehive_initiation"
+    },
+    "criteria": {
+        "any_beehive": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beehive"
+                },
+                "entity": {
+                    "entity_type": "zombie"
+                }
+            }
+        }
+    }
+}

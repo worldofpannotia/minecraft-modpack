@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:glowstone"
+		},
+		"title": {"translate":"Not Quite 'Nine' Lives"},
+		"description": {"color":"#75E1FF","translate":"Charge a Respawn Anchor to the maximum"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:nether/anchorman",
+	"rewards": {
+		"function": "bacap_rewards:nether/not_quite_nine_lives"
+	},
+	"criteria": {
+		"charge_respawn_anchor": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								],
+								"state": {
+									"charges": "4"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:glowstone"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"charge_respawn_anchor"
+		]
+	]
+}

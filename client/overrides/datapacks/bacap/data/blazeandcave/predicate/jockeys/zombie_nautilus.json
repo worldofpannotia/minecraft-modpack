@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "zombie_nautilus",
+		"passenger": {
+			"entity_type": "drowned"
+		}
+	}
+}

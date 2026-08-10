@@ -1,0 +1,5 @@
+execute if score @s like_an_enderman matches 1.. run tellraw @s {"color":"white","translate":"Like an Enderman","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"like_an_enderman"}}]}
+execute if score @s starvin_marvin matches 1.. run tellraw @s {"color":"white","translate":"Starvin Marvin","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"starvin_marvin"}}]}
+execute if score @s must_find_land matches 1.. run tellraw @s {"color":"white","translate":"Must Find Land","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"must_find_land"}}]}
+execute if score @s hardcore_hell matches 1.. run tellraw @s {"color":"white","translate":"Hardcore Hell","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"hardcore_hell"}}]}
+execute if score @s hardcore_hell2 matches 1.. run tellraw @s {"color":"white","translate":"Hardcore Hell 2","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"hardcore_hell2"}}]}

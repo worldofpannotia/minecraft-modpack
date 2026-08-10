@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bow",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "Legolas",
+		"description": {"color":"dark_red","text":"Hit the Bullseye of a Target Block with an Arrow from at least 12 Chunks away"},
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/bullseye",
+	"criteria": {
+		"bullseye": {
+			"trigger": "minecraft:target_hit",
+			"conditions": {
+				"signal_strength": 15,
+				"projectile": [
+					{
+						"entity": "this",
+						"condition": "minecraft:entity_properties",
+							"predicate": {
+								"entity_type": "minecraft:arrow",
+								"distance": {
+									"horizontal": {
+									"min": 192.0
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/legolas"
+	}
+}

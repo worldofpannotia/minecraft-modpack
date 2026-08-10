@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/stride_100",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

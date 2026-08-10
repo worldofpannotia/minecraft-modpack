@@ -1,0 +1,704 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.dashing",
+        "fallback": "Dashing"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                0,
+                                0,
+                                1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/forward"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "backward": false,
+                                        "left": false,
+                                        "right": false,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                0,
+                                0,
+                                -1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/backward"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": false,
+                                        "backward": true,
+                                        "left": false,
+                                        "right": false,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/left"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": false,
+                                        "backward": false,
+                                        "left": true,
+                                        "right": false,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                -1,
+                                0,
+                                0
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/right"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": false,
+                                        "backward": false,
+                                        "left": false,
+                                        "right": true,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/forward_left"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": true,
+                                        "backward": false,
+                                        "left": true,
+                                        "right": false,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                -1,
+                                0,
+                                1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/forward_right"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": true,
+                                        "backward": false,
+                                        "left": false,
+                                        "right": true,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                1,
+                                0,
+                                -1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/backward_left"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": false,
+                                        "backward": true,
+                                        "left": true,
+                                        "right": false,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": 8
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                0,
+                                1
+                            ],
+                            "direction": [
+                                -1,
+                                0,
+                                -1
+                            ],
+                            "magnitude": 1.2
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/dashing/direction/backward_right"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "forward": false,
+                                        "backward": true,
+                                        "left": false,
+                                        "right": true,
+                                        "jump": true,
+                                        "sneak": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.dashing_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.food": {
+                                    "min": 6
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "legs"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/dashing",
+    "weight": 2
+}

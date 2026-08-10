@@ -1,0 +1,14 @@
+{   
+    "item.simple_paxels.copper_paxel": "Bakır Paxel",
+    "item.simple_paxels.diamond_paxel": "Elmas Paxel",
+    "item.simple_paxels.golden_paxel": "Altın Paxel",
+    "item.simple_paxels.iron_paxel": "Demir Paxel",
+    "item.simple_paxels.netherite_paxel": "Netherit Paxel",
+    "item.simple_paxels.stone_paxel": "Taş Paxel",
+    "item.simple_paxels.wooden_paxel": "Tahta Paxel",
+    
+    "desc.simple_paxels.tool_switch.axe": "\u00a77Kazma  \u00a78>  \u00a76Balta  \u00a78>  \u00a77Kürek  \u00a78>  \u00a77Çapa",
+    "desc.simple_paxels.tool_switch.hoe": "\u00a77Kazma  \u00a78>  \u00a77Balta  \u00a78>  \u00a77Kürek  \u00a78>  \u00a76Çapa",
+    "desc.simple_paxels.tool_switch.pickaxe": "\u00a76Kazma  \u00a78>  \u00a77Balta  \u00a78>  \u00a77Kürek  \u00a78>  \u00a77Çapa",
+    "desc.simple_paxels.tool_switch.shovel": "\u00a77Kazma  \u00a78>  \u00a77Balta  \u00a78>  \u00a76Kürek  \u00a78>  \u00a77Çapa"
+}

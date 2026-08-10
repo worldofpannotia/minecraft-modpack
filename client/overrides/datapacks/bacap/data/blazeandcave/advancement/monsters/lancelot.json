@@ -1,0 +1,141 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_spear"
+		},
+		"title": {"translate":"Lancelot"},
+		"description": {"color":"#75E1FF","translate":"While riding a Horse, defeat a Zombie Horseman using a Spear"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:monsters/grim_neigh",
+	"rewards": {
+		"function": "bacap_rewards:monsters/lancelot"
+	},		
+	"criteria": {
+		"lancelot_zombie_mainhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie",
+					"vehicle": {
+						"entity_type": "zombie_horse"
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_player_attack",
+							"expected": true
+						}
+					]
+				},			
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "#blazeandcave:all_horses"
+					}
+				}
+			}
+		},
+		"lancelot_zombie_offhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie",
+					"vehicle": {
+						"entity_type": "zombie_horse"
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "#blazeandcave:all_horses"
+					}
+				}
+			}
+		},
+		"lancelot_horse_mainhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_horse",
+					"passenger": {
+						"entity_type": "minecraft:zombie"
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_player_attack",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "#blazeandcave:all_horses"
+					}
+				}
+			}
+		},
+		"lancelot_horse_offhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_horse",
+					"passenger": {
+						"entity_type": "minecraft:zombie"
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears"
+						}
+					},
+					"vehicle": {
+						"entity_type": "#blazeandcave:all_horses"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"lancelot_zombie_mainhand",
+			"lancelot_zombie_offhand",
+			"lancelot_horse_mainhand",
+			"lancelot_horse_offhand"
+		]
+	]
+}

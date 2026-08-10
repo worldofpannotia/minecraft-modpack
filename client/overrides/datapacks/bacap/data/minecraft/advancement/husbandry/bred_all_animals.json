@@ -1,0 +1,233 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:hay_block"
+		},
+		"title": {"translate":"Two By Two"},
+		"description": {"color":"dark_purple","translate":"Breed every type of animal"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:animal/milkshroom",
+	"rewards": {
+		"function": "bacap_rewards:animal/two_by_two"
+	},		
+	"criteria": {
+	"minecraft:horse": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"child": {
+		  "entity_type": "minecraft:horse"
+		}
+	  }
+	},
+	"minecraft:sheep": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:sheep"
+		}
+	  }
+	},
+	"minecraft:cow": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:cow"
+		}
+	  }
+	},
+	"minecraft:mooshroom": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:mooshroom"
+		}
+	  }
+	},
+	"minecraft:pig": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:pig"
+		}
+	  }
+	},
+	"minecraft:chicken": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:chicken"
+		}
+	  }
+	},
+	"minecraft:wolf": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:wolf"
+		}
+	  }
+	},
+	"minecraft:ocelot": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:ocelot"
+		}
+	  }
+	},
+	"minecraft:rabbit": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:rabbit"
+		}
+	  }
+	},
+	"minecraft:llama": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:llama"
+		}
+	  }
+	},
+	"minecraft:turtle": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:turtle"
+		}
+	  }
+	},
+	"minecraft:cat": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:cat"
+		}
+	  }
+	},
+	"minecraft:panda": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:panda"
+		}
+	  }
+	},
+	"minecraft:fox": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:fox"
+		}
+	  }
+	},
+	"minecraft:bee": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:bee"
+		}
+	  }
+	},
+	"minecraft:hoglin": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:hoglin"
+		}
+	  }
+	},
+	"minecraft:strider": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:strider"
+		}
+	  }
+	},
+	"minecraft:axolotl": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:axolotl"
+		}
+	  }
+	},
+	"minecraft:goat": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:goat"
+		}
+	  }
+	},
+	"minecraft:trader_llama": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:trader_llama"
+		}
+	  }
+	},
+	"minecraft:donkey": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"child": {
+		  "entity_type": "minecraft:donkey"
+		}
+	  }
+	},
+	"minecraft:mule": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"child": {
+		  "entity_type": "minecraft:mule"
+		}
+	  }
+	},
+	"minecraft:frog": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:frog"
+		}
+	  }
+	},
+	"minecraft:camel": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:camel"
+		}
+	  }
+	},
+	"minecraft:sniffer": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:sniffer"
+		}
+	  }
+	},
+	"minecraft:armadillo": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:armadillo"
+		}
+	  }
+	},
+	"minecraft:nautilus": {
+	  "trigger": "minecraft:bred_animals",
+	  "conditions": {
+		"parent": {
+		  "entity_type": "minecraft:nautilus"
+		}
+	  }
+	}
+  }
+}

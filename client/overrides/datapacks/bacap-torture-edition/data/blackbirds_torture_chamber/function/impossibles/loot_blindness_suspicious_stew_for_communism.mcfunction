@@ -1,0 +1,1 @@
+advancement grant @s only blackbirds_torture_chamber:stuff/communism loot_suspicious_stew_blindness

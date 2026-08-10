@@ -1,0 +1,17 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/what_are_the_requirements",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"advancements": {
+							"blazeandcave:challenges/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_boots",
+            "components": {
+                "minecraft:dyed_color": 16711816
+            }
+        },
+        "title": "Got me spinning like a Ballerina",
+        "description": {"color":"#75E1FF","text":"Wash 50 Items"},
+        "frame": "goal"
+    },
+    "parent": "blackbirds_torture_chamber:stats/wash_10",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/wash_50"
+	}
+}

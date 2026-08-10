@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/dried_kelp_eaten"
+	},	
+	"criteria": {
+		"dried_kelp": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:dried_kelp"
+					]
+				}
+			}
+		}
+	}
+}

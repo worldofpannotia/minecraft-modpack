@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:firework_star",
+			"components": {
+				"minecraft:firework_explosion": {
+					"shape": "small_ball",
+					"colors": [4312372]
+				}
+			}
+		},
+		"title": {"translate":"Pyrotechnic"},
+		"description": {"color":"#75E1FF","translate":"Craft a firework of every shape and additional effect"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/fireworks_display",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/pyrotechnic"
+	},		
+	"criteria": {
+		"small_ball": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "small_ball"
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"large_ball": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "large_ball"
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"star": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "star"
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "creeper"
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"burst": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"shape": "burst"
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"flicker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"has_twinkle": true
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"trail": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firework_rocket"
+						],
+						"predicates": {
+							"minecraft:fireworks": {
+								"explosions": {
+									"contains": [
+										{
+											"has_trail": true
+										}
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

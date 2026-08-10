@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_leggings",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"The Mistake!"},
+		"description": {"color":"dark_purple","translate":"Put Mending on a piece of golden armor and realise what you are doing in life"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:mining/living_like_kings",
+	"rewards": {
+		"function": "bacap_rewards:mining/the_mistake"
+	},
+	"criteria": {
+		"the_mistake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:golden_helmet",
+							"minecraft:golden_chestplate",
+							"minecraft:golden_leggings",
+							"minecraft:golden_boots"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:mending"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

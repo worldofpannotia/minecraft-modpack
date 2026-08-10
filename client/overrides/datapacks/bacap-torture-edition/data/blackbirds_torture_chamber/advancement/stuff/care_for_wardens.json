@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:reinforced_deepslate"
+		},
+		"title": "Care for Wardens",
+		"description": {
+			"color":"dark_red",
+			"text":"Time to go mine 8 Reinforced Deepslates"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blackbirds_torture_chamber:stuff/even_future_entities",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/care_for_wardens"
+	},
+	"criteria": {
+        "reinforced_deepslate": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:mined",
+								"stat": "minecraft:reinforced_deepslate",
+								"value": {
+									"min": 8
+								}
+							}
+						]
+					}
+				}
+			}
+        }
+	}
+}

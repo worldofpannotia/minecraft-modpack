@@ -1,0 +1,172 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:polished_cinnabar"
+		},
+		"title": {"translate":"Cinnabar Island"},
+		"description": {"color":"green","translate":"Craft or collect all forms of Cinnabar, Polished Cinnabar, and Cinnabar Bricks"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/the_smell_of_rotten_eggs",
+	"rewards": {
+		"function": "bacap_rewards:building/cinnabar_island"
+	},		
+	"criteria": {
+		"cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_slab"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_stairs"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_wall"
+						]
+					}
+				]
+			}
+		},
+		"polished_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar"
+						]
+					}
+				]
+			}
+		},
+		"polished_cinnabar_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_slab"
+						]
+					}
+				]
+			}
+		},
+		"polished_cinnabar_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_stairs"
+						]
+					}
+				]
+			}
+		},
+		"polished_cinnabar_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_cinnabar_wall"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_bricks"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_slab"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_stairs"
+						]
+					}
+				]
+			}
+		},
+		"cinnabar_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cinnabar_brick_wall"
+						]
+					}
+				]
+			}
+		},
+		"chiseled_cinnabar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_cinnabar"
+						]
+					}
+				]
+			}
+		}
+	}
+}

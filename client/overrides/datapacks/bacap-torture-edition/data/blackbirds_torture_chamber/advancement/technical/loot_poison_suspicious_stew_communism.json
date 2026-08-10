@@ -1,0 +1,164 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_poison_suspicious_stew_for_communism"
+    },
+    "criteria": {
+		"200ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":200
+							}
+						]
+					}
+				}
+			}
+		},
+        "240ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":240
+							}
+						]
+					}
+				}
+			}
+		},
+        "260ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":260
+							}
+						]
+					}
+				}
+			}
+		},
+        "300ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":300
+							}
+						]
+					}
+				}
+			}
+		},
+        "320ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":320
+							}
+						]
+					}
+				}
+			}
+		},
+        "340ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":340
+							}
+						]
+					}
+				}
+			}
+		},
+        "360ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":360
+							}
+						]
+					}
+				}
+			}
+		},
+        "380ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":380
+							}
+						]
+					}
+				}
+			}
+		},
+        "400ticks": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew",
+					"components":{
+						"minecraft:suspicious_stew_effects":[
+							{
+								"id":"poison",
+								"duration":400
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+    "requirements": [
+        [
+            "200ticks",
+            "240ticks",
+            "260ticks",
+            "300ticks",
+			"320ticks",
+            "340ticks",
+            "360ticks",
+            "380ticks",
+            "400ticks"
+        ]
+    ]
+}

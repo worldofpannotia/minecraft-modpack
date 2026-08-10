@@ -1,0 +1,175 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_sword"
+		},
+		"title": {"translate":"Night Runner"},
+		"description": {"color":"#75E1FF","translate":"Defeat all kinds of Overworld night mobs"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/kill_a_mob",
+	"rewards": {
+		"function": "bacap_rewards:monsters/night_runner"
+	},	
+	"criteria": {
+		"spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "spider"
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "enderman",
+					"location": {
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "creeper"
+				}
+			}
+		},
+		"husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "husk"
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:skeleton",
+					"location": {
+						"dimension": "overworld"
+					}
+				}
+			}
+		},
+		"slime": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "slime"
+				}
+			}
+		},
+		"stray": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "stray"
+				}
+			}
+		},
+		"witch": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "witch"
+				}
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_villager"
+				}
+			}
+		},
+		"phantom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "phantom"
+				}
+			}
+		},
+		"drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "drowned"
+				}
+			}
+		},
+		"bogged": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "bogged"
+				}
+			}
+		},
+		"creaking": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "creaking"
+				}
+			}
+		},
+		"skeleton_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "skeleton_horse"
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_horse"
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_nautilus"
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "camel_husk"
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "parched"
+				}
+			}
+		}
+	}
+}

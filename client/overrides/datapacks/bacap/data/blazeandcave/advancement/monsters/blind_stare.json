@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": {"translate":"Blind Stare"},
+		"description": {"color":"green","translate":"Look at a Warden with a Spyglass"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:monsters/now_thats_a_lot_of_damage",
+	"rewards": {
+		"function": "bacap_rewards:monsters/blind_stare"
+	},		
+	"criteria": {
+		"spyglass_at_warden": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"looking_at": {
+									"entity_type": "minecraft:warden"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

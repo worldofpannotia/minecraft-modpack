@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:white_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "cyan", 
+						"pattern": "minecraft:rhombus"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:stripe_bottom"
+					},
+					{
+						"color": "gray", 
+						"pattern": "minecraft:stripe_center"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:border"
+					},
+					{
+						"color": "black", 
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:half_horizontal"
+					},
+					{
+						"color": "light_gray", 
+						"pattern": "minecraft:circle"
+					},
+					{
+						"color": "black", 
+						"pattern": "minecraft:border"
+					}
+				]
+			}
+		},
+		"title": {"translate":"I've got a bad feeling about this"},
+		"description": {"color":"green","translate":"Kill a raid captain. I’d warn against drinking that bottle they dropped…"},
+		"announce_to_chat": true
+
+	},
+	"parent": "blazeandcave:adventure/riot_shield",
+	"rewards": {
+		"function": "bacap_rewards:adventure/ive_got_a_bad_feeling_about_this"
+	},		
+	"criteria": {
+		"bad_omen": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "#minecraft:raiders",
+							"minecraft:type_specific/raider": {
+								"is_captain": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

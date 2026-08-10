@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cobblestone"
+		},
+		"title": {"translate":"Chestful of Cobblestone"},
+		"description": {"color":"#75E1FF","translate":"Mine 1728 cobblestone, place it in a chest, then stand on it in victory"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/moar_tools",
+	"rewards": {
+		"function": "bacap_rewards:mining/chestful_of_cobblestone"
+	},
+	"criteria": {
+		"chestful_of_cobblestone": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

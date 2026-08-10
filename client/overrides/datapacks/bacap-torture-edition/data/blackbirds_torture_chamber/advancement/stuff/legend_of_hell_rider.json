@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "zombified_piglin_spawn_egg"
+        },
+        "title": "Legend of Hell Rider",
+        "description": {"color":"dark_red","text":"Ride a Zombified Piglin"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:nether/legend_of_hell_chicken_riders",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/legend_of_hell_rider"
+	}
+}

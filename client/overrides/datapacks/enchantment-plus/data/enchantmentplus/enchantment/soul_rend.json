@@ -1,0 +1,128 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.soul_rend",
+        "fallback": "\u00A75Soul Rend"
+    },
+    "effects": {
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": {
+                        "type": "minecraft:linear",
+                        "base": 2,
+                        "per_level_above_first": 0.5
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "attacker",
+                            "scores": {
+                                "eplus.soul_stacks": {
+                                    "min": 5
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "is_direct": true
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "tags": [
+                                            {
+                                                "id": "minecraft:is_projectile",
+                                                "expected": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/soul_rend/main"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "is_direct": true
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:damage_source_properties",
+                                    "predicate": {
+                                        "tags": [
+                                            {
+                                                "id": "minecraft:is_projectile",
+                                                "expected": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/special_hit_effect",
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/soul_rend",
+    "weight": 1
+}

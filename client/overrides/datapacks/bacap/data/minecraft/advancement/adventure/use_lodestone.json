@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:compass",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Country Lode, Take Me Home"},
+		"description": {"color":"green","translate":"Use a Compass on a Lodestone"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/get_a_lode_of_this",
+	"rewards": {
+		"function": "bacap_rewards:mining/country_lode_take_me_home"
+	},	
+	"criteria": {
+		"use_lodestone": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:lodestone"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:compass"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

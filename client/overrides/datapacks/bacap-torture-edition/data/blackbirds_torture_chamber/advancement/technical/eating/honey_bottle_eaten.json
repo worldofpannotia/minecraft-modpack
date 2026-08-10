@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/honey_bottle_eaten"
+	},	
+	"criteria": {
+		"honey_bottle": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					]
+				}
+			}
+		}
+	}
+}

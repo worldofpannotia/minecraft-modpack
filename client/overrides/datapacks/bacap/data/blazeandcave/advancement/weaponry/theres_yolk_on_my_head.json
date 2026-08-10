@@ -1,0 +1,90 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:zombie_head"
+		},
+		"title": {"translate":"There's yolk on my head"},
+		"description": {"color":"#75E1FF","translate":"Catapult an egg onto a zombie's head"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/egging_dude",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/theres_yolk_on_my_head"
+	},		
+	"criteria": {
+		"egg": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:zombies"
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:egg",
+							"nbt": "{Item:{id:\"minecraft:egg\"}}"
+						}
+					}
+				}
+			}
+		},
+		"blue_egg": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:zombies"
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:egg",
+							"nbt": "{Item:{id:\"minecraft:blue_egg\"}}"
+						}
+					}
+				}
+			}
+		},
+		"brown_egg": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:zombies"
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:egg",
+							"nbt": "{Item:{id:\"minecraft:brown_egg\"}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"egg",
+			"blue_egg",
+			"brown_egg"
+		]
+	]
+}

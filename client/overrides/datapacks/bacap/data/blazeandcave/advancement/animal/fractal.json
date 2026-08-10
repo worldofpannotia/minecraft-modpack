@@ -1,0 +1,211 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:black_bundle",
+			"components": {
+				"minecraft:bundle_contents": [
+					{
+						"id": "minecraft:bundle"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Fractal"},
+		"description": {"color":"dark_purple","translate":"Put a Bundle in a Bundle in a Bundle in a Bundle in a Bundle… 16 layers deep"},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": false
+	},
+	"parent": "blazeandcave:animal/flamboyant_range",
+	"rewards": {
+		"function": "bacap_rewards:animal/fractal"
+	},		
+	"criteria": {
+		"bundle": {
+		  "trigger": "minecraft:inventory_changed",
+		  "conditions": {
+			"items": [
+			  {
+				"items": "#minecraft:bundles",
+				"predicates": {
+				  "minecraft:bundle_contents": {
+					"items": {
+					  "contains": [
+						{
+						  "items": "#minecraft:bundles",
+						  "predicates": {
+							"minecraft:bundle_contents": {
+							  "items": {
+								"contains": [
+								  {
+									"items": "#minecraft:bundles",
+									"predicates": {
+									  "minecraft:bundle_contents": {
+										"items": {
+										  "contains": [
+											{
+											  "items": "#minecraft:bundles",
+											  "predicates": {
+												"minecraft:bundle_contents": {
+												  "items": {
+													"contains": [
+													  {
+														"items": "#minecraft:bundles",
+														"predicates": {
+														  "minecraft:bundle_contents": {
+															"items": {
+															  "contains": [
+																{
+																  "items": "#minecraft:bundles",
+																  "predicates": {
+																	"minecraft:bundle_contents": {
+																	  "items": {
+																		"contains": [
+																		  {
+																			"items": "#minecraft:bundles",
+																			"predicates": {
+																			  "minecraft:bundle_contents": {
+																				"items": {
+																				  "contains": [
+																					{
+																					  "items": "#minecraft:bundles",
+																					  "predicates": {
+																						"minecraft:bundle_contents": {
+																						  "items": {
+																							"contains": [
+																							  {
+																								"items": "#minecraft:bundles",
+																								"predicates": {
+																								  "minecraft:bundle_contents": {
+																									"items": {
+																									  "contains": [
+																										{
+																										  "items": "#minecraft:bundles",
+																										  "predicates": {
+																											"minecraft:bundle_contents": {
+																											  "items": {
+																												"contains": [
+																												  {
+																													"items": "#minecraft:bundles",
+																													"predicates": {
+																													  "minecraft:bundle_contents": {
+																														"items": {
+																														  "contains": [
+																															{
+																															  "items": "#minecraft:bundles",
+																															  "predicates": {
+																																"minecraft:bundle_contents": {
+																																  "items": {
+																																	"contains": [
+																																	  {
+																																		"items": "#minecraft:bundles",
+																																		"predicates": {
+																																		  "minecraft:bundle_contents": {
+																																			"items": {
+																																			  "contains": [
+																																				{
+																																				  "items": "#minecraft:bundles",
+																																				  "predicates": {
+																																					"minecraft:bundle_contents": {
+																																					  "items": {
+																																						"contains": [
+																																						  {
+																																							"items": "#minecraft:bundles",
+																																							"predicates": {
+																																							  "minecraft:bundle_contents": {
+																																								"items": {
+																																								  "contains": [
+																																									{
+																																									  "items": "#minecraft:bundles",
+																																									  "predicates": {
+																																										"minecraft:bundle_contents": {
+																																										  "items": {
+																																											"contains": [
+																																											  {
+																																												"items": "#minecraft:bundles"
+																																											  }
+																																											]
+																																										  }
+																																										}
+																																									  }
+																																									}
+																																								  ]
+																																								}
+																																							  }
+																																							}
+																																						  }
+																																						]
+																																					  }
+																																					}
+																																				  }
+																																				}
+																																			  ]
+																																			}
+																																		  }
+																																		}
+																																	  }
+																																	]
+																																  }
+																																}
+																															  }
+																															}
+																														  ]
+																														}
+																													  }
+																													}
+																												  }
+																												]
+																											  }
+																											}
+																										  }
+																										}
+																									  ]
+																									}
+																								  }
+																								}
+																							  }
+																							]
+																						  }
+																						}
+																					  }
+																					}
+																				  ]
+																				}
+																			  }
+																			}
+																		  }
+																		]
+																	  }
+																	}
+																  }
+																}
+															  ]
+															}
+														  }
+														}
+													  }
+													]
+												  }
+												}
+											  }
+											}
+										  ]
+										}
+									  }
+									}
+								  }
+								]
+							  }
+							}
+						  }
+						}
+					  ]
+					}
+				  }
+				}
+			  }
+			]
+		  }
+		}
+	}
+}

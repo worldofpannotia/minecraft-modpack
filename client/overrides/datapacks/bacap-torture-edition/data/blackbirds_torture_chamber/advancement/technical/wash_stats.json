@@ -1,0 +1,25 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/wash_stats_update"
+	},	
+	"criteria": {
+		"wash_item": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:cauldron",
+									"minecraft:water_cauldron"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

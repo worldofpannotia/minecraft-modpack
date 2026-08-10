@@ -1,0 +1,150 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:filled_map",
+			"components": {
+				"map_color": 12741452
+			}
+		},
+		"title": {"translate":"All Around the World"},
+		"description": {"color":"dark_purple","translate":"Buy every kind of Explorer Map that can be bought from Cartographers"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:adventure/treasure_map",
+	"rewards": {
+		"function": "bacap_rewards:adventure/all_around_the_world"
+	},		
+	"criteria": {
+		"plains_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.village_plains"}
+					}
+				}
+			}
+		},
+		"desert_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.village_desert"}
+					}
+				}
+			}
+		},
+		"savanna_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.village_savanna"}
+					}
+				}
+			}
+		},
+		"snowy_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.village_snowy"}
+					}
+				}
+			}
+		},
+		"taiga_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.village_taiga"}
+					}
+				}
+			}
+		},
+		"swamp_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.explorer_swamp"}
+					}
+				}
+			}
+		},
+		"jungle_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.explorer_jungle"}
+					}
+				}
+			}
+		},
+		"trial_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.trial_chambers"}
+					}
+				}
+			}
+		},
+		"ocean_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.monument"}
+					}
+				}
+			}
+		},
+		"woodland_explorer_map": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:filled_map"
+					],
+					"components": {
+						"minecraft:item_name": {"translate": "filled_map.mansion"}
+					}
+				}
+			}
+		}
+	}
+}

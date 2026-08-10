@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_sword"
+		},
+		"title": {"translate":"Needle Sharp"},
+		"description": {"color":"#75E1FF","translate":"Obtain Sharpness V"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/librarian",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/needle_sharp"
+	},			
+	"criteria": {
+		"sharpness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:sharpness",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"sharpness_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:sharpness",
+									"levels": {
+										"min": 5
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"sharpness",
+			"sharpness_book"
+		]
+	]
+}

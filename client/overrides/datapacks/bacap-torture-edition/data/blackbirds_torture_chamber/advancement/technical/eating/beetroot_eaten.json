@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/beetroot_eaten"
+	},	
+	"criteria": {
+		"beetroot": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot"
+					]
+				}
+			}
+		}
+	}
+}

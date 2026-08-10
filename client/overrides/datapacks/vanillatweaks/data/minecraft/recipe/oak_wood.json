@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:oak_wood",
+		"count": 4
+	},
+	"type": "crafting_shaped",
+	"group": "bark",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": "minecraft:oak_log"
+	}
+}

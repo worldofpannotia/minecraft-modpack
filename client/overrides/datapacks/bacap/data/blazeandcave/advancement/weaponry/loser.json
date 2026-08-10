@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:black_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_left"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_top"
+					},
+					{
+						"color": "white",
+						"pattern": "minecraft:stripe_middle"
+					},
+					{
+						"color": "black",
+						"pattern": "minecraft:border"
+					}
+				]
+			}
+		},
+		"title": {"translate":"Loser!"},
+		"description": {"color":"green","translate":"Die twice within ten seconds"},
+		"announce_to_chat": true
+
+	},
+	"parent": "blazeandcave:weaponry/its_time_consuming",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/loser"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

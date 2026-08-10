@@ -1,0 +1,80 @@
+{
+  "criteria": {
+    "kill_zombie": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": -173084.5,
+                "y": 21.5,
+                "z": 190347.5
+              },
+              "dimension": "minecraft:the_nether",
+              "block": {
+                "blocks": [
+                  "minecraft:coal_ore"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "eat_notch_apple": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "components": {
+              "minecraft:custom_name": "\"I am a cheater\"",
+              "minecraft:enchantments": {
+                  "minecraft:blast_protection": 2,
+                  "minecraft:unbreaking": 3,
+                  "minecraft:depth_strider": 2,
+                  "minecraft:feather_falling": 3,
+                  "minecraft:soul_speed": 1,
+                  "minecraft:vanishing_curse": 1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "defeat_herobrine": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:beehive",
+        "item": {
+          "items": [
+            "minecraft:golden_hoe"
+          ]
+        },
+        "num_bees_inside": 1
+      }
+    }
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "display": {
+    "title": "What are the Requirements?",
+    "description": {
+      "color": "dark_red",
+      "text": "Do some Things. If you do the right things, you'll get this Advancement"
+    },
+    "icon": {
+      "id": "barrier",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stuff/what_are_the_requirements"
+  }
+}

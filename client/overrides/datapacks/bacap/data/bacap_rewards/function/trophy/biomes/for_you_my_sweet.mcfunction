@@ -1,0 +1,5 @@
+give @s poppy[custom_name={"translate":"A blessing in love","color":"light_purple","bold":true,"italic":false},lore=[{"translate":"Face your fears and ask your crush out!","color":"light_purple"},{"text":" "},{"translate":"Awarded for achieving","color":"gray"},{"translate":"For you, my sweet","color":"green","italic":false}],custom_model_data={floats:[131]},custom_data={Trophy:1b},enchantment_glint_override=true,minecraft:tooltip_display={hidden_components:["minecraft:attribute_modifiers","minecraft:banner_patterns","minecraft:base_color","minecraft:dyed_color","minecraft:fireworks","minecraft:firework_explosion","minecraft:instrument","minecraft:potion_contents","minecraft:provides_banner_patterns","minecraft:provides_trim_material","minecraft:stored_enchantments","minecraft:trim","minecraft:unbreakable","minecraft:written_book_content"]}] 1
+
+tellraw @s [{"text":" +1 ","color":"light_purple"},{"translate":"A blessing in love"}]
+
+particle heart ~ ~1 ~ 1 1 1 1 100 normal

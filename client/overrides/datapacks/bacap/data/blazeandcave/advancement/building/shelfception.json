@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_shelf"
+		},
+		"title": {"translate":"Shelfception"},
+		"description": {"color":"green","translate":"Put a Shelf on a Shelf"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/shelf_expression",
+	"rewards": {
+		"function": "bacap_rewards:building/shelfception"
+	},		
+	"criteria": {
+		"shelfception": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#minecraft:wooden_shelves"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#minecraft:wooden_shelves"
+						}
+					}
+				]
+			}
+		}
+	}	
+}

@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/apple_eaten"
+	},	
+	"criteria": {
+		"apple": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:barrel",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVjZDIyYzRiYjYxM2JkN2Y2OWNiMDIzMWExMzBiYjEwMzViNmIwZDQ2ZDY3MmMwN2U4ZTJhMDM1ZmUwMmU3MCJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Barrel",
+      "minecraft:rarity": "common"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "item.simple_paxels.copper_paxel": "Copper Paxel",
+    "item.simple_paxels.diamond_paxel": "Diamond Paxel",
+    "item.simple_paxels.golden_paxel": "Golden Paxel",
+    "item.simple_paxels.iron_paxel": "Iron Paxel",
+    "item.simple_paxels.netherite_paxel": "Netherite Paxel",
+    "item.simple_paxels.stone_paxel": "Stone Paxel",
+    "item.simple_paxels.wooden_paxel": "Wooden Paxel",
+    
+    "desc.simple_paxels.tool_switch.axe": "\u00a77Pickaxe  \u00a78>  \u00a76Axe  \u00a78>  \u00a77Shovel  \u00a78>  \u00a77Hoe",
+    "desc.simple_paxels.tool_switch.hoe": "\u00a77Pickaxe  \u00a78>  \u00a77Axe  \u00a78>  \u00a77Shovel  \u00a78>  \u00a76Hoe",
+    "desc.simple_paxels.tool_switch.pickaxe": "\u00a76Pickaxe  \u00a78>  \u00a77Axe  \u00a78>  \u00a77Shovel  \u00a78>  \u00a77Hoe",
+    "desc.simple_paxels.tool_switch.shovel": "\u00a77Pickaxe  \u00a78>  \u00a77Axe  \u00a78>  \u00a76Shovel  \u00a78>  \u00a77Hoe"
+}

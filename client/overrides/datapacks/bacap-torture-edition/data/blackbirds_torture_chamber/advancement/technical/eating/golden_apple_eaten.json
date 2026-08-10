@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/golden_apple_eaten"
+	},	
+	"criteria": {
+		"golden_apple": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:golden_apple"
+					]
+				}
+			}
+		}
+	}
+}

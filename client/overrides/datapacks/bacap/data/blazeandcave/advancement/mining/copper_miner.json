@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:raw_copper"
+		},
+		"title": {"translate":"Copper Miner"},
+		"description": {"color":"green","translate":"Mine a stack of Raw Copper"},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "blazeandcave:mining/copper_age",
+	"rewards": {
+		"function": "bacap_rewards:mining/copper_miner"
+	},		
+	"criteria": {
+		"raw_copper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:raw_copper"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

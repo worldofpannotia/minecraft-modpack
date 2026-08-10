@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:weaving"
+				}
+			}
+		},
+		"title": {"translate":"String Shot"},
+		"description": {"color":"green","translate":"Shoot a mob with an Arrow of Weaving"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:potion/imbued_projectiles",
+	"rewards": {
+		"function": "bacap_rewards:potion/string_shot"
+	},	
+	"criteria": {
+		"weaving": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:arrow",
+							"nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}}}"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/pumpkin_pie_eaten"
+	},	
+	"criteria": {
+		"pumpkin_pie": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:pumpkin_pie"
+					]
+				}
+			}
+		}
+	}
+}

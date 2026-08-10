@@ -1,0 +1,362 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.ore_excavation",
+        "fallback": "Ore Excavation"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/amethyst_cluster"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:amethyst_cluster"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/ancient_debris"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:ancient_debris"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/coal_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:coal_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/copper_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:copper_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/diamond_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:diamond_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/emerald_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:emerald_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/gold_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:gold_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/iron_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:iron_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/lapis_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:lapis_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/nether_gold_ore"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:nether_gold_ore"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/nether_quartz_ore"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:nether_quartz_ore"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/ore_excavation/blocks/redstone_ores"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:redstone_ores"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_sneaking": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/block_breaking_effect",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/ore_excavation",
+    "weight": 2
+}

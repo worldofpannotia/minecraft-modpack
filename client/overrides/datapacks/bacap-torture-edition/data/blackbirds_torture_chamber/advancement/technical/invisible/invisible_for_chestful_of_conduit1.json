@@ -1,0 +1,8 @@
+{
+	"parent": "blazeandcave:biomes/moskstraumen",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

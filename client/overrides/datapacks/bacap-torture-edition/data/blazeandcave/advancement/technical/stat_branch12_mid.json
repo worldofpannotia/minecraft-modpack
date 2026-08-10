@@ -1,0 +1,17 @@
+{
+	"parent": "blackbirds_torture_chamber:stats/fish_1000",
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific/player": {
+						"advancements": {
+							"blazeandcave:statistics/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:deepslate"
+		},
+		"title": {"translate":"20 Leagues Under the Sea"},
+		"description": {"color":"#75E1FF","translate":"Ride a Nautilus below y-level -20 in the Overworld"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:biomes/submarine_fleet",
+	"rewards": {
+		"function": "bacap_rewards:biomes/20_leagues_under_the_sea"
+	},		
+	"criteria": {
+		"20_leagues": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"y": {
+										"max": -20
+									}
+								},
+								"dimension": "minecraft:overworld"
+							},
+							"vehicle": {
+								"entity_type": "#blazeandcave:nautiluses"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

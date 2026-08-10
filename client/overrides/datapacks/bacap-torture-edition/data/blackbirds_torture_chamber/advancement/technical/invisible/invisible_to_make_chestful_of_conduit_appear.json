@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/chestful_of_conduit",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

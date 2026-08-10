@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:damage": 431
+      }
+    },
+    "title": "You're a Birdplane.",
+    "description": {
+      "color": "black",
+      "text": "Fly 50,000 km with Elytra"
+    },
+    "frame": "challenge"
+  },
+  "parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_fly_50k2",
+  "criteria": {
+    "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:rewards/stats/fly_50k"
+  }
+}

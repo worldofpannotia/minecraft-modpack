@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:skeleton_skull"
+        },
+        "title": "Skill Issue!",
+        "description": {"color":"dark_red","text":"Use 500 Totems of Undying"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/totem_100",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/totem_500"
+	}
+}

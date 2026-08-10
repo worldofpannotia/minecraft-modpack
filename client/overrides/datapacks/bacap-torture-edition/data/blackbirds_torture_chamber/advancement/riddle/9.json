@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "9": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific/player": {
+            "advancements": {
+              "blackbirds_torture_chamber:riddle/8": true
+            }
+          }
+        },
+        "entity": {
+          "nbt": "{CustomName:\"a spinoffs much memed character\"}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:riddle/9"
+  }
+}

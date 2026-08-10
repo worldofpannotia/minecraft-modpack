@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Like an Enderman",
+        "description": {"color":"dark_red","text":"Stay in the End for 1 In-Game Year"},
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {   
+                "minecraft:profile": {
+                    "name": "MHF_EnderMan"
+                }
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "like_an_enderman": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "blazeandcave:end/void_walker",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/like_an_enderman"
+	}
+}

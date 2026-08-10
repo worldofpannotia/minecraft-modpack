@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:copper_nautilus_armor"
+        },
+        "title": "Nauty McNautface",
+        "description": {"color":"dark_red","text":"Ride 100km on a Nautilus"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/lord_helix",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:nautilus_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/nautilus_100"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"display": {
+		"icon": {"id": "minecraft:budding_amethyst"},
+		"title": "Silk Touch Budding Amethyst",
+		"description": {"text":"Lets you collect budding amethyst using Silk Touch.","color":"gold"},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {"tick": {"trigger": "minecraft:tick"}}
+}

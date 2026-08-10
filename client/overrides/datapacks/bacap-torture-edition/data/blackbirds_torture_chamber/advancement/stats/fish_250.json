@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "cod"
+        },
+        "title":  "Fisherman",
+        "description":  "Fish 250 Items"
+    },
+    "parent": "blazeandcave:technical/cheater5",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/fish_250"
+	}
+}

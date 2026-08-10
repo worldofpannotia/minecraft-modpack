@@ -1,0 +1,38 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.isolated",
+        "fallback": "§5Isolated"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/isolated/clear_effects"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{\"active_effects\":[{}]}"
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "chest"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/isolated",
+    "weight": 1
+}

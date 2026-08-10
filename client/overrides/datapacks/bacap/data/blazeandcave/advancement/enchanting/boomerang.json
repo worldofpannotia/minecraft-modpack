@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": {"translate":"Boomerang"},
+		"description": {"color":"#75E1FF","translate":"Turn your trident into a boomerang by getting Loyalty on it"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/librarian",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/boomerang"
+	},			
+	"criteria": {
+		"power": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+										"enchantments": "minecraft:loyalty"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

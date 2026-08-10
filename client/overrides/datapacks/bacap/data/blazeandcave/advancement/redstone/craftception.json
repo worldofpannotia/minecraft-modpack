@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crafter"
+		},
+		"title": {"translate":"Craftception"},
+		"description": {"color":"green","translate":"Craft a Crafter"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:redstone/space_dropper",
+	"rewards": {
+		"function": "bacap_rewards:redstone/craftception"
+	},
+	"criteria": {
+		"crafter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crafter"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+# Version 5.4
+
+The data pack has been updated for Minecraft 26.2
+
+- Added:
+
+• Added a new enchantment for boots: Bouncing
+-   Causes user to bounce back upon contacting a surface.
+-   Also decreases air drag for faster traversal.
+-   This does not prevent fall damage.
+-   Mutually exclusive with Depth Strider, Frost Walker and Lava Walker.
+-   Max level is 1. Can be obtained from loot chests, fishing and villager trades.
+• Enchantments now work on sulfur cubes.
+• Added Calcite and Sulfur blocks to Earthly Gatherer enchantment.
+
+
+- Changed:
+
+• Block Reach enchantment reach boost decreased from +1 to +0.5 per level (This was way overtuned).
+• Entity Reach enchantment reach boost increased from +0.2 to +0.3 per level (Felt like the nerf was too harsh).
+
+
+- Fixed:
+
+• Fixed a bug that caused Prosperous enchantment to drop incorrect amount of emeralds.

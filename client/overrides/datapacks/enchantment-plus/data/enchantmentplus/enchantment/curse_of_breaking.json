@@ -1,0 +1,31 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.curse_of_breaking",
+        "fallback": "Curse of Breaking"
+    },
+    "effects": {
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:multiply",
+                    "factor": 2
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/curse_of_breaking",
+    "weight": 1
+}

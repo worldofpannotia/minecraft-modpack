@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/totem_stats"
+	},	
+	"criteria": {
+		"used_totem": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:totem_of_undying"
+					]
+				}
+			}
+		}
+	}
+}

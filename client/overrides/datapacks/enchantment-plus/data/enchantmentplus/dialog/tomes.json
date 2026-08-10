@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:dialog_list",
+    "title": "Tomes",
+    "columns": 1,
+    "button_width": 250,
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Tomes are special books with useful features.\n\nTheir recipes will be unlocked once the player obtains a regular book.\n\nLibrarian villagers may offer trades for tomes.\n\nThis data pack adds 4 new tomes into the game:",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "dialogs": [
+        "enchantmentplus:tomes/disenchanting",
+        "enchantmentplus:tomes/restoration",
+        "enchantmentplus:tomes/intricate_disenchanting",
+        "enchantmentplus:tomes/arcane_refreshment"
+    ],
+    "exit_action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:main"
+        }
+    }
+}

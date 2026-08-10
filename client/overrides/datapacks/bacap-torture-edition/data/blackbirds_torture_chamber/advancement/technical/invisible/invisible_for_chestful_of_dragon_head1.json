@@ -1,0 +1,8 @@
+{
+	"parent": "blazeandcave:end/off_with_his_head",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

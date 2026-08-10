@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chest_minecart"
+        },
+        "title": "5000km in a Minecart",
+        "description": {"color":"#8b00e8","text":"That's more than 6 Rails"},
+		"frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/minecart_500",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:minecart_one_cm",
+								"value": {
+									"min": 500000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/minecart_5000"
+	}
+}

@@ -1,0 +1,73 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.blinding_strike",
+        "fallback": "Blinding Strike"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:blindness",
+                            "min_duration": 5,
+                            "max_duration": 5,
+                            "min_amplifier": 0,
+                            "max_amplifier": 0
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/blinding_strike/post_attack"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.04
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_type": "#enchantmentplus:is_mob_or_player",
+                                "effects": {
+                                    "minecraft:weakness": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/special_hit_effect",
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/blinding_strike",
+    "weight": 1
+}

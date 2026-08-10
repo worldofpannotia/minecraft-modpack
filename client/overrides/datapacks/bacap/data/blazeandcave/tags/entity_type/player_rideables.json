@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+	"#blazeandcave:player_rideable_mobs",
+	"#blazeandcave:all_boats_and_minecarts"
+  ]
+}

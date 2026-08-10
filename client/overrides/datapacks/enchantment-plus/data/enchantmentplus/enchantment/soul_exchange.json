@@ -1,0 +1,59 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.soul_exchange",
+        "fallback": "§5Soul Exchange"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/soul_exchange/main"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 60
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.soul_stacks": {
+                                        "min": {
+                                            "type": "minecraft:score",
+                                            "target": "this",
+                                            "score": "eplus.max_soul_stacks"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "legs"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/soul_exchange",
+    "weight": 1
+}

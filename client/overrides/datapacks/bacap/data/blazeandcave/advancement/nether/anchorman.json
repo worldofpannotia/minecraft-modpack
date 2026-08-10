@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:respawn_anchor"
+		},
+		"title": {"translate":"Anchorman"},
+		"description": {"color":"green","translate":"Craft a Respawn Anchor using Crying Obsidian and Glowstone then place it down"},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "minecraft:nether/obtain_crying_obsidian",
+	"rewards": {
+		"function": "bacap_rewards:nether/anchorman"
+	},		
+	"criteria": {
+		"respawn_anchor": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": [
+									"minecraft:respawn_anchor"
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

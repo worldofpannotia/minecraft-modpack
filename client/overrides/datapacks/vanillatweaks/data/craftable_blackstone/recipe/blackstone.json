@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:blackstone",
+		"count": 4
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"$#",
+		"#$"
+	],
+	"key": {
+		"#": "minecraft:basalt",
+		"$": "#craftable_blackstone:coal_charcoal"
+	}
+}

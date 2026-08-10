@@ -1,0 +1,101 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head"
+		},
+		"title": {"translate":"Headception"},
+		"description": {"color":"dark_red","translate":"Kill a Mob wearing its own Head"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:monsters/camouflage",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/headception"
+	},		
+	"criteria": {
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"zombie",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:zombie_head"
+							]
+						}
+					}
+				}
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"piglin",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:piglin_head"
+							]
+						}
+					}
+				}
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"wither_skeleton",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:wither_skeleton_skull"
+							]
+						}
+					}
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"skeleton",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:skeleton_skull"
+							]
+						}
+					}
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"creeper",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:creeper_head"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+        [
+			"zombie",
+        	"skeleton",
+			"creeper",
+			"wither_skeleton",
+			"piglin"
+		]
+	]
+}

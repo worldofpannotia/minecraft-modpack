@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "jack_o_lantern",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "Halloween Massacre",
+        "description": {"color":"dark_red","text":"Kill 1000 Mobs wearing Jack o'Lantern"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:monsters/handsome_jack",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/halloween_massacre"
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.curse_of_insatiable_hunger",
+        "fallback": "Curse of Insatiable Hunger"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_exhaustion",
+                    "amount": 4
+                },
+                "requirements": {
+                    "condition": "all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 100
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/curse_of_insatiable_hunger",
+    "weight": 1
+}

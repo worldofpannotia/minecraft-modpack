@@ -1,0 +1,16 @@
+{
+	"result": {
+		"id": "minecraft:dark_oak_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:dark_oak_planks"
+	},
+	"group": "wooden_stairs"
+}

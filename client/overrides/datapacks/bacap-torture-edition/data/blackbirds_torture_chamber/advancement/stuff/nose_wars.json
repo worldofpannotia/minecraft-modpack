@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sniffer_egg"
+        },
+        "title": "Nose Wars",
+        "description": {"color":"dark_red","text":"Introduce a Sniffer to a Warden so they can have a Sniff-off"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:animal/loud_and_proud",
+    "criteria": {
+        "not_sniffin_crack": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/nose_wars"
+	}
+}

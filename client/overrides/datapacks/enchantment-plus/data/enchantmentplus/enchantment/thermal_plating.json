@@ -1,0 +1,111 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchantmentplus.thermal_plating",
+        "fallback": "Thermal Plating"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:fire_resistance",
+                    "min_duration": 17,
+                    "max_duration": 17,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "slots": {
+                                    "armor.head": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "enchantmentplus:thermal_plating"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "armor.chest": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "enchantmentplus:thermal_plating"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "armor.legs": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "enchantmentplus:thermal_plating"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "armor.feet": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "enchantmentplus:thermal_plating"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 80
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "chest": {
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "enchantmentplus:isolated"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 40,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/thermal_plating",
+    "weight": 1
+}

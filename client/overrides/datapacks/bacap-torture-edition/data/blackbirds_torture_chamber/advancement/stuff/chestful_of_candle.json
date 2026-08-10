@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:red_candle",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "text": "The Ritual continues"
+        },
+        "description": {
+            "color": "dark_red",
+            "text": "Stand on a Chest filled with Red Candles"
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "blazeandcave:building/the_ritual_begins",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/chestful_of_candle"
+    }
+}

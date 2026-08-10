@@ -1,0 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crossbow"
+        },
+        "title": "EXTINCTION",
+        "description": {"color":"dark_red","text":"Kill a Strength 5 Trader Llama, a Black Rabbit, a Brown Panda, a Blue Axolotl and a Jungle Nitwit with a Single Piercing Arrow"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:end/good_luck_getting_this_one",
+	"criteria": {
+		"exctinction": {
+			"trigger": "minecraft:killed_by_arrow",
+			"conditions": {
+				"victims": [
+					{
+						"entity_type": "minecraft:trader_llama",
+                        "nbt": "{Strength:5}"
+					},
+					{
+						"entity_type": "minecraft:rabbit",
+                        "nbt": "{RabbitType:2}"
+					},
+                    {
+                        "entity_type": "minecraft:panda",
+                        "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+                    },
+                    {
+                        "entity_type" :"minecraft:axolotl",
+                        "nbt": "{Variant:4}"
+                    },
+                    {
+                        "entity_type": "minecraft:villager",
+                        "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
+                    }
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/extinction"
+	}
+}

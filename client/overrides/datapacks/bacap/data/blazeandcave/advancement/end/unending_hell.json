@@ -1,0 +1,64 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crimson_nylium"
+		},
+		"title": {"translate":"Unending Hell"},
+		"description": {"color":"#75E1FF","translate":"Travel directly from the End to the Nether"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:end/void_walker",
+	"rewards": {
+		"function": "bacap_rewards:end/unending_hell"
+	},	
+	"criteria": {
+		"unending_hell": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"dimension": "minecraft:the_nether"
+							},
+							"minecraft:type_specific/player": {
+
+								"advancements": {
+									"blazeandcave:technical/unending_hell_end": true
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"bac_unending_death": {
+									"min": 1
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
+
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

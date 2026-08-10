@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/mushroom_stew_eaten"
+	},	
+	"criteria": {
+		"mushroom_stew": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:mushroom_stew"
+					]
+				}
+			}
+		}
+	}
+}

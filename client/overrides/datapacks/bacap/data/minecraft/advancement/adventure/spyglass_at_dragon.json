@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spyglass"
+		},
+		"title": {"translate":"Is it a Plane?"},
+		"description": {"color":"green","translate":"Look at the Ender Dragon through a Spyglass"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:end/root",
+	"rewards": {
+		"function": "bacap_rewards:end/is_it_a_plane"
+	},		
+	"criteria": {
+		"spyglass_at_dragon": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"minecraft:type_specific/player": {
+
+								"looking_at": {
+									"entity_type": "minecraft:ender_dragon"
+								}
+							}
+						},
+						"entity": "this"
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:spyglass"
+					]
+				}
+			}
+		}
+	}
+}

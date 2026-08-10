@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:firefly_bush"
+		},
+		"title": {"translate":"You can't take the sky from me"},
+		"description": {"color":"green","translate":"Obtain a Firefly Bush"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:farming/booshes",
+	"rewards": {
+		"function": "bacap_rewards:farming/you_cant_take_the_sky_from_me"
+	},		
+	"criteria": {
+		"firefly_bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:firefly_bush"
+						]
+					}
+				]
+			}
+		}
+	}
+}

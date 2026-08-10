@@ -1,0 +1,58 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "predicates": {
+                                                "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"arcane_refreshment\"}}"
+                                            }
+                                        },
+                                        "offhand": {
+                                            "count": {
+                                                "min": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "offhand": {
+                                                "components": {
+                                                    "minecraft:repair_cost": 0
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"arcane_refreshment\"}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantmentplus:tomes/arcane_refreshment/used"
+    }
+}

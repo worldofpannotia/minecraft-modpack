@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:end_stone"
+		},
+		"title": {"translate":"Lodes of Applications"},
+		"description": {"color":"#75E1FF","translate":"Create a Lodestone Compass in all three dimensions"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/use_lodestone",
+	"rewards": {
+		"function": "bacap_rewards:mining/lodes_of_applications"
+	},	
+	"criteria": {
+		"overworld": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
+					}
+				]
+			}
+		},
+		"the_nether": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:the_nether"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
+					}
+				]
+			}
+		},
+		"the_end": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:lodestone"
+							},
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:compass"
+						}
+					}
+				]
+			}
+		}
+	}
+}

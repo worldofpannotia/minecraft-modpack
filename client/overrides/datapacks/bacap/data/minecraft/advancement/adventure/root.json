@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:map"
+		},
+		"title": {"translate":"Adventure"},
+		"description": {"color":"#CCCCCC","translate":"Village, pillage and exploration"},
+		"background": "gui/advancements/backgrounds/adventure",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "bacap_rewards:adventure/root"
+	},		
+	"criteria": {
+		"killed_something": {
+			"trigger": "minecraft:player_killed_entity"
+		},
+		"killed_by_something": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"requirements": [
+		[
+			"killed_something", 
+			"killed_by_something"
+		]
+	]
+}

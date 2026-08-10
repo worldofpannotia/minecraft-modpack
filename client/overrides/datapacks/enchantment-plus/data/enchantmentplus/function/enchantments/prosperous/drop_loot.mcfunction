@@ -1,0 +1,2 @@
+# Drop Emerald
+loot spawn ~ ~ ~ loot {"type":"minecraft:entity","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:emerald","functions":[{"function":"minecraft:set_count","count":{"min":1,"max":2},"add":false},{"function":"minecraft:set_count","count":{"min":0,"max":{"type":"minecraft:score","target":{"type":"minecraft:fixed","name":"%EnchantmentLevel"},"score":"eplus.temp"}},"add":true}]}]}]}

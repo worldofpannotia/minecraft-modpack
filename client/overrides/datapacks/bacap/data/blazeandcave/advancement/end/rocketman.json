@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:firework_star",
+			"components": {
+				"minecraft:firework_explosion": {
+					"shape": "small_ball",
+					"colors": [16701501]
+				}
+			}
+		},
+		"title": {"translate":"Rocketman"},
+		"description": {"color":"dark_purple","translate":"Fill your inventory with full stacks of firework rockets"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:end/some_breakthrough",
+	"rewards": {
+		"function": "bacap_rewards:end/rocketman"
+	},		
+	"criteria": {
+		"rocketman": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

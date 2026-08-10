@@ -1,0 +1,316 @@
+{
+    "type": "minecraft:notice",
+    "title": "Increased Enchantment Levels",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "This data pack increases maximum levels of the vanilla enchantments to the double\nof their original value (excluding few), making some of them reach up to level 10.\n\nEnchantments that are not mentioned below stay the same.\n\nAll protection related enchantments are limited to 6 due to balancing reasons.\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "List of Maximum Levels\n\n",
+                    "color": "yellow",
+                    "underlined": true
+                },
+                {
+                    "text": "Bane of Arthropods",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Blast Protection",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Breach",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Density",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Efficiency",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Feather Falling",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 8\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Fire Aspect",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 4\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Fire Protection",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Fortune",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Frost Walker",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 4\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Impaling",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Knockback",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 4\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Looting",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Loyalty",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Luck of the Sea",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Lunge",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Lure",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 5 ",
+                    "color": "white"
+                },
+                {
+                    "text": "(!)\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cannot increase to 6 because the values above 5 completely breaks the enchantment and cause fish to not bite at all"
+                    }
+                },
+                {
+                    "text": "Piercing",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 8\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Power",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Projectile Protection",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Protection",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Punch",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 4\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Quick Charge",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 5 ",
+                    "color": "white"
+                },
+                {
+                    "text": "(!)\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cannot increase to 6 because the values above 5 completely breaks the enchantment and cause the crossbow unable to reload"
+                    }
+                },
+                {
+                    "text": "Respiration",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Riptide",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Sharpness",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Smite",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 10\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Soul Speed",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Sweeping Edge",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Swift Sneak",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 4 ",
+                    "color": "white"
+                },
+                {
+                    "text": "(!)\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": "Cannot increase to 5 because values above 4 make player don't lose any speed at all while sneaking, removing the drawback of it"
+                    }
+                },
+                {
+                    "text": "Thorns",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Unbreaking",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Wind Burst",
+                    "color": "gray"
+                },
+                {
+                    "text": ": 6\n",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:main"
+        }
+    }
+}

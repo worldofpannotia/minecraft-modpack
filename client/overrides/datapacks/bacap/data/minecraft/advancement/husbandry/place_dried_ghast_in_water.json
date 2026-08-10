@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dried_ghast"
+		},
+		"title": {"translate":"Stay Hydrated"},
+		"description": {"color":"green","translate":"Place a Dried Ghast block into water"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:nether/fire_blast_shield",
+	"rewards": {
+		"function": "bacap_rewards:nether/stay_hydrated"
+	},		
+	"criteria": {
+		"place_dried_ghast_in_water": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"block": "minecraft:dried_ghast",
+						"condition": "minecraft:block_state_property",
+						"properties": {
+							"waterlogged": "true"
+						}
+					}
+				]
+			}
+		}
+	}
+}

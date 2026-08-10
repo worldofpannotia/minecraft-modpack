@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.entity_reach",
+        "fallback": "Entity Reach"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.3,
+                    "per_level_above_first": 0.3
+                },
+                "attribute": "minecraft:entity_interaction_range",
+                "id": "enchantmentplus:enchantment.entity_reach",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 51,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/entity_reach",
+    "weight": 2
+}

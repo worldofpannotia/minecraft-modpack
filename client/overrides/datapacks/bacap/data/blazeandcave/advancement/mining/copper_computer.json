@@ -1,0 +1,121 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:waxed_weathered_copper_bulb"
+		},
+		"title": {"translate":"Copper Computer"},
+		"description": {"color":"#75E1FF","translate":"Collect a stack of every oxidizing stage of Copper Bulbs, including all of their waxed variants"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/green_lanterns",
+	"rewards": {
+		"function": "bacap_rewards:mining/copper_computer"
+	},		
+	"criteria": {
+		"copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_bulb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_bulb"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

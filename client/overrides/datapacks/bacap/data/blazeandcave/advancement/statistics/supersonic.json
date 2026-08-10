@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:elytra"
+		},
+		"title": {"translate":"Supersonic"},
+		"description": {"color":"#75E1FF","translate":"Fly 100km with elytra"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:statistics/take_to_the_skies",
+	"rewards": {
+		"function": "bacap_rewards:statistics/supersonic"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:aviate_one_cm",
+								"value": {
+									"min": 10000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"entity_type": "#minecraft:can_wear_horse_armor",
+		"equipment": {
+			"body": {
+				"items": [
+					"minecraft:leather_horse_armor"
+				]
+			}
+		}
+	}
+}

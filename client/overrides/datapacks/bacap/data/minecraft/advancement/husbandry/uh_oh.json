@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tnt"
+		},
+		"title": {"translate":"Uh Oh"},
+		"description": {"color":"green","translate":"Have a Sulfur Cube absorb a TNT block"},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "blazeandcave:mining/punching_bag",
+	"rewards": {
+		"function": "bacap_rewards:mining/uh_oh"
+	},		
+	"criteria": {
+		"pick_up_dropped_tnt": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/explosive"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"give_tnt_directly": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/explosive"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pick_up_dropped_tnt",
+			"give_tnt_directly"
+		]
+	]
+}

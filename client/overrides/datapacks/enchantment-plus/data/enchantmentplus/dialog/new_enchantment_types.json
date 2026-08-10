@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:notice",
+    "title": "New Enchantment Types",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "The vanilla game features normal and ",
+                    "color": "white"
+                },
+                {
+                    "text": "curse",
+                    "color": "red"
+                },
+                {
+                    "text": " enchantments. This data pack adds 2 new enchantment types;\n\n\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Masterwork:",
+                    "color": "gold"
+                },
+                {
+                    "text": " These are powerful enchantments with unique and strong abilities.\n\nThey can only be obtained by chance after spending 3 levels (3rd option) on any item in Enchanting Table.\n\nThe chance of obtaining is affected by the total times player used the Enchanting table.\n",
+                    "color": "white"
+                },
+                {
+                    "text": " <List of Chances>\n\n",
+                    "color": "yellow",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                            {
+                                "text": "   0-100 Times Enchanted: ",
+                                "color": "white"
+                            },
+                            {
+                                "text": "1% Chance\n",
+                                "color": "red"
+                            },
+                            {
+                                "text": "101-200 Times Enchanted: ",
+                                "color": "white"
+                            },
+                            {
+                                "text": "2% Chance\n",
+                                "color": "gold"
+                            },
+                            {
+                                "text": "201-300 Times Enchanted: ",
+                                "color": "white"
+                            },
+                            {
+                                "text": "3% Chance\n",
+                                "color": "yellow"
+                            },
+                            {
+                                "text": "    300+ Times Enchanted: ",
+                                "color": "white"
+                            },
+                            {
+                                "text": "4% Chance\n\n",
+                                "color": "green"
+                            },
+                            {
+                                "text": "Tip: One can check how many times they\nhave enchanted an item in the statistics\nmenu.",
+                                "color": "gray"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": "All masterwork enchantments have the same chance of appearing.\nIf the enchantment has multiple levels, the chance is distributed gradually\nbetween levels, highest level being the lowest chance.\nLuck increases the chance of obtaining higher level masterwork enchantments.\n\n\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Sacrificial:",
+                    "color": "dark_purple"
+                },
+                {
+                    "text": " These are enchantments with strong effects along with strong downsides.\n\nThey can be obtained from loot chests, fishing and librarian villager trades.\n\nSimilar to curses, they cannot be removed in Grindstone.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:main"
+        }
+    }
+}

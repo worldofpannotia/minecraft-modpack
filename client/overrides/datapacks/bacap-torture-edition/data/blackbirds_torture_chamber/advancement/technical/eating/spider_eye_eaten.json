@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/spider_eye_eaten"
+	},	
+	"criteria": {
+		"spider_eye": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:spider_eye"
+					]
+				}
+			}
+		}
+	}
+}

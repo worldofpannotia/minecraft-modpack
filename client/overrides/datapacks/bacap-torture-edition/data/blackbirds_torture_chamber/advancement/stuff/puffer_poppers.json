@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Puffer Poppers",
+        "description": {"color":"dark_red","text":"Eat 1000 Pufferfish"},
+        "icon": {
+            "id": "pufferfish",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge"
+    },
+    "criteria": {
+        "puffer_popper": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "blazeandcave:animal/direct_fishing",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/puffer_poppers"
+	}
+}

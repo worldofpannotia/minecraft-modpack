@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": "Celestial Protocol",
+        "description": {
+            "color": "dark_red",
+            "text": "Visit y=100,000 and realise that you can't build a Spaceship up there"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:challenges/ad_astra",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/celestial_protocol"
+    },
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "y": {
+                                        "min": 100000.0
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type_specific/player": {
+                                    "gamemode": [
+                                        "spectator"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

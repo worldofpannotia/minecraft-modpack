@@ -1,0 +1,416 @@
+{
+    "enchant.air_burst.jump": {
+        "subtitle": "enchant.air_burst.jump",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/air_burst/jump1",
+                "pitch": 0.75,
+                "volume": 0.25
+            },
+            {
+                "name": "enchantmentplus:enchantment/air_burst/jump2",
+                "pitch": 0.75,
+                "volume": 0.25
+            }
+        ]
+    },
+    "enchant.beheading.behead": {
+        "subtitle": "enchant.beheading.behead",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/beheading/behead1",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/beheading/behead2",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/beheading/behead3",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/beheading/behead4",
+                "pitch": 0.5
+            }
+        ]
+    },
+    "enchant.blinding_strike.blind": {
+        "subtitle": "enchant.blinding_strike.blind",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/blinding_strike/blind",
+                "pitch": 2.0,
+                "volume": 0.5
+            }
+        ]
+    },
+    "enchant.cleansing.cleanse": {
+        "subtitle": "enchant.cleansing.cleanse",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/cleansing/cleanse1",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/cleansing/cleanse2",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/cleansing/cleanse3",
+                "pitch": 0.5
+            }
+        ]
+    },
+    "enchant.compressing.compress": {
+        "subtitle": "enchant.compressing.compress",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/compressing/compress",
+                "pitch": 1.25,
+                "stream": true
+            }
+        ]
+    },
+    "enchant.dashing.dash": {
+        "subtitle": "enchant.dashing.dash",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/dashing/dash",
+                "pitch": 1.5,
+                "volume": 0.25
+            }
+        ]
+    },
+    "enchant.decaying.hit": {
+        "subtitle": "enchant.decaying.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/decaying/hit1",
+                "pitch": 1.5,
+                "volume": 0.25
+            },
+            {
+                "name": "enchantmentplus:enchantment/decaying/hit2",
+                "pitch": 1.5,
+                "volume": 0.25
+            },
+            {
+                "name": "enchantmentplus:enchantment/decaying/hit3",
+                "pitch": 1.5,
+                "volume": 0.25
+            }
+        ]
+    },
+    "enchant.deflect.hit": {
+        "subtitle": "enchant.deflect.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/deflect/hit1",
+                "pitch": 1.75
+            },
+            {
+                "name": "enchantmentplus:enchantment/deflect/hit2",
+                "pitch": 1.75
+            },
+            {
+                "name": "enchantmentplus:enchantment/deflect/hit3",
+                "pitch": 1.75
+            }
+        ]
+    },
+    "enchant.devouring.consume": {
+        "subtitle": "enchant.devouring.consume",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/devouring/consume1",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/devouring/consume2",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/devouring/consume3",
+                "pitch": 0.5
+            }
+        ]
+    },
+    "enchant.divine_hunter.hit": {
+        "subtitle": "enchant.divine_hunter.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/hit",
+                "pitch": 2,
+                "volume": 0.5
+            }
+        ]
+    },
+    "enchant.divine_hunter.shoot": {
+        "subtitle": "enchant.divine_hunter.shoot",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/shoot1",
+                "pitch": 2,
+                "volume": 0.1
+            },
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/shoot2",
+                "pitch": 2,
+                "volume": 0.1
+            }
+        ]
+    },
+    "enchant.divine_hunter.trigger_vision": {
+        "subtitle": "enchant.divine_hunter.trigger_vision",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/trigger_vision1",
+                "pitch": 2,
+                "volume": 0.6
+            },
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/trigger_vision2",
+                "pitch": 2,
+                "volume": 0.6
+            },
+            {
+                "name": "enchantmentplus:enchantment/divine_hunter/trigger_vision2",
+                "pitch": 2,
+                "volume": 0.6
+            }
+        ]
+    },
+    "enchant.icy.hit": {
+        "subtitle": "enchant.icy.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/icy/hit",
+                "pitch": 2,
+                "volume": 0.1
+            }
+        ]
+    },
+    "enchant.necrotic_ward.ward": {
+        "subtitle": "enchant.necrotic_ward.ward",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/necrotic_ward/ward1",
+                "pitch": 2,
+                "volume": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/necrotic_ward/ward2",
+                "pitch": 2,
+                "volume": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/necrotic_ward/ward3",
+                "pitch": 2,
+                "volume": 0.5
+            }
+        ]
+    },
+    "enchant.radiance_gust.gust": {
+        "subtitle": "enchant.radiance_gust.gust",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/radiance_gust/gust",
+                "pitch": 0.5,
+                "volume": 0.5
+            }
+        ]
+    },
+    "enchant.shattering.shatter": {
+        "subtitle": "enchant.shattering.shatter",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/shattering/shatter",
+                "pitch": 0.5,
+                "volume": 1
+            }
+        ]
+    },
+    "enchant.shield_slam.slam": {
+        "subtitle": "enchant.shield_slam.slam",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/shield_slam/slam1",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:enchantment/shield_slam/slam2",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:enchantment/shield_slam/slam3",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "enchant.souls.give": {
+        "subtitle": "enchant.souls.give",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/souls/give"
+            }
+        ]
+    },
+    "enchant.souls.soul_rend_attack": {
+        "subtitle": "enchant.souls.soul_rend_attack",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/souls/soul_rend_attack",
+                "pitch": 0.5,
+                "volume": 0.25
+            }
+        ]
+    },
+    "enchant.swirling.hit": {
+        "subtitle": "enchant.swirling.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/swirling/hit1",
+                "pitch": 2.0
+            },
+            {
+                "name": "enchantmentplus:enchantment/swirling/hit2",
+                "pitch": 2.0
+            }
+        ]
+    },
+    "enchant.toxic_reaction.transfer_poison": {
+        "subtitle": "enchant.toxic_reaction.transfer_poison",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/toxic_reaction/transfer_poison",
+                "pitch": 1.25
+            }
+        ]
+    },
+    "enchant.vampiric_bite.hit": {
+        "subtitle": "enchant.vampiric_bite.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/vampiric_bite/hit1",
+                "pitch": 1.3,
+                "volume": 0.5
+            },
+            {
+                "name": "enchantmentplus:enchantment/vampiric_bite/hit2",
+                "pitch": 1.3,
+                "volume": 0.5
+            }
+        ]
+    },
+    "enchant.venomous.hit": {
+        "subtitle": "enchant.venomous.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/venomous/hit1",
+                "pitch": 0.75,
+                "volume": 3.0
+            },
+            {
+                "name": "enchantmentplus:enchantment/venomous/hit2",
+                "pitch": 0.75,
+                "volume": 3.0
+            },
+            {
+                "name": "enchantmentplus:enchantment/venomous/hit3",
+                "pitch": 0.75,
+                "volume": 3.0
+            },
+            {
+                "name": "enchantmentplus:enchantment/venomous/hit4",
+                "pitch": 0.75,
+                "volume": 3.0
+            },
+            {
+                "name": "enchantmentplus:enchantment/venomous/hit5",
+                "pitch": 0.75,
+                "volume": 3.0
+            }
+        ]
+    },
+    "enchant.weakening.hit": {
+        "subtitle": "enchant.weakening.hit",
+        "sounds": [
+            {
+                "name": "enchantmentplus:enchantment/weakening/hit",
+                "pitch": 2.0,
+                "volume": 0.25
+            }
+        ]
+    },
+    "masterwork_obtained": {
+        "subtitle": "masterwork_obtained",
+        "sounds": [
+            {
+                "name": "enchantmentplus:masterwork_obtained",
+                "pitch": 0.5,
+                "volume": 0.5
+            }
+        ]
+    },
+    "tome.arcane_refreshment.used": {
+        "subtitle": "tome.arcane_refreshment.used",
+        "sounds": [
+            {
+                "name": "enchantmentplus:tomes/arcane_refreshment/used1",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:tomes/arcane_refreshment/used2",
+                "pitch": 0.5
+            },
+            {
+                "name": "enchantmentplus:tomes/arcane_refreshment/used3",
+                "pitch": 0.5
+            }
+        ]
+    },
+    "tome.disenchanting.used": {
+        "subtitle": "tome.disenchanting.used",
+        "sounds": [
+            {
+                "name": "enchantmentplus:tomes/disenchanting/used1",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:tomes/disenchanting/used2",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:tomes/disenchanting/used3",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "tome.intricate_disenchanting.used": {
+        "subtitle": "tome.intricate_disenchanting.used",
+        "sounds": [
+            {
+                "name": "enchantmentplus:tomes/intricate_disenchanting/used1",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:tomes/intricate_disenchanting/used2",
+                "pitch": 1.2
+            },
+            {
+                "name": "enchantmentplus:tomes/intricate_disenchanting/used3",
+                "pitch": 1.2
+            }
+        ]
+    },
+    "tome.restoration.used": {
+        "subtitle": "tome.restoration.used",
+        "sounds": [
+            {
+                "name": "enchantmentplus:tomes/restoration/used",
+                "pitch": 0.8
+            }
+        ]
+    }
+}

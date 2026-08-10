@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": {"translate":"Nuclear Fusion"},
+		"description": {"color":"#FF2A2A","translate":"Strike every mob that can transform with lightning at once"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/root",
+	"rewards": {
+		"function": "bacap_rewards:challenges/nuclear_fusion"
+	},
+	"criteria": {
+		"struck_villager": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [
+					{
+						"entity_type": "minecraft:villager"
+					},
+					{
+						"entity_type": "minecraft:pig"
+					},
+					{
+						"entity_type": "minecraft:creeper"
+					},
+					{
+						"entity_type": "minecraft:mooshroom"
+					}					
+				]
+			}
+		}
+	}
+}

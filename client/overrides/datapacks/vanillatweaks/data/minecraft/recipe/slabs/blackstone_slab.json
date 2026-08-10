@@ -1,0 +1,11 @@
+{
+	"result": {
+		"id": "minecraft:blackstone_slab",
+		"count": 2
+	},
+	"type": "crafting_shapeless",
+	"ingredients": [
+		"minecraft:blackstone"
+	],
+	"group": "block_to_2_slabs"
+}

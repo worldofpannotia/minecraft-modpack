@@ -1,0 +1,49 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/loot_blindness_suspicious_stew_for_a_complete_collection"
+    },
+    "criteria": {
+		"100ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"blindness",
+									"duration":100
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+        "140ticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:suspicious_stew",
+						"components":{
+							"minecraft:suspicious_stew_effects":[
+								{
+									"id":"blindness",
+									"duration":140
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+            "100ticks",
+            "140ticks"
+        ]
+    ]
+}

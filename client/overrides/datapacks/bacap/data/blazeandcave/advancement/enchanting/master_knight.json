@@ -1,0 +1,195 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Master Knight"},
+		"description": {"color":"dark_purple","translate":"Create a sword with all possible enchantments at max level"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/unbreakable",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/master_knight"
+	},		
+	"criteria": {
+		"perfect_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:master_swords",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:sharpness",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:knockback",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:looting",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:sweeping_edge",
+									"levels": {
+										"min": 3
+									}
+								},		
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},	
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}		
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_sword_smite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:master_swords",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:smite",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:knockback",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:looting",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:sweeping_edge",
+									"levels": {
+										"min": 3
+									}
+								},		
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},	
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}		
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_sword_bane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:master_swords",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:bane_of_arthropods",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:knockback",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:fire_aspect",
+									"levels": {
+										"min": 2
+									}
+								},
+								{
+									"enchantments": "minecraft:looting",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:sweeping_edge",
+									"levels": {
+										"min": 3
+									}
+								},		
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},	
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}		
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_sword",
+			"perfect_sword_smite",
+			"perfect_sword_bane"
+		]
+	]
+}

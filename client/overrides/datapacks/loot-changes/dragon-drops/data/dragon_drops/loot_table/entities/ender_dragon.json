@@ -1,0 +1,22 @@
+{
+  "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:elytra"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:dragon_egg"
+                }
+            ]
+        }
+    ]
+}

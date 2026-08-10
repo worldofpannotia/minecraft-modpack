@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": [
+            {
+                "text": "Double Shulker Shells",
+                "color": "gold"
+            },
+            {
+                "text": "\nvanillatweaks.net",
+                "color": "yellow"
+            }
+        ],
+        "min_format": 101,
+        "max_format": [
+            107,
+            1
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:apple",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "An Apple a Year",
+        "description": {
+            "color":"dark_red",
+            "text":"Eat an Apple every Day for 365 In-Game Days"
+        },
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:farming/an_apple_a_day",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/an_apple_a_year"
+	},	
+    "criteria": {
+        "an_apple_a_day": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

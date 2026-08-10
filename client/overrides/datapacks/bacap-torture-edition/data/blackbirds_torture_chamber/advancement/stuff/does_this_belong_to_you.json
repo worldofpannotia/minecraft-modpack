@@ -1,0 +1,3828 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gray_stained_glass_pane"
+		},
+		"title": {
+			"translate": "Does this belong to you?"
+		},
+		"description": {
+			"color": "dark_red",
+			"text": "Kill every Mob by shoving Items they spawn with or Commonly interact with in their Face",
+			"extra": [
+				{
+					"text": "\n\n"
+				},
+				{
+					"italic": true,
+					"color": "dark_gray",
+					"translate": "In order to avoid Cheesing, do NOT hold a Trident in your Offhand"
+				}
+			]
+		},
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/whos_the_pillager_now",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/does_this_belong_to_you"
+	},
+	"criteria": {
+		"bogged_bow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:bogged"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:bow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"drowned_fishing_rod": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:drowned"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:fishing_rod"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"drowned_nautilus_shell": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:drowned"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:nautilus_shell"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"drowned_trident": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:drowned"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:trident"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_allium": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:allium"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_azure_bluet": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:azure_bluet"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_blue_orchid": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:blue_orchid"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_brown_mushroom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:brown_mushroom"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_cactus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:cactus"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_cactus_flower": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:cactus_flower"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_carved_pumpkin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:carved_pumpkin"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_clay": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:clay"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_closed_eyeblossom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:closed_eyeblossom"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_coarse_dirt": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:coarse_dirt"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_cornflower": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:cornflower"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_crimson_fungus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crimson_fungus"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_crimson_nylium": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crimson_nylium"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_crimson_roots": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crimson_roots"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_dandelion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:dandelion"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_dirt": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:dirt"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_grass_block": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:grass_block"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_gravel": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:gravel"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_lily_of_the_valley": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:lily_of_the_valley"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_melon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:melon"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_moss_block": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:moss_block"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_mud": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:mud"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_muddy_mangrove_roots": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:muddy_mangrove_roots"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_mycelium": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:mycelium"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_open_eyeblossom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:open_eyeblossom"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_orange_tulip": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:orange_tulip"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_oxeye_daisy": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:oxeye_daisy"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_pale_moss_block": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:pale_moss_block"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_pink_tulip": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:pink_tulip"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_podzol": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:podzol"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_poppy": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:poppy"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_pumpkin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:pumpkin"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_red_mushroom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:red_mushroom"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_red_sand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:red_sand"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_red_tulip": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:red_tulip"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_rooted_dirt": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:rooted_dirt"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_sand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:sand"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_torchflower": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:torchflower"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_tnt": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:tnt"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_warped_fungus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:warped_fungus"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_warped_nylium": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:warped_nylium"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_warped_roots": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:warped_roots"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_white_tulip": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:white_tulip"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_wither_rose": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:wither_rose"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_egg": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:egg"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_emerald": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:emerald"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_feather": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:feather"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_leather": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:leather"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_rabbit_hide": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:rabbit_hide"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_rabbit_foot": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:rabbit_foot"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"fox_wheat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:fox"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:wheat"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"husk_iron_shovel": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:husk"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_shovel"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"husk_iron_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:husk"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"iron_golem_poppy": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:iron_golem"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:poppy"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"panda_bamboo": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:panda"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:bamboo"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"panda_cake": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:panda"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:cake"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"piglin_crossbow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crossbow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"piglin_golden_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"piglin_brute_golden_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:piglin_brute"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_axe"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"pillager_crossbow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:pillager"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crossbow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"skeleton_bow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:skeleton"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:bow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"stray_bow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:stray"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:bow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"vex_iron_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:vex"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"vindicator_iron_axe": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:vindicator"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_axe"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"wandering_trader_milk_bucket": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:wandering_trader"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:milk_bucket"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"wandering_trader_invisibility_potion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:wandering_trader"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:potion",
+								"components": {
+									"minecraft:potion_contents": {
+										"potion": "invisibility"
+									}
+								}
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"witch_fire_resistance_potion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:witch"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:potion",
+								"components": {
+									"minecraft:potion_contents": {
+										"potion": "fire_resistance"
+									}
+								}
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"witch_instant_health_potion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:witch"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:potion",
+								"components": {
+									"minecraft:potion_contents": {
+										"potion": "healing"
+									}
+								}
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"witch_swiftness_potion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:witch"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:potion",
+								"components": {
+									"minecraft:potion_contents": {
+										"potion": "swiftness"
+									}
+								}
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"witch_water_breathing_potion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:witch"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:potion",
+								"components": {
+									"minecraft:potion_contents": {
+										"potion": "water_breathing"
+									}
+								}
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"wither_skeleton_stone_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:wither_skeleton"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:stone_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_iron_shovel": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_shovel"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_iron_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_villager_iron_shovel": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie_villager"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_shovel"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_villager_iron_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie_villager"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombified_piglin_crossbow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombified_piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:crossbow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombified_piglin_warped_fungus_on_a_stick": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombified_piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:warped_fungus_on_a_stick"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombified_piglin_golden_axe": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombified_piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_axe"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombified_piglin_golden_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombified_piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"parched_bow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:parched"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:bow"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"husk_iron_spear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:husk"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_spear",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_spear"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_iron_spear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_spear",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_spear"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_villager_iron_spear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie_villager"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_spear",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:iron_spear"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"piglin_golden_spear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_spear",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_spear"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombified_piglin_golden_spear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombified_piglin"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_spear",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_spear"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"enderman_golden_dandelion": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:enderman"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:golden_dandelion"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"zombie_diamond_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:diamond_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		},
+		"husk_diamond_sword": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:husk"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blackbirds_torture_chamber:is_player_attack",
+							"expected": true
+						}
+					],
+					"direct_entity": {
+						"equipment": {
+							"mainhand": {
+								"items": "minecraft:diamond_sword"
+							}
+						}
+					}
+				},
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"equipment": {
+									"offhand": {
+										"items": [
+											"minecraft:trident"
+										]
+									}
+								}
+							},
+							"entity": "this"
+						}
+					}
+				]
+			}
+		}
+	}
+}

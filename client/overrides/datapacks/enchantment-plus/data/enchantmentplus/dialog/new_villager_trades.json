@@ -1,0 +1,139 @@
+{
+    "type": "minecraft:notice",
+    "title": "New Villager Trades",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "This data pack adds 4 new villager trades:",
+                    "color": "white"
+                },
+                {
+                    "text": "\n\n\n• ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Journeyman",
+                    "color": "green",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                            {
+                                "text": "Trade Level 3",
+                                "color": "aqua"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": " librarians may offer a ",
+                    "color": "white"
+                },
+                {
+                    "text": "Tome of Disenchanting",
+                    "color": "yellow"
+                },
+                {
+                    "text": " for 30 emeralds\nand a book. Maximum of 2 trades possible per cycle.",
+                    "color": "white"
+                },
+                {
+                    "text": "\n\n• ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Expert",
+                    "color": "green",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                            {
+                                "text": "Trade Level 4",
+                                "color": "aqua"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": " librarians may offer a ",
+                    "color": "white"
+                },
+                {
+                    "text": "Tome of Restoration",
+                    "color": "yellow"
+                },
+                {
+                    "text": " for 45 emeralds\nand a book. Maximum of 2 trades possible per cycle.",
+                    "color": "white"
+                },
+                {
+                    "text": "\n\n• ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Master",
+                    "color": "green",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                            {
+                                "text": "Trade Level 5",
+                                "color": "aqua"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": " librarians may offer a ",
+                    "color": "white"
+                },
+                {
+                    "text": "Tome of Arcane Refreshment",
+                    "color": "aqua"
+                },
+                {
+                    "text": " for 60 emeralds\nand a book. Maximum of 2 trades possible per cycle.",
+                    "color": "white"
+                },
+                {
+                    "text": "\n\n• ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Master",
+                    "color": "green",
+                    "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                            {
+                                "text": "Trade Level 5",
+                                "color": "aqua"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": " librarians may offer a ",
+                    "color": "white"
+                },
+                {
+                    "text": "Tome of Intricate Disenchanting",
+                    "color": "aqua"
+                },
+                {
+                    "text": " for 60 emeralds\nand a book. Maximum of 2 trades possible per cycle.",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:main"
+        }
+    }
+}

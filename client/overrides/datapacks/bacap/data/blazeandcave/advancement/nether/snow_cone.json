@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:snowball"
+		},
+		"title": {"translate":"Snow Cone?"},
+		"description": {"color":"green","translate":"Feed snowballs to a Ghastling"},
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:husbandry/place_dried_ghast_in_water",
+	"rewards": {
+		"function": "bacap_rewards:nether/snow_cone"
+	},
+	"criteria": {
+		"feed_ghastling": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:snowball"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:happy_ghast",
+							"flags": {
+								"is_baby": true
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

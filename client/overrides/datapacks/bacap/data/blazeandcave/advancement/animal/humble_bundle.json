@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bundle"
+		},
+		"title": {"translate":"Humble Bundle"},
+		"description": {"color":"green","translate":"Craft a Bundle using Leather and String"},
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "blazeandcave:animal/cow_tipper",
+	"rewards": {
+		"function": "bacap_rewards:animal/humble_bundle"
+	},		
+	"criteria": {
+		"bundle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:bundles"
+					}
+				]
+			}
+		}
+	}
+}

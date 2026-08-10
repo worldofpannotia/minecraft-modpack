@@ -1,0 +1,78 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "slots": {
+                                        "weapon.mainhand": {
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "enchantmentplus:shield_slam"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:all_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "slots": {
+                                                "weapon.offhand": {
+                                                    "predicates": {
+                                                        "minecraft:enchantments": [
+                                                            {
+                                                                "enchantments": "enchantmentplus:shield_slam"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:inverted",
+                                        "term": {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "slots": {
+                                                    "weapon.mainhand": {
+                                                        "items": "#enchantmentplus:enchantable/shield_slam"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "damage": {
+                    "blocked": true,
+                    "type": {
+                        "is_direct": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantmentplus:enchantments/shield_slam/damage_blocked"
+    }
+}

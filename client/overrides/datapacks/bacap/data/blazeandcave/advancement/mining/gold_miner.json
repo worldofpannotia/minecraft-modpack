@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:raw_gold"
+		},
+		"title": {"translate":"Gold Miner"},
+		"description": {"color":"#75E1FF","translate":"Mine a stack of Raw Gold"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/living_like_kings",
+	"rewards": {
+		"function": "bacap_rewards:mining/gold_miner"
+	},		
+	"criteria": {
+		"raw_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:raw_gold"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

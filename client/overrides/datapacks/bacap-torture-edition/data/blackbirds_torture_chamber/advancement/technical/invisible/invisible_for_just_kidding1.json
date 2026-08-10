@@ -1,0 +1,9 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/farm_destroyer",	
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:impossible"
+			
+		}
+	}
+}

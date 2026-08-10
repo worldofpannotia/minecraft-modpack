@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:black_bed"
+		},
+		"title": "Hyper Insomniac",
+		"description": {
+			"color": "dark_red",
+			"text": "Go 1000 In-Game Days without sleeping"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blackbirds_torture_chamber:stuff/super_insomniac",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific/player": {
+								"stats": [
+									{
+										"type": "minecraft:custom",
+										"stat": "minecraft:time_since_rest",
+										"value": {
+											"min": 24000000
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/hyper_insomniac"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:honeycomb"
+		},
+		"title": {"translate":"Wax Treatment"},
+		"description": {"color":"green","translate":"Apply Honeycomb to a Copper Golem to stop it from oxidizing"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/beep_bop",
+	"rewards": {
+		"function": "bacap_rewards:mining/wax_treatment"
+	},		
+	"criteria": {
+		"honeycomb": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honeycomb"
+					]
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:copper_golem"
+						}
+					}
+				]
+			}
+		}
+	}
+}

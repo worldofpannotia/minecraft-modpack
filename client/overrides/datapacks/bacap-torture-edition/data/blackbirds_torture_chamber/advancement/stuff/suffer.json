@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "suffer": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:large_fern"
+        },
+        "title": "Suffer",
+        "description": {"color":"dark_red","text":"Willingly compost a Stack of Large Ferns"},
+        "frame":"challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stuff/phineas_and_fern",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/suffer"
+	}
+}

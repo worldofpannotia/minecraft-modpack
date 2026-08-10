@@ -1,0 +1,238 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "enchantmentplus:break_safety"
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "enchantmentplus:indestructible"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:type_specific/player": {
+                    "gamemode": [
+                        "creative"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "mainhand": {
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "minecraft:unbreaking"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 1
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": 1
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.5
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": 2
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.333
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": 3
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.25
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": 4
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.2
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": 5
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.166
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:unbreaking",
+                                                "levels": {
+                                                    "min": 6
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.142
+                    }
+                ]
+            }
+        ]
+    }
+]

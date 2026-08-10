@@ -1,0 +1,18 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/a_complete_collection_beehive_initiation"
+    },
+    "criteria": {
+		"any_beehive": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:beehive",
+						"count": 64
+					}
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:music_disc_bounce"
+		},
+		"title": {"translate":"Bouncy Beats"},
+		"description": {"color":"#75E1FF","translate":"Find the Bounce music disc in an Abandoned Mineshaft that intersects with a Sulfur Cave"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/steals_on_wheels",
+	"rewards": {
+		"function": "bacap_rewards:mining/bouncy_beats"
+	},		
+	"criteria": {
+		"music_disc_bounce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_bounce"
+						]
+					}
+				]
+			}
+		}
+	}
+}

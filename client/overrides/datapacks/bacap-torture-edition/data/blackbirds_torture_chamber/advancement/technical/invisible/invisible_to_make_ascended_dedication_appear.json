@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/ascended_dedication",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

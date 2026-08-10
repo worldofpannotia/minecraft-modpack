@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/raw_porkchop_eaten"
+	},	
+	"criteria": {
+		"raw_porkchop": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:porkchop"
+					]
+				}
+			}
+		}
+	}
+}

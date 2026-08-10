@@ -1,0 +1,7 @@
+Thanks for downloading.
+
+• To install,
+1. Place this downloaded folder (the .zip these instructions are contained within) into your world's "datapacks" folder.
+2. Reload your world or the server to finish installing the data pack. 
+
+When installed correctly, the datapack will show an in-game wiki when "Quick Actions" key (defaults to G) is pressed.

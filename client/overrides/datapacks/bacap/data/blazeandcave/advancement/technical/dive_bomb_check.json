@@ -1,0 +1,14 @@
+{	
+	"criteria": {
+		"dive_bomb_check": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"distance": {
+					"y": {
+						"min": 50.0
+					}
+				}
+			}
+		}
+	}
+}

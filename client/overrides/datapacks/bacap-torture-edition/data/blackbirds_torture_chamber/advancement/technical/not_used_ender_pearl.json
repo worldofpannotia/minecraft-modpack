@@ -1,0 +1,28 @@
+{
+	"rewards":{
+		"function": "blackbirds_torture_chamber:impossibles/startrekkin"
+	},
+	"criteria": {
+		"hoe_farmland": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:decorated_pot"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:ender_pearl"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/riddle/sixth_line"
+	},		
+	"criteria": {
+		"sixth_line": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "chicken",
+					"flags": {
+						"is_on_ground": false
+					}
+				},
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:egg"
+						}
+					}
+				},
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"advancements": {
+							"blazeandcave:technical/riddle_fifth_line": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

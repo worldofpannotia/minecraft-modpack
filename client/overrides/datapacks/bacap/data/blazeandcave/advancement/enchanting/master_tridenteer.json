@@ -1,0 +1,112 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:trident",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Master Tridenteer"},
+		"description": {"color":"dark_purple","translate":"Create a trident with all possible enchantments at max level"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/master_fisher",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/master_tridenteer"
+	},		
+	"criteria": {
+		"perfect_trident_loyalty": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:impaling",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:loyalty",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:channeling",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}	
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_trident_riptide": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:impaling",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:riptide",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								}	
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_trident_loyalty",
+			"perfect_trident_riptide"
+		]
+	]
+}

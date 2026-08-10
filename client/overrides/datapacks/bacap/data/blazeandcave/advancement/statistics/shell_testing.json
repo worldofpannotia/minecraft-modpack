@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_nautilus_armor"
+		},
+		"title": {"translate":"Shell Testing"},
+		"description": {"color":"green","translate":"Ride 1km on a Nautilus"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:statistics/root",
+	"rewards": {
+		"function": "bacap_rewards:statistics/shell_testing"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:nautilus_one_cm",
+								"value": {
+									"min": 100000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

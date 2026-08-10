@@ -1,0 +1,56 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blue_egg"
+		},
+		"title": {"translate":"Omelette"},
+		"description": {"color":"#75E1FF","translate":"Collect a stack of all kinds of Chicken Eggs"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/chicken_cooper",
+	"rewards": {
+		"function": "bacap_rewards:animal/omelette"
+	},		
+	"criteria": {
+		"egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:egg"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"brown_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_egg"
+						],
+						"count": 16
+					}
+				]
+			}
+		},
+		"blue_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_egg"
+						],
+						"count": 16
+					}
+				]
+			}
+		}
+	}
+}

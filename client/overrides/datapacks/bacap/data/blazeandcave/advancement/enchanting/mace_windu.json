@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:mace"
+		},
+		"title": {"translate":"Mace Windu"},
+		"description": {"color":"#75E1FF","translate":"Obtain the Wind Burst enchantment on a Mace"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/librarian",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/mace_windu"
+	},			
+	"criteria": {
+		"mace_windu": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:wind_burst"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

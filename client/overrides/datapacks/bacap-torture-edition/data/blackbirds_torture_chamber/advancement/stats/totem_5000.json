@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying",
+            "components": {
+              "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "You are the Evoker now",
+        "description": {"color":"black","text":"Use 5000 Totems of Undying"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_totem_50002",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:impossible"
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/totem_5000"
+	}
+}

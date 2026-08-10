@@ -1,0 +1,167 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:jack_o_lantern"
+		},
+		"title": {"translate":"Handsome JackS"},
+		"description": {"color":"dark_red","translate":"Defeat all mobs wearing a Jack o'Lantern"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:monsters/handsome_jack",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/handsome_jacks"
+	},		
+	"criteria": {
+		"bogged": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"bogged",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"drowned",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"husk",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"skeleton",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"stray": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"stray",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"wither_skeleton",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"zombie",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"zombie_villager",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"zombified_piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"zombified_piglin",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type":"parched",
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:jack_o_lantern"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

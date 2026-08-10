@@ -1,0 +1,19 @@
+{
+	"result": {
+		"id": "minecraft:stone_brick_stairs",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": [
+			"minecraft:stone_bricks",
+			"minecraft:chiseled_stone_bricks",
+			"minecraft:cracked_stone_bricks"
+		]
+	}
+}

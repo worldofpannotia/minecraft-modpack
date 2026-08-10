@@ -1,0 +1,383 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_spear"
+		},
+		"title": {"translate":"Britney Spears"},
+		"description": {"color":"#75E1FF","translate":"Hit mobs with all kinds of Spears"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/toasted_marshmallow",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/britney_spears"
+	},		
+	"criteria": {
+		"wooden_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:wooden_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"stone_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:stone_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"copper_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:copper_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"iron_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:iron_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"golden_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:golden_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"diamond_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:diamond_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"netherite_spear": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:netherite_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"wooden_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:wooden_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"stone_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:stone_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"copper_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:copper_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"iron_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:iron_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"golden_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:golden_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"diamond_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:diamond_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"netherite_spear_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:netherite_spear"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"wooden_spear",
+			"wooden_spear_offhand"
+		],
+		[
+			"stone_spear",
+			"stone_spear_offhand"
+		],
+		[
+			"copper_spear",
+			"copper_spear_offhand"
+		],
+		[
+			"iron_spear",
+			"iron_spear_offhand"
+		],
+		[
+			"golden_spear",
+			"golden_spear_offhand"
+		],
+		[
+			"diamond_spear",
+			"diamond_spear_offhand"
+		],
+		[
+			"netherite_spear",
+			"netherite_spear_offhand"
+		]
+	]
+}

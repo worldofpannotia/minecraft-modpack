@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fire_charge"
+		},
+		"title": {"translate":"Collateral Damage"},
+		"description": {"color":"dark_purple","translate":"Deflect a Ghast fireball into a Happy Ghast"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:nether/pillow_fight",
+	"rewards": {
+		"function": "bacap_rewards:nether/collateral_damage"
+	},	
+	"criteria": {
+		"collateral_damage_tony": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:happy_ghast"
+				},
+				"damage": {
+					"type": {
+						"tags": [
+								{
+									"id": "minecraft:is_projectile",
+									"expected": true
+								}
+							],
+						"direct_entity": {
+							"entity_type": "minecraft:fireball"
+						}
+					}
+				}
+			}
+		}
+	}
+}

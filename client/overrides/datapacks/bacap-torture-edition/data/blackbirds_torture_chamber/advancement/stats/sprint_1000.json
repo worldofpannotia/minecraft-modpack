@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:splash_potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:invisibility"
+                }
+            }
+        },
+        "title": "Fitness Gram Pacer Test",
+        "description": {"color":"dark_red","text":"Sprint 1000km"},
+		"frame": "challenge"
+    },
+    "parent": "blazeandcave:statistics/your_legs_must_be_tired",	
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:sprint_one_cm",
+								"value": {
+									"min": 100000000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/sprint_1000"
+	}
+}

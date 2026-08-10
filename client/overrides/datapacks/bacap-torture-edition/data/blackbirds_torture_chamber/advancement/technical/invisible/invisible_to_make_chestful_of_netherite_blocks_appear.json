@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/chestful_of_netherite_blocks",	
+	"criteria": {
+		"reveal": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}

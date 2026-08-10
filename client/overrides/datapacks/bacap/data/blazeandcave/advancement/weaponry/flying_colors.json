@@ -1,0 +1,279 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:base_color": "red"
+			}
+		},
+		"title": {"translate":"Flying Colors"},
+		"description": {"color":"green","translate":"Apply a banner to your shield"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:weaponry/shield_luck",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/flying_colors"
+	},		
+	"criteria": {
+		"white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "white"
+						}
+					}
+				]
+			}
+		},
+		"orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "orange"
+						}
+					}
+				]
+			}
+		},
+		"magenta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "magenta"
+						}
+					}
+				]
+			}
+		},
+		"light_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "light_blue"
+						}
+					}
+				]
+			}
+		},
+		"yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "yellow"
+						}
+					}
+				]
+			}
+		},
+		"lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "lime"
+						}
+					}
+				]
+			}
+		},
+		"pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "pink"
+						}
+					}
+				]
+			}
+		},
+		"gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "gray"
+						}
+					}
+				]
+			}
+		},
+		"light_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "light_gray"
+						}
+					}
+				]
+			}
+		},
+		"cyan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "cyan"
+						}
+					}
+				]
+			}
+		},
+		"purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "purple"
+						}
+					}
+				]
+			}
+		},
+		"blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "blue"
+						}
+					}
+				]
+			}
+		},
+		"brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "brown"
+						}
+					}
+				]
+			}
+		},
+		"green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "green"
+						}
+					}
+				]
+			}
+		},
+		"red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "red"
+						}
+					}
+				]
+			}
+		},
+		"black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:shield"
+						],
+						"components": {
+							"minecraft:base_color": "black"
+						}
+					}
+				]
+			}
+		}	
+	},
+	"requirements": [
+		[
+			"white",
+			"orange",
+			"magenta",
+			"light_blue",
+			"yellow",
+			"lime",
+			"pink",
+			"gray",
+			"light_gray",
+			"cyan",
+			"purple",
+			"blue",
+			"brown",
+			"green",
+			"red",
+			"black"
+		]
+	]
+}

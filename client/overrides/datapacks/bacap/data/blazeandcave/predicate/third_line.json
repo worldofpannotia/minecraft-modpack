@@ -1,0 +1,37 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"vehicle": {
+					"entity_type": "#blazeandcave:player_rideable_mobs"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"nbt": "{CustomName:\"Dinnerbone\"}"
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"vehicle": {
+							"nbt": "{CustomName:\"Grumm\"}"
+						}
+					}
+				}
+			]
+		}
+	]
+}

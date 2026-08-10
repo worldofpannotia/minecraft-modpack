@@ -1,0 +1,39 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.curse_of_clumsiness",
+        "fallback": "Curse of Clumsiness"
+    },
+    "effects": {
+        "minecraft:block_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                }
+            }
+        ],
+        "minecraft:mob_experience": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "any"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/curse_of_clumsiness",
+    "weight": 1
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crossbow",
+			"components": {
+				"minecraft:charged_projectiles": [
+					{
+						"id": "minecraft:arrow",
+						"count": 1
+					}
+				]
+			}
+		},
+		"title": {"translate":"Artillery"},
+		"description": {"color":"#75E1FF","translate":"Have nine loaded crossbows in your hotbar. All set!"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/whos_the_pillager_now",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/artillery"
+	},		
+	"criteria": {
+		"nine_crossbow": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

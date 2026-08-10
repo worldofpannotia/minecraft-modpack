@@ -1,0 +1,188 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.air_burst",
+        "fallback": "Air Burst"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/air_burst/set_max_jumps"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_on_ground": true
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"eplus.air_burst_set_jumps\"]}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "enchantmentplus:enchantments/air_burst/first_jump"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "jump": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false,
+                                    "is_in_water": false,
+                                    "is_on_ground": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"eplus.air_burst_set_jumps\"]}"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "direction": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "magnitude": 0.75
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/air_burst/jump"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "jump": true
+                                    }
+                                },
+                                "flags": {
+                                    "is_fall_flying": false,
+                                    "is_flying": false,
+                                    "is_in_water": false,
+                                    "is_on_ground": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "eplus.air_burst_jumps": {
+                                    "min": 1
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "eplus.air_burst_delay": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 12
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/air_burst",
+    "weight": 2
+}

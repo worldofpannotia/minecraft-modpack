@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+	"#blazeandcave:skeletons_with_bows",
+	"minecraft:wither_skeleton"
+  ]
+}

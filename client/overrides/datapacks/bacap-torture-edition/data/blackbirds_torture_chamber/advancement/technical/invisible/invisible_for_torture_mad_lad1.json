@@ -1,0 +1,8 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/statistics_mad_lad",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

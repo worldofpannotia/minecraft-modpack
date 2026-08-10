@@ -1,0 +1,3 @@
+execute if entity @s[tag=homes.nameSet] run tellraw @s [{"score":{"name":"#id","objective":"homes.dummy"},"color":"gold"},{"text":". ","color":"gold"},{"storage":"homes:storage","nbt":"temp[0].name","interpret":true,"color":"yellow"}]
+execute unless entity @s[tag=homes.nameSet] if score #id homes.dummy matches 1 run tellraw @s [{"text":"1. ","color":"gold"},{"text":"Home","color":"yellow"}]
+execute unless entity @s[tag=homes.nameSet] unless score #id homes.dummy matches 1 run tellraw @s [{"score":{"name":"#id","objective":"homes.dummy"},"color":"gold"},{"text":". ","color":"gold"},{"text":"Home ","color":"yellow"},{"score":{"name":"#id","objective":"homes.dummy"},"color":"yellow"}]

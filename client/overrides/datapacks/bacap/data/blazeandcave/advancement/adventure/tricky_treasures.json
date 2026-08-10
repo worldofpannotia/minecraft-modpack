@@ -1,0 +1,149 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:music_disc_creator"
+		},
+		"title": {"translate":"Tricky Treasures"},
+		"description": {"color":"#75E1FF","translate":"Collect every kind of treasure item that can only be found in Trial Chambers"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/revaulting",
+	"rewards": {
+		"function": "bacap_rewards:adventure/tricky_treasures"
+	},		
+	"criteria": {
+		"music_disc_creator": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_creator"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_creator_music_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_creator_music_box"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_precipice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_precipice"
+						]
+					}
+				]
+			}
+		},
+		"flow_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"guster_banner_pattern": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:guster_banner_pattern"
+						]
+					}
+				]
+			}
+		},
+		"flow_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"guster_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:guster_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"scrape_pottery_sherd": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:scrape_pottery_sherd"
+						]
+					}
+				]
+			}
+		},
+		"bolt_armor_trim_smithing_template": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bolt_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"flow_armor_trim_smithing_template": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:flow_armor_trim_smithing_template"
+						]
+					}
+				]
+			}
+		},
+		"heavy_core": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:heavy_core"
+						]
+					}
+				]
+			}
+		}
+	}
+}

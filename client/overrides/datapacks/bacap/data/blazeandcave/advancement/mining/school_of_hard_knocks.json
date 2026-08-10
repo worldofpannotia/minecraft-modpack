@@ -1,0 +1,225 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:waxed_weathered_copper_door"
+		},
+		"title": {"translate":"School of Hard Knocks"},
+		"description": {"color":"#75E1FF","translate":"Collect a stack of every oxidizing stage of Copper Doors and Trapdoors, including all of their waxed variants"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/copper_computer",
+	"rewards": {
+		"function": "bacap_rewards:mining/school_of_hard_knocks"
+	},		
+	"criteria": {
+		"copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_door": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_door"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_trapdoor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_trapdoor"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "tropical_fish"
+        },
+        "title": "Best Mechanic in the Game",
+        "description": "Fish 2500 Items",
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:stats/fish_1000",
+    "criteria": {
+		"trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/fish_2500"
+	}
+}

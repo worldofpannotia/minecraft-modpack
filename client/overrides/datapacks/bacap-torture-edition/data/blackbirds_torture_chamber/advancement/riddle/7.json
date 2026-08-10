@@ -1,0 +1,51 @@
+{
+  "criteria": {
+    "7": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific/player": {
+            "advancements": {
+              "blackbirds_torture_chamber:riddle/6": true
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "zombie",
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:stone_sword"
+            },
+            "head": {
+              "items": "minecraft:leather_helmet",
+              "components": {
+                "minecraft:dyed_color": 3290681
+              }
+            },
+            "chest": {
+              "items": "minecraft:leather_chestplate",
+              "components": {
+                "minecraft:dyed_color": 8470846
+              }
+            },
+            "legs": {
+              "items": "minecraft:leather_leggings",
+              "components": {
+                "minecraft:dyed_color": 10645634
+              }
+            },
+            "feet": {
+              "items": "minecraft:leather_boots",
+              "components": {
+                "minecraft:dyed_color": 3290681
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "blackbirds_torture_chamber:riddle/7"
+  }
+}

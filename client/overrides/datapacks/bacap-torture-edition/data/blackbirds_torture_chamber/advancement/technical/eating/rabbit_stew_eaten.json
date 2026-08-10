@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/rabbit_stew_eaten"
+	},	
+	"criteria": {
+		"rabbit_stew": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:rabbit_stew"
+					]
+				}
+			}
+		}
+	}
+}

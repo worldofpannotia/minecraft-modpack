@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/tropical_fish_eaten"
+	},	
+	"criteria": {
+		"tropical_fish": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:tropical_fish"
+					]
+				}
+			}
+		}
+	}
+}

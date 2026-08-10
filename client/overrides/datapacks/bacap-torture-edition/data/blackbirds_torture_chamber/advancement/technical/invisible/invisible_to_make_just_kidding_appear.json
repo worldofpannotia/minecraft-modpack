@@ -1,0 +1,80 @@
+{
+	"parent": "blackbirds_torture_chamber:stuff/just_kidding",	
+	"criteria": {
+		"permanent_destruction": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/permanent_destruction": true
+                        }
+                    }
+                }
+            }
+        },
+        "even_future_entities": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/even_future_entities": true
+                        }
+                    }
+                }
+            }
+        },
+        "care_for_wardens": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/care_for_wardens": true
+                        }
+                    }
+                }
+            }
+        },
+        "revaulting_destruction": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/revaulting_destruction": true
+                        }
+                    }
+                }
+            }
+        },
+        "trial_destruction": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/trial_destruction": true
+                        }
+                    }
+                }
+            }
+        },
+        "farm_destroyer": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "advancements": {
+                            "blackbirds_torture_chamber:stuff/farm_destroyer": true
+                        }
+                    }
+                }
+            }
+        }
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/technical/just_kidding_unlock"
+	}
+}

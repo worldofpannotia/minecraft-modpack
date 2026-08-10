@@ -1,0 +1,28 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"head": {
+				"items": [
+					"minecraft:copper_helmet"
+				]
+			},
+			"chest": {
+				"items": [
+					"minecraft:copper_chestplate"
+				]
+			},
+			"legs": {
+				"items": [
+					"minecraft:copper_leggings"
+				]
+			},
+			"feet": {
+				"items": [
+					"minecraft:copper_boots"
+				]
+			}
+		}
+	}
+}

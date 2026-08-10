@@ -1,0 +1,1127 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lingering_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:harming"
+				}
+			}
+		},
+		"title": {"translate":"Biological Warfare"},
+		"description": {"color":"#FF2A2A","translate":"Kill every mob in the game with lingering potions"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/potion_master",
+	"rewards": {
+		"function": "bacap_rewards:challenges/biological_warfare"
+	},	
+	"criteria": {
+		"bat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "bat"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"chicken": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "chicken"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"cod": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "cod"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"cow": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "cow"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"mooshroom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "mooshroom"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"pig": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "pig"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"rabbit": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "rabbit"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"salmon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "salmon"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"sheep": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sheep"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"squid": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "squid"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"tropical_fish": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "tropical_fish"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"turtle": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "turtle"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "villager"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"wandering_trader": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "wandering_trader"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"pufferfish": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "pufferfish"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"cave_spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "cave_spider"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"panda": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "panda"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"polar_bear": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "polar_bear"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "spider"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombified_piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombified_piglin"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"blaze": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "blaze"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "creeper"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"drowned": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "drowned"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"endermite": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "endermite"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"evoker": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "evoker"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ghast"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"guardian": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "guardian"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "husk"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"magma_cube": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "magma_cube"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"phantom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "phantom"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"pillager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "pillager"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"ravager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ravager"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"shulker": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "shulker"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"silverfish": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "silverfish"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:skeleton"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"slime": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "slime"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"stray": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "stray"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"vex": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "vex"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"vindicator": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "vindicator"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"witch": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "witch"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"wither_skeleton": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "wither_skeleton"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie_villager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_villager"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:zombie"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"cat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "cat"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"donkey": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "donkey"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"llama": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "llama"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"mule": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "mule"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"parrot": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "parrot"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"skeleton_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "skeleton_horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"trader_llama": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "trader_llama"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"wolf": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "wolf"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"dolphin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "dolphin"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"fox": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "fox"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"ocelot": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ocelot"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"iron_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "iron_golem"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"snow_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "snow_golem"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "wither"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"bee": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "bee"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "piglin"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"hoglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "hoglin"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"strider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "strider"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zoglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zoglin"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"piglin_brute": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "piglin_brute"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"axolotl": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "axolotl"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"glow_squid": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "glow_squid"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"goat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "goat"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"frog": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "frog"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"tadpole": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "tadpole"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"allay": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "allay"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"warden": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "warden"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"camel": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "camel"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"sniffer": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sniffer"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"armadillo": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "armadillo"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"breeze": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "breeze"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"bogged": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "bogged"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "happy_ghast"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"copper_golem": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "copper_golem"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "nautilus"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie_nautilus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_nautilus"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "zombie_horse"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"camel_husk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "camel_husk"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"parched": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "parched"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"enderman": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "enderman"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		},
+		"sulfur_cube": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "sulfur_cube"
+				},
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:area_effect_cloud"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lava_bucket"
+		},
+		"title": {"translate":"I'm in Lava With You"},
+		"description": {"color":"#75E1FF","translate":"Hit something while you and it are in lava"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:nether/nugget_in_a_biscuit",
+	"rewards": {
+		"function": "bacap_rewards:nether/im_in_lava_with_you"
+	},		
+	"criteria": {
+		"hit_in_lava": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"distance": {
+								"absolute": {
+									"min": 0.1
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"fluid": {
+									"fluids": [
+										"minecraft:lava",
+										"minecraft:flowing_lava"
+									]
+								}
+							}
+						}
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"fluid": {
+									"fluids": [
+										"minecraft:lava",
+										"minecraft:flowing_lava"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

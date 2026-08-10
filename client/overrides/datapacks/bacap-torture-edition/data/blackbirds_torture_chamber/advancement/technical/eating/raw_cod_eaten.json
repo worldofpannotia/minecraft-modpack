@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/raw_cod_eaten"
+	},	
+	"criteria": {
+		"raw_cod": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cod"
+					]
+				}
+			}
+		}
+	}
+}

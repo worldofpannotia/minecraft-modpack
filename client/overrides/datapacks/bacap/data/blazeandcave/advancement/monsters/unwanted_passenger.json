@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:weakness"
+				}
+			}
+		},
+		"title": {"translate":"Unwanted Passenger"},
+		"description": {"color":"#75E1FF","translate":"Ride a Camel Husk with a Parched still riding it for 30 seconds"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:monsters/sands_the_skeleton",
+	"rewards": {
+		"function": "bacap_rewards:monsters/unwanted_passenger"
+	},
+	"criteria": {
+		"unwanted_passenger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

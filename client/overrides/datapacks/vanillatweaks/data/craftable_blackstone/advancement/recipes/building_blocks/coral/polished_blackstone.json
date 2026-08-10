@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_polished_blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:polished_blackstone"
+					}
+				]
+			}
+		},
+		"has_coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#craftable_blackstone:coal_charcoal"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "craftable_blackstone:blackstone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_polished_blackstone",
+			"has_coal",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"craftable_blackstone:polished_blackstone"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/cooked_rabbit_eaten"
+	},	
+	"criteria": {
+		"cooked_rabbit": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_rabbit"
+					]
+				}
+			}
+		}
+	}
+}

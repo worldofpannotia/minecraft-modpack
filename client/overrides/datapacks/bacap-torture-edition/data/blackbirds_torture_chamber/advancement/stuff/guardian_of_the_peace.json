@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cactus"
+		},
+		"title": {"translate":"Guardian of the Peace"},
+		"description": {"color":"dark_red","text":"Die from a Villager because of Thorns"},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:adventure/you_are_the_pillager",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/guardian_of_the_peace"
+	},		
+	"criteria": {
+        "die_to_thorns": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:villager"
+                },
+                "killing_blow": {
+                    "tags": [
+						{
+							"id":"blackbirds_torture_chamber:is_thorns",
+							"expected":true
+						}
+					]
+				}
+            }
+        }
+	}
+}

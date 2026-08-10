@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "sulfur_cube_bucket_non_empty": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bucket"
+                },
+                "entity": {
+                    "entity_type": "minecraft:sulfur_cube",
+                    "equipment": {
+                        "body": {
+                            "count": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

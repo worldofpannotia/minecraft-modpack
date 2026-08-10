@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nautilus_shell"
+		},
+		"title": {"translate":"Equiangular Spiral"},
+		"description": {"color":"green","translate":"Tame a Nautilus using Pufferfish"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:biomes/the_sea_calls_you",
+	"rewards": {
+		"function": "bacap_rewards:biomes/equiangular_spiral"
+	},		
+	"criteria": {
+		"tamed_animal": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"entity_type": "#blazeandcave:nautiluses"
+				}
+			}
+		}
+	}
+}

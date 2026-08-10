@@ -1,0 +1,58 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "translate": "enchantment.enchantmentplus.weakening",
+        "fallback": "Weakening"
+    },
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_mob_effect",
+                            "to_apply": "minecraft:weakness",
+                            "min_duration": 5,
+                            "max_duration": 5,
+                            "min_amplifier": 0,
+                            "max_amplifier": 0
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/weakening/post_attack"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:random_chance",
+                    "chance": {
+                        "type": "minecraft:enchantment_level",
+                        "amount": {
+                            "type": "minecraft:linear",
+                            "base": 0.04,
+                            "per_level_above_first": 0.04
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/defensive_hit_effect",
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 4
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 4
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/weakening",
+    "weight": 2
+}

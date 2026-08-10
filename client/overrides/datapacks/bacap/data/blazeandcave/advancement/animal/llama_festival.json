@@ -1,0 +1,385 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:purple_banner"
+		},
+		"title": {"translate":"Llama Festival"},
+		"description": {"color":"#75E1FF","translate":"Sit on Llamas with all 16 colors of carpet. Getting off will reset your progress"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/llama_llama_duck_king",
+	"rewards": {
+		"function": "bacap_rewards:animal/llama_festival"
+	},		
+	"criteria": {
+		"white_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:white_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"orange_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:orange_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"magenta_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:magenta_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"light_blue_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:light_blue_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"yellow_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:yellow_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"lime_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:lime_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"pink_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:pink_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"gray_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:gray_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"light_gray_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:light_gray_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"cyan_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:cyan_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"purple_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:purple_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"blue_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:blue_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"brown_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:brown_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"green_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:green_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:red_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_carpet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "#blazeandcave:llamas",
+								"equipment": {
+									"body": {
+										"items": [
+											"minecraft:black_carpet"
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

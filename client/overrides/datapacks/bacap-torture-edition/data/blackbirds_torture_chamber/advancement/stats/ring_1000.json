@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_11"
+        },
+        "title": "Stuck in my Head",
+        "description": {"color":"#75E1FF","text":"Ring Bells 1000 Times"},
+		"frame": "goal"
+    },
+    "parent": "blackbirds_torture_chamber:stats/ring_100",
+    "criteria": {
+        "trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"type_specific/player": {
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:bell_ring",
+								"value": {
+									"min": 1000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/ring_1000"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:hopper"
+		},
+		"title": {"translate":"Space Hopper"},
+		"description": {"color":"green","translate":"Craft a hopper for item transportation"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:redstone/repeating_repeater",
+	"rewards": {
+		"function": "bacap_rewards:redstone/space_hopper"
+	},
+	"criteria": {
+		"hopper": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:hopper"
+						]
+					}
+				]
+			}
+		}
+	}
+}

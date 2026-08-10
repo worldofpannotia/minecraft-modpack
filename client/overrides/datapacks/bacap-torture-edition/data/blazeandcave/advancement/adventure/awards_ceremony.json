@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_block"
+		},
+		"title": {
+			"translate": "Awards Ceremony"
+		},
+		"description": {
+			"color": "dark_red",
+			"translate": "Have an Allay present to you a trophy awarded from completing one of the advancements"
+		},
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/allay_deliver_cake_to_note_block",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/bacap/awards_ceremony"
+	},
+	"criteria": {
+		"spruce_sapling": {
+			"trigger": "minecraft:thrown_item_picked_up_by_player",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:allay"
+						}
+					}
+				],
+				"item": {
+					"components": {
+						"custom_data": "{Trophy:1}"
+					}
+				}
+			}
+		}
+	}
+}

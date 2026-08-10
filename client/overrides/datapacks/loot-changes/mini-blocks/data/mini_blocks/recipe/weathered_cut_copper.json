@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:weathered_cut_copper",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhOGZjNDM3MThhZTgxZDU4M2M2NGIyOTA0ZmE1ZmMwMzBiMWJkYmVjMmFmNjYwNTA5OWRmMmZkMmYwMGE2MSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Weathered Cut Copper",
+      "minecraft:rarity": "common"
+    }
+  }
+}

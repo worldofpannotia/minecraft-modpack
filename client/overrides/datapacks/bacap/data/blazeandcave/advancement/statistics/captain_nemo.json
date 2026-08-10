@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:golden_nautilus_armor"
+		},
+		"title": {"translate":"Captain Nemo"},
+		"description": {"color":"#75E1FF","translate":"Ride 5km on a Nautilus"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:statistics/shell_testing",
+	"rewards": {
+		"function": "bacap_rewards:statistics/captain_nemo"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player":  {
+					"minecraft:type_specific/player": {
+
+						"stats": [
+							{
+								"type": "minecraft:custom",
+								"stat": "minecraft:nautilus_one_cm",
+								"value": {
+									"min": 500000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

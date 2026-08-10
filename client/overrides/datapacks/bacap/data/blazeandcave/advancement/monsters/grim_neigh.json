@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:zombie_horse_spawn_egg"
+		},
+		"title": {"translate":"Grim Neigh"},
+		"description": {"color":"green","translate":"Ride a Zombie Horse"},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "blazeandcave:monsters/dead_dont_die",
+	"rewards": {
+		"function": "bacap_rewards:monsters/grim_neigh"
+	},		
+	"criteria": {
+		"zombie_horse": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "minecraft:zombie_horse"
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "wants": {
+        "id": "minecraft:emerald",
+        "count": 30
+    },
+    "additional_wants": {
+        "id": "minecraft:book"
+    },
+    "gives": {
+        "id": "minecraft:book",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.enchantmentplus.tome_of_disenchanting",
+                "fallback": "Tome of Disenchanting"
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "desc.enchantmentplus.tome_of_disenchanting",
+                    "fallback": "Allows taking enchantments off of an already enchanted item.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_model": "enchantmentplus:tome_of_disenchanting",
+            "minecraft:custom_data": {
+                "EnchantmentPlusData": {
+                    "TomeType": "disenchanting"
+                }
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2147483647,
+                "animation": "none",
+                "has_consume_particles": false
+            }
+        }
+    },
+    "max_uses": 2,
+    "reputation_discount": 0.2,
+    "xp": 10
+}

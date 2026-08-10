@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "text": "Tome of Restoration",
+        "color": "yellow"
+    },
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:book",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "item.enchantmentplus.tome_of_restoration",
+                        "fallback": "Tome of Restoration"
+                    },
+                    "minecraft:lore": [
+                        {
+                            "translate": "desc.enchantmentplus.tome_of_restoration",
+                            "fallback": "Allows repairing a damaged item.",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "minecraft:rarity": "uncommon",
+                    "minecraft:item_model": "enchantmentplus:tome_of_restoration",
+                    "minecraft:custom_data": {
+                        "EnchantmentPlusData": {
+                            "TomeType": "restoration"
+                        }
+                    },
+                    "minecraft:consumable": {
+                        "consume_seconds": 2147483647,
+                        "animation": "none",
+                        "has_consume_particles": false
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Description: ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Allows repairing a damaged item.\n\n\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Usage: ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Hold this in the mainhand and the desired item in the offhand.\n\nUpon using, the item will be fully repaired.\n\nThis action costs ",
+                    "color": "white"
+                },
+                {
+                    "text": "500 experience points (about 19.1 levels)",
+                    "color": "green"
+                },
+                {
+                    "text": ".",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:tomes"
+        }
+    }
+}

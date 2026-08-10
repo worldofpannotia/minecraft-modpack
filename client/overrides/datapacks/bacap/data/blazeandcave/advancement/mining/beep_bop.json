@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:copper_golem_statue",
+			"components": {"minecraft:block_state":{"copper_golem_pose":"running"}}
+		},
+		"title": {"translate":"Beep Bop"},
+		"description": {"color":"green","translate":"Build a Copper Golem"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/youll_never_take_me_alive_copper",
+	"rewards": {
+		"function": "bacap_rewards:mining/beep_bop"
+	},		
+	"criteria": {
+		"summoned": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:copper_golem"
+				}
+			}
+		}
+	}
+}

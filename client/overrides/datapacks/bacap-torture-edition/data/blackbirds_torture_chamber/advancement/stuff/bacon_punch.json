@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:porkchop"
+		},
+		"title": "Bacon Punch",
+		"description": {
+			"color":"dark_red",
+			"text":"Get punched by a Piglin Barehand"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:nether/cultural_misunderstandings",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/bacon_punch"
+	},		
+	"criteria": {
+        "bacon_punching": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity":{
+							"entity_type":"minecraft:piglin",
+							"flags":{
+								"is_baby": false
+							},
+							"equipment":{
+								"mainhand":{
+									"items":"minecraft:air"
+								}
+							}
+						},
+						"tags":[
+							{
+								"id":"blackbirds_torture_chamber:is_mob_attack",
+								"expected":true
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/complete_cubollection"
+    },
+    "criteria": {
+        "sulfur_cube_bucket": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bucket"
+                },
+                "entity": {
+                    "entity_type": "minecraft:sulfur_cube"
+                }
+            }
+        }
+    }
+}

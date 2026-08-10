@@ -1,0 +1,102 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_hoe",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {"translate":"Master Farmer"},
+		"description": {"color":"dark_purple","translate":"Create a hoe with all possible enchantments at max level"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/master_axeman",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/master_farmer"
+	},		
+	"criteria": {
+		"perfect_hoe_fortune": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:master_hoes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:efficiency",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:fortune",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}	
+							]
+						}
+					}
+				]
+			}
+		},
+		"perfect_hoe_silk_touch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#blazeandcave:master_hoes",
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:efficiency",
+									"levels": {
+										"min": 5
+									}
+								},
+								{
+									"enchantments": "minecraft:silk_touch",
+									"levels": {
+										"min": 1
+									}
+								},
+								{
+									"enchantments": "minecraft:unbreaking",
+									"levels": {
+										"min": 3
+									}
+								},
+								{
+									"enchantments": "minecraft:mending",
+									"levels": {
+										"min": 1
+									}
+								}	
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"perfect_hoe_fortune",
+			"perfect_hoe_silk_touch"
+		]
+	]
+}

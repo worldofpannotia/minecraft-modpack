@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {"profile":{"id":[-1916685756,-813938323,-1292989598,20461233],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVkMDdlNjhmMDQ2Njc3NDBiYjZlYmI5NzlhZGM4MjMyMWJjYmFlNWNkNDU4Njk3NjkwMzdjMzY1NGQ2YjZkNyJ9fX0="}]}}
+		},
+		"title": {"translate":"Certified Spud Chomper"},
+		"description": {"color":"dark_purple","translate":"Eat 100 Poisonous Potatoes","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_progress"}]},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:farming/not_today",
+	"rewards": {
+		"function": "bacap_rewards:farming/certified_spud_chomper"
+	},		
+	"criteria": {
+		"certified_spud_chomper": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

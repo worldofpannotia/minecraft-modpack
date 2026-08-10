@@ -1,0 +1,43 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantmentplus.voidfused",
+        "fallback": "Voidfused"
+    },
+    "effects": {
+        "minecraft:damage": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 2.5,
+                        "per_level_above_first": 2.5
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "#enchantmentplus:sensitive_to_voidfused"
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 4
+    },
+    "max_level": 10,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 4
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/voidfused",
+    "weight": 5
+}

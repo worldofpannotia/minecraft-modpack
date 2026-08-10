@@ -1,0 +1,127 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:blaze_powder"
+		},
+		"title": {"translate":"Fiery"},
+		"description": {"color":"#75E1FF","translate":"Obtain every fire related enchantment"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/scuba_gear",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/fiery"
+	},			
+	"criteria": {
+		"fire_protection": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:fire_protection"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"fire_aspect": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:fire_aspect"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"flame": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "minecraft:flame"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"fire_protection_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:fire_protection"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"fire_aspect_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:fire_aspect"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"flame_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "minecraft:flame"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},	
+	"requirements": [
+		[
+			"fire_protection",
+			"fire_protection_book"
+		],
+		[
+			"fire_aspect",
+			"fire_aspect_book"
+		],
+		[
+			"flame",
+			"flame_book"
+		]
+	]
+}

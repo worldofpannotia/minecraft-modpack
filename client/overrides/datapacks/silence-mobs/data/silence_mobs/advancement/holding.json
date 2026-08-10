@@ -1,0 +1,131 @@
+{
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "unsilence_me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "unsilence_me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "unsilence me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "unsilence me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "Unsilence me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "Unsilence me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "Unsilence Me"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "items": "minecraft:name_tag",
+                                            "components": {
+                                                "minecraft:custom_name": "Unsilence Me"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "silence_mob:glow_named"
+    }
+}

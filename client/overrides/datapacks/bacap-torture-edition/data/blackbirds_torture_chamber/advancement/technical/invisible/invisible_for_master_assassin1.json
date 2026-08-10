@@ -1,0 +1,8 @@
+{
+	"parent": "blazeandcave:monsters/custom_boss_fight",	
+	"criteria": {
+		"hidden": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

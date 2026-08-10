@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/cookie_eaten"
+	},	
+	"criteria": {
+		"cookie": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cookie"
+					]
+				}
+			}
+		}
+	}
+}

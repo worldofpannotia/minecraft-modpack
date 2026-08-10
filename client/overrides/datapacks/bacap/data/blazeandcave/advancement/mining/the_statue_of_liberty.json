@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oxidized_copper_golem_statue"
+		},
+		"title": {"translate":"The Statue of Liberty"},
+		"description": {"color":"#75E1FF","translate":"Have a Copper Golem completely oxidize into a statue, then mine it"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/total_copout",
+	"rewards": {
+		"function": "bacap_rewards:mining/the_statue_of_liberty"
+	},		
+	"criteria": {
+		"oxidized_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"oxidized_copper_golem_statue",
+							"waxed_oxidized_copper_golem_statue"
+						]
+					}
+				]
+			}
+		}
+	}
+}

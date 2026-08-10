@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "text": "Tome of Arcane Refreshment",
+        "color": "aqua"
+    },
+    "body": [
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:book",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "item.enchantmentplus.tome_of_arcane_refreshment",
+                        "fallback": "Tome of Arcane Refreshment"
+                    },
+                    "minecraft:lore": [
+                        {
+                            "translate": "desc.enchantmentplus.tome_of_arcane_refreshment",
+                            "fallback": "Allows resetting the repair cost of an item.",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "minecraft:rarity": "rare",
+                    "minecraft:item_model": "enchantmentplus:tome_of_arcane_refreshment",
+                    "minecraft:enchantment_glint_override": true,
+                    "minecraft:custom_data": {
+                        "EnchantmentPlusData": {
+                            "TomeType": "arcane_refreshment"
+                        }
+                    },
+                    "minecraft:consumable": {
+                        "consume_seconds": 2147483647,
+                        "animation": "none",
+                        "has_consume_particles": false
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "width": 600,
+            "contents": [
+                {
+                    "text": "Description: ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Allows resetting the repair cost of an item.\n\n\n\n",
+                    "color": "white"
+                },
+                {
+                    "text": "Usage: ",
+                    "color": "gray"
+                },
+                {
+                    "text": "Hold this in the mainhand and the desired item in the offhand.\n\nUpon using, the repair cost of the item will be reset back to 0.\n\nThis action costs ",
+                    "color": "white"
+                },
+                {
+                    "text": "750 experience points (about 23 levels)",
+                    "color": "green"
+                },
+                {
+                    "text": ".",
+                    "color": "white"
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "enchantmentplus:tomes"
+        }
+    }
+}

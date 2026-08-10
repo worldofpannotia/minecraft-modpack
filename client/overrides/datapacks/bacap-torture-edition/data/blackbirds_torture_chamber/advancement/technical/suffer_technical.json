@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"test": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"player": {},
+				"location": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:composter",
+							"properties": {
+								"level": "7"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:large_fern"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/compost_large_fern"
+	}
+}

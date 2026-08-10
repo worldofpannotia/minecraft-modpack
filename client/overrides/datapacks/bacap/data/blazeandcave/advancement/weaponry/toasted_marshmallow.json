@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ghast_spawn_egg"
+		},
+		"title": {"translate":"Toasted Marshmallow"},
+		"description": {"color":"#75E1FF","translate":"Defeat a Ghast using a Spear enchanted with Fire Aspect"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/spear_fishing",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/toasted_marshmallow"
+	},		
+	"criteria": {
+		"toasted_marshmallow_mainhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ghast"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "minecraft:is_player_attack",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "#blazeandcave:spears",
+							"predicates": {
+								"enchantments": [
+									{
+										"enchantments": "minecraft:fire_aspect"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		},
+		"toasted_marshmallow_offhand": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "ghast"
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "blazeandcave:spear",
+							"expected": true
+						}
+					]
+				},
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": "#blazeandcave:spears",
+							"predicates": {
+								"enchantments": [
+									{
+										"enchantments": "minecraft:fire_aspect"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"toasted_marshmallow_mainhand",
+			"toasted_marshmallow_offhand"
+		]
+	]
+}

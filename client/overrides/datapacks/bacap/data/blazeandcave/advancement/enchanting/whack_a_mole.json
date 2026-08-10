@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:armadillo_spawn_egg"
+		},
+		"title": {"translate":"Whack-a-mole"},
+		"description": {"color":"dark_purple","translate":"Using a Mace enchanted with Wind Burst, hit eight Armadillos consecutively without touching the ground"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/mace_windu",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/whack_a_mole"
+	},			
+	"criteria": {
+		"whack_a_mole": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:waxed_weathered_copper_chest"
+		},
+		"title": {"translate":"D. B. Copper"},
+		"description": {"color":"#75E1FF","translate":"Collect a stack of every oxidizing stage of Copper Chests, including all of their waxed variants"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:husbandry/wax_off",
+	"rewards": {
+		"function": "bacap_rewards:mining/d_b_copper"
+	},		
+	"criteria": {
+		"copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_chest"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

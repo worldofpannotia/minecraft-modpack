@@ -1,0 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_ingot",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "Ascended Dedication",
+        "description": {
+            "color": "black",
+            "text": "Craft 64 Netherite Blocks then craft them all into 576 Netherite Hoes before breaking them all"
+        },
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_ascended_dedication2",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/ascended_dedication"
+    },
+    "criteria": {
+        "netherite_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_block",
+                        "count": 64
+                    }
+                ]
+            }
+        },
+        "break_576_netherite_hoes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific/player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:broken",
+                                "stat": "minecraft:netherite_hoe",
+                                "value": {
+                                    "min": 576
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

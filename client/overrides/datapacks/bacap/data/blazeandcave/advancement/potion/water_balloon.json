@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:water"
+				}
+			}
+		},
+		"title": {"translate":"Water Balloon"},
+		"description": {"color":"green","translate":"Kill a mob with a Splash Water Bottle. Just, water you doing?"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:potion/death_by_magic",
+	"rewards": {
+		"function": "bacap_rewards:potion/water_balloon"
+	},	
+	"criteria": {
+		"kill_magic": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"killing_blow": {
+					"direct_entity": {
+						"entity_type": "minecraft:splash_potion",
+						"nbt": "{Item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:water\"}}}}"
+					}
+				}
+			}
+		}
+	}
+}

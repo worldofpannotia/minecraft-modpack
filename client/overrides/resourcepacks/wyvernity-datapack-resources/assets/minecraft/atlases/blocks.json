@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "enchantmentplus",
+            "prefix": "enchantmentplus/"
+        },
+        {
+            "type": "directory",
+            "source": "simple_paxels",
+            "prefix": "simple_paxels/"
+        }
+    ]
+}

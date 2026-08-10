@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bricks"
+		},
+		"title": {"translate":"The Three Little Pigs"},
+		"description": {"color":"#75E1FF","translate":"Unite all Pig variants in one place"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:animal/pig_slaughterer",
+	"rewards": {
+		"function": "bacap_rewards:animal/the_three_little_pigs"
+	},		
+	"criteria": {
+		"unite": {
+			"trigger": "minecraft:impossible"
+		}		
+	}	
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "nether_wart_block"
+        },
+        "title": "Hardcore Hell",
+        "description": {"color":"dark_red","text":"Stay on Half a Heart for 1 Real-Life Hour without any Armor"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:weaponry/half_heart_life",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/hardcore_hell"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/poisonous_potato_eaten"
+	},	
+	"criteria": {
+		"poisonous_potato": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:poisonous_potato"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,201 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:suspicious_stew"
+        },
+        "title": {
+            "translate": "Suspicious Milk"
+        },
+        "description": {
+            "color": "dark_red",
+            "translate": "Milk all Possible Suspicious Stews from a Mooshroom"
+        },
+        "announce_to_chat": true
+    },
+    "parent": "blazeandcave:animal/milkshroom",
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/suspicious_milk"
+    },
+    "criteria": {
+        "fire_resistance": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"fire_res_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "blindness": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"blindness_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "saturation": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"saturation_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "nausea": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"nausea_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "jump_boost": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"jump_boost_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "poison": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"poison_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "regeneration": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"regen_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "night_vision": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"night_vision_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "weakness": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"weakness_cow\"]}"
+						}
+					}
+				]
+            }
+        },
+        "wither": {
+           "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bowl"
+                },
+                "entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:mooshroom",
+							"nbt": "{Tags:[\"wither_cow\"]}"
+						}
+					}
+				]
+            }
+        }
+    }
+}

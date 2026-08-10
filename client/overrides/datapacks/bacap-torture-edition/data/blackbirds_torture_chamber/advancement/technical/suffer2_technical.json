@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"tall_grass": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:composter",
+							"properties": {
+								"level": "7"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:tall_grass"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/compost_tall_grass"
+	}
+}

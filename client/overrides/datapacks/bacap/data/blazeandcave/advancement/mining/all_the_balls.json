@@ -1,0 +1,547 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bamboo_mosaic"
+		},
+		"title": {"translate":"All the Balls!"},
+		"description": {"color":"#75E1FF","translate":"Create every Sulfur Cube archetype from putting different blocks into them"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:mining/stink_bomb",
+	"rewards": {
+		"function": "bacap_rewards:mining/all_the_balls"
+	},
+	"criteria": {
+		"bouncy": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/bouncy"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"bouncy_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/bouncy"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_flat": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_flat"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_flat_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_flat"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"fast_flat": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/fast_flat"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"fast_flat_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/fast_flat"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"light": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/light"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"light_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/light"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"fast_sliding": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/fast_sliding"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"fast_sliding_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/fast_sliding"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_sliding": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_sliding"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_sliding_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_sliding"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"high_resistance": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/high_resistance"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"high_resistance_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/high_resistance"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sticky": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/sticky"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"sticky_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/sticky"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"regular": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/regular"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"regular_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/regular"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"explosive": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/explosive"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"explosive_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/explosive"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"hot": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/hot"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"hot_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/hot"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_bouncy": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_bouncy"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		},
+		"slow_bouncy_direct": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#minecraft:sulfur_cube_archetype/slow_bouncy"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube",
+							"minecraft:flags": {
+								"is_baby": false
+							}
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bouncy",
+			"bouncy_direct"
+		],
+		[
+			"slow_flat",
+			"slow_flat_direct"
+		],
+		[
+			"fast_flat",
+			"fast_flat_direct"
+		],
+		[
+			"light",
+			"light_direct"
+		],
+		[
+			"fast_sliding",
+			"fast_sliding_direct"
+		],
+		[
+			"slow_sliding",
+			"slow_sliding_direct"
+		],
+		[
+			"high_resistance",
+			"high_resistance_direct"
+		],
+		[
+			"sticky",
+			"sticky_direct"
+		],
+		[
+			"regular",
+			"regular_direct"
+		],
+		[
+			"explosive",
+			"explosive_direct"
+		],
+		[
+			"hot",
+			"hot_direct"
+		],
+		[
+			"slow_bouncy",
+			"slow_bouncy_direct"
+		]
+	]
+}

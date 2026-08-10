@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "trigger": {
+            "trigger": "cured_zombie_villager"
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:impossibles/cure_zillagers"
+    }
+}

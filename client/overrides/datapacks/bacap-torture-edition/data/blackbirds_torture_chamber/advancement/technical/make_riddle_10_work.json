@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "warped_button": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:warped_button"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:riddle/10"
+    }
+}

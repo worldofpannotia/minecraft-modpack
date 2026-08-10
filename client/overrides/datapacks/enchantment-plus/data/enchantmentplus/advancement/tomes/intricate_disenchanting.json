@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"intricate_disenchanting\"}}"
+                                    }
+                                },
+                                "offhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {}
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{EnchantmentPlusData:{TomeType:\"intricate_disenchanting\"}}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantmentplus:tomes/intricate_disenchanting/used"
+    }
+}

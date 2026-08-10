@@ -1,0 +1,5223 @@
+{
+    "display": {
+        "title": "You Monster",
+        "description": {
+            "color": "dark_red",
+            "text": "Kill every Type and Variant of Baby Animals"
+        },
+        "icon": {
+            "id": "diamond_sword"
+        },
+        "frame": "challenge"
+    },
+    "rewards": {
+        "function": "blackbirds_torture_chamber:rewards/stuff/you_monster"
+    },
+    "criteria": {
+        "temperate_chicken": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:chicken",
+                    "nbt": "{variant:\"minecraft:temperate\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cold_chicken": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:chicken",
+                    "nbt": "{variant:\"minecraft:cold\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "warm_chicken": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:chicken",
+                    "nbt": "{variant:\"minecraft:warm\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "temperate_pig": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:pig",
+                    "nbt": "{variant:\"minecraft:temperate\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cold_pig": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:pig",
+                    "nbt": "{variant:\"minecraft:cold\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "warm_pig": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:pig",
+                    "nbt": "{variant:\"minecraft:warm\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "temperate_cow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cow",
+                    "nbt": "{variant:\"minecraft:temperate\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cold_cow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cow",
+                    "nbt": "{variant:\"minecraft:cold\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "warm_cow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:cow",
+                    "nbt": "{variant:\"minecraft:warm\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "sheep_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:0b}"
+                }
+            }
+        },
+        "sheep_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:1b}"
+                }
+            }
+        },
+        "sheep_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:2b}"
+                }
+            }
+        },
+        "sheep_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:3b}"
+                }
+            }
+        },
+        "sheep_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:4b}"
+                }
+            }
+        },
+        "sheep_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:5b}"
+                }
+            }
+        },
+        "sheep_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:6b}"
+                }
+            }
+        },
+        "sheep_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:7b}"
+                }
+            }
+        },
+        "sheep_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:8b}"
+                }
+            }
+        },
+        "sheep_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:9b}"
+                }
+            }
+        },
+        "sheep_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:10b}"
+                }
+            }
+        },
+        "sheep_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:11b}"
+                }
+            }
+        },
+        "sheep_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:12b}"
+                }
+            }
+        },
+        "sheep_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:13b}"
+                }
+            }
+        },
+        "sheep_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:14b}"
+                }
+            }
+        },
+        "sheep_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sheep",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Color:15b}"
+                }
+            }
+        },
+        "rabbit_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:0}"
+                }
+            }
+        },
+        "rabbit_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:1}"
+                }
+            }
+        },
+        "rabbit_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:2}"
+                }
+            }
+        },
+        "rabbit_black_and_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:3}"
+                }
+            }
+        },
+        "rabbit_gold": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:4}"
+                }
+            }
+        },
+        "rabbit_salt_and_pepper": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:rabbit",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{RabbitType:5}"
+                }
+            }
+        },
+        "mooshroom_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:mooshroom",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Type:\"red\"}"
+                }
+            }
+        },
+        "mooshroom_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:mooshroom",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Type:\"brown\"}"
+                }
+            }
+        },
+        "white_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:0}"
+                }
+            }
+        },
+        "creamy_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1}"
+                }
+            }
+        },
+        "chestnut_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:2}"
+                }
+            }
+        },
+        "brown_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:3}"
+                }
+            }
+        },
+        "black_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:4}"
+                }
+            }
+        },
+        "gray_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:5}"
+                }
+            }
+        },
+        "dark_brown_none": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:6}"
+                }
+            }
+        },
+        "white_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:256}"
+                }
+            }
+        },
+        "creamy_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:257}"
+                }
+            }
+        },
+        "chestnut_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:258}"
+                }
+            }
+        },
+        "brown_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:259}"
+                }
+            }
+        },
+        "black_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:260}"
+                }
+            }
+        },
+        "gray_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:261}"
+                }
+            }
+        },
+        "dark_brown_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:262}"
+                }
+            }
+        },
+        "white_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:512}"
+                }
+            }
+        },
+        "creamy_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:513}"
+                }
+            }
+        },
+        "chestnut_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:514}"
+                }
+            }
+        },
+        "brown_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:515}"
+                }
+            }
+        },
+        "black_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:516}"
+                }
+            }
+        },
+        "gray_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:517}"
+                }
+            }
+        },
+        "dark_brown_white_field": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:518}"
+                }
+            }
+        },
+        "white_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:768}"
+                }
+            }
+        },
+        "creamy_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:769}"
+                }
+            }
+        },
+        "chestnut_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:770}"
+                }
+            }
+        },
+        "brown_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:771}"
+                }
+            }
+        },
+        "black_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:772}"
+                }
+            }
+        },
+        "gray_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:773}"
+                }
+            }
+        },
+        "dark_brown_white_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:774}"
+                }
+            }
+        },
+        "white_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1024}"
+                }
+            }
+        },
+        "creamy_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1025}"
+                }
+            }
+        },
+        "chestnut_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1026}"
+                }
+            }
+        },
+        "brown_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1027}"
+                }
+            }
+        },
+        "black_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1028}"
+                }
+            }
+        },
+        "gray_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1029}"
+                }
+            }
+        },
+        "dark_brown_black_dots": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:horse",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1030}"
+                }
+            }
+        },
+        "donkey": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:donkey",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "mule": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:mule",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "llama_creamy": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:0}"
+                }
+            }
+        },
+        "llama_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1}"
+                }
+            }
+        },
+        "llama_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:2}"
+                }
+            }
+        },
+        "llama_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:3}"
+                }
+            }
+        },
+        "ocelot": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:ocelot",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "panda_playful": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"playful\"}"
+                }
+            }
+        },
+        "panda_aggressive": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"aggressive\"}"
+                }
+            }
+        },
+        "panda_worried": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"worried\"}"
+                }
+            }
+        },
+        "panda_lazy": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"lazy\"}"
+                }
+            }
+        },
+        "panda_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
+                }
+            }
+        },
+        "panda_weak": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:panda",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{MainGene:\"weak\",HiddenGene:\"weak\"}"
+                }
+            }
+        },
+        "panda_normal": {
+            "trigger": "impossible"
+        },
+        "fox_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:fox",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Type:\"red\"}"
+                }
+            }
+        },
+        "fox_snow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:fox",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Type:\"snow\"}"
+                }
+            }
+        },
+        "hoglin": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:hoglin",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "strider": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:strider",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "turtle": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:turtle",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "goat_screaming": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:goat",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{IsScreamingGoat:1b}"
+                }
+            }
+        },
+        "goat_not_screaming": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:goat",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{IsScreamingGoat:0b}"
+                }
+            }
+        },
+        "tadpole": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:tadpole"
+                }
+            }
+        },
+        "camel": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:camel",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "sniffer": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:sniffer",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "axolotl_leucistic": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:0}"
+                }
+            }
+        },
+        "axolotl_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1}"
+                }
+            }
+        },
+        "axolotl_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:2}"
+                }
+            }
+        },
+        "axolotl_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:3}"
+                }
+            }
+        },
+        "axolotl_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:axolotl",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:4}"
+                }
+            }
+        },
+        "polar_bear": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:polar_bear",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "armadillo": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:armadillo",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_white": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:0b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_orange": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_orange": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:1b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_magenta": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_magenta": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:2b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_light_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_light_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:3b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_yellow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_yellow": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:4b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_lime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_lime": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:5b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_pink": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_pink": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:6b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:7b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_light_gray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_light_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:8b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_cyan": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_cyan": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:9b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_purple": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_purple": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:10b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_blue": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_blue": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:11b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_brown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:12b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_green": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_green": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:13b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:pale\",attributes:[{id:\"minecraft:max_health\", base: 40.0d}]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_red": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:14b,attributes:[{id:\"minecraft:max_health\", base: 40.0d}],variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_red": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:14b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_ashen_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:ashen\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_black_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:black\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_chestnut_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:chestnut\"}",
+                    "flags": {
+                         "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_pale_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:pale\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_rusty_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:rusty\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_snowy_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:snowy\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_striped_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:striped\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_spotted_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:spotted\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "wolf_woods_black": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:wolf",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:woods\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_tabby_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:tabby\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_black_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_red_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:red\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_siamese_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:siamese\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_british_shorthair_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:british_shorthair\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_calico_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:calico\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_persian_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:persian\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_ragdoll_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:ragdoll\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_white_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:white\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_jellie_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:jellie\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "cat_all_black_black": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"minecraft:cat",
+                    "nbt": "{CollarColor:15b,variant:\"minecraft:all_black\"}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "trader_llama_creamy": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:0}"
+                }
+            }
+        },
+        "trader_llama_white": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:1}"
+                }
+            }
+        },
+        "trader_llama_brown": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:2}"
+                }
+            }
+        },
+        "trader_llama_gray": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:trader_llama",
+                    "flags": {
+                        "is_baby": true
+                    },
+                    "nbt": "{Variant:3}"
+                }
+            }
+        },
+        "bee_sting_no_pollen_calm": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:0b,HasNectar:0b,\"Tags\":[\"calm_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_sting_pollen_calm": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:0b,HasNectar:1b,\"Tags\":[\"calm_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_sting_no_pollen_angry": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:0b,HasNectar:0b,\"Tags\":[\"angry_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_sting_pollen_angry": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:0b,HasNectar:1b,\"Tags\":[\"angry_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_no_sting_no_pollen_calm": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:1b,HasNectar:0b,\"Tags\":[\"calm_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_no_sting_pollen_calm": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:1b,HasNectar:1b,\"Tags\":[\"calm_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_no_sting_no_pollen_angry": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:1b,HasNectar:0b,\"Tags\":[\"angry_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "bee_no_sting_pollen_angry": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:bee",
+                    "nbt": "{HasStung:1b,HasNectar:1b,\"Tags\":[\"angry_bee\"]}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "squid": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:squid",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "glow_squid": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:glow_squid",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "dolphin": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:dolphin",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "happy_ghast": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:happy_ghast",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        },
+        "nautilus": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type": "minecraft:nautilus",
+                    "flags": {
+                        "is_baby": true
+                    }
+                }
+            }
+        }
+    },
+    "parent": "blazeandcave:weaponry/the_mighty_hunter"
+}

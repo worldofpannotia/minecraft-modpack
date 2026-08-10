@@ -1,0 +1,36 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantmentplus.block_reach",
+        "fallback": "Block Reach"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
+                },
+                "attribute": "minecraft:block_interaction_range",
+                "id": "enchantmentplus:enchantment.block_reach",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 51,
+        "per_level_above_first": 9
+    },
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 9
+    },
+    "primary_items": "#minecraft:enchantable/mining",
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/block_reach",
+    "weight": 4
+}

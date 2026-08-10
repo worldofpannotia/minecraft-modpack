@@ -1,0 +1,145 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.pounce",
+        "fallback": "§6Pounce"
+    },
+    "effects": {
+        "minecraft:post_piercing_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "minecraft:apply_exhaustion",
+                            "amount": {
+                                "type": "minecraft:linear",
+                                "base": 4,
+                                "per_level_above_first": 4
+                            }
+                        },
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1,
+                                1,
+                                1
+                            ],
+                            "direction": [
+                                0,
+                                0,
+                                1
+                            ],
+                            "magnitude": {
+                                "type": "minecraft:linear",
+                                "base": 0.458,
+                                "per_level_above_first": 0.458
+                            }
+                        },
+                        {
+                            "type": "minecraft:play_sound",
+                            "pitch": 0.8,
+                            "sound": [
+                                "minecraft:item.spear.lunge_1",
+                                "minecraft:item.spear.lunge_2",
+                                "minecraft:item.spear.lunge_3"
+                            ],
+                            "volume": 1
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "vehicle": {}
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_fall_flying": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "flags": {
+                                    "is_in_water": false
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "minecraft:type_specific/player": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "minecraft:type_specific/player": {
+                                            "gamemode": [
+                                                "creative"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "minecraft:type_specific/player": {
+                                            "food": {
+                                                "level": {
+                                                    "min": 7
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#enchantmentplus:exclusive_set/pounce",
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 8
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "hand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/pounce",
+    "weight": 1
+}

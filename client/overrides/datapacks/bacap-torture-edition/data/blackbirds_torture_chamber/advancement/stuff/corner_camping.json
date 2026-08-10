@@ -1,0 +1,128 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:soul_campfire"
+      },
+      "title": "Corner Camping",
+      "description": {
+        "text": "Place a Campfire at a World-Border-Corner",
+        "color": "dark_red"
+      },
+      "frame": "challenge"
+    },
+    "parent": "blazeandcave:building/spawn_camping",
+    "criteria": {
+      "north_east": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "min": 29999980
+                  },
+                  "z": {
+                    "max": -29999980
+                  }
+                },
+                "block": {
+                  "blocks": [
+                    "minecraft:campfire"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "south_east": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "min": 29999980
+                  },
+                  "z": {
+                    "min": 29999980
+                  }
+                },
+                "block": {
+                  "blocks": [
+                    "minecraft:campfire"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "south_west": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "max": -29999980
+                  },
+                  "z": {
+                    "min": 29999980
+                  }
+                },
+                "block": {
+                  "blocks": [
+                    "minecraft:campfire"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "north_west": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "max": -29999980
+                  },
+                  "z": {
+                    "max": -29999980
+                  }
+                },
+                "block": {
+                  "blocks": [
+                    "minecraft:campfire"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "north_east",
+        "north_west",
+        "south_east",
+        "south_west"
+      ]
+    ],
+    "rewards": {
+      "function": "blackbirds_torture_chamber:rewards/stuff/corner_camping"
+    }
+  }
+  

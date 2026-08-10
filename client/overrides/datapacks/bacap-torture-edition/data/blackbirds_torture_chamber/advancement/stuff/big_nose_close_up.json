@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:spyglass"
+        },
+        "title": "Big Nose Close-up",
+        "description": {
+            "color": "dark_red",
+            "text": "Use a Spyglass to zoom in on a Villager's Nose from less than 1 Block away"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:adventure/trade",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/big_nose_close_up"
+	},
+    "criteria": {
+        "big_nose": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"type_specific/player": {
+						"looking_at": {
+							"entity_type": "minecraft:villager",
+							"distance": {
+								"absolute": {
+									"max": 1
+								}
+							}
+						}
+					}
+				},
+				"item": {
+					"items": "minecraft:spyglass"
+				}
+			}
+		}
+    }
+}

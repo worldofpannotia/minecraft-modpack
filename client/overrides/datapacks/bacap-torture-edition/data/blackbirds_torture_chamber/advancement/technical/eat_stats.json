@@ -1,0 +1,10 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:impossibles/eat_stats_update"
+	},	
+	"criteria": {
+		"apple": {
+			"trigger": "consume_item"
+		}
+	}
+}

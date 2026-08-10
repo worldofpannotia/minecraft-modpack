@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:chipped_anvil"
+        },
+        "title": {"translate":"Classic Cartoon Comedy"},
+        "description": {"translate":"Get squashed by an anvil"}
+    },
+    "parent": "blazeandcave:enchanting/heavy_metal",
+    "rewards": {
+        "function": "bacap_rewards:enchanting/classic_cartoon_comedy"
+    },		
+    "criteria": {
+        "falling_anvil": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+					"blocked": false,
+                    "source_entity": {
+						"entity_type": "falling_block",
+						"nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+					}
+                }
+            }
+        }
+    }
+}

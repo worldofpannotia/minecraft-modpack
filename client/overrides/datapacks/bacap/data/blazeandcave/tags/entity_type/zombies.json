@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+	"#blazeandcave:overworld_zombies",
+	"minecraft:zombified_piglin"
+  ]
+}

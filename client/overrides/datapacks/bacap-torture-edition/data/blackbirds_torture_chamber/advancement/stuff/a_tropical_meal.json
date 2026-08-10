@@ -1,0 +1,371 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tropical_fish"
+		},
+		"title": "A Tropical Meal",
+		"description": {
+			"color": "dark_red",
+			"translate": "Feed Axolotls every Common Tropical Fish"
+		},
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:animal/tropical_collection",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/a_tropical_meal"
+	},
+	"criteria": {
+		"clownfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "kob",
+						"minecraft:tropical_fish/base_color": "orange",
+						"minecraft:tropical_fish/pattern_color": "white"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"tomato_clownfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "kob",
+						"minecraft:tropical_fish/base_color": "red",
+						"minecraft:tropical_fish/pattern_color": "white"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"red_snapper": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "blockfish",
+						"minecraft:tropical_fish/base_color": "red",
+						"minecraft:tropical_fish/pattern_color": "white"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"red_cichlid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "betty",
+						"minecraft:tropical_fish/base_color": "red",
+						"minecraft:tropical_fish/pattern_color": "white"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"ornate_butterflyfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "clayfish",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "orange"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"queen_angelfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "brinely",
+						"minecraft:tropical_fish/base_color": "lime",
+						"minecraft:tropical_fish/pattern_color": "light_blue"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"cotton_candy_betta": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "spotty",
+						"minecraft:tropical_fish/base_color": "pink",
+						"minecraft:tropical_fish/pattern_color": "light_blue"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"threadfin": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "flopper",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "yellow"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"goatfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "spotty",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "yellow"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"yellow_tang": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "flopper",
+						"minecraft:tropical_fish/base_color": "yellow",
+						"minecraft:tropical_fish/pattern_color": "yellow"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"dottyback": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "blockfish",
+						"minecraft:tropical_fish/base_color": "purple",
+						"minecraft:tropical_fish/pattern_color": "yellow"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"parrotfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "dasher",
+						"minecraft:tropical_fish/base_color": "cyan",
+						"minecraft:tropical_fish/pattern_color": "pink"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"moorish_idol": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "glitter",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "gray"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"yellowtail_parrotfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "dasher",
+						"minecraft:tropical_fish/base_color": "cyan",
+						"minecraft:tropical_fish/pattern_color": "yellow"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"butterflyfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "clayfish",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "gray"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"anenome": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "stripey",
+						"minecraft:tropical_fish/base_color": "orange",
+						"minecraft:tropical_fish/pattern_color": "gray"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"black_tang": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "flopper",
+						"minecraft:tropical_fish/base_color": "gray",
+						"minecraft:tropical_fish/pattern_color": "gray"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"cichlid": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "sunstreak",
+						"minecraft:tropical_fish/base_color": "blue",
+						"minecraft:tropical_fish/pattern_color": "gray"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"triggerfish": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "sunstreak",
+						"minecraft:tropical_fish/base_color": "gray",
+						"minecraft:tropical_fish/pattern_color": "white"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"blue_tang": {
+		"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "flopper",
+						"minecraft:tropical_fish/base_color": "gray",
+						"minecraft:tropical_fish/pattern_color": "blue"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"emperor_red_snapper": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "clayfish",
+						"minecraft:tropical_fish/base_color": "white",
+						"minecraft:tropical_fish/pattern_color": "red"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		},
+		"red_lipped_blenny": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tropical_fish_bucket",
+					"components": {
+						"minecraft:tropical_fish/pattern": "snooper",
+						"minecraft:tropical_fish/base_color": "gray",
+						"minecraft:tropical_fish/pattern_color": "red"
+					}
+				},
+				"entity": {
+					"entity_type": "minecraft:axolotl"
+				}
+			}
+		}
+	}
+}

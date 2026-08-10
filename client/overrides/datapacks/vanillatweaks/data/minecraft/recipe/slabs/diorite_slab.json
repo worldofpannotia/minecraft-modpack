@@ -1,0 +1,11 @@
+{
+	"result": {
+		"id": "minecraft:diorite_slab",
+		"count": 2
+	},
+	"type": "crafting_shapeless",
+	"ingredients": [
+		"minecraft:diorite"
+	],
+	"group": "block_to_2_slabs"
+}

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_chain"
+		},
+		"title": {"translate":"No Chain, No Gain"},
+		"description": {"color":"green","translate":"Craft an Iron Chain using an Iron Ingot and Iron Nuggets"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/fake_fortress",
+	"rewards": {
+		"function": "bacap_rewards:building/no_chain_no_gain"
+	},		
+	"criteria": {
+		"chain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_chain"
+						]
+					}
+				]
+			}
+		}
+	}	
+}

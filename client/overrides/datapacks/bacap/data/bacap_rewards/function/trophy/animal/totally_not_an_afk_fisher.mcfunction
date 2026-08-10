@@ -1,0 +1,3 @@
+give @s fishing_rod[custom_name={"translate":"Super Rod","color":"#6B9F93","bold":true,"italic":false},lore=[{"translate":"Catches the best pokemon from the seas","color":"#6B9F93"},{"text":" "},{"translate":"Awarded for achieving","color":"gray"},{"translate":"Totally not an AFK fisher!","color":"light_purple","italic":false}],custom_model_data={floats:[131]},custom_data={Trophy:1b},enchantments={"minecraft:unbreaking":3}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Super Rod"}]

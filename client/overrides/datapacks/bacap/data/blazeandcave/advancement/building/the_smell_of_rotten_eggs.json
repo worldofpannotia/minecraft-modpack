@@ -1,0 +1,196 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:polished_sulfur"
+		},
+		"title": {"translate":"The smell of rotten eggs"},
+		"description": {"color":"green","translate":"Craft or collect all forms of Sulfur, Polished Sulfur, and Sulfur Bricks"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/deepslate_conspiracy",
+	"rewards": {
+		"function": "bacap_rewards:building/the_smell_of_rotten_eggs"
+	},		
+	"criteria": {
+		"sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_slab"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_stairs"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_wall"
+						]
+					}
+				]
+			}
+		},
+		"polished_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur"
+						]
+					}
+				]
+			}
+		},
+		"polished_sulfur_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_slab"
+						]
+					}
+				]
+			}
+		},
+		"polished_sulfur_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_stairs"
+						]
+					}
+				]
+			}
+		},
+		"polished_sulfur_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:polished_sulfur_wall"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_bricks"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_slab"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_stairs"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_brick_wall"
+						]
+					}
+				]
+			}
+		},
+		"chiseled_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chiseled_sulfur"
+						]
+					}
+				]
+			}
+		},
+		"potent_sulfur": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:potent_sulfur"
+						]
+					}
+				]
+			}
+		},
+		"sulfur_spike": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_spike"
+						]
+					}
+				]
+			}
+		}
+	}
+}

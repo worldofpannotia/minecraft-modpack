@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_spear"
+		},
+		"title": {"translate":"Impiled"},
+		"description": {"color":"dark_purple","translate":"Hit fifty mobs in the same charge attack using a Spear"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/spear_many_mobs",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/impiled"
+	},	
+	"criteria": {
+		"spear_many_mobs": {
+			"trigger": "minecraft:spear_mobs",
+			"conditions": {
+				"count": 50
+			}
+		}
+	}
+}

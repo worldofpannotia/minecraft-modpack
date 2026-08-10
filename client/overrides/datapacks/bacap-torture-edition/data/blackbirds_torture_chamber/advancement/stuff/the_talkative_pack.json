@@ -1,0 +1,1088 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:bone_block"
+		},
+		"title": {"translate":"The Talkative Pack"},
+		"description": {"color":"dark_red","translate":"Tame one of each Wolf Variant with each Personality"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "minecraft:husbandry/whole_pack",
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/the_talkative_pack"
+	},
+	"criteria": {
+		"ashen_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_classic": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:classic"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_angry": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:angry"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_big": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:big"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_cute": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:cute"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_grumpy": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:grumpy"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_puglin": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:puglin"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ashen_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:ashen",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"black_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:black",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chestnut_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:chestnut",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"pale_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:pale",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rusty_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:rusty",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"snowy_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:snowy",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"spotted_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:spotted",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"striped_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:striped",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		},
+		"woods_sad": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:wolf/variant": "minecraft:woods",
+								"minecraft:wolf/sound_variant":"minecraft:sad"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,505 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword"
+		},
+		"title": {"translate":"Multiclassed"},
+		"description": {"color":"dark_purple","translate":"Hit a mob with every type of weapon"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:weaponry/shovel_knight",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/multiclassed"
+	},		
+	"criteria": {
+		"axe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#blazeandcave:axes"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"shovel": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {	
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#blazeandcave:shovels"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"pickaxe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {	
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#blazeandcave:pickaxes"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"hoe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#blazeandcave:hoes"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"sword": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#blazeandcave:swords"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"bow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:arrow",
+							"nbt": "{weapon:{id:\"minecraft:bow\"}}"
+						}
+					}
+				}
+			}
+		},
+		"crossbow": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:arrow",
+							"nbt": "{weapon:{id:\"minecraft:crossbow\"}}"
+						}
+					}
+				}
+			}
+		},
+		"firework_rocket": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"entity_type": "minecraft:firework_rocket"
+						}
+					}
+				}
+			}
+		},
+		"trident_melee": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": [
+										"minecraft:trident"
+									]
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"trident_thrown": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:trident"
+						}
+					}
+				}
+			}
+		},
+		"tnt": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_explosion",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:tnt"
+						}
+					}
+				}
+			}
+		},
+		"snowball": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:snowball"
+						}
+					}
+				}
+			}
+		},
+		"egg": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:egg"
+						}
+					}
+				}
+			}
+		},
+		"fishing_rod": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"entity_type": "#blazeandcave:non_mob_entities"
+							}
+						}
+					}
+				]
+			}
+		},
+		"splash_potion": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"entity_type": "minecraft:splash_potion"
+						}
+					}
+				}
+			}
+		},
+		"lingering_potion": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"entity_type": [
+								"minecraft:area_effect_cloud",
+								"minecraft:lingering_potion"
+							]
+						}
+					}
+				}
+			}
+		},
+		"mace": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"mace_smash": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {		
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:mace_smash",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"wind_charge": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						],
+						"direct_entity": {
+							"entity_type": "minecraft:wind_charge"
+						}
+					}
+				}
+			}
+		},
+		"spear_jab": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"spear_charge": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"mainhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		},
+		"spear_charge_offhand": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"source_entity": {
+							"equipment": {
+								"offhand": {
+									"items": "#minecraft:spears"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "blazeandcave:spear",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"axe"
+		],
+		[
+			"shovel"
+		],
+		[
+			"pickaxe"
+		],
+		[
+			"hoe"
+		],
+		[
+			"sword"
+		],
+		[
+			"bow"
+		],
+		[
+			"crossbow"
+		],
+		[
+			"firework_rocket"
+		],
+		[
+			"trident_melee",
+			"trident_thrown"
+		],
+		[
+			"tnt"
+		],
+		[
+			"snowball"
+		],
+		[
+			"egg"
+		],
+		[
+			"fishing_rod"
+		],
+		[
+			"splash_potion"
+		],
+		[
+			"lingering_potion"
+		],
+		[
+			"mace",
+			"mace_smash"
+		],
+		[
+			"wind_charge"
+		],
+		[
+			"spear_jab",
+			"spear_charge",
+			"spear_charge_offhand"
+		]
+	]
+}

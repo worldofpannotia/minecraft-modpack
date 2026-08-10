@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:black_candle"
+        ],
+        "components": {
+          "minecraft:custom_data": "{Trophy:1,DarknessCandle:1}"
+        }
+      }
+    }
+  }
+}

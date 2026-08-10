@@ -1,0 +1,257 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": {
+                        "type": "minecraft:fishing",
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 40,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:blessing_of_kings": 1
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 20,
+                                        "quality": 2,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:blessing_of_kings": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 10,
+                                        "quality": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:blessing_of_kings": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": {
+                        "type": "minecraft:fishing",
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 80,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:divine_hunter": 1
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 40,
+                                        "quality": 4,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:divine_hunter": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 20,
+                                        "quality": 6,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:divine_hunter": 3
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 10,
+                                        "quality": 7,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:divine_hunter": 4
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "enchantmentplus:eternity": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "enchantmentplus:heros_landing": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "enchantmentplus:indestructible": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": {
+                        "type": "minecraft:fishing",
+                        "pools": [
+                            {
+                                "rolls": 1,
+                                "entries": [
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 40,
+                                        "quality": 0,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:pounce": 1
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 20,
+                                        "quality": 2,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:pounce": 2
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:enchanted_book",
+                                        "weight": 10,
+                                        "quality": 3,
+                                        "functions": [
+                                            {
+                                                "function": "minecraft:set_enchantments",
+                                                "enchantments": {
+                                                    "enchantmentplus:pounce": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "enchantmentplus:radiance_gust": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "enchantmentplus:shock_dampener": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:exposed_copper_bulb",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEwZWIzOWIwZjhlYTI5ZmQ5ZWJhNmI2OWY0Y2E2Y2QwNTFmNzhiNWQ4N2VjODhmOWY0YmE1Zjk5Y2Y0NmNmNyJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Exposed Copper Bulb",
+      "minecraft:rarity": "common"
+    }
+  }
+}

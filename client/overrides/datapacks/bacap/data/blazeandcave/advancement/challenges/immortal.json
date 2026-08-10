@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:totem_of_undying"
+		},
+		"title": {"translate":"Immortal"},
+		"description": {"color":"#FF2A2A","translate":"Fill your entire inventory with Totems of Undying"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:challenges/overwarden",
+	"rewards": {
+		"function": "bacap_rewards:challenges/immortal"
+	},		
+	"criteria": {
+		"totem_inventory": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

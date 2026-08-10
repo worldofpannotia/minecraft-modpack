@@ -1,0 +1,52 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:wind_charged"
+				}
+			}
+		},
+		"title": {"translate":"Final Shout"},
+		"description": {"color":"#75E1FF","translate":"Kill a mob that has the Wind Charged, Weaving and Oozing effects"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:potion/secret_of_the_ooze",
+	"rewards": {
+		"function": "bacap_rewards:potion/final_shout"
+	},		
+	"criteria": {
+		"creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:wind_charged": {
+									"amplifier": {
+										"min": 0
+									}
+								},
+								"minecraft:weaving": {
+									"amplifier": {
+										"min": 0
+									}
+								},
+								"minecraft:oozing": {
+									"amplifier": {
+										"min": 0
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

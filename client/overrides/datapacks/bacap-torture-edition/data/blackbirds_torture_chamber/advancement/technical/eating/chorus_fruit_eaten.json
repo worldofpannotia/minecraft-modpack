@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/chorus_fruit_eaten"
+	},	
+	"criteria": {
+		"chorus_fruit": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					]
+				}
+			}
+		}
+	}
+}

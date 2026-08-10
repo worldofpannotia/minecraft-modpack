@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:water_bucket"
+        },
+        "title": "Washing is Faster than refilling",
+        "description": {"color":"black","text":"Wash 10,000 Items"},
+        "frame": "challenge"
+    },
+    "parent": "blackbirds_torture_chamber:technical/invisible/invisible_for_wash_100002",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stats/wash_10000"
+	}
+}

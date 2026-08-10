@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/melon_slice_eaten"
+	},	
+	"criteria": {
+		"melon_slice": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:melon_slice"
+					]
+				}
+			}
+		}
+	}
+}

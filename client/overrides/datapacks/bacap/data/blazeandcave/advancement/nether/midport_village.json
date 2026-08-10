@@ -1,0 +1,86 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:brown_harness"
+		},
+		"title": {"translate":"Midport Village"},
+		"description": {"color":"green","translate":"Ride a Happy Ghast into a village"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:nether/hot_air_balloon",
+	"rewards": {
+		"function": "bacap_rewards:nether/midport_village"
+	},		
+	"criteria": {
+		"player": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "#blazeandcave:village"
+							},
+							"vehicle": {
+								"entity_type": "happy_ghast"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
+
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"happy_ghast": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"vehicle": {
+								"entity_type": "happy_ghast",
+								"location": {
+									"structures": "#blazeandcave:village"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
+
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"player",
+			"happy_ghast"
+		]
+	]
+}

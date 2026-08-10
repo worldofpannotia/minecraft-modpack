@@ -1,0 +1,122 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:waxed_weathered_copper_golem_statue",
+			"components": {"minecraft:block_state":{"copper_golem_pose":"sitting"}}
+		},
+		"title": {"translate":"Statue of Limitations"},
+		"description": {"color":"dark_purple","translate":"Collect a stack of every oxidizing stage of Copper Golem Statues, including all of their waxed variants"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:mining/such_a_poser",
+	"rewards": {
+		"function": "bacap_rewards:mining/statue_of_limitations"
+	},		
+	"criteria": {
+		"copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"exposed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:exposed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"weathered_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:weathered_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"oxidized_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:oxidized_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_exposed_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_exposed_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_weathered_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_weathered_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		},
+		"waxed_oxidized_copper_golem_statue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:waxed_oxidized_copper_golem_statue"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shears"
+		},
+		"title": {"translate":"Truly an all-purpose tool"},
+		"description": {"color":"green","translate":"Use Shears to remove the block from inside a Sulfur Cube"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:mining/punching_bag",
+	"rewards": {
+		"function": "bacap_rewards:mining/truly_an_all_purpose_tool"
+	},
+	"criteria": {
+		"shear_sulfur_cube": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:shears"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"entity_type": "minecraft:sulfur_cube"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+    "anvil_cost": 8,
+    "description": {
+        "translate": "enchantment.enchantmentplus.radiance_gust",
+        "fallback": "§6Radiance Gust"
+    },
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:change_item_damage",
+                            "amount": 1
+                        },
+                        {
+                            "type": "minecraft:run_function",
+                            "function": "enchantmentplus:enchantments/radiance_gust/revoke"
+                        }
+                    ]
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:type_specific/player": {
+                            "advancements": {
+                                "enchantmentplus:enchantments/radiance_gust/damage_item": true
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 12
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "hand"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/radiance_gust",
+    "weight": 1
+}

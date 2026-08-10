@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/shoot_crossbow"
+	},
+	"criteria": {
+		"shot_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:crossbow"
+					]
+				}
+			}
+		}
+	}
+}

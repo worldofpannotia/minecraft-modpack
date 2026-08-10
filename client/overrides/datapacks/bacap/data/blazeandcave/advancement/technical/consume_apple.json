@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blazeandcave:advancement/statistics/consume_apple"
+	},
+	"criteria": {
+		"consume_spider_eye": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				}
+			}
+		}
+	}
+}

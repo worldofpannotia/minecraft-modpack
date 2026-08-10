@@ -1,0 +1,93 @@
+{
+    "criteria": {
+		"bee_nest_honey_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bee_nest",
+						"count": 64,
+						"components": {
+							"minecraft:block_state": {
+								"honey_level": "1"
+							}
+						}
+					}
+				]
+			}
+		},
+		"bee_nest_honey_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bee_nest",
+						"count": 64,
+						"components": {
+							"minecraft:block_state": {
+								"honey_level": "2"
+							}
+						}
+					}
+				]
+			}
+		},
+		"bee_nest_honey_3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bee_nest",
+						"count": 64,
+						"components": {
+							"minecraft:block_state": {
+								"honey_level": "3"
+							}
+						}
+					}
+				]
+			}
+		},
+		"bee_nest_honey_4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bee_nest",
+						"count": 64,
+						"components": {
+							"minecraft:block_state": {
+								"honey_level": "4"
+							}
+						}
+					}
+				]
+			}
+		},
+		"bee_nest_honey_5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bee_nest",
+						"count": 64,
+						"components": {
+							"minecraft:block_state": {
+								"honey_level": "5"
+							}
+						}
+					}
+				]
+			}
+		}
+    },
+    "requirements": [
+        [
+			"bee_nest_honey_1",
+			"bee_nest_honey_2",
+			"bee_nest_honey_3",
+			"bee_nest_honey_4",
+			"bee_nest_honey_5"
+		]
+    ]
+}

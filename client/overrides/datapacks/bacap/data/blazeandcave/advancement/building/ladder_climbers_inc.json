@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:ladder"
+		},
+		"title": {"translate":"Ladder Climbers Inc."},
+		"description": {"color":"green","translate":"Climb the ladder!"},
+		"announce_to_chat": true
+	},
+	"parent": "blazeandcave:building/your_door_was_locked",
+	"rewards": {
+		"function": "bacap_rewards:building/ladder_climbers_inc"
+	},
+	"criteria": {
+		"enter_ladder": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:ladder"
+			}
+		}
+	}
+}

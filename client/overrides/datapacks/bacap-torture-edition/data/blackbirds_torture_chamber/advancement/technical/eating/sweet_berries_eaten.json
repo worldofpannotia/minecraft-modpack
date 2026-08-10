@@ -1,0 +1,17 @@
+{
+	"rewards": {
+		"function": "blackbirds_torture_chamber:food_eaten/sweet_berries_eaten"
+	},	
+	"criteria": {
+		"sweet_berries": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					]
+				}
+			}
+		}
+	}
+}

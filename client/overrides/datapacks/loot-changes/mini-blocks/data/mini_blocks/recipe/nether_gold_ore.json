@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:nether_gold_ore",
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 8,
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEzMjc5YTE5YjY1ODI5YWM3NDU5OGE3NjQ3OTgyNTQ5ZjdhMWUxMGIzNTRmMzk1ZTIzYjBlOGMzMGRmMjhlZSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:item_name": "Mini Nether Gold Ore",
+      "minecraft:rarity": "common"
+    }
+  }
+}

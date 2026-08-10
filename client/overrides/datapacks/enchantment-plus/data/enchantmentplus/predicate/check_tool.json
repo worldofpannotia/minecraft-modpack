@@ -1,0 +1,327 @@
+[
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:wooden_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_wooden_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:golden_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_gold_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:stone_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_stone_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:copper_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_copper_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:iron_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_iron_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:diamond_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_diamond_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#enchantmentplus:netherite_tools"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:incorrect_for_netherite_tool"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#minecraft:axes"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:mineable/axe"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#minecraft:hoes"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:mineable/hoe"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#minecraft:pickaxes"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:mineable/pickaxe"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": "#minecraft:shovels"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:mineable/shovel"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "enchantmentplus:earthly_gatherer"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:glowstone"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

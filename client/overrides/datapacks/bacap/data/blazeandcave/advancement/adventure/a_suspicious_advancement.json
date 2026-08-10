@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:suspicious_gravel"
+		},
+		"title": {"translate":"A Suspicious Advancement"},
+		"description": {"color":"#75E1FF","translate":"Obtain a block of Suspicious Sand or Suspicious Gravel"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "minecraft:adventure/craft_decorated_pot_using_only_sherds",
+	"rewards": {
+		"function": "bacap_rewards:adventure/a_suspicious_advancement"
+	},		
+	"criteria": {
+		"tall_grass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:suspicious_sand",
+							"minecraft:suspicious_gravel"
+						]
+					}
+				]
+			}
+		}
+	}
+}

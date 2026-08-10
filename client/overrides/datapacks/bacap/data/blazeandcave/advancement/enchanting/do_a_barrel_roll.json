@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:water_bucket"
+		},
+		"title": {"translate":"Do A Barrel Roll!"},
+		"description": {"color":"#75E1FF","translate":"Use Riptide to give yourself a boost"},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:enchanting/boomerang",
+	"rewards": {
+		"function": "bacap_rewards:enchanting/do_a_barrel_roll"
+	},			
+	"criteria": {
+		"riptide": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:trident"
+					],
+					"predicates": {
+						"enchantments": [
+							{
+								"enchantments": "minecraft:riptide"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

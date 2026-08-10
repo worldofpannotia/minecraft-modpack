@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "oak_boat"
+        },
+        "title": "Must... Find... Land...!",
+        "description": {"color":"dark_red","text":"Stay in a Boat in Water for at least 25 Hours"},
+        "frame": "challenge"
+    },
+    "parent": "blazeandcave:biomes/sleep_with_the_fishes",
+    "criteria": {
+        "trigger": {
+            "trigger": "impossible"
+        }
+    },
+	"rewards": {
+		"function": "blackbirds_torture_chamber:rewards/stuff/must_find_land"
+	}
+}

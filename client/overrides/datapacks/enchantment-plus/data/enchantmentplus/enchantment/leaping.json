@@ -1,0 +1,45 @@
+{
+    "anvil_cost": 1,
+    "description": {
+        "translate": "enchantment.enchantmentplus.leaping",
+        "fallback": "Leaping"
+    },
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.1
+                },
+                "attribute": "minecraft:jump_strength",
+                "id": "enchantmentplus:enchantment.leaping_jump_strength",
+                "operation": "add_value"
+            },
+            {
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                },
+                "attribute": "minecraft:safe_fall_distance",
+                "id": "enchantmentplus:enchantment.leaping_safe_fall_distance",
+                "operation": "add_value"
+            }
+        ]
+	},
+    "max_cost": {
+        "base": 40,
+        "per_level_above_first": 12
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 8,
+        "per_level_above_first": 12
+    },
+    "slots": [
+        "feet"
+    ],
+    "supported_items": "#enchantmentplus:enchantable/leaping",
+    "weight": 5
+}

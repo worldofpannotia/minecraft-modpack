@@ -1,0 +1,11 @@
+{
+	"result": {
+		"id": "minecraft:smooth_red_sandstone_slab",
+		"count": 2
+	},
+	"type": "crafting_shapeless",
+	"ingredients": [
+		"minecraft:smooth_red_sandstone"
+	],
+	"group": "block_to_2_slabs"
+}

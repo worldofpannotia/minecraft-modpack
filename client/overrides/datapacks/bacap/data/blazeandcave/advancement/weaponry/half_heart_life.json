@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_wart"
+		},
+		"title": {"translate":"Half Heart Life"},
+		"description": {"color":"#75E1FF","translate":"Be on half a heart of health for a minute","extra":[{"text":"\n\n"},{"italic":true,"color":"dark_gray","translate":"To view progress, run:"},{"color":"gray","text":"\n/trigger bac_timers"}]},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:weaponry/loser",
+	"rewards": {
+		"function": "bacap_rewards:weaponry/half_heart_life"
+	},		
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
