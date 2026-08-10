@@ -1,3 +1,0 @@
-give @s cod_bucket[item_name='{"translate":"Fake Tropical Fish","color":"#C6A271","bold":true,"italic":false}',lore=['{"translate":"Not as beautiful, but much tastier","color":"#C6A271"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Tropical Collection","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Fake Tropical Fish"}]

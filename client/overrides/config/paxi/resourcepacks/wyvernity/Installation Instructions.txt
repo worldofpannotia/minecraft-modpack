@@ -1,7 +1,0 @@
-Thanks for downloading.
-
-• To install,
-
-1. Place this downloaded folder (the .zip these instructions are contained within) into your ".minecraft/resourcepacks" folder.
-
-2. Open "Options/Resource Packs..." and move "Wyvernity Datapack Resources" to the selected side (right side). Press done. Resource pack will be loaded.

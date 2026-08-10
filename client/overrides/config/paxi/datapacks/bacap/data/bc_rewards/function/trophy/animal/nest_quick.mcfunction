@@ -1,3 +1,0 @@
-give @s bee_nest[item_name='{"translate":"Barry B. Benson\'s Hive","color":"#FFD239","bold":true,"italic":false}',lore=['{"translate":"According to all known laws of aviation…","color":"#FFD239"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Nest, Quick!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},bees=[{min_ticks_in_hive:600,ticks_in_hive:599,entity_data:{id:"minecraft:bee",CustomName:'{"translate":"Barry B. Benson"}'}}]] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Barry B. Benson's Hive"}]

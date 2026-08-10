@@ -1,3 +1,0 @@
-give @s leather_chestplate[item_name='{"translate":"Iron Man Suit","color":"#ba2920","bold":true,"italic":false}',lore=['{"translate":"Has he lost his mind?","color":"#ba2920"}','{"translate":"Can he see or is he blind?","color":"#ba2920"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Smithing With Style","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=134,custom_data={Trophy:1},dyed_color={rgb:12200224,show_in_tooltip:false},trim={material:"minecraft:gold",pattern:"minecraft:silence",show_in_tooltip:false}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Iron Man Suit"}]

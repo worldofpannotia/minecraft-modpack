@@ -1,3 +1,0 @@
-give @s paper[item_name='{"translate":"Calendar","color":"#FF9E47","bold":true,"italic":false}',lore=['{"translate":"I hate Mondays","color":"#FF9E47"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Unending Hell","color":"#75E1FF","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Calendar"}]

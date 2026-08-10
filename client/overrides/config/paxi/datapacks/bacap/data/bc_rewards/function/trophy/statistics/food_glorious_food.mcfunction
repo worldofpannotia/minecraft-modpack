@@ -1,3 +1,0 @@
-give @s cooked_beef[item_name='{"translate":"Mammoth Steak","color":"#C1793A","bold":true,"italic":false}',lore=['{"translate":"Just picture a mammoth steak, fried, roasted or stewed!","color":"#C1793A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Food, Glorious Food!","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mammoth Steak"}]

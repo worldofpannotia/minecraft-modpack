@@ -1,3 +1,0 @@
-give @s poisonous_potato[item_name='{"translate":"Hot Potato","color":"#D99A55","bold":true,"italic":false}',lore=['{"translate":"Whooo, wiggy wiggy wiggy","color":"#D99A55"}','{"translate":"Whooo, wiggy wiggy wiggy","color":"#D99A55"}','{"translate":"Gimme that, gimme that, hoo","color":"#D99A55"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Everybody Loves Ice!","color":"#75E1FF","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Hot Potato"}]

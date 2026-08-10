@@ -1,3 +1,0 @@
-give @s minecart[item_name='{"translate":"Roller Coaster Cart","color":"#04A651","bold":true,"italic":false}',lore=['{"translate":"Hey Ferb, I know what we\'re gonna do today!","color":"#E9554B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"On A Rail","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Roller Coaster Cart"}]

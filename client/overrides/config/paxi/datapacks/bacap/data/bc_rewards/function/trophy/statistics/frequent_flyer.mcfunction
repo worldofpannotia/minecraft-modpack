@@ -1,3 +1,0 @@
-give @s elytra[item_name='{"translate":"Superman\'s Cape","color":"#D71E24","bold":true,"italic":false}',lore=['{"translate":"Is it a bird?","color":"#D71E24"}','{"translate":"Is it a plane?","color":"#D71E24"}','{"translate":"Is it an egg salad sandwich?","color":"#D71E24"}','{"text":" "}','{"translate":"No way, it\'s a Charizard!","color":"#D71E24"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Frequent Flyer","color":"light_purple","italic":false}'],custom_data={Trophy:1},custom_model_data=131,enchantments={levels:{"minecraft:unbreaking":3,"minecraft:mending":1},show_in_tooltip:true},hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Superman's Cape"}]

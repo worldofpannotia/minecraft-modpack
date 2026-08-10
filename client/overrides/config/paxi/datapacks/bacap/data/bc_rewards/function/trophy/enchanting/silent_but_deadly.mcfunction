@@ -1,3 +1,0 @@
-give @s potion[item_name='{"translate":"Fart in a Jar","color":"#B07846","bold":true,"italic":false}',lore=['{"translate":"May annoy others","color":"#B07846"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Silent But Deadly","color":"light_purple","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},potion_contents={potion:"minecraft:water",custom_color:11565126}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Fart in a Jar"}]

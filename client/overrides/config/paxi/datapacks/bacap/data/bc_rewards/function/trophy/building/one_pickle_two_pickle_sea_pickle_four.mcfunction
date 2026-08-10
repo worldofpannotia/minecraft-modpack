@@ -1,3 +1,0 @@
-give @s sea_pickle[item_name='{"translate":"Pickle Rick","color":"#669B29","bold":true,"italic":false}',lore=['{"translate":"Look Morty, I\'ve turned myself into a pickle!","color":"#669B29"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"One Pickle, Two Pickle, Sea Pickle, Four","color":"green","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Pickle Rick"}]

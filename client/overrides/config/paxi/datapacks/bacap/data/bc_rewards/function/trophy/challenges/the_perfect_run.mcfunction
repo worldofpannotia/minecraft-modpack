@@ -1,3 +1,0 @@
-give @s leather_helmet[item_name='{"translate":"Mario\'s Hat","color":"#EE4133","bold":true,"italic":false}',lore=['{"translate":"Mario, number one! Yahoo!","color":"#EE4133"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Perfect Run","color":"#FF2A2A","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=132,custom_data={Trophy:1},dyed_color={rgb:15614259,show_in_tooltip:false},trim={material:"minecraft:quartz",pattern:"minecraft:tide",show_in_tooltip:false}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Mario's Hat"}]

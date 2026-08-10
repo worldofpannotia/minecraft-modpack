@@ -1,3 +1,0 @@
-give @s magenta_wool[item_name='{"translate":"Piñata","color":"#fd96ce","bold":true,"italic":false}',lore=['{"translate":"Much easier to hit than a bat, and filled with candy!","color":"#fd96ce"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Blind as a Bat","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Piñata"}]

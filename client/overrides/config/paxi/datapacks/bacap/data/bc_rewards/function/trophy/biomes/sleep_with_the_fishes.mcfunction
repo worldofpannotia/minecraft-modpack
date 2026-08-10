@@ -1,3 +1,0 @@
-give @s blue_bed[item_name='{"translate":"Waterbed","color":"#314FDD","bold":true,"italic":false}',lore=['{"translate":"Have a good night","color":"#314FDD"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Sleep with the Fishes","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Waterbed"}]

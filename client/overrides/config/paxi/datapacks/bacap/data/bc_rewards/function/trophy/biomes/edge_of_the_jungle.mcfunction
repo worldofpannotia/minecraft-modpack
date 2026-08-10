@@ -1,3 +1,0 @@
-give @s written_book[item_name='{"translate":"The Jungle Book","color":"#74C13D","bold":true,"italic":false}',lore=['{"translate":"In the jungle, the mighty jungle…","color":"#74C13D"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Edge of the Jungle","color":"#FFAEFF","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},written_book_content={title:"The Jungle Book",author:"Rudyard Kipling and Tokens",pages:['{"translate":"In the jungle, the mighty jungle,\\n\\nThe lion sleeps tonight\\n\\nIn the jungle, the quiet jungle,\\n\\nThe lion sleeps tonight"}']}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"The Jungle Book"}]

@@ -1,3 +1,0 @@
-give @s red_wool[item_name='{"translate":"One-Punch Man\'s Fist","color":"#86200A","bold":true,"italic":false}',lore=['{"translate":"ONE PUUUUUNNNCCHHH!!!","color":"#86200A"}','{"translate":"(though in honesty killing everything in one punch","color":"#86200A"}','{"translate":"gets kinda boring after awhile…)","color":"#86200A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Over-Overkill","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"One-Punch Man's Fist"}]

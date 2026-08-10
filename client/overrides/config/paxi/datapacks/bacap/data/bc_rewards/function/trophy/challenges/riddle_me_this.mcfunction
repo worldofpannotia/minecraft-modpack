@@ -1,3 +1,0 @@
-give @s light_weighted_pressure_plate[item_name='{"translate":"Golden Advancement Plaque","color":"#FFD83E","bold":true,"italic":false}',lore=['{"translate":"Awarded to this datapack for reaching 1000 advancements","color":"#FFD83E"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Riddle Me This","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Golden Advancement Plaque"}]

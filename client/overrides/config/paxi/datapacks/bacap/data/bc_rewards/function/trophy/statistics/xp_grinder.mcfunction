@@ -1,3 +1,0 @@
-give @s smoker[item_name='{"translate":"Zero Tick Farm","color":"#967441","bold":true,"italic":false}',lore=['{"translate":"RIP Zero Tick Farms","color":"#967441"}','{"translate":"2013 - 2020","color":"#967441"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"XP Grinder","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Zero Tick Farm"}]

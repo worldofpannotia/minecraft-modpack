@@ -1,3 +1,0 @@
-give @s magma_cream[item_name='{"translate":"God Particle","color":"#e8f46a","bold":true,"italic":false}',lore=['{"translate":"This boson is so central to the state of physics today,","color":"#e8f46a"}','{"translate":"so crucial to our final understanding of the structure of matter,","color":"#e8f46a"}','{"translate":"yet so elusive…","color":"#e8f46a"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Giga XP Grinder","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"God Particle"}]

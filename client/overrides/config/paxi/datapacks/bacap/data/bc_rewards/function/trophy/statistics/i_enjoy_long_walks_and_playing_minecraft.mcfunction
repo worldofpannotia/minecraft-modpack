@@ -1,3 +1,0 @@
-give @s leather_boots[item_name='{"translate":"World\'s Most Reliable Shoes","color":"#955E3B","bold":true,"italic":false}',lore=['{"translate":"The statistics tab shall no longer be the grindy super challenges tab","color":"#955E3B"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"I enjoy long walks & playing MC","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=131,custom_data={Trophy:1},hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"World's Most Reliable Shoes"}]

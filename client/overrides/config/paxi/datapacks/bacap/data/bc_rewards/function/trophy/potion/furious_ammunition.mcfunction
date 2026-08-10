@@ -1,3 +1,0 @@
-give @s tipped_arrow[item_name='{"translate":"Fast and Furious","color":"#7CAFC6","bold":true,"italic":false}',lore=['{"translate":"Getting shot by this will make you fast and furious","color":"#7CAFC6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Furious Ammunition","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={},potion_contents={potion:"minecraft:long_swiftness"}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Fast and Furious"}]

@@ -1,3 +1,0 @@
-give @s white_bed[item_name='{"translate":"Body Pillow","color":"#E5E5E5","bold":true,"italic":false}',lore=['{"translate":"Large fandoms result in questionable merchandise such as","color":"#E5E5E5"}','{"translate":"body pillows featuring your own likeness being produced","color":"#E5E5E5"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Undying Fandom","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Body Pillow"}]

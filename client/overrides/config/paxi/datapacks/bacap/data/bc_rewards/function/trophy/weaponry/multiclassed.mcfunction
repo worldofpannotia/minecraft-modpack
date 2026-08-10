@@ -1,3 +1,0 @@
-give @s stick[item_name='{"translate":"Multiweapon","color":"#DBB364","bold":true,"italic":false}',lore=['{"translate":"It\'s a sword, axe and…","color":"#DBB364"}','{"translate":"Never mind, it broke","color":"#DBB364"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Multiclassed","color":"light_purple","italic":false}'],custom_model_data=133,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Multiweapon"}]

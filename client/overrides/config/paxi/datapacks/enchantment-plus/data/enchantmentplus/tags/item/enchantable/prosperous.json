@@ -1,8 +1,0 @@
-{
-    "values": [
-        "#minecraft:enchantable/bow",
-        "#minecraft:enchantable/crossbow",
-        "#minecraft:enchantable/trident",
-        "#minecraft:enchantable/weapon"
-    ]
-}

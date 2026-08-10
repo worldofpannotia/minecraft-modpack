@@ -1,3 +1,0 @@
-give @s raw_copper_block[item_name='{"translate":"Bean Block","color":"#FB9E58","bold":true,"italic":false}',lore=['{"translate":"Mmm, tasty","color":"#FB9E58"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Mr. Bean","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Bean Block"}]

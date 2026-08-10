@@ -1,3 +1,0 @@
-give @s iron_sword[item_name='{"translate":"1000-degree knife","color":"#FE4952","bold":true,"italic":false}',lore=['{"translate":"(GONE WRONG) (NOT CLICKBAIT)","color":"#FE4952"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Mighty Hunter","color":"light_purple","italic":false}'],custom_data={Trophy:1},custom_model_data=132,enchantments={levels:{"minecraft:fire_aspect":2},show_in_tooltip:true},unbreakable={show_in_tooltip:false},hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"1000-degree knife"}]

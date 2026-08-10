@@ -1,3 +1,0 @@
-give @s ominous_trial_key[item_name='{"translate":"Klefki","color":"#c7d5e1","bold":true,"italic":false}',lore=['{"translate":"It never lets go of a key that it likes,","color":"#c7d5e1"}','{"translate":"so people give it the keys to vaults and safes as a way to prevent crime","color":"#c7d5e1"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Keys to Success","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Klefki"}]

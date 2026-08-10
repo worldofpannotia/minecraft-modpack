@@ -1,3 +1,0 @@
-give @s cooked_porkchop[item_name='{"translate":"Baconator","color":"#FFC6C6","bold":true,"italic":false}',lore=['{"translate":"Oh... wait, I thought you said Bacon!","color":"#FFC6C6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Beaconator","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Baconator"}]

@@ -1,3 +1,0 @@
-give @s spyglass[item_name='{"translate":"Hubble Space Telescope","color":"#8EA4AC","bold":true,"italic":false}',lore=['{"translate":"A telescope orbiting in outer space,","color":"#8EA4AC"}','{"translate":"it can see to infinity and beyond","color":"#8EA4AC"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Telescopic","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Hubble Space Telescope"}]

@@ -1,3 +1,0 @@
-give @s leather_chestplate[item_name='{"translate":"Boomer T-Shirt","color":"#DB2F1A","bold":true,"italic":false}',lore=['{"translate":"There are no mistakes, just happy explosions","color":"#DB2F1A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Demolitions Expert","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=132,custom_data={Trophy:1},dyed_color={rgb:14364442,show_in_tooltip:false},trim={material:"minecraft:quartz",pattern:"minecraft:host",show_in_tooltip:false}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Boomer T-Shirt"}]

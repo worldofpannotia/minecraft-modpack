@@ -1,3 +1,0 @@
-give @s enchanting_table[item_name='{"translate":"Enchanter\'s Trophy","color":"#4AEDD1","bold":true,"italic":false}',lore=['{"translate":"What\'s next? Enchanting mobs?","color":"#4AEDD1"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Enchanting Milestone","color":"yellow","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Enchanter's Trophy"}]

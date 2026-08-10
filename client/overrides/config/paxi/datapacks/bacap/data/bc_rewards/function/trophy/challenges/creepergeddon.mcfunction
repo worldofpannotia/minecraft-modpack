@@ -1,3 +1,0 @@
-give @s creeper_head[item_name='{"translate":"Cursed Creeper Head","color":"dark_green","bold":true,"italic":false}',lore=['{"translate":"Wave 5 of 5: CREEPER-GEDDON!!!","color":"dark_green"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Creepergeddon","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Cursed Creeper Head"}]

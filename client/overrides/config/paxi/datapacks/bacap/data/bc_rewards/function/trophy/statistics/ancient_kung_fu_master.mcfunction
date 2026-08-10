@@ -1,3 +1,0 @@
-give @s leather_leggings[item_name='{"translate":"Black Belt","color":"#4D3A3A","bold":true,"italic":false}',lore=['{"translate":"Who is the greatest man?","color":"#4D3A3A"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Ancient Kung Fu Master","color":"light_purple","italic":false}'],unbreakable={show_in_tooltip:false},custom_model_data=132,custom_data={Trophy:1},dyed_color={rgb:0,show_in_tooltip:false}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Black Belt"}]

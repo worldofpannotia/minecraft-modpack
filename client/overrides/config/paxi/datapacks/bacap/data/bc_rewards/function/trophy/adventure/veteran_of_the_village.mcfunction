@@ -1,3 +1,0 @@
-give @s emerald_block[item_name='{"translate":"Medal of Honor","color":"#E31700","bold":true,"italic":false}',lore=['{"translate":"But didn\'t you start the raid yourself?","color":"#E31700"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Veteran of the Village","color":"light_purple","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Medal of Honor"}]

@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "wyvernity:simple_paxels/netherite_paxel"
-    }
-}

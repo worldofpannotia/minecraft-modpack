@@ -1,5 +1,0 @@
-Thanks for downloading.
-
-• To install,
-1. Place this downloaded folder (the .zip these instructions are contained within) into your world's "datapacks" folder.
-2. Reload your world or the server to install the data pack. When installed correctly, the datapack will be visible in the advancements menu.

@@ -1,3 +1,0 @@
-give @s white_shulker_box[item_name='{"translate":"Doraemon\'s Pocket","color":"#0097E3","bold":true,"italic":false}',lore=['{"translate":"I hope I can get thousands of diamonds in here","color":"#0097E3"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"Stack All the Items!","color":"#FF2A2A","italic":false}'],custom_model_data=131,custom_data={Trophy:1},enchantment_glint_override=true,hide_additional_tooltip={}] 1
-
-tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Doraemon's Pocket"}]
