@@ -1,0 +1,797 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_enchanted_bonus",
+                            "enchantment": "minecraft:looting",
+                            "unenchanted_chance": 0.1,
+                            "enchanted_chance": {
+                                "type": "minecraft:linear",
+                                "base": 0.15,
+                                "per_level_above_first": 0.025
+                            }
+                        }
+                    ],
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc5ZTQ4ZDgxNGFhM2JjOTg0ZThhNmZkNGZiMTcwYmEwYmI0ODkzZjRiYmViZGU1ZmRmM2Y4Zjg3MWNiMjkyZiJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Clownfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "orange",
+                                            "minecraft:tropical_fish/pattern_color": "white",
+                                            "minecraft:tropical_fish/pattern": "kob"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMwZDFlNmQyYTlkZjRmMGViYmNkNTQ3NzhmZjMxYjdjMjQ5ZTBkOTk0NGZjZWQ0YjFhODNhZmJhZWVhY2ZjYSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Triggerfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "gray",
+                                            "minecraft:tropical_fish/pattern_color": "white",
+                                            "minecraft:tropical_fish/pattern": "sunstreak"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5MmYwYjBmNzljN2JhOWRjODE1NzdiZTMzYTVjNzEzZmJlMzk3MjgyNmI0NGJjZjI2ZmViNmNjMTJiNjQzNCJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Tomato Clownfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "red",
+                                            "minecraft:tropical_fish/pattern_color": "white",
+                                            "minecraft:tropical_fish/pattern": "kob"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4MjI2YWI5ODcwYjdjNmM1OWQzMWI0MGI4NmVkZjczMjRlY2E2NzRiNzBkNTViZThhYWU2YTBiODllN2Q4YiJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Red Snapper"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "red",
+                                            "minecraft:tropical_fish/pattern_color": "white",
+                                            "minecraft:tropical_fish/pattern": "blockfish"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3ZThjYzc2MDYzMDI4Mjc3YjhiOGZkZGNmMTA3MmY4MjZkNmM3MjAyY2IyOTU0ODFiZGU3MGJhYzk1MGY4OCJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Red Cichlid"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "red",
+                                            "minecraft:tropical_fish/pattern_color": "white",
+                                            "minecraft:tropical_fish/pattern": "betty"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE0MzQ5ZWIxMmIxMDE5MWUwYzA0Y2EzNDlmZTI2ZjI0MTlkYWNjNWJjMDk1NjllZTlmNjk4ZDAyYWEwNGI4ZSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Ornate Butterflyfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "orange",
+                                            "minecraft:tropical_fish/pattern": "clayfish"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYjRkN2RmZjU0NTZkZTcwNDk2NDE0ZTg3NGM2NjUwYTFlODM5NTYzY2M3NWQ0Yjk5MzgwYjIxNmNmZGJjZCJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Queen Angelfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "lime",
+                                            "minecraft:tropical_fish/pattern_color": "light_blue",
+                                            "minecraft:tropical_fish/pattern": "brinely"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNkNzc2N2RlN2FjZDlmZTllMDM4MzI1NzRiMjQ4MzQ0ZjBhZTA2ZjRjMWE3YzZjYjVjNGIwOTIzYWVmZTU2ZCJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Cotton Candy Betta"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "pink",
+                                            "minecraft:tropical_fish/pattern_color": "light_blue",
+                                            "minecraft:tropical_fish/pattern": "spotty"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0NDRkOTA1YTk5MzA0NGFhNTBkZThjNTUwYmI2NTgzYWQ1N2E4ZDE5OWRhMjliOTkxYmVmMDMwYjQ2ZTM3In19fQ=="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Threadfin"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "yellow",
+                                            "minecraft:tropical_fish/pattern": "flopper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNDdiNDBhYzMxMDM0YTZhYzAyOGNlNWU5NmQ2YWUyNzBiNzM5Zjc0MmIzNTU3MmE5OTk0N2I5MzA2YmQ3In19fQ=="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Goatfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "yellow",
+                                            "minecraft:tropical_fish/pattern": "spotty"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2IwMjZhYjBmNDcxZjVjNmUzOWM5ZDM1ODViYzg4MjRlOWQxYjVmMzczZDJjYjcwMThlNjE1MDBlMWE5ZWIzYSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Yellow Tang"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "yellow",
+                                            "minecraft:tropical_fish/pattern": "flopper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3YjkyYTFiZGM3MzNkMmE1M2ZiMDk1YzcwYjczMmI3MWEyMjNhOWNlY2E3MmI4NzJlMWVlOTkwYTZhOTA3ZSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Yellowtail Parrotfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "cyan",
+                                            "minecraft:tropical_fish/pattern_color": "yellow",
+                                            "minecraft:tropical_fish/pattern": "dasher"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhMWY1NWFlMWEwMWM1ZGJkMGM2NGIzMTg4OTFjZWJlNmVmMTVjODk2MmNkZTZlMDRjM2E5Njg0ZTg1MjI0NyJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Dottyback"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "purple",
+                                            "minecraft:tropical_fish/pattern_color": "yellow",
+                                            "minecraft:tropical_fish/pattern": "blockfish"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzViYTM5M2I5MjZlZTY5YTE0ZDRkODUzYjI1ZDI4NWE4NjhiMTZjNTZjOTE5ZDJiODI0NDEzZTY1NjZkNGU1NSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Parrotfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "cyan",
+                                            "minecraft:tropical_fish/pattern_color": "pink",
+                                            "minecraft:tropical_fish/pattern": "dasher"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UzNDU1Y2RlZTNjODRjYzhiZWY3OWM5MmI1MzZjMjg4OWVhZjhmOTQxMjYxNjFmNmJiZjlkNjNiZTc1OGE1NCJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Moorish Idol"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "gray",
+                                            "minecraft:tropical_fish/pattern": "glitter"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1Zjc3ZDkxN2FjZmQzNzEzYzUzNTUyY2FkYmEwNjdmNWI2ZGY3MjM5M2IxYjMwYTJkYzEwODMzZDkxM2NlMiJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Butterflyfish"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "gray",
+                                            "minecraft:tropical_fish/pattern": "clayfish"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThkMjc1NThiYTYzYmI2ZTE0MTFmY2ZiYWRjMjMzNzk1N2RjMDBjNjIzYmFlZDEwMWZmOTFlYjVlOGQ3Mzc3ZSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Anemone"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "orange",
+                                            "minecraft:tropical_fish/pattern_color": "gray",
+                                            "minecraft:tropical_fish/pattern": "stripey"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM5MzIzYzk2Y2JkYjhmNzJmYWYyZjMzOTZhZmUxNDc5MjQ2ODUyNTZkZTZlZmZjNDgxOTg5NzhiM2YwMThmYiJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Black Tang"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "gray",
+                                            "minecraft:tropical_fish/pattern": "flopper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNjYWU0MzY2NWYxMjNhODRjZWUzN2Y1MGVlMjQxODc3ZTA1ZGJjZmEyODA5ZWM1OWFjNTdkMGNlZDZmZTc5OSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Cichlid"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "blue",
+                                            "minecraft:tropical_fish/pattern_color": "gray",
+                                            "minecraft:tropical_fish/pattern": "sunstreak"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE3MmVhZDI3MmRjNmQwMzdkZmFiMGVjMzJmNjdjY2U5NTIyMzFmMDU5NWVhM2VlMjhmY2NhMTUzYjlmOTgxOSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Blue Tang"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "gray",
+                                            "minecraft:tropical_fish/pattern_color": "blue",
+                                            "minecraft:tropical_fish/pattern": "flopper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjhkNDRiMzNlYWY5YTY4OGYxYzVmMWUwOTM0ZDFmYjQwMzM3NzkxNjk4N2UyMWMzZjNhMDg1ZGI2NmU1ZWYzNyJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Emperor Red Snapper"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "white",
+                                            "minecraft:tropical_fish/pattern_color": "red",
+                                            "minecraft:tropical_fish/pattern": "clayfish"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjJiZTEyZTE0NjY0Y2FlM2ZlMjI2ZDFiMzQ4N2VlMmE3ZDhlNzZhMGUyOWJjYTRkYmY5OTY0YjJhMGY2MyJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Red Lipped Blenny"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "gray",
+                                            "minecraft:tropical_fish/pattern_color": "red",
+                                            "minecraft:tropical_fish/pattern": "snooper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRhMGM4NGRjM2MwOTBkZjdiYWZjNDM2N2E5ZmM2Yzg1MjBkYTJmNzNlZmZmYjgwZTkzNGQxMTg5ZWFkYWM0MSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Tropical Fish"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

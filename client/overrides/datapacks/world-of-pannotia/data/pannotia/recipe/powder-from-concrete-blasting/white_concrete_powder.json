@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:white_concrete",
+    "result": "minecraft:white_concrete_powder",
+    "experience": 0.1
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "#W#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:copper_block",
+        "G": "minecraft:gunpowder",
+        "W": "minecraft:water_bucket"
+    },
+    "result": {
+        "item": "minecraft:exposed_copper",
+        "count": 7
+    }
+}

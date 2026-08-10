@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:lime_concrete",
+    "result": "minecraft:lime_concrete_powder",
+    "experience": 0.1
+}

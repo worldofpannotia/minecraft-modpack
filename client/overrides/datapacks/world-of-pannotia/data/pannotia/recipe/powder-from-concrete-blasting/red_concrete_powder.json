@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "minecraft:red_concrete",
+    "result": "minecraft:red_concrete_powder",
+    "experience": 0.1
+}
