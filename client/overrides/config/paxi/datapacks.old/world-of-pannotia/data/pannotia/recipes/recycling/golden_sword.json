@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:golden_sword"
+    },
+    "result": "minecraft:gold_nugget",
+    "count": 6
+}

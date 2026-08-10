@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:golden_shovel"
+    },
+    "result": "minecraft:gold_nugget",
+    "count": 3
+}

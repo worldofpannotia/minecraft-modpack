@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:golden_leggings"
+    },
+    "result": "minecraft:gold_ingot",
+    "count": 2
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:golden_pickaxe"
+    },
+    "result": "minecraft:gold_ingot",
+    "count": 1
+}
