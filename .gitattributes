@@ -1,0 +1,44 @@
+# Enforce LF line endings across the repo (core.autocrlf is not set locally; this makes it structural).
+# Previously handled ad-hoc (e.g. newline="\n" inside the demo-world Python scripts, plus manual
+# "fix line endings" commits). This replaces that per-file handling.
+
+* text=auto eol=lf
+
+# Explicitly text (normalized to LF on commit and checkout)
+*.java   text eol=lf
+*.gradle text eol=lf
+*.kts    text eol=lf
+*.json   text eol=lf
+*.json5  text eol=lf
+*.toml   text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.csv    text eol=lf
+*.py     text eol=lf
+*.ts     text eol=lf
+*.js     text eol=lf
+*.sh     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.properties   text eol=lf
+*.mcfunction   text eol=lf
+*.mcmeta text eol=lf
+*.mixins.json  text eol=lf
+
+# The Gradle wrapper scripts
+gradlew      text eol=lf
+gradlew.bat  text eol=crlf
+
+# Binary assets — never touch line endings
+*.png  binary
+*.pdn  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.ogg  binary
+*.wav  binary
+*.jar  binary
+*.zip  binary
+*.nbt  binary
+*.snbt text eol=lf
