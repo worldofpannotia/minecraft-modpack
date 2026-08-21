@@ -1,0 +1,8 @@
+{
+    "show_enchantment_cost": true,
+    "sync_options": {
+        "use_local_server_config_if_unsynced": true,
+        "log_received_config": false
+    },
+    "version": 4
+}

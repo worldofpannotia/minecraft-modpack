@@ -1,0 +1,71 @@
+{
+    "disenchant_to_book": {
+        "enabled": true,
+        "consume_enchanted_item": false,
+        "only_take_first": false,
+        "cost_function": {
+            "function": {
+                "function": {
+                    "type": "grindenchantments:count_min_power"
+                },
+                "factor": 0.3,
+                "offset": 8.0,
+                "type": "grindenchantments:transform"
+            },
+            "type": "grindenchantments:filter"
+        }
+    },
+    "move_enchantments": {
+        "enabled": true,
+        "cost_function": {
+            "function": {
+                "function": {
+                    "function": {
+                        "normal_factor": 3.0,
+                        "treasure_factor": 8.0,
+                        "type": "grindenchantments:count_levels"
+                    },
+                    "factor": 0.5,
+                    "offset": 0.5,
+                    "type": "grindenchantments:transform"
+                },
+                "type": "grindenchantments:first_enchantment"
+            },
+            "type": "grindenchantments:filter"
+        }
+    },
+    "reset_repair_cost": {
+        "enabled": false,
+        "catalyst_items": "minecraft:diamond",
+        "requires_enchantment": true,
+        "cost_function": {
+            "function": {
+                "function": {
+                    "normal_factor": 1.0,
+                    "treasure_factor": 4.0,
+                    "type": "grindenchantments:count_levels"
+                },
+                "type": "grindenchantments:average_count"
+            },
+            "factor": 1.5,
+            "offset": 4.0,
+            "type": "grindenchantments:transform"
+        }
+    },
+    "filter": {
+        "enabled": true,
+        "item": {
+            "enchantments": [],
+            "action": "deny"
+        },
+        "enchantment": {
+            "enchantments": [],
+            "action": "ignore"
+        },
+        "cursed_enchantments": "allow"
+    },
+    "dedicated_server_options": {
+        "alternative_cost_display_enabled": false
+    },
+    "version": 4
+}

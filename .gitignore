@@ -6,3 +6,5 @@ dist
 .vscode
 .idea
 node_modules
+
+config.old
