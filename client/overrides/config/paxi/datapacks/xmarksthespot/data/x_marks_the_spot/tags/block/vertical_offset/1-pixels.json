@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:redstone_wire",
-        "#minecraft:pressure_plates"
-    ]
-}
