@@ -1,1 +1,0 @@
-$loot give @s loot {"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_components","components":{"minecraft:stored_enchantments":$(TomeOfIntricateDisenchanting)}}]}]}]}
