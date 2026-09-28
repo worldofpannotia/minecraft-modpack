@@ -17,5 +17,9 @@
         "@types/fs-extra": "^9.0.13",
         "fs-extra": "^10.1.0",
         "jszip": "^3.10.1"
+    },
+    "scripts": {
+        "build": "node ./scripts/build-client.mjs",
+        "build:dev": "node ./scripts/build-client.mjs -d"
     }
 }
