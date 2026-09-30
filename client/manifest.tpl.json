@@ -32,7 +32,6 @@
         {"name": "Banner Tweaks", "projectID": 979768, "fileID": 8696293, "required": true, "isLocked": false},
         {"name": "Bathymetry", "projectID": 1656052, "fileID": 8899050, "required": true, "isLocked": false},
         {"name": "Beacon & Conduit Tweaks", "projectID": 1082021, "fileID": 8629751, "required": true, "isLocked": false},
-        {"name": "Better Auto Third Person", "projectID": 1402980, "fileID": 8853187, "required": true, "isLocked": false},
         {"name": "Better Mount HUD", "projectID": 475358, "fileID": 8280974, "required": true, "isLocked": false},
         {"name": "Better Portal Linking", "projectID": 1658873, "fileID": 8681130, "required": true, "isLocked": false},
         {"name": "Better Spawner Control", "projectID": 344036, "fileID": 8274238, "required": true, "isLocked": false},
