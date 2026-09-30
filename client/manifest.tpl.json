@@ -23,6 +23,7 @@
         {"name": "Archaeology Tweaks", "projectID": 1084253, "fileID": 8824312, "required": true, "isLocked": false},
         {"name": "Architectury API (Fabric/Forge)", "projectID": 419699, "fileID": 8915057, "required": true, "isLocked": false},
         {"name": "Areas", "projectID": 391701, "fileID": 8341514, "required": true, "isLocked": false},
+        {"name": "Armored Elytra", "projectID": 1056156, "fileID": 8920698, "required": true, "isLocked": false},
         {"name": "Artificial Heart", "projectID": 1159906, "fileID": 8696286, "required": true, "isLocked": false},
         {"name": "AudioPlayer", "projectID": 549719, "fileID": 8842748, "required": true, "isLocked": false},
         {"name": "Auth Me", "projectID": 356643, "fileID": 8293137, "required": true, "isLocked": false},
@@ -209,21 +210,27 @@
         {"name": "YetAnotherConfigLib", "projectID": 667299, "fileID": 8935502, "required": true, "isLocked": false},
         {"name": "Zombie Villagers From Spawner", "projectID": 345039, "fileID": 8271697, "required": true, "isLocked": false}
     ],
-    "files_need_alternate": [
-    ],
-    "files_blocking": [
-        {"name": "Charm of Undying (Fabric/Forge/Quilt)", "projectID": 316873, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Elytra Slot (Fabric/Forge/Quilt)", "projectID": 317716, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Shulker Box Slot (Fabric/Forge/Quilt)", "projectID": 316881, "fileID": 9999999, "required": true, "isLocked": false}
-    ],
-    "files_on_261": [
+    "files_waiting": [
+        {"name": "Better Ping Display [Fabric]", "projectID": 406343, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Better Trim Tooltips", "projectID": 868132, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "CleanView", "projectID": 375465, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Compostables", "projectID": 683408, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Crafted Core", "projectID": 923377, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "CurveBuilding", "projectID": 860912, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Fabrishot", "projectID": 404870, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Fast Paintings", "projectID": 883287, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "JAMD", "projectID": 422981, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Kiwi 🥝 (Fabric)", "projectID": 549404, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Leaky - Item Lag Fix [Forge/Fabric]", "projectID": 856906, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Litematica Tool (Forge and Fabric)", "projectID": 494413, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Map Tooltip", "projectID": 384852, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Moonlight Lib", "projectID": 499980, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "New Default+", "projectID": 318963, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Passable Foliage 🌳 (Fabric)", "projectID": 552617, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "Patchouli (Fabric/Quilt)", "projectID": 393236, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Prevent Despawn", "projectID": 866855, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "Roughly Enough Resources", "projectID": 325625, "fileID": 9999999, "required": true, "isLocked": false},
+        {"name": "You're in Grave Danger", "projectID": 544912, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "YUNG's API", "projectID": 421649, "fileID": 9999999, "required": true, "isLocked": false},
         {"name": "YUNG's Better Desert Temples", "projectID":  631020, "fileID": 9999999, "required":  true},
         {"name": "YUNG's Better Dungeons", "projectID":  525586, "fileID": 9999999, "required":  true},
@@ -235,20 +242,5 @@
         {"name": "YUNG's Better Witch Huts", "projectID":  631403, "fileID": 9999999, "required":  true},
         {"name": "YUNG's Bridges", "projectID":  590988, "fileID": 9999999, "required":  true},
         {"name": "YUNG's Extras", "projectID":  590993, "fileID": 9999999, "required":  true}
-    ],
-    "files_waiting": [
-        {"name": "Better Ping Display [Fabric]", "projectID": 406343, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Better Trim Tooltips", "projectID": 868132, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "CleanView", "projectID": 375465, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Compostables", "projectID": 683408, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "CurveBuilding", "projectID": 860912, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Fast Paintings", "projectID": 883287, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Leaky - Item Lag Fix [Forge/Fabric]", "projectID": 856906, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Litematica Tool (Forge and Fabric)", "projectID": 494413, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Moonlight Lib", "projectID": 499980, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "New Default+", "projectID": 318963, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Prevent Despawn", "projectID": 866855, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "Roughly Enough Resources", "projectID": 325625, "fileID": 9999999, "required": true, "isLocked": false},
-        {"name": "You're in Grave Danger", "projectID": 544912, "fileID": 9999999, "required": true, "isLocked": false}
     ]
 }
