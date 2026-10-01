@@ -1,0 +1,22 @@
+{
+  "overlaps": [
+    "Universal Enchants and Remove Enchantment Incompatibility both loosen exclusivity (Infinity+Mending, Multishot+Piercing); REI is the broad one, UE also widens item targets.",
+    "Easy Anvils (free renaming, cheaper anvil) vs Tax Free Levels (renaming costs 1 level, flat XP): precedence unverified.",
+    "Easy Anvils (iron block repair) vs Anvil Restoration (iron ingot repair): both repair anvils.",
+    "Bow Infinity Fix vs Universal Enchants: both make Infinity not need an arrow.",
+    "Better Than Mending vs Bottle Your Xp: both spend raw player XP."
+  ],
+  "cross_links": [
+    "interface-and-hud.md", "tools-weapons-and-armor.md", "cosmetic-visual-and-audio.md", "storage-and-inventory.md", "world-generation-and-exploration.md", "loot-and-drops.md", "quality-of-life.md", "../datapacks/silk-touch-budding-amethyst.md"
+  ],
+  "questions_for_pack_author": [
+    "Does Easy Anvils free renaming or Tax Free Levels 1-level renaming win in practice?",
+    "Does the TaxFreeLevels 26.1 jar load and work on 26.2?",
+    "Are Universal Enchants' optional stacking datapacks (Sharpness+Smite, Protection types) enabled?",
+    "Does Tax Free Levels flatten Grind Enchantments' costs?",
+    "Default Tax Free Levels Level Base and Better Than Mending XP cost per durability?",
+    "Is Infinity available from vanilla sources in the pack (for Infinity Water Bucket)?",
+    "Gentle Touch enchantment source in Archaeology Tweaks?"
+  ],
+  "glossary_terms": ["Prior-work penalty", "Mending", "Infinity", "Treasure enchantment", "Disenchant", "Happy ghast harness", "Bottle o' Enchanting", "Roman numerals (levels above 10)"]
+}

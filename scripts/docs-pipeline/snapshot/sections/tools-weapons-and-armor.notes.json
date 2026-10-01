@@ -1,0 +1,16 @@
+{
+  "overlaps": [
+    "Bow Infinity Fix and Universal Enchants both remove the spare-arrow requirement for Infinity.",
+    "Mineable Spawner and Mineable Trial Spawner are companions; settings commands differ.",
+    "Deepslate Instamine requires Efficiency V + Haste II beacon; More Effective Tools is separate (block tags only).",
+    "Diggus Maximus Reborn (vein mining) vs Deepslate Instamine both speed up mining."
+  ],
+  "cross_links": ["enchanting-and-magic.md", "building-and-decoration.md", "cosmetic-visual-and-audio.md", "quality-of-life.md", "../datapacks/more-effective-tools.md"],
+  "questions_for_pack_author": [
+    "Is Armored Elytra functional (is there a combining datapack)?",
+    "Does Bow Infinity Fix (neo-named jar) load on Fabric?",
+    "Actual beacon/conduit range config values?",
+    "Mineable Spawner defaults and operator requirement for /trigger?"
+  ],
+  "glossary_terms": ["Instamine", "Haste", "Efficiency", "Silk Touch", "Armor trim", "Totem of Undying", "Trial spawner", "Vault"]
+}

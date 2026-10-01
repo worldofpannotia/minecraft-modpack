@@ -1,58 +1,63 @@
 {
-  "secondary_categories": [
-    "Mobs & Creatures"
-  ],
-  "new_content": [
-    {
-      "name": "Detached Creaking Heart",
-      "type": "block",
-      "how_to_obtain": "Strip a vanilla Creaking Heart with an axe.",
-      "notes": "Decorative; links to no pale oak and spawns no creakings. Orientation of its glowing faces depends on placement."
-    },
-    {
-      "name": "Clipped Eyeblossom / Clipped Open Eyeblossom (and potted versions)",
-      "type": "block",
-      "how_to_obtain": "Use shears on a vanilla eyeblossom.",
-      "notes": "Frozen open or closed; no longer cycles with time of day."
-    },
-    {
-      "name": "Pale Pumpkin, Pale Carved Pumpkin, Pale Jack o'Lantern, Pale Pumpkin Seeds, Pale Pumpkin Stem",
-      "type": "block",
-      "how_to_obtain": "Pale pumpkin patches grow naturally in Pale Garden biomes; seeds and jack o'lantern have crafting recipes.",
-      "notes": "A carved pale pumpkin worn as a helmet stops creakings (tame or wild) from noticing you."
-    },
-    {
-      "name": "Creaking Golem",
-      "type": "entity",
-      "how_to_obtain": "Build a golem shape from pale oak fence and logs around a Creaking Heart, topped with a carved pale pumpkin or jack o'lantern.",
-      "notes": "Friendly and sturdy; freezes when stared at like a wild creaking but never attacks. Built around a Detached Creaking Heart it becomes an inert statue."
-    }
-  ],
-  "mechanics": [],
-  "vanilla_changes": [
-    {
-      "what": "Crafting",
-      "change": "Recipes added: a shaped creaking heart recipe, pale jack o'lantern, pale pumpkin seeds, and shapeless gray and orange dye recipes (inputs not listed in facts).",
-      "kind": "recipe-added"
-    }
-  ],
-  "qol": [],
-  "commands_and_keybinds": [],
-  "getting_started": "Visit a Pale Garden: strip a creaking heart with an axe or shear an eyeblossom to get decorative versions.",
-  "related_units": [
-    "archaeology-tweaks",
-    "chimericlib"
-  ],
-  "sources": [
-    "authorReadme (facts)"
-  ],
-  "editor_notes": "Recipe inputs not extracted; check jar recipes before publishing a recipe table. Two advancements: Change of Heart (strip a heart) and a creaking golem summon advancement. A shaped creaking_heart recipe exists, possibly for the detached variant.",
-  "name": "Artificial Heart",
-  "kind": "mod",
-  "category": "Building & Decoration",
-  "side": "both",
-  "player_facing": true,
-  "summary": "Decorative, harmless versions of the Pale Garden's creaking heart and eyeblossoms, plus pale pumpkins and a friendly creaking golem. Made by the pack author.",
-  "confidence": "medium",
-  "unit": "mods__artificial-heart"
+ "secondary_categories": [
+  "Mobs & Creatures"
+ ],
+ "new_content": [
+  {
+   "name": "Detached Creaking Heart",
+   "type": "block",
+   "how_to_obtain": "Strip a vanilla Creaking Heart with an axe.",
+   "notes": "Decorative; links to no pale oak and spawns no creakings. Orientation of its glowing faces depends on placement."
+  },
+  {
+   "name": "Clipped Eyeblossom / Clipped Open Eyeblossom (and potted versions)",
+   "type": "block",
+   "how_to_obtain": "Use shears on a vanilla eyeblossom.",
+   "notes": "Frozen open or closed; no longer cycles with time of day."
+  },
+  {
+   "name": "Pale Pumpkin, Pale Carved Pumpkin, Pale Jack o'Lantern, Pale Pumpkin Seeds, Pale Pumpkin Stem",
+   "type": "block",
+   "how_to_obtain": "Pale pumpkin patches grow naturally in Pale Garden biomes; seeds and jack o'lantern have crafting recipes.",
+   "notes": "A carved pale pumpkin worn as a helmet stops creakings (tame or wild) from noticing you."
+  },
+  {
+   "name": "Creaking Golem",
+   "type": "entity",
+   "how_to_obtain": "Build a golem shape from pale oak fence and logs around a Creaking Heart, topped with a carved pale pumpkin or jack o'lantern.",
+   "notes": "Friendly and sturdy; freezes when stared at like a wild creaking but never attacks. Built around a Detached Creaking Heart it becomes an inert statue."
+  }
+ ],
+ "mechanics": [],
+ "vanilla_changes": [
+  {
+   "kind": "recipe-added",
+   "what": "Creaking heart",
+   "change": "Shaped: Artificial Creaking Heart surrounded by 8 resin clumps -> creaking heart."
+  },
+  {
+   "kind": "recipe-added",
+   "what": "Gray and orange dye",
+   "change": "Shapeless: clipped eyeblossom -> gray dye; clipped open eyeblossom -> orange dye."
+  }
+ ],
+ "qol": [],
+ "commands_and_keybinds": [],
+ "getting_started": "Visit a Pale Garden: strip a creaking heart with an axe or shear an eyeblossom to get decorative versions.",
+ "related_units": [
+  "archaeology-tweaks",
+  "chimericlib"
+ ],
+ "sources": [
+  "authorReadme (facts)"
+ ],
+ "editor_notes": "Recipe inputs not extracted; check jar recipes before publishing a recipe table. Two advancements: Change of Heart (strip a heart) and a creaking golem summon advancement. A shaped creaking_heart recipe exists, possibly for the detached variant.",
+ "name": "Artificial Heart",
+ "kind": "mod",
+ "category": "Building & Decoration",
+ "side": "both",
+ "player_facing": true,
+ "summary": "Decorative, harmless versions of the Pale Garden's creaking heart and eyeblossoms, plus pale pumpkins and a friendly creaking golem. Made by the pack author.",
+ "confidence": "medium",
+ "unit": "mods__artificial-heart"
 }

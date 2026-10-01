@@ -1,73 +1,73 @@
 {
-  "name": "World of Pannotia: Core Pack Tweaks",
-  "category": "Recipes & Crafting Tweaks",
-  "secondary_categories": [
-    "Loot & Drops",
-    "Building & Decoration"
-  ],
-  "summary": "The pack own recipe and drop tweaks: faster copper oxidation by crafting, extra dye recipes, coral and fan conversion, concrete powder from blasting, small dripleaf duplication, and vanilla-style head drops for zombies, skeletons, creepers, piglins and tropical fish.",
-  "new_content": [
-    {
-      "name": "Tropical fish variant heads",
-      "type": "item",
-      "how_to_obtain": "Kill a tropical fish as a player: 10% (L1 15%, +2.5% per level above I). The head matches the fish pattern and colours for 22 known variants (Clownfish, Triggerfish, Tomato Clownfish, Red Snapper, Red Cichlid, Ornate Butterflyfish, Queen Angelfish, Cotton Candy Betta, Threadfin, Goatfish, Yellow Tang, Yellowtail Parrotfish, Dottyback, Parrotfish, Moorish Idol, Butterflyfish, Anemone, Black Tang, Cichlid, Blue Tang, Emperor Red Snapper, Red Lipped Blenny); any other fish gives a plain Tropical Fish head.",
-      "notes": "Sources credited in credits.md."
-    }
-  ],
-  "vanilla_changes": [
-    {
-      "what": "Faster copper oxidation (crafting)",
-      "change": "Shaped 3x3: 7 copper-type blocks in every slot except top-middle and centre, Gunpowder top-middle, Water Bucket centre -> 7 of the next oxidation stage. Copper Block -> 7 Exposed Copper; Exposed Copper -> 7 Weathered Copper; Weathered Copper -> 7 Oxidized Copper. Pattern \"#G#\",\"#W#\",\"###\" (7 input blocks).",
-      "kind": "recipe-added"
-    },
-    {
-      "what": "More dye recipes",
-      "change": "Brown Mushroom -> 1 Brown Dye; Twisting Vines -> 1 Cyan Dye; Big Dripleaf -> 1 Green Dye; Carrot -> 1 Orange Dye; Yellow Dye + Blue Dye -> 2 Green Dye (all shapeless).",
-      "kind": "recipe-added"
-    },
-    {
-      "what": "Coral and coral fans",
-      "change": "Shapeless 1:1 conversion between each live coral and its coral fan (brain, bubble, fire, horn, tube), in both directions: 10 recipes.",
-      "kind": "recipe-added"
-    },
-    {
-      "what": "Concrete powder from blasting",
-      "change": "Blast Furnace: any of the 16 concrete colours -> the same-colour Concrete Powder, 0.1 XP (default blasting time).",
-      "kind": "recipe-added"
-    },
-    {
-      "what": "Small dripleaf duplication",
-      "change": "Shapeless: Small Dripleaf + Bone Meal -> 1 Small Dripleaf (effectively duplicates a small dripleaf for one bone meal).",
-      "kind": "recipe-added"
-    },
-    {
-      "what": "Zombie, Skeleton, Creeper and Piglin heads",
-      "change": "Killed by player: Zombie Head 2.5% (+1% per Looting level), Skeleton Skull 2.5% (+1%), Creeper Head 2.5% (+1%, uncharged creepers only), Piglin Head 4% (+1%).",
-      "kind": "loot"
-    }
-  ],
-  "mechanics": [
-    {
-      "title": "Item tags",
-      "description": "Defines pannotia:mushrooms (crimson fungus, warped fungus, brown mushroom, red mushroom) and pannotia:netherite_helmets/chestplates/leggings/boots item tags. They are for other pack content and have no direct player effect."
-    }
-  ],
-  "related_units": [
-    "datapacks__world-of-pannotia__minecraft",
-    "datapacks__world-of-pannotia__more_mob_heads",
-    "datapacks__world-of-pannotia__vanilla"
-  ],
-  "sources": [
-    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/pannotia/",
-    "https://minecraft.wiki/w/Predicate"
-  ],
-  "confidence": "medium",
-  "editor_notes": "WARNING, probable load failures to verify in game. (1) The zombie, skeleton, creeper and piglin tables use the condition \"random_chance_with_looting\", which was replaced by random_chance_with_enchanted_bonus in 1.21 (24w18a, confirmed on minecraft.wiki); those four head drops are likely broken in 26.2, and the minecraft: wrapper tables that reference them may log errors. (2) Most recipes (copper oxidation, dyes, coral) use \"result\": {\"item\": ...} instead of {\"id\": ...}, and the concrete blasting recipes use a bare string result; the \"item\" key has been invalid since 1.20.5, so these recipes may not load. Only the small dripleaf recipe uses the current \"id\" format. Describe intended behavior but flag as unverified.",
-  "unit": "datapacks__world-of-pannotia__pannotia",
-  "kind": "datapack-module",
-  "side": "server",
-  "player_facing": true,
-  "qol": [],
-  "commands_and_keybinds": [],
-  "getting_started": ""
+ "name": "World of Pannotia: Core Pack Tweaks",
+ "category": "Recipes & Crafting Tweaks",
+ "secondary_categories": [
+  "Loot & Drops",
+  "Building & Decoration"
+ ],
+ "summary": "The pack own recipe and drop tweaks: faster copper oxidation by crafting, extra dye recipes, coral and fan conversion, concrete powder from blasting, small dripleaf duplication, and vanilla-style head drops for zombies, skeletons, creepers, piglins and tropical fish.",
+ "new_content": [
+  {
+   "name": "Tropical fish variant heads",
+   "type": "item",
+   "how_to_obtain": "Kill a tropical fish as a player: 10% (L1 15%, +2.5% per level above I). The head matches the fish pattern and colours for 22 known variants (Clownfish, Triggerfish, Tomato Clownfish, Red Snapper, Red Cichlid, Ornate Butterflyfish, Queen Angelfish, Cotton Candy Betta, Threadfin, Goatfish, Yellow Tang, Yellowtail Parrotfish, Dottyback, Parrotfish, Moorish Idol, Butterflyfish, Anemone, Black Tang, Cichlid, Blue Tang, Emperor Red Snapper, Red Lipped Blenny); any other fish gives a plain Tropical Fish head.",
+   "notes": "Sources credited in credits.md."
+  }
+ ],
+ "vanilla_changes": [
+  {
+   "what": "Faster copper oxidation (crafting)",
+   "change": "Shaped 3x3: 7 copper-type blocks in every slot except top-middle and centre, Gunpowder top-middle, Water Bucket centre -> 7 of the next oxidation stage. Copper Block -> 7 Exposed Copper; Exposed Copper -> 7 Weathered Copper; Weathered Copper -> 7 Oxidized Copper. Pattern \"#G#\",\"#W#\",\"###\" (7 input blocks). (may not work in the current version)",
+   "kind": "recipe-added"
+  },
+  {
+   "what": "More dye recipes",
+   "change": "Brown Mushroom -> 1 Brown Dye; Twisting Vines -> 1 Cyan Dye; Big Dripleaf -> 1 Green Dye; Carrot -> 1 Orange Dye; Yellow Dye + Blue Dye -> 2 Green Dye (all shapeless). (may not work in the current version)",
+   "kind": "recipe-added"
+  },
+  {
+   "what": "Coral and coral fans",
+   "change": "Shapeless 1:1 conversion between each live coral and its coral fan (brain, bubble, fire, horn, tube), in both directions: 10 recipes. (may not work in the current version)",
+   "kind": "recipe-added"
+  },
+  {
+   "what": "Concrete powder from blasting",
+   "change": "Blast Furnace: any of the 16 concrete colours -> the same-colour Concrete Powder, 0.1 XP (default blasting time). (may not work in the current version)",
+   "kind": "recipe-added"
+  },
+  {
+   "what": "Small dripleaf duplication",
+   "change": "Shapeless: Small Dripleaf + Bone Meal -> 1 Small Dripleaf (effectively duplicates a small dripleaf for one bone meal).",
+   "kind": "recipe-added"
+  },
+  {
+   "what": "Zombie, Skeleton, Creeper and Piglin heads",
+   "change": "Killed by player: Zombie Head 2.5% (+1% per Looting level), Skeleton Skull 2.5% (+1%), Creeper Head 2.5% (+1%, uncharged creepers only), Piglin Head 4% (+1%). (may not work in the current version)",
+   "kind": "loot"
+  }
+ ],
+ "mechanics": [
+  {
+   "title": "Item tags",
+   "description": "Defines pannotia:mushrooms (crimson fungus, warped fungus, brown mushroom, red mushroom) and pannotia:netherite_helmets/chestplates/leggings/boots item tags. They are for other pack content and have no direct player effect."
+  }
+ ],
+ "related_units": [
+  "datapacks__world-of-pannotia__minecraft",
+  "datapacks__world-of-pannotia__more_mob_heads",
+  "datapacks__world-of-pannotia__vanilla"
+ ],
+ "sources": [
+  "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/pannotia/",
+  "https://minecraft.wiki/w/Predicate"
+ ],
+ "confidence": "medium",
+ "editor_notes": "WARNING, probable load failures to verify in game. (1) The zombie, skeleton, creeper and piglin tables use the condition \"random_chance_with_looting\", which was replaced by random_chance_with_enchanted_bonus in 1.21 (24w18a, confirmed on minecraft.wiki); those four head drops are likely broken in 26.2, and the minecraft: wrapper tables that reference them may log errors. (2) Most recipes (copper oxidation, dyes, coral) use \"result\": {\"item\": ...} instead of {\"id\": ...}, and the concrete blasting recipes use a bare string result; the \"item\" key has been invalid since 1.20.5, so these recipes may not load. Only the small dripleaf recipe uses the current \"id\" format. Describe intended behavior but flag as unverified.",
+ "unit": "datapacks__world-of-pannotia__pannotia",
+ "kind": "datapack-module",
+ "side": "server",
+ "player_facing": true,
+ "qol": [],
+ "commands_and_keybinds": [],
+ "getting_started": ""
 }

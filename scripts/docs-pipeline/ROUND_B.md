@@ -41,6 +41,9 @@ Rules:
 - Vanilla changes: mention them briefly in the mod's section (a separate page will hold the full vanilla-changes reference).
 - Cross-links use relative paths to other category pages: slug = lowercase, `&` → `and`, non-alphanumerics → `-` (e.g. `tools-weapons-and-armor.md`). Datapack pages live at `../datapacks/<pack>.md`.
 - Mark low-confidence claims with "(unverified)".
+- Category membership is in `$W/categories.json` (keyed by category name: slug, primary unit ids, secondary unit ids). Secondary units include datapacks — link them to `../datapacks/<pack>.md` where <pack> is the datapack directory name (e.g. unit `datapacks__world-of-pannotia__mini_blocks` → `../datapacks/world-of-pannotia.md`).
+- Things only the pack maintainer cares about (suspected bugs, version mismatches, missing deps, editor_notes) go in an HTML comment `<!-- maintainer: ... -->` right where relevant, so they are invisible to players. Known pack-wide facts: Patchouli is NOT currently in the pack (it is waiting for an update), so Patchouli guidebooks (Minekea Catalogue, Hopper X-Treme manual, the pack guidebook) are currently unavailable — say so briefly where a mod mentions its guidebook. Sodium IS in the pack.
+- Write files with the Write tool (bash heredocs with backticks/quotes tend to break).
 
 ## Output 2: `$W/sections/<category-slug>.notes.json`
 `{"overlaps": [...], "cross_links": [...], "questions_for_pack_author": [...], "glossary_terms": [...]}`

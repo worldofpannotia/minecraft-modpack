@@ -11,7 +11,8 @@ These scripts generated the player guide in `docs/guide/`. Every script writes i
 | 1 | Drafts a structured write-up for each unit with a local Ollama model. It resumes where it left off. | `node ollama-research.mjs --model qwen3.5:9b` |
 | 2A | Sonnet agents verify the drafts against the facts in batches of about 20 → `work/refined/*.json` | prompt: `ROUND_A.md` |
 | 2B | Sonnet agents consolidate each category into a draft page → `work/sections/*.md` | prompt: `ROUND_B.md` |
-| 3 | The main agent compiles the final docs | — |
+| 3a | Generates the reference tables (vanilla changes, items index, technical, controls, mod list) from the refined data | `node build-reference.mjs` |
+| 3b | Assembles `docs/guide/` from the section drafts, the generated tables and the hand-written pages in `hand/`, fixes and validates every link and anchor | `node compile.mjs` |
 
 Notes:
 - Mod jars are read from the CurseForge instance `World of Pannotia (dev build)`. Mods missing from that instance are downloaded from Modrinth into `work/extra-jars/<projectID>-<file>.jar`.

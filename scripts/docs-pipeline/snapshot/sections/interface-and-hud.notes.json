@@ -1,0 +1,33 @@
+{
+  "overlaps": [
+    "EnhancedTooltips vs Durability Tooltip: both add durability lines; may duplicate",
+    "EnhancedTooltips vs Adaptive Tooltips: both alter tooltip layout/styling",
+    "Jade vs MiniHUD vs AppleSkin: Jade = target info, MiniHUD = player/world info, AppleSkin = food info",
+    "Stendhal vs Improved Sign Editing: both edit signs",
+    "Cherished Worlds vs Folders!: both change play screens (pin vs group)",
+    "Full Brightness Toggle vs Tweakeroo gamma override",
+    "Jade/MiniHUD item tooltip lines overlap with EnhancedTooltips food/bundle tooltips",
+    "Xaero's Minimap vs MiniHUD coordinates display"
+  ],
+  "cross_links": [
+    "transport-and-movement.md (Better Mount HUD, Boat Item View)",
+    "enchanting-and-magic.md (Enchantment Descriptions, Enchantment Numbers Fix)",
+    "storage-and-inventory.md (Shulker Box Tooltip, Inventory Profiles Next, TrashSlot)",
+    "recipes-and-crafting-tweaks.md (REI)",
+    "progression-and-advancements.md (Paginated Advancements)",
+    "world-generation-and-exploration.md (Ore Height Indicator, Xaero's maps)",
+    "../datapacks/afk-display.md",
+    "../datapacks/track-statistics.md (Better Statistics Screen)"
+  ],
+  "questions_for_pack_author": [
+    "Is Servux installed on the server so MiniHUD structure boxes work in multiplayer?",
+    "Is AttributeFix in the pack (Overflowing Bars recommends it for armor above vanilla caps)?",
+    "Is Boat Item View's showHandsInMovingBoat enabled in the pack config?",
+    "Do EnhancedTooltips and Durability Tooltip duplicate durability lines? Keep both?",
+    "Default Durability Tooltip style and default Adaptive Tooltips keys?",
+    "Does Jade's recipe/uses keys work with REI (only documented for JEI)?",
+    "Is Improved Sign Editing in the pack alongside Stendhal?",
+    "Is Patchouli returning, since No Recipe Book leaves REI as the only recipe lookup?"
+  ],
+  "glossary_terms": ["HUD", "Tooltip", "Saturation", "Exhaustion", "Armor toughness", "Servux", "Slime chunk", "Gamma / fullbright", "Mod Menu", "YACL / Cloth Config"]
+}

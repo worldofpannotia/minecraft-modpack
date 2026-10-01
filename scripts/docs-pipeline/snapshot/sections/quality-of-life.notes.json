@@ -1,0 +1,25 @@
+{
+  "overlaps": [
+    "Right Click Harvest vs Replanting Crops: both replant crops; pack config makes Right Click Harvest hoe-free",
+    "Tweakeroo Gamma Override vs Full Brightness Toggle: both give fullbright",
+    "Easy Anvils vs Tax Free Levels vs Name Tag Upgrade: anvil cost/rename changes",
+    "Stendhal vs Improved Sign Editing: both edit signs",
+    "Diggus Maximus Reborn vs other vein-mining mods (if any)",
+    "Double Doors / Hide Experimental Warning: Collective-based Serilum mods with overlapping scope to other door mods"
+  ],
+  "cross_links": [
+    "storage-and-inventory.md", "villagers-and-trading.md", "interface-and-hud.md", "transport-and-movement.md",
+    "farming-food-and-animals.md", "enchanting-and-magic.md", "tools-weapons-and-armor.md", "building-and-decoration.md",
+    "loot-and-drops.md", "performance-and-technical.md", "multiplayer-and-server.md", "cosmetic-visual-and-audio.md",
+    "world-generation-and-exploration.md", "../datapacks/silence-mobs.md", "../datapacks/villager-workstation-highlights.md"
+  ],
+  "questions_for_pack_author": [
+    "Should trapdoors and fence gates be enabled in Double Doors?",
+    "Default keys for Reacharound, WI Zoom and Amecs added keybinds?",
+    "Did StackItUp actually import the allstackable stack sizes?",
+    "Verify the Grind Enchantments XP cost formula in game",
+    "Daily Dad: frequency and triggers?",
+    "Tweakeroo: which features are actually available in 26.2?"
+  ],
+  "glossary_terms": ["Vein mining", "Crouch bridging", "Gamma / fullbright", "Yeet (Tweakeroo)", "Stack size", "doFireTick", "Ghost block / schematic"]
+}
