@@ -1,0 +1,27 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Cape sources",
+      "description": "Config screen lets you pick the cape type, toggle cape texture on elytra, use a cape selector, and open the OptiFine cape editor."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Works automatically after install; configure via Mod Menu.",
+  "related_units": [],
+  "sources": [
+    "facts json (modrinth body, tooltips)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Fabric Language Kotlin.",
+  "secondary_categories": [],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Capes",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "summary": "Displays capes from OptiFine, LabyMod, Cosmetica, Wynntils, Capes++ and MinecraftCapes on your own character and on others. Has a config screen to choose cape source and toggle.",
+  "unit": "mods__capes-fabric-forge"
+}

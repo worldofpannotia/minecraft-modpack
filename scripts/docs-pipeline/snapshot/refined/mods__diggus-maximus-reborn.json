@@ -1,0 +1,41 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Excavation",
+      "description": "Hold the excavate key (default ~) while mining. Config options include max blocks per excavation, max distance, tool damage, hunger exhaustion, auto pickup, stop before/after tool breaks, block blocklist/allowlist, custom block groups and requiring a tool."
+    },
+    {
+      "title": "Shape excavation",
+      "description": "Selectable excavation shapes, cycled with the \"Cycle Shape\" keybind."
+    },
+    {
+      "title": "Sneak to excavate",
+      "description": "Server-side option letting clients without the mod trigger excavation by sneaking."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Excavate: default ~ (configurable)",
+    "Cycle Shape: keybind in Controls",
+    "Option \"Invert Activation\" makes holding the key disable excavation instead"
+  ],
+  "getting_started": "Hold ~ while mining an ore vein.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/diggus-maximus-reborn"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Pack does not override the config; default limits unknown. Required on both sides.",
+  "unit": "mods__diggus-maximus-reborn",
+  "kind": "mod",
+  "name": "Diggus Maximus Reborn",
+  "category": "Quality of Life",
+  "summary": "Vein mining: hold the excavate key while breaking a block to also mine all connected identical blocks (ores, logs, etc.). Also supports shape excavation. Server settings override the client's."
+}

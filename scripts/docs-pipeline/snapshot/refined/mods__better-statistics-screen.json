@@ -1,0 +1,39 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Statistics GUI",
+      "description": "Search, filter, sort and group statistics. Item and mob stats are shown in a grid. Statistics files can be saved, loaded, viewed in tabs and shared with other players."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Search, filter, sort and group statistics",
+    "Visual grid for item and mob stats",
+    "Save/load statistics files in tabs and share them",
+    "Option for GUI mobs to follow the cursor (client config)"
+  ],
+  "commands_and_keybinds": [
+    "/statistics (optional; can be disabled with the 'Register commands' config option): edit or clear player statistics and read stat values; usable from datapacks. Permission level presumed operator; check in-game."
+  ],
+  "getting_started": "Open the statistics screen from the pause menu (Statistics) as usual.",
+  "related_units": [
+    "mods__tcdcommons",
+    "datapacks__track-statistics"
+  ],
+  "sources": [
+    "facts json (modrinth body, lang, tooltips)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "The /statistics command is only partly described (lang strings: edit stat, clear stats, read value). The mod also has an optional online API endpoint and developer PSA chat messages (configurable). Depends on TCDCommons.",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Better Statistics Screen",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Replaces the vanilla statistics screen with a searchable, filterable, sortable and groupable one. Item and mob statistics appear in a visual grid, with mobs rendered on screen.",
+  "unit": "mods__better-statistics-screen"
+}

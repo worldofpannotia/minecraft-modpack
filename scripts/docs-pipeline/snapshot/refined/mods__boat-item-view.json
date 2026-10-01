@@ -1,0 +1,33 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Hand rendering in boats",
+      "description": "Optionally renders held items while the boat is moving. A client config lists which items stay displayed (supports 'modid:*' wildcards)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Held item visible in a moving boat"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Configure via the client config (config/boatiview) or Mod Menu. Check that 'Show Items in Moving Boat' is enabled.",
+  "related_units": [
+    "mods__cloth-config-api-fabric-forge"
+  ],
+  "sources": [
+    "facts json (modrinth body, tooltips)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Modrinth says to set showHandsInMovingBoat to true to enable it, so it may be off by default; pack config for it not verified.",
+  "secondary_categories": [
+    "Transport & Movement"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Boat Item View",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Shows the item in your hand while you sit in a moving boat, which vanilla hides. Rendering only; you still cannot use the item.",
+  "unit": "mods__boat-item-view"
+}

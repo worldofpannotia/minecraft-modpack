@@ -1,0 +1,71 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [
+    {
+      "name": "Gravestone",
+      "type": "block",
+      "how_to_obtain": "Crafted: stone bricks, stone bricks, stone bricks in the top row; stone bricks, any sign, stone bricks in the bottom row.",
+      "notes": "Decorative grave block (registry id visual_grave)."
+    },
+    {
+      "name": "Grave",
+      "type": "block",
+      "how_to_obtain": "Created automatically at your death location.",
+      "notes": "Holds your items and XP; right-click opens a GUI, shift+right-click with an empty hand does a quick pickup (default config)."
+    },
+    {
+      "name": "Emptied Grave",
+      "type": "block",
+      "how_to_obtain": "Left after a grave has been emptied.",
+      "notes": ""
+    },
+    {
+      "name": "Grave Compass",
+      "type": "item",
+      "how_to_obtain": "Given on death when give_death_compass is enabled (default true).",
+      "notes": "Points to your grave."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Protection and expiry (mod defaults)",
+      "description": "Other players cannot open a grave for 900 s (15 min); it self-destructs after 1800 s (30 min) and drops its items if drop_items_on_expiration is true. Pack ships no config, so defaults should apply."
+    },
+    {
+      "title": "Experience",
+      "description": "Default is to store 100% of XP points."
+    },
+    {
+      "title": "Placement",
+      "description": "Searches up to 8 blocks from the death spot for a free location and can shift position on failure; no per-player grave limit by default."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/graves - list your graves",
+    "/graves player <player> - list another player's graves (permission universal_graves.list_others)",
+    "/graves modify <player> - modify graves (universal_graves.modify)",
+    "/graves reload - reload config (universal_graves.reload)",
+    "universal_graves.teleport permission allows teleporting to any grave"
+  ],
+  "getting_started": "On death, follow the Grave Compass or run /graves to find your grave, and open it before the timer expires.",
+  "related_units": [
+    "mods__polymer"
+  ],
+  "sources": [
+    "facts/mods/universal-graves.json",
+    "https://modrinth.com/mod/universal-graves"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Values come from the README's documented defaults/examples; verify against generated config/universal-graves/config.json in-game. Uses Polymer so vanilla clients work.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Universal Graves",
+  "unit": "mods__universal-graves",
+  "category": "Multiplayer & Server",
+  "side": "server",
+  "summary": "On death, your items and experience are stored in a grave block at the death location instead of scattering, with a protection timer against other players and a grave compass that points to it. It works server-side, so no client install is needed."
+}

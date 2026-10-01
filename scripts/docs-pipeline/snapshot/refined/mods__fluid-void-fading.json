@@ -1,0 +1,22 @@
+{
+  "name": "Fluid Void Fading",
+  "unit": "mods__fluid-void-fading",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body"
+  ],
+  "confidence": "high",
+  "editor_notes": "Modrinth notes it does not work with Sodium; check whether the pack uses Sodium. Lava may need to be added in config as its texture is not transparent.",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Fluids flowing off the bottom of the world fade out smoothly instead of being cut off abruptly. Client-side only."
+}

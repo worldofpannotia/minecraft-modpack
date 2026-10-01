@@ -1,0 +1,45 @@
+{
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Beacon range",
+      "description": "Base range (default 10 blocks) plus range per pyramid level (default 10); optional per-block range."
+    },
+    {
+      "title": "Conduit range",
+      "description": "Can add to or replace the vanilla range, with range per frame block."
+    },
+    {
+      "title": "Beam control",
+      "description": "A carpet on top of the beacon stops beam rendering; tinted glass can show and hide the beam."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Beacon and conduit range",
+      "change": "Ranges are configurable (base range, per level, per block).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "chimericlib"
+  ],
+  "sources": [
+    "authorReadme (facts)"
+  ],
+  "editor_notes": "Defaults appear to match vanilla beacon range (10 + 10 per level), so the pack's actual config values matter; they were not checked. Beam toggle behavior with tinted glass is only vaguely described.",
+  "name": "Beacon & Conduit Tweaks",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Makes beacon and conduit range configurable. Also lets you hide a beacon's beam by placing a carpet on top, or toggle it with tinted glass. Made by the pack author.",
+  "confidence": "medium",
+  "unit": "mods__beacon-conduit-tweaks"
+}

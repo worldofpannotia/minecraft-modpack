@@ -1,0 +1,51 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Flat XP costs",
+      "description": "An anvil cost of X levels is paid as the XP needed to go from level 0 to X. An enchanting table requirement of 30 costs the XP from level 27 to 30 instead of 3 levels."
+    },
+    {
+      "title": "Config",
+      "description": "Level Base (level at which flattening starts; 0 removes all tax, 30 keeps early-game costs) and Remove Anvil Limit are configurable."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Anvil",
+      "change": "No Too Expensive limit; renaming costs 1 level.",
+      "kind": "enchanting"
+    },
+    {
+      "what": "Enchanting table",
+      "change": "Level costs are charged as XP points that do not rise with player level.",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [
+    "Anvil repairs and enchanting stay affordable at high levels."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__grind-enchantments",
+    "mods__easy-anvils",
+    "mods__anvil-restoration",
+    "mods__cloth-config-api-fabric-forge"
+  ],
+  "sources": [
+    "facts/mods/tax-free-levels-fabric-forge.json (modrinth body)"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "Jar is TaxFreeLevels-1.5.4-fabric-26.1 on a 26.2 pack; verify it loads. Pack's grind-enchantments config uses its own cost functions, which may not be flattened. Default Level Base not in facts.",
+  "player_facing": true,
+  "confidence": "medium",
+  "name": "Tax Free Levels",
+  "unit": "mods__tax-free-levels-fabric-forge",
+  "kind": "mod",
+  "category": "Enchanting & Magic",
+  "side": "both",
+  "summary": "Flattens anvil and enchanting-table costs so you pay the same XP regardless of your level, removes the anvil's 'Too Expensive!' limit, and makes renaming always cost 1 level."
+}

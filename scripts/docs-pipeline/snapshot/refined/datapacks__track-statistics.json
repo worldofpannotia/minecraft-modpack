@@ -1,0 +1,38 @@
+{
+  "name": "Track Statistics",
+  "unit": "datapacks__track-statistics",
+  "kind": "datapack",
+  "category": "Multiplayer & Server",
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Adds processed statistic scoreboards (prefix hc_) such as minutes played, elytra distance, swim distance and ores mined, intended for Hermitcraft-style leaderboards.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Objectives",
+      "description": "hc_playTime (minutes, from play ticks / 1200), hc_elytraKm (elytra cm / 100000), hc_swimKm (swim cm / 100, so effectively metres), and per-ore mined counts (coal, diamond, emerald, redstone, lapis, iron, gold, copper with stone and deepslate variants summed) plus nether quartz and ancient debris, with a combined hc_MineOre total. Each has a matching '...Show' objective meant for display."
+    },
+    {
+      "title": "Showing a leaderboard",
+      "description": "Nothing is displayed by default. Operators use /scoreboard objectives setdisplay, e.g. sidebar hc_playTimeShow."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/scoreboard objectives setdisplay <sidebar|list|below_name> <objective> : (operators)"
+  ],
+  "getting_started": "Operators run /scoreboard objectives setdisplay sidebar hc_MineOreShow (or another ...Show objective).",
+  "related_units": [
+    "datapacks__track-raw-statistics"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/track-statistics/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "The elytra and swim divisors are inconsistent in the original code (km vs metres); document as-is. Server/admin oriented."
+}

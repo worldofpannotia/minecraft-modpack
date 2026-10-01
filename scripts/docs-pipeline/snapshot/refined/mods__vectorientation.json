@@ -1,0 +1,22 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/vectorientation.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Purely client-side; works on any server.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Vectorientation",
+  "unit": "mods__vectorientation",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "summary": "Falling blocks rotate to face the direction they travel and get a squash-and-stretch effect based on speed. The amount can be configured or disabled per block."
+}

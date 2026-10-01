@@ -1,0 +1,36 @@
+{
+  "name": "Houdini Block",
+  "unit": "mods__houdini-block",
+  "kind": "mod",
+  "category": "Redstone & Automation",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "A craftable block that can be placed or broken without sending block updates to its neighbors. Four modes control whether suppression applies on break, on place, both, or when replacing blocks; useful for redstone contraptions and clean building.",
+  "new_content": [
+    {
+      "name": "Houdini Block",
+      "type": "block",
+      "how_to_obtain": "Shaped: DED / N#N / DED with D=diamond, E=eye of ender, N=nether star, #=stick",
+      "notes": "Modes: Prevent on break, Prevent on place, Prevent all, Replace block (shown in tooltip)."
+    }
+  ],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__chimericlib",
+    "mods__architectury-api-fabric-forge",
+    "mods__hopper-x-treme"
+  ],
+  "sources": [
+    "facts/mods/houdini-block.json (authorReadme)",
+    "facts/mod-recipes/houdini-block.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "How to switch modes is not stated in the README; verify in-game."
+}

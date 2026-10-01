@@ -1,0 +1,39 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Repair",
+      "description": "Right-click a placed anvil with an iron ingot to repair it one damage stage. The ingot is consumed."
+    },
+    {
+      "title": "Damage",
+      "description": "Right-click with obsidian to damage the anvil one stage, up to the most damaged state; it never breaks the block. The obsidian is not consumed."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Placed anvils",
+      "change": "Right-click with an iron ingot repairs one stage (consumes ingot); right-click with obsidian damages one stage (not consumed).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold an iron ingot and right-click a damaged or chipped anvil.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/anvil-restoration (facts)"
+  ],
+  "editor_notes": "Server-side; requires Collective.",
+  "name": "Anvil Restoration",
+  "kind": "mod",
+  "category": "Building & Decoration",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets you repair or damage anvils that are placed in the world by right-clicking them. Iron ingots repair an anvil one stage; obsidian damages it one stage without breaking it.",
+  "confidence": "high",
+  "unit": "mods__anvil-restoration"
+}

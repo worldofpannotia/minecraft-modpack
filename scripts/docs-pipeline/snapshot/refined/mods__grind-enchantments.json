@@ -1,0 +1,51 @@
+{
+  "name": "Grind Enchantments",
+  "unit": "mods__grind-enchantments",
+  "kind": "mod",
+  "category": "Enchanting & Magic",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Adds grindstone features: strip enchantments from an item onto a book while keeping the item, and move enchantments between books. Both cost experience levels, and the pack's configuration enables both.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Disenchant to book",
+      "description": "Put an enchanted item and a plain book into the grindstone to get an enchanted book with the item's enchantments; the item is returned unenchanted. Pack config: enabled, enchanted item is not consumed (it comes back disenchanted), all enchantments are taken."
+    },
+    {
+      "title": "Move enchantments between books",
+      "description": "Put an enchanted book in the top slot and another book (empty or enchanted) in the bottom slot; the first enchantment of the top book is moved onto the other book. Useful for splitting books with mixed enchantments."
+    },
+    {
+      "title": "XP cost",
+      "description": "Both operations cost levels; the cost is shown in the grindstone UI (show_enchantment_cost true). Disenchant cost is derived from enchantment power (offset 8, factor 0.3); moving cost scales with levels, with treasure enchantments weighted more. Exact in-game numbers should be verified."
+    },
+    {
+      "title": "Filters",
+      "description": "Pack config has no item or enchantment restrictions; cursed enchantments are allowed. The 'reset repair cost' feature (diamond catalyst) is disabled."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Grindstone",
+      "change": "Grindstone gains the disenchant-to-book and move-enchantment operations (costs XP levels).",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Place an enchanted tool and a book in a grindstone.",
+  "related_units": [
+    "mods__tax-free-levels-fabric-forge",
+    "mods__better-than-mending"
+  ],
+  "sources": [
+    "facts/mods/grind-enchantments.json",
+    "facts/other/config-overrides.json (grindenchantments/server.json, client.json)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Cost formula summary is an interpretation of the JSON cost functions; verify in-game. Mod supports Tax Free Levels, which is in the pack."
+}

@@ -1,0 +1,43 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Chunk caching",
+      "description": "Chunks the server sends are stored in .minecraft/.bobby and displayed as 'fake chunks' beyond the server's view distance. Fake chunks can be tinted darker (config) and block entities in them are not loaded by default."
+    },
+    {
+      "title": "Fallback world",
+      "description": "A single-player world whose folder is renamed 'bobby-fallback' is used to fill in chunks the server never sent."
+    },
+    {
+      "title": "Singleplayer",
+      "description": "Active in singleplayer only if the 'Singleplayer Server View Distance' option is set above 0."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Far-away terrain visible on servers with low view distance",
+    "Config reloads automatically; screen available with Mod Menu and Cloth Config"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Raise render distance in video settings; the max can be extended with Sodium (config option).",
+  "related_units": [
+    "mods__cloth-config-api-fabric-forge"
+  ],
+  "sources": [
+    "facts json (modrinth body, tooltips)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Only previously visited areas can appear beyond server view distance.",
+  "secondary_categories": [
+    "Quality of Life",
+    "Interface & HUD"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Bobby",
+  "category": "Performance & Technical",
+  "side": "client",
+  "summary": "Lets you set render distance higher than the server's view-distance by caching chunks the server has sent and showing them again later when they are out of range.",
+  "unit": "mods__bobby"
+}

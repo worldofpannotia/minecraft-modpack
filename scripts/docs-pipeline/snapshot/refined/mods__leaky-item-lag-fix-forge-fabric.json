@@ -1,0 +1,22 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "https://www.curseforge.com/minecraft/mc-mods/leaky"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Jar not available (missingJar). From the CurseForge page via search: it reports cluster size, state and location in chat with clickable coordinates, and confirmed oversized leaks can be auto-removed after a configurable size and warning delay. Players may see leak warnings in chat; defaults not verified.",
+  "name": "Leaky - Item Lag Fix",
+  "unit": "mods__leaky-item-lag-fix-forge-fabric",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "summary": "Detects item leaks and broken farms that pile up dropped items, reduces processing for old or dense item clusters, and can report or remove oversized leaks."
+}

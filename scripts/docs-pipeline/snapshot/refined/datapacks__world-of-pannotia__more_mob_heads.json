@@ -1,0 +1,64 @@
+{
+  "name": "World of Pannotia: More Mob Heads",
+  "category": "Loot & Drops",
+  "secondary_categories": [
+    "Cosmetic, Visual & Audio",
+    "Building & Decoration"
+  ],
+  "summary": "Almost every mob can drop its own decorative head when killed by a player. Heads are custom-skinned player heads that match the mob variant (colour, biome type, profession, and so on). Chances are low for common mobs and higher or guaranteed for bosses and rare mobs; Looting raises them.",
+  "new_content": [
+    {
+      "name": "Mob heads (about 250 variants)",
+      "type": "item",
+      "how_to_obtain": "Kill the mob as a player (the killed-by-player condition is required). Each head is a player head with a texture and a name such as \"Bat Head\". Placed on a note block it plays the mob sound; it can also be worn or placed as decoration.",
+      "notes": "Heads keep their data when broken (see Vanilla Loot Overrides). Textures credited to MoreMobHeads by JoelGodOfwar and minecraft-heads.com."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Chance formula",
+      "description": "Each head pool needs killed-by-player. Chances use a Looting-based bonus: the listed base chance without Looting, the \"L1\" chance at Looting I, then the stated increase per level above I. Entries marked \"always\" have no chance roll."
+    },
+    {
+      "title": "Per-mob drops",
+      "description": "allay: Allay Head - 20% (L1 21%, +1%/level above I)\narmadillo: Armadillo Head - 10% (L1 10.5%, +0.5%/level above I)\naxolotl: Lucy, Wild, Gold, Cyan variants: 20% (L1 21%, +1%/level above I); Blue variant: always (100%)\nbat: Bat Head - 10% (L1 12%, +2%/level above I)\nbee: 20% (L1 22%, +2%): Bee / Pollinated Bee / Angry Bee / Angry Pollinated Bee head depending on nectar and anger state\nblaze: Blaze Head - 0.5% (L1 0.55%, +0.05%/level above I)\nbogged: Bogged Head - 6% (L1 11%, +5%/level above I)\nbreeze: Breeze Head - 10% (L1 10.1%, +0.1%/level above I)\ncamel: Camel Head - always (100%)\ncamel_husk: Camel Husk Head - always (100%)\ncat: 33% (L1 35%, +2%): head matches the cat variant (11 variants: tabby, tuxedo, ginger, siamese, british shorthair, calico, persian, ragdoll, white, jellie, black)\ncave_spider: Cave Spider Head - 0.5% (L1 1.5%, +1%/level above I)\nchicken: 1% (L1 1.1%, +0.1%): Temperate / Cold / Warm Chicken Head\ncod: Cod Head - 10% (L1 11%, +1%/level above I)\ncopper_golem: 5% (L1 8%, +3%): Copper / Exposed / Weathered / Oxidized Copper Golem Head by oxidation\ncow: 1% (L1 1.1%, +0.1%): Temperate / Cold / Warm Cow Head\ncreaking: Creaking Head - 10% (L1 10.5%, +0.5%/level above I)\ncreeper: Only a charged creeper: always (100%) Charged Creeper Head\ndolphin: Dolphin Head - 33% (L1 35%, +2%/level above I)\ndonkey: Donkey Head - 20% (L1 29%, +9%/level above I)\ndrowned: Drowned Head - 5% (L1 7%, +2%/level above I)\nelder_guardian: Elder Guardian Head - always (100%)\nenderman: Enderman Head - 0.5% (L1 0.51%, +0.01%/level above I)\nendermite: Endermite Head - 10% (L1 11%, +1%/level above I)\nevoker: Evoker Head - 25% (L1 27%, +2%/level above I)\nfox: Red fox 10% (L1 10.4%, +0.4%) Fox Head; Snow fox 20% (L1 20.4%, +0.4%) Snow Fox Head\nfrog: 20% (L1 21%, +1%): Cold / Temperate / Warm Frog Head\nghast: Ghast Head - 6.25% (L1 7.5%, +1.25%/level above I)\nglow_squid: Glow Squid Head - 5% (L1 6%, +1%/level above I)\ngoat: Normal goat 1% (L1 1.1%, +0.1%) Goat Head; Screaming goat always (100%) Screaming Goat Head\nguardian: Guardian Head - 0.5% (L1 0.6%, +0.1%/level above I)\nhappy_ghast: Happy Ghast Head - 10% (L1 11%, +1%/level above I)\nhoglin: Hoglin Head - 3% (L1 5%, +2%/level above I)\nhorse: 27% (L1 28%, +1%): White / Creamy / Chestnut / Brown / Black / Gray / Dark Brown Horse Head by coat colour\nhusk: Husk Head - 6% (L1 7%, +1%/level above I)\nillusioner: Illusioner Head - 25% (L1 27%, +2%/level above I)\niron_golem: Iron Golem Head - 5% (L1 6.5%, +1.5%/level above I)\nllama: 24% (L1 26%, +2%): Creamy / White / Brown / Gray Llama Head\nmagma_cube: Magma Cube Head - 0.5% (L1 0.6%, +0.1%/level above I)\nmooshroom: Red 1% (L1 1.1%, +0.1%); Brown 10% (L1 10.1%, +0.1%)\nmule: Mule Head - 20% (L1 25%, +5%/level above I)\nnautilus: 10% (L1 11%, +1%): \"Nautilus Shell\" head (a player head, not the item)\nocelot: Ocelot Head - 20% (L1 22%, +2%/level above I)\npanda: 27% (L1 27.4%, +0.4%): Aggressive / Lazy / Playful / Worried / Brown / Weak Panda Head by genes, otherwise plain Panda Head\nparched: Parched Head - 6% (L1 11%, +5%/level above I)\nparrot: 25% (L1 27%, +2%): Red / Blue / Green / Light Blue (yellow-blue) / Gray Parrot Head\nphantom: Phantom Head - 10% (L1 11%, +1%/level above I)\npig: 1% (L1 1.1%, +0.1%): Temperate / Cold / Warm Pig Head\npiglin_brute: Piglin Brute Head - 10% (L1 11%, +1%/level above I)\npillager: Pillager Head - 2.5% (L1 3%, +0.5%/level above I)\npolar_bear: Polar Bear Head - 20% (L1 25%, +5%/level above I)\npufferfish: Pufferfish Head - 15% (L1 16%, +1%/level above I)\nrabbit: 26% (L1 31%, +5%): head by variant (Brown, White, Black, Black and White, Gold, Salt and Pepper); The Killer Bunny always (100%); Toast Rabbit Head always, but only from a rabbit named \"Toast\"\nravager: Ravager Head - 25% (L1 27%, +2%/level above I)\nsalmon: Salmon Head - 10% (L1 11%, +1%/level above I)\nsheep: See sheep notes: coloured head 1.75% (L1 2%, +0.25%) for an unsheared sheep of that colour (16 colours)\nshulker: Shulker Head - 5% (L1 6%, +1%/level above I)\nsilverfish: Silverfish Head - 5% (L1 6%, +1%/level above I)\nskeleton_horse: Skeleton Horse Head - 20% (L1 25%, +5%/level above I)\nslime: Slime Head - 0.5% (L1 0.6%, +0.1%/level above I)\nsniffer: Sniffer Head - always (100%)\nsnow_golem: Snow Golem Head - 5% (L1 6%, +1%/level above I)\nspider: Spider Head - 0.5% (L1 0.6%, +0.1%/level above I)\nsquid: Squid Head - 5% (L1 6%, +1%/level above I)\nstray: Stray Head - 6% (L1 11%, +5%/level above I)\nstrider: 10% (L1 15%, +5%): Strider Head or Cold Strider Head (50/50 random, not tied to the actual strider state)\nsulfur_cube: Sulfur Cube Head - 1% (L1 1.5%, +0.5%/level above I)\ntadpole: Tadpole Head - 10% (L1 11%, +1%/level above I)\ntrader_llama: 24% (L1 31%, +7%): Creamy / White / Brown / Gray Trader Llama Head\ntropical_fish: (unused; see tropical fish note)\nturtle: Turtle Head - 10% (L1 11%, +1%/level above I)\nvex: 10% (L1 11%, +1%): Vex Head (two identical entries)\nvillager: Always (100%) when killed by a player: head matches profession (13 professions, Nitwit, or unemployed)\nvindicator: Vindicator Head - 5% (L1 6.5%, +1.5%/level above I)\nwandering_trader: Wandering Trader Head - always (100%)\nwarden: Warden Head - always (100%)\nwitch: Witch Head - 0.5% (L1 0.6%, +0.1%/level above I)\nwither: Wither Head always (100%); plus 50% chance of a Wither Projectile Head or Blue Wither Projectile Head (equal weights)\nwolf: 20% (L1 21%, +1%): Ashen/Black/Chestnut/Pale/Rusty/Spotted/Striped/Woods wolf head by variant, with separate Angry variants when the wolf is angry; Snowy 50% (L1 60%, +10%)\nzoglin: Zoglin Head - 20% (L1 25%, +5%/level above I)\nzombie_horse: Zombie Horse Head - always (100%)\nzombie_nautilus: 10% (L1 11%, +1%): Temperate or Coral (warm variant) Zombie Nautilus Shell head\nzombie_villager: 50% (L1 52%, +2%): Zombie <Profession> Head matching the profession (13 professions, Nitwit, or plain)\nzombified_piglin: Zombified Piglin Head - 0.5% (L1 0.6%, +0.1%/level above I)"
+    },
+    {
+      "title": "Sheep heads",
+      "description": "A player-killed unsheared sheep can drop the head of its colour: 1.75% (L1 2%, +0.25% per level above I), 16 colours. Also, the sheep table references a \"jeb_ Sheep Head\" table that has no name check, so every player-killed sheep has a 10% chance (L1 15%, +5% per level above I) of also dropping the jeb_ Sheep Head. A name-gated version (jeb_sheep.json, requires the sheep to be named \"jeb_\") exists but is not referenced."
+    },
+    {
+      "title": "Tropical fish",
+      "description": "more_mob_heads defines a generic Tropical Fish Head, but minecraft:entities/tropical_fish does not reference it; the pannotia module supplies the tropical fish heads instead."
+    },
+    {
+      "title": "Special cases",
+      "description": "Charged creepers drop the Charged Creeper Head (100%); regular creepers use the pannotia module. A rabbit named \"Toast\" always drops the Toast Rabbit Head. Strider heads are chosen 50/50 between normal and cold, regardless of the actual strider. Villager heads depend on profession; zombie villagers have their own set."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Mob loot tables",
+      "change": "Roughly 90 mobs gain an additional player-head pool (see the per-mob list). Vanilla drops are unchanged.",
+      "kind": "loot"
+    }
+  ],
+  "getting_started": "Kill mobs, ideally with Looting. Guaranteed heads: wandering trader, warden, elder guardian, wither, camel, camel husk, sniffer, zombie horse, villager.",
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft",
+    "datapacks__world-of-pannotia__pannotia",
+    "datapacks__world-of-pannotia__mini_blocks"
+  ],
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/more_mob_heads/",
+    "client/overrides/datapacks/world-of-pannotia/credits.md (https://github.com/JoelGodOfwar/MoreMobHeads)"
+  ],
+  "editor_notes": "The jeb_ sheep behavior looks like a bug; verify in game. Several entries rely on entity NBT predicates (bee, goat, panda, villager, trader llama, copper golem, wolf anger) that may not match reliably in 26.2; verify in game. The nautilus drop is a player head named \"Nautilus Shell\", not the item.",
+  "unit": "datapacks__world-of-pannotia__more_mob_heads",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "qol": [],
+  "commands_and_keybinds": [],
+  "confidence": "high"
+}

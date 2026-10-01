@@ -1,0 +1,35 @@
+{
+  "name": "AFK Display",
+  "unit": "datapacks__afk-display",
+  "kind": "datapack",
+  "category": "Interface & HUD",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Players who stand still for a while have their name turned grey (tab list and name tag), so others can tell they are away. Moving again removes the grey name.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "AFK detection",
+      "description": "Every second a counter ticks up for each player. Every 150 seconds (2.5 minutes) the player's exact position is compared with the previous check; if X, Y and Z are all unchanged, the player joins the 'AFK Players' team (grey colour). Any change in position removes the player from the team within a second. The in-game advancement text says 5 minutes; the code checks every 150 s, so a player is flagged after roughly 2.5 to 5 minutes without moving."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Grey name shows who is idle on multiplayer servers."
+  ],
+  "commands_and_keybinds": [
+    "No player commands; fully automatic."
+  ],
+  "getting_started": "Nothing to do. Stand still and your name turns grey.",
+  "related_units": [
+    "datapacks__track-statistics",
+    "datapacks__track-raw-statistics"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/afk-display/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Players on the team 'tg_tagged' (from another pack) are skipped. Timing: advancement text says 5 minutes, functions check every 150 s with an unchanged-position comparison, so the effective delay is 150-300 s depending on phase. Uses team colour gray, which also affects name colour in chat."
+}

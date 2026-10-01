@@ -1,0 +1,40 @@
+{
+  "name": "Infinity Water Bucket",
+  "unit": "mods__infinity-water-bucket",
+  "kind": "mod",
+  "category": "Enchanting & Magic",
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Lets the Infinity enchantment be applied to water buckets and empty buckets with an anvil. An infinite water bucket never runs out; an enchanted empty bucket acts as an infinite liquid void. Config can extend this to lava, milk and powdered snow buckets.",
+  "new_content": [
+    {
+      "name": "Infinity enchantment on buckets",
+      "type": "enchantment",
+      "how_to_obtain": "Combine a bucket or water bucket with an Infinity book in an anvil",
+      "notes": "Also works with dispensers and cauldrons (infinite fill/consume). Enchanted empty buckets cannot milk cows or pick up fish/axolotls."
+    }
+  ],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Infinity enchantment",
+      "change": "Now applicable to water buckets and empty buckets (config options extend this to lava, milk and powdered snow buckets).",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__bow-infinity-fix-forge-fabric",
+    "mods__better-than-mending"
+  ],
+  "sources": [
+    "facts/mods/infinity-water-bucket.json (Modrinth body)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "allstackable gives buckets stack size 64 (lava/milk 16, per config-overrides); interplay with infinite buckets untested. Lava/milk/snow options not overridden by pack (assume default off). Server-side, but missing on client may cause visual glitches. Check whether pack changes Infinity availability."
+}

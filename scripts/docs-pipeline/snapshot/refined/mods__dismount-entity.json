@@ -1,0 +1,28 @@
+{
+  "secondary_categories": [
+    "Transport & Movement"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Crouch + right-click the vehicle"
+  ],
+  "getting_started": "Sneak and right-click a boat or minecart with a mob in it.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/dismount-entity"
+  ],
+  "confidence": "high",
+  "editor_notes": "Config beAbleToDismountOtherPlayers defaults to false; pack does not change it.",
+  "unit": "mods__dismount-entity",
+  "kind": "mod",
+  "name": "Dismount Entity",
+  "category": "Quality of Life",
+  "summary": "Crouch + right-click a boat, minecart or other vehicle to eject its passenger without breaking the vehicle. Dismounting other players is off by default."
+}

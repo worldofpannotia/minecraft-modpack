@@ -1,0 +1,27 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Fewer XP orb entities",
+    "Immediate XP pickup on contact"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Automatic.",
+  "related_units": [],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Only needed server-side for 1.17+.",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Clumps",
+  "category": "Performance & Technical",
+  "side": "server",
+  "summary": "Merges nearby XP orbs into one entity to reduce lag, and makes the player collect orbs immediately on touch.",
+  "unit": "mods__clumps"
+}

@@ -1,0 +1,53 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "new_content": [
+    {
+      "name": "Trade Shop",
+      "type": "block",
+      "how_to_obtain": "Crafted: planks, wool, planks in the top row; planks, iron ingot, planks in the bottom row (any planks, any wool).",
+      "notes": "Place on top of or beside a container."
+    },
+    {
+      "name": "Admin Trade Shop",
+      "type": "block",
+      "how_to_obtain": "Admin/creative only (no recipe).",
+      "notes": "Same setup as the Trade Shop, intended for admins and map makers."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Setting up a shop",
+      "description": "Place the Trade Shop against a container and the Shop Settings GUI opens. Set what is sold and the price (clicking a slot while holding an item copies it as the setting, otherwise a menu opens), optionally allow hoppers or disable the hologram. Then stock the container."
+    },
+    {
+      "title": "Buying",
+      "description": "Click the shop to open it and take the sold item; hold Shift to move it straight to your inventory. Price and stock are shown in tooltips."
+    },
+    {
+      "title": "Protection",
+      "description": "Checks the Common Protection API so a player needs access to the source container; works with claim mods that support it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft a Trade Shop, place it against a chest, and fill in the settings GUI.",
+  "related_units": [
+    "mods__polymer"
+  ],
+  "sources": [
+    "facts/mods/universal-shops.json",
+    "https://modrinth.com/mod/universal-shops"
+  ],
+  "confidence": "high",
+  "editor_notes": "Currency is whatever item the owner sets. An economy API is bundled but no economy mod was verified in the pack.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Universal Shops",
+  "unit": "mods__universal-shops",
+  "category": "Villagers & Trading",
+  "side": "server",
+  "summary": "Adds a Trade Shop block that turns a chest or other container into a player shop with a set price and stock. It works server-side with a hologram display, so no client mod is needed."
+}

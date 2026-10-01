@@ -1,0 +1,42 @@
+{
+  "secondary_categories": [
+    "Loot & Drops"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Settings",
+      "description": "Four options: drop with a pickaxe (default on), require silk touch (default off), spawn egg also drops (default on), XP drops (default off)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Spawner block loot table",
+      "change": "A mined spawner drops as an item (default: any pickaxe; silk touch only is an option). A spawn egg for the mob also drops by default. XP drop is off by default.",
+      "kind": "loot"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/trigger mineablespawner.config: change settings (1.21.5+)",
+    "Fallback: /scoreboard players set <&break_spawner_pickaxe | &break_spawner_silktouch | &spawn_egg_drop | &xp_drop> config.mineablespawner <0 or 1>"
+  ],
+  "getting_started": "Mine a spawner with a pickaxe. Use /trigger to change the rules.",
+  "related_units": [
+    "mods__mineable-trial-spawner",
+    "mods__better-spawner-control",
+    "mods__zombie-villagers-from-spawner"
+  ],
+  "sources": [
+    "facts/mods/mineable-spawner.json (modrinth body, vanillaOverrides)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Defaults are from the Modrinth text, which is partly inconsistent about the old and new settings; verify in-game. The /trigger and /scoreboard commands may need operator permission.",
+  "name": "Mineable Spawner",
+  "unit": "mods__mineable-spawner",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "summary": "Monster spawners can be mined and picked up with a pickaxe. It is a datapack-style mod whose behavior is controlled by scoreboard/trigger settings."
+}

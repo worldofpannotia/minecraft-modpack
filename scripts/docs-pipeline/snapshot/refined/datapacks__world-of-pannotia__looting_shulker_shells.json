@@ -1,0 +1,36 @@
+{
+  "name": "World of Pannotia: Looting Shulker Shells",
+  "category": "Loot & Drops",
+  "summary": "Shulkers drop 2 extra shulker shells per kill, plus 0-2 more per level of Looting, on top of the vanilla chance.",
+  "mechanics": [
+    {
+      "title": "Extra shells",
+      "description": "Unconditional pool added to the vanilla table: exactly 2 Shulker Shells, plus a uniform 0-2 per Looting level. No killed-by-player requirement. Vanilla still separately gives 1 shell with 50% chance (56.25% at Looting I, +6.25% per level above I)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Shulker loot",
+      "change": "Guaranteed 2 Shulker Shells (+0-2 per Looting level) added to the vanilla 50%-chance single shell.",
+      "kind": "loot"
+    }
+  ],
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "editor_notes": "The module also contains tags/item/shulker_shell.json in its own namespace with an empty value list; it has no effect. Shulker also has a 5% head drop from more_mob_heads.",
+  "unit": "datapacks__world-of-pannotia__looting_shulker_shells",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "secondary_categories": [],
+  "new_content": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/looting_shulker_shells/"
+  ],
+  "confidence": "high"
+}

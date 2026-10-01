@@ -1,0 +1,24 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/bookshelf hand (shows held item ID; debug)"
+  ],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Player-visible features are limited to debug commands and datapack recipe/loot types.",
+  "secondary_categories": [],
+  "player_facing": false,
+  "kind": "mod",
+  "name": "Bookshelf",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Library mod by Darkhax providing shared code, datapack features and a /bookshelf debug command for other mods.",
+  "unit": "mods__bookshelf"
+}

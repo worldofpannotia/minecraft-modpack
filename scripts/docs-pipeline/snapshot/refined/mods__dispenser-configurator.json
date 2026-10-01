@@ -1,0 +1,36 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Data-driven configurators",
+      "description": "Datapacks define a \"dispenser_configurator\" listing items/tags and targets (five item-use methods) that control how dispensers use them. Known issue: the ITEM_USE target does not work for every item."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Dispenser",
+      "change": "Dispensers can use additional items per the default datapack; the exact list is not in the facts (see mod wiki).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/datapack disable <default dispenser configurators pack> turns off the defaults"
+  ],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/dispenser-configurator",
+    "https://gitlab.com/supersaiyansubtlety/dispenser_configurator/-/wikis/home"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Default configurator list not extracted; check the mod wiki or in-game. Datapack id for /datapack disable should be confirmed.",
+  "unit": "mods__dispenser-configurator",
+  "kind": "mod",
+  "name": "Dispenser Configurator",
+  "category": "Redstone & Automation",
+  "summary": "Data-driven mod that lets dispensers use many more items. A bundled \"Default Dispenser Configurators\" datapack gives several items dispenser behaviors; it can be disabled with /datapack disable."
+}

@@ -1,0 +1,36 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Cycle trades",
+      "description": "Works on villagers that have not been traded with; once you trade, the offers lock as in vanilla."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Button position in the trading GUI is configurable."
+  ],
+  "commands_and_keybinds": [
+    "C: cycle trades (default)"
+  ],
+  "getting_started": "Open a villager's trade screen and press the cycle button or C.",
+  "related_units": [
+    "mods__villagertweaks",
+    "datapacks__villager-workstation-highlights"
+  ],
+  "sources": [
+    "facts/mods/trade-cycling.json"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "Pack's villagertweaks config does not affect cycling.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Trade Cycling",
+  "unit": "mods__trade-cycling",
+  "kind": "mod",
+  "category": "Villagers & Trading",
+  "side": "both",
+  "summary": "Adds a button and a key in the trading screen to re-roll the offers of a villager you have not traded with yet, instead of breaking and replacing its workstation."
+}

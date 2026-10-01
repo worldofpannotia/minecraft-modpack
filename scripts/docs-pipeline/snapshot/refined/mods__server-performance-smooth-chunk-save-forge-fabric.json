@@ -1,0 +1,20 @@
+{
+  "name": "Smooth Chunk Save",
+  "unit": "mods__server-performance-smooth-chunk-save-forge-fabric",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": false,
+  "summary": "Server-side performance mod that spreads chunk saves out evenly and saves them after a configured delay, reducing lag spikes.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "confidence": "medium",
+  "editor_notes": ""
+}

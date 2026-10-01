@@ -1,0 +1,46 @@
+{
+  "name": "World of Pannotia: Husks Drop Sand",
+  "category": "Loot & Drops",
+  "summary": "Husks, parched and camel husks drop sand in addition to their normal drops, and Looting increases the amount.",
+  "mechanics": [
+    {
+      "title": "Sand drops",
+      "description": "Unconditional pool (no player-kill requirement) on top of vanilla drops. Husk: 0-2 sand, +0-1 per Looting level. Parched: 0-2 sand, +0-1 per Looting level. Camel Husk: 0-3 sand, +0-2 per Looting level."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Husk loot",
+      "change": "Extra 0-2 Sand (+0-1 per Looting level).",
+      "kind": "loot"
+    },
+    {
+      "what": "Parched loot",
+      "change": "Extra 0-2 Sand (+0-1 per Looting level).",
+      "kind": "loot"
+    },
+    {
+      "what": "Camel Husk loot",
+      "change": "Extra 0-3 Sand (+0-2 per Looting level).",
+      "kind": "loot"
+    }
+  ],
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "editor_notes": "Counts are uniform integer ranges starting at 0. These mobs also have a head drop in more_mob_heads.",
+  "unit": "datapacks__world-of-pannotia__husks_drop_sand",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "secondary_categories": [],
+  "new_content": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/husks_drop_sand/"
+  ],
+  "confidence": "high"
+}

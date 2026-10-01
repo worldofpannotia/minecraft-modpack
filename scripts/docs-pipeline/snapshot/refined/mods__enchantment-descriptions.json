@@ -1,0 +1,31 @@
+{
+  "name": "Enchantment Descriptions",
+  "unit": "mods__enchantment-descriptions",
+  "kind": "mod",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Enchanted book tooltips explain each enchantment's effect (e.g. Protection: reduces damage from most sources)",
+    "Translated into many languages"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Hover over an enchanted book in your inventory or at an enchanting table/anvil to read the description.",
+  "related_units": [
+    "mods__enhancedtooltips",
+    "mods__enchantment-numbers-fix"
+  ],
+  "sources": [
+    "facts: modrinth body and lang",
+    "https://modrinth.com/mod/enchantment-descriptions"
+  ],
+  "confidence": "high",
+  "editor_notes": "Client-side. Requires the Prickle library. Modrinth says descriptions appear on enchanted books; it does not say they appear on enchanted gear.",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Adds a short description of what each enchantment does to the tooltip of enchanted books. Covers all vanilla enchantments and many modded ones."
+}

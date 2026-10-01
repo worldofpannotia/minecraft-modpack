@@ -1,0 +1,47 @@
+{
+  "secondary_categories": [
+    "World Generation & Exploration"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Instamine (pack config)",
+      "description": "Netherite pickaxe instamines deepslate, cobblestone and end stone; netherite axe instamines logs (enable_logs_instamine true). Per the mod description it needs Efficiency V and Haste II; the pack sets speed_factor 1000. No other tools qualify in the pack config."
+    },
+    {
+      "title": "Renewable deepslate",
+      "description": "Enabled below Y=11 (renewable_deepslate_below_level): lava/water generators produce deepslate (cobbled deepslate like cobblestone) and calcite (like basalt)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Deepslate, cobblestone, end stone, logs",
+      "change": "Instantly mined with a netherite pickaxe/axe at Efficiency V + Haste II.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Cobblestone generators below Y=11",
+      "change": "Produce deepslate variants and calcite instead of the usual stone/basalt results.",
+      "kind": "worldgen"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Enchant a netherite pickaxe with Efficiency V, stand in a Haste II beacon, and mine deepslate.",
+  "related_units": [
+    "config-overrides"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/deepslate-instamine",
+    "https://github.com/nicguzzo/deepslateinstamine"
+  ],
+  "confidence": "high",
+  "editor_notes": "Config values come from config-overrides.json (deepslate_instamine.json). Needed on both client and server.",
+  "unit": "mods__deepslate-instamine-fabric-forge",
+  "kind": "mod",
+  "name": "Deepslate Instamine",
+  "category": "Tools, Weapons & Armor",
+  "summary": "A netherite pickaxe with Efficiency V under Haste II (beacon) mines deepslate instantly, and lava next to water can generate deepslate and calcite at low Y levels. Pack config also extends instamining to cobblestone, end stone and logs."
+}

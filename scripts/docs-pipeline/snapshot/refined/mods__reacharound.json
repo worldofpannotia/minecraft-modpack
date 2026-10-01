@@ -1,0 +1,40 @@
+{
+  "name": "Reacharound",
+  "unit": "mods__reacharound",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Bedrock-style block placement: when looking at empty space just beyond the block you are bridging from, you can place a block there without sneaking to the edge. Also works for building downward and upward, with an on-screen indicator.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Reach-around placement",
+      "description": "Place blocks against the face you cannot directly see (under your feet, bridging forward, or upward) with a placement indicator showing the target."
+    },
+    {
+      "title": "Slab handling",
+      "description": "Bridging upper slabs with slabs keeps them as upper slabs, and slabs placed vertically stack without skipping."
+    },
+    {
+      "title": "Indicator",
+      "description": "Three indicator styles (Default, Quark, Custom), with 2D/3D rendering, colours, offhand placement and axis options in the config screen (via Mod Menu)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "A key mapping is registered; check the Controls screen for the Reacharound entry. Default key not confirmed."
+  ],
+  "getting_started": "Aim at the empty space past the edge of a block while bridging; the indicator shows where the block will go; right-click to place.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/reacharound",
+    "facts/mods/reacharound.json"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Core functionality ported from Quark. Default keybind/toggle not verified."
+}

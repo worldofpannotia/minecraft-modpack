@@ -1,0 +1,41 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Gulping air",
+      "description": "Right-click an empty bottle underwater to restore air (default 150 of 300). This creates a water bottle."
+    },
+    {
+      "title": "Evaporation",
+      "description": "Holding a fire-type item (campfire, fire charge, lava bucket, magma block) in the offhand evaporates the water bottle and returns an empty bottle, with a 50% chance (default) that the bottle breaks."
+    },
+    {
+      "title": "No underwater drinking",
+      "description": "By default water bottles cannot be drunk underwater, so they do not give infinite oxygen."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Right-click an empty glass bottle while underwater"
+  ],
+  "getting_started": "Carry glass bottles when diving.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Defaults per mod page; no pack override found. Category could also be Transport & Movement.",
+  "secondary_categories": [
+    "Mobs & Creatures"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Bottled Air",
+  "category": "Quality of Life",
+  "side": "server",
+  "summary": "Right-click an empty glass bottle while underwater (air bar visible) to breathe in extra air. Each bottle refills half the air bar by default.",
+  "unit": "mods__bottled-air"
+}

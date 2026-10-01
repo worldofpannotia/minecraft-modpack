@@ -1,0 +1,31 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Cycling",
+      "description": "Right-click a placed painting with a painting item in hand to cycle motives; crouch + right-click goes back one. Works with modded paintings. Config can blacklist motives (default ignores the \"infernalexp\" prefix)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Right-click a painting with a painting item (crouch to reverse)."
+  ],
+  "getting_started": "Place a painting, then right-click it with any painting item.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/cycle-paintings"
+  ],
+  "confidence": "high",
+  "editor_notes": "Whether only same-size motives are cycled is not stated in sources; verify.",
+  "unit": "mods__cycle-paintings",
+  "kind": "mod",
+  "name": "Cycle Paintings",
+  "category": "Building & Decoration",
+  "summary": "Right-click a placed painting while holding another painting to switch it to the next motive without removing and replacing it. Crouch while doing so to cycle backwards."
+}

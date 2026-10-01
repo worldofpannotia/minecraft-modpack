@@ -1,0 +1,39 @@
+{
+  "name": "Grass Seeds",
+  "unit": "mods__grass-seeds",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Wheat seeds can turn dirt into grass and plant tall grass. Right-click dirt with seeds to get a grass block, then right-click a grass block with seeds to place tall grass on it.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Wheat seeds",
+      "change": "Right-clicking a dirt block with wheat seeds converts it to a grass block.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Wheat seeds",
+      "change": "Right-clicking a grass block with seeds places (tall) grass on it.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold wheat seeds and right-click dirt.",
+  "related_units": [
+    "mods__collective",
+    "mods__random-bone-meal-flowers",
+    "mods__extended-bone-meal"
+  ],
+  "sources": [
+    "facts/mods/grass-seeds.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Whether seeds are consumed per use is not stated in sources; verify."
+}

@@ -1,0 +1,41 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Safe arrival fix",
+      "description": "Vanilla can place a player underneath the destination portal after using a smaller portal. The mod detects this and moves the player in front of the portal instead, replacing netherrack, soul sand or air below with obsidian and creating an air gap where needed."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Nether portal minimum size",
+      "change": "Portal frames with interior 1x2, 1x3 or 2x2 (width x height) can be lit and used; corners are optional.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [
+    "Cheaper, more compact portals."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Build a smaller obsidian frame and light it with flint and steel.",
+  "related_units": [
+    "mods__better-portal-linking",
+    "mods__crying-portals",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/smaller-nether-portals.json (modrinth body)"
+  ],
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "editor_notes": "Server-side only; requires Collective. May interact with Better Portal Linking.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Smaller Nether Portals",
+  "unit": "mods__smaller-nether-portals",
+  "kind": "mod",
+  "category": "Transport & Movement",
+  "side": "server",
+  "summary": "Allows nether portals smaller than the vanilla 4x5 frame: 1x2, 1x3 and 2x2 interiors work. Corner blocks can be omitted."
+}

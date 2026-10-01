@@ -1,0 +1,24 @@
+{
+  "name": "Falling Leaves",
+  "unit": "mods__falling-leaves-fabric",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Configurable leaf size, lifespan, spawn rate, wind, and per-block settings via Mod Menu (Cloth Config)"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Stand under or near a tree. Conifer, jungle-type large-leaf trees and shrubs do not drop leaves by default; raise their spawn rate in settings if desired.",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body"
+  ],
+  "confidence": "high",
+  "editor_notes": "Client only. Jar is named for 26.1 (fallingleaves-2.0.7+26.1) but listed for the 26.2 pack; verify it loads.",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Adds a particle effect where leaf blocks shed falling leaves. Works with modded trees and resource packs; configurable spawn rates per leaf type."
+}

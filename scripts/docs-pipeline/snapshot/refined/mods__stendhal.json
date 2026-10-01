@@ -1,0 +1,44 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Book editor",
+      "description": "Copy/paste/clear single pages or whole books, add or remove pages, import and export books to disk, a per-page character counter (vanilla 256-character limit), color and formatting buttons, and reset-style buttons. Signed books get page navigation and search."
+    },
+    {
+      "title": "Sign editor",
+      "description": "Clear, copy, paste, save to disk and load from disk for signs."
+    },
+    {
+      "title": "Unicode and colors",
+      "description": "A picker with 70+ unicode characters usable in books, signs, chat and anvil names."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Because it only uses vanilla features, players without the mod still see the results.",
+    "Options are in config/stendhal/stendhal.properties."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Open a Book and Quill or a sign to see the new toolbar buttons.",
+  "related_units": [
+    "mods__improved-sign-editing",
+    "mods__fixbookgui",
+    "mods__the-athenaeum"
+  ],
+  "sources": [
+    "facts/mods/stendhal.json (modrinth body)"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "May overlap with Improved Sign Editing on the sign screen.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Stendhal",
+  "unit": "mods__stendhal",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Client-side editor improvements for books, signs, the anvil rename box and chat. Adds buttons for copying, pasting, clearing, importing and exporting book pages and signs, plus a formatting and color picker and a unicode character list."
+}

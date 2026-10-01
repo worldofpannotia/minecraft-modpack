@@ -1,0 +1,24 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__fabric-language-kotlin"
+  ],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "Requires Fabric Language Kotlin. Client-side. Version is a 2.3.0 beta.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "OptiGUI",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "summary": "Enables custom GUI textures from resource packs, including OptiFine custom GUI packs. It has no effect unless a compatible resource pack is enabled.",
+  "sources": [
+    "facts/mods/optigui.json (modrinth body)"
+  ],
+  "unit": "mods__optigui",
+  "kind": "mod"
+}

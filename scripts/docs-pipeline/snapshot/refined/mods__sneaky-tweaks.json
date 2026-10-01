@@ -1,0 +1,60 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Sneak through berry bushes",
+      "description": "While crouching, a sweet berry bush does not damage you."
+    },
+    {
+      "title": "Timed campfire immunity",
+      "description": "Sneaking on a lit campfire or soul campfire prevents damage for a limited time. A HUD row of flame icons next to the air-bubble meter shows the remaining grace and refills when you step off. Default duration is 200 ticks (10 seconds); sneaking longer starts the damage again."
+    },
+    {
+      "title": "Crouch bridging",
+      "description": "Sneak off a ledge without looking down and you walk across a gap as if it were solid ground, up to 3 blocks by default. Looking down past 30 degrees (default) or running out of gap makes you fall."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Sweet berry bush",
+      "change": "No damage when the player is crouching.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Campfire damage",
+      "change": "Crouching on a lit campfire or soul campfire gives temporary immunity.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Sneaking at ledges",
+      "change": "Crouch bridging lets a sneaking player cross gaps of up to 3 blocks without falling.",
+      "kind": "other"
+    }
+  ],
+  "qol": [
+    "Settings (campfire immunity on/off and duration, crouch bridging on/off, max gap, look-down threshold) are configurable in the config screen."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold sneak while walking through berry bushes or standing on a campfire. To bridge, sneak toward a gap and keep looking straight ahead.",
+  "related_units": [
+    "mods__chimericlib",
+    "mods__yetanotherconfiglib",
+    "mods__architectury-api-fabric-forge"
+  ],
+  "sources": [
+    "facts/mods/sneaky-tweaks.json (authorReadme, tooltips)",
+    "C:/Users/bill/code/minecraft-mods/sneaky-tweaks (config defaults)"
+  ],
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "editor_notes": "Pack author's own mod. Adds 6 advancements (root, sneak through berries, sneak on campfire, overstay your welcome, crouch bridge, looked down).",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Sneaky Tweaks",
+  "unit": "mods__sneaky-tweaks",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "side": "both",
+  "summary": "A collection of small changes that make sneaking safer or more useful: sweet berry bushes no longer hurt a sneaking player, sneaking on lit campfires grants temporary damage immunity, and crouch bridging lets a sneaking player walk across short gaps."
+}

@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Performance & Technical"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Leaf decay",
+      "change": "Leaves with no log support decay much faster than vanilla; timing and whether leaves of different types connect are configurable.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__falling-leaves-fabric",
+    "mods__puzzles-lib-forge-fabric"
+  ],
+  "sources": [
+    "facts/mods/leaves-be-gone.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Puzzles Lib and Forge Config API Port. Pack has no config override for it.",
+  "name": "Leaves Be Gone",
+  "unit": "mods__leaves-be-gone",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "summary": "Leaves decay almost immediately after a tree is chopped down, typically within about a second, instead of lingering. Works with most modded leaves via the minecraft:leaves tag."
+}

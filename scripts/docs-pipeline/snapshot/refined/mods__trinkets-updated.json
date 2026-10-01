@@ -1,0 +1,40 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Slot groups and slots",
+      "description": "Slots are grouped by body part (head, chest, legs, feet, offhand, hand by default) and are defined by datapacks (the jar ships 18 slot definitions and 7 tag sets). Mods must declare that they use a slot before it appears for the player, so there are no unused empty slots."
+    },
+    {
+      "title": "Item tooltips",
+      "description": "Items that fit trinket slots show which slots they can go in and list attribute modifiers granted 'when equipped' in that slot."
+    },
+    {
+      "title": "Optional cosmetic slots and equipment hiding",
+      "description": "Config options can add visual-only cosmetic slots for every trinket slot and let players hide equipped trinkets visually. The mod description says both are off by default; the pack ships no override for this mod."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Configurable UI style, slot indicator, slot-name tooltip, highlight of compatible slots when holding an item, first-person trinket rendering toggle."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/trinkets-updated.json",
+    "https://modrinth.com/mod/trinkets-updated"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Mostly an API dependency; player-visible only if another mod in the pack uses trinket slots (not verified which do). Nested dependency yumi-mc-foundation.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Trinkets Updated",
+  "unit": "mods__trinkets-updated",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "A data-driven accessory slot system (updated fork of Trinkets) that other mods use to add equippable trinket slots beyond vanilla armor slots. It adds no items itself, but provides the trinket slot screen and slot tooltips for items other mods make equippable."
+}

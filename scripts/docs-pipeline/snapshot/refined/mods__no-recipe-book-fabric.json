@@ -1,0 +1,26 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [
+    "Cleaner crafting and inventory screens"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "getting_started": "",
+  "editor_notes": "Client-side only. Players who want to look up recipes will need a recipe viewer mod or the guidebook.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "No Recipe Book",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Removes the recipe book button and panel from the inventory and crafting screens.",
+  "sources": [
+    "facts/mods/no-recipe-book-fabric.json (modrinth body)"
+  ],
+  "unit": "mods__no-recipe-book-fabric",
+  "kind": "mod"
+}

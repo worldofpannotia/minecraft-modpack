@@ -1,0 +1,33 @@
+{
+  "name": "Hand Over Your Items",
+  "unit": "mods__hand-over-your-items",
+  "kind": "mod",
+  "category": "Multiplayer & Server",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Give items directly to another player without dropping them. Sneak and right-click a player to hand them your whole held stack; overflow drops at their feet if their inventory is full.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Messages",
+      "description": "Both players get a chat message by default (sendItemGivenMessage, sendItemReceivedMessage); sneaking is required by default (mustCrouchToGiveItem)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Sneak + right-click another player with an item: give the entire main-hand stack"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/hand-over-your-items.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Author recommends installing on both client and server; server-only can desync."
+}

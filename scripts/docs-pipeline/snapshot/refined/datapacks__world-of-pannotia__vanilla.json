@@ -1,0 +1,24 @@
+{
+  "name": "World of Pannotia: Vanilla Loot Copies",
+  "category": "Performance & Technical",
+  "player_facing": false,
+  "summary": "Internal module: unmodified copies of vanilla loot tables under the \"vanilla\" namespace so the pack minecraft: overrides can wrap them. It gives no gameplay changes.",
+  "mechanics": [],
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft"
+  ],
+  "editor_notes": "1404 loot tables. Compared with vanilla 26.1.2, the only differences are 26.2 vanilla additions (cinnabar and sulfur blocks, sulfur cube, a music disc added to the abandoned mineshaft chest); they are not pack changes. Not player-facing.",
+  "unit": "datapacks__world-of-pannotia__vanilla",
+  "kind": "datapack-module",
+  "side": "server",
+  "secondary_categories": [],
+  "new_content": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/vanilla/"
+  ],
+  "confidence": "high"
+}

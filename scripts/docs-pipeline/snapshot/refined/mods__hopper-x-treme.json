@@ -1,0 +1,129 @@
+{
+  "name": "Hopper X-Treme",
+  "unit": "mods__hopper-x-treme",
+  "kind": "mod",
+  "category": "Redstone & Automation",
+  "secondary_categories": [
+    "Storage & Inventory"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Adds upgraded hoppers in several speed tiers, multi-hoppers that output to several sides, huppers that push items upward, glazed variants that eject items like droppers, and built-in item filtering with include/exclude filter items. Includes an in-game guide book.",
+  "new_content": [
+    {
+      "name": "Honeyed Hopper",
+      "type": "block",
+      "how_to_obtain": "Hopper + honeycomb (shapeless)",
+      "notes": "20-tick cooldown; slow, for clocks."
+    },
+    {
+      "name": "Copper Hopper",
+      "type": "block",
+      "how_to_obtain": "Hopper + copper ingot",
+      "notes": "8 ticks (vanilla speed) but ignores redstone locking."
+    },
+    {
+      "name": "Golden Hopper",
+      "type": "block",
+      "how_to_obtain": "Hopper + gold ingot",
+      "notes": "4 ticks (2x vanilla)."
+    },
+    {
+      "name": "Diamond Hopper",
+      "type": "block",
+      "how_to_obtain": "Golden Hopper + diamond",
+      "notes": "2 ticks (4x)."
+    },
+    {
+      "name": "Netherite Hopper",
+      "type": "block",
+      "how_to_obtain": "Smithing: netherite upgrade template + Diamond Hopper + netherite ingot",
+      "notes": "1 tick (8x)."
+    },
+    {
+      "name": "Nether Star Hopper",
+      "type": "block",
+      "how_to_obtain": "Netherite Hopper + nether star",
+      "notes": "1 tick, moves up to 16 items per transfer; fastest tier."
+    },
+    {
+      "name": "Multi-Hoppers (plain, golden, diamond, netherite, nether star)",
+      "type": "block",
+      "how_to_obtain": "4 hoppers of the tier (shapeless); plain multi-hopper from 4 vanilla hoppers. Golden/diamond also from the previous multi-hopper + 4 gold ingots/diamonds. A multi-hopper can be crafted back into 4 hoppers.",
+      "notes": "Output to more than one side."
+    },
+    {
+      "name": "Huppers and Multi-Huppers (all tiers incl. honeyed, copper)",
+      "type": "block",
+      "how_to_obtain": "Craft the matching hopper alone (shapeless) to get the hupper; reversible the same way",
+      "notes": "Push items upward for vertical item elevators."
+    },
+    {
+      "name": "Glazed variants (Glazed, Honey Glazed, Glazed Golden/Diamond/Netherite/Nether Star, plus glazed multi-hoppers)",
+      "type": "block",
+      "how_to_obtain": "Hopper + gray glazed terracotta (shapeless), or upgrade a glazed hopper with the tier material; shaped: iron ingots, chest, gray glazed terracotta (IGI/ICI/ I )",
+      "notes": "Do not hold items; eject them in the facing direction like a dropper."
+    },
+    {
+      "name": "Hopper Item Filter",
+      "type": "item",
+      "how_to_obtain": "Shaped: #W#/#C#/### with sticks, cobweb (W), iron chain (C)",
+      "notes": "Include or Exclude mode, up to 5 entries."
+    },
+    {
+      "name": "Diamond Hopper Item Filter",
+      "type": "item",
+      "how_to_obtain": "Hopper Item Filter + diamond",
+      "notes": "Up to 10 entries."
+    },
+    {
+      "name": "Wrench",
+      "type": "item",
+      "how_to_obtain": "Shaped: 4 iron ingots in a diagonal wrench shape",
+      "notes": "Used to configure hoppers."
+    },
+    {
+      "name": "Hopper X-Treme guide (Patchouli)",
+      "type": "item",
+      "how_to_obtain": "Book + hopper (shapeless)",
+      "notes": ""
+    },
+    {
+      "name": "Filtered hoppers (deprecated)",
+      "type": "block",
+      "how_to_obtain": "Do not craft",
+      "notes": "Auto-convert to filter-capable equivalents when placed."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Filtering",
+      "description": "Upgraded hoppers accept a filter item; include mode passes only listed items, exclude mode blocks listed items."
+    },
+    {
+      "title": "Copper hopper",
+      "description": "Cannot be locked by redstone."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Hopper",
+      "change": "Vanilla hopper unchanged; used as base for upgrades. Shapeless: 4 hoppers -> Multi-Hopper; Multi-Hopper -> 4 hoppers.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__architectury-api-fabric-forge",
+    "mods__chimericlib",
+    "mods__houdini-block"
+  ],
+  "sources": [
+    "facts/mods/hopper-x-treme.json (authorReadme)",
+    "facts/mod-recipes/hopper-x-treme.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Author's own mod. Creative tabs: Hoppers, Multi-Hoppers, Huppers, Multi-Huppers. Netherite multi-hopper etc. follow the same 4-hoppers rule. Wrench is 4 iron ingots in pattern ' # ',' ##','#  ' (count per the pattern). Verify how filters are inserted into hoppers."
+}

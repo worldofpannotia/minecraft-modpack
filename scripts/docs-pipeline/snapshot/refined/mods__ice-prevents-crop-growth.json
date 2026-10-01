@@ -1,0 +1,33 @@
+{
+  "name": "Ice Prevents Crop Growth",
+  "unit": "mods__ice-prevents-crop-growth",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Crops planted on soil with an ice block underneath never advance to the next growth stage, so you can freeze a plant at a chosen stage for decoration. Bone meal still advances them.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Crop growth",
+      "change": "Crops with ice below never grow naturally; bone meal still works. Works for modded crops.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective",
+    "mods__crops-love-rain"
+  ],
+  "sources": [
+    "facts/mods/ice-prevents-crop-growth.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Exact position of the ice (directly beneath farmland) is described only loosely in sources."
+}

@@ -1,0 +1,60 @@
+{
+  "vanilla_changes": [
+    {
+      "what": "Name tags",
+      "change": "Naming no longer needs an anvil or XP; shears remove names and return the tag; old tags are returned on rename; named mobs may drop their tag on death.",
+      "kind": "other"
+    }
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Instant editing",
+      "description": "Use a name tag to open an edit screen and set its name; no anvil or XP needed. Formatting codes allow colors, bold, italics, etc."
+    },
+    {
+      "title": "No wasted tags",
+      "description": "Applying a tag with the same name as the mob's current name does not consume it."
+    },
+    {
+      "title": "Removing names",
+      "description": "Using shears on a named mob removes its custom name and gives back the matching name tag."
+    },
+    {
+      "title": "Death drops",
+      "description": "Named mobs can drop their name tag when they die."
+    },
+    {
+      "title": "Renaming",
+      "description": "Renaming an already named mob returns the previous name tag instead of discarding it."
+    },
+    {
+      "title": "Feedback",
+      "description": "Applying a name tag plays a sound."
+    }
+  ],
+  "qol": [
+    "Rename name tags on the go",
+    "Recover name tags from named mobs with shears"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__puzzles-lib-forge-fabric"
+  ],
+  "secondary_categories": [
+    "Mobs & Creatures"
+  ],
+  "getting_started": "Use (right-click) a name tag in your hand to open the naming screen, then right-click a mob with the named tag.",
+  "editor_notes": "Exact conditions for the death drop (chance/config) are not documented in the page; config is in config/nametagupgrade-*.toml. Needed on both client and server.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Name Tag Upgrade",
+  "category": "Quality of Life",
+  "side": "both",
+  "summary": "Name tags can be renamed on the spot by using them, with no anvil or experience cost, and formatting codes are supported. Name tags are also no longer wasted when renaming or removing names.",
+  "sources": [
+    "facts/mods/name-tag-upgrade.json (modrinth body)"
+  ],
+  "unit": "mods__name-tag-upgrade",
+  "kind": "mod"
+}

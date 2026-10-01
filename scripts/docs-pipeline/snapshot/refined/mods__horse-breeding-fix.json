@@ -1,0 +1,30 @@
+{
+  "name": "Horse Breeding Fix",
+  "unit": "mods__horse-breeding-fix",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Foals of horses, donkeys and mules inherit each stat (health, speed, jump) at least as good as the better parent's, removing the chance of getting a worse baby.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Horse-family breeding",
+      "change": "Each baby stat is at least as good as the better parent's stat.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__horse-expert"
+  ],
+  "sources": [
+    "facts/mods/horse-breeding-fix.json (Modrinth)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Thin source; exact formula not documented."
+}

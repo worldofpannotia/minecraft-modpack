@@ -1,0 +1,49 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Tweaks vs. Yeets",
+      "description": "The config menu is split into Tweaks (add functionality, e.g. Accurate/Flexible Block Placement, Fast Left/Right Click, Hand Restock, Hotbar Swap/Cycle/Scroll, Free Camera, Gamma Override, Inventory Preview, Tool Switch, Permanent Sneak/Sprint, Print Death Coordinates, Placement Grid/Restriction/Limit) and Yeets (disable vanilla features, e.g. terrain/nether/boss fog, rain effects, particles, item glint, scoreboard rendering, the shulker box text tooltip, sign GUI). The exact 26.2 feature list was not itemized; the examples come from the mod's feature lists for older versions."
+    },
+    {
+      "title": "Single-player-only tweaks",
+      "description": "Features needing server-side code (e.g. Empty Shulker Boxes Stack, Fill/Clone and Structure Block limit overrides, Disable Entity/Tile Entity Ticking) only work in single player, since a client mod can only affect the integrated server."
+    },
+    {
+      "title": "Free Camera presets",
+      "description": "Free Camera has a preset command (#fc) with sub-commands add, cycle, del, del_all, list, recall, rename, set and help."
+    },
+    {
+      "title": "Server rules warning",
+      "description": "Flexible/Accurate Block Placement and Hand Restock send unusual packets and can trigger anti-cheat on servers; check server rules before using."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Hand restock, fast block placement, hotbar swapping and cycling, inventory preview, shulker box display."
+  ],
+  "commands_and_keybinds": [
+    "X + C - open the Tweakeroo config menu (default)",
+    "#fc <add|cycle|del|del_all|list|recall|rename|set|help> - Free Camera presets (typed in chat)"
+  ],
+  "getting_started": "Press X + C, browse the Tweaks or Yeets lists and toggle features on; most features also have their own hotkey that can be bound in the same menu.",
+  "related_units": [
+    "mods__malilib"
+  ],
+  "sources": [
+    "facts/mods/tweakeroo.json",
+    "https://modrinth.com/mod/tweakeroo"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires MaLiLib. 'Disable all terrain fog' is disabled if Sodium is installed.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Tweakeroo",
+  "unit": "mods__tweakeroo",
+  "category": "Quality of Life",
+  "side": "client",
+  "summary": "A client-side collection of toggleable tweaks (and 'yeets' that disable vanilla behavior) such as hand restock, flexible and accurate block placement, fast click, gamma override and free camera. Features are configured in an in-game menu."
+}

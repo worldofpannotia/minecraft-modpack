@@ -1,0 +1,31 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Options",
+      "description": "Slime blobs (color), charge particle, sparkle particle, soul particle, water circles (colored, density, radius), hit particles (entries), shiny armor (entries), shiny blocks (entries)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__cloth-config-api-fabric-forge",
+    "mods__mod-menu"
+  ],
+  "sources": [
+    "facts/mods/visuality.json",
+    "https://modrinth.com/mod/visuality"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Cloth Config. The jar filename says +26.3 while the pack targets 26.2; verify it loads.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Visuality",
+  "unit": "mods__visuality",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "summary": "Client-side particle additions: crystal sparkles, hit particles when mobs are struck, slime blob particles, soul particles, water circles, and shiny armor and blocks. Each effect can be toggled and tuned via Mod Menu or visuality.json."
+}

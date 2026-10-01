@@ -1,0 +1,32 @@
+{
+  "secondary_categories": [
+    "Cosmetic, Visual & Audio"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Persistent grid",
+      "description": "Ingredients stay in the crafting table between uses instead of returning to your inventory, and are drawn on the block along with the craftable result. A tag (visualworkbench/tags) controls which crafting tables are supported."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__puzzles-lib-forge-fabric"
+  ],
+  "sources": [
+    "facts/mods/visual-workbench-forge-fabric.json",
+    "https://modrinth.com/mod/visual-workbench"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Required on client and server; requires Puzzles Lib and Forge Config API Port.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Visual Workbench",
+  "unit": "mods__visual-workbench-forge-fabric",
+  "category": "Quality of Life",
+  "side": "both",
+  "summary": "Crafting tables keep the items placed in the grid when you close them, and render the ingredients and result on top of the block. Breaking the table drops the contents."
+}

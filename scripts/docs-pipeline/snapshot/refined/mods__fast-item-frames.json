@@ -1,0 +1,61 @@
+{
+  "name": "Fast Item Frames",
+  "unit": "mods__fast-item-frames",
+  "kind": "mod",
+  "secondary_categories": [
+    "Performance & Technical"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Block-based frames",
+      "description": "Frames react instantly to supporting blocks breaking or moving with pistons, work with /setblock, and multiple frames can still share a block space."
+    },
+    {
+      "title": "Dyeing",
+      "description": "Dye item frames like leather armor for millions of colours."
+    },
+    {
+      "title": "Invisible frames",
+      "description": "Shift + right-click with an empty hand hides the frame and shows the item larger."
+    },
+    {
+      "title": "Waxing",
+      "description": "Use honeycomb on a frame to lock it against rotation, changes or visibility toggling."
+    },
+    {
+      "title": "Name-tag hiding and conversion",
+      "description": "Optional hiding of custom item names while looking at displayed items; optional conversion of existing vanilla item frame entities to blocks when chunks load."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Item frame and glow item frame",
+      "change": "Item frame (or glow item frame) + any dye (crafting_dye recipe) -> dyed item frame / dyed glow item frame.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Item frames",
+      "change": "Placed frames become blocks rather than entities.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Shift + right-click (empty hand): toggle frame invisibility",
+    "Honeycomb on frame: wax"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "datapacks__better-item-frames"
+  ],
+  "sources": [
+    "facts: modrinth body, mod-recipes"
+  ],
+  "confidence": "high",
+  "editor_notes": "The pack also ships a better-item-frames datapack; possible overlap/conflict (invisible frames, entity-based assumptions). Needed on client and server.",
+  "category": "Building & Decoration",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Reimplements item frames as blocks instead of entities for better performance, and adds dyeing, invisible frames and waxing."
+}

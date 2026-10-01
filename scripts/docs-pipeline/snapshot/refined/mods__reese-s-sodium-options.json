@@ -1,0 +1,40 @@
+{
+  "name": "Reese's Sodium Options",
+  "unit": "mods__reese-s-sodium-options",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "secondary_categories": [
+    "Performance & Technical"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Replaces Sodium's video settings screen with an alternate tabbed layout that includes a search bar, collapsible groups, tooltips and per-option reset and undo buttons. It can be switched off to return to Sodium's default screen.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Enable/disable",
+      "description": "The option 'Enable Reese's Sodium Options' in its General group turns the replacement off; Sodium's own screen then shows."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Search bar for options",
+    "Collapsible tab and option groups",
+    "Per-option reset-to-default and undo overlays",
+    "Shift + scroll for slider adjustment",
+    "Keyboard navigation, narration, optional Controlify controller support",
+    "Optional colour themes and option ID display"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Open Video Settings as usual; the Sodium screen appears with Reese's layout.",
+  "related_units": [
+    "mods__sodium",
+    "mods__sodium-extra"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/reeses-sodium-options",
+    "facts/mods/reese-s-sodium-options.json"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

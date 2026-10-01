@@ -1,0 +1,22 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "Polymer",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Library for server-side content that works for players without client mods. On the client it adds small compatibility features for recipe viewers, HUD info mods, and the F3 screen.",
+  "sources": [
+    "facts/mods/polymer.json"
+  ],
+  "unit": "mods__polymer",
+  "kind": "mod"
+}

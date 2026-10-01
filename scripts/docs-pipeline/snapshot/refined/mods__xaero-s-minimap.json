@@ -1,0 +1,46 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Waypoints",
+      "description": "Create, edit, hide, share in chat, group into sets and (with permission) teleport to waypoints; local vs. global waypoints with a max draw distance."
+    },
+    {
+      "title": "Cave mode and radar",
+      "description": "Automatic cave mode when under a roof; entities shown as dots or icons; square or circle shape; lock-north option."
+    },
+    {
+      "title": "Server controls and effects",
+      "description": "Servers can enforce a config profile and use the effects xaerominimap:no_minimap, no_entity_radar, no_waypoints and no_cave_maps to restrict features. Can also be bound to an item held in hotbar or equipped."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Z - enlarge minimap",
+    "B - create waypoint",
+    "U - open waypoint list",
+    "All keys can be rebound in Controls"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__xaero-s-world-map",
+    "mods__woodwalkers"
+  ],
+  "sources": [
+    "facts/mods/xaero-s-minimap.json",
+    "https://modrinth.com/mod/xaeros-minimap"
+  ],
+  "confidence": "high",
+  "editor_notes": "Author warns against XaeroPlus. Bundles XaeroLib. Default U conflicts with Woodwalkers' unlock key.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Xaero's Minimap",
+  "unit": "mods__xaero-s-minimap",
+  "category": "Maps & Navigation",
+  "side": "both",
+  "summary": "A vanilla-styled minimap in a screen corner showing terrain, mobs, players and items, with waypoints visible in the world. Includes cave mode and optional server-controlled limits."
+}

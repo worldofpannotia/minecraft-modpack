@@ -1,0 +1,50 @@
+{
+  "name": "More Effective Tools",
+  "unit": "datapacks__more-effective-tools",
+  "kind": "datapack",
+  "category": "Tools, Weapons & Armor",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Gives blocks that normally have no proper tool a 'correct tool', so they break faster with it. Glass, lamps and skulls become pickaxe blocks, beds and candles axe blocks, and so on.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "#minecraft:mineable/pickaxe",
+      "change": "Adds glass, glass panes, tinted glass and all stained glass and stained glass panes; beacon; glowstone; sea lantern; redstone lamp; lever; frosted ice; ochre, verdant and pearlescent froglight; creeper, dragon, piglin, zombie, player, skeleton and wither skeleton heads/skulls (floor and wall).",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "#minecraft:mineable/axe",
+      "change": "Adds all beds, all candles, cactus and honeycomb block.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "#minecraft:mineable/hoe",
+      "change": "Adds wool carpets.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "#minecraft:mineable/shovel",
+      "change": "Adds cake and candle cakes.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [
+    "Faster breaking of glass, lamps and skulls with a pickaxe, beds and candles with an axe, and so on."
+  ],
+  "commands_and_keybinds": [
+    "None."
+  ],
+  "getting_started": "Nothing to do; use the matching tool.",
+  "related_units": [
+    "mods__deepslate-instamine-fabric-forge"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/more-effective-tools/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Only block tags change; no loot tables, so drops are unchanged (glass still needs Silk Touch to drop). Blocks intended to have no effective tool (powder snow, reinforced deepslate, vault) are deliberately excluded. Vanilla 26.2 may already tag some of these."
+}

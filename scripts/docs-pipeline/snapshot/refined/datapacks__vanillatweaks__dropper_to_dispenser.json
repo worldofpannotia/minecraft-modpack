@@ -1,0 +1,37 @@
+{
+  "name": "Dropper to Dispenser",
+  "unit": "datapacks__vanillatweaks__dropper_to_dispenser",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets you turn a dropper into a dispenser without crafting one from scratch.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Dispenser",
+      "change": "Shapeless: dropper + bow -> dispenser.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Dispenser",
+      "change": "Shaped: dropper in the centre, sticks in a column on its left and 3 string in a column on its right (' S/' / 'S#/' / ' S/' with S = stick, / = string, # = dropper) -> dispenser. This is the bow's component layout around a dropper.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__crafting"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Part of the bundled VanillaTweaks Crafting Tweaks datapack (version 26.2 selection). Recipes are server-side; the datapack is loaded via Paxi."
+}

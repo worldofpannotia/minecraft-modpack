@@ -1,0 +1,48 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Expanded enchantment targets",
+      "description": "Axes, tridents, maces, bows, crossbows, shields and other gear can take enchantments normally limited to other items. Bows can get Multishot, Piercing, Quick Charge and Looting; crossbows can get Power, Punch, Infinity, Flame and Looting; tridents and maces can get Looting, Knockback, Sharpness, Smite, Bane of Arthropods, Impaling, Breach and more; horse, wolf and nautilus armor can take armor enchantments such as Protection, Feather Falling, Frost Walker, Soul Speed and Thorns."
+    },
+    {
+      "title": "Relaxed exclusivity",
+      "description": "Infinity + Mending and Multishot + Piercing are compatible by default. Optional stacking of Sharpness with Smite/Bane/Impaling/Breach and of Protection with Fire/Blast/Projectile Protection exists; whether it is enabled is controlled by bundled datapacks and was not verified."
+    },
+    {
+      "title": "Improved vanilla enchantments",
+      "description": "Infinity no longer requires a spare arrow, Looting and Fortune give extra experience, Feather Falling prevents farmland trampling, and Multishot benefits from removed projectile invulnerability."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Channeling, Frost Walker and Power enchantments",
+      "change": "The mod overrides the minecraft:channeling, frost_walker and power enchantment definitions (Power shown as +0.5 damage base, +0.5 per level above first, max level 5). Exact differences from vanilla were not diffed.",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__removeenchantmentincompatibility",
+    "mods__grind-enchantments",
+    "mods__puzzles-lib-forge-fabric"
+  ],
+  "sources": [
+    "facts/mods/universal-enchants.json",
+    "https://modrinth.com/mod/universal-enchants"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Pack ships no override for this mod. Config is via datapacks (73 bundled files under universalenchants/datapacks). Overlaps with RemoveEnchantmentIncompatibility (both loosen exclusivity); check for conflicts. Requires Puzzles Lib.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Universal Enchants",
+  "unit": "mods__universal-enchants",
+  "category": "Enchanting & Magic",
+  "side": "both",
+  "summary": "Lets many vanilla enchantments apply to more items and removes several compatibility restrictions, such as Looting on tridents, Infinity on crossbows and Sharpness on axes. It also improves a few enchantments (for example Infinity no longer needs a spare arrow)."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hide Experimental Warning",
+  "unit": "mods__hide-experimental-warning",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Hides the 'experimental settings' warning screens when creating or loading worlds, and the yellow experimental triangle/text in the world list. Purely a screen-skipping convenience.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/hide-experimental-warning.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

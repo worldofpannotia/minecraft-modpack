@@ -1,0 +1,42 @@
+{
+  "name": "Followers Teleport Too",
+  "unit": "mods__followers-teleport-too",
+  "kind": "mod",
+  "category": "Mobs & Creatures",
+  "secondary_categories": [
+    "Transport & Movement"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "When you are teleported by a command, tamed pets that are standing (not sitting) near you are teleported to the same destination. Sitting pets stay put. Pets are briefly protected from damage after arriving.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Pet teleport",
+      "description": "Before a command teleport happens, the mod checks for non-sitting followers around the player and moves them to the destination."
+    },
+    {
+      "title": "Arrival protection",
+      "description": "By default followers take no damage for 20 seconds after the teleport (config disableFollowerDamageAfterTeleport, durationInSecondsDamageShouldBeDisabled), preventing fall or suffocation damage from an imprecise landing spot."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Pets and command teleports",
+      "change": "Vanilla leaves pets behind when you teleport; now non-sitting tamed pets come with you.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to do: have your pets stand (unsit them) and use a teleport command, such as the pack's homes/spawn/back datapacks.",
+  "related_units": [
+    "mods__collective",
+    "mods__gui-followers"
+  ],
+  "sources": [
+    "facts/mods/followers-teleport-too.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Only triggers on command-based teleports. Whether the pack's homes/spawn/back datapacks use /tp (and so trigger this) should be verified in-game."
+}

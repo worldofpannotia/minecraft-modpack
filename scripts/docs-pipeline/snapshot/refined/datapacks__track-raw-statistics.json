@@ -1,0 +1,40 @@
+{
+  "name": "Track Raw Statistics",
+  "unit": "datapacks__track-raw-statistics",
+  "kind": "datapack",
+  "category": "Multiplayer & Server",
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Creates over 100 scoreboard objectives (prefix ts_) that mirror vanilla statistics such as deaths, distance travelled, items crafted, ores mined and mob kills, in raw units. Operators can show them as leaderboards.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Objectives created",
+      "description": "Deaths, kills, animals bred, distances (walk, sprint, swim, fly, climb, fall, crouch, boat/horse/pig/minecart rides), play time, damage dealt/taken, chests/ender chests/shulker boxes opened, crafts, villager trades, jumps; crafting counts for beacons, end crystals, conduits and shulker boxes; use counts (potions, totems, torches, golden apples, bone meal, buckets, ender pearls and more); tool break counts (diamond/netherite tools, bow, shears); ore mining counts including deepslate variants; per-mob kill counts (about 70 mobs) and per-mob 'killed by' counts. Values are raw: distances in centimetres, play time in ticks."
+    },
+    {
+      "title": "Showing a leaderboard",
+      "description": "Nothing is displayed by default. An operator runs, for example, /scoreboard objectives setdisplay sidebar ts_Deaths (or list / below_name)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/scoreboard objectives setdisplay <sidebar|list|below_name> <objective> : (operators) show a ts_ objective",
+    "/scoreboard players get <player> <objective> : read a value"
+  ],
+  "getting_started": "Operators pick an objective, e.g. /scoreboard objectives setdisplay sidebar ts_Deaths.",
+  "related_units": [
+    "datapacks__track-statistics",
+    "mods__better-statistics-screen"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/track-raw-statistics/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Admin/server feature with no player-visible output by default. Objective names listed in load.mcfunction; document as 'about 250 objectives' only if you count them."
+}

@@ -1,0 +1,26 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Zoom key - bound in Controls (category 'WI Zoom'); the default key is not in the facts."
+  ],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/wi-zoom.json"
+  ],
+  "confidence": "low",
+  "editor_notes": "Thin facts; default key and scroll-wheel behavior unverified in game.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "WI Zoom",
+  "unit": "mods__wi-zoom",
+  "category": "Quality of Life",
+  "side": "client",
+  "summary": "A zoom key, taken from the Wurst Client as a standalone mod."
+}

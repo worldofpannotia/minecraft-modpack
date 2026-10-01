@@ -1,0 +1,34 @@
+{
+  "secondary_categories": [
+    "Villagers & Trading"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Zombie spawners",
+      "change": "Spawners set to zombie can also spawn the zombie villager variant.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__villagertweaks",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/zombie-villagers-from-spawner.json",
+    "https://serilum.com/mod/zombie-villagers-from-spawner"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Spawn chance/config not extracted; requires Collective.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Zombie Villagers From Spawner",
+  "unit": "mods__zombie-villagers-from-spawner",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Zombie spawners can again spawn zombie villagers, a behavior vanilla removed in 1.11."
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Improved Sign Editing",
+  "unit": "mods__improved-sign-editing",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Typing on a sign automatically wraps to the next line when the next word will not fit, and backspacing returns to the previous line. A button on the sign screen toggles the behavior.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Auto line wrap and backspace-to-previous-line on sign editing screen",
+    "Improved/Normal Editing toggle button"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/improved-sign-editing.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

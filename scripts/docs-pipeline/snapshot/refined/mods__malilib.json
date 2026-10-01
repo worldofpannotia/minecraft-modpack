@@ -1,0 +1,26 @@
+{
+  "secondary_categories": [],
+  "side": "unknown",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__litematica",
+    "mods__tweakeroo",
+    "mods__minihud"
+  ],
+  "sources": [
+    "facts/mods/malilib.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "name": "MaLiLib",
+  "unit": "mods__malilib",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "summary": "Client-side library for masa's mods (Litematica, Tweakeroo, MiniHUD, Item Scroller)."
+}

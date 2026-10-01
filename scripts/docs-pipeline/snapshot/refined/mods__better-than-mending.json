@@ -1,0 +1,35 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Sneak-use repair",
+      "description": "Sneak + right-click with a Mending item to spend your own XP to repair it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Repair Mending items on demand with banked XP"
+  ],
+  "commands_and_keybinds": [
+    "Sneak (default Shift) + right-click while holding a Mending item"
+  ],
+  "getting_started": "Hold a damaged Mending tool or armor piece, crouch and right-click.",
+  "related_units": [
+    "datapacks__enchantment-plus"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "XP cost per durability point is not documented in the source. Required on server; client optional. The draft's claim about repairing non-held items is unsupported.",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Better Than Mending",
+  "category": "Enchanting & Magic",
+  "side": "both",
+  "summary": "Sneak and right-click while holding an item with Mending to repair it using experience you already have, instead of waiting for orbs to be collected.",
+  "unit": "mods__better-than-mending"
+}

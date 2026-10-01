@@ -1,0 +1,47 @@
+{
+  "name": "World of Pannotia: Mini Blocks",
+  "category": "Building & Decoration",
+  "summary": "Shrinks common building blocks into decorative \"Mini\" blocks. In a stonecutter, one full block makes 8 Mini blocks, which are custom-skinned player heads you can place as small decorations.",
+  "new_content": [
+    {
+      "name": "Mini blocks (204 variants)",
+      "type": "item",
+      "how_to_obtain": "Put the full block in a Stonecutter; each recipe produces 8 player heads named \"Mini <Block>\" (rarity common) with a custom skin texture of the block. The recipe unlocks in the recipe book when the input block is in your inventory.",
+      "notes": "Placed like any player head (on the ground or on walls); breaking one keeps its data. Variants (Mini name <= input block): Acacia Log <= acacia_log; Acacia Planks <= acacia_planks; Amethyst Block <= amethyst_block; Ancient Debris <= ancient_debris; Andesite <= andesite; Azalea Leaves <= azalea_leaves; Bamboo Block <= bamboo_block; Bamboo Planks <= bamboo_planks; Barrel <= barrel; Basalt <= basalt; Beehive <= beehive; Bee Nest <= bee_nest; Birch Log <= birch_log; Birch Planks <= birch_planks; Blackstone <= blackstone; Black Concrete <= black_concrete; Blast Furnace <= blast_furnace; Blue Concrete <= blue_concrete; Bone Block <= bone_block; Brain Coral <= brain_coral_block; Bricks <= bricks; Brown Concrete <= brown_concrete; Bubble Coral <= bubble_coral_block; Calcite <= calcite; Cartography Table <= cartography_table; Cherry Leaves <= cherry_leaves; Cherry Log <= cherry_log; Cherry Planks <= cherry_planks; Chest <= chest; Chiseled Bookshelf <= chiseled_bookshelf; Chiseled Nether Bricks <= chiseled_nether_bricks; Chiseled Polished Blackstone <= chiseled_polished_blackstone; Chiseled Stone Bricks <= chiseled_stone_bricks; Clay <= clay; Coal Block <= coal_block; Coal Ore <= coal_ore; Cobbled Deepslate <= cobbled_deepslate; Cobblestone <= cobblestone; Copper Bulb <= copper_bulb; Copper Bulb (Lit) <= copper_bulb; Copper Ore <= copper_ore; Crafter <= crafter; Crafting Table <= crafting_table; Crimson Nylium <= crimson_nylium; Crimson Planks <= crimson_planks; Crimson Stem <= crimson_stem; Crying Obsidian <= crying_obsidian; Cut Copper <= cut_copper; Cyan Concrete <= cyan_concrete; Dark Oak Log <= dark_oak_log; Dark Oak Planks <= dark_oak_planks; Dark Prismarine <= dark_prismarine; Deepslate <= deepslate; Deepslate Coal Ore <= deepslate_coal_ore; Deepslate Copper Ore <= deepslate_copper_ore; Deepslate Diamond Ore <= deepslate_diamond_ore; Deepslate Emerald Ore <= deepslate_emerald_ore; Deepslate Gold Ore <= deepslate_gold_ore; Deepslate Iron Ore <= deepslate_iron_ore; Deepslate Lapis Lazuli Ore <= deepslate_lapis_ore; Deepslate Redstone Ore <= deepslate_redstone_ore; Diamond Block <= diamond_block; Diamond Ore <= diamond_ore; Diorite <= diorite; Dirt <= dirt; Dispenser <= dispenser; Dried Kelp Block <= dried_kelp_block; Dripstone Block <= dripstone_block; Dropper <= dropper; Emerald Block <= emerald_block; Emerald Ore <= emerald_ore; Enchanting Table <= enchanting_table; Ender Chest <= ender_chest; End Stone <= end_stone; End Stone Bricks <= end_stone_bricks; Exposed Copper Bulb <= exposed_copper_bulb; Exposed Copper Bulb (Lit) <= exposed_copper_bulb; Exposed Cut Copper <= exposed_cut_copper; Fire Coral <= fire_coral_block; Fletching Table <= fletching_table; Flowering Azalea Leaves <= flowering_azalea_leaves; Furnace <= furnace; Gilded Blackstone <= gilded_blackstone; Glowstone <= glowstone; Gold Block <= gold_block; Gold Ore <= gold_ore; Granite <= granite; Grass Block <= grass_block; Gravel <= gravel; Gray Concrete <= gray_concrete; Green Concrete <= green_concrete; Hay Bale <= hay_block; Honeycomb Block <= honeycomb_block; Honey Block <= honey_block; Horn Coral <= horn_coral_block; Iron Block <= iron_block; Iron Ore <= iron_ore; Jukebox <= jukebox; Jungle Log <= jungle_log; Jungle Planks <= jungle_planks; Lapis Lazuli Block <= lapis_block; Lapis Lazuli Ore <= lapis_ore; Light Blue Concrete <= light_blue_concrete; Light Gray Concrete <= light_gray_concrete; Lime Concrete <= lime_concrete; Lit Redstone Lamp <= redstone_lamp; Lodestone <= lodestone; Loom <= loom; Magenta Concrete <= magenta_concrete; Magma <= magma_block; Mangrove Log <= mangrove_log; Mangrove Planks <= mangrove_planks; Melon <= melon; Mossy Cobblestone <= mossy_cobblestone; Moss Block <= moss_block; Mud <= mud; Mud Bricks <= mud_bricks; Mycelium <= mycelium; Netherite Block <= netherite_block; Netherrack <= netherrack; Nether Bricks <= nether_bricks; Nether Gold Ore <= nether_gold_ore; Nether Quartz Ore <= nether_quartz_ore; Nether Wart Block <= nether_wart_block; Oak Log <= oak_log; Oak Planks <= oak_planks; Observer <= observer; Obsidian <= obsidian; Ochre Froglight <= ochre_froglight; Orange Concrete <= orange_concrete; Oxidized Copper Bulb <= oxidized_copper_bulb; Oxidized Copper Bulb (Lit) <= oxidized_copper_bulb; Oxidized Cut Copper <= oxidized_cut_copper; Packed Ice <= packed_ice; Packed Mud <= packed_mud; Pale Moss Block <= pale_moss_block; Pale Oak Log <= pale_oak_log; Pale Oak Planks <= pale_oak_planks; Pearlescent Froglight <= pearlescent_froglight; Pink Concrete <= pink_concrete; Piston <= piston; Podzol <= podzol; Polished Andesite <= polished_andesite; Polished Basalt <= polished_basalt; Polished Blackstone <= polished_blackstone; Polished Blackstone Bricks <= polished_blackstone_bricks; Polished Deepslate <= polished_deepslate; Polished Diorite <= polished_diorite; Polished Granite <= polished_granite; Polished Tuff <= polished_tuff; Prismarine <= prismarine; Prismarine Brick <= prismarine_bricks; Pumpkin <= pumpkin; Purple Concrete <= purple_concrete; Purpur Block <= purpur_block; Quartz Block <= quartz_block; Raw Copper Block <= raw_copper_block; Raw Gold Block <= raw_gold_block; Raw Iron Block <= raw_iron_block; Redstone Block <= redstone_block; Redstone Ore <= redstone_ore; Red Concrete <= red_concrete; Red Mushroom Block <= red_mushroom_block; Red Nether Bricks <= red_nether_bricks; Red Sand <= red_sand; Red Sandstone <= red_sandstone; Respawn Anchor <= respawn_anchor; Sand <= sand; Sandstone <= sandstone; Sculk <= sculk; Sea Lantern <= sea_lantern; Shroomlight <= shroomlight; Shulker Box <= shulker_box; Slime Block <= slime_block; Smithing Table <= smithing_table; Smoker <= smoker; Smooth Stone <= smooth_stone; Sniffer Egg <= sniffer_egg; Snow Block <= snow_block; Soul Sand <= soul_sand; Sponge <= sponge; Spruce Log <= spruce_log; Spruce Planks <= spruce_planks; Sticky Piston <= sticky_piston; Stone <= stone; Stone Bricks <= stone_bricks; Target <= target; Terracotta <= terracotta; TNT <= tnt; Tube Coral <= tube_coral_block; Tuff <= tuff; Tuff Bricks <= tuff_bricks; Unlit Redstone Lamp <= redstone_lamp; Verdant Froglight <= verdant_froglight; Warped Nylium <= warped_nylium; Warped Planks <= warped_planks; Warped Stem <= warped_stem; Warped Wart Block <= warped_wart_block; Weathered Copper Bulb <= weathered_copper_bulb; Weathered Copper Bulb (Lit) <= weathered_copper_bulb; Weathered Cut Copper <= weathered_cut_copper; White Concrete <= white_concrete; Wool <= white_wool; Yellow Concrete <= yellow_concrete."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Lit and unlit variants",
+      "description": "Each copper bulb (plain, exposed, weathered, oxidized) has a Lit and an unlit Mini variant from the same input block; Redstone Lamp has Lit and Unlit variants."
+    },
+    {
+      "title": "Recipe unlock",
+      "description": "Each recipe has an advancement that grants it once the input block enters your inventory."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Stonecutter",
+      "change": "204 new stonecutting recipes: 1 of the listed block -> 8 Mini player heads.",
+      "kind": "recipe-added"
+    }
+  ],
+  "getting_started": "Place a Stonecutter, put a block such as Stone or Oak Planks in it, and take 8 Mini heads from the output.",
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "editor_notes": "Coral entries use the coral block as input; Hay Bale uses hay_block; Wool uses white wool only. Verify the skin textures in game.",
+  "unit": "datapacks__world-of-pannotia__mini_blocks",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "secondary_categories": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/mini_blocks/"
+  ],
+  "confidence": "high"
+}

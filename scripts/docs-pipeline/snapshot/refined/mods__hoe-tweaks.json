@@ -1,0 +1,48 @@
+{
+  "name": "Hoe Tweaks",
+  "unit": "mods__hoe-tweaks",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "secondary_categories": [
+    "Farming, Food & Animals",
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Improves hoes: tilling covers a larger area that depends on hoe tier, right-clicking tilled soil reverts it to dirt, and melons and pumpkins break much faster with a hoe. Extra tilled blocks cost durability.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Bigger tilling range",
+      "description": "While sneaking and right-clicking the center block (default): wooden 1x1, stone 3x3, gold 5x5, iron 5x5, diamond 7x7, netherite 9x9. Each extra block tilled damages the hoe, accounting for Unbreaking."
+    },
+    {
+      "title": "Un-till",
+      "description": "Right-click tilled soil to turn it back to dirt; by default only works when the other hand is empty so you can still plant seeds."
+    },
+    {
+      "title": "Faster crop blocks",
+      "description": "Pumpkins and melons break 8x faster with a hoe (cropBlockBreakSpeedModifier default 8.0)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Hoes",
+      "change": "Larger till area by tier, un-tilling, and faster melon/pumpkin breaking.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__rightclickharvest",
+    "mods__replanting-crops",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/hoe-tweaks.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Values are mod defaults; no pack override found."
+}

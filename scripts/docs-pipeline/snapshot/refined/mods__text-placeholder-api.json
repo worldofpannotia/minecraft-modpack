@@ -1,0 +1,20 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "secondary_categories": [],
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "Text Placeholder API",
+  "unit": "mods__text-placeholder-api",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Library that lets mods and datapacks use placeholders (such as player names) in text."
+}

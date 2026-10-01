@@ -1,0 +1,82 @@
+{
+  "name": "World of Pannotia: Vanilla Loot Overrides",
+  "category": "Loot & Drops",
+  "secondary_categories": [
+    "Farming, Food & Animals"
+  ],
+  "summary": "The pack replaces most vanilla mob loot tables with a wrapper that runs the unmodified vanilla table and then adds the pack extras (mob heads, sand, shulker shells, dragon loot). It also changes a few block drops (ancient debris, giant mushrooms, jungle leaves, budding amethyst, player heads) and widens the beacon base list.",
+  "vanilla_changes": [
+    {
+      "what": "Ancient Debris",
+      "change": "Mining it without Silk Touch drops Netherite Scrap directly (Fortune applies, ore-drops formula; explosion decay applies) instead of the debris block. With Silk Touch it drops Ancient Debris as before. A diamond or better pickaxe is still needed.",
+      "kind": "loot"
+    },
+    {
+      "what": "Brown and Red Mushroom Blocks",
+      "change": "Giant mushroom blocks drop their mushroom more often: count roll is uniform -2..2 (vanilla -6..2), roughly 40% chance of 1-2 mushrooms instead of roughly 22%, and Fortune now increases the amount. Silk Touch still drops the block.",
+      "kind": "loot"
+    },
+    {
+      "what": "Jungle Leaves",
+      "change": "Sapling chance doubled: 5% / 6.25% / 8.33% / 10% at Fortune 0/I/II/III (vanilla 2.5% / 2.78% / 3.13% / 4.17%). Stick drops unchanged.",
+      "kind": "loot"
+    },
+    {
+      "what": "Budding Amethyst",
+      "change": "Drops itself when mined with Silk Touch (vanilla never drops it). Without Silk Touch it drops nothing, as in vanilla.",
+      "kind": "loot"
+    },
+    {
+      "what": "Player Head (placed block)",
+      "change": "Breaking a placed player head keeps all of its data components (name, lore, rarity, etc.), not only the skin, custom name and note-block sound. This keeps custom heads (mob heads, Mini blocks) intact when picked up.",
+      "kind": "loot"
+    },
+    {
+      "what": "Beacon base blocks",
+      "change": "Beacons can also be powered by Copper Block (all four oxidation stages and the waxed versions), Lapis Lazuli Block, Redstone Block, Coal Block, Quartz Block, Smooth Quartz and Amethyst Block, in addition to vanilla netherite, emerald, diamond, gold and iron blocks.",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Mob heads on kill",
+      "change": "Most mobs gain extra player-head drops (see World of Pannotia: More Mob Heads). Zombie, Skeleton, Creeper and Piglin get vanilla-style heads from the pannotia module instead, and Tropical Fish gets named variant heads.",
+      "kind": "loot"
+    },
+    {
+      "what": "Ender Dragon, Husk, Parched, Camel Husk, Shulker",
+      "change": "Wrapper tables add the dragon_drops, husks_drop_sand and looting_shulker_shells extras.",
+      "kind": "loot"
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Wrapper structure",
+      "description": "For about 88 entity loot tables, minecraft:entities/<mob> has pool 1 = vanilla:entities/<mob> (identical to real vanilla) and pool 2 = more_mob_heads:entities/<mob>, plus extra pools where applicable: husks_drop_sand (husk, parched, camel husk), looting_shulker_shells (shulker), dragon_drops (ender dragon), pannotia (creeper, piglin, skeleton, zombie, tropical fish), and bat_membranes / villager_death (bat, villager; see notes). The 16 sheep colour tables are identical to vanilla."
+    },
+    {
+      "title": "Mobs without a head wrapper",
+      "description": "Happy Ghast has heads only (no vanilla pool in the wrapper). Mobs not overridden keep pure vanilla loot (for example Wither Skeleton, which has vanilla skull drops)."
+    }
+  ],
+  "related_units": [
+    "datapacks__world-of-pannotia__vanilla",
+    "datapacks__world-of-pannotia__more_mob_heads",
+    "datapacks__world-of-pannotia__pannotia",
+    "datapacks__world-of-pannotia__dragon_drops",
+    "datapacks__world-of-pannotia__husks_drop_sand",
+    "datapacks__world-of-pannotia__looting_shulker_shells",
+    "datapacks__silk-touch-budding-amethyst"
+  ],
+  "editor_notes": "Bat and villager tables reference loot tables in namespaces bat_membranes and villager_death, which exist nowhere in the pack (leftovers from removed datapacks); they resolve to nothing but may log validation errors. Another pack datapack (silk-touch-budding-amethyst) overlaps the budding amethyst change; check the unit ID in batches.json. The module also ships tags/function/load.json and tick.json pointing at vdf:load and vdf:tick, which do not exist (template leftover).",
+  "unit": "datapacks__world-of-pannotia__minecraft",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/minecraft/"
+  ],
+  "confidence": "high"
+}

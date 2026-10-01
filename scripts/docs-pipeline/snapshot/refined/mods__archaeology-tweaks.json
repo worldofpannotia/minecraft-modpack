@@ -1,0 +1,62 @@
+{
+  "secondary_categories": [
+    "Enchanting & Magic",
+    "Villagers & Trading",
+    "Loot & Drops"
+  ],
+  "new_content": [
+    {
+      "name": "Suspicious Clay, Dirt, Mud, Packed Mud, Red Sand, Rooted Dirt, Soul Sand, Soul Soil",
+      "type": "block",
+      "how_to_obtain": "Found in the world as small rare deposits (e.g. clay near rivers and beaches, soul sand in Soul Sand Valley); not crafted.",
+      "notes": "Brushed with a brush like vanilla suspicious sand/gravel to reveal loot; sand-like variants fall as gravity blocks. Loot is table-driven and datapack-customizable."
+    },
+    {
+      "name": "Gentle Touch",
+      "type": "enchantment",
+      "how_to_obtain": "Not stated in facts; check enchanting/villager trades in-game.",
+      "notes": "Can give a second drop from a block (see 'Lucky Block' advancement). Exact effect to verify."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Brushing",
+      "description": "Equip a brush and hold right-click on a suspicious block to excavate it."
+    },
+    {
+      "title": "Advancements",
+      "description": "Five advancements: root 'Dig a little deeper', First Dig (use a brush), Preservationist (collect every pottery sherd), Interdimensional Archaeology (brush a suspicious block in the Nether), Lucky Block (second drop via Gentle Touch)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Wandering trader",
+      "change": "20% chance of offering a random pottery sherd for 8 emeralds and a brick.",
+      "kind": "trading"
+    },
+    {
+      "what": "Archaeology",
+      "change": "Many more brushable suspicious block types generate in the world.",
+      "kind": "worldgen"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Carry a brush and look for suspicious blocks in rivers, beaches, mud areas and the Nether.",
+  "related_units": [
+    "chimericlib",
+    "architectury-api-fabric-forge"
+  ],
+  "sources": [
+    "authorReadme (facts)"
+  ],
+  "editor_notes": "Enchantment description not in readme; verify Gentle Touch in-game.",
+  "name": "Archaeology Tweaks",
+  "kind": "mod",
+  "category": "World Generation & Exploration",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Extends vanilla archaeology beyond suspicious sand and gravel. New brushable suspicious blocks generate naturally as small deposits in fitting biomes, plus a new enchantment, advancements and a wandering trader trade for pottery sherds. Written by the pack author.",
+  "confidence": "high",
+  "unit": "mods__archaeology-tweaks"
+}

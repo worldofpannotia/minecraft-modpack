@@ -1,0 +1,30 @@
+{
+  "name": "Craftable Coral Blocks (2x2)",
+  "unit": "datapacks__vanillatweaks__coral_blocks",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets you craft coral blocks from 2x2 squares of coral or coral fans. Useful for getting coral blocks without silk touch.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Coral blocks (brain, bubble, fire, horn, tube)",
+      "change": "2x2 of the matching live coral and/or coral fan (any mix of the two, via an item tag) -> 1 coral block of that type. Dead coral is not included.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Recipes accept the matching coral and coral fan interchangeably (tags coral_blocks:<type>_coral list only the live coral and live fan). Part of the bundled VanillaTweaks Crafting Tweaks datapack."
+}

@@ -1,0 +1,103 @@
+{
+  "name": "VanillaTweaks Crafting Tweaks (vanilla recipe overrides)",
+  "unit": "datapacks__vanillatweaks__minecraft",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "The part of the VanillaTweaks Crafting Tweaks datapack that lives in the minecraft namespace. It overrides vanilla stair, trapdoor, wood/hyphae and brick recipes to give more output per craft, and adds extra recipes for slabs, black dye, bread, paper and shulker boxes.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Block <-> slab <-> stair conversion",
+      "description": "Together with the Back to Blocks module, slabs and stairs can go both ways: 1 block -> 2 slabs (shapeless), 2 slabs -> 1 block, 6 blocks -> 8 stairs, 4 stairs -> 3 blocks."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Stairs (about 57 types: all wood planks incl. bamboo and bamboo mosaic, stone, cobblestone, mossy, stone/deepslate/tuff/blackstone variants, bricks of all kinds, prismarine, purpur, quartz, smooth quartz, sandstone and red sandstone variants, all cut copper stages incl. waxed)",
+      "change": "Same shaped recipe as vanilla (6 blocks in the stair shape) but now yields 8 stairs instead of 4.",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Wooden trapdoors (oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, bamboo, crimson, warped)",
+      "change": "Same 2x3 planks layout (6 planks) but yields 12 trapdoors instead of 2. Iron trapdoor is not changed; copper trapdoor is only regrouped (still 2x2 copper ingots -> 1).",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Wood and hyphae blocks (oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak wood; crimson and warped hyphae; and their stripped versions)",
+      "change": "Same 2x2 log/stem recipe but yields 4 instead of 3.",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Bricks",
+      "change": "2x2 bricks -> 4 brick blocks instead of 1.",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Stone brick stairs",
+      "change": "Now also accept chiseled and cracked stone bricks (vanilla: only plain stone bricks), in addition to the 8-per-craft change.",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Purpur stairs",
+      "change": "Ingredient now only purpur block; vanilla also accepted purpur pillar. This is a minor regression from the vanilla recipe (8 stairs per craft otherwise).",
+      "kind": "recipe-changed"
+    },
+    {
+      "what": "Slabs (47 non-wood types incl. waxed copper slabs, smooth stone/quartz/sandstone slabs, bamboo mosaic)",
+      "change": "New shapeless recipe: 1 block -> 2 slabs (vanilla gives 6 slabs from 3 blocks in a row, which is still available).",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Smooth stone",
+      "change": "2x2 smooth stone slabs -> 2 smooth stone (extra, in addition to the 2-slabs recipe from Back to Blocks).",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Black dye",
+      "change": "Shapeless: 1 coal -> 1 black dye; 1 charcoal -> 1 black dye.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Bread",
+      "change": "Shapeless: 3 wheat (any arrangement) -> 1 bread.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Paper",
+      "change": "Shapeless: 3 sugar cane (any arrangement) -> 3 paper.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Shulker box",
+      "change": "Shapeless: 2 shulker shells + 1 chest (any arrangement) -> 1 shulker box.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Packed ice and copper trapdoor",
+      "change": "Overridden with a recipe group added but identical ingredients/output; no gameplay change.",
+      "kind": "other"
+    }
+  ],
+  "qol": [
+    "Shapeless versions of bread, paper and shulker box remove the need to place items in a specific pattern."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to enable: stairs, trapdoors, wood and bricks simply give more per craft. Craft slabs by putting a single block in the crafting grid.",
+  "related_units": [
+    "datapacks__vanillatweaks__more_stairs",
+    "datapacks__vanillatweaks__slabs_stairs_to_block",
+    "datapacks__vanillatweaks__crafting",
+    "datapacks__vanillatweaks__uncraftable_ice"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files in client/overrides/datapacks/vanillatweaks/data/minecraft/recipe/ (145 recipes) compared against vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "145 recipe files compared with vanilla: 93 overrides changing counts (stairs 8x, trapdoors 12x (that is the data value; vanilla 2), wood/hyphae 4x, bricks 4x), 2 cosmetic overrides (packed_ice, copper_trapdoor), 47 slab and 3 straight-to-shapeless and 2 dye recipes added. 'Stairs about 57' includes stone and stone-brick stairs; vanilla stair recipes use the pattern shown. Stripped wood/hyphae and bark recipes come from the More Bark tweak; 12 trapdoors per craft (VanillaTweaks More Trapdoors) is large and likely worth verifying in-game. Selected pack list (Selected Packs.txt): unpackable wool/nether wart/ice, craftable blackstone/bundles rabbit hide/coral/gravel, more bricks/stairs/bark/trapdoors, powder to glass, blackstone cobblestone, straight to shapeless, universal/sandstone dyeing, coal/charcoal to black dye, copper powered rails, rotten flesh to leather, dropper to dispenser, double slabs, back to blocks."
+}

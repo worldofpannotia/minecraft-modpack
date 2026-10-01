@@ -1,0 +1,38 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Suitability ranking",
+      "description": "Compares your current height with each ore's best detected height and lists them in order, optionally showing a percentage. The percentage is not an absolute spawn chance."
+    },
+    {
+      "title": "Customizing the list",
+      "description": "Add any registered block via the config screen (search by name or registry ID). Selected blocks stay visible even below the minimum suitability. Other options: HUD position, icons, UI scale, animated reordering, update interval, max entries."
+    }
+  ],
+  "qol": [
+    "Quick check of the best Y level for each ore while mining"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__mod-menu",
+    "mods__minihud"
+  ],
+  "secondary_categories": [
+    "World Generation & Exploration"
+  ],
+  "getting_started": "Open the mod's config (via Mod Menu) to move the HUD, pick which blocks are shown and set the minimum suitability.",
+  "editor_notes": "Facts contain only the config strings. No default keybind is known. How it determines the best height (worldgen data vs. built-in) was not verified.",
+  "player_facing": true,
+  "confidence": "medium",
+  "name": "Ore Height Indicator",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "A compact HUD overlay that ranks ores (and any extra blocks you add) by how suitable your current height is for finding them.",
+  "sources": [
+    "facts/mods/ore-height-indicator.json (config strings only; no description page in facts)"
+  ],
+  "unit": "mods__ore-height-indicator",
+  "kind": "mod"
+}

@@ -1,0 +1,55 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Info lines",
+      "description": "Many individually toggleable HUD lines, including coordinates (and dimension-scaled coordinates), block/chunk position, biome, difficulty, block break speed, chunk updates, entity counts, targeted hive/nest bee count, and comparator output."
+    },
+    {
+      "title": "Overlay renderers",
+      "description": "Light level, slime chunks, world spawn chunks, structure bounding boxes, region file boundaries, and shape renderers (circles, spheres)."
+    },
+    {
+      "title": "Structure bounding boxes",
+      "description": "Work in singleplayer, and on servers only if Servux is installed on the server."
+    },
+    {
+      "title": "Slime chunk overlay",
+      "description": "Shows which chunks can spawn slimes; it does not show the slime spawn height range."
+    },
+    {
+      "title": "Item tooltips",
+      "description": "Optional extra tooltip lines: food nutrition/saturation, bundle contents count, bee count and honey level on hives, axolotl variant on buckets, lodestone compass target, custom model identifiers."
+    }
+  ],
+  "qol": [
+    "Extra item tooltips for food, bundles, hives and lodestone compasses"
+  ],
+  "commands_and_keybinds": [
+    "H: master toggle for all MiniHUD rendering (info lines and overlays)",
+    "H + C: open the in-game config menu",
+    "Other hotkeys are bound in the config menu"
+  ],
+  "related_units": [
+    "mods__malilib",
+    "mods__mod-menu"
+  ],
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "getting_started": "Press H + C to open the config menu, enable the info lines you want, and bind hotkeys for the overlays you use (for example light level and slime chunks). Press H to hide everything.",
+  "editor_notes": "Requires MaLiLib. Client-only; should not be on the server. Whether Servux is on the pack's server is not confirmed (needed for structure boxes in multiplayer). Config option set is large; mention only the main features.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "MiniHUD",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "A client-side \"mini F3\" mod. You pick which info lines (coordinates, biome, facing, and more) appear on the HUD, and it adds optional overlay renderers such as light level, slime chunks, spawn chunks, structure bounding boxes, and region file boundaries.",
+  "sources": [
+    "facts/mods/minihud.json (modrinth body)",
+    "https://modrinth.com/mod/minihud"
+  ],
+  "unit": "mods__minihud",
+  "kind": "mod"
+}

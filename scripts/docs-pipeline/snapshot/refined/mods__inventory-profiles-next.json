@@ -1,0 +1,61 @@
+{
+  "secondary_categories": [
+    "Quality of Life",
+    "Interface & HUD"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Sorting",
+      "description": "Sorts the player inventory or an open container. The sort order is configurable, including an option that follows Creative menu order and custom rule files in config/inventoryprofilesnext."
+    },
+    {
+      "title": "Move matching / move all",
+      "description": "One-click or hotkey transfer of all items, or only items matching those already in the target, between inventory and container. Modifier keys can include the hotbar, move everything, restrict to the item type under the cursor, or only refill existing stacks."
+    },
+    {
+      "title": "Locked slots",
+      "description": "Slots can be locked so sorting and bulk moves ignore them. Locks can be stored separately per world/server."
+    },
+    {
+      "title": "Auto refill",
+      "description": "Replaces a used-up hotbar stack or broken tool with a matching item from the inventory."
+    },
+    {
+      "title": "Equipment profiles",
+      "description": "Saved gear sets switchable with a single button, set up from the Edit Profiles page in the config GUI."
+    },
+    {
+      "title": "Item scrolling and highlighting",
+      "description": "Scroll over a slot to move items; items matching the one under the cursor can be highlighted. Also has villager-trading helpers."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Dump everything into a chest with one click",
+    "Highlights all items matching the one under the cursor"
+  ],
+  "commands_and_keybinds": [
+    "Config GUI opens via Mod Menu; all hotkeys and modifier keys (include hotbar, move all, only focused item type, just refill stacks) are rebindable there",
+    "Mod page mentions R+C for setting shortcuts; other default keys not verified"
+  ],
+  "getting_started": "Open an inventory or chest and use the sort and move buttons beside it; open the IPN config screen to review or rebind hotkeys.",
+  "related_units": [
+    "mods__libipn",
+    "mods__fabric-language-kotlin",
+    "mods__mod-menu",
+    "mods__easy-shulker-boxes"
+  ],
+  "sources": [
+    "facts/mods/inventory-profiles-next.json (modrinth body, lang keys)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Default keybinds are not in the facts; verify in-game. Requires libIPN and Fabric Language Kotlin.",
+  "name": "Inventory Profiles Next",
+  "unit": "mods__inventory-profiles-next",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "summary": "Client-side inventory management: sort your inventory and containers, move matching items in bulk, lock slots, auto-refill the hotbar, and switch between saved gear sets. Installed on the client only, so it works on any server."
+}

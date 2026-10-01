@@ -1,0 +1,40 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server",
+    "Cosmetic, Visual & Audio"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Head drops on death",
+      "description": "Enabled by default. Drop chance defaults to 1.0 (100%), configurable down to 0.0001."
+    },
+    {
+      "title": "Texture caching",
+      "description": "Skin textures come from the Mojang API and are cached locally by default. A player's new skin does not show on dropped heads until the server restarts or /jph cache is run. Mojang limits repeat requests for the same profile to about one per minute, so a head may occasionally fail to generate when caching is off."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/jph head <playerName> [amount]: give a player head (name ignores capitalisation, amount defaults to 1)",
+    "/jph cache: clear the head texture cache"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "sources": [
+    "facts/mods/just-player-heads.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Command permission level not stated in the facts; presumably operator-only. Heads placed as blocks are also affected by Miniblock Merchants' player_head loot table override.",
+  "name": "Just Player Heads",
+  "unit": "mods__just-player-heads",
+  "kind": "mod",
+  "category": "Loot & Drops",
+  "summary": "Players drop their own head when they die, and a command can spawn any player's head. Heads use stored texture data, so they do not cause lag."
+}

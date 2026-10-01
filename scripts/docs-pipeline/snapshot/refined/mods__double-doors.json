@@ -1,0 +1,35 @@
+{
+  "secondary_categories": [
+    "Redstone & Automation"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Recursive opening",
+      "description": "Connected door-type blocks open together up to a configurable distance (default 10, max 32). Crouching opens only the single block."
+    },
+    {
+      "title": "Enabled types",
+      "description": "By default only doors are enabled; fence gates and trapdoors are off by default in the config."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Click one half of a double door; the other opens too. Sneak to open a single one.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/double-doors"
+  ],
+  "confidence": "high",
+  "editor_notes": "The pack does not override defaults per config-overrides, so trapdoors and fence gates likely do not open as pairs; verify in-game. Mod edits configs of other double-door mods to avoid double-triggering.",
+  "unit": "mods__double-doors",
+  "kind": "mod",
+  "name": "Double Doors",
+  "category": "Quality of Life",
+  "summary": "Matching double doors open and close together with one click, button or pressure plate. Connected door-type blocks are opened recursively, and villagers can use double doors."
+}

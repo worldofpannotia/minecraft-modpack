@@ -1,0 +1,29 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Hit targeting through non-solid blocks",
+      "description": "The melee target ray ignores blocks without a collision shape, so swings hit the mob instead of the grass or similar block in front of it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to configure; just attack mobs standing in grass.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/cut-through"
+  ],
+  "confidence": "high",
+  "editor_notes": "Modrinth lists it as client-required, server unsupported. Needs Puzzles Lib and Forge Config API Port.",
+  "unit": "mods__cut-through",
+  "kind": "mod",
+  "name": "Cut Through",
+  "category": "Quality of Life",
+  "summary": "Attacks pass through blocks with no collision shape, such as tall grass, so you can hit mobs behind them without breaking the plant."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Fire Spread Tweaks",
+  "unit": "mods__fire-spread-tweaks",
+  "kind": "mod",
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Fire",
+      "change": "Sets doFireTick to false on first world load so fire does not spread; fires burn out after about 10-20 s (default 300 ticks +/- 100 random). Trees and other flammables may burn briefly but are not destroyed. Fire above netherrack, magma or soul sand stays lit.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body",
+    "https://serilum.com/mod/fire-spread-tweaks"
+  ],
+  "confidence": "high",
+  "editor_notes": "Defaults per Modrinth: timeFireBurnsInTicks 300, random extra -100..+100. No pack config override seen in config-overrides. doFireTick is only set on first world load, so existing worlds may differ.",
+  "category": "Quality of Life",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Stops fire from spreading and destroying blocks, while making fires actually burn out after a delay. Fire on netherrack, magma blocks and soul sand still burns forever."
+}

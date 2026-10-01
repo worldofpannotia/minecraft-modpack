@@ -1,0 +1,41 @@
+{
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Portal addresses",
+      "description": "Blocks in the betterportallinking:portal_address_blocks tag (by default concrete, terracotta and glazed terracotta) on the diagonal corners form the portal's address. Corner order does not matter and a block can repeat."
+    },
+    {
+      "title": "Matching",
+      "description": "The portal with the most matching corners wins; ties go to the closest portal, then a consistent tiebreak so a portal always leads to the same place. No match in range falls back to vanilla linking."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Nether portal linking",
+      "change": "Frame corner blocks influence which destination portal is used.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Put the same colored concrete block on the corners of both your Overworld and Nether portal frames.",
+  "related_units": [
+    "chimericlib"
+  ],
+  "sources": [
+    "authorReadme (facts)"
+  ],
+  "editor_notes": "Config options: enable address linking (default true), log linking decisions. Tag can be extended by datapack.",
+  "name": "Better Portal Linking",
+  "kind": "mod",
+  "category": "Transport & Movement",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Lets you choose which Nether and Overworld portals connect by placing matching blocks on the four diagonal corners of the portal frames. Portals without matching corners behave like vanilla. Made by the pack author.",
+  "confidence": "high",
+  "unit": "mods__better-portal-linking"
+}

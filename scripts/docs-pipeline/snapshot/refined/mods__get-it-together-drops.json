@@ -1,0 +1,46 @@
+{
+  "name": "Get It Together, Drops!",
+  "unit": "mods__get-it-together-drops",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "secondary_categories": [
+    "Loot & Drops"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets dropped item entities merge with others over a larger area, which reduces lag from piles of loose items such as explosion craters or farm outputs. Works server-side; players need nothing installed.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Merge radius",
+      "description": "Config 'radius' (0.5 to 500) is how far an item searches for others to merge with; 0.5 is vanilla."
+    },
+    {
+      "title": "Vertical check",
+      "description": "Config 'checkY' makes items also look above and below; false is vanilla."
+    },
+    {
+      "title": "Item tags",
+      "description": "getittogetherdrops:do_not_combine stops listed items from merging; getittogetherdrops:ignored makes listed items use vanilla behavior and takes precedence."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Item entity merging",
+      "change": "Dropped items can merge across a configurable radius rather than the vanilla 0.5 blocks.",
+      "kind": "other"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__leaky-item-lag-fix-forge-fabric",
+    "mods__forge-config-api-port-fabric"
+  ],
+  "sources": [
+    "facts/mods/get-it-together-drops.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "The pack's configured radius/checkY values were not found in config-overrides; defaults assumed vanilla-equivalent unless the config says otherwise (verify)."
+}

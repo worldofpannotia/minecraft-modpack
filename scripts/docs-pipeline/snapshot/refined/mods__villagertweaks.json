@@ -1,0 +1,70 @@
+{
+  "secondary_categories": [],
+  "new_content": [
+    {
+      "name": "Bagged Villager",
+      "type": "item",
+      "how_to_obtain": "Shift-right-click a villager while holding a Bundle.",
+      "notes": "Stores the villager and its trades. Use it on the ground to place the villager back; the item turns back into a plain Bundle."
+    },
+    {
+      "name": "Bag and Tag",
+      "type": "other",
+      "how_to_obtain": "Advancement: bag a villager who has reached max trading level.",
+      "notes": ""
+    },
+    {
+      "name": "Pied Piper",
+      "type": "other",
+      "how_to_obtain": "Advancement: lure 8 villagers to you at the same time.",
+      "notes": ""
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Pack configuration (villagertweaks.json5)",
+      "description": "Max trade override: off (vanilla trade limits). Demand modifier: on (heavily traded offers get pricier, as in vanilla). Global reputation: off (reputation is per player). Negative reputation: on (hitting or killing villagers lowers reputation). Zombie conversion: forced on, so zombies always convert villagers instead of killing them regardless of difficulty. Cure time: overridden to a fixed 3600 ticks (3 minutes) and the remaining time is displayed. Emerald temptation: on, villagers follow you while you hold an emerald block, emerald ore or deepslate emerald ore."
+    },
+    {
+      "title": "Options left at defaults",
+      "description": "Max-discount cap (off), grow-up time override and display (off), leashing nitwits (off)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Zombie villager conversion",
+      "change": "Zombies always convert villagers rather than killing them, and cured zombie villagers take a fixed 3600 ticks (3 minutes) with a displayed countdown.",
+      "kind": "mob-behavior"
+    },
+    {
+      "what": "Villager following",
+      "change": "Villagers follow players holding an emerald block, emerald ore or deepslate emerald ore.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [
+    "Move villagers with a Bundle instead of boats or minecarts.",
+    "Cure timer display."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold a Bundle and shift-right-click a villager to bag it; use the Bagged Villager on the ground to release it.",
+  "related_units": [
+    "mods__villager-death-messages",
+    "mods__zombie-villagers-from-spawner",
+    "mods__yetanotherconfiglib"
+  ],
+  "sources": [
+    "facts/mods/villagertweaks.json (authorReadme)",
+    "facts/other/config-overrides.json (villagertweaks.json5)",
+    "C:/Users/bill/code/minecraft-mods/villager-tweaks (advancement lang)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Config is also editable via YACL/Mod Menu. Demand modifier on means vanilla price behavior is kept.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "VillagerTweaks",
+  "unit": "mods__villagertweaks",
+  "category": "Villagers & Trading",
+  "side": "both",
+  "summary": "The pack author's mod with small villager quality-of-life changes: a Bundle-based way to carry villagers, plus configurable trading, reputation and zombie-cure rules. In this pack, zombies always convert villagers, cures take a fixed 3 minutes with a visible timer, and villagers follow players holding emerald items."
+}

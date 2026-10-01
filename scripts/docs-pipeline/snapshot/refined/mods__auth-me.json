@@ -1,0 +1,29 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Re-authentication",
+      "description": "A button on the multiplayer screen starts Microsoft login (an offline login method also exists). The button position can be changed and dragged."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "If a server rejects you with a session error, use the Auth Me button on the Multiplayer screen to sign in again.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/auth-me (facts)"
+  ],
+  "editor_notes": "Bundles Resourceful Config.",
+  "name": "Auth Me",
+  "kind": "mod",
+  "category": "Multiplayer & Server",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Adds an authentication button to the multiplayer screen so you can log in to your Microsoft account again and re-validate an expired session, avoiding the invalid session error when joining servers.",
+  "confidence": "high",
+  "unit": "mods__auth-me"
+}

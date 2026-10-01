@@ -1,0 +1,37 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Modifier keys",
+      "description": "Bind actions to key combinations using Alt, Ctrl and Shift. Conflicting bindings still turn red as a warning, but multiple functions can share a key."
+    },
+    {
+      "title": "Controls search",
+      "description": "A search bar on the Controls screen filters the long keybind list."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Keybinds added: Toggle Auto Jump, Toggle Cape, Toggle Hat, Toggle Jacket, Toggle Left/Right Sleeve, Toggle Left/Right Pants Leg, and an alternative Escape key (default keys not confirmed)."
+  ],
+  "getting_started": "Open Options > Controls, use the search box, and assign modifier combinations by holding Alt/Ctrl/Shift while binding.",
+  "related_units": [
+    "autorun-fabric"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/amecs (facts)"
+  ],
+  "editor_notes": "Bundled amecs-api-legacy.",
+  "name": "Amecs (Fabric)",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Improves the Controls screen: keybinds can use Alt, Control and Shift modifiers, several actions can share the same key, and the keybind list has a search bar. It also adds keybinds for toggling auto jump and each skin layer.",
+  "confidence": "high",
+  "unit": "mods__amecs-fabric"
+}

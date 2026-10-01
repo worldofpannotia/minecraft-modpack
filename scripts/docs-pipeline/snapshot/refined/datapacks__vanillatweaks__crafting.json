@@ -1,0 +1,58 @@
+{
+  "name": "VT Crafting Helper (Blackstone Redstone Recipes)",
+  "unit": "datapacks__vanillatweaks__crafting",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "A namespace of six extra recipes that let blackstone stand in for cobblestone in several redstone and utility blocks. It is not a library; each file is a real recipe.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Dispenser",
+      "change": "7 blackstone + bow + redstone (### / #B# / #R#) -> dispenser. Vanilla only accepts cobblestone here.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Dropper",
+      "change": "7 blackstone + redstone (### / # # / #R#) -> dropper.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Lever",
+      "change": "stick above blackstone -> lever.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Observer",
+      "change": "6 blackstone + 2 redstone + 1 quartz (### / RRQ / ###) -> observer.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Piston",
+      "change": "3 planks (any) across the top, then blackstone / iron ingot / blackstone, then blackstone / redstone / blackstone (### / BiB / BRB) -> piston (4 blackstone total).",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Brewing stand",
+      "change": "blaze rod above 3 blackstone -> brewing stand. Redundant: vanilla already accepts blackstone via the stone_crafting_materials tag.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__craftable_blackstone",
+    "datapacks__vanillatweaks__dropper_to_dispenser"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Namespace 'crafting' holds 6 recipes only (no tags, advancements, or functions). Piston layout: top row 3 planks, middle row blackstone/iron ingot/blackstone, bottom row blackstone/redstone/blackstone (4 blackstone total). Vanilla dispenser/dropper/lever/observer/piston use cobblestone only; brewing stand uses the stone_crafting_materials tag (cobblestone, blackstone, cobbled deepslate), so that one adds nothing. Cobbled deepslate is not accepted by the other five."
+}

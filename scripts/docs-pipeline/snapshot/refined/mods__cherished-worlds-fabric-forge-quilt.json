@@ -1,0 +1,32 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Favorites",
+      "description": "Click the star next to a world icon to bookmark it. Bookmarked worlds are pinned to the top (ordered by last played) and cannot be deleted until unmarked. Works for single-player and multiplayer lists."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Pin favorite worlds and servers",
+    "Protects against accidental deletion"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Click the star beside a world on the select screen.",
+  "related_units": [],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Cherished Worlds",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Adds a star icon next to every world and server on the select screens. Starred worlds sort to the top and cannot be deleted until unstarred.",
+  "unit": "mods__cherished-worlds-fabric-forge-quilt"
+}

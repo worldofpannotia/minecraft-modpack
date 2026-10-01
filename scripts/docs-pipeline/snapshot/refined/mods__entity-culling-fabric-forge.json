@@ -1,0 +1,22 @@
+{
+  "name": "Entity Culling",
+  "unit": "mods__entity-culling-fabric-forge",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: jar metadata"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "category": "Performance & Technical",
+  "side": "client",
+  "player_facing": false,
+  "summary": "Performance mod that uses async path-tracing to skip rendering and ticking of entities and block entities hidden behind walls. Client-side, no gameplay changes."
+}

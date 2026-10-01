@@ -1,0 +1,24 @@
+{
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Tooltip style is selectable in the config file."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Hover over a tool or armor piece.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/durability-tooltip"
+  ],
+  "confidence": "high",
+  "editor_notes": "Works without a server install. Style default unknown.",
+  "unit": "mods__durability-tooltip",
+  "kind": "mod",
+  "name": "Durability Tooltip",
+  "category": "Interface & HUD",
+  "summary": "Adds a durability line to item tooltips in one of three styles: numbers (e.g. 120 / 250), a bar, or text (Pristine, Slightly damaged, Severely damaged, Nearly broken, Broken)."
+}

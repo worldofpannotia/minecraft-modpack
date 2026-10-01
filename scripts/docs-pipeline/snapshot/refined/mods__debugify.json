@@ -1,0 +1,32 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Configuration",
+      "description": "Edit config/debugify.json, or use the GUI (needs YACL and Mod Menu). Includes an option to default newly added fixes to off. One fix (MC-237493) can reduce or disable telemetry."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Bug fixes apply automatically; no player action needed."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/debugify",
+    "https://github.com/isXander/Debugify/"
+  ],
+  "confidence": "medium",
+  "editor_notes": "The full list of fixed bugs is not in the facts.",
+  "unit": "mods__debugify",
+  "kind": "mod",
+  "name": "Debugify",
+  "category": "Performance & Technical",
+  "summary": "Fixes over 70 vanilla bugs from the Mojang bug tracker, on both client and server, and nothing else. Individual fixes can be toggled in a config."
+}

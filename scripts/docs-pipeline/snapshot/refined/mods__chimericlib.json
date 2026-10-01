@@ -1,0 +1,22 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Has a block get/set/update debug command (from lang strings) used for development.",
+  "secondary_categories": [],
+  "player_facing": false,
+  "kind": "mod",
+  "name": "ChimericLib",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Shared library with common code for the pack author's (chimericdream) mods.",
+  "unit": "mods__chimericlib"
+}

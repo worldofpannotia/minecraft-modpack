@@ -1,0 +1,50 @@
+{
+  "name": "Homes",
+  "unit": "datapacks__homes",
+  "kind": "datapack",
+  "category": "Transport & Movement",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets each player save named home locations and teleport to them with /trigger commands. By default each player may set one home.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Home IDs",
+      "description": "Homes are numbered. Plain /trigger sethome is home 1; /trigger sethome set 2 is home 2, and so on. You can only add a new ID while under the maximum home limit (default 1 home per player; operators can raise it, and a per-player override exists via the homes.limit scoreboard). Setting an existing ID overwrites that home. If you exceed the limit: 'You can only set a maximum of N home(s).'"
+    },
+    {
+      "title": "Naming homes",
+      "description": "Hold a name tag that already has a custom name (rename it in an anvil) in your main hand and run /trigger namehome (or /trigger namehome set <ID>). Holding an unnamed name tag resets the home to its default name. Without a name tag you get an error."
+    },
+    {
+      "title": "Teleporting",
+      "description": "/trigger home (or /trigger home set <ID>) teleports you to that home, across dimensions. Defaults: 0 tick delay and 0 second cooldown; with a delay you must stand still ('You must stand still to teleport.'). Your previous position is saved for /trigger back."
+    },
+    {
+      "title": "Listing and deleting",
+      "description": "/trigger homes lists your homes ('You are homeless.' if none). /trigger delhome (or /trigger delhome set <ID>) deletes one."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/trigger sethome  and  /trigger sethome set <ID>",
+    "/trigger home  and  /trigger home set <ID>",
+    "/trigger homes",
+    "/trigger namehome  and  /trigger namehome set <ID>  (hold a renamed name tag in main hand)",
+    "/trigger delhome  and  /trigger delhome set <ID>",
+    "/function homes:config : (operators) Max Home Limit (default 1), Delay in ticks (default 0), Cooldown in seconds (default 0)"
+  ],
+  "getting_started": "Stand at your base and type /trigger sethome. Return any time with /trigger home.",
+  "related_units": [
+    "datapacks__back",
+    "datapacks__spawn"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/homes/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Default limit is 1; no pack config in the repo raises it, so a server operator would need to run /scoreboard players set #limit homes.config <n> if more homes are wanted."
+}

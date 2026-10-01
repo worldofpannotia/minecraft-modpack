@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Automatic screenshot",
+      "description": "A screenshot is taken 1 second (20 ticks) after an advancement is earned, which lets the toast appear in the top right corner. It uses the same code as the F2 key, so files go to the normal screenshots folder."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Documents your journey automatically; the delay (0-100 ticks) and whether the usual 'screenshot taken' chat message is shown (default off) are configurable."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to do; just play. Find the images in the normal screenshots folder.",
+  "related_units": [
+    "BlazeandCave's Advancements Pack"
+  ],
+  "sources": [
+    "Modrinth body (in facts)"
+  ],
+  "editor_notes": "Requires Collective library.",
+  "name": "Advancement Screenshot",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Automatically takes a screenshot each time you earn an advancement, so you build a record of your progress without pressing F2. It works on multiplayer servers with the mod only on your client.",
+  "confidence": "high",
+  "unit": "mods__advancement-screenshot"
+}

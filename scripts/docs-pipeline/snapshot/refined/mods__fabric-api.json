@@ -1,0 +1,22 @@
+{
+  "name": "Fabric API",
+  "unit": "mods__fabric-api",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: jar metadata"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "player_facing": false,
+  "summary": "Core API providing hooks and compatibility features used by almost all Fabric mods."
+}

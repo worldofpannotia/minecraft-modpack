@@ -1,0 +1,22 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__sodium-extra"
+  ],
+  "sources": [],
+  "secondary_categories": [],
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "Sodium",
+  "unit": "mods__sodium",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "side": "client",
+  "summary": "Rendering engine replacement that greatly improves frame rates and reduces stutter."
+}

@@ -1,0 +1,30 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Melon/pumpkin farms",
+      "change": "After a stem-grown block is harvested, if farmland is around it, the dirt block below is automatically tilled.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/keep-my-soil-tilled.json (modrinth body)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Description is terse; exact trigger conditions not verified.",
+  "name": "Keep My Soil Tilled",
+  "unit": "mods__keep-my-soil-tilled",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "summary": "When a pumpkin or melon is harvested, the dirt under its stem is re-tilled automatically, so melon and pumpkin farms are not slowly destroyed."
+}

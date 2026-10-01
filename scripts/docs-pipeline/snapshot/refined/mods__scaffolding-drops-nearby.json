@@ -1,0 +1,31 @@
+{
+  "name": "Scaffolding Drops Nearby",
+  "unit": "mods__scaffolding-drops-nearby",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Breaking a bottom scaffolding block with others chained above it makes all the connected scaffolding drop at the first broken block instead of scattering.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Scaffolding breaking",
+      "change": "Chained scaffolding blocks drop at the position of the broken block.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Break the bottom scaffolding block of a tower.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/scaffolding-drops-nearby",
+    "facts/mods/scaffolding-drops-nearby.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Collective."
+}

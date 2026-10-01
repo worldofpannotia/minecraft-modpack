@@ -1,0 +1,36 @@
+{
+  "name": "Extreme Sound Muffler",
+  "unit": "mods__extreme-sound-muffler-fabric-official",
+  "kind": "mod",
+  "secondary_categories": [
+    "Interface & HUD",
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Muffling",
+      "description": "Open the muffler screen (inventory button or assignable key), choose a sound, optionally set its volume (mute to 90%) and preview it with the play button. Lists: all, muffled, recent, blocks, mods."
+    },
+    {
+      "title": "Anchors",
+      "description": "Up to 10 anchors muffle selected sounds only within a configurable range of a marked position; anchors can be named and moved."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Key to open the muffler screen can be assigned in Controls (default not documented); the inventory button can be dragged with right mouse or disabled in config"
+  ],
+  "getting_started": "Click the muffler button in your inventory, then click the button next to the sound you want to silence.",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Default keybind not in facts. Client only; installing on server does nothing.",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side mod to mute or lower the volume of almost any sound, chosen from an in-game list. Includes ranged 'anchors' that muffle sounds only near a set position."
+}

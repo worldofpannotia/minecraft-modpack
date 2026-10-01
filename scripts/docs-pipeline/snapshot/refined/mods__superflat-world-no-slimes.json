@@ -1,0 +1,30 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Slime spawning",
+      "change": "Slimes no longer spawn in superflat worlds.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/superflat-world-no-slimes.json"
+  ],
+  "secondary_categories": [],
+  "editor_notes": "Only matters in superflat world types; likely no effect in the standard pack world.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Superflat World No Slimes",
+  "unit": "mods__superflat-world-no-slimes",
+  "kind": "mod",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Stops slimes from spawning in superflat worlds."
+}

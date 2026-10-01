@@ -1,0 +1,35 @@
+{
+  "secondary_categories": [
+    "Mobs & Creatures"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Datapack tag",
+      "description": "Trim materials in the tag distractingtrims:distracts_piglins have the effect; only gold by default."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Piglin aggression",
+      "change": "Armor pieces trimmed with the gold material count as gold armor for piglin neutrality; normal gold armor still works.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Apply a gold trim to any armor piece at a smithing table and wear it in the Nether.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/distracting-trims"
+  ],
+  "confidence": "high",
+  "editor_notes": "Recommended on both client and server.",
+  "unit": "mods__distracting-trims",
+  "kind": "mod",
+  "name": "Distracting Trims",
+  "category": "Tools, Weapons & Armor",
+  "summary": "Armor with a gold trim keeps piglins from attacking you, just like gold armor pieces do."
+}

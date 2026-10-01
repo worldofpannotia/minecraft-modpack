@@ -1,0 +1,30 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Rain growth bonus",
+      "description": "While raining, each supported crop has a 1-in-X chance per tick to grow an extra step. X is configurable, optionally per crop, with a separate speed for stem crops (melon/pumpkin). Setting a crop's speed to 0 disables the boost for it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Plant crops outdoors; they grow faster during rain.",
+  "related_units": [
+    "mods__right-click-harvest"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/crops-love-rain",
+    "https://codeberg.org/ThePoultryMan/Crops-Love-Rain"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Default speed values not in facts; the pack does not override this mod's config. Whether sky exposure is required is unknown.",
+  "unit": "mods__crops-love-rain",
+  "kind": "mod",
+  "name": "Crops Love Rain",
+  "category": "Farming, Food & Animals",
+  "summary": "Crops get extra growth ticks while it is raining. Affects soil-based crops (wheat, carrots, etc.), bamboo, saplings and sugar cane."
+}

@@ -1,0 +1,45 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Rules",
+      "description": "Settings managed with /carpet, e.g. movableBlockEntities (pistons push chests) and hopperCounters. See the Carpet wiki for the full list."
+    },
+    {
+      "title": "Tick control",
+      "description": "/tick warp runs the game as fast as the computer allows for testing farms."
+    },
+    {
+      "title": "Scarpet",
+      "description": "In-game scripting language with built-in apps."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/carpet",
+    "/tick",
+    "/log",
+    "/player",
+    "/script"
+  ],
+  "getting_started": "Use /carpet to view or change rules. Needs operator permission.",
+  "related_units": [],
+  "sources": [
+    "facts json (modrinth body)",
+    "https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings"
+  ],
+  "confidence": "medium",
+  "editor_notes": "No pack carpet config found in config overrides; check client/overrides for whether any rules are enabled. /player and /script are from general knowledge of Carpet, not facts.",
+  "secondary_categories": [
+    "Multiplayer & Server",
+    "Redstone & Automation"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Carpet",
+  "category": "Performance & Technical",
+  "side": "both",
+  "summary": "Technical tooling mod (Fabric Carpet) that provides many toggleable rules and commands for technical play: tick control, loggers, hopper counters, fake players and the Scarpet scripting language. Most rules are off by default.",
+  "unit": "mods__carpet"
+}

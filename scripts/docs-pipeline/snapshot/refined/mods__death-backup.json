@@ -1,0 +1,35 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Backups",
+      "description": "On death, inventory and gear are written to a file in the world folder (data/deathbackup), in a folder per player name. A reminder message is sent to players with command access (configurable)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/deathbackup - show available commands",
+    "/deathbackup list - list recent deaths with indices (0 is the latest)",
+    "/deathbackup load <index> - restore that backup"
+  ],
+  "getting_started": "If you die and have operator access, run /deathbackup load 0. Otherwise ask a server operator.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/death-backup"
+  ],
+  "confidence": "high",
+  "editor_notes": "Loading requires cheat-access (operator), so regular players need an admin.",
+  "unit": "mods__death-backup",
+  "kind": "mod",
+  "name": "Death Backup",
+  "category": "Multiplayer & Server",
+  "summary": "Saves a copy of each player's inventory and gear just before they die. Players with cheat/operator access can restore it with a command."
+}

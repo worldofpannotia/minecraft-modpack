@@ -1,0 +1,44 @@
+{
+  "secondary_categories": [
+    "Cosmetic, Visual & Audio"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Uploading audio",
+      "description": "Upload by URL, from a file in the server's audioplayer_uploads folder, or via Filebin, without a restart. Upload size limit and command permissions are configurable by server admins."
+    },
+    {
+      "title": "Applying audio",
+      "description": "Hold a music disc, goat horn or player head and apply the uploaded audio; holding a shulker box, bundle or other container applies it to every compatible item inside. Audio range can be set per item."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/audioplayer - general upload information",
+    "/audioplayer url \"<link>\" - upload from URL",
+    "/audioplayer serverfile \"<file>\" - upload a file from the server folder",
+    "/audioplayer filebin - upload via Filebin",
+    "/audioplayer apply <id or file name> - apply to held item",
+    "/audioplayer range <range> - set audio range of held item",
+    "/audioplayer info - show audio info of held item",
+    "/audioplayer search <name> - search uploaded audio"
+  ],
+  "getting_started": "Run /audioplayer for instructions, upload a file, then hold a music disc and run /audioplayer apply.",
+  "related_units": [
+    "Simple Voice Chat"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/audioplayer (facts)"
+  ],
+  "editor_notes": "Command argument names partly stripped in the source; permissions may restrict commands for non-ops.",
+  "name": "AudioPlayer",
+  "kind": "mod",
+  "category": "Multiplayer & Server",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Server-side mod that lets players upload their own mp3 or wav audio and attach it to music discs, goat horns and note blocks with heads. No resource pack or client mod is needed, but Simple Voice Chat is required.",
+  "confidence": "high",
+  "unit": "mods__audioplayer"
+}

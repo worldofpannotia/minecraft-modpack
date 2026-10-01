@@ -1,0 +1,32 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Totem of Undying",
+      "change": "Triggers when carried anywhere in the player's inventory, not just held in a hand.",
+      "kind": "other"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Carry a totem of undying in your inventory.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/inventory-totem.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Server-side only (Serilum); needs Collective.",
+  "name": "Inventory Totem",
+  "unit": "mods__inventory-totem",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "summary": "The totem of undying works from anywhere in the inventory instead of only the main or off hand. The resurrection effect is unchanged."
+}

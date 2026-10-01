@@ -1,0 +1,30 @@
+{
+  "secondary_categories": [
+    "Farming, Food & Animals"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Axolotl bucket item texture",
+      "change": "Texture reflects the axolotl variant and age (client-side visual only).",
+      "kind": "other"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to do; scoop up an axolotl and look at the bucket.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/axolotl-bucket-fix (facts)"
+  ],
+  "editor_notes": "Also has textures for More Axolotl Variants.",
+  "name": "Axolotl Bucket Fix",
+  "kind": "mod",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Makes axolotl buckets show the actual axolotl color inside, instead of always showing the pink axolotl. It also adds baby axolotl textures so you can tell the age of what is in the bucket.",
+  "confidence": "high",
+  "unit": "mods__axolotl-bucket-fix"
+}

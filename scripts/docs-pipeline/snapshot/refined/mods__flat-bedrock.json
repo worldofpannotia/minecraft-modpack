@@ -1,0 +1,28 @@
+{
+  "name": "Flat Bedrock",
+  "unit": "mods__flat-bedrock",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Bedrock generation",
+      "change": "Overworld/Nether floor collapsed to a flat layer (default thickness 1); Nether roof flat or removable; bedrock can be swapped for another block per dimension. The End is unchanged.",
+      "kind": "worldgen"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Applies automatically in new chunks; already-explored terrain keeps vanilla bedrock.",
+  "related_units": [],
+  "sources": [
+    "facts: authorReadme (pack author's own mod)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Pack author's own mod (chimericdream). Needs Architectury and YACL. Config-overrides has no entry, so defaults are assumed.",
+  "category": "World Generation & Exploration",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Replaces vanilla's jagged multi-layer bedrock with a flat layer: by default 1 block at the bottom of the world and a flat roof in the Nether. Only affects newly generated chunks."
+}

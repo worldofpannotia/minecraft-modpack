@@ -1,0 +1,52 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor",
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Persistent contents",
+      "description": "Items remain in the anvil when the interface closes and are shown on the block."
+    },
+    {
+      "title": "Anvil repair",
+      "description": "Use iron blocks on a damaged anvil to restore it; anvils are less likely to be damaged or break."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Anvil costs",
+      "change": "Reduced prior-work penalty, cheaper enchanted book application, fewer \"too expensive\" cases, free renaming.",
+      "kind": "enchanting"
+    },
+    {
+      "what": "Anvil naming",
+      "change": "Formatting codes allowed in item names.",
+      "kind": "other"
+    },
+    {
+      "what": "Damaged anvil",
+      "change": "Can be repaired with iron blocks.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Right-click an anvil, place items, close it; they remain.",
+  "related_units": [
+    "mods__grind-enchantments"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/easy-anvils"
+  ],
+  "confidence": "high",
+  "editor_notes": "Exact numbers are config-driven and not in the facts. Needed on both sides. The pack ships a separate grindenchantments config; interplay unverified.",
+  "unit": "mods__easy-anvils",
+  "kind": "mod",
+  "name": "Easy Anvils",
+  "category": "Enchanting & Magic",
+  "summary": "Overhauls the anvil: items stay in it after closing the GUI and render on top, prior-work penalties and costs are much less restrictive, renaming is free and supports formatting codes, and anvils can be repaired with iron blocks and are more durable."
+}

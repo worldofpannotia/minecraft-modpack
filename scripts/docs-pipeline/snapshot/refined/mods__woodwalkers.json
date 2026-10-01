@@ -1,0 +1,45 @@
+{
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Unlocking a shape",
+      "description": "Look directly at a mob and hold the unlock key (default U) for 100 ticks (5 seconds); a 'You feel it tingle' message appears and that mob type becomes your second shape. The config 'unlockOveridesCurrentShape' allows replacing it later."
+    },
+    {
+      "title": "Transforming",
+      "description": "Press the transform key (default G) to switch between your normal and second shape. Per the author, the choice is meant to be permanent unless an op command or config option resets it (for example after death). Your hearts and size match the mob and your nametag stops rendering."
+    },
+    {
+      "title": "Abilities and variants",
+      "description": "Most mobs give abilities (for example walking over lava as a strider, flying as a bat). There is a shape-ability key, a scan key and a variants menu (scroll to cycle variants and confirm with a key)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "U (default) - unlock/scan a mob",
+    "G (default) - transform",
+    "Shape ability, scan and variants-menu keys are listed in Controls"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__xaero-s-minimap",
+    "mods__crafted-core"
+  ],
+  "sources": [
+    "facts/mods/woodwalkers.json",
+    "https://modrinth.com/mod/woodwalkers"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Default U conflicts with Xaero's Minimap waypoint list key (U); rebind one. Requires CraftedCore. Jar is 'Walkers' 8.3.2 with 20+38 shape datapack entries. Permanence of the choice not verified in game.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Woodwalkers",
+  "unit": "mods__woodwalkers",
+  "category": "Mobs & Creatures",
+  "side": "both",
+  "summary": "Lets you unlock a second shape by scanning a mob, then transform into that mob with a key press, taking on its size, health and abilities. Based on the Woodwalkers books and the Identity mod."
+}

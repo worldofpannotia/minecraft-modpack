@@ -1,0 +1,30 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Drowned spawning",
+      "change": "Disabled around players with an active conduit effect (config preventDrownedInRange, default 400, max 400).",
+      "kind": "mob-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Activate a conduit near your underwater base.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "secondary_categories": [],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Conduits Prevent Drowned",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Drowned do not spawn near a player who has the Conduit Power effect. Default range is 400, which blocks all drowned spawns for that player.",
+  "unit": "mods__conduits-prevent-drowned"
+}

@@ -1,0 +1,30 @@
+{
+  "vanilla_changes": [
+    {
+      "what": "Farmland trampling",
+      "change": "A player or mob with Feather Falling armor or the Slow Falling effect does not trample farmland.",
+      "kind": "block-behavior"
+    }
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__collective"
+  ],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "Server-side only; requires Collective.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "No Feather Trample",
+  "category": "Farming, Food & Animals",
+  "side": "server",
+  "summary": "Farmland is no longer trampled when the entity landing on it has Feather Falling boots or the Slow Falling effect.",
+  "sources": [
+    "facts/mods/no-feather-trample.json (modrinth body)"
+  ],
+  "unit": "mods__no-feather-trample",
+  "kind": "mod"
+}

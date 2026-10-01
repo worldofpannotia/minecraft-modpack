@@ -1,0 +1,45 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Text wrapping",
+      "description": "Configurable wrapping modes: Off, Screen width, Remaining width, Half screen width, and Smart (wraps lines much longer than the rest, capped at 3/4 of screen width). Can replace vanilla's own wrapping."
+    },
+    {
+      "title": "Positioning",
+      "description": "Options include Bedrock-style centering on the cursor for oversized tooltips, aligning to the least obstructive screen corner, prioritizing the top of tall tooltips, and preventing vanilla clamping at the left screen edge."
+    },
+    {
+      "title": "Tooltip scrolling",
+      "description": "Hold the Scroll key and use the mouse wheel to scroll a tooltip vertically or horizontally; a separate Horizontal Scroll key is also available. Smooth scrolling, scroll direction (Windows or macOS style) and sensitivity are configurable."
+    },
+    {
+      "title": "Appearance",
+      "description": "Optional tooltip transparency and removal of the extra padding on the first tooltip line."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Long tooltips (for example heavily enchanted items or modded items) no longer run off the screen."
+  ],
+  "commands_and_keybinds": [
+    "Keybinds 'Enable Tooltip Scrolling' and 'Enable Horizontal Scrolling' are assigned in Controls; defaults not confirmed. Hold the key and scroll over a tooltip."
+  ],
+  "getting_started": "Open the config through Mod Menu (YACL screen) and pick a wrapping mode; assign the scroll keys under Controls if you want tooltip scrolling.",
+  "related_units": [
+    "appleskin"
+  ],
+  "sources": [
+    "jar facts (lang/config strings)"
+  ],
+  "editor_notes": "No modrinth body or author readme; behavior inferred from the config strings in the jar. Default values and default keys not verified.",
+  "name": "Adaptive Tooltips",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Improves how item and GUI tooltips are positioned and wrapped so long tooltips stay on screen. Tooltips can also be scrolled with the mouse wheel when they are too tall or wide. Everything is adjustable from the in-game config screen.",
+  "confidence": "medium",
+  "unit": "mods__adaptive-tooltips"
+}

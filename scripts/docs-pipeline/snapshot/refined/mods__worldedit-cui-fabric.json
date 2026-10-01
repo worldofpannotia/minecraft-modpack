@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Configuration",
+      "description": "Colors for cuboid, polygon, ellipsoid and cylinder regions and chunk boundaries are configurable via Mod Menu."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Controls: Toggle CUI visibility, Clear WorldEdit selection, Toggle Chunk Border"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__worldedit"
+  ],
+  "sources": [
+    "facts/mods/worldedit-cui-fabric.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Not useful without WorldEdit.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "WorldEdit CUI",
+  "unit": "mods__worldedit-cui-fabric",
+  "category": "Building & Decoration",
+  "side": "client",
+  "summary": "Client-side display for WorldEdit selections: draws selection outlines and grids in the world. It needs WorldEdit on the server or world."
+}

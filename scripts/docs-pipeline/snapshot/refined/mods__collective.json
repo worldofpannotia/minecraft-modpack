@@ -1,0 +1,20 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "confidence": "high",
+  "editor_notes": "Contains small datapack JSON (collective/json); nothing player-relevant otherwise.",
+  "secondary_categories": [],
+  "player_facing": false,
+  "kind": "mod",
+  "name": "Collective",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Shared library for all of Serilum's mods; manages their configs and shared code.",
+  "unit": "mods__collective"
+}

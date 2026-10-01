@@ -1,0 +1,42 @@
+{
+  "name": "Random Bone Meal Flowers",
+  "unit": "mods__random-bone-meal-flowers",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Bone meal used on grass grows a random flower from the whole list of flower types, in any biome, instead of only biome-appropriate ones. This makes flower farms possible anywhere. The pack blocks a few special flowers from this effect.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Randomized bone meal flowers",
+      "description": "Flowers spawned by bone meal are chosen randomly from all registered flowers (including modded ones), regardless of biome."
+    },
+    {
+      "title": "Pack blacklist",
+      "description": "The pack ships config/randombonemealflowers/blacklist.txt. A leading \"!\" prevents a flower from being spawned by bone meal. Blocked in the pack: golden dandelion, torchflower, wither rose, open eyeblossom, closed eyeblossom, and the Artificial Heart clipped eyeblossom and clipped open eyeblossom. The other listed flowers (dandelion, poppy, blue orchid, allium, azure bluet, the four tulips, oxeye daisy, cornflower, lily of the valley) can spawn."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Bone meal on grass",
+      "change": "Spawns random flowers from all types in any biome, except the pack blacklist (golden dandelion, torchflower, wither rose, eyeblossoms).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Use bone meal on grass blocks anywhere to get a random mix of flowers.",
+  "related_units": [
+    "mods__extended-bone-meal"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/random-bone-meal-flowers",
+    "facts/other/config-overrides.json (randombonemealflowers/blacklist.txt)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Blacklist semantics (! = prevented) taken from the mod description. Requires Collective. Possible overlap with Extended Bone Meal."
+}

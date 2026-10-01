@@ -1,0 +1,38 @@
+{
+  "name": "Spawn",
+  "unit": "datapacks__spawn",
+  "kind": "datapack",
+  "category": "Transport & Movement",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Adds /trigger spawn, which teleports you to the world spawn area with no cost and no default cooldown.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Teleport",
+      "description": "/trigger spawn prints 'Teleporting to world spawn...' and teleports you after the configured delay (default 0 ticks), placing you at the first safe spot (the pack moves up out of solid blocks and down to the ground). Your previous position is saved for /trigger back."
+    },
+    {
+      "title": "Delay and cooldown",
+      "description": "Operator-set: delay (ticks standing still, default 0) and cooldown (seconds between uses, default 0). Messages: 'Your Spawn cooldown will end in N seconds.' and 'You must stand still to teleport.'"
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/trigger spawn : teleport to world spawn",
+    "/function spawn:config : (operators) Delay and Cooldown"
+  ],
+  "getting_started": "Type /trigger spawn anywhere. Use /trigger back to return.",
+  "related_units": [
+    "datapacks__back",
+    "datapacks__homes"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/spawn/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "medium",
+  "editor_notes": "The teleport target is computed from the position the tick function runs at (world origin X 0.5 / Z 0.5, Overworld), then adjusted for safe height, rather than reading the actual world spawn point. Verify in-game that it matches spawn, and whether it works from the Nether/End (probably teleports to the Overworld)."
+}

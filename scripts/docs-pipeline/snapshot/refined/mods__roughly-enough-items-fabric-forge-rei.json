@@ -1,0 +1,44 @@
+{
+  "name": "Roughly Enough Items (REI)",
+  "unit": "mods__roughly-enough-items-fabric-forge-rei",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "secondary_categories": [
+    "Recipes & Crafting Tweaks"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Item and recipe browser shown beside the inventory. Look up recipes and uses, search items, favourite them and fill crafting grids. A server component lets REI receive recipe data.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Advanced search",
+      "description": "@modname searches by mod, #text searches tooltips, $tag searches tags, r/regex/ uses regular expressions, quotes allow spaces, | means OR."
+    },
+    {
+      "title": "Incomplete recipe data",
+      "description": "On servers REI may lack recipe data; an operator can run /recipe give @p * to unlock them."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Recipe and usage lookup",
+    "Favourites by pressing A while hovering",
+    "Craftable filter, dark theme, reduced motion options",
+    "Recipe export keybind (unbound by default)"
+  ],
+  "commands_and_keybinds": [
+    "A - favourite hovered item",
+    "/recipe give @p * - vanilla command to reveal all recipes if data is missing"
+  ],
+  "getting_started": "Open your inventory; the item list appears on the right. Click an item for its recipe.",
+  "related_units": [
+    "mods__roughly-enough-professions-rep"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/rei",
+    "facts/mods/roughly-enough-items-fabric-forge-rei.json"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Recipe/usage keys (standard REI R and U) not in facts. Requires Architectury."
+}

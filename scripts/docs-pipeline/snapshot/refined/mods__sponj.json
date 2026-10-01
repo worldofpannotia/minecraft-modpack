@@ -1,0 +1,66 @@
+{
+  "new_content": [
+    {
+      "name": "Sponj",
+      "type": "block",
+      "how_to_obtain": "Shapeless: 2 vanilla sponges give 2 sponj. Also obtained by smelting a Wet Sponj or drying one in the Nether.",
+      "notes": "Absorbs water in a radius that grows with the number of sponjes touching each other."
+    },
+    {
+      "name": "Lava Sponj",
+      "type": "block",
+      "how_to_obtain": "Shapeless: Sponj + magma cream.",
+      "notes": "Absorbs lava instead of water, with the same connected-count radius scaling."
+    },
+    {
+      "name": "Wet Sponj",
+      "type": "block",
+      "how_to_obtain": "A Sponj that has absorbed water.",
+      "notes": "Dries out in the Nether, or can be smelted to return a Sponj."
+    },
+    {
+      "name": "Wet Lava Sponj",
+      "type": "block",
+      "how_to_obtain": "A Lava Sponj that has absorbed lava.",
+      "notes": "Dries out in the End. Works as furnace fuel that smelts 128 items and leaves a dry Lava Sponj; insert only one at a time or you will not get the dry sponj back."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Connected radius",
+      "description": "Touching sponjes combine to enlarge the absorption area."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Sponge",
+      "change": "2 sponges -> 2 sponj (shapeless crafting). Vanilla sponge behavior is not otherwise changed.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [
+    "Reusable, scalable alternative to vanilla sponges for draining water or lava."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft sponj from vanilla sponges, place it near water, then dry it in the Nether or smelt it to reuse. Add magma cream for lava.",
+  "related_units": [
+    "mods__chimericlib",
+    "mods__architectury-api-fabric-forge"
+  ],
+  "sources": [
+    "facts/mods/sponj.json (authorReadme)",
+    "facts/mod-recipes/sponj.json"
+  ],
+  "secondary_categories": [
+    "Redstone & Automation"
+  ],
+  "editor_notes": "5 advancements: root 'Soak it all up'; Big Gulp (dry a region with 16+ connected sponjes); Spill Response Team (absorb 100,000 blocks of water in total); Dry Heat (dry a wet sponj in the Nether); Space Heater (dry a wet lava sponj in the End). Smelting recipe: wet sponj -> sponj.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Sponj",
+  "unit": "mods__sponj",
+  "kind": "mod",
+  "category": "Building & Decoration",
+  "side": "both",
+  "summary": "A sponge variant whose absorption radius grows with the number of connected sponjes. Adds a water-absorbing sponj and a lava-absorbing lava sponj, each with a wet form. The pack author's own mod."
+}

@@ -1,0 +1,22 @@
+{
+  "secondary_categories": [],
+  "side": "unknown",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/jamlib.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "name": "JamLib",
+  "unit": "mods__jamlib",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "summary": "Shared library (platform abstractions, JSON5 config API) used by JamCore mods."
+}

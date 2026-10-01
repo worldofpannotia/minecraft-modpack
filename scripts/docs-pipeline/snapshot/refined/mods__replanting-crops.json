@@ -1,0 +1,36 @@
+{
+  "name": "Replanting Crops",
+  "unit": "mods__replanting-crops",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Breaking a mature crop while holding a hoe automatically replants it using the drops, for wheat, carrots, potatoes, beetroots, nether wart and cocoa beans plus modded crops built on the standard crop class. Hold sneak to skip replanting.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Auto replant",
+      "description": "The seed or crop item from the harvest drops is used to replant the block. By default (mustHoldHoeForReplanting = true) a hoe must be held. Works when harvesting many crops at once."
+    },
+    {
+      "title": "Sneak to cancel",
+      "description": "Holding sneak while breaking prevents replanting, useful when clearing a farm."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold a hoe and break fully grown crops.",
+  "related_units": [
+    "mods__rightclickharvest"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/replanting-crops",
+    "facts/mods/replanting-crops.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "No pack config override found, so mod defaults apply. Overlaps with Right Click Harvest, which also replants; verify in-game that they do not conflict."
+}

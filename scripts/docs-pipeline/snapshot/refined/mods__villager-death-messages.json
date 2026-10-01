@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Config options",
+      "description": "showLocation (default true) includes the villager's location; mentionModdedVillagers (default true) also announces deaths of modded villager entities."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__villagertweaks",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/villager-death-messages.json",
+    "https://serilum.com/mod/villager-death-messages"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Collective. Pack ships no config for it, so defaults apply.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Villager Death Messages",
+  "unit": "mods__villager-death-messages",
+  "category": "Villagers & Trading",
+  "side": "server",
+  "summary": "Broadcasts a chat message whenever a villager dies, showing its custom name (if any), profession, cause of death and last location."
+}

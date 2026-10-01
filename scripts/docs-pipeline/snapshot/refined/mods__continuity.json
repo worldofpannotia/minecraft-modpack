@@ -1,0 +1,36 @@
+{
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Built-in resource packs",
+      "description": "\"Default Connected Textures\" (glass, sandstone, bookshelves) and \"Glass Pane Culling Fix\" (removes faces between vertically stacked panes so they look seamless). Both can be toggled in the resource pack screen."
+    },
+    {
+      "title": "Connected/emissive texture support",
+      "description": "Any resource pack using the OptiFine or Continuity connected-textures, emissive-textures (blocks and item models only) or custom-block-layers formats will work."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Glass, sandstone and bookshelves render with seamless connected textures by default."
+  ],
+  "commands_and_keybinds": [
+    "Config screen options: Connected Textures, Emissive Textures, Custom Block Layers (each on/off)."
+  ],
+  "getting_started": "Nothing to do; enable or disable the built-in packs from Options > Resource Packs.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/continuity",
+    "https://github.com/PepperCode1/Continuity/wiki"
+  ],
+  "confidence": "high",
+  "editor_notes": "Compatibility with other rendering mods in the pack is not verified here.",
+  "unit": "mods__continuity",
+  "kind": "mod",
+  "name": "Continuity",
+  "category": "Cosmetic, Visual & Audio",
+  "summary": "Client-side mod that lets resource packs use OptiFine-style connected textures, emissive textures and custom block layers without OptiFine. It ships two built-in packs: connected textures for glass, sandstone and bookshelves, and a fix that culls faces between stacked glass panes."
+}

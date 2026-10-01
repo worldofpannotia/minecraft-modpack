@@ -1,0 +1,22 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "Optimized Block Entities",
+  "category": "Performance & Technical",
+  "side": "client",
+  "summary": "Client-side mod that renders chests, shulker boxes, signs, banners and other block entities as part of terrain meshes to improve frame rate, with smooth lighting and longer render distance for them.",
+  "sources": [
+    "facts/mods/optimized-block-entities.json"
+  ],
+  "unit": "mods__optimized-block-entities",
+  "kind": "mod"
+}

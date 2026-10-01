@@ -1,0 +1,40 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Shows crop growth/maturity, comparator mode, repeater delay, power level, villager profession and similar vanilla details",
+    "Optional mod name on item tooltips",
+    "Configurable position, scale, theme, opacity, display mode (toggle, hold or lite) and boss bar overlap handling",
+    "Selectable profiles and text-to-speech narration of the target"
+  ],
+  "commands_and_keybinds": [
+    "Keypad 0: open configuration",
+    "Keypad 1: toggle overlay",
+    "Keypad 2: toggle liquid display",
+    "Keypad 3: show recipes (needs JEI)",
+    "Keypad 4: show uses (needs JEI)",
+    "Keypad 5: narrate target",
+    "Show Details and profile-switch keys also exist (defaults not verified)"
+  ],
+  "getting_started": "Look at any block or mob; the tooltip appears at the top of the screen. Open the config with keypad 0 or via Mod Menu to change layout.",
+  "related_units": [
+    "mods__mod-menu",
+    "mods__roughly-enough-items-fabric-forge-rei"
+  ],
+  "sources": [
+    "facts/mods/jade.json (modrinth body, lang)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Default keys are numpad keys; laptop players may need to rebind. Recipe/uses keys are documented for JEI; REI integration unverified.",
+  "name": "Jade",
+  "unit": "mods__jade",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "summary": "An on-screen tooltip showing what block or entity you are looking at: name, source mod, crop growth, redstone state, villager profession and more. Works with only the client installed, but many details (item storage, brewing stand fuel, bees in hives) need it on the server too."
+}

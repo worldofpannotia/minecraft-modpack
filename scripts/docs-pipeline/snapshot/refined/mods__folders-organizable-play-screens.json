@@ -1,0 +1,27 @@
+{
+  "name": "Folders! (Organizable Play Screens)",
+  "unit": "mods__folders-organizable-play-screens",
+  "kind": "mod",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Create folders, move entries in and out, path shown at top, search still works",
+    "Removing the mod restores the normal list; folder data is kept in organizable_worlds.dat and organizable_servers.dat"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body"
+  ],
+  "confidence": "high",
+  "editor_notes": "Client only.",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Lets you organise singleplayer worlds and multiplayer servers into named folders on the play screens."
+}

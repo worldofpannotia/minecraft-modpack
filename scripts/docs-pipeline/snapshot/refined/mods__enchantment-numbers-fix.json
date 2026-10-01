@@ -1,0 +1,29 @@
+{
+  "name": "Enchantment Numbers Fix",
+  "unit": "mods__enchantment-numbers-fix",
+  "kind": "mod",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Consistent Roman numeral display for levels over 10 in tooltips and book names"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__enchanting-commands",
+    "mods__enchantment-descriptions"
+  ],
+  "sources": [
+    "facts: authorReadme (pack author's own mod)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Pack author's own mod (chimericdream). Needs Architectury API. Only relevant when levels exceed 10 (commands, datapacks, other mods).",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Shows enchantment levels above 10 as Roman numerals (e.g. Sharpness XV) instead of decimal numbers. Purely cosmetic and client-side."
+}

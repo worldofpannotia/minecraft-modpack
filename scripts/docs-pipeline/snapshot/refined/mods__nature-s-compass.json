@@ -1,0 +1,57 @@
+{
+  "vanilla_changes": [
+    {
+      "what": "Compass recipes",
+      "change": "Added: SLS/LCL/SLS (S = any sapling, L = any log, C = compass) -> Nature's Compass. Shapeless repair: Nature's Compass + compass -> Nature's Compass.",
+      "kind": "recipe-added"
+    }
+  ],
+  "new_content": [
+    {
+      "name": "Nature's Compass",
+      "type": "item",
+      "how_to_obtain": "Crafted: shaped recipe with a compass in the center, logs on the edges and saplings on the corners.",
+      "notes": "Pattern SLS / LCL / SLS, S = any sapling, L = any log, C = compass."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Biome search",
+      "description": "Right-click to open the biome selection screen, search for a biome or view its info, and start the search. Information about the found biome is shown on the HUD."
+    },
+    {
+      "title": "Reset",
+      "description": "Shift + right-click resets the compass state."
+    },
+    {
+      "title": "Config",
+      "description": "Blacklisted biomes and maximum search distance are adjustable in the config file."
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Right-click: open biome selection GUI",
+    "Shift + right-click: reset the compass"
+  ],
+  "related_units": [
+    "mods__explorer-s-compass",
+    "mods__wits-what-is-this-structure"
+  ],
+  "secondary_categories": [
+    "World Generation & Exploration"
+  ],
+  "getting_started": "Craft the compass, right-click it, pick a biome from the list and follow the pointer.",
+  "editor_notes": "Structure counterpart is Explorer's Compass. Mod ships 2 advancements (not inspected).",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Nature's Compass",
+  "category": "Maps & Navigation",
+  "side": "both",
+  "summary": "Adds a compass that searches for a chosen biome anywhere in the world and shows information about it. When it is not tracking a biome it points at world spawn.",
+  "sources": [
+    "facts/mods/nature-s-compass.json",
+    "facts/mod-recipes/nature-s-compass.json"
+  ],
+  "unit": "mods__nature-s-compass",
+  "kind": "mod"
+}

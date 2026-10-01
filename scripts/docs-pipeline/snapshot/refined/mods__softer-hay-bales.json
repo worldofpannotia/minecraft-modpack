@@ -1,0 +1,32 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Hay bale fall damage",
+      "change": "Hay bales cancel all fall damage (vanilla only reduces it).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Place hay bales below a drop and jump.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/softer-hay-bales.json (modrinth body)"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "Server-side; requires Collective.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Softer Hay Bales",
+  "unit": "mods__softer-hay-bales",
+  "kind": "mod",
+  "category": "Transport & Movement",
+  "side": "server",
+  "summary": "Landing on a hay bale negates fall damage entirely."
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shulker Stuff",
+  "unit": "mods__shulker-stuff",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Adds shulker box enchantments (Refill, Vacuum, Void), a Shulker Dyeing Station and a Netherite Plating upgrade for shulker boxes. Written by the pack author.",
+  "new_content": [
+    {
+      "name": "Shulker Dyeing Station",
+      "type": "block",
+      "how_to_obtain": "Craft (pattern DSD/BCB/BRB): dyes in the top corners, shulker shell top centre, polished blackstone in the sides and bottom corners, crafting table in the middle, brush bottom centre.",
+      "notes": "Recolours shulker boxes with its own GUI."
+    },
+    {
+      "name": "Plated Shulker Upgrade (smithing template)",
+      "type": "item",
+      "how_to_obtain": "Duplicate: 7 diamonds around a netherite ingot with an existing template yields 2. A config option \"Plated Shulker Upgrade Chance (1 in x)\" suggests it is also found as loot; source not confirmed.",
+      "notes": "Used at a smithing table."
+    },
+    {
+      "name": "Refill",
+      "type": "enchantment",
+      "how_to_obtain": "Enchanting table, treasure or trades per author readme",
+      "notes": "Max level I; helps keep a stack topped up from the box contents."
+    },
+    {
+      "name": "Vacuum",
+      "type": "enchantment",
+      "how_to_obtain": "As above",
+      "notes": "Max level II; pulls in nearby items."
+    },
+    {
+      "name": "Void",
+      "type": "enchantment",
+      "how_to_obtain": "As above",
+      "notes": "Max level I; discards unwanted items."
+    },
+    {
+      "name": "Deep Storage",
+      "type": "enchantment",
+      "how_to_obtain": "Not currently registered",
+      "notes": "Appears in lang only; planned."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Netherite Plating",
+      "description": "At a smithing table, Plated Shulker Upgrade template + shulker box + netherite ingot gives a plated box (tooltip \"Netherite Plated\"), intended as a sturdier box."
+    },
+    {
+      "title": "Data kept on break",
+      "description": "Shulker box loot tables are changed to copy name, contents, lock, loot, enchantments, dyed colour and plated state to the dropped item."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Shulker box loot tables (all colours)",
+      "change": "Dropped box keeps enchantments plus the mod's dyed_color and plated data in addition to vanilla components.",
+      "kind": "loot"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft a Shulker Dyeing Station to recolour boxes; enchant a box for Vacuum or Refill.",
+  "related_units": [
+    "mods__shulker-box-tooltip-fabric-forge",
+    "mods__resource-backpacks"
+  ],
+  "sources": [
+    "facts/mods/shulker-stuff.json (authorReadme)",
+    "facts/mod-recipes/shulker-stuff.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Author readme says the config screen contains unrelated Miniblock Merchants options by mistake; ignore them. Exact enchantment obtain methods and effects unverified in-game."
+}

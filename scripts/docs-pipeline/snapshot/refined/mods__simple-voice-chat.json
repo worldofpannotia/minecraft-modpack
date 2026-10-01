@@ -1,0 +1,47 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Proximity voice",
+      "description": "Voice volume falls off with distance and is positional (3D). Whispering uses a shorter range."
+    },
+    {
+      "title": "Groups",
+      "description": "Players can create groups with an optional password. Group types: Normal (non-members cannot hear the group, but members hear everyone), Open (everyone hears everyone) and Isolated (members and non-members cannot hear each other)."
+    },
+    {
+      "title": "Input and processing",
+      "description": "Push-to-talk or voice activation, automatic gain, RNNoise noise suppression, microphone/speaker test, per-player volume sliders, and optional audio recording."
+    },
+    {
+      "title": "Icons",
+      "description": "HUD and name-tag icons show who is talking or whispering, muted microphone, disabled voice chat, and connection problems."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "First-run onboarding guide helps set the push-to-talk key and test the microphone."
+  ],
+  "commands_and_keybinds": [
+    "V: open the voice chat menu (settings, groups, mute, disable, hide icons, recording)",
+    "Push-to-talk, whisper and mute keys are rebindable in Controls"
+  ],
+  "getting_started": "On first launch, follow the setup guide to pick a microphone and push-to-talk key. If you cannot connect, the server host must open the voice chat UDP port (see the mod wiki).",
+  "related_units": [],
+  "sources": [
+    "facts/mods/simple-voice-chat.json (modrinth body, lang)",
+    "https://modrepo.de/minecraft/voicechat/wiki"
+  ],
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "editor_notes": "Default UDP port (24454, from general knowledge) is not in the extracted facts; verify against server config. Works in single player/LAN only if run_local_server is enabled.",
+  "player_facing": true,
+  "confidence": "medium",
+  "name": "Simple Voice Chat",
+  "unit": "mods__simple-voice-chat",
+  "kind": "mod",
+  "category": "Multiplayer & Server",
+  "side": "both",
+  "summary": "Proximity voice chat for multiplayer. Players hear each other based on distance with 3D sound, and can use push-to-talk or voice activation, whisper, join groups, and adjust other players' volume. Players need the mod installed, and the server needs it plus an open UDP port for voice traffic."
+}

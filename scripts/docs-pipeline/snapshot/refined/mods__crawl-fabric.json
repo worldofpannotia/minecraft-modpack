@@ -1,0 +1,26 @@
+{
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Crawl: keybind is UNBOUND by default; bind it in Options > Controls.",
+    "Config screen titled \"Crawl Options\"."
+  ],
+  "getting_started": "Open Controls and assign a key to Crawl, then use it to crawl.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/crawl",
+    "https://github.com/fewizz/crawl"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Whether the key is hold or toggle depends on options; verify in-game. Installed on both sides.",
+  "unit": "mods__crawl-fabric",
+  "kind": "mod",
+  "name": "Crawl",
+  "category": "Transport & Movement",
+  "summary": "Lets the player crawl (take the prone/swimming pose) on demand, so you can fit through 1-block-high gaps without needing a trapdoor trick."
+}

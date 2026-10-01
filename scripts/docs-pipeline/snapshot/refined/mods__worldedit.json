@@ -1,0 +1,34 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Permissions",
+      "description": "In single player, cheats must be enabled (configurable). On servers only ops or users granted permissions can use it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "//wand, //pos1, //pos2, //set, //copy, //paste, //undo, //brush and many more - see https://worldedit.enginehub.org/en/latest/"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__worldedit-cui-fabric"
+  ],
+  "sources": [
+    "facts/mods/worldedit.json",
+    "https://worldedit.enginehub.org/en/latest/"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Admin/building tool. The commands listed are standard WorldEdit commands, not extracted from this jar.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "WorldEdit",
+  "unit": "mods__worldedit",
+  "category": "Building & Decoration",
+  "side": "both",
+  "summary": "In-game map editor with selections, copy/paste, schematics, brushes and scripting, usable in creative or temporarily in survival. Requires operator permission."
+}

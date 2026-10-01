@@ -1,0 +1,103 @@
+{
+  "new_content": [
+    {
+      "name": "Golden Wheat Seeds",
+      "type": "item",
+      "how_to_obtain": "Craft: 8 wheat seeds around 1 gold ingot (yields 8)",
+      "notes": "Feed to a chicken for a chance at a Golden Egg; feed to a baby chicken to grow it instantly."
+    },
+    {
+      "name": "Golden Egg",
+      "type": "item",
+      "how_to_obtain": "Chance from a chicken fed Golden Wheat Seeds",
+      "notes": "Food equal to a golden carrot."
+    },
+    {
+      "name": "Golden Cactus",
+      "type": "block",
+      "how_to_obtain": "Craft: 8 cactus around 1 gold ingot (yields 8)",
+      "notes": "Grows like a cactus. Feed to a camel to regrow a pulled-off snout, or to a baby camel to grow it up instantly."
+    },
+    {
+      "name": "Camel snout",
+      "type": "item",
+      "how_to_obtain": "Drops (as a miniblock/head item) when a leashed adult camel lags too far behind and has its snout ripped off (small chance)",
+      "notes": "Not possible on baby camels."
+    },
+    {
+      "name": "Zombie Cod / Zombie Salmon / Zombie Tropical Fish",
+      "type": "entity",
+      "how_to_obtain": "A leashed fish that dies out of water",
+      "notes": "Hostile, 1 heart, sunlight-immune, poisonous tail-slap bite; it moves toward you with leash attached."
+    },
+    {
+      "name": "Livna (upside-down anvil)",
+      "type": "block",
+      "how_to_obtain": "Craft: 3 iron ingots on top row, 1 iron ingot in the middle, 3 iron blocks on bottom row",
+      "notes": "Falls upward, damaging things above. Wears to Chipped Livna then Damaged Livna like an anvil."
+    },
+    {
+      "name": "Upside-Down Bed (16 colors)",
+      "type": "block",
+      "how_to_obtain": "Craft: row of 3 planks on top, row of 3 same-color wool below",
+      "notes": "Hangs from the ceiling. Sleeping in one turns day to night. White uses any wool."
+    },
+    {
+      "name": "Upside-Down Chest",
+      "type": "block",
+      "how_to_obtain": "Craft a chest alone (shapeless)",
+      "notes": "Functions as a chest. Craft it back alone to get a normal chest."
+    },
+    {
+      "name": "Upside-Down Crafting Table",
+      "type": "block",
+      "how_to_obtain": "Craft a crafting table alone (shapeless)",
+      "notes": "Functions as a crafting table; reversible the same way."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Leashed fish",
+      "description": "Leads can be attached to fish (they still need water)."
+    },
+    {
+      "title": "Advancements",
+      "description": "The mod adds a small advancement tab (10 advancements, e.g. Pull Snout, Fish Out of Water, Nap Time)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Chest",
+      "change": "Shapeless: upside-down chest -> chest",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Crafting Table",
+      "change": "Shapeless: upside-down crafting table -> crafting table",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft Golden Wheat Seeds and feed a chicken, or craft an upside-down bed to skip the day.",
+  "related_units": [
+    "mods__chimericlib"
+  ],
+  "sources": [
+    "facts json authorReadme",
+    "facts/mod-recipes/camel-nostrils.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Author's own mod (chimericdream). Livna pattern: 'iii' / ' i ' / 'III' (i=iron ingot, I=iron block). 22 loot tables included (block drops). Verify bed/day-night behavior in-game.",
+  "secondary_categories": [
+    "Building & Decoration",
+    "Farming, Food & Animals"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Camel Nostrils",
+  "category": "Mobs & Creatures",
+  "side": "both",
+  "summary": "A deliberately absurd mod by the pack author with ideas from non-player spouses: pull-off camel snouts, zombie fish, golden foods, and upside-down versions of beds, chests, crafting tables and anvils.",
+  "unit": "mods__camel-nostrils"
+}

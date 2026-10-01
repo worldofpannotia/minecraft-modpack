@@ -1,0 +1,34 @@
+{
+  "new_content": [
+    {
+      "name": "Swift Flight",
+      "type": "enchantment",
+      "how_to_obtain": "About 8% chance in End City chests.",
+      "notes": "Levels I-III give 40%, 60% and 80% faster flight. Applies to happy ghast harnesses."
+    }
+  ],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Find the book in End Cities and apply it to a harness at an anvil.",
+  "related_units": [
+    "mods__grind-enchantments",
+    "mods__universal-enchants"
+  ],
+  "sources": [
+    "facts/mods/swift-flight.json (modrinth body)"
+  ],
+  "secondary_categories": [
+    "Transport & Movement"
+  ],
+  "editor_notes": "A datapack (jodek namespace) packaged as a mod; 15 functions and 3 advancements. Verify in-game that the pack's enchantment tweaks (universal-enchants, removeenchantmentincompatibility) do not conflict.",
+  "player_facing": true,
+  "confidence": "medium",
+  "name": "Swift Flight",
+  "unit": "mods__swift-flight",
+  "kind": "mod",
+  "category": "Enchanting & Magic",
+  "side": "server",
+  "summary": "Adds the Swift Flight enchantment for happy ghast harnesses. Each level increases happy ghast flight speed."
+}

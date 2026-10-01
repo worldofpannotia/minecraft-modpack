@@ -1,0 +1,31 @@
+{
+  "name": "Enchanting Commands",
+  "unit": "mods__enchanting-commands",
+  "kind": "mod",
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/ec <enchantment> <level> - enchants the item in your main hand (Tab auto-completes enchantment names); command name configurable via enchantCommandString (default 'ec')"
+  ],
+  "getting_started": "Hold an item and run /ec followed by an enchantment and level (requires permission to run commands).",
+  "related_units": [
+    "mods__enchantment-numbers-fix",
+    "mods__removeenchantmentincompatibility",
+    "mods__universal-enchants"
+  ],
+  "sources": [
+    "facts: modrinth body",
+    "https://serilum.com/mod/enchanting-commands"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Exact argument syntax is inferred from the description ('add an enchantment to the item in your main hand'); not verified. Server-side only; permission level assumed to be operator. Levels above 10 display as Roman numerals thanks to Enchantment Numbers Fix.",
+  "category": "Enchanting & Magic",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Adds the /ec command for operators to put enchantments on the held item at levels beyond normal limits, including modded enchantments and non-tool items. Intended for admin use rather than normal survival play."
+}

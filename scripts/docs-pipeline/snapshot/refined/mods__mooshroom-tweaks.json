@@ -1,0 +1,32 @@
+{
+  "vanilla_changes": [
+    {
+      "what": "Mooshroom spawning",
+      "change": "Naturally spawned mooshrooms can be brown as well as red. Config option becomeBrownChance (default 0.5) is the chance that a red mooshroom becomes brown.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__collective"
+  ],
+  "secondary_categories": [
+    "Farming, Food & Animals"
+  ],
+  "getting_started": "",
+  "editor_notes": "No pack config override found for this mod, so the default 0.5 should apply. Server-side only; requires Collective.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Mooshroom Tweaks",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Lets both red and brown mooshrooms spawn naturally in mushroom fields, instead of only red ones.",
+  "sources": [
+    "facts/mods/mooshroom-tweaks.json (modrinth body)"
+  ],
+  "unit": "mods__mooshroom-tweaks",
+  "kind": "mod"
+}

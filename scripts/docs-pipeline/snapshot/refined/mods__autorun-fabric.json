@@ -1,0 +1,37 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Toggle",
+      "description": "Press the Auto-Run key; if you were holding a direction when activating, you auto-walk that way. Pressing sprint while auto-walking makes you sprint."
+    },
+    {
+      "title": "Options",
+      "description": "Always sprint, auto jump while active, persist across dimensions/servers/respawns, and show a toggle message."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "V - toggle Auto-Run (default; was O in older versions; rebindable in Controls)"
+  ],
+  "getting_started": "Press V while holding forward.",
+  "related_units": [
+    "amecs-fabric"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/autorun (facts)"
+  ],
+  "editor_notes": "Author warns that Mod Menu without Cloth Config crashes when configuring Auto-Run; check that Cloth Config is in the pack.",
+  "name": "AutoRun (Fabric)",
+  "kind": "mod",
+  "category": "Transport & Movement",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Toggle hands-free walking and sprinting with a single key. Auto-run can optionally always sprint, auto jump, and persist across dimensions, servers and respawns.",
+  "confidence": "high",
+  "unit": "mods__autorun-fabric"
+}

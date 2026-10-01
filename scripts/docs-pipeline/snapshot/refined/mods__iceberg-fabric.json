@@ -1,0 +1,22 @@
+{
+  "name": "Iceberg",
+  "unit": "mods__iceberg-fabric",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": false,
+  "summary": "Library mod providing events and helpers for other mods. It adds no gameplay.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/iceberg-fabric.json"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

@@ -1,0 +1,29 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [
+    "Single place to open the config screens of other mods",
+    "Library mods can be filtered out of the list"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__cloth-config-api-fabric-forge"
+  ],
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "getting_started": "Open the Mods button on the title screen or pause menu, select a mod, and use its configure button if shown.",
+  "editor_notes": "The update checker may show a message that Modrinth API v2 is unavailable (string present in the jar); harmless.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Mod Menu",
+  "category": "Quality of Life",
+  "side": "client",
+  "summary": "Adds a Mods screen to the title and pause menus that lists installed mods with descriptions and gives quick access to the config screens of mods that support it. Library mods can be filtered out, and it can check for updates for mods hosted on Modrinth.",
+  "sources": [
+    "facts/mods/mod-menu.json (modrinth body)"
+  ],
+  "unit": "mods__mod-menu",
+  "kind": "mod"
+}

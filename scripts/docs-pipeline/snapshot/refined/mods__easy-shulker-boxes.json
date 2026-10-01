@@ -1,0 +1,49 @@
+{
+  "name": "Easy Shulker Boxes",
+  "unit": "mods__easy-shulker-boxes",
+  "kind": "mod",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Inventory-based access",
+      "description": "Click an item onto a shulker box (or ender chest) in an inventory slot to insert it, or click the box onto an inventory slot to pull items out, similar to how vanilla bundles work."
+    },
+    {
+      "title": "Browse contents",
+      "description": "The tooltip previews stored contents. Use the scroll wheel or arrow keys to select which stored item you want to take out; details of the selected item are shown."
+    },
+    {
+      "title": "Drag and precise transfer",
+      "description": "Click-and-drag across several inventory slots to insert or extract in bulk. Hold Control (Command on Mac) to move single items instead of whole stacks."
+    },
+    {
+      "title": "Fill indicators and compatibility hints",
+      "description": "Optional bundle-style fill bars on storage items, plus visual hints showing whether the held item can be inserted or already exists inside. Other storage items can be supported via data packs (the mod ships 109 data files for this)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Use shulker boxes as portable storage without placing them",
+    "Tooltip content preview"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Pick up an item with the cursor and click it onto a shulker box in your inventory; scroll while hovering the box to choose which stored item to pull out.",
+  "related_units": [
+    "mods__shulker-box-tooltip-fabric-forge",
+    "mods__shulker-stuff",
+    "Allstackable (shulker boxes stack to 16 in this pack)"
+  ],
+  "sources": [
+    "facts: modrinth body",
+    "https://modrinth.com/mod/easy-shulker-boxes"
+  ],
+  "confidence": "high",
+  "editor_notes": "Needed on both client and server. Includes nested Item Interactions library. Likely overlaps with Shulker Box Tooltip (tooltip previews) in the pack; verify no duplicate tooltip. Pack's allstackable config makes shulker boxes stack to 16 (interaction with inserting into a stack of boxes should be verified in-game). Exact keybinds not documented in facts; scroll wheel/arrow keys per description.",
+  "category": "Storage & Inventory",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Lets you put items into and take items out of shulker boxes (and ender chests) directly from your inventory, without placing them down. Contents are shown in the tooltip and you can pick which stored item to interact with."
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Back to Blocks (Slabs & Stairs to Block)",
+  "unit": "datapacks__vanillatweaks__slabs_stairs_to_block",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets you convert slabs and stairs back into their full block. Covers nearly every slab and stair type.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Slabs -> block (60 types)",
+      "change": "2 identical slabs side by side (shaped, one row of two) -> 1 full block. Covers wood planks (incl. bamboo and bamboo mosaic), stone, cobblestone and mossy variants, stone/brick types, deepslate, tuff, blackstone, prismarine, purpur, quartz, sandstone and red sandstone (incl. cut and smooth), nether bricks, mud bricks, end stone bricks, and every cut copper stage including waxed.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Stairs -> block (58 types)",
+      "change": "4 identical stairs (shapeless) -> 3 full blocks of the same type. Same families as the slab list, minus cut sandstone, cut red sandstone and smooth stone, which have no stairs.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__minecraft"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Counts from datapack: 60 slab recipes, 58 stair recipes. With the stair recipe in the minecraft module (6 blocks -> 8 stairs), 4 stairs -> 3 blocks is the exact reverse ratio."
+}

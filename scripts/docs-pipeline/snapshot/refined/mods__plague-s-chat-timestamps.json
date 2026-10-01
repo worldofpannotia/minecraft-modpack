@@ -1,0 +1,38 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Formatting",
+      "description": "Choose 12 or 24 hour time, seconds, milliseconds, and date parts (year, month, day, weekday, time zone). Timezone is detected automatically."
+    },
+    {
+      "title": "Style",
+      "description": "Color, bold, italic, underline; option to show the timestamp only on hover instead of as a prefix."
+    }
+  ],
+  "qol": [
+    "See when chat messages were sent"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__mod-menu",
+    "mods__cloth-config-api-fabric-forge"
+  ],
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "getting_started": "",
+  "editor_notes": "In-game settings need Mod Menu and Cloth Config.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Plague's Chat Timestamps",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Adds a customizable timestamp to every chat message so you can see when messages were sent, for example after being AFK.",
+  "sources": [
+    "facts/mods/plague-s-chat-timestamps.json (modrinth body)"
+  ],
+  "unit": "mods__plague-s-chat-timestamps",
+  "kind": "mod"
+}

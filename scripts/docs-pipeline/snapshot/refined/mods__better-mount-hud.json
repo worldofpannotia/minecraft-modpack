@@ -1,0 +1,27 @@
+{
+  "secondary_categories": [
+    "Transport & Movement"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Food and mount health shown simultaneously.",
+    "Experience bar stays visible except while charging a jump."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/better-mount-hud (facts)"
+  ],
+  "editor_notes": "",
+  "name": "Better Mount HUD",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Improves the HUD while riding a horse, donkey or other mount. Your food bar and the mount's health show at once, and the experience bar is replaced by the jump bar only while you are actually jumping.",
+  "confidence": "high",
+  "unit": "mods__better-mount-hud"
+}

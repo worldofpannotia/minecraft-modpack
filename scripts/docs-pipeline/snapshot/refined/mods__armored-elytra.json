@@ -1,0 +1,31 @@
+{
+  "secondary_categories": [
+    "Tools, Weapons & Armor"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Visual only",
+      "description": "Shows both the worn chestplate and the elytra on the player model."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Combine a chestplate and elytra using an armored elytra datapack (if the pack includes one), then wear it.",
+  "related_units": [
+    "vanillatweaks datapack (armored elytra), if present"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/armored-elytra"
+  ],
+  "editor_notes": "Jar missing from facts (missingJar). Modrinth page says it needs a separate datapack (Vanilla Tweaks Armored Elytra or Voodoo Beard's Plated Elytra) and lists support only up to 1.20.4; the pack uses CurseForge project 1056156 for 26.2, which may be a newer file. Verify whether the pack includes a datapack that makes the combined item; a grep of datapack facts found no armored elytra pack by name (only track-statistics and dragon_drops mention elytra).",
+  "name": "Armored Elytra",
+  "kind": "mod",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side mod that renders a chestplate and elytra on the player at the same time. It adds no crafting recipe of its own; combining the two items is done by a separate datapack.",
+  "confidence": "low",
+  "unit": "mods__armored-elytra"
+}

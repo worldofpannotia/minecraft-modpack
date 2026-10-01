@@ -1,0 +1,50 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Chunk claims",
+      "description": "Players claim chunks to protect them; protection exceptions can be set by party relation or custom player groups. Claims can be edited from the UI, via commands, or on the Xaero's World Map screen (right-click or right-drag to select)."
+    },
+    {
+      "title": "Forceloading",
+      "description": "Claimed chunks can be forceloaded, subject to server limits."
+    },
+    {
+      "title": "Parties",
+      "description": "Create and manage parties and allies with chat commands; party chat is available. Parties are managed by commands only."
+    },
+    {
+      "title": "Server controls",
+      "description": "Server owners configure limits, protection exceptions and permissions in openpartiesandclaims-server.toml; admins can use server claims, moderator/admin modes and permission nodes (xaero.pac_*). Player config options can be restricted by the server."
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/opac ... : player config commands",
+    "/oclaims ... : claim commands",
+    "/oparties ... : party commands (for example /oparties destroy confirm)",
+    "/opm : shortcut for party chat",
+    "Key ' (apostrophe) : open the mod UI (rebindable in Controls)"
+  ],
+  "related_units": [
+    "mods__xaero-s-minimap",
+    "mods__xaero-s-world-map"
+  ],
+  "secondary_categories": [
+    "Maps & Navigation"
+  ],
+  "getting_started": "Press ' to open the UI and claim your base chunks. Use /oparties to create a party and invite friends.",
+  "editor_notes": "Mod is in beta. Actual claim limits and protection settings on the pack's server are not known from facts; verify server config. Client install is optional (commands work without it).",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Open Parties and Claims",
+  "category": "Multiplayer & Server",
+  "side": "both",
+  "summary": "Lets players claim and forceload chunks and form parties. Claims protect against other players, with exceptions for party members or custom groups. Integrates with Xaero's Minimap and World Map, where claims can be viewed and edited.",
+  "sources": [
+    "facts/mods/open-parties-and-claims.json (modrinth body)"
+  ],
+  "unit": "mods__open-parties-and-claims",
+  "kind": "mod"
+}

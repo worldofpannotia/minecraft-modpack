@@ -1,0 +1,32 @@
+{
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Nether portal frame",
+      "change": "Crying obsidian is accepted as a frame block alongside obsidian; mixed frames work.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Build a standard portal frame using any mix of obsidian and crying obsidian and light it as usual.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/crying-portals"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "unit": "mods__crying-portals",
+  "kind": "mod",
+  "name": "Crying Portals",
+  "category": "World Generation & Exploration",
+  "summary": "Nether portal frames can be built from crying obsidian as well as regular obsidian, and the two can be mixed in one frame."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gnetum",
+  "unit": "mods__gnetum",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": false,
+  "summary": "Client-side performance mod that spreads HUD rendering across several frames to raise FPS.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/gnetum.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Tunable from the Video settings screen (Sodium config integration); high pass counts may make the HUD update slowly or look blurry."
+}

@@ -1,0 +1,62 @@
+{
+  "secondary_categories": [
+    "Quality of Life",
+    "Maps & Navigation"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Schematic rendering",
+      "description": "Shows a schematic as an overlay with render layers and per-placement configuration."
+    },
+    {
+      "title": "Tool item and area selection",
+      "description": "A tool item (default: stick) with several tool modes selects areas and copies, pastes or deletes them."
+    },
+    {
+      "title": "Schematic verifier",
+      "description": "Compares the built world to the schematic and lists missing or wrong blocks."
+    },
+    {
+      "title": "Easy Place",
+      "description": "Optional feature that may be flagged by anti-cheat and get you banned on some servers; check server rules first."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Rendering does not currently work properly with shaders on 1.21.3+; disable shaders while using schematic rendering"
+  ],
+  "commands_and_keybinds": [
+    "M: open main menu",
+    "M+C: config menu",
+    "M+R: toggle all Litematica rendering",
+    "M+G: toggle schematic (ghost block) rendering",
+    "M+T: toggle tool item",
+    "M+P: placements list",
+    "M+V: schematic verifier",
+    "Numpad minus: placement configuration",
+    "Numpad multiply: area editor",
+    "Page Up/Down: change selected render layer",
+    "Ctrl+scroll with tool: cycle tool mode",
+    "Alt+scroll with tool: nudge placement or selection",
+    "Ctrl+M: toggle sub-mode"
+  ],
+  "getting_started": "Press M, open Load Schematics and pick a file, then place it with the tool item or from Schematic Placements.",
+  "related_units": [
+    "mods__malilib",
+    "mods__tweakeroo",
+    "mods__minihud"
+  ],
+  "sources": [
+    "facts/mods/litematica.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Fork by sakura-ryoko. Requires MaLiLib. Keys differ on non-QWERTY layouts.",
+  "name": "Litematica",
+  "unit": "mods__litematica",
+  "kind": "mod",
+  "category": "Building & Decoration",
+  "summary": "Client-side schematic mod for builders. Load or create schematics, render them as ghost blocks in the world, verify your build against them, and copy, paste or edit areas. It has no built-in printer."
+}

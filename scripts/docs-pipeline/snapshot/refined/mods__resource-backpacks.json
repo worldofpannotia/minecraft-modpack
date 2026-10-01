@@ -1,0 +1,99 @@
+{
+  "name": "Resource Backpacks",
+  "unit": "mods__resource-backpacks",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "secondary_categories": [
+    "Loot & Drops"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Seven tiers of upgradable backpacks that add extra inventory space. Backpacks can be equipped in an extra slot, opened with a key, placed like shulker boxes, and upgraded by crafting the previous tier with more expensive materials.",
+  "new_content": [
+    {
+      "name": "Leather Backpack",
+      "type": "item",
+      "how_to_obtain": "Craft: 8 leather around a wooden chest; also found in structure chests",
+      "notes": ""
+    },
+    {
+      "name": "Copper Backpack",
+      "type": "item",
+      "how_to_obtain": "Leather Backpack surrounded by 8 copper ingots",
+      "notes": ""
+    },
+    {
+      "name": "Iron Backpack",
+      "type": "item",
+      "how_to_obtain": "Copper Backpack surrounded by 8 iron ingots",
+      "notes": ""
+    },
+    {
+      "name": "Gold Backpack",
+      "type": "item",
+      "how_to_obtain": "Iron Backpack with 6 gold ingots and 2 shulker shells (top and bottom centre)",
+      "notes": ""
+    },
+    {
+      "name": "Diamond Backpack",
+      "type": "item",
+      "how_to_obtain": "Gold Backpack with 4 shulker shells and 4 diamonds",
+      "notes": ""
+    },
+    {
+      "name": "Netherite Backpack",
+      "type": "item",
+      "how_to_obtain": "Diamond Backpack with 4 netherite ingots, 2 diamonds and 2 shulker boxes",
+      "notes": ""
+    },
+    {
+      "name": "End Backpack",
+      "type": "item",
+      "how_to_obtain": "Gold Backpack with 4 diamonds, 2 eyes of ender and an ender chest; gives access to your Ender Chest",
+      "notes": ""
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Equip and open",
+      "description": "A dedicated slot holds an equipped backpack; press B to open it. Optionally right-click to open from the inventory (config)."
+    },
+    {
+      "title": "Placing",
+      "description": "Backpacks can be placed as blocks and used like shulker boxes, and put on armor stands."
+    },
+    {
+      "title": "Preview",
+      "description": "Hold Left-Shift for a compact summed item list or Left-Alt for the full inventory layout in the tooltip."
+    },
+    {
+      "title": "Mob spawns and loot",
+      "description": "Zombies and creepers can spawn with leather or copper backpacks. Backpacks appear in structure chests (villages, strongholds, mansions, shipwrecks, mineshafts and others) and trial chamber rewards, by tier."
+    },
+    {
+      "title": "Backpacks in backpacks",
+      "description": "A config option allows storing backpacks inside backpacks (effectively infinite storage); its default is not confirmed."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "B - open the equipped backpack",
+    "Left-Shift / Left-Alt - tooltip preview",
+    "All keybinds configurable"
+  ],
+  "getting_started": "Craft a Leather Backpack from leather and a chest, equip it, then upgrade through the tiers.",
+  "related_units": [
+    "mods__shulker-stuff",
+    "mods__shulker-box-tooltip-fabric-forge",
+    "mods__resource-library",
+    "mods__resource-config-api"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/resource-backpacks",
+    "facts/mods/resource-backpacks.json",
+    "facts/mod-recipes/resource-backpacks.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Slot counts per tier are configurable and not in the facts. Upgrade recipes are shaped with the previous backpack in the centre."
+}

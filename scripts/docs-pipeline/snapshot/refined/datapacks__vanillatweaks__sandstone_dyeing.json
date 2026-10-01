@@ -1,0 +1,42 @@
+{
+  "name": "Sandstone Dyeing",
+  "unit": "datapacks__vanillatweaks__sandstone_dyeing",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Turns regular sand and sandstone into their red variants using red dye.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Red sand",
+      "change": "8 sand + 1 red dye (shapeless) -> 8 red sand.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Red sandstone",
+      "change": "2 sandstone + 1 red dye (shapeless) -> 2 red sandstone.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Smooth red sandstone",
+      "change": "2 smooth sandstone + 1 red dye (shapeless) -> 2 smooth red sandstone.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__universal_dyeing"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Part of the bundled VanillaTweaks Crafting Tweaks datapack (version 26.2 selection). Recipes are server-side; the datapack is loaded via Paxi."
+}

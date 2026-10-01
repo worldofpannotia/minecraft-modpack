@@ -1,0 +1,35 @@
+{
+  "name": "Silk Touch Budding Amethyst",
+  "unit": "datapacks__silk-touch-budding-amethyst",
+  "kind": "datapack",
+  "category": "Loot & Drops",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Budding amethyst can be harvested with a Silk Touch tool.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "minecraft:blocks/budding_amethyst loot table",
+      "change": "Vanilla budding amethyst drops nothing. The pack replaces the table with one pool that drops 1 budding_amethyst when the tool has Silk Touch (level 1 or more). Without Silk Touch it still drops nothing.",
+      "kind": "loot"
+    }
+  ],
+  "qol": [
+    "Lets you move budding amethyst, for example to build an amethyst farm."
+  ],
+  "commands_and_keybinds": [
+    "None."
+  ],
+  "getting_started": "Mine budding amethyst in an amethyst geode with a Silk Touch pickaxe.",
+  "related_units": [],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/silk-touch-budding-amethyst/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

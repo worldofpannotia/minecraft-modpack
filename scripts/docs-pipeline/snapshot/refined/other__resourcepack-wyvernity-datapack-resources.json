@@ -1,0 +1,23 @@
+{
+  "name": "Wyvernity Datapack Resources",
+  "unit": "other__resourcepack-wyvernity-datapack-resources",
+  "kind": "resourcepack",
+  "category": "Cosmetic, Visual & Audio",
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": false,
+  "summary": "A companion resource pack for Wyvernity's datapacks, supplying the item textures, models, sounds and language strings those datapacks need. It holds assets for the Enchantment Plus datapack (tome textures, enchantment names and descriptions) and for Simple Paxels. By itself it adds no gameplay.",
+  "new_content": [
+    {"name": "Enchantment Plus assets", "type": "other", "how_to_obtain": "N/A", "notes": "Textures and models for four tome items (Tome of Arcane Refreshment, Tome of Disenchanting, Tome of Intricate Disenchanting, Tome of Restoration), sounds (e.g. masterwork_obtained, enchant and tome sounds), and en_us/tr_tr names and descriptions for about 66 enchantments (e.g. Air Burst, Beheading, Blessing of Kings, Bouncing, Cleansing)."},
+    {"name": "Simple Paxels assets", "type": "other", "how_to_obtain": "N/A", "notes": "Item models, textures and lang for wooden, stone, copper, iron, golden, diamond and netherite paxels, with a tool-switch tooltip (Pickaxe > Axe > Shovel > Hoe)."}
+  ],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": ["client/overrides/resourcepacks/wyvernity-datapack-resources (pack.mcmeta, assets, Installation Instructions.txt)", "client/overrides/config.old/paxi/datapacks/zip.sh and resourcepacks/zip.sh (17.x pack zipped an enchantment-plus datapack and a wyvernity resource pack)"],
+  "confidence": "high",
+  "editor_notes": "The Enchantment Plus datapack and any Simple Paxels datapack/mod are NOT in the current client/overrides/datapacks folder or the mod list (checked); the old 17.x config.old zip.sh still shipped enchantment-plus plus this resource pack. This pack appears to be a leftover with nothing to texture. Suggest omitting it from the player wiki (or a technical appendix only) and flagging it to the pack author for removal. Pack format 88."
+}

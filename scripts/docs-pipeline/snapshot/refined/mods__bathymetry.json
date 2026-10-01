@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Depth tint",
+      "description": "Water is tinted between a shallow tint and a deep tint over a configurable depth range, with smoothing across drop-offs."
+    },
+    {
+      "title": "Underwater fog",
+      "description": "Optional fog that thickens with depth when submerged; disabled by default."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Easier to judge ocean depth when sailing or swimming."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Works automatically; adjust via Mod Menu or config/bathymetry.json5.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/bathymetry (facts)"
+  ],
+  "editor_notes": "Some shaders override water color and ignore the mod. Requires MossyLib.",
+  "name": "Bathymetry",
+  "kind": "mod",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Tints water according to its depth, so shallows look normal and deep water gets darker, instead of puddles and oceans looking identical. Biome water colors are preserved. Optional depth-based underwater fog.",
+  "confidence": "high",
+  "unit": "mods__bathymetry"
+}

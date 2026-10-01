@@ -1,0 +1,30 @@
+{
+  "name": "Unpackable Wool (Wool to String)",
+  "unit": "datapacks__vanillatweaks__wool_to_string",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Any wool block can be crafted back into string.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "String",
+      "change": "Shapeless: 1 wool block of any color -> 4 string.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Part of the bundled VanillaTweaks Crafting Tweaks datapack (version 26.2 selection). Recipes are server-side; the datapack is loaded via Paxi."
+}

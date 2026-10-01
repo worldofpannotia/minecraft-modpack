@@ -1,0 +1,22 @@
+{
+  "secondary_categories": [],
+  "side": "unknown",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/lib-5555ff.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Facts show it ships vanilla-namespace loot table overrides that chain vanilla: plus mob_heads:, name_tag:, swift_flight:, mace_protection: sub-tables (entity drops, creaking_heart, end_city_treasure, trial chambers ominous rare reward). This explains why mobs can drop heads and name tags together with vanilla loot. Not researched further.",
+  "name": "Lib 5555ff",
+  "unit": "mods__lib-5555ff",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "summary": "Shared datapack library (the name is a colour code, not a feature) that merges loot tables from several datapacks."
+}

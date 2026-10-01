@@ -1,0 +1,30 @@
+{
+  "vanilla_changes": [
+    {
+      "what": "Piglin/Hoglin zombification",
+      "change": "Piglins, Piglin Brutes and Hoglins are not converted to their zombified form in the Overworld unless affected by Weakness, which makes them shake and convert as normal.",
+      "kind": "mob-behavior"
+    }
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__collective"
+  ],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "Server-side only; requires Collective. Useful for bringing piglins home or trading in the Overworld.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Overworld Piglins",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Piglins, Piglin Brutes and Hoglins no longer shake and turn into zombified versions in the Overworld. They only convert if they have the Weakness effect.",
+  "sources": [
+    "facts/mods/overworld-piglins.json (modrinth body)"
+  ],
+  "unit": "mods__overworld-piglins",
+  "kind": "mod"
+}

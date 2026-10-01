@@ -1,0 +1,32 @@
+{
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Kelp item",
+      "change": "Can be used as bone meal on crops and plants, by hand or via dispenser.",
+      "kind": "other"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__extended-bone-meal",
+    "mods__random-bone-meal-flowers",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/kelp-fertilizer.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Thematic overlap with the other bone meal mods in the pack.",
+  "name": "Kelp Fertilizer",
+  "unit": "mods__kelp-fertilizer",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "summary": "Kelp works exactly like bone meal, both when right-clicked on a crop and when fired from a dispenser."
+}

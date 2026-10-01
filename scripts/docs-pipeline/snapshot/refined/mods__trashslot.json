@@ -1,0 +1,41 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Trash slot",
+      "description": "Drop an item into it to delete it. Taking the item out undoes the last deletion. A deny list prevents certain items from being trashed. Instant deletion can be enabled in config."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Drag the slot to reposition; can be disabled per screen.",
+    "First-time hints explain how to toggle it."
+  ],
+  "commands_and_keybinds": [
+    "T: show/hide trash slot (default per Modrinth)",
+    "Delete: delete item under cursor",
+    "Shift+Delete: delete all items of the same type under cursor",
+    "Lock/unlock key available in Controls"
+  ],
+  "getting_started": "Open your inventory and drop junk into the trash slot, or hover over an item and press Delete.",
+  "related_units": [
+    "mods__balm",
+    "mods__inventory-profiles-next"
+  ],
+  "sources": [
+    "facts/mods/trashslot.json"
+  ],
+  "secondary_categories": [
+    "Interface & HUD",
+    "Quality of Life"
+  ],
+  "editor_notes": "Requires Balm. Delete keys do not work in creative unless enabled, and items trashed in creative are lost permanently.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "TrashSlot",
+  "unit": "mods__trashslot",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "side": "both",
+  "summary": "Adds a draggable trash slot to inventory screens for deleting unwanted items. The last trashed item can be taken back out."
+}

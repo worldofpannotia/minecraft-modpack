@@ -1,0 +1,31 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Marker can be cleared when the inventory is closed and/or when you hover over the item (configurable)",
+    "Marker colour can be gold or match the item name colour",
+    "Marker look can be changed with a resource pack"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__iceberg-fabric",
+    "mods__inventory-profiles-next"
+  ],
+  "sources": [
+    "facts/mods/item-highlighter-fabric.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Mod ID is 'highlighter'; requires Iceberg.",
+  "name": "Item Highlighter",
+  "unit": "mods__item-highlighter-fabric",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "summary": "Shows a small animated star on items you have newly picked up, so new stacks are easy to spot in the inventory. Client-side only."
+}

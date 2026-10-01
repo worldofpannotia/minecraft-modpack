@@ -1,0 +1,32 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Chorus plant breaking",
+      "change": "All fruit from the broken plant drops at the base position.",
+      "kind": "loot"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Break chorus plants as normal.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Chorus Fruit Drops Nearby",
+  "category": "Loot & Drops",
+  "side": "server",
+  "summary": "When a chorus plant is broken, all its chorus fruit drops at the base instead of scattering around.",
+  "unit": "mods__chorus-fruit-drops-nearby"
+}

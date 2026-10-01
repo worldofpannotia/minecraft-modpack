@@ -1,0 +1,22 @@
+{
+  "name": "Global Packs",
+  "unit": "mods__global-packs",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": false,
+  "summary": "Utility mod that automatically loads data packs and resource packs from a shared folder into every world, and can force-load listed resource packs. The pack uses it as plumbing rather than a gameplay feature.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/global-packs.json (Modrinth body)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Jar description is a template placeholder; behavior taken from Modrinth body. Possibly overlaps with Paxi, which the pack uses to ship its datapacks - verify which handles what."
+}

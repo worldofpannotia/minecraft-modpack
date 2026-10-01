@@ -1,0 +1,20 @@
+{
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "confidence": "high",
+  "editor_notes": "",
+  "unit": "mods__crafted-core",
+  "kind": "mod",
+  "name": "Crafted Core",
+  "category": "Libraries & APIs",
+  "summary": "Shared library mod used by other mods to ease cross-loader code; adds no gameplay features."
+}

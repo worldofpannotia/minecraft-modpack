@@ -1,0 +1,23 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__simple-magnets",
+    "mods__supermartijn642-s-config-lib"
+  ],
+  "sources": [],
+  "secondary_categories": [],
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "SuperMartijn642's Core Lib",
+  "unit": "mods__supermartijn642-s-core-lib",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Core library used by SuperMartijn642 mods such as Simple Magnets."
+}

@@ -1,0 +1,22 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/yetanotherconfiglib.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "player_facing": false,
+  "kind": "mod",
+  "name": "YetAnotherConfigLib",
+  "unit": "mods__yetanotherconfiglib",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "A config-screen library used by other mods (including VillagerTweaks) for their settings menus; no standalone content."
+}

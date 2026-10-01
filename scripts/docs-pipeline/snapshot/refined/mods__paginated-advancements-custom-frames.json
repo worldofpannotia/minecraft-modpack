@@ -1,0 +1,44 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Tab handling",
+      "description": "Paginated tabs, pinned tabs, and last-tab memory."
+    },
+    {
+      "title": "Styling",
+      "description": "Optional: disable background fading when hovering an advancement; configurable spacing between tabs."
+    },
+    {
+      "title": "Custom frames",
+      "description": "Datapacks and mods can register extra advancement frame types with custom colors."
+    }
+  ],
+  "qol": [
+    "Bigger advancements screen",
+    "Pin the tabs you are working on"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__advancement-screenshot",
+    "mods__cloth-config-api-fabric-forge",
+    "mods__mod-menu"
+  ],
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "getting_started": "",
+  "editor_notes": "Config uses Cloth Config (AutoConfig). Relevant for the pack's large advancement set (for example BlazeandCave's).",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Paginated Advancements",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Replaces the small advancements screen with a larger one with paginated tabs, so packs with many advancement tabs all fit. You can pin tabs and the screen remembers the last opened tab.",
+  "sources": [
+    "facts/mods/paginated-advancements-custom-frames.json (modrinth body)"
+  ],
+  "unit": "mods__paginated-advancements-custom-frames",
+  "kind": "mod"
+}

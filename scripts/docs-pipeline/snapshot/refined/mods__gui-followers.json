@@ -1,0 +1,27 @@
+{
+  "name": "GUI Followers",
+  "unit": "mods__gui-followers",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side HUD list of tamed, non-sitting pets near you, showing each one's health percentage and distance in blocks. Helps you avoid leaving a wolf behind.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Defaults: header 'Followers:', health % and distance shown, list at top left, 50 block scan radius, refresh every 2 seconds; position, colors and formats configurable"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Tame a pet and keep it standing; the list appears automatically.",
+  "related_units": [
+    "mods__followers-teleport-too",
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/gui-followers.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Sitting pets are not listed."
+}

@@ -1,0 +1,22 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "MossyLib",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Library with common code and a YACL theme for the Mossy mods by LopyMine. No player-facing content.",
+  "sources": [
+    "facts/mods/mossylib.json"
+  ],
+  "unit": "mods__mossylib",
+  "kind": "mod"
+}

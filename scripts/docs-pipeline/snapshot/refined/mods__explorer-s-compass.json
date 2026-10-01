@@ -1,0 +1,45 @@
+{
+  "name": "Explorer's Compass",
+  "unit": "mods__explorer-s-compass",
+  "kind": "mod",
+  "secondary_categories": [
+    "World Generation & Exploration"
+  ],
+  "new_content": [
+    {
+      "name": "Explorer's Compass",
+      "type": "item",
+      "how_to_obtain": "Craft: cobweb in the four corners, cracked stone bricks on the edges, compass in the centre (WSW / SCS / WSW).",
+      "notes": "Can be repaired by combining it with a regular compass in a shapeless craft."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Structure search",
+      "description": "Right-click opens a GUI listing structures or structure groups; selecting one starts a search. Search progress and the located structure's info show on the HUD. When not pointing at a structure it points to world spawn. Shift-right-click resets the compass."
+    },
+    {
+      "title": "Config",
+      "description": "Maximum search radius and blacklisted structures are adjustable in the config file."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Right-click: open structure selection GUI",
+    "Shift + right-click: reset compass"
+  ],
+  "getting_started": "Craft the compass, right-click it, pick a structure, then follow the needle.",
+  "related_units": [
+    "Nature's Compass (biomes)"
+  ],
+  "sources": [
+    "facts: modrinth body, mod-recipes"
+  ],
+  "confidence": "high",
+  "editor_notes": "Recipes are for the mod's own item (crafting plus a repair recipe: Explorer's Compass + Compass -> Explorer's Compass), not vanilla changes. Search radius default not in facts. Needed on both sides.",
+  "category": "Maps & Navigation",
+  "side": "both",
+  "player_facing": true,
+  "summary": "A compass item that locates structures (vanilla and modded). Right-click to choose a structure type to search for, and the compass then points to the nearest one found, with details on the HUD."
+}

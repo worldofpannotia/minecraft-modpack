@@ -1,0 +1,37 @@
+{
+  "name": "Silence Mobs",
+  "unit": "datapacks__silence-mobs",
+  "kind": "datapack",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Mobs & Creatures",
+    "Cosmetic, Visual & Audio"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Name a mob with a name tag reading 'Silence me' to stop it making sounds, and 'Unsilence me' to restore its sound.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "How it works",
+      "description": "Rename a name tag in an anvil to 'Silence me', 'silence me', 'Silence Me' or 'silence_me' and use it on a mob. The nearest mob with that name within 16 blocks becomes Silent; it glows for 3 seconds with a chime and is briefly named 'silenced'. The name is removed after about 3 seconds. 'Unsilence me' (also 'unsilence me', 'Unsilence Me', 'unsilence_me') reverses it."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Quiet noisy farm animals or villagers."
+  ],
+  "commands_and_keybinds": [
+    "No commands: use an anvil-renamed name tag on the mob."
+  ],
+  "getting_started": "Rename a name tag to 'Silence me' in an anvil, then right-click the mob with it.",
+  "related_units": [
+    "mods__extreme-sound-muffler-fabric-official"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/silence-mobs/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "The mob ends up unnamed afterwards, so a silenced mob cannot keep a custom name via this pack."
+}

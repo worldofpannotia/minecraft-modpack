@@ -1,0 +1,34 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Banner pattern layers",
+      "change": "Limit raised from 6 to 12 by default (config range 1-32 in config/bannertweaks.json5).",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [
+    "Loom and banner copying work with the higher layer limit."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Keep adding patterns in a loom past six layers.",
+  "related_units": [
+    "chimericlib"
+  ],
+  "sources": [
+    "authorReadme (facts)"
+  ],
+  "editor_notes": "Pack may override the default of 12; check client/overrides/config for bannertweaks.json5.",
+  "name": "Banner Tweaks",
+  "kind": "mod",
+  "category": "Building & Decoration",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Raises the maximum number of pattern layers on a banner from vanilla's 6 to a configurable limit (default 12, up to 32). Looms, in-world rendering and map markers handle the taller stacks correctly. Made by the pack author.",
+  "confidence": "high",
+  "unit": "mods__banner-tweaks"
+}

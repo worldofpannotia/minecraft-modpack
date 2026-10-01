@@ -1,0 +1,34 @@
+{
+  "name": "Remove Enchantment Incompatibility",
+  "unit": "mods__removeenchantmentincompatibility",
+  "kind": "mod",
+  "category": "Enchanting & Magic",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Removes all enchantment incompatibility rules so any enchantments can be combined on one item, at both the enchanting table and anvil. It applies to modded enchantments as well.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Limits that remain",
+      "description": "You still cannot put two copies of the same enchantment on one item, and each enchantment must still be valid for the item type."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Enchantment exclusivity",
+      "change": "Exclusive sets are lifted: Protection types together, Sharpness/Smite/Bane of Arthropods, Infinity with Mending, Silk Touch with Fortune, Depth Strider with Frost Walker, Multishot with Piercing, Riptide with Loyalty/Channeling.",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to configure; combine enchantments in the anvil as normal.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/removeenchantmentincompatibility",
+    "facts/mods/removeenchantmentincompatibility.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Server-installed; no config. Interactions with other enchantment mods or datapacks not checked."
+}

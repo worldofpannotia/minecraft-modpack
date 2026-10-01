@@ -1,0 +1,39 @@
+{
+  "name": "EnhancedTooltips",
+  "unit": "mods__enhancedtooltips",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Extra tooltip info",
+      "description": "Food tooltip, armor tooltip, durability tooltip, bucketed-entity tooltip, spawn egg preview, map preview and painting preview. Badges show an item's category and the mod name for non-vanilla items. Optional rarity line."
+    },
+    {
+      "title": "Animations and styling",
+      "description": "Optional tooltip pop-up animation and bouncing item preview; configurable border colour (by rarity, item name, or custom gradient), scale factor and spacing."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Configurable via YetAnotherConfigLib screen (Mod Menu)"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__enchantment-descriptions",
+    "mods__adaptive-tooltips",
+    "mods__durability-tooltip",
+    "mods__shulker-box-tooltip-fabric-forge"
+  ],
+  "sources": [
+    "facts: modrinth body and config lang",
+    "https://github.com/UltimatChamp/EnhancedTooltips"
+  ],
+  "confidence": "high",
+  "editor_notes": "Overlaps with Durability Tooltip and Adaptive Tooltips in the pack; verify duplicated durability/other lines in-game. Client only.",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Overhauls item tooltips with rarity text, category badges, coloured borders, animations and extra previews for several item types. Heavily configurable through an in-game config screen."
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Shulker Box Tooltip",
+  "unit": "mods__shulker-box-tooltip-fabric-forge",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "secondary_categories": [
+    "Storage & Inventory"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Hover over a shulker box in an inventory and hold Shift to see its contents in a preview window, without opening it. Also works for chests, barrels and other containers.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Compact preview with Shift",
+    "Full layout preview with Alt+Shift",
+    "Preview colour follows shulker colour",
+    "Optional loot table name display (off by default)",
+    "Ender chest preview when installed on the server"
+  ],
+  "commands_and_keybinds": [
+    "Shift - compact preview",
+    "Alt + Shift - full preview (defaults)",
+    "Config: Mod Menu gear icon or config/shulkerboxtooltip.json5"
+  ],
+  "getting_started": "Hover a shulker box in any inventory and hold Shift.",
+  "related_units": [
+    "mods__shulker-stuff",
+    "mods__resource-backpacks"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/shulkerboxtooltip",
+    "facts/mods/shulker-box-tooltip-fabric-forge.json"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

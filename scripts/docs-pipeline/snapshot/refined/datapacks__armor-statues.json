@@ -1,0 +1,60 @@
+{
+  "name": "Armor Statues",
+  "unit": "datapacks__armor-statues",
+  "kind": "datapack",
+  "category": "Building & Decoration",
+  "secondary_categories": [
+    "Cosmetic, Visual & Audio"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Gives players a book that edits armor stands and item frames: change style, nudge position, rotate, apply pose presets, fine-tune each limb, copy/paste poses, and lock stands. Item frames can also be made invisible.",
+  "new_content": [
+    {
+      "name": "Statues book (Customizable Armor Stands V2.8)",
+      "type": "item",
+      "how_to_obtain": "Craft a Book and Quill, write anything, and sign it with the exact title 'Statues'. The pack replaces it with the real command book (needs the 'Craftable book' admin option, Enabled by default). Operators can also create a particle shrine (/function armor_statues:admin) that gives the book to players standing within 1.5 blocks. The 'Get book from help' option (a link in /trigger as_help) is Disabled by default.",
+      "notes": "A written book with clickable links; each link runs /trigger as_trigger set <N>."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Using the book",
+      "description": "Hold the book and stand within 3 blocks of an armor stand; clicking a coloured link applies the change to the nearest unlocked armor stand within 3 blocks. Check Target makes the selected stand glow for 3 seconds. Stands that are Marker, Invulnerable or locked are ignored."
+    },
+    {
+      "title": "Book sections",
+      "description": "Style (base plate, arms, small size, gravity, visibility, display name); Nudge position in 16ths of a block (steps of 1, 3, 8; world axes, plus Relative Aligned and Relative Exact modes relative to the player); Rotation (steps of 45, 15, 5 or 1 degrees, face toward/away from you); Pointing (point head/body/arms/legs at your head or feet); Pose presets (Attention, Walking, Running, Pointing, Blocking, Lungeing, Winning, Sitting, Arabesque, Cupid, Confident, Salute, Death, Facepalm, Lazing, Confused, Formal, Sad, Joyous, Stargazing, Randomized, Block, Item); Pose adjustment (+/- per axis for head, body, arms, legs); Auto Alignment (block/item/tool on a surface, tool rack against a tripwire hook); Swap Slots; Mirror and Flip; Utilities; Item Frames; Credits."
+    },
+    {
+      "title": "Copy / paste, lock, seal",
+      "description": "Copy stores a stand's settings and pose in the book; Paste applies them to another stand (the book must be in your hand). Lock stops further changes by the book and blocks equipment-slot interaction. Seal (creative mode only) locks and also makes the stand invulnerable. With the UUID-lock admin option (Disabled by default) only the player who locked a stand can unlock it."
+    },
+    {
+      "title": "Item frames",
+      "description": "Put an item in an item frame that is one block in front of your eyes and use the Invisible Item Frame link (or /trigger if_invisible). Removing the item makes the frame visible again. A Fixed item frame needs creative mode unless an operator enables 'Item Frame Fixing' (Disabled by default)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Pose armor stands without commands or mods.",
+    "Invisible item frames for clean displays."
+  ],
+  "commands_and_keybinds": [
+    "/trigger as_help : show help in chat; /trigger as_help set 3 toggles notifications between chat and action bar",
+    "/trigger as_help set 2 : get the book (only if the 'Get book from help' admin option is Enabled)",
+    "/trigger as_trigger set <N> : what the book links run (normally clicked, not typed); 999 = check target",
+    "/trigger if_invisible : make the item frame in front of you invisible",
+    "/function armor_statues:admin : (operators) create/remove particle shrine, craftable book, book from help, UUID locking, item-frame fixing, delete unused invisible stands, highlight stands within 64 blocks"
+  ],
+  "getting_started": "Craft a Book and Quill, sign it titled exactly 'Statues', then hold the resulting command book next to an armor stand and click the links.",
+  "related_units": [
+    "mods__fast-item-frames"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/armor-statues/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Book content verified from the loot table armor_statues:book. Defaults from load.mcfunction: book_craft Enabled, book_help Disabled, fixed_item_frame Disabled, uuid_lock Disabled."
+}

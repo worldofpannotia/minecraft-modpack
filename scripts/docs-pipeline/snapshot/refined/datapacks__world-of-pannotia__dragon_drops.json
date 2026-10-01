@@ -1,0 +1,36 @@
+{
+  "name": "World of Pannotia: Dragon Drops",
+  "category": "Loot & Drops",
+  "summary": "Every Ender Dragon kill drops an Elytra, a Dragon Egg and a Dragon Head, on top of vanilla rewards. The drops are unconditional, so the dragon can be farmed repeatedly.",
+  "mechanics": [
+    {
+      "title": "Guaranteed dragon loot",
+      "description": "Three separate pools of one roll each, with no conditions (no \"killed by player\" requirement, no looting scaling): 1 Elytra, 1 Dragon Egg, 1 Dragon Head. Added through minecraft:entities/ender_dragon, which has pool 1 = vanilla:entities/ender_dragon (empty, as in vanilla) and pool 2 = dragon_drops:entities/ender_dragon."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Ender Dragon loot table",
+      "change": "Vanilla ender dragon has an empty loot table (XP and the egg on the exit portal are handled by game code). The pack adds a guaranteed Elytra, Dragon Egg and Dragon Head item drop to every kill, including repeat kills.",
+      "kind": "loot"
+    }
+  ],
+  "getting_started": "Kill the Ender Dragon; the items drop at the point of death alongside the normal XP.",
+  "related_units": [
+    "datapacks__world-of-pannotia__minecraft",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "editor_notes": "The vanilla Dragon Egg still appears on the exit portal on the first kill, so the first kill gives two eggs. Drops are not gated behind a player kill. Table has no \"type\" field (harmless).",
+  "unit": "datapacks__world-of-pannotia__dragon_drops",
+  "kind": "datapack-module",
+  "side": "server",
+  "player_facing": true,
+  "secondary_categories": [],
+  "new_content": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "sources": [
+    "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/dragon_drops/"
+  ],
+  "confidence": "high"
+}

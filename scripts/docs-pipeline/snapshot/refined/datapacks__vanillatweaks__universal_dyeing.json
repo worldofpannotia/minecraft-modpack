@@ -1,0 +1,62 @@
+{
+  "name": "Universal Dyeing",
+  "unit": "datapacks__vanillatweaks__universal_dyeing",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets you recolor already-dyed blocks directly: put eight blocks of any other color around one dye to get eight of the new color. It covers candles, concrete powder, glazed terracotta, stained glass, stained glass panes and terracotta.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Recoloring",
+      "description": "Shaped 3x3: 8 blocks of any other color of the same family (any mix) around 1 dye in the centre -> 8 blocks in the dye's color. The dye slot also accepts the natural source: ink sac counts as black, lapis lazuli as blue, cocoa beans as brown, bone meal as white."
+    },
+    {
+      "title": "Removing color",
+      "description": "Candles, stained glass, stained glass panes and terracotta can be returned to their uncolored form (candle, glass, glass pane, terracotta) with 8 colored blocks around 1 ice -> 8 uncolored blocks. Concrete powder and glazed terracotta have no uncolored form."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Candles (16 colors + plain)",
+      "change": "8 candles of other colors + dye (centre) -> 8 candles of the dye's color; 8 candles + ice -> 8 plain candles.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Concrete powder (16 colors)",
+      "change": "8 other-color concrete powder + dye -> 8 of the dye's color.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Glazed terracotta (16 colors)",
+      "change": "8 other-color glazed terracotta + dye -> 8 of the dye's color.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Stained glass and glass panes (16 colors each)",
+      "change": "8 other-color stained glass (or panes) + dye -> 8 of the dye's color; with ice instead -> 8 plain glass (or glass panes).",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Terracotta (16 colors + plain)",
+      "change": "8 other-color terracotta + dye -> 8 of the dye's color; with ice -> 8 plain terracotta.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__powder_to_glass",
+    "datapacks__vanillatweaks__sandstone_dyeing"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "100 recipes: candle 17, concrete powder 16, glazed terracotta 16, stained glass 16, glass 1, glass pane 1, stained glass pane 16, terracotta 17. Wool, carpet, beds and banners have no recipes here (a bed item tag exists but is unused). The input blocks listed in each recipe are the other colors only (15, or 16 incl. the plain version for the uncolored-capable families)."
+}

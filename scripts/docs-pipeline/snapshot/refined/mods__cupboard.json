@@ -1,0 +1,20 @@
+{
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "confidence": "high",
+  "editor_notes": "",
+  "unit": "mods__cupboard",
+  "kind": "mod",
+  "name": "Cupboard",
+  "category": "Libraries & APIs",
+  "summary": "Utility library used by other mods; adds no gameplay features."
+}

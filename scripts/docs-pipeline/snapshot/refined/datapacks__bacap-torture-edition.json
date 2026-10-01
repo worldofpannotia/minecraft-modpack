@@ -1,0 +1,30 @@
+{
+  "name": "BACAP Torture Edition (Blackbird's Torture Chamber)",
+  "unit": "datapacks__bacap-torture-edition",
+  "kind": "datapack",
+  "category": "Progression & Advancements",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "An add-on to BlazeandCave's Advancements Pack that adds several hundred extreme completionist advancements and trophies. It requires the base BACAP and is aimed at players who have run out of goals: long grind, collection and statistic challenges plus a few puzzle-style (riddle) advancements.",
+  "new_content": [
+    {"name": "Blackbird's Torture Chamber tabs", "type": "other", "how_to_obtain": "Advancements screen after the base pack loads.", "notes": "Four new tabs in the pack data: Technical (237, e.g. 'Armor of the Ages' sets per armor material), Stuff (136), Stats (92, statistic milestones such as eating, enchanting and fishing) and Riddle (10 puzzle advancements). Counts are file counts and include helper advancements."},
+    {"name": "Extra advancements in base tabs", "type": "other", "how_to_obtain": "Appear in the normal BACAP tabs.", "notes": "About 33 advancements are added to BACAP's own Adventure, Challenges, End, Monsters, Nether, Statistics and Technical tabs (e.g. Netherite Mad Lad, Jockey Jamboree)."},
+    {"name": "Trophies", "type": "item", "how_to_obtain": "Granted on completing Torture Edition advancements.", "notes": "Functions include grant_trophies and an optional interactable-trophies mode."},
+    {"name": "Fanpack content", "type": "other", "how_to_obtain": "Loaded automatically.", "notes": "Adds about 257 files to the bacap_fanpacks namespace."}
+  ],
+  "mechanics": [
+    {"title": "Interactable trophies", "description": "Trophies are decorative by default. /function blackbirds_torture_chamber:enable_interactable_trophies makes them interactive and /function blackbirds_torture_chamber:disable_interactable_trophies turns that off. The pack author notes that enabling this disqualifies you from the Advancement Legend role on the BlazeandCave Discord."},
+    {"title": "Tracking via functions", "description": "Many advancements rely on functions (for example one per food eaten, plus 'impossible' advancements checked by functions) to count things vanilla advancements cannot, such as eating each food or collecting every kind of bee, beehive or sulfur cube."},
+    {"title": "Co-op support", "description": "Config functions (coop_update and per-team-colour variants) let advancements be updated for scoreboard teams in multiplayer."},
+    {"title": "Difficulty", "description": "Deliberately extreme: intended for completionists, with very long grinds, rare collections and joke or hidden advancements."}
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": ["/function blackbirds_torture_chamber:enable_interactable_trophies", "/function blackbirds_torture_chamber:disable_interactable_trophies", "L (default) - advancements screen"],
+  "getting_started": "Ignore it until you have made good progress in BACAP. The new tabs appear in the advancements screen (L); Stuff and Technical are the more approachable ones, Stats is long-term.",
+  "related_units": ["datapacks__bacap", "datapacks__track-statistics", "datapacks__track-raw-statistics"],
+  "sources": ["facts/datapacks/bacap-torture-edition.json", "https://www.planetminecraft.com/data-pack/bacap-torture-edition/"],
+  "confidence": "medium",
+  "editor_notes": "Pack description says 'TE for 26.2'. Exact player-visible advancement totals were not retrieved; tab counts are file counts. Does nothing without bacap. Verify in game whether the base config menu lists Torture Edition options."
+}

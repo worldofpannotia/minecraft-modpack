@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Limits",
+      "description": "Only detects structures (anything /locate can find). Features such as dungeons (monster rooms) and desert wells are not structures and cannot be detected."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/wits - list structures at your position",
+    "/witsop [dimension] [coordinates] - operators only, query any location"
+  ],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/wits-what-is-this-structure.json",
+    "https://www.curseforge.com/minecraft/mc-mods/wits"
+  ],
+  "confidence": "high",
+  "editor_notes": "Jar is built for 26.1; 26.2 compatibility assumed.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "WITS (What Is This Structure?)",
+  "unit": "mods__wits-what-is-this-structure",
+  "category": "World Generation & Exploration",
+  "side": "both",
+  "summary": "Adds a /wits command that prints the registry names of all structures at the spot where you are standing. Installed on a server, it works for vanilla clients too."
+}

@@ -1,0 +1,52 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Pack stack sizes",
+      "description": "The pack's global config (the legacy allstackable-global-config.json, which StackItUp migrates automatically) applies to every new world. Stack of 64: oak, spruce, birch, jungle, acacia, dark oak, crimson and warped signs; boats (oak, spruce, birch, jungle, acacia, dark oak); minecarts (plain, chest, furnace, hopper, TNT, command block); armor stands; all beds and banners; empty buckets; cake; eggs; snowballs; enchanted books; ender pearls; honey bottles; saddles; writable and written books; and most music discs. Stack of 16: filled buckets (water, lava, milk, powder snow, fish, axolotl), potions (normal, splash, lingering), mushroom/beetroot/rabbit/suspicious stews, all shulker boxes, shields and totems of undying."
+    },
+    {
+      "title": "World rules",
+      "description": "The config sets applyGlobalConfigToAllNewGames=1, permissionLevel=4 (commands require operator) and stackEmptyShulkerBoxOnly=0 (filled shulker boxes stack too)."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Item stack sizes",
+      "change": "Many items that stack to 1 or 16 in vanilla now stack to 16 or 64 as listed in mechanics.",
+      "kind": "other"
+    }
+  ],
+  "qol": [
+    "Fewer inventory slots used by boats, beds, banners, potions, ender pearls, enchanted books, discs and similar items."
+  ],
+  "commands_and_keybinds": [
+    "/stackitup show all | show [item] | show hand [player]",
+    "/stackitup set [item] [count] | set hand [player] | set vanilla [default] [new] | set modified [current] [new] | set all [current] [new]",
+    "/stackitup reset all | reset [item] | reset hand [player]",
+    "/stackitup config reload | loadFromGlobal | saveToGlobal | globalConfigAutoApply [true/false] | restore",
+    "Commands default to permission level 4 (operators)."
+  ],
+  "getting_started": "Run /stackitup show all to see which items are modified in your world.",
+  "related_units": [
+    "mods__chimericlib",
+    "mods__architectury-api-fabric-forge"
+  ],
+  "sources": [
+    "facts/mods/stackitup.json",
+    "C:/Users/bill/code/minecraft-mods/stack-it-up (lang, config manager)",
+    "client/overrides/config/allstackable-global-config.json"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "Author README is mostly empty; details come from source and the pack config (35 items at 16, 77 at 64). Signs listed are only the 8 types above (no bamboo, cherry, mangrove, pale oak or hanging signs). Global config applies to NEW worlds; existing worlds keep their own stackitup-config.json.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "StackItUp",
+  "unit": "mods__stackitup",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "side": "both",
+  "summary": "Lets item stack sizes be changed per item. The pack ships a global configuration that raises many normally unstackable or low-stack items to 16 or 64. It is the pack author's rebuild of AllStackable."
+}

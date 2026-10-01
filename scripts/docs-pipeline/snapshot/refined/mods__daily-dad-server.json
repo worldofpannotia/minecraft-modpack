@@ -1,0 +1,24 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "https://www.curseforge.com/minecraft/mc-mods/daily-dad"
+  ],
+  "confidence": "low",
+  "editor_notes": "Only the jar description is available (\"Sometimes I tell dad jokes, Sometimes he laughs at them\"); frequency, triggers and commands unknown. Verify in-game or keep to a one-line mention.",
+  "unit": "mods__daily-dad-server",
+  "kind": "mod",
+  "name": "Daily Dad (Server)",
+  "category": "Quality of Life",
+  "summary": "Server-side mod that tells players dad jokes from time to time."
+}

@@ -1,0 +1,70 @@
+{
+  "new_content": [
+    {
+      "name": "Basic Magnet",
+      "type": "item",
+      "how_to_obtain": "Shaped: iron ingots around an ender pearl, with lapis lazuli and redstone dust in two corners (grid in editor_notes).",
+      "notes": "Picks up items and experience within 5 blocks while active. Right-click while holding it to toggle on/off."
+    },
+    {
+      "name": "Advanced Magnet",
+      "type": "item",
+      "how_to_obtain": "Shaped: Basic Magnet, eye of ender, diamond, gold ingots, lapis lazuli and redstone dust (grid in editor_notes).",
+      "notes": "Range up to 11 blocks; item and experience range configured separately; whitelist/blacklist filter. Shift+right-click while holding it opens its GUI."
+    },
+    {
+      "name": "Basic Demagnetization Coil",
+      "type": "block",
+      "how_to_obtain": "Shaped: 4 iron ingots, 2 redstone dust, 1 gold ingot (grid in editor_notes).",
+      "notes": "Placed block that prevents items within up to 3 blocks from being attracted by magnets. Right-click it with an empty hand to open its GUI."
+    },
+    {
+      "name": "Advanced Demagnetization Coil",
+      "type": "block",
+      "how_to_obtain": "Shaped: Basic Demagnetization Coil, glowstone dust, 2 redstone dust and 4 gold ingots (grid in editor_notes).",
+      "notes": "Range up to 5 blocks, with an item filter."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Toggling and filters",
+      "description": "Magnets are toggled by right-clicking with the magnet selected in the hotbar, or with a key bind. The Advanced Magnet GUI has filter slots, a whitelist/blacklist switch and a match-NBT option. Magnets can also be worn in Trinkets-style slots (the jar ships Trinkets slot tags)."
+    },
+    {
+      "title": "Demagnetization coils",
+      "description": "Items inside a coil's area are ignored by magnets, useful for keeping item-sorting or farm collection areas from being drained by a player carrying a magnet."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Automatically collects drops and experience while active."
+  ],
+  "commands_and_keybinds": [
+    "Right-click with a magnet: toggle on/off",
+    "Shift+right-click with Advanced Magnet: open GUI",
+    "Right-click a coil with an empty hand: open its GUI",
+    "A key bind to toggle the magnet exists (default not in extracted facts; check Options > Controls)"
+  ],
+  "getting_started": "Craft a Basic Magnet, hold it and right-click to turn it on. Upgrade to the Advanced Magnet for filtering and more range.",
+  "related_units": [
+    "mods__supermartijn642-s-core-lib",
+    "mods__supermartijn642-s-config-lib",
+    "mods__inventory-profiles-next"
+  ],
+  "sources": [
+    "facts/mods/simple-magnets.json (modrinth body, tooltips)",
+    "facts/mod-recipes/simple-magnets.json"
+  ],
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "editor_notes": "Exact recipes from recipe facts. Basic Magnet = AAB/AC_/AAD: A=iron ingot, B=lapis, C=ender pearl, D=redstone dust. Advanced Magnet = AAB/CDE/AAF: A=gold ingot, B=lapis, C=Basic Magnet, D=eye of ender, E=diamond, F=redstone dust. Basic Demag Coil = _A_/BCB/CCC: A=gold ingot, B=redstone dust, C=iron ingot. Advanced Demag Coil = _A_/BCB/CDC: A=glowstone dust, B=redstone dust, C=gold ingot, D=Basic Demagnetization Coil. Tag inputs (#c:ingots/iron etc.) accept equivalents from other mods. Basic range 5, Advanced max 11 per Modrinth; Basic coil 3, Advanced coil 5.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Simple Magnets",
+  "unit": "mods__simple-magnets",
+  "kind": "mod",
+  "category": "Storage & Inventory",
+  "side": "both",
+  "summary": "Adds handheld magnets that pull dropped items and experience orbs toward the player, plus demagnetization coils that stop items from being attracted in a small area. The Basic Magnet has a fixed range; the Advanced Magnet has configurable range and item filters."
+}

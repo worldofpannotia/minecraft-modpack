@@ -1,0 +1,203 @@
+{
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [
+    {
+      "name": "Crystal Phial",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Alchemist profession"
+    },
+    {
+      "name": "Cultivated Sapling",
+      "type": "item",
+      "how_to_obtain": "1 in 4096 from spruce leaves",
+      "notes": "Conversion item for the Arboriculturist profession"
+    },
+    {
+      "name": "Galilean Spyglass",
+      "type": "item",
+      "how_to_obtain": "Always in igloo chests",
+      "notes": "Conversion item for the Astronomer profession"
+    },
+    {
+      "name": "Shimmering Wheat",
+      "type": "item",
+      "how_to_obtain": "1 in 512 when harvesting wheat",
+      "notes": "Conversion item for the Baker profession"
+    },
+    {
+      "name": "Mixology Station",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Bartender profession"
+    },
+    {
+      "name": "Prismatic Honeycomb",
+      "type": "item",
+      "how_to_obtain": "Always in jungle temple chests",
+      "notes": "Conversion item for the Beekeeper profession"
+    },
+    {
+      "name": "Mastercrafted Iron",
+      "type": "item",
+      "how_to_obtain": "1 in 2 from village armorer chests",
+      "notes": "Conversion item for the Blacksmith profession"
+    },
+    {
+      "name": "Wagyu Beef",
+      "type": "item",
+      "how_to_obtain": "1 in 2 from village butcher chests",
+      "notes": "Conversion item for the Chef profession"
+    },
+    {
+      "name": "Radiating Redstone",
+      "type": "item",
+      "how_to_obtain": "1 in 256 when mining redstone ore",
+      "notes": "Conversion item for the Engineer profession"
+    },
+    {
+      "name": "Budding Cactus",
+      "type": "item",
+      "how_to_obtain": "1 in 12 from desert pyramid chests",
+      "notes": "Conversion item for the Eremologist profession"
+    },
+    {
+      "name": "Endless Bookshelf",
+      "type": "item",
+      "how_to_obtain": "1 in 3 from stronghold library chests",
+      "notes": "Conversion item for the Furnisher profession"
+    },
+    {
+      "name": "Drenched Score Sheet",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Gamemaster profession"
+    },
+    {
+      "name": "Stabilized Explosion",
+      "type": "item",
+      "how_to_obtain": "1 in 160 when a creeper dies",
+      "notes": "Conversion item for the Griefer profession"
+    },
+    {
+      "name": "Fragrant Flower",
+      "type": "item",
+      "how_to_obtain": "1 in 2 from pillager outpost chests",
+      "notes": "Conversion item for the Horticulturist profession"
+    },
+    {
+      "name": "24-Karat Gold",
+      "type": "item",
+      "how_to_obtain": "1 in 4 from monster room (spawner dungeon) chests",
+      "notes": "Conversion item for the Mineralogist profession"
+    },
+    {
+      "name": "Sparkling Blaze Powder",
+      "type": "item",
+      "how_to_obtain": "1 in 4 from ruined portal chests",
+      "notes": "Conversion item for the Netherographer profession"
+    },
+    {
+      "name": "Ancient Shell",
+      "type": "item",
+      "how_to_obtain": "1 in 3 from big underwater ruin chests",
+      "notes": "Conversion item for the Oceanographer profession"
+    },
+    {
+      "name": "Overgrown Carrot",
+      "type": "item",
+      "how_to_obtain": "1 in 512 when harvesting carrots",
+      "notes": "Conversion item for the Olericulturist profession"
+    },
+    {
+      "name": "Unusually Dense Rock",
+      "type": "item",
+      "how_to_obtain": "1 in 12 from abandoned mineshaft chests",
+      "notes": "Conversion item for the Petrologist profession"
+    },
+    {
+      "name": "Soaked Villager Plushie",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Plushie Maniac profession"
+    },
+    {
+      "name": "Enchanted Red Delicious",
+      "type": "item",
+      "how_to_obtain": "1 in 4096 from oak leaves",
+      "notes": "Conversion item for the Pomologist profession"
+    },
+    {
+      "name": "Rotting Recycling Bin",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Recycler profession"
+    },
+    {
+      "name": "Book of Rituals",
+      "type": "item",
+      "how_to_obtain": "1 in 3 from stronghold library chests",
+      "notes": "Conversion item for the Ritualist profession"
+    },
+    {
+      "name": "Sculpting Clay",
+      "type": "item",
+      "how_to_obtain": "1 in 256 when harvesting clay",
+      "notes": "Conversion item for the Sculptor profession"
+    },
+    {
+      "name": "Forgotten Scrap Metal",
+      "type": "item",
+      "how_to_obtain": "1 in 24 when fishing up treasure",
+      "notes": "Conversion item for the Steampunker profession"
+    },
+    {
+      "name": "Fine Thread",
+      "type": "item",
+      "how_to_obtain": "1 in 2 from village shepherd chests",
+      "notes": "Conversion item for the Tailor profession"
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Converting a villager",
+      "description": "The villager must be an unemployed adult. Right-click it with the conversion item to give it the matching profession."
+    },
+    {
+      "title": "Drop chances",
+      "description": "Each conversion item's drop chance is configurable; the chances listed are the defaults from the author's README."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Player head block loot table",
+      "change": "Overrides minecraft:blocks/player_head to copy profile, note block sound, custom name, item name, lore and custom data from the block entity, so broken heads keep their data.",
+      "kind": "loot"
+    }
+  ],
+  "qol": [
+    "Villagers from the Miniblock Traders datapack are automatically converted to the matching profession"
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Find a conversion item (many come from fishing treasure or structure chests), then right-click an unemployed adult villager.",
+  "related_units": [
+    "mods__chimericlib",
+    "mods__villagertweaks",
+    "mods__lootr-fabric",
+    "mods__just-player-heads"
+  ],
+  "sources": [
+    "facts/mods/miniblock-merchants.json (author README, lang)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Pack author's own mod. README lists 25 professions; the lang file lists 26 conversion items (one extra to check; the README list above gives 26 rows, so the '25' count in the README may be stale). Structure-chest conversion items interact with Lootr (per-player loot). The Arboriculturist/Pomologist leaf drop rates are very low (1 in 4096).",
+  "name": "Miniblock Merchants",
+  "unit": "mods__miniblock-merchants",
+  "kind": "mod",
+  "category": "Villagers & Trading",
+  "summary": "Adds 25 new villager professions that sell nearly 1,000 miniblocks (small decorative blocks) for building. An unemployed adult villager is converted to a profession by right-clicking it with that profession's conversion item, which comes from a rare drop or a structure chest."
+}

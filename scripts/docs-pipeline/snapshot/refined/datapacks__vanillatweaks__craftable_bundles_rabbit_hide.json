@@ -1,0 +1,30 @@
+{
+  "name": "Craftable Bundles (Rabbit Hide)",
+  "unit": "datapacks__vanillatweaks__craftable_bundles_rabbit_hide",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Adds an alternative bundle recipe using rabbit hide instead of leather.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Bundle",
+      "change": "2 string (top corners) + 6 rabbit hide (S R S / R _ R / R R R) -> 1 bundle. The vanilla leather + string bundle recipe still works.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Part of the bundled VanillaTweaks Crafting Tweaks datapack (version 26.2 selection). Recipes are server-side; the datapack is loaded via Paxi."
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Full Brightness Toggle",
+  "unit": "mods__full-brightness-toggle",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side mod that toggles the game's brightness (gamma) to maximum with a single key, giving a night-vision-like fullbright view in caves and at night. Press the key again to return to your normal setting.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Instant gamma toggle, originally requested for players with impaired eyesight"
+  ],
+  "commands_and_keybinds": [
+    "G: toggle full brightness (rebindable in Options > Controls)"
+  ],
+  "getting_started": "Press G in game.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts/mods/full-brightness-toggle.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Server rules may forbid fullbright; the author advises asking first on public servers."
+}

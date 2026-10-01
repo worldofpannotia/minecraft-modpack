@@ -1,0 +1,42 @@
+{
+  "name": "Right Click Harvest",
+  "unit": "mods__rightclickharvest",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Right-click a mature crop to harvest it and automatically replant. With the pack config, no hoe is needed, hoes harvest a larger area depending on tier, and harvesting costs no hunger or XP.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Pack configuration",
+      "description": "requireHoe = false (any item or empty hand can harvest), harvestInRadius = true (higher tier hoes harvest more blocks around the target), hungerLevel = NONE, experienceType = NONE. These match the mod defaults."
+    },
+    {
+      "title": "Harvesting",
+      "description": "Works on vanilla crops including cocoa beans, nether wart, sugar cane and cactus, and most modded crops. Fortune on a hoe increases yield. Block and item tags can customise behaviour."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Right-clicking crops",
+      "change": "Harvests the crop and replants instead of doing nothing.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Right-click a fully grown crop.",
+  "related_units": [
+    "mods__replanting-crops"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/rightclickharvest",
+    "facts/other/config-overrides.json (rightclickharvest.json5)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Pack config only restates the defaults. Verify sugar cane/cactus behaviour in 26.2 build."
+}

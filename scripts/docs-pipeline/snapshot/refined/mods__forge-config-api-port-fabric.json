@@ -1,0 +1,22 @@
+{
+  "name": "Forge Config API Port",
+  "unit": "mods__forge-config-api-port-fabric",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "secondary_categories": [],
+  "side": "both",
+  "player_facing": false,
+  "summary": "Library that provides the Forge/NeoForge config system to Fabric mods. It adds no gameplay.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts/mods/forge-config-api-port-fabric.json"
+  ],
+  "confidence": "high",
+  "editor_notes": ""
+}

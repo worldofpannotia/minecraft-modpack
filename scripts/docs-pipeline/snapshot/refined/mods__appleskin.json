@@ -1,0 +1,37 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Tooltips",
+      "description": "Food tooltips show hunger and saturation values (hold Shift unless 'always show' is enabled)."
+    },
+    {
+      "title": "HUD overlays",
+      "description": "Shows hunger and saturation that held food would restore (also for off-hand food), estimated health restored, a saturation overlay on the hunger bar, and an exhaustion bar behind it."
+    },
+    {
+      "title": "Debug screen",
+      "description": "Hunger, saturation and exhaustion appear in the F3 screen."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Reveals otherwise hidden saturation and exhaustion mechanics; it does not change any mechanics."
+  ],
+  "commands_and_keybinds": [],
+  "getting_started": "Hold food to see the preview on your hunger bar; hold Shift over food in an inventory to see numbers.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/appleskin (facts)"
+  ],
+  "editor_notes": "Needs to be on the server for accurate saturation/exhaustion values; this pack has it on both.",
+  "name": "AppleSkin",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Adds food-related information to the HUD and tooltips. You can see how much hunger and saturation a food restores, your hidden saturation and exhaustion levels, and the health food would restore.",
+  "confidence": "high",
+  "unit": "mods__appleskin"
+}

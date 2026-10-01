@@ -1,0 +1,36 @@
+{
+  "name": "Wandering Trader Announcements",
+  "unit": "datapacks__wandering-trader-announcements",
+  "kind": "datapack",
+  "category": "Villagers & Trading",
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Sends the chat message 'A wandering trader has arrived nearby!' to players within 64 blocks (horizontal distance) of a wandering trader.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Detection",
+      "description": "Every second the pack finds wandering traders it has not yet announced, tags them, and messages all players within 64 blocks horizontally. Each trader is announced once."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "You will not miss a wandering trader."
+  ],
+  "commands_and_keybinds": [
+    "None."
+  ],
+  "getting_started": "Nothing to do; watch for the gold chat message.",
+  "related_units": [
+    "datapacks__wandering-trades-hermit-edition"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/wandering-trader-announcements/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Fires for any untagged wandering trader that loads in, not only newly spawned ones."
+}

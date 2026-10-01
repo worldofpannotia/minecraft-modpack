@@ -1,0 +1,20 @@
+{
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [],
+  "editor_notes": "Required by the pack author's mods (Archaeology Tweaks, Artificial Heart, Banner Tweaks, etc.).",
+  "name": "Architectury API",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "player_facing": false,
+  "summary": "Library that lets mods share code between Fabric and Forge. Required by other mods; adds no content.",
+  "confidence": "high",
+  "unit": "mods__architectury-api-fabric-forge"
+}

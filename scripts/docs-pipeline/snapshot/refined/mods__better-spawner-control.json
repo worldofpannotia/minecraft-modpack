@@ -1,0 +1,35 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Torch-disabled spawners",
+      "description": "A spawner with 5 torches around it is disabled and spawns nothing. All torch types are supported."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Mob spawners",
+      "change": "Disabled while surrounded by 5 torches of any type.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Place 5 torches around a spawner to switch it off.",
+  "related_units": [
+    "mods__collective"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Exact torch placement (which 5 positions) not specified by the source; verify in-game if documenting precisely.",
+  "secondary_categories": [],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Better Spawner Control",
+  "category": "Mobs & Creatures",
+  "side": "server",
+  "summary": "Mob spawners stop spawning when surrounded by 5 torches. All torch types count. Lets you shut down monster spawners (blaze spawners in particular) without breaking them.",
+  "unit": "mods__better-spawner-control"
+}

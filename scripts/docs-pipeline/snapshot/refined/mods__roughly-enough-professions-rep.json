@@ -1,0 +1,22 @@
+{
+  "name": "Roughly Enough Professions",
+  "unit": "mods__roughly-enough-professions-rep",
+  "kind": "mod",
+  "category": "Interface & HUD",
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side REI addon that shows villager profession information inside REI.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__roughly-enough-items-fabric-forge-rei"
+  ],
+  "sources": [],
+  "confidence": "medium",
+  "editor_notes": "No published description in facts; summary based on the jar description \"Adds info about professions to REI\". Requires REI."
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Extended Bone Meal",
+  "unit": "mods__extended-bone-meal",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Sneak instant growth",
+      "description": "Using bone meal on a crop while holding sneak grows it straight to its mature stage."
+    },
+    {
+      "title": "New bone-meal targets",
+      "description": "Bone meal now advances nether wart, cactus, sugar cane and vines."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Bone meal",
+      "change": "Works on nether wart, cactus, sugar cane and vines; sneak-use fully grows crops.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__random-bone-meal-flowers"
+  ],
+  "sources": [
+    "facts: modrinth body",
+    "https://serilum.com/mod/extended-bone-meal"
+  ],
+  "confidence": "high",
+  "editor_notes": "Server-side mod (Modrinth: client unsupported). Exact per-block growth amounts not documented. Pack also has Random Bone Meal Flowers; both change bone meal.",
+  "category": "Farming, Food & Animals",
+  "side": "server",
+  "player_facing": true,
+  "summary": "Extends what bone meal can do: it grows nether wart, cacti, sugar cane and vines, and sneaking while using it instantly grows crops to maturity."
+}

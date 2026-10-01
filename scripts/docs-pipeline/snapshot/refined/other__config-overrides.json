@@ -1,0 +1,35 @@
+{
+  "name": "Pack Configuration Overrides",
+  "unit": "other__config-overrides",
+  "kind": "config",
+  "category": "Quality of Life",
+  "secondary_categories": ["Storage & Inventory", "Villagers & Trading", "Enchanting & Magic"],
+  "side": "both",
+  "player_facing": true,
+  "summary": "World of Pannotia ships custom settings for six mods. Together they change gameplay in small but noticeable ways: many items stack higher, crops are harvested with a right click, netherite tools mine some blocks instantly, grindstones can move enchantments, zombie villagers are cured on a fixed timer, and bone meal on grass makes a wider mix of flowers.",
+  "new_content": [],
+  "mechanics": [
+    {"title": "Stack sizes (allstackable config, migrated into StackItUp)", "description": "Stack to 64: boats (oak, spruce, birch, jungle, acacia, dark oak only), signs (the same woods plus crimson and warped; mangrove, cherry, bamboo, pale oak and hanging signs are not listed), all 16 bed colours, all 16 banner colours, empty buckets, cake, eggs, snowballs, ender pearls, saddles, armor stands, enchanted books, writable and written books, honey bottles, minecarts (plain, chest, furnace, hopper, TNT, command block) and 14 music discs (11, 13, Blocks, Cat, Chirp, Far, Mall, Mellohi, Otherside, Pigstep, Stal, Strad, Wait, Ward; newer discs such as Relic and 5 are not listed). Stack to 16: shulker boxes (all colours; stackEmptyShulkerBoxOnly is 0, so filled boxes stack too), water, lava, milk and powder snow buckets, axolotl, cod, pufferfish, salmon and tropical fish buckets, potions, splash and lingering potions, mushroom, rabbit, beetroot and suspicious stews, shields and totems of undying."},
+    {"title": "Right Click Harvest", "description": "Right-click a ripe crop to harvest and replant it; no hoe is required (requireHoe false). With harvestInRadius true, higher-tier hoes harvest a larger area at once. Harvesting costs no hunger (hungerLevel NONE) and gives or costs no XP (experienceType NONE). Fortune on a hoe still raises yield per the mod description."},
+    {"title": "Deepslate Instamine", "description": "Renewable deepslate is on: lava over water at or below Y 11 makes deepslate instead of cobblestone (the mod also adds cobbled deepslate and calcite generator variants). Instant mining (speed factor 1000) works for netherite pickaxes on deepslate, cobblestone and end stone, and for netherite axes on logs. Per the mod description, instant breaking requires an Efficiency V tool and Haste II from a beacon. The mod is required on client and server."},
+    {"title": "Grind Enchantments", "description": "Disenchant to book: put an enchanted item and a book in a grindstone to move the enchantments onto the book; the item is not consumed (it comes back unenchanted). Costs XP levels, shown in the UI (show_enchantment_cost true); the config formula is roughly 8 levels plus 0.3 times the enchantments' minimum power (verify in game). Move enchantments: enchanted book on top and another book below moves the top enchantment onto the second book; cost scales with enchantment level (treasure enchantments cost more). Reset repair cost is disabled. Curses can be moved/removed and no item or enchantment filters are set."},
+    {"title": "Villager Tweaks", "description": "Enabled: demand bonus (cure discounts and reputation can lower prices), negative reputation (hitting or killing villagers still hurts your standing), fixed zombie villager cure time of 3600 ticks (3 minutes) instead of the random timer, zombies always convert villagers on kill regardless of difficulty, display of remaining cure time, and villagers following you while you hold emerald blocks or emerald ore. Disabled: global reputation (reputation stays per player) and max-trade override (vanilla trade limits)."},
+    {"title": "Random Bone Meal Flowers", "description": "Bone meal on grass can create any flower in any biome. In the blacklist a leading ! prevents a flower from spawning; the pack blocks golden dandelion, torchflower, wither rose, open and closed eyeblossom and the clipped eyeblossoms from the Artificial Heart mod. Dandelion, poppy, blue orchid, allium, azure bluet, the four tulips, oxeye daisy, cornflower and lily of the valley remain in the pool."}
+  ],
+  "vanilla_changes": [
+    {"what": "Item stack sizes", "change": "Beds, banners, signs, boats, minecarts, enchanted books, saddles, ender pearls, eggs, snowballs, empty buckets, cake, armor stands, books, honey bottles and most music discs stack to 64; potions, stews, shields, totems, filled buckets and shulker boxes stack to 16.", "kind": "other"},
+    {"what": "Harvesting crops", "change": "Right-click harvests and replants crops without a hoe or hunger cost.", "kind": "block-behavior"},
+    {"what": "Mining cobblestone, deepslate, end stone and logs", "change": "Netherite pickaxes and axes mine them instantly with Efficiency V and Haste II.", "kind": "block-behavior"},
+    {"what": "Lava over water below Y 11", "change": "Generates deepslate instead of cobblestone.", "kind": "block-behavior"},
+    {"what": "Grindstone", "change": "Can move enchantments to a book, or between books, for an XP cost.", "kind": "enchanting"},
+    {"what": "Zombie villagers", "change": "Cure time is fixed at 3 minutes and zombies always convert villagers.", "kind": "mob-behavior"},
+    {"what": "Bone meal on grass", "change": "Produces a random mix of most flowers in any biome.", "kind": "block-behavior"}
+  ],
+  "qol": ["No hoe needed to harvest crops.", "Shulker boxes, buckets and potions stack to 16.", "Beds, signs, boats and minecarts stack to 64.", "Zombie villager cure time is shown."],
+  "commands_and_keybinds": [],
+  "getting_started": "No setup needed; all values apply automatically.",
+  "related_units": ["mods__stackitup", "mods__rightclickharvest", "mods__deepslate-instamine-fabric-forge", "mods__grind-enchantments", "mods__villagertweaks", "mods__random-bone-meal-flowers", "mods__artificial-heart"],
+  "sources": ["client/overrides/config (raw files, read directly)", "facts/mods/deepslate-instamine-fabric-forge.json (modrinth body)", "facts/mods/villagertweaks.json (authorReadme)", "facts/mods/rightclickharvest.json (modrinth body)", "facts/mods/random-bone-meal-flowers.json (modrinth body)", "facts/mods/grind-enchantments.json (modrinth body)"],
+  "confidence": "medium",
+  "editor_notes": "Grind Enchantments cost formula is a rough reading of nested config functions; verify in game. forceVillagerConversion is interpreted as 'zombies always convert villagers'. Vanilla default stack sizes were not asserted per item; confirm any comparison against vanilla before publishing. Verify StackItUp actually imported the allstackable values (its own config may differ)."
+}

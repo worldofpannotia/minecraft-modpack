@@ -1,0 +1,57 @@
+{
+  "name": "Wandering Trades (Hermit Edition)",
+  "unit": "datapacks__wandering-trades-hermit-edition",
+  "kind": "datapack",
+  "category": "Villagers & Trading",
+  "secondary_categories": [
+    "Loot & Drops"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Wandering traders sell extra player-head trades: Hermitcraft member heads for 1 emerald, and 'Mini' block heads for 1 emerald plus the full block. Each trader gets a random selection on top of its vanilla trades.",
+  "new_content": [
+    {
+      "name": "Hermit player heads (29 trades)",
+      "type": "item",
+      "how_to_obtain": "Wandering trader: 1 emerald for 1 head, up to 3 uses per trade. A trader gets a random 2 to 5 of these.",
+      "notes": "Heads: PythonGB, Xisuma, Docm77, Jessassin, xBCrafted, Etho, Mumbo, iJevin, impulseSV, Renthedog, Tinfoilchef, Biffa2001, GoodTimesWithScar, Zedaph, joehillssays, cubfan135, Welsknight, Keralis, falsesymmetry, hypnotizd, VintageBeef, BdoubleO100, Tango, Grian, ZombieCleo, GeminiTay, PearlescentMoon, Skizzleman, SmallishBeans. Uncommon rarity."
+    },
+    {
+      "name": "Mini block heads (190 trades)",
+      "type": "item",
+      "how_to_obtain": "Wandering trader: 1 emerald + 1 of the matching full block (e.g. Ender Chest, Enchanting Table, Furnace, a concrete colour, an ore, a log, a copper block) gives 8 mini block heads, 1 use per trade. A trader gets a random 15 to 21 of these.",
+      "notes": "Named 'Mini <Block>' (Mini Chest, Mini Diamond Block, Mini Oak Log and so on). Covers workstations and containers, redstone parts, concrete in all 16 colours, ores and deepslate ores, planks and logs, stone variants, nether and blackstone blocks, copper, froglights, coral, mud, bamboo, cherry, sculk and more. Items are player heads with custom name and skin."
+    }
+  ],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Wandering trader offers",
+      "change": "Each wandering trader gets 2 to 5 random hermit-head trades and 15 to 21 random mini-block trades (no duplicates), added to the front of its normal offers. The trader is frozen by a slowness effect while the trades are generated.",
+      "kind": "trading"
+    },
+    {
+      "what": "minecraft:blocks/player_head loot table",
+      "change": "Overridden so a broken player head drops itself and keeps its stored components (name and skin).",
+      "kind": "loot"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "None."
+  ],
+  "getting_started": "Find a wandering trader (Wandering Trader Announcements will tell you) and look through its trade list.",
+  "related_units": [
+    "datapacks__world-of-pannotia__mini_blocks",
+    "mods__miniblock-merchants",
+    "mods__just-player-heads",
+    "datapacks__wandering-trader-announcements",
+    "datapacks__world-of-pannotia__more_mob_heads"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/wandering-trades-hermit-edition/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Counts come from add_trade.mcfunction: 29 hermit trades (indexes 2-32 minus gaps) and 190 mini-block trades (indexes 129-318), 219 total. Trade count ranges from provide_hermit_trades (random 2..5) and provide_block_trades (random 15..21). Likely overlaps with mods__miniblock-merchants and datapacks__world-of-pannotia__mini_blocks; check whether those also sell mini-block heads and whether they are placeable."
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Rain Be Gone Ritual",
+  "unit": "mods__rain-be-gone-ritual",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Lets survival players stop rain by performing a small multi-block ritual: cauldrons placed around a log, then the log is set alight.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Stopping the rain ritual",
+      "description": "Place 4 to 8 cauldrons (empty or filled) around a log in one of the supported layouts, then ignite the log with flint and steel. A harmless explosion effect plays, the cauldrons fill with water and the rain stops."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Surround a log with at least four cauldrons and light the log with flint and steel.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/rain-be-gone-ritual",
+    "facts/mods/rain-be-gone-ritual.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Exact accepted cauldron layouts are shown only in images on the mod page; text states min 4, max 8 cauldrons around the log. Requires Collective. Serilum mod."
+}

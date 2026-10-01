@@ -1,0 +1,37 @@
+{
+  "name": "Craftable Blackstone",
+  "unit": "datapacks__vanillatweaks__craftable_blackstone",
+  "kind": "datapack-module",
+  "category": "Recipes & Crafting Tweaks",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Makes blackstone craftable from basalt and coal, so it can be obtained without finding it in the Nether.",
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Blackstone",
+      "change": "2x2 with basalt on one diagonal and coal or charcoal on the other -> 4 blackstone.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Polished blackstone",
+      "change": "Same 2x2 diagonal layout with polished basalt + coal or charcoal -> 4 polished blackstone.",
+      "kind": "recipe-added"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Craft in a normal crafting table (or furnace where noted); recipes appear in the recipe book once the ingredients are held.",
+  "related_units": [
+    "datapacks__vanillatweaks__crafting"
+  ],
+  "sources": [
+    "https://vanillatweaks.net/picker/crafting-tweaks/",
+    "Datapack files under client/overrides/datapacks/vanillatweaks/data/",
+    "vanilla recipes in minecraft-assets/data/minecraft/recipe/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Part of the bundled VanillaTweaks Crafting Tweaks datapack (version 26.2 selection). Recipes are server-side; the datapack is loaded via Paxi."
+}

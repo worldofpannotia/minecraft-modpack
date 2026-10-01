@@ -1,0 +1,40 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server",
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Creating an area",
+      "description": "Place a sign with a radius prefix such as [R:10] (or [Radius:10]) on one line and the area name on another; an optional [RGB] prefix sets a custom message color. Leave the radius empty to use the default (30 blocks); a blank name gets a random name (default on). Breaking the sign removes the area."
+    },
+    {
+      "title": "Overlap",
+      "description": "Areas may overlap to form other shapes; the enter/leave message only shows when entering the first or leaving the last overlapping area."
+    },
+    {
+      "title": "Config",
+      "description": "Signs are checked within 100 blocks of the player by default. Enter/leave prefixes, chat vs HUD messages, and text color/size are configurable."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/areas - lists all area signs around the player"
+  ],
+  "getting_started": "Place a sign, write [R:20] on one line and a name on another, and walk across the boundary.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/areas (facts + fetch)"
+  ],
+  "editor_notes": "Exact line layout of the sign is approximate (from Modrinth page examples; screenshots not readable). Modrinth lists client required / server unsupported: players need the mod client-side. Requires Collective.",
+  "name": "Areas",
+  "kind": "mod",
+  "category": "Maps & Navigation",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Lets any player define a named area (town, base, region) by placing a sign. Walking into or out of the radius shows a message at the top of the screen, such as 'Entering Desert Island.'",
+  "confidence": "medium",
+  "unit": "mods__areas"
+}

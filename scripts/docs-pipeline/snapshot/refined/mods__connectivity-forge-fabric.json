@@ -1,0 +1,26 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__cupboard"
+  ],
+  "sources": [
+    "https://www.curseforge.com/minecraft/mc-mods/connectivity"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Jar is the 26.1 build (connectivity-fabric-26.1-7.6) in the 26.2 pack; verify it loads. Requires Cupboard.",
+  "secondary_categories": [
+    "Multiplayer & Server"
+  ],
+  "player_facing": false,
+  "kind": "mod",
+  "name": "Connectivity",
+  "category": "Performance & Technical",
+  "side": "both",
+  "summary": "Fixes network problems such as login/play timeouts, DecoderExceptions and packet-size limits, with logging and diagnostics for traffic.",
+  "unit": "mods__connectivity-forge-fabric"
+}

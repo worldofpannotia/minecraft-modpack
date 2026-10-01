@@ -1,0 +1,33 @@
+{
+  "secondary_categories": [
+    "Building & Decoration"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Double slabs",
+      "change": "Mining a double slab breaks only the half under the crosshair and leaves a single slab.",
+      "kind": "block-behavior"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__balm",
+    "datapacks__vanillatweaks__slabs_stairs_to_block"
+  ],
+  "sources": [
+    "facts/mods/kleeslabs.json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Balm. Client optional, server required.",
+  "name": "KleeSlabs",
+  "unit": "mods__kleeslabs",
+  "kind": "mod",
+  "category": "Quality of Life",
+  "summary": "Breaking a double slab removes only the half you are looking at instead of both. Works with vanilla slabs and many modded slabs."
+}

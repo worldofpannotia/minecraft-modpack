@@ -1,0 +1,32 @@
+{
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Bottling XP",
+      "description": "Sneak + right-click an empty bottle. Default config: damage 1 half-heart (damageOnCreation true, halfHeartDamageAmount 1), consumes 10 raw XP per bottle (rawXpConsumedOnCreation, range 0-100)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Sneak + right-click with an empty bottle"
+  ],
+  "getting_started": "Hold a glass bottle, crouch and right-click.",
+  "related_units": [
+    "mods__collective",
+    "mods__better-than-mending"
+  ],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Config values are mod defaults; no pack override found. Produces the vanilla Bottle o' Enchanting.",
+  "secondary_categories": [],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Bottle Your Xp",
+  "category": "Enchanting & Magic",
+  "side": "server",
+  "summary": "Sneak and right-click with an empty glass bottle to turn your own experience into a Bottle o' Enchanting. By default it costs 10 raw XP and hurts you slightly.",
+  "unit": "mods__bottle-your-xp"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Random Village Names",
+  "unit": "mods__random-village-names",
+  "kind": "mod",
+  "category": "Villagers & Trading",
+  "secondary_categories": [
+    "World Generation & Exploration",
+    "Maps & Navigation"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Every village gets a random name from a preset list. The name is stored on a sign at the village centre and shown on screen through the Areas mod when you enter.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Named villages",
+      "description": "A sign with the village name is placed in the village centre. Areas shows an \"Entering ...\" style message when you approach it."
+    },
+    {
+      "title": "Renaming or removing",
+      "description": "You can edit the sign to rename the village, or replace it with an empty sign to remove the name. You can also place your own sign, as long as it is within 15 blocks of the generated one."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/areas - shows all area signs (including village names) around the player"
+  ],
+  "getting_started": "Find a village; the name shows when you enter. Use /areas to see nearby named areas.",
+  "related_units": [
+    "mods__areas"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/random-village-names",
+    "facts/mods/random-village-names.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Requires Areas and Collective. Areas config controls the displayed text. Names likely apply only to newly generated villages."
+}

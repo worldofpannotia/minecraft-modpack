@@ -1,0 +1,30 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [
+    {
+      "what": "Infinity enchantment",
+      "change": "Bows and crossbows enchanted with Infinity can be used without having any arrow in the inventory.",
+      "kind": "enchanting"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Enchant a bow or crossbow with Infinity and shoot.",
+  "related_units": [],
+  "sources": [
+    "facts json (modrinth body)"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Jar filename says neo; presumably a multi-loader build that loads on Fabric. Verify what is fired when no arrow is carried (assumed regular arrow).",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Bow Infinity Fix",
+  "category": "Tools, Weapons & Armor",
+  "side": "both",
+  "summary": "Bows and crossbows with Infinity no longer need an arrow in the inventory to fire.",
+  "unit": "mods__bow-infinity-fix-forge-fabric"
+}

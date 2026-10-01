@@ -1,0 +1,79 @@
+{
+  "secondary_categories": [
+    "Multiplayer & Server",
+    "World Generation & Exploration"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "new_content": [
+    {
+      "name": "Loot Chest, Loot Barrel, Loot Shulker",
+      "type": "block",
+      "how_to_obtain": "Replace loot-table chests, barrels and shulker boxes automatically",
+      "notes": "Per-player inventory"
+    },
+    {
+      "name": "Copper Loot Chest (plus exposed, weathered, oxidized)",
+      "type": "block",
+      "how_to_obtain": "Converted from copper chests that have loot tables",
+      "notes": ""
+    },
+    {
+      "name": "Decorated Loot Pot, Minecart with Loot Chest, Item Frame with Loot",
+      "type": "other",
+      "how_to_obtain": "Converted from loot-table pots, minecarts and item frames",
+      "notes": ""
+    },
+    {
+      "name": "Lootr gravel and sand (suspicious blocks)",
+      "type": "block",
+      "how_to_obtain": "Archaeology blocks with loot tables",
+      "notes": "Brushable per player"
+    },
+    {
+      "name": "Centennial Trophy",
+      "type": "block",
+      "how_to_obtain": "Unverified",
+      "notes": "Lang entry only"
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Breaking",
+      "description": "By default breaking a Lootr container shows a warning and requires sneaking; configurable (never, always, or break-to-drop-loot)."
+    },
+    {
+      "title": "Decay and refresh",
+      "description": "Optional per-loot-table timers can destroy a container after opening (decay) or regenerate its loot after a delay (refresh); particles indicate this."
+    },
+    {
+      "title": "Existing worlds",
+      "description": "Containers already opened before installing are not converted. Removing Lootr deletes all Lootr containers."
+    },
+    {
+      "title": "Advancements",
+      "description": "21 advancements, e.g. opening 1/10/25/50/100 containers, each container type, and each copper chest variant."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/lootr custom: standing on a vanilla chest, turns it into a shared 'starter' chest with a per-player copy of its contents (operator only)",
+    "/lootr has more subcommands; see the Lootr wiki"
+  ],
+  "getting_started": "Explore structures as usual and open loot chests; each player gets their own copy of the loot.",
+  "related_units": [
+    "mods__chimericlib",
+    "datapacks__world-of-pannotia__looting_shulker_shells"
+  ],
+  "sources": [
+    "facts/mods/lootr-fabric.json (modrinth body, lang, tooltips)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Required on both client and server. Pack has no config override. Data includes 72 lootr tags (blacklist/whitelist style). Centennial Trophy origin unverified.",
+  "name": "Lootr",
+  "unit": "mods__lootr-fabric",
+  "kind": "mod",
+  "category": "Loot & Drops",
+  "summary": "Loot containers generated from loot tables (chests, trapped chests, barrels, shulker boxes, minecarts, decorated pots, suspicious blocks, item frames) give each player their own inventory, so nobody misses loot or finds an already-looted chest. Containers look different, and change colour from gold to blue once you have opened them."
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Villager Workstation Highlights",
+  "unit": "datapacks__villager-workstation-highlights",
+  "kind": "datapack",
+  "category": "Villagers & Trading",
+  "secondary_categories": [
+    "Quality of Life"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Shows where a villager's job site (workstation) is. Stand next to a villager and run /trigger vwh_findStation.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "How it works",
+      "description": "The nearest villager within 5 blocks of you glows for 10 seconds, a heart-particle cloud appears above its workstation for about 10 seconds, and chat shows 'The workstation is located at [XYZ]: x y z'. If it has none: 'This villager does not have a workstation!'."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [
+    "Find which block a villager claimed, which helps fix trading halls."
+  ],
+  "commands_and_keybinds": [
+    "/trigger vwh_findStation : locate the workstation of the nearest villager (within 5 blocks)"
+  ],
+  "getting_started": "Stand within 5 blocks of a villager and type /trigger vwh_findStation.",
+  "related_units": [
+    "mods__villagertweaks",
+    "mods__trade-cycling"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/villager-workstation-highlights/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Reads the villager's job_site memory only. It picks the nearest villager, not the one you look at."
+}

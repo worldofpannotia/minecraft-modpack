@@ -1,0 +1,41 @@
+{
+  "name": "Horse Expert",
+  "unit": "mods__horse-expert",
+  "kind": "mod",
+  "category": "Farming, Food & Animals",
+  "secondary_categories": [
+    "Interface & HUD",
+    "Mobs & Creatures"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Craft and wear a monocle, then look at a tamed horse, donkey, mule or llama to see its health, speed, jump height and (for pack animals) storage slots. Helps choose breeding stock.",
+  "new_content": [
+    {
+      "name": "Monocle",
+      "type": "item",
+      "how_to_obtain": "Shaped: gold nuggets in a plus shape (top, left, right, bottom) around a glass pane in the center",
+      "notes": "Tooltip: 'Wear it and look at a mount to see all statistics!'"
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Stats display",
+      "description": "Shows health in hearts, speed in blocks/second, jump height in blocks, and storage slots, with min/max ranges. Requires a tamed mount by default (configurable). Llamas show extra info."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__horse-breeding-fix",
+    "mods__forge-config-api-port-fabric",
+    "mods__puzzles-lib-forge-fabric"
+  ],
+  "sources": [
+    "facts/mods/horse-expert.json (jar metadata, Modrinth body)"
+  ],
+  "confidence": "high",
+  "editor_notes": "Equip slot not confirmed (jar ships trinkets data; verify whether the pack includes Trinkets or the monocle goes in the head slot). Config is TOML; edit via /config showfile horseexpert."
+}

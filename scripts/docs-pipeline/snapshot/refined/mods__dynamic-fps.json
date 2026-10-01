@@ -1,0 +1,28 @@
+{
+  "secondary_categories": [],
+  "side": "client",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [
+    "Per-state (active, hovered, unfocused, invisible, idle, battery) settings for FPS, volume and pausing.",
+    "Optional battery HUD and toast notifications; battery support downloads an extra library at runtime (can be disabled)."
+  ],
+  "commands_and_keybinds": [
+    "In-game config screen needs Mod Menu and a config-screen library."
+  ],
+  "getting_started": "Works out of the box; adjust in Mod Menu if desired.",
+  "related_units": [],
+  "sources": [
+    "https://modrinth.com/mod/dynamic-fps",
+    "https://github.com/juliand665/Dynamic-FPS"
+  ],
+  "confidence": "high",
+  "editor_notes": "Frame rate floor of the loop is 15; lower rates are achieved by dropping frames.",
+  "unit": "mods__dynamic-fps",
+  "kind": "mod",
+  "name": "Dynamic FPS",
+  "category": "Performance & Technical",
+  "summary": "Reduces frame rate, volume and other resource use when the Minecraft window is unfocused, hovered, hidden, idle or the device is on battery. Also fixes some vanilla background CPU use and stops world rendering behind the loading overlay."
+}

@@ -1,0 +1,38 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Map screen",
+      "description": "Press M, drag to move, scroll wheel to zoom. Includes a waypoint menu, footsteps showing your recent path, an optional vanilla-map look, and export to PNG."
+    },
+    {
+      "title": "Server controls",
+      "description": "Servers can enforce a profile and use the effects xaeroworldmap:no_world_map and no_wm_cave_maps to restrict use."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "M - open world map"
+  ],
+  "getting_started": "",
+  "related_units": [
+    "mods__xaero-s-minimap"
+  ],
+  "sources": [
+    "facts/mods/xaero-s-world-map.json",
+    "https://modrinth.com/mod/xaeros-world-map"
+  ],
+  "confidence": "high",
+  "editor_notes": "The author recommends optimizing singleplayer worlds after Minecraft updates for faster map generation.",
+  "player_facing": true,
+  "kind": "mod",
+  "name": "Xaero's World Map",
+  "unit": "mods__xaero-s-world-map",
+  "category": "Maps & Navigation",
+  "side": "both",
+  "summary": "A full-screen, self-writing map of the areas you have explored that shows Xaero's Minimap waypoints. Supports multiple maps per server, cave dimensions such as the Nether, and PNG export."
+}

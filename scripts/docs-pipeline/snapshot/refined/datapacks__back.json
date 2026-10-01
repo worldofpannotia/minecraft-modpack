@@ -1,0 +1,42 @@
+{
+  "name": "Back",
+  "unit": "datapacks__back",
+  "kind": "datapack",
+  "category": "Transport & Movement",
+  "secondary_categories": [],
+  "side": "server",
+  "player_facing": true,
+  "summary": "Adds /trigger back, which returns you to the location you last teleported from using the Homes or Spawn packs. Optionally (off by default) it also remembers your death location.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "What sets the Back location",
+      "description": "Using /trigger home or /trigger spawn stores your position, rotation and dimension before the teleport. /trigger back teleports you there, across dimensions if needed. Using Back also records the place you left, so repeating /trigger back toggles between two places."
+    },
+    {
+      "title": "Death location",
+      "description": "A 'Save Death Location' option, Disabled by default, makes Back also remember where you died. Operators toggle it through /function back:config."
+    },
+    {
+      "title": "Delay and cooldown",
+      "description": "Operator-set values: delay (ticks you must stand still, default 0) and cooldown (seconds between uses, default 0). Messages: 'Teleporting back...', 'You have nowhere to go back to.', 'Your Back cooldown will end in N seconds.'"
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "/trigger back : teleport to your last teleport-origin (or death location, if enabled)",
+    "/function back:config : (operators) Save Death Location toggle, Delay (/scoreboard players set #delay back.config <ticks>), Cooldown (/scoreboard players set #cooldown back.config <seconds>)"
+  ],
+  "getting_started": "After using /trigger home or /trigger spawn, type /trigger back to return.",
+  "related_units": [
+    "datapacks__homes",
+    "datapacks__spawn"
+  ],
+  "sources": [
+    "Datapack source: client/overrides/datapacks/back/",
+    "https://vanillatweaks.net/picker/datapacks/"
+  ],
+  "confidence": "high",
+  "editor_notes": "Advancement text also mentions TPA, but no TPA pack/mod ships here; Homes and Spawn call back:set_back directly. Defaults (death off, delay 0, cooldown 0) are not overridden anywhere in the repo."
+}

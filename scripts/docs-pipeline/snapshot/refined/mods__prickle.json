@@ -1,0 +1,22 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "related_units": [],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "",
+  "player_facing": false,
+  "confidence": "high",
+  "name": "Prickle",
+  "category": "Libraries & APIs",
+  "side": "both",
+  "summary": "Library that adds the Prickle JSON-with-comments config format used by some mods. No player-facing content.",
+  "sources": [
+    "facts/mods/prickle.json"
+  ],
+  "unit": "mods__prickle",
+  "kind": "mod"
+}

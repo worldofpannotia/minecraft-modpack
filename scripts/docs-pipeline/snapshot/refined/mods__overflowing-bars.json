@@ -1,0 +1,42 @@
+{
+  "vanilla_changes": [],
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Layered bars",
+      "description": "Health above ten hearts and armor above vanilla limits are drawn as layers using the vanilla color for the base and a single highlight color for extra layers, with a numeric layer counter."
+    },
+    {
+      "title": "Toughness bar",
+      "description": "A dedicated armor toughness bar is added to the HUD."
+    },
+    {
+      "title": "Chat fix",
+      "description": "Chat messages no longer cover armor-related HUD elements."
+    }
+  ],
+  "qol": [
+    "Compact HUD with very high health or armor values",
+    "Layout, counters and stacking behavior are configurable"
+  ],
+  "commands_and_keybinds": [],
+  "related_units": [
+    "mods__puzzles-lib-forge-fabric",
+    "mods__appleskin",
+    "mods__mod-menu"
+  ],
+  "secondary_categories": [],
+  "getting_started": "",
+  "editor_notes": "The page recommends AttributeFix for armor/toughness above vanilla caps; it is not in this batch, so it may not be in the pack. Config in config/overflowingbars-client.toml.",
+  "player_facing": true,
+  "confidence": "high",
+  "name": "Overflowing Bars",
+  "category": "Interface & HUD",
+  "side": "client",
+  "summary": "Stacks health, armor and armor toughness into compact layered bars instead of adding extra rows, with a counter showing how many layers you have. It also adds an armor toughness bar to the HUD.",
+  "sources": [
+    "facts/mods/overflowing-bars.json (modrinth body)"
+  ],
+  "unit": "mods__overflowing-bars",
+  "kind": "mod"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "SB's Enchantment Effects",
+  "unit": "mods__sb-s-enchantment-effects",
+  "kind": "mod",
+  "category": "Cosmetic, Visual & Audio",
+  "secondary_categories": [
+    "Enchanting & Magic"
+  ],
+  "side": "client",
+  "player_facing": true,
+  "summary": "Client-side particles and sounds for enchantments that scale with level, making combat enchantments look more impactful.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Effects by enchantment",
+      "description": "Sharpness: magic slash. Smite: holy beam. Bane of Arthropods: banish effect. Fire Aspect: rings of fire (more with level). Knockback: gusts of wind. Thorns: guardian-style shield that strikes attackers."
+    },
+    {
+      "title": "Planned",
+      "description": "Effects for bow, trident and mace enchantments are planned but not yet present."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__removeenchantmentincompatibility"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/enchantment-effects",
+    "facts/mods/sb-s-enchantment-effects.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "Purely visual; no gameplay changes."
+}

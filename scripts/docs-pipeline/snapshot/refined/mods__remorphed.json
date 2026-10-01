@@ -1,0 +1,53 @@
+{
+  "name": "ReMorphed",
+  "unit": "mods__remorphed",
+  "kind": "mod",
+  "category": "Mobs & Creatures",
+  "secondary_categories": [
+    "Progression & Advancements"
+  ],
+  "side": "both",
+  "player_facing": true,
+  "summary": "Kill a mob to unlock its form, then transform into it from a menu. Each form has its own model, traits (such as swimming faster as a fish) and sometimes an ability. Built on Walkers and CraftedCore.",
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Unlocking morphs",
+      "description": "Killing a mob saves it to your collection. Walkers' own unlock method is disabled while ReMorphed is installed."
+    },
+    {
+      "title": "Balance",
+      "description": "Unlocked mobs \"vanish\" after being morphed into 5 times per kill, so repeated morphing needs further kills."
+    },
+    {
+      "title": "Traits and abilities",
+      "description": "Each form has passive traits (symbols shown in the menu) and some forms have an active ability with a cooldown indicator in the bottom-right."
+    },
+    {
+      "title": "Variants",
+      "description": "Open the variants menu to pick a variant of a mob; scroll the mouse wheel to cycle and press the key again to confirm."
+    },
+    {
+      "title": "Players",
+      "description": "Morphing into other players requires the separate SkinShifter mod (not confirmed in the pack)."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [
+    "^ (default) - open the morph menu",
+    "G - transform into the selected morph",
+    "R - use the morph ability",
+    "A help screen is available (remorphed.help keybind)"
+  ],
+  "getting_started": "Kill a mob, press ^ to open the menu, select the form and press G.",
+  "related_units": [
+    "mods__woodwalkers"
+  ],
+  "sources": [
+    "https://modrinth.com/mod/remorphed",
+    "facts/mods/remorphed.json"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Keybinds from the mod description and help text; confirm in-game. No pack config override exists."
+}

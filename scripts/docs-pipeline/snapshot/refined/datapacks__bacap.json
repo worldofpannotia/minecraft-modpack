@@ -1,0 +1,32 @@
+{
+  "name": "BlazeandCave's Advancements Pack (BACAP)",
+  "unit": "datapacks__bacap",
+  "kind": "datapack",
+  "category": "Progression & Advancements",
+  "secondary_categories": ["Loot & Drops"],
+  "side": "server",
+  "player_facing": true,
+  "summary": "A large advancement datapack by Cavinator1 that adds roughly 1,200 custom advancements (the bundled readme says 1243) on top of the vanilla ones. Advancements are grouped into themed tabs in the advancements screen (L by default), and many of them grant item rewards, XP or trophies. A chat config menu lets players or admins switch rewards, trophies and message styles on and off.",
+  "new_content": [
+    {"name": "BlazeandCave's advancement tabs", "type": "other", "how_to_obtain": "Open the advancements screen (default key L).", "notes": "Custom tabs in the pack data: Adventure (113), Animal (123), Biomes (74), Building (113), Challenges (41), Enchanting (56), End (41), Farming (60), Mining (116), Monsters (86), Nether (87), Potion (28), Redstone (49), Statistics (66), Technical (75), Weaponry (54), plus a 23-entry root/info tab. Counts are file counts from the pack and include hidden helper advancements."},
+    {"name": "Advancement reward items", "type": "item", "how_to_obtain": "Complete the relevant advancement.", "notes": "Over 5,000 reward functions (namespace bacap_rewards) hand out items, XP or effects on completion, e.g. Birthday Song, Hero of the Village. Rewards can be toggled in the config menu."},
+    {"name": "Trophies", "type": "item", "how_to_obtain": "Granted for completing the pack's major/challenge advancements.", "notes": "Trophies are items with CustomModelData so a resource pack can texture them. Can be disabled in the config menu."},
+    {"name": "Advancements scoreboard", "type": "other", "how_to_obtain": "Enable through the config menu.", "notes": "Shows each player's advancement count in the tab list and/or sidebar."}
+  ],
+  "mechanics": [
+    {"title": "Advancement tabs and reward system", "description": "Each custom advancement is a normal advancement with its own criteria; when it completes, a bacap_rewards function runs to give the reward and a chat announcement. The pack also replaces about 129 files in the vanilla minecraft namespace so the vanilla tabs fit into the new tree and can award rewards too."},
+    {"title": "Config menu", "description": "Run /function blazeandcave:config to open a clickable chat menu. Per the pack readme it lets you: enable/disable item rewards, trophies and the welcome message with checkboxes; choose which types of advancement completion messages appear; show the advancements scoreboard in the tab list and/or sidebar (or clear it); update the scoreboard for all online players; and further settings."},
+    {"title": "Difficulty", "description": "Most tabs are normal survival progression with many easy and mid-game goals; Challenges, Statistics and some tab capstones are long-term grinds. Harder completionist content lives in the Torture Edition add-on."},
+    {"title": "Fanpack hooks", "description": "The pack ships a small bacap_fanpacks namespace (23 files) that add-on datapacks such as the Torture Edition plug into."}
+  ],
+  "vanilla_changes": [
+    {"what": "Vanilla advancements", "change": "About 129 vanilla-namespace files are replaced/extended so the original tabs (Story, Nether, End, Adventure, Husbandry) integrate with BACAP's tree.", "kind": "other"}
+  ],
+  "qol": ["Advancement completion messages can be customized or reduced via the config menu.", "Optional scoreboard of advancement counts for multiplayer."],
+  "commands_and_keybinds": ["/function blazeandcave:config - open the pack's config menu (operators).", "L (default) - open the advancements screen to browse the BlazeandCave tabs.", "/datapack enable - only needed if the pack was not enabled at world creation."],
+  "getting_started": "Open the advancements screen with L and click the BlazeandCave's Advancements tab. Start with the early tabs (Adventure, Farming, Mining, Animal). Use /function blazeandcave:config to turn rewards or trophies off. The readme says the pack targets Minecraft 26.2 and recommends a world backup when updating.",
+  "related_units": ["datapacks__bacap-torture-edition", "datapacks__track-statistics", "datapacks__track-raw-statistics", "mods__advancement-screenshot", "mods__paginated-advancements-custom-frames"],
+  "sources": ["facts/datapacks/bacap.json (read_me.txt, licence.txt, namespace and tab counts)", "https://www.curseforge.com/minecraft/customization/blazeandcaves-advancements-pack"],
+  "confidence": "medium",
+  "editor_notes": "Advancement counts per tab are file counts from the jar, not exact player-visible numbers; use the readme's 1243 total as the headline. Config menu permission (operator) is the usual /function requirement - verify in game. Verify rewards/trophies are left at defaults (on)."
+}

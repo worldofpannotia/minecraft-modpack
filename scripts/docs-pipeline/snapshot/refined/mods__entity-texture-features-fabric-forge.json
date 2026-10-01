@@ -1,0 +1,24 @@
+{
+  "name": "Entity Texture Features",
+  "unit": "mods__entity-texture-features-fabric-forge",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__entity-model-features-cem-fabric-forge"
+  ],
+  "sources": [
+    "facts: jar metadata"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "category": "Cosmetic, Visual & Audio",
+  "side": "client",
+  "player_facing": false,
+  "summary": "Client mod adding OptiFine-style random, custom, emissive and blinking entity textures from resource packs."
+}

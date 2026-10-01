@@ -1,0 +1,22 @@
+{
+  "name": "FixBookGUI",
+  "unit": "mods__fixbookgui",
+  "kind": "mod",
+  "secondary_categories": [],
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [],
+  "sources": [
+    "facts: modrinth body"
+  ],
+  "confidence": "high",
+  "editor_notes": "Client only, no configuration.",
+  "category": "Interface & HUD",
+  "side": "client",
+  "player_facing": true,
+  "summary": "Moves the book screen (writing, reading, lectern) to the vertical centre of the screen instead of the top, fixing Mojang bug MC-61489."
+}

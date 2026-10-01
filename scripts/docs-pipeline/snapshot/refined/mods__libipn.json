@@ -1,0 +1,24 @@
+{
+  "secondary_categories": [],
+  "side": "unknown",
+  "player_facing": false,
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__inventory-profiles-next"
+  ],
+  "sources": [
+    "facts/mods/libipn.json"
+  ],
+  "confidence": "high",
+  "editor_notes": "",
+  "name": "libIPN",
+  "unit": "mods__libipn",
+  "kind": "mod",
+  "category": "Libraries & APIs",
+  "summary": "Settings and GUI library for Inventory Profiles Next."
+}

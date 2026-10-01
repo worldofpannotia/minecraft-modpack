@@ -1,0 +1,22 @@
+{
+  "new_content": [],
+  "mechanics": [],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "",
+  "related_units": [
+    "mods__sodium"
+  ],
+  "sources": [],
+  "secondary_categories": [],
+  "editor_notes": "Client-side performance addon; not researched in detail.",
+  "player_facing": false,
+  "confidence": "medium",
+  "name": "Sodium Extra",
+  "unit": "mods__sodium-extra",
+  "kind": "mod",
+  "category": "Performance & Technical",
+  "side": "client",
+  "summary": "Adds extra video settings (particles, animations, optional overlays) on top of Sodium."
+}
