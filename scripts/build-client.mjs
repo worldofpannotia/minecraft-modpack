@@ -1,5 +1,6 @@
-import proc from 'node:child_process';
 import fse from 'fs-extra';
+
+import {zipDir, zipSubdirs} from './lib/zip.mjs';
 
 if (process.argv?.[2] === '-h' || process.argv?.[2] === '--help') {
     console.log('Usage:');
@@ -27,21 +28,17 @@ await fse.emptyDir('./tmp');
 
 await fse.ensureDir('./tmp/client');
 
-await fse.copy('./scripts/zip-client.sh', './tmp/zip-client.sh');
-
 await fse.copy('./client', './tmp/client');
 
-// proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/datapacks'});
-// proc.execSync('sh ./zip.sh', {cwd: './tmp/client/overrides/config/paxi/resourcepacks'});
+// legacy config kept in the repo for reference only; never ship it
+await fse.remove('./tmp/client/overrides/config.old');
 
-// await fse.remove('./tmp/client/overrides/config/paxi/datapacks/.gitignore');
-// await fse.remove('./tmp/client/overrides/config/paxi/datapacks/zip.sh');
-// await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks/zip.sh');
-// await fse.remove('./tmp/client/overrides/config/paxi/datapacks.old');
-// await fse.remove('./tmp/client/overrides/config/paxi/resourcepacks.old');
-// await fse.remove('./tmp/client/overrides/config/paxi/.gitignore');
-
-await fse.remove('./tmp/client/overrides');
+for (const dir of ['datapacks', 'resourcepacks']) {
+    const packDir = `./tmp/client/overrides/${dir}`;
+    if (await fse.pathExists(packDir)) {
+        await zipSubdirs(packDir);
+    }
+}
 
 await fse.move('./tmp/client/manifest.tpl.json', './tmp/client/manifest.json');
 
@@ -58,7 +55,7 @@ if (devBuild) {
     await fse.writeJSON('./tmp/client/manifest.json', manifest, {spaces: 4});
 }
 
-proc.execSync('sh ./zip-client.sh', {cwd: './tmp'});
+await zipDir('./tmp/client', './tmp/client.zip');
 
 try {
     if (override) {

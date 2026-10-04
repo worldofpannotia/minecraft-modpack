@@ -1,8 +1,0 @@
-{
-    "pack": {
-        "description": "Resources for Wyvernity's datapacks",
-        "pack_format": 88,
-        "min_format": [88,0],
-        "max_format": [88,0]
-    }
-}
