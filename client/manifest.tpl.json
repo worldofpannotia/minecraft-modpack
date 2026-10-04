@@ -3,7 +3,7 @@
         "version": "26.2",
         "modLoaders": [
             {
-                "id": "fabric-0.19.3",
+                "id": "fabric-0.19.5",
                 "primary": true
             }
         ]
@@ -17,6 +17,7 @@
     "files": [
         {"name": "Adaptive Tooltips", "projectID": 704346, "fileID": 8301350, "required": true, "isLocked": false},
         {"name": "Advancement Screenshot", "projectID": 414086, "fileID": 8275006, "required": true, "isLocked": false},
+        {"name": "All Hallows Steve", "projectID": 1687884, "fileID": 9062499, "required": true, "isLocked": false},
         {"name": "Amecs (Fabric)", "projectID": 324564, "fileID": 8176443, "required": true, "isLocked": false},
         {"name": "Anvil Restoration", "projectID": 523801, "fileID": 8274308, "required": true, "isLocked": false},
         {"name": "AppleSkin", "projectID": 248787, "fileID": 8271985, "required": true, "isLocked": false},
@@ -143,8 +144,6 @@
         {"name": "Nature's Compass", "projectID": 252848, "fileID": 8262900, "required": true, "isLocked": false},
         {"name": "No Feather Trample", "projectID": 950746, "fileID": 8273469, "required": true, "isLocked": false},
         {"name": "No Recipe Book (Fabric)", "projectID": 491407, "fileID": 8278500, "required": true, "isLocked": false},
-        {"name": "Nuit Interop", "projectID": 697845, "fileID": 8830041, "required": true, "isLocked": false},
-        {"name": "Nuit", "projectID": 408209, "fileID": 8829343, "required": true, "isLocked": false},
         {"name": "Open Parties and Claims", "projectID": 636608, "fileID": 8848901, "required": true, "isLocked": false},
         {"name": "OptiGUI", "projectID": 619986, "fileID": 8342668, "required": true, "isLocked": false},
         {"name": "Ore Height Indicator", "projectID": 1659304, "fileID": 8731745, "required": true, "isLocked": false},
