@@ -44,7 +44,7 @@
         {"name": "Bookshelf", "projectID": 228525, "fileID": 8391389, "required": true, "isLocked": false},
         {"name": "Bottle Your Xp", "projectID": 344020, "fileID": 9034853, "required": true, "isLocked": false},
         {"name": "Bottled Air", "projectID": 514444, "fileID": 9034831, "required": true, "isLocked": false},
-        {"name": "Bow Infinity Fix (Forge/Fabric)", "projectID": 224713, "fileID": 8391223, "required": true, "isLocked": false},
+        {"name": "Bow Infinity Fix (Forge/Fabric)", "projectID": 224713, "fileID": 8391221, "required": true, "isLocked": false},
         {"name": "Camel Nostrils", "projectID": 1654547, "fileID": 8789854, "required": true, "isLocked": false},
         {"name": "Capes [Fabric/Forge]", "projectID": 408481, "fileID": 8260310, "required": true, "isLocked": false},
         {"name": "Carpet", "projectID": 349239, "fileID": 8261203, "required": true, "isLocked": false},
