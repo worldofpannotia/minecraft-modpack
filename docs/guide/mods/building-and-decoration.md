@@ -5,6 +5,7 @@ This part of the pack covers everything that helps you design, place and decorat
 ## At a glance
 | Mod / pack | What it does | Side |
 |---|---|---|
+| All Hallows Steve | Dye and carve pumpkins with stencils; lit, candle-lit and wearable pumpkins | Both |
 | Anvil Restoration | Repair placed anvils with iron ingots, damage them with obsidian | Server |
 | Artificial Heart | Harmless decorative Creaking Hearts, clipped eyeblossoms, pale pumpkins and a friendly Creaking Golem | Both |
 | Banner Tweaks | Raises the banner pattern layer limit from 6 to 12 (configurable) | Both |
@@ -135,6 +136,17 @@ Harmless decorative versions of Pale Garden features, made by the pack author.
 - **Creaking Golem:** build a golem shape from pale oak fence and logs around a Creaking Heart, topped with a carved pale pumpkin or jack o'lantern. Friendly and sturdy; freezes when stared at but never attacks. Built around a Detached Creaking Heart it becomes an inert statue.
 - Also adds a shaped creaking heart recipe and shapeless gray and orange dye recipes.
 <!-- maintainer: recipe inputs not extracted; check jar recipes before adding a recipe table. Two advancements: Change of Heart, and a golem summon one. -->
+
+### All Hallows Steve
+Halloween-themed pumpkin decorating, made by the pack author.
+- **Pumpkin Carving Station:** craft from an iron ingot, shears, a crafting table and some planks. Use it to dye and carve pumpkins.
+- **Dyeing:** put a pumpkin and up to 3 dyes in the station. Dyed pumpkins can be re-dyed, and new dyes mix with the existing colour.
+- **Carving:** place up to four stencils around the pumpkin to carve its four sides. Stencils are not used up. Craft a Blank Stencil from paper and a pumpkin seed, then combine it with a matching item (for example a creeper head for the Creeper stencil). The Heart, Jigsaw, Spawner and Structure Block stencils cannot be crafted; find them as rare loot in village houses, strongholds, woodland mansions, dungeons, ancient cities and end cities.
+- **Lighting:** craft a decorated pumpkin with a torch to light it (torch 15, soul torch 10, copper torch 14, redstone torch 7; the glow colour follows the torch). Sneak and use a candle on a decorated pumpkin to add up to four candles (light 3, 6, 9, 12). A pumpkin holds either candles or a torch, not both. Shear it to take the contents back, snuff candles with an empty hand and relight with flint and steel. Sneak with an empty hand to inspect what is inside. Dispensers can light, unlight and shear pumpkins.
+- **Vanilla pumpkins:** a torch on a carved pumpkin makes a jack o'lantern; shears on a jack o'lantern take the torch back.
+- **Wearing:** decorated pumpkins (not lit ones) can be worn as a helmet. Other players see them and endermen are not angered when you look at them. You see through the carved openings, and an uncarved face blocks your view completely. Choose the forward side with the "Turn Worn Pumpkin" key (unbound by default); a config option (also in Mod Menu) lowers how much the pumpkin blocks your view.
+- **Advancements:** a set for crafting the station, dyeing, carving, wearing and lighting pumpkins, and collecting stencils. Two are secret.
+<!-- maintainer: content comes from the mod's README (1.0.1), not yet verified in game; see TEST_PLAN in the mod repo. -->
 
 ## Also relevant
 

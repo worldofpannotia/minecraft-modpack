@@ -1,6 +1,6 @@
 # Cosmetic, Visual & Audio
 
-This part of the pack is almost entirely client-side polish: particles, water and sky rendering, resource-pack support that OptiFine would normally provide, and a sound muffler. None of it changes gameplay, and most of it works automatically. Several mods (Continuity, Entity Texture Features, Entity Model Features, OptiGUI, Nuit and Nuit Interop) do nothing by themselves and only take effect when you enable a resource pack that uses the matching OptiFine-style format.
+This part of the pack is almost entirely client-side polish: particles, water and sky rendering, resource-pack support that OptiFine would normally provide, and a sound muffler. None of it changes gameplay, and most of it works automatically. Several mods (Continuity, Entity Texture Features, Entity Model Features and OptiGUI) do nothing by themselves and only take effect when you enable a resource pack that uses the matching OptiFine-style format.
 
 ## At a glance
 | Mod / pack | What it does | Side |
@@ -15,8 +15,6 @@ This part of the pack is almost entirely client-side polish: particles, water an
 | Extreme Sound Muffler | Mute or lower almost any sound from an in-game list | Client |
 | Falling Leaves | Leaf blocks shed falling-leaf particles | Client |
 | Fluid Void Fading | Fluids flowing off the world bottom fade out smoothly | Client |
-| Nuit | Custom skybox engine for resource packs | Client |
-| Nuit Interop | Converts OptiFine/MCPatcher sky packs for Nuit | Client |
 | OptiGUI | Custom GUI textures from resource packs | Client |
 | SB's Enchantment Effects | Level-scaled particles and sounds for combat enchantments | Client |
 | Vectorientation | Falling blocks rotate and squash/stretch with speed | Client |
@@ -75,10 +73,6 @@ Connected textures, emissive textures (blocks and item models only) and custom b
 ### OptiGUI
 Enables custom GUI textures from resource packs, including OptiFine custom GUI packs. No effect unless a compatible pack is enabled.
 <!-- maintainer: requires Fabric Language Kotlin; version is a 2.3.0 beta. -->
-
-### Nuit and Nuit Interop
-**Nuit** (formerly FabricSkyBoxes) is a custom skybox engine: resource packs can define custom skies with transitions, rotation, custom fog, sunrise/sunset and weather rendering. It adds nothing by itself. **Nuit Interop** converts OptiFine/MCPatcher `optifine/sky` definitions to Nuit skyboxes at runtime (best effort, so some skies may differ from OptiFine); it skips conversion when native Nuit skyboxes are present, and has options to disable native Nuit-format skyboxes.
-<!-- maintainer: Nuit is beta. Pack does not appear to ship a sky pack; treat as support for optional packs. Legacy FabricSkyBoxes loading is described as planned. -->
 
 ## Player appearance
 ### Armored Elytra

@@ -5,6 +5,7 @@ Every mod in the pack, A–Z. **Side** shows where a mod has to be installed: *c
 |---|---|---|---|
 | [Adaptive Tooltips](mods/interface-and-hud.md#adaptive-tooltips) | Interface & HUD | client | Improves how item and GUI tooltips are positioned and wrapped so long tooltips stay on screen. |
 | [Advancement Screenshot](mods/quality-of-life.md#advancement-screenshot) | Quality of Life | client | Automatically takes a screenshot each time you earn an advancement, so you build a record of your progress without pressing F2. |
+| [All Hallows Steve](mods/building-and-decoration.md#all-hallows-steve) | Building & Decoration | both | Halloween-themed pumpkin dyeing, carving with reusable stencils, lit and candle-lit pumpkins, and wearable decorated pumpkins. |
 | [Amecs (Fabric)](mods/quality-of-life.md#amecs-fabric) | Quality of Life | client | Improves the Controls screen: keybinds can use Alt, Control and Shift modifiers, several actions can share the same key, and the keybind list has a search bar. |
 | [Anvil Restoration](mods/building-and-decoration.md#anvil-restoration) | Building & Decoration | server | Lets you repair or damage anvils that are placed in the world by right-clicking them. |
 | [AppleSkin](mods/interface-and-hud.md#appleskin) | Interface & HUD | both | Adds food-related information to the HUD and tooltips. |
@@ -58,12 +59,12 @@ Every mod in the pack, A–Z. **Side** shows where a mod has to be installed: *c
 | [Diggus Maximus Reborn](mods/quality-of-life.md#diggus-maximus-reborn) | Quality of Life | both | Vein mining: hold the excavate key while breaking a block to also mine all connected identical blocks (ores, logs, etc.). |
 | [Dismount Entity](mods/quality-of-life.md#dismount-entity) | Quality of Life | server | Crouch + right-click a boat, minecart or other vehicle to eject its passenger without breaking the vehicle. |
 | [Dispenser Configurator](mods/redstone-and-automation.md#dispenser-configurator) | Redstone & Automation | server | Data-driven mod that lets dispensers use many more items. |
-| [Distracting Trims](mods/tools-weapons-and-armor.md#distracting-trims) | Tools, Weapons & Armor | both | Armor with a gold trim keeps piglins from attacking you, just like gold armor pieces do. |
 | [Double Doors](mods/quality-of-life.md#double-doors) | Quality of Life | server | Matching double doors open and close together with one click, button or pressure plate. |
 | [Durability Tooltip](mods/interface-and-hud.md#durability-tooltip) | Interface & HUD | client | Adds a durability line to item tooltips in one of three styles: numbers (e.g. |
 | [Dynamic FPS](technical.md#dynamic-fps) | Performance & Technical | client | Reduces frame rate, volume and other resource use when the Minecraft window is unfocused, hovered, hidden, idle or the device is on battery. |
 | [Easy Anvils](mods/enchanting-and-magic.md#easy-anvils) | Enchanting & Magic | both | Overhauls the anvil: items stay in it after closing the GUI and render on top, prior-work penalties and costs are much less restrictive, renaming is free and supports formatting codes, and anvils can be repaired with iron blocks and are more durable. |
 | [Easy Shulker Boxes](mods/storage-and-inventory.md#easy-shulker-boxes) | Storage & Inventory | both | Lets you put items into and take items out of shulker boxes (and ender chests) directly from your inventory, without placing them down. |
+| [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) | Tools, Weapons & Armor | both | Adds new armor trim materials, a Preserving enchantment for shears, and set bonuses for wearing a full set of armor with the same trim material or pattern. |
 | [Enchanting Commands](mods/enchanting-and-magic.md#enchanting-commands) | Enchanting & Magic | server | Adds the /ec command for operators to put enchantments on the held item at levels beyond normal limits, including modded enchantments and non-tool items. |
 | [Enchantment Descriptions](mods/interface-and-hud.md#enchantment-descriptions) | Interface & HUD | client | Adds a short description of what each enchantment does to the tooltip of enchanted books. |
 | [Enchantment Numbers Fix](mods/interface-and-hud.md#enchantment-numbers-fix) | Interface & HUD | client | Shows enchantment levels above 10 as Roman numerals (e.g. |
@@ -131,8 +132,6 @@ Every mod in the pack, A–Z. **Side** shows where a mod has to be installed: *c
 | [Nature's Compass](mods/maps-and-navigation.md#natures-compass) | Maps & Navigation | both | Adds a compass that searches for a chosen biome anywhere in the world and shows information about it. |
 | [No Feather Trample](mods/farming-food-and-animals.md#no-feather-trample) | Farming, Food & Animals | server | Farmland is no longer trampled when the entity landing on it has Feather Falling boots or the Slow Falling effect. |
 | [No Recipe Book](mods/interface-and-hud.md#no-recipe-book) | Interface & HUD | client | Removes the recipe book button and panel from the inventory and crafting screens. |
-| [Nuit](mods/cosmetic-visual-and-audio.md#continuity) | Cosmetic, Visual & Audio | client | A custom skybox engine (formerly FabricSkyBoxes) that lets resource packs define custom skies with transitions, rotation, custom fog, sunrise/sunset and weather rendering. |
-| [Nuit Interop](mods/cosmetic-visual-and-audio.md#nuit-and-nuit-interop) | Cosmetic, Visual & Audio | client | Lets Nuit load OptiFine/MCPatcher custom sky resource packs by converting them to Nuit's skybox format at runtime. |
 | [Open Parties and Claims](mods/multiplayer-and-server.md#open-parties-and-claims) | Multiplayer & Server | both | Lets players claim and forceload chunks and form parties. |
 | [OptiGUI](mods/cosmetic-visual-and-audio.md#optigui) | Cosmetic, Visual & Audio | client | Enables custom GUI textures from resource packs, including OptiFine custom GUI packs. |
 | [Optimized Block Entities](technical.md#optimized-block-entities) | Performance & Technical | client | Client-side mod that renders chests, shulker boxes, signs, banners and other block entities as part of terrain meshes to improve frame rate, with smooth lighting and longer render distance for them. |

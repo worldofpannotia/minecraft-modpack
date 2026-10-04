@@ -8,7 +8,7 @@ This section covers mods and a datapack that change how your gear behaves: faste
 | Beacon & Conduit Tweaks | Configurable beacon and conduit range; hide the beam with a carpet | Server |
 | Bow Infinity Fix | Infinity bows and crossbows need no arrow in the inventory | Both |
 | Deepslate Instamine | Netherite tools instamine deepslate, cobblestone, end stone and logs; renewable deepslate | Both |
-| Distracting Trims | Gold armor trim keeps piglins from attacking | Both |
+| Effective Gear | New trim materials, Preserving shears, and full-set armor trim bonuses | Both |
 | Hoe Tweaks | Bigger tilling area, un-till, faster melons and pumpkins | Both |
 | Inventory Totem | Totem of Undying works from anywhere in the inventory | Server |
 | Mineable Spawner | Spawners can be mined with a pickaxe | Server |
@@ -60,8 +60,58 @@ Bows and crossbows with Infinity can be fired without any arrow in the inventory
 ### Inventory Totem
 The totem of undying works from anywhere in your inventory, not just the main or off hand. The resurrection effect is unchanged. Requires Collective (server-side).
 
-### Distracting Trims
-Armor pieces trimmed with gold count as gold armor for piglin neutrality; normal gold armor still works. Apply a gold trim at a smithing table and wear it in the Nether. The trim materials are in the datapack tag `distractingtrims:distracts_piglins` (gold only by default).
+### Effective Gear
+Wearing a **full set** of armor trimmed with the same material or the same pattern gives a bonus while it is worn. Made by the pack author. Material bonuses and pattern bonuses stack. A full set of netherite armor also gives fire resistance.
+- **New trim materials:** blaze powder, echo shard, enchanted golden apple, ender pearl, honeycomb, nether star, prismarine shard, slimeball, turtle scute.
+- **Preserving enchantment (shears, via anvil):** leaves mined with Preserving shears keep their colour in any biome. Craft a preserved leaf block by itself to turn it back into an ordinary one.
+- **Wandering traders:** 20% chance of selling a random smithing template, priced like duplicating it (7 diamonds plus 1 of the needed block).
+
+| Material | Full-set bonus |
+|---|---|
+| Amethyst | Small bonus to experience from blocks and mobs |
+| Blaze powder | Melee attacks set the target on fire |
+| Copper | Channeling tridents can summon lightning when it is not storming |
+| Diamond | Tools mine as if Efficiency were one level higher |
+| Echo shard | Partial resistance to a warden's sonic boom |
+| Emerald | Small discount when trading with villagers |
+| Enchanted golden apple | Regeneration II and resistance |
+| Ender pearl | Endermen ignore your gaze |
+| Gold | Piglins treat you as if wearing gold armor |
+| Honeycomb | Harvest bee nests without a campfire and without angering the bees |
+| Iron | Iron golems won't attack you |
+| Lapis lazuli | Small chance for an enchantment to come out at max level + 1 |
+| Nether star | Regeneration |
+| Netherite | Fire resistance |
+| Prismarine shard | Partial resistance to guardian and elder guardian lasers |
+| Quartz | Move more freely over terrain that slows you down |
+| Redstone | Right-click a block with an empty hand to send it a redstone pulse, anywhere a button could be placed |
+| Resin | Creakings ignore you |
+| Slimeball | Knockback resistance |
+| Turtle scute | Water breathing |
+
+| Pattern | Full-set bonus |
+|---|---|
+| Bolt ⚡ | While sprinting, press the ability key to dash forward (short cooldown) |
+| Coast | Aqua Affinity underwater; with real Aqua Affinity on the helmet, no mining-speed loss while off the ground |
+| Dune | Melee attacks also weaken the target |
+| Eye | Extra damage to endermen |
+| Flow ⚡ | While airborne, press the ability key for an upward boost (once per jump, short cooldown) |
+| Host | Villager trade discount, stacking with emerald |
+| Raiser | Extra damage to undead |
+| Rib | Immune to wither |
+| Sentry | Extra damage to pillagers, melee or ranged |
+| Shaper | Slightly longer reach for blocks and entities |
+| Silence | Breaking a block while sneaking won't alert sculk sensors |
+| Snout | Hoglins and piglin brutes leave you alone |
+| Spire | Immune to levitation |
+| Tide | Immune to mining fatigue |
+| Vex | Partial resistance to evoker fangs and vexes |
+| Ward | Extra partial resistance to sonic booms, stacking with echo shard |
+| Wayfinder | Mounts you ride get a small speed boost |
+| Wild | Immune to poison |
+
+- **Controls:** patterns marked ⚡ use the "Use Trim Ability" key (set it in Controls). You can only wear one such pattern's full set at a time, so one key covers whichever ability you have.
+<!-- maintainer: content comes from the mod's README (1.3.0-beta.0), not yet verified in game. Replaces Distracting Trims (gold-trim piglin neutrality is now the Gold material bonus). Check that the full set must match the vanilla trim on all four pieces. -->
 
 ## Beacons
 

@@ -115,7 +115,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Horse-family breeding | Each baby stat is at least as good as the better parent's stat. | [Horse Breeding Fix](mods/farming-food-and-animals.md#horse-breeding-fix) |
 | Mooshroom spawning | Naturally spawned mooshrooms can be brown as well as red. Config option becomeBrownChance (default 0.5) is the chance that a red mooshroom becomes brown. | [Mooshroom Tweaks](mods/mobs-and-creatures.md#mooshroom-tweaks) |
 | Pets and command teleports | Vanilla leaves pets behind when you teleport; now non-sitting tamed pets come with you. | [Followers Teleport Too](mods/mobs-and-creatures.md#followers-teleport-too) |
-| Piglin aggression | Armor pieces trimmed with the gold material count as gold armor for piglin neutrality; normal gold armor still works. | [Distracting Trims](mods/tools-weapons-and-armor.md#distracting-trims) |
+| Piglin aggression | A full set of armor trimmed with the gold material makes piglins neutral, like gold armor; normal gold armor still works. | [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) |
 | Piglin/Hoglin zombification | Piglins, Piglin Brutes and Hoglins are not converted to their zombified form in the Overworld unless affected by Weakness, which makes them shake and convert as normal. | [Overworld Piglins](mods/mobs-and-creatures.md#overworld-piglins) |
 | Slime spawning | Slimes no longer spawn in superflat worlds. | [Superflat World No Slimes](mods/mobs-and-creatures.md#superflat-world-no-slimes) |
 | Villager following | Villagers follow players holding an emerald block, emerald ore or deepslate emerald ore. | [VillagerTweaks](mods/villagers-and-trading.md#villagertweaks) |

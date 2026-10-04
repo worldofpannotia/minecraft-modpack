@@ -46,14 +46,12 @@
     "Honeycomb on frame: wax"
   ],
   "getting_started": "",
-  "related_units": [
-    "datapacks__better-item-frames"
-  ],
+  "related_units": [],
   "sources": [
     "facts: modrinth body, mod-recipes"
   ],
   "confidence": "high",
-  "editor_notes": "The pack also ships a better-item-frames datapack; possible overlap/conflict (invisible frames, entity-based assumptions). Needed on client and server.",
+  "editor_notes": "Needed on client and server.",
   "category": "Building & Decoration",
   "side": "both",
   "player_facing": true,

@@ -16,7 +16,8 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 |---|---|
 | [Adaptive Tooltips](mods/interface-and-hud.md#adaptive-tooltips) | Keybinds 'Enable Tooltip Scrolling' and 'Enable Horizontal Scrolling' are assigned in Controls; defaults not confirmed. Hold the key and scroll over a tooltip. |
 | [AFK Display (datapack)](datapacks/afk-display.md) | No player commands; fully automatic. |
-| [Amecs (Fabric)](mods/quality-of-life.md#amecs-fabric) | Keybinds added: Toggle Auto Jump, Toggle Cape, Toggle Hat, Toggle Jacket, Toggle Left/Right Sleeve, Toggle Left/Right Pants Leg, and an alternative Escape key (default keys not confirmed). |
+| [All Hallows Steve](mods/building-and-decoration.md#all-hallows-steve) | "Turn Worn Pumpkin" key: unbound by default; bind it in Options > Controls. |
+| [Anvil Restoration](mods/quality-of-life.md#amecs-fabric) | Keybinds added: Toggle Auto Jump, Toggle Cape, Toggle Hat, Toggle Jacket, Toggle Left/Right Sleeve, Toggle Left/Right Pants Leg, and an alternative Escape key (default keys not confirmed). |
 | [Areas](mods/maps-and-navigation.md#areas) | /areas - lists all area signs around the player |
 | [Armor Statues (datapack)](datapacks/armor-statues.md) | /trigger as_help : show help in chat; /trigger as_help set 3 toggles notifications between chat and action bar |
 | [Armor Statues (datapack)](datapacks/armor-statues.md) | /trigger as_help set 2 : get the book (only if the 'Get book from help' admin option is Enabled) |
@@ -63,6 +64,7 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [Dismount Entity](mods/quality-of-life.md#dismount-entity) | Crouch + right-click the vehicle |
 | [Dispenser Configurator](mods/redstone-and-automation.md#dispenser-configurator) | /datapack disable <default dispenser configurators pack> turns off the defaults |
 | [Dynamic FPS](technical.md#dynamic-fps) | In-game config screen needs Mod Menu and a config-screen library. |
+| [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) | "Use Trim Ability" key (Bolt and Flow trim patterns): set it in Options > Controls. |
 | [Enchanting Commands](mods/enchanting-and-magic.md#enchanting-commands) | /ec <enchantment> <level> - enchants the item in your main hand (Tab auto-completes enchantment names); command name configurable via enchantCommandString (default 'ec') |
 | [Explorer's Compass](mods/maps-and-navigation.md#explorers-compass) | Right-click: open structure selection GUI |
 | [Explorer's Compass](mods/maps-and-navigation.md#explorers-compass) | Shift + right-click: reset compass |
