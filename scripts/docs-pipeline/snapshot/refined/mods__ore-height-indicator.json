@@ -22,8 +22,8 @@
   "secondary_categories": [
     "World Generation & Exploration"
   ],
-  "getting_started": "Open the mod's config (via Mod Menu) to move the HUD, pick which blocks are shown and set the minimum suitability.",
-  "editor_notes": "Facts contain only the config strings. No default keybind is known. How it determines the best height (worldgen data vs. built-in) was not verified.",
+  "getting_started": "The HUD is off by default in this pack (config/oreheightindicator.json has hudEnabled false). Open the mod's config (via Mod Menu), turn it on, then move the HUD, pick which blocks are shown and set the minimum suitability.",
+  "editor_notes": "The pack ships config/oreheightindicator.json with hudEnabled false. No default keybind is known. How it determines the best height (worldgen data vs. built-in) was not verified.",
   "player_facing": true,
   "confidence": "medium",
   "name": "Ore Height Indicator",

@@ -3,11 +3,10 @@
     "Universal Enchants and Remove Enchantment Incompatibility both loosen exclusivity (Infinity+Mending, Multishot+Piercing); REI is the broad one, UE also widens item targets.",
     "Easy Anvils (free renaming, cheaper anvil) vs Tax Free Levels (renaming costs 1 level, flat XP): precedence unverified.",
     "Easy Anvils (iron block repair) vs Anvil Restoration (iron ingot repair): both repair anvils.",
-    "Bow Infinity Fix vs Universal Enchants: both make Infinity not need an arrow.",
     "Better Than Mending vs Bottle Your Xp: both spend raw player XP."
   ],
   "cross_links": [
-    "interface-and-hud.md", "tools-weapons-and-armor.md", "cosmetic-visual-and-audio.md", "storage-and-inventory.md", "world-generation-and-exploration.md", "loot-and-drops.md", "quality-of-life.md", "../datapacks/silk-touch-budding-amethyst.md"
+    "interface-and-hud.md", "tools-weapons-and-armor.md", "cosmetic-visual-and-audio.md", "storage-and-inventory.md", "world-generation-and-exploration.md", "loot-and-drops.md", "quality-of-life.md"
   ],
   "questions_for_pack_author": [
     "Does Easy Anvils free renaming or Tax Free Levels 1-level renaming win in practice?",

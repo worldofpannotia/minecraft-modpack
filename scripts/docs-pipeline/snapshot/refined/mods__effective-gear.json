@@ -1,58 +1,58 @@
 {
- "secondary_categories": [
-  "Mobs & Creatures"
- ],
- "new_content": [
-  {
-   "name": "Preserving enchantment",
-   "type": "enchantment",
-   "how_to_obtain": "Apply to shears via anvil.",
-   "notes": "Leaves mined keep their colour in any biome; craft a preserved leaf alone to revert."
-  },
-  {
-   "name": "New armor trim materials",
-   "type": "item",
-   "how_to_obtain": "Use blaze powder, echo shard, enchanted golden apple, ender pearl, honeycomb, nether star, prismarine shard, slimeball or turtle scute at a smithing table.",
-   "notes": "Each has a full-set bonus."
-  }
- ],
- "mechanics": [
-  {
-   "title": "Material set bonuses",
-   "description": "A full set trimmed with one material grants a bonus (e.g. gold: piglins neutral; iron: iron golems ignore you; ender pearl: endermen ignore gaze; resin: creakings ignore you; diamond: +1 effective Efficiency; netherite set: fire resistance)."
-  },
-  {
-   "title": "Pattern set bonuses",
-   "description": "A full set with one trim pattern grants a bonus (e.g. Eye: extra damage to endermen; Wild: poison immunity). Bolt and Flow have active abilities on the Use Trim Ability key."
-  },
-  {
-   "title": "Wandering trader templates",
-   "description": "20% chance a wandering trader sells a random smithing template, priced like duplicating it."
-  }
- ],
- "vanilla_changes": [
-  {
-   "kind": "mob-behavior",
-   "what": "Piglin aggression",
-   "change": "A full set of armor trimmed with the gold material makes piglins neutral, like gold armor; normal gold armor still works."
-  }
- ],
- "qol": [],
- "commands_and_keybinds": [
-  "Use Trim Ability: set in Options > Controls (Bolt and Flow patterns)."
- ],
- "getting_started": "Trim all four armor pieces with the same material or pattern at a smithing table.",
- "related_units": [],
- "sources": [
-  "authorReadme (~/code/minecraft-mods/effective-gear, 1.3.0-beta.0)"
- ],
- "editor_notes": "Facts come from the mod README, not the jar or in-game testing. Replaces Distracting Trims. Full bonus tables are in the section page.",
- "name": "Effective Gear",
- "kind": "mod",
- "category": "Tools, Weapons & Armor",
- "side": "both",
- "player_facing": true,
- "summary": "New armor trim materials, a Preserving enchantment for shears, and set bonuses for wearing a full set of armor with the same trim material or pattern.",
- "confidence": "medium",
- "unit": "mods__effective-gear"
+  "secondary_categories": [
+    "Mobs & Creatures"
+  ],
+  "new_content": [
+    {
+      "name": "Preserving enchantment",
+      "type": "enchantment",
+      "how_to_obtain": "Apply to shears via anvil.",
+      "notes": "Leaves mined keep their colour in any biome; craft a preserved leaf alone to revert."
+    },
+    {
+      "name": "New armor trim materials",
+      "type": "item",
+      "how_to_obtain": "Use blaze powder, echo shard, enchanted golden apple, ender pearl, honeycomb, nether star, prismarine shard, slimeball or turtle scute at a smithing table.",
+      "notes": "Each has a full-set bonus."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Material set bonuses",
+      "description": "A full set trimmed with one material grants a bonus (e.g. gold: piglins neutral; iron: iron golems ignore you; ender pearl: endermen ignore gaze; resin: creakings ignore you; diamond: +1 effective Efficiency; netherite set: fire resistance)."
+    },
+    {
+      "title": "Pattern set bonuses",
+      "description": "A full set with one trim pattern grants a bonus (e.g. Eye: extra damage to endermen; Wild: poison immunity). Bolt and Flow have active abilities on the Use Trim Ability key."
+    },
+    {
+      "title": "Wandering trader templates",
+      "description": "20% chance a wandering trader sells a random smithing template, priced like duplicating it."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "kind": "mob-behavior",
+      "what": "Piglin aggression",
+      "change": "A full set of armor trimmed with the gold material makes piglins neutral, like gold armor; normal gold armor still works."
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Use Trim Ability: set in Options > Controls (Bolt and Flow patterns)."
+  ],
+  "getting_started": "Trim all four armor pieces with the same material or pattern at a smithing table.",
+  "related_units": [],
+  "sources": [
+    "authorReadme (~/code/minecraft-mods/effective-gear, 1.3.0-beta.0)"
+  ],
+  "editor_notes": "Facts come from the mod's README (1.3.0-beta.0), not from the jar or in-game testing. Replaces Distracting Trims; the Gold material bonus covers piglin neutrality. See MOB-4, MOB-14 and MOB-15 in the guide test plan.",
+  "name": "Effective Gear",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "side": "both",
+  "player_facing": true,
+  "summary": "New armor trim materials, a Preserving enchantment for shears, and set bonuses for wearing a full set of armor with the same trim material or pattern.",
+  "confidence": "medium",
+  "unit": "mods__effective-gear"
 }

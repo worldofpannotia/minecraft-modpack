@@ -10,7 +10,7 @@
     },
     {
       "title": "Relaxed exclusivity",
-      "description": "Infinity + Mending and Multishot + Piercing are compatible by default. Optional stacking of Sharpness with Smite/Bane/Impaling/Breach and of Protection with Fire/Blast/Projectile Protection exists; whether it is enabled is controlled by bundled datapacks and was not verified."
+      "description": "Infinity + Mending and Multishot + Piercing are compatible by default. Optional stacking of Sharpness with Smite/Bane/Impaling/Breach and of Protection with Fire/Blast/Projectile Protection exists; the pack config enables all of the bundled datapacks."
     },
     {
       "title": "Improved vanilla enchantments",
@@ -21,6 +21,16 @@
     {
       "what": "Channeling, Frost Walker and Power enchantments",
       "change": "The mod overrides the minecraft:channeling, frost_walker and power enchantment definitions (Power shown as +0.5 damage base, +0.5 per level above first, max level 5). Exact differences from vanilla were not diffed.",
+      "kind": "enchanting"
+    },
+    {
+      "what": "Farmland trampling",
+      "change": "Boots with Feather Falling stop farmland trampling (Universal Enchants improves the enchantment this way).",
+      "kind": "block-behavior"
+    },
+    {
+      "what": "Infinity enchantment",
+      "change": "Bows and crossbows enchanted with Infinity no longer need a spare arrow in the inventory, and crossbows can take Infinity.",
       "kind": "enchanting"
     }
   ],
@@ -37,7 +47,7 @@
     "https://modrinth.com/mod/universal-enchants"
   ],
   "confidence": "medium",
-  "editor_notes": "Pack ships no override for this mod. Config is via datapacks (73 bundled files under universalenchants/datapacks). Overlaps with RemoveEnchantmentIncompatibility (both loosen exclusivity); check for conflicts. Requires Puzzles Lib.",
+  "editor_notes": "The pack ships config/universalenchants-common.toml, which turns on all the optional stacking and extra-target datapacks (bow, protection, mace, crossbow and damage compatibility; damage, weapon, shield, animal and ranged additions). They are added when a world is created. Overlaps with RemoveEnchantmentIncompatibility (both loosen exclusivity); check for conflicts. Bow Infinity Fix and No Feather Trample were removed because this mod covers arrowless Infinity and Feather Falling trample protection. Requires Puzzles Lib.",
   "player_facing": true,
   "kind": "mod",
   "name": "Universal Enchants",

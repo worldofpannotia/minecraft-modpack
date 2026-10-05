@@ -118,7 +118,7 @@ Breaking a double slab removes only the half under your crosshair and leaves a s
 Breaking the bottom scaffolding block of a chained tower makes all the connected scaffolding drop at the first broken block instead of scattering.
 
 ### Visual Workbench
-Crafting tables keep the items in the grid when you close them, and draw the ingredients and the craftable result on top of the block. Breaking the table drops the contents. A tag (`visualworkbench/tags`) controls which crafting tables are supported (medium confidence).
+Crafting tables keep the items in the grid when you close them, and draw the ingredients and the craftable result on top of the block. Breaking the table drops the contents. A tag (`visualworkbench/tags`) controls which crafting tables are supported.
 
 ### Improved Sign Editing
 Typing on a sign wraps to the next line when the next word will not fit, and backspacing returns to the previous line. An Improved/Normal Editing button on the sign screen toggles it.

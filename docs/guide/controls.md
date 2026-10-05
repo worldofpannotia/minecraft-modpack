@@ -16,8 +16,8 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 |---|---|
 | [Adaptive Tooltips](mods/interface-and-hud.md#adaptive-tooltips) | Keybinds 'Enable Tooltip Scrolling' and 'Enable Horizontal Scrolling' are assigned in Controls; defaults not confirmed. Hold the key and scroll over a tooltip. |
 | [AFK Display (datapack)](datapacks/afk-display.md) | No player commands; fully automatic. |
-| [All Hallows Steve](mods/building-and-decoration.md#all-hallows-steve) | "Turn Worn Pumpkin" key: unbound by default; bind it in Options > Controls. |
-| [Anvil Restoration](mods/quality-of-life.md#amecs-fabric) | Keybinds added: Toggle Auto Jump, Toggle Cape, Toggle Hat, Toggle Jacket, Toggle Left/Right Sleeve, Toggle Left/Right Pants Leg, and an alternative Escape key (default keys not confirmed). |
+| [All Hallows Steve](mods/building-and-decoration.md#all-hallows-steve) | Turn Worn Pumpkin: keybind is UNBOUND by default; bind it in Options > Controls. |
+| [Amecs (Fabric)](mods/quality-of-life.md#amecs-fabric) | Keybinds added: Toggle Auto Jump, Toggle Cape, Toggle Hat, Toggle Jacket, Toggle Left/Right Sleeve, Toggle Left/Right Pants Leg, and an alternative Escape key (default keys not confirmed). |
 | [Areas](mods/maps-and-navigation.md#areas) | /areas - lists all area signs around the player |
 | [Armor Statues (datapack)](datapacks/armor-statues.md) | /trigger as_help : show help in chat; /trigger as_help set 3 toggles notifications between chat and action bar |
 | [Armor Statues (datapack)](datapacks/armor-statues.md) | /trigger as_help set 2 : get the book (only if the 'Get book from help' admin option is Enabled) |
@@ -64,7 +64,7 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [Dismount Entity](mods/quality-of-life.md#dismount-entity) | Crouch + right-click the vehicle |
 | [Dispenser Configurator](mods/redstone-and-automation.md#dispenser-configurator) | /datapack disable <default dispenser configurators pack> turns off the defaults |
 | [Dynamic FPS](technical.md#dynamic-fps) | In-game config screen needs Mod Menu and a config-screen library. |
-| [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) | "Use Trim Ability" key (Bolt and Flow trim patterns): set it in Options > Controls. |
+| [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) | Use Trim Ability: set in Options > Controls (Bolt and Flow patterns). |
 | [Enchanting Commands](mods/enchanting-and-magic.md#enchanting-commands) | /ec <enchantment> <level> - enchants the item in your main hand (Tab auto-completes enchantment names); command name configurable via enchantCommandString (default 'ec') |
 | [Explorer's Compass](mods/maps-and-navigation.md#explorers-compass) | Right-click: open structure selection GUI |
 | [Explorer's Compass](mods/maps-and-navigation.md#explorers-compass) | Shift + right-click: reset compass |
@@ -105,9 +105,6 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [Litematica](mods/building-and-decoration.md#litematica) | Ctrl+M: toggle sub-mode |
 | [Lootr](mods/loot-and-drops.md#lootr) | /lootr custom: standing on a vanilla chest, turns it into a shared 'starter' chest with a per-player copy of its contents (operator only) |
 | [Lootr](mods/loot-and-drops.md#lootr) | /lootr has more subcommands; see the Lootr wiki |
-| [Mineable Spawner](mods/tools-weapons-and-armor.md#mineable-spawner) | /trigger mineablespawner.config: change settings (1.21.5+) |
-| [Mineable Spawner](mods/tools-weapons-and-armor.md#mineable-spawner) | Fallback: /scoreboard players set <&break_spawner_pickaxe \| &break_spawner_silktouch \| &spawn_egg_drop \| &xp_drop> config.mineablespawner <0 or 1> |
-| [Mineable Trial Spawner](mods/tools-weapons-and-armor.md#mineable-trial-spawner) | /trigger mineable_trial_spawner.config: change settings |
 | [Minekea](mods/building-and-decoration.md#minekea) | Cycle Painter Color: = (default), in the Minekea controls category. |
 | [Minekea](mods/building-and-decoration.md#minekea) | Wrench: right-click a block. |
 | [Minekea](mods/building-and-decoration.md#minekea) | Sneak + empty hand: take items out of shelves, armoires and glass jars; sneak-right-click a display case to take its item. |

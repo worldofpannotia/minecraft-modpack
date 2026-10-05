@@ -19,7 +19,7 @@
     "datapacks__world-of-pannotia__minecraft",
     "datapacks__world-of-pannotia__more_mob_heads"
   ],
-  "editor_notes": "The module also contains tags/item/shulker_shell.json in its own namespace with an empty value list; it has no effect. Shulker also has a 5% head drop from more_mob_heads.",
+  "editor_notes": "The module also contains tags/item/shulker_shell.json with an empty value list. It is still required: minecraft:entities/shulker references #looting_shulker_shells:shulker_shell, and deleting the tag made the shulker table fail to load. Shulker also has a 5% head drop from more_mob_heads.",
   "unit": "datapacks__world-of-pannotia__looting_shulker_shells",
   "kind": "datapack-module",
   "side": "server",

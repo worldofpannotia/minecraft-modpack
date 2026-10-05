@@ -36,7 +36,7 @@ These catch failures that would invalidate many later checks.
 - [ ] **LOAD-1b: load/tick functions run.** After world-of-pannotia loads, confirm that `#minecraft:load` didn't fail on the missing `vdf:load`/`vdf:tick` (log: `Couldn't load tag minecraft:load`). Quick functional check: `/trigger sethome` responds, and `/scoreboard objectives list` shows `homes.config`, `back.config` and the `ts_`/`hc_` objectives.
 - [ ] **LOAD-2: no datapack or recipe parse errors.** After world load and after `/reload`, search `logs/latest.log` for `Couldn't parse`, `Failed to load`, `Unknown registry key`, `random_chance_with_looting`, `pannotia:`, `hopperxtreme:`, `minekea:`, `bat_membranes`, `villager_death`, `vdf:`. Every hit should map to a known item in the maintainer notes. Add any that don't.
 - [ ] **LOAD-3: off-version jars load and work.** Check that each of these is listed in Mod Menu and visibly does something: Connectivity (26.1 build), Falling Leaves (26.1; leaf particles under a tree), Tax Free Levels (26.1; see `ENC-2`), WITS (26.1; `/wits` responds), Visuality (+26.3; hit particles on mobs). All five loaded in the dev log. Bow Infinity Fix was removed from the pack (see `ENC-7`).
-- [ ] **LOAD-4: manifest vs instance.** Armored Elytra, Leaky, Fluid Void Fading, Mineable Spawner, Mineable Trial Spawner, Universal Enchants and Universal Graves are in the manifest but were missing from the dev instance. Confirm all seven are installed in a fresh install from the built zip. Confirm "Enchanting Changes", which is in the dev instance but not the manifest, does **not** end up in a fresh install.
+- [ ] **LOAD-4: manifest vs instance.** Armored Elytra, Leaky, Fluid Void Fading, Universal Enchants and Universal Graves are in the manifest but were missing from the dev instance, and Servux and Silkier Touch were added after it was built. Confirm all seven are installed in a fresh install from the built zip. Confirm "Enchanting Changes", which is in the dev instance but not the manifest, does **not** end up in a fresh install.
 - [ ] **LOAD-5: Patchouli absent.** No guidebook items in creative search, no Patchouli errors other than the known guidebook ones. The Minekea, Hopper X-Treme and pannotia books are expected to be unavailable.
 - [ ] **LOAD-6: StackItUp config applied.** In the new world run `/stackitup show all` (op). Expect about 77 items at 64 and 35 at 16, matching `allstackable-global-config.json`. Repeat on the dedicated server's world; the global config only applies to *new* worlds.
 
@@ -121,10 +121,10 @@ Use the `loot spawn … kill` command from section 0 for chances, and real kills
 - [ ] **LOOT-20: Ancient Debris.** Diamond pickaxe without Silk Touch → Netherite Scrap. Fortune III raises the count. Silk Touch → Ancient Debris. An iron pickaxe → nothing.
 - [ ] **LOOT-21: giant mushroom blocks.** About 40% chance of 1–2 mushrooms over 100 breaks (vanilla about 22%). Fortune increases it. Silk Touch drops the block.
 - [ ] **LOOT-22: jungle leaves.** Sapling rate about 5% with no Fortune (sample 200+).
-- [ ] **LOOT-23: budding amethyst.** Silk Touch → budding amethyst; any other tool → nothing. The separate Silk Touch Budding Amethyst datapack was removed, so only the world-of-pannotia table applies. Confirm you get exactly one block.
+- [ ] **LOOT-23: budding amethyst.** Silk Touch → budding amethyst; any other tool → nothing. The world-of-pannotia loot table override and the separate datapack were both removed, so Silkier Touch is the only source. Confirm you get exactly one block.
 - [ ] **LOOT-24: player head data (3 overrides).** WoP, Hermit Edition and Miniblock Merchants all override `minecraft:blocks/player_head`. Place and break: a mob head, a Mini block, a Hermit head and a `/jph head` player head. Each should come back with name, lore, rarity and skin intact, and stack with an unplaced copy of the same head. Record which pack's version is in effect (e.g. `/loot spawn ~ ~ ~ mine …` on a head with custom lore).
-- [ ] **LOOT-25: Mineable Spawner.** Break a spawner with a plain pickaxe: the spawner item + spawn egg drop, no XP. Place it again and confirm it spawns the same mob. `/trigger mineablespawner.config` works for a non-op *(MP)*.
-- [ ] **LOOT-26: Mineable Trial Spawner.** The trial spawner and the vault drop with a pickaxe. Check whether a spawn egg drops (the guide marks this unverified). Check whether a re-placed vault still accepts keys.
+- [ ] **LOOT-25: Silkier Touch, spawners.** Break a spawner with a Silk Touch pickaxe: it drops as an item. Place it again and confirm it spawns the same mob. A plain pickaxe should drop nothing. The trial spawner should *not* drop (off by default).
+- [ ] **LOOT-26: Silkier Touch, other blocks.** With Silk Touch, check dragon egg (does not teleport), full cake and candle cake, farmland, tall grass, snow layers, vines and budding amethyst. Infested stone should *not* drop. Budding amethyst is covered by `LOOT-23`. Vaults should not be pickable.
 - [ ] **LOOT-27: Shulker Stuff box loot.** A box with an enchantment, a dye colour and plating keeps all three when broken.
 - [ ] **LOOT-28: Chorus Fruit / Scaffolding Drops Nearby.** Fruit drops at the plant's base; scaffolding drops at the first broken block.
 
@@ -240,7 +240,6 @@ Run each as a **non-op** on the server *(MP)* unless marked operator.
 - [ ] **CMD-9: BACAP.** The tabs appear. Earn an easy advancement and check its reward item. `/function blazeandcave:config` works (op), and confirm whether it's refused for a non-op. Check whether the menu shows Torture Edition options.
 - [ ] **CMD-10: stat scoreboards.** (op) `setdisplay sidebar ts_Deaths` and `hc_playTime` show values.
 - [ ] **CMD-11: StackItUp / Lootr / WITS / Areas / Just Player Heads / Death Backup / graves.** `/stackitup show hand`; `/lootr custom` (op); `/wits` in a village; an Areas sign `[R:20]` + a name shows enter/leave messages and `/areas` lists it; `/jph head <name>`; `/deathbackup list` after a death (op); `/graves` (non-op). For each, record whether a non-op can run it.
-- [ ] **CMD-12: Mineable Spawner config.** `/trigger mineablespawner.config` and `/trigger mineable_trial_spawner.config` as a non-op.
 
 ---
 
@@ -250,7 +249,7 @@ Run each as a **non-op** on the server *(MP)* unless marked operator.
 - [ ] **MP-2: Open Parties and Claims.** `'` opens the UI. Claim a chunk. Player 2 can't break blocks there until added to the party. Claims show on Xaero's maps. Record the server's claim limit.
 - [ ] **MP-3: Simple Voice Chat.** Two clients hear each other with distance falloff. `V` opens the menu (it clashes with AutoRun). Record the UDP port in the server config.
 - [ ] **MP-4: Hand Over Your Items.** Sneak-right-click player 2 with a stack: they receive it and both get chat messages.
-- [ ] **MP-5: MiniHUD structure boxes.** These need Servux on the server. Confirm they don't show on the pack server, and decide whether to add Servux.
+- [ ] **MP-5: MiniHUD structure boxes.** Servux is now in the manifest. On the dedicated server, turn on MiniHUD's structure bounding boxes and confirm they render. Check whether Servux needs its structures feature enabled in its config.
 - [ ] **MP-6: AudioPlayer.** As a non-op, upload a short file by URL and apply it to a disc. Record which subcommands need op.
 
 ---

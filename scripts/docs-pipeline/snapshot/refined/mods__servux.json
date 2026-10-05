@@ -1,0 +1,31 @@
+{
+  "secondary_categories": [
+    "Interface & HUD"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Structure bounding boxes",
+      "description": "Sends structure bounding box data to MiniHUD when it asks, so the structure overlay works on multiplayer servers."
+    }
+  ],
+  "vanilla_changes": [],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Nothing to do on the client. Players use MiniHUD's structure overlay as usual.",
+  "related_units": [
+    "mods__minihud"
+  ],
+  "sources": [
+    "Modrinth page"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Modrinth: no commands yet in 0.1.x; commands to toggle features are planned. Config for the structures feature not checked. Confirm structure boxes render on the pack server (MP-5).",
+  "name": "Servux",
+  "unit": "mods__servux",
+  "kind": "mod",
+  "category": "Multiplayer & Server",
+  "summary": "Server-side support mod that lets MiniHUD show structure bounding boxes on multiplayer servers."
+}

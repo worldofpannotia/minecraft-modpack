@@ -20,7 +20,7 @@
     "../datapacks/track-statistics.md (Better Statistics Screen)"
   ],
   "questions_for_pack_author": [
-    "Is Servux installed on the server so MiniHUD structure boxes work in multiplayer?",
+    "Do MiniHUD structure boxes render on the pack server now that Servux is installed?",
     "Is AttributeFix in the pack (Overflowing Bars recommends it for armor above vanilla caps)?",
     "Is Boat Item View's showHandsInMovingBoat enabled in the pack config?",
     "Do EnhancedTooltips and Durability Tooltip duplicate durability lines? Keep both?",

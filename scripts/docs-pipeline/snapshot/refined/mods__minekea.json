@@ -3,72 +3,314 @@
   "unit": "mods__minekea",
   "kind": "mod",
   "category": "Building & Decoration",
-  "secondary_categories": ["Storage & Inventory", "Redstone & Automation"],
+  "secondary_categories": [
+    "Storage & Inventory",
+    "Redstone & Automation"
+  ],
   "side": "both",
   "player_facing": true,
   "summary": "Minekea is a large block and furniture mod by the pack author. It adds variant bookshelves and secret bookshelf doors, crates, extra barrels, glass jars, armoires, shelves, display cases, tables and chairs, plus thousands of building blocks: beams, covers, compressed 1x-9x blocks, dyed blocks, and vertical slabs and stairs. Tools include a wrench, a block painter and random-placement hammers.",
   "new_content": [
-    {"name": "Wrench", "type": "item", "how_to_obtain": "Craft: 4 iron ingots in a wrench shape (' # ' / ' ##' / '#  ').", "notes": "Cycles the facing or axis of most blocks (stairs, glazed terracotta, logs, redstone parts, etc.), flips slabs, and toggles beam sides and cover direction. Does not rotate chests or beds. Tagged c:tools/wrenches."},
-    {"name": "Block Painter", "type": "item", "how_to_obtain": "Craft: ' NW' / ' SN' / 'S  ' with N=iron nugget, S=stick, W=any wool.", "notes": "Holds up to a stack of each of the 16 dyes; right-click a coloured block to recolour it. See mechanics."},
-    {"name": "Hammers (Stone, Copper, Iron, Gold, Diamond, Netherite)", "type": "item", "how_to_obtain": "Craft: 'ISI' / ' S ' / ' S ' with I=material (stone-tool materials, copper-tool materials, iron ingot, gold ingot, diamond, netherite ingot) and S=stick. The Netherite Hammer can also be made by smithing a Diamond Hammer with a netherite ingot and a netherite upgrade template.", "notes": "Random block placers that also work as pickaxes. They use 4 / 4 / 5 / 6 / 7 / 8 hotbar slots respectively (stone, copper, iron, gold, diamond, netherite). See mechanics."},
-    {"name": "Glass Jar", "type": "block", "how_to_obtain": "Craft 3: ' L ' / 'G G' / 'GGG' with G=glass pane, L=any planks.", "notes": "Stores one fluid (up to 8 buckets) or one kind of item (about 8 stacks) and keeps its contents when broken. Can capture small mobs. See mechanics."},
-    {"name": "Crates (12 wood types) and Trapped Crates", "type": "block", "how_to_obtain": "Craft: '#X#' / 'XXX' / '#X#' with #=logs of the wood and X=planks of the wood. Trapped crate: crate + tripwire hook (shapeless).", "notes": "54 slots (6 rows), the same as a double chest, in one block. Two adjacent crates of the same type merge into a large crate. Trapped crates emit a redstone signal like trapped chests. Woods: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, bamboo, crimson, warped."},
-    {"name": "Barrels (11 extra wood types)", "type": "block", "how_to_obtain": "Craft: 'PSP' / 'P P' / 'PSP' with P=planks and S=slab of the same wood (spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, bamboo, crimson, warped).", "notes": "27 slots like the vanilla barrel. The vanilla oak barrel texture is slightly modified to match."},
-    {"name": "Egg Crates (Egg, Brown Egg, Blue Egg)", "type": "block", "how_to_obtain": "Craft: 3x3 of eggs, brown eggs or blue eggs.", "notes": "Decorative storage block; uncraft 1 crate into 9 eggs (shapeless). Also storable in jars."},
-    {"name": "Armor-oires (12 wood types)", "type": "block", "how_to_obtain": "Craft: slab, armor stand, slab / slab, chest, slab / 3 planks (all of the same wood).", "notes": "16 slots holding 4 full sets of armour; armour is rendered inside. See mechanics."},
-    {"name": "Display Cases (12 woods, rustic and stripped styles)", "type": "block", "how_to_obtain": "Craft: ' G ' / 'X X' / '###' with G=glass, X=planks of the wood, #=logs (rustic) or stripped logs (stripped style).", "notes": "Holds one item and can rotate it. Gives a comparator signal based on rotation. Mob and player heads render specially."},
-    {"name": "Shelves (Floating and Supported, 12 woods)", "type": "block", "how_to_obtain": "Floating (makes 3): 'XXX' / '# #' / 'XXX' with X=slab, #=iron ingot. Supported (makes 3): 'XXX' / '# #' / 'X X' with X=slab, #=iron nugget.", "notes": "Wall-mounted, 4 item slots shown on the shelf."},
-    {"name": "Bookshelf variants (43 types)", "type": "block", "how_to_obtain": "Craft 3: 3 of the base block / 3 books / 3 of the base block. Bases: planks of every wood except oak (acacia, bamboo, birch, cherry, crimson, dark oak, jungle, mangrove, pale oak, spruce, warped), bone block, stone bricks, smooth stone, polished andesite/basalt/blackstone/deepslate/diorite/granite/tuff/cinnabar/sulfur, polished blackstone bricks, deepslate bricks, nether bricks, red nether bricks, warped nether bricks, prismarine bricks, prismarine, dark prismarine, end stone bricks, purpur, quartz bricks, smooth quartz, tuff bricks, cinnabar, chiseled cinnabar, cinnabar bricks, sulfur, chiseled sulfur, potent sulfur, sulfur bricks.", "notes": "All 43 count as enchantment power providers like vanilla bookshelves. Vanilla bookshelf is used for oak. Also have slab, stairs, vertical slab and vertical stairs forms."},
-    {"name": "Bookshelf Doors and Trapdoors (12 woods)", "type": "block", "how_to_obtain": "Door: 6 bookshelves in a 2x3 grid makes 3. Trapdoor: 6 bookshelves in a 3x2 grid makes 12. Uses the bookshelf of the same wood (vanilla bookshelf for oak).", "notes": "Look like a bookshelf when closed; open like normal wooden doors and trapdoors."},
-    {"name": "Tables (rustic and stripped, 12 woods)", "type": "block", "how_to_obtain": "Craft 3: 'XXX' / '# #' / '# #' with X=planks, #=logs (or stripped logs for stripped tables).", "notes": "Connect with neighbouring tables along both horizontal axes."},
-    {"name": "Chairs and Stools (rustic and stripped, 12 woods)", "type": "block", "how_to_obtain": "Chair (makes 2): 'P ' / 'PP' / 'LL'. Stool (makes 2): 'PP' / 'LL'. P=planks, L=logs (or stripped logs for stripped variants).", "notes": "Right-click to sit."},
-    {"name": "Shutters (rustic and stripped, 12 woods)", "type": "block", "how_to_obtain": "Craft 6: three rows of '#X#' with #=logs (or stripped logs), X=planks.", "notes": "Open like a trapdoor but swing a full 180 degrees; can be waterlogged."},
-    {"name": "Pillows (16 colours)", "type": "block", "how_to_obtain": "Craft: 2x2 of wool of the matching colour.", "notes": "Cancels all fall damage on landing. Uncraft 1 pillow into 4 wool (shapeless)."},
-    {"name": "Compressed Dye Blocks (16 colours)", "type": "block", "how_to_obtain": "Craft: 3x3 of one dye. Uncraft into 9 dyes.", "notes": "Behave like honey blocks: slow entities, jump factor 0.5, reduced fall damage. Cannot be used in redstone contraptions."},
-    {"name": "Item Storage Blocks (about 30 types)", "type": "block", "how_to_obtain": "Craft: 3x3 of the item. Items: apple, golden apple, armadillo scute, beetroot, beetroot seeds, blaze powder, blaze rod, breeze rod, carrot, charcoal, chorus fruit, ender pearl, flint, leaf litter, leather, melon seeds, nether star, paper (Wallpaper), phantom membrane, potato, pumpkin seeds, stick, sugar, sugar cane, totem of undying, wheat seeds, wildflowers, wind charge, and Copper/Gold/Iron Nugget Sacks (9 nugget bags each).", "notes": "Uncraft 1 block into 9 items. Some render inside a brown sack: right-click with shears to remove it, with leather to re-bag."},
-    {"name": "Nugget Bags (Copper, Gold, Iron)", "type": "item", "how_to_obtain": "The only recipe found uncrafts a Nugget Sack (1 sack into 9 bags). No recipe makes bags from nuggets.", "notes": "See editor_notes."},
-    {"name": "Compressed Blocks 1x-9x (about 160 base blocks)", "type": "block", "how_to_obtain": "Craft 3x3 of the base block for 1x; 3x3 of 1x for 2x; continue to 9x. Uncraft 1 block of tier N into 9 of tier N-1 (1x into 9 base blocks).", "notes": "Covers stone types, bricks, planks and logs, concrete, terracotta, glazed terracotta, metal blocks, soils, sand, nether and end blocks, cinnabar and sulfur and more. Tooltip shows tier and block count."},
-    {"name": "Beams (155 base materials)", "type": "block", "how_to_obtain": "Craft 6: '# #' / '# #' / '# #' with #=the base block.", "notes": "Between a wall and a fence post. Connects to adjacent blocks by default; wrench-click a side to toggle it."},
-    {"name": "Covers (155 base materials)", "type": "block", "how_to_obtain": "Craft 16: '# #' / '   ' / '# #' with #=the base block.", "notes": "Thin carpet-like layer that can be placed on any face; rotate with a wrench."},
-    {"name": "Dyed Blocks (12 bases x 16 colours)", "type": "block", "how_to_obtain": "Craft 8: base block ring around 1 dye. Bases: stone, smooth stone, stone bricks, cobblestone, bricks, mud bricks, oak planks, bone block, calcite, prismarine, prismarine bricks, dark prismarine.", "notes": "192 coloured variants; recolour with the Block Painter."},
-    {"name": "Framed Planks (12 woods, normal and stripped)", "type": "block", "how_to_obtain": "Shapeless: 4 planks + 1 log (or 1 stripped log for the stripped version) of one wood makes 6.", "notes": "Decorative framed planks."},
-    {"name": "Basalt Brick family", "type": "block", "how_to_obtain": "Basalt Bricks: 2x2 smooth basalt (makes 4) or stonecut from smooth basalt. Chiseled: 2x2 basalt bricks or stonecut from smooth basalt. Cracked: smelt basalt bricks. Mossy: basalt bricks + vine. Crimson: basalt bricks + weeping vines. Warped: basalt bricks + twisting vines.", "notes": "Each type except chiseled also has slab, stairs, vertical slab, vertical stairs and wall."},
-    {"name": "Warped Nether Bricks", "type": "block", "how_to_obtain": "Craft: 'AB' / 'BA' with A=warped wart, B=nether brick.", "notes": "Also has slab, stairs, vertical variants and wall."},
-    {"name": "Warped Wart", "type": "item", "how_to_obtain": "Craft 9 from a vanilla Warped Wart Block (shapeless).", "notes": "Plantable crop like nether wart (age 0-3). Does not generate naturally."},
-    {"name": "Slabs, Stairs, Vertical Slabs, Vertical Stairs", "type": "block", "how_to_obtain": "Slab '###' makes 6; stairs make 8; vertical slab (3 in a column) makes 6; vertical stairs ('###' / ' ##' / '  #') make 8.", "notes": "Added for logs, wood, stripped logs and wood of every wood type (and bamboo block, mosaic), many stone, brick, copper, cinnabar and sulfur blocks, and all 43 bookshelf variants."},
-    {"name": "Wax (17 colours) and Wax Blocks", "type": "item", "how_to_obtain": "Smelt a candle (plain or dyed) for matching wax; smelt honeycomb for plain wax. 9 wax in a 3x3 makes a Wax Block; 1 block gives 9 wax.", "notes": "Wax blocks are slightly less slippery than ice (friction 0.9) and do not stick to slime."},
-    {"name": "Votive Candles (17 colours)", "type": "block", "how_to_obtain": "Shapeless: 4 candles of one colour + 1 glass makes 4 votives.", "notes": "Work like vanilla candles (in the candles tag), on a small glass pedestal."},
-    {"name": "Ancient Lantern, Doom Lantern, End Lantern", "type": "block", "how_to_obtain": "Craft: '###' / '#P#' / '#T#' with #=iron nugget, P=ender pearl, T=torch.", "notes": "Cosmetic lantern variants. All three recipes are identical in the data (see editor_notes)."},
-    {"name": "End(less) Rod", "type": "block", "how_to_obtain": "Shapeless: 1 end rod.", "notes": "End rod without the base. Can be uncrafted back into an end rod."},
-    {"name": "Fake Cake", "type": "block", "how_to_obtain": "Craft 3: 'AAA' / 'BEB' / 'CCC' with A=white carpet, B=white dye, C=brown wool, E=redstone.", "notes": "Decorative cake that cannot be eaten. Tooltip: 'This cake is a lie!'."},
-    {"name": "Honey fluid, Honey Bucket, Honey Cauldron", "type": "other", "how_to_obtain": "No crafting recipe. Fill a cauldron or glass jar with honey bottles, then collect honey with a bucket.", "notes": "Honey applies Slowness III while you touch it and for a short time after. A honey cauldron applies brief slowness and extinguishes fire."},
-    {"name": "Milk fluid and Milk Cauldron", "type": "other", "how_to_obtain": "Use a milk bucket on a block (see vanilla changes) or on a cauldron.", "notes": "Standing in milk fluid or a milk cauldron removes all status effects."}
+    {
+      "name": "Wrench",
+      "type": "item",
+      "how_to_obtain": "Craft: 4 iron ingots in a wrench shape (' # ' / ' ##' / '#  ').",
+      "notes": "Cycles the facing or axis of most blocks (stairs, glazed terracotta, logs, redstone parts, etc.), flips slabs, and toggles beam sides and cover direction. Does not rotate chests or beds. Tagged c:tools/wrenches."
+    },
+    {
+      "name": "Block Painter",
+      "type": "item",
+      "how_to_obtain": "Craft: ' NW' / ' SN' / 'S  ' with N=iron nugget, S=stick, W=any wool.",
+      "notes": "Holds up to a stack of each of the 16 dyes; right-click a coloured block to recolour it. See mechanics."
+    },
+    {
+      "name": "Hammers (Stone, Copper, Iron, Gold, Diamond, Netherite)",
+      "type": "item",
+      "how_to_obtain": "Craft: 'ISI' / ' S ' / ' S ' with I=material (stone-tool materials, copper-tool materials, iron ingot, gold ingot, diamond, netherite ingot) and S=stick. The Netherite Hammer can also be made by smithing a Diamond Hammer with a netherite ingot and a netherite upgrade template.",
+      "notes": "Random block placers that also work as pickaxes. They use 4 / 4 / 5 / 6 / 7 / 8 hotbar slots respectively (stone, copper, iron, gold, diamond, netherite). See mechanics."
+    },
+    {
+      "name": "Glass Jar",
+      "type": "block",
+      "how_to_obtain": "Craft 3: ' L ' / 'G G' / 'GGG' with G=glass pane, L=any planks.",
+      "notes": "Stores one fluid (up to 8 buckets) or one kind of item (about 8 stacks) and keeps its contents when broken. Can capture small mobs. See mechanics."
+    },
+    {
+      "name": "Crates (12 wood types) and Trapped Crates",
+      "type": "block",
+      "how_to_obtain": "Craft: '#X#' / 'XXX' / '#X#' with #=logs of the wood and X=planks of the wood. Trapped crate: crate + tripwire hook (shapeless).",
+      "notes": "54 slots (6 rows), the same as a double chest, in one block. Two adjacent crates of the same type merge into a large crate. Trapped crates emit a redstone signal like trapped chests. Woods: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, bamboo, crimson, warped."
+    },
+    {
+      "name": "Barrels (11 extra wood types)",
+      "type": "block",
+      "how_to_obtain": "Craft: 'PSP' / 'P P' / 'PSP' with P=planks and S=slab of the same wood (spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, bamboo, crimson, warped).",
+      "notes": "27 slots like the vanilla barrel. The vanilla oak barrel texture is slightly modified to match."
+    },
+    {
+      "name": "Egg Crates (Egg, Brown Egg, Blue Egg)",
+      "type": "block",
+      "how_to_obtain": "Craft: 3x3 of eggs, brown eggs or blue eggs.",
+      "notes": "Decorative storage block; uncraft 1 crate into 9 eggs (shapeless). Also storable in jars."
+    },
+    {
+      "name": "Armor-oires (12 wood types)",
+      "type": "block",
+      "how_to_obtain": "Craft: slab, armor stand, slab / slab, chest, slab / 3 planks (all of the same wood).",
+      "notes": "16 slots holding 4 full sets of armour; armour is rendered inside. See mechanics."
+    },
+    {
+      "name": "Display Cases (12 woods, rustic and stripped styles)",
+      "type": "block",
+      "how_to_obtain": "Craft: ' G ' / 'X X' / '###' with G=glass, X=planks of the wood, #=logs (rustic) or stripped logs (stripped style).",
+      "notes": "Holds one item and can rotate it. Gives a comparator signal based on rotation. Mob and player heads render specially."
+    },
+    {
+      "name": "Shelves (Floating and Supported, 12 woods)",
+      "type": "block",
+      "how_to_obtain": "Floating (makes 3): 'XXX' / '# #' / 'XXX' with X=slab, #=iron ingot. Supported (makes 3): 'XXX' / '# #' / 'X X' with X=slab, #=iron nugget.",
+      "notes": "Wall-mounted, 4 item slots shown on the shelf."
+    },
+    {
+      "name": "Bookshelf variants (43 types)",
+      "type": "block",
+      "how_to_obtain": "Craft 3: 3 of the base block / 3 books / 3 of the base block. Bases: planks of every wood except oak (acacia, bamboo, birch, cherry, crimson, dark oak, jungle, mangrove, pale oak, spruce, warped), bone block, stone bricks, smooth stone, polished andesite/basalt/blackstone/deepslate/diorite/granite/tuff/cinnabar/sulfur, polished blackstone bricks, deepslate bricks, nether bricks, red nether bricks, warped nether bricks, prismarine bricks, prismarine, dark prismarine, end stone bricks, purpur, quartz bricks, smooth quartz, tuff bricks, cinnabar, chiseled cinnabar, cinnabar bricks, sulfur, chiseled sulfur, potent sulfur, sulfur bricks.",
+      "notes": "All 43 count as enchantment power providers like vanilla bookshelves. Vanilla bookshelf is used for oak. Also have slab, stairs, vertical slab and vertical stairs forms."
+    },
+    {
+      "name": "Bookshelf Doors and Trapdoors (12 woods)",
+      "type": "block",
+      "how_to_obtain": "Door: 6 bookshelves in a 2x3 grid makes 3. Trapdoor: 6 bookshelves in a 3x2 grid makes 12. Uses the bookshelf of the same wood (vanilla bookshelf for oak).",
+      "notes": "Look like a bookshelf when closed; open like normal wooden doors and trapdoors."
+    },
+    {
+      "name": "Tables (rustic and stripped, 12 woods)",
+      "type": "block",
+      "how_to_obtain": "Craft 3: 'XXX' / '# #' / '# #' with X=planks, #=logs (or stripped logs for stripped tables).",
+      "notes": "Connect with neighbouring tables along both horizontal axes."
+    },
+    {
+      "name": "Chairs and Stools (rustic and stripped, 12 woods)",
+      "type": "block",
+      "how_to_obtain": "Chair (makes 2): 'P ' / 'PP' / 'LL'. Stool (makes 2): 'PP' / 'LL'. P=planks, L=logs (or stripped logs for stripped variants).",
+      "notes": "Right-click to sit."
+    },
+    {
+      "name": "Shutters (rustic and stripped, 12 woods)",
+      "type": "block",
+      "how_to_obtain": "Craft 6: three rows of '#X#' with #=logs (or stripped logs), X=planks.",
+      "notes": "Open like a trapdoor but swing a full 180 degrees; can be waterlogged."
+    },
+    {
+      "name": "Pillows (16 colours)",
+      "type": "block",
+      "how_to_obtain": "Craft: 2x2 of wool of the matching colour.",
+      "notes": "Cancels all fall damage on landing. Uncraft 1 pillow into 4 wool (shapeless)."
+    },
+    {
+      "name": "Compressed Dye Blocks (16 colours)",
+      "type": "block",
+      "how_to_obtain": "Craft: 3x3 of one dye. Uncraft into 9 dyes.",
+      "notes": "Behave like honey blocks: slow entities, jump factor 0.5, reduced fall damage. Cannot be used in redstone contraptions."
+    },
+    {
+      "name": "Item Storage Blocks (about 30 types)",
+      "type": "block",
+      "how_to_obtain": "Craft: 3x3 of the item. Items: apple, golden apple, armadillo scute, beetroot, beetroot seeds, blaze powder, blaze rod, breeze rod, carrot, charcoal, chorus fruit, ender pearl, flint, leaf litter, leather, melon seeds, nether star, paper (Wallpaper), phantom membrane, potato, pumpkin seeds, stick, sugar, sugar cane, totem of undying, wheat seeds, wildflowers, wind charge, and Copper/Gold/Iron Nugget Sacks (9 nugget bags each).",
+      "notes": "Uncraft 1 block into 9 items. Some render inside a brown sack: right-click with shears to remove it, with leather to re-bag."
+    },
+    {
+      "name": "Nugget Bags (Copper, Gold, Iron)",
+      "type": "item",
+      "how_to_obtain": "The only recipe found uncrafts a Nugget Sack (1 sack into 9 bags). No recipe makes bags from nuggets.",
+      "notes": "See editor_notes."
+    },
+    {
+      "name": "Compressed Blocks 1x-9x (about 160 base blocks)",
+      "type": "block",
+      "how_to_obtain": "Craft 3x3 of the base block for 1x; 3x3 of 1x for 2x; continue to 9x. Uncraft 1 block of tier N into 9 of tier N-1 (1x into 9 base blocks).",
+      "notes": "Covers stone types, bricks, planks and logs, concrete, terracotta, glazed terracotta, metal blocks, soils, sand, nether and end blocks, cinnabar and sulfur and more. Tooltip shows tier and block count."
+    },
+    {
+      "name": "Beams (155 base materials)",
+      "type": "block",
+      "how_to_obtain": "Craft 6: '# #' / '# #' / '# #' with #=the base block.",
+      "notes": "Between a wall and a fence post. Connects to adjacent blocks by default; wrench-click a side to toggle it."
+    },
+    {
+      "name": "Covers (155 base materials)",
+      "type": "block",
+      "how_to_obtain": "Craft 16: '# #' / '   ' / '# #' with #=the base block.",
+      "notes": "Thin carpet-like layer that can be placed on any face; rotate with a wrench."
+    },
+    {
+      "name": "Dyed Blocks (12 bases x 16 colours)",
+      "type": "block",
+      "how_to_obtain": "Craft 8: base block ring around 1 dye. Bases: stone, smooth stone, stone bricks, cobblestone, bricks, mud bricks, oak planks, bone block, calcite, prismarine, prismarine bricks, dark prismarine.",
+      "notes": "192 coloured variants; recolour with the Block Painter."
+    },
+    {
+      "name": "Framed Planks (12 woods, normal and stripped)",
+      "type": "block",
+      "how_to_obtain": "Shapeless: 4 planks + 1 log (or 1 stripped log for the stripped version) of one wood makes 6.",
+      "notes": "Decorative framed planks."
+    },
+    {
+      "name": "Basalt Brick family",
+      "type": "block",
+      "how_to_obtain": "Basalt Bricks: 2x2 smooth basalt (makes 4) or stonecut from smooth basalt. Chiseled: 2x2 basalt bricks or stonecut from smooth basalt. Cracked: smelt basalt bricks. Mossy: basalt bricks + vine. Crimson: basalt bricks + weeping vines. Warped: basalt bricks + twisting vines.",
+      "notes": "Each type except chiseled also has slab, stairs, vertical slab, vertical stairs and wall."
+    },
+    {
+      "name": "Warped Nether Bricks",
+      "type": "block",
+      "how_to_obtain": "Craft: 'AB' / 'BA' with A=warped wart, B=nether brick.",
+      "notes": "Also has slab, stairs, vertical variants and wall."
+    },
+    {
+      "name": "Warped Wart",
+      "type": "item",
+      "how_to_obtain": "Craft 9 from a vanilla Warped Wart Block (shapeless).",
+      "notes": "Plantable crop like nether wart (age 0-3). Does not generate naturally."
+    },
+    {
+      "name": "Slabs, Stairs, Vertical Slabs, Vertical Stairs",
+      "type": "block",
+      "how_to_obtain": "Slab '###' makes 6; stairs make 8; vertical slab (3 in a column) makes 6; vertical stairs ('###' / ' ##' / '  #') make 8.",
+      "notes": "Added for logs, wood, stripped logs and wood of every wood type (and bamboo block, mosaic), many stone, brick, copper, cinnabar and sulfur blocks, and all 43 bookshelf variants."
+    },
+    {
+      "name": "Wax (17 colours) and Wax Blocks",
+      "type": "item",
+      "how_to_obtain": "Smelt a candle (plain or dyed) for matching wax; smelt honeycomb for plain wax. 9 wax in a 3x3 makes a Wax Block; 1 block gives 9 wax.",
+      "notes": "Wax blocks are slightly less slippery than ice (friction 0.9) and do not stick to slime."
+    },
+    {
+      "name": "Votive Candles (17 colours)",
+      "type": "block",
+      "how_to_obtain": "Shapeless: 4 candles of one colour + 1 glass makes 4 votives.",
+      "notes": "Work like vanilla candles (in the candles tag), on a small glass pedestal."
+    },
+    {
+      "name": "Ancient Lantern, Doom Lantern, End Lantern",
+      "type": "block",
+      "how_to_obtain": "Craft: '###' / '#P#' / '#T#' with #=iron nugget, P=ender pearl, T=torch.",
+      "notes": "Cosmetic lantern variants. All three recipes are identical in the data (see editor_notes)."
+    },
+    {
+      "name": "End(less) Rod",
+      "type": "block",
+      "how_to_obtain": "Shapeless: 1 end rod.",
+      "notes": "End rod without the base. Can be uncrafted back into an end rod."
+    },
+    {
+      "name": "Fake Cake",
+      "type": "block",
+      "how_to_obtain": "Craft 3: 'AAA' / 'BEB' / 'CCC' with A=white carpet, B=white dye, C=brown wool, E=redstone.",
+      "notes": "Decorative cake that cannot be eaten. Tooltip: 'This cake is a lie!'."
+    },
+    {
+      "name": "Honey fluid, Honey Bucket, Honey Cauldron",
+      "type": "other",
+      "how_to_obtain": "No crafting recipe. Fill a cauldron or glass jar with honey bottles, then collect honey with a bucket.",
+      "notes": "Honey applies Slowness III while you touch it and for a short time after. A honey cauldron applies brief slowness and extinguishes fire."
+    },
+    {
+      "name": "Milk fluid and Milk Cauldron",
+      "type": "other",
+      "how_to_obtain": "Use a milk bucket on a block (see vanilla changes) or on a cauldron.",
+      "notes": "Standing in milk fluid or a milk cauldron removes all status effects."
+    }
   ],
   "mechanics": [
-    {"title": "Wrench", "description": "Right-click a block with the wrench to cycle its orientation (facing, horizontal facing or axis: stairs, glazed terracotta, logs, hoppers, repeaters, etc.); slabs flip between top and bottom. Chests and beds are skipped. On Minekea beams, right-click a side to turn that connection on or off; on covers it changes the face the cover sits on."},
-    {"title": "Block Painter", "description": "Right-click in the air to open the painter GUI and load up to one stack of each of the 16 dyes. Press = (default key, 'Cycle Painter Color') to change the selected colour; the durability bar shows how much of that dye is left. Right-click a coloured block to recolour it, using one dye. Works on Minekea dyed blocks plus vanilla wool, concrete, concrete powder, terracotta and stained glass. Creative players do not use dye."},
-    {"title": "Hammers (random block placing)", "description": "Hold the hammer in the hotbar and put blocks in the hotbar slots to its right. Right-clicking places a random one of those blocks, weighted by stack size (a stack of 40 stone and a stack of 10 gravel place stone about 4 times as often). Slots used: 4 (stone, copper), 5 (iron), 6 (gold), 7 (diamond), 8 (netherite). Each placement costs 1 durability. Hammers also work as pickaxes."},
-    {"title": "Glass Jar", "description": "Right-click with an item from the jar-storable list (about 100 items: dyes, concrete powders, seeds, sugar, redstone, glowstone dust, sand, gravel, eggs, apples, leather, honeycomb, mushrooms, etc.) to store it. Holds up to about 8 stacks of one item type. Sneak with an empty hand to take a stack out. Right-click with a filled bucket to pour in a fluid (water, lava, milk, honey; up to 8 buckets) and with an empty bucket to take it back. Honey bottles and water bottles add 0.33 buckets; glass bottles draw water or honey back out. The jar keeps its contents when broken and works with hoppers. Use the jar item on a bee, vex, allay, silverfish, endermite, bat or tiny sulfur cube to capture it; sneak-use the item with a captured mob on a block to release it."},
-    {"title": "Crates", "description": "Right-click to open a 54-slot inventory. Place two crates of the same wood type side by side to join them into a large crate. Trapped crates give a redstone signal while open, like trapped chests."},
-    {"title": "Armor-oire", "description": "Right-click a spot on the cabinet while holding an armour piece to put it in the matching slot; there are 4 sections with spots for chestplate, leggings, helmet and boots. Sneak with an empty hand on a spot to take the piece out. Only a fitting armour type is accepted in each spot. Contents drop when broken."},
-    {"title": "Display Case", "description": "Right-click with an item to put it in the case. Right-click an occupied case to rotate the displayed item through its positions; sneak-right-click to take the item out. A comparator reads a signal that depends on the rotation, so cases can act as simple dials."},
-    {"title": "Shelves", "description": "Each shelf has 4 slots. Right-click a spot on the shelf with an item to put it there; sneak with an empty hand on a spot to take the item back. Contents are rendered on the shelf."},
-    {"title": "Secret doors and trapdoors", "description": "Bookshelf doors and trapdoors look like bookshelf variants when closed and open like normal wooden doors."},
-    {"title": "Seating", "description": "Right-click a chair or stool to sit on it."},
-    {"title": "Compressed storage blocks", "description": "Item storage blocks (e.g. compressed carrot) and 1x-9x compressed building blocks are crafted from 9 of the lower item and uncrafted back into 9. Bagged storage blocks render inside a brown sack: shears remove the sack and leather puts it back."},
-    {"title": "Cauldron fluids", "description": "Honey and milk buckets can fill cauldrons. A honey cauldron slows and extinguishes you; a milk cauldron clears all status effects when you stand in it. Honey bottles can be poured into and bottled from a honey cauldron."},
-    {"title": "Bookshelves and enchanting", "description": "All 43 bookshelf variants are in the enchantment power provider tag and count like vanilla bookshelves for an enchanting table. Slab and stairs forms of bookshelves are not in the tag."},
-    {"title": "In-game guide", "description": "Minekea ships its own Patchouli book ('Minekea Catalogue') with entries for blocks, furniture, containers and tools. A recipe/advancement grants it on first join."}
+    {
+      "title": "Wrench",
+      "description": "Right-click a block with the wrench to cycle its orientation (facing, horizontal facing or axis: stairs, glazed terracotta, logs, hoppers, repeaters, etc.); slabs flip between top and bottom. Chests and beds are skipped. On Minekea beams, right-click a side to turn that connection on or off; on covers it changes the face the cover sits on."
+    },
+    {
+      "title": "Block Painter",
+      "description": "Right-click in the air to open the painter GUI and load up to one stack of each of the 16 dyes. Press = (default key, 'Cycle Painter Color') to change the selected colour; the durability bar shows how much of that dye is left. Right-click a coloured block to recolour it, using one dye. Works on Minekea dyed blocks plus vanilla wool, concrete, concrete powder, terracotta and stained glass. Creative players do not use dye."
+    },
+    {
+      "title": "Hammers (random block placing)",
+      "description": "Hold the hammer in the hotbar and put blocks in the hotbar slots to its right. Right-clicking places a random one of those blocks, weighted by stack size (a stack of 40 stone and a stack of 10 gravel place stone about 4 times as often). Slots used: 4 (stone, copper), 5 (iron), 6 (gold), 7 (diamond), 8 (netherite). Each placement costs 1 durability. Hammers also work as pickaxes."
+    },
+    {
+      "title": "Glass Jar",
+      "description": "Right-click with an item from the jar-storable list (about 100 items: dyes, concrete powders, seeds, sugar, redstone, glowstone dust, sand, gravel, eggs, apples, leather, honeycomb, mushrooms, etc.) to store it. Holds up to about 8 stacks of one item type. Sneak with an empty hand to take a stack out. Right-click with a filled bucket to pour in a fluid (water, lava, milk, honey; up to 8 buckets) and with an empty bucket to take it back. Honey bottles and water bottles add 0.33 buckets; glass bottles draw water or honey back out. The jar keeps its contents when broken and works with hoppers. Use the jar item on a bee, vex, allay, silverfish, endermite, bat or tiny sulfur cube to capture it; sneak-use the item with a captured mob on a block to release it."
+    },
+    {
+      "title": "Crates",
+      "description": "Right-click to open a 54-slot inventory. Place two crates of the same wood type side by side to join them into a large crate. Trapped crates give a redstone signal while open, like trapped chests."
+    },
+    {
+      "title": "Armor-oire",
+      "description": "Right-click a spot on the cabinet while holding an armour piece to put it in the matching slot; there are 4 sections with spots for chestplate, leggings, helmet and boots. Sneak with an empty hand on a spot to take the piece out. Only a fitting armour type is accepted in each spot. Contents drop when broken."
+    },
+    {
+      "title": "Display Case",
+      "description": "Right-click with an item to put it in the case. Right-click an occupied case to rotate the displayed item through its positions; sneak-right-click to take the item out. A comparator reads a signal that depends on the rotation, so cases can act as simple dials."
+    },
+    {
+      "title": "Shelves",
+      "description": "Each shelf has 4 slots. Right-click a spot on the shelf with an item to put it there; sneak with an empty hand on a spot to take the item back. Contents are rendered on the shelf."
+    },
+    {
+      "title": "Secret doors and trapdoors",
+      "description": "Bookshelf doors and trapdoors look like bookshelf variants when closed and open like normal wooden doors."
+    },
+    {
+      "title": "Seating",
+      "description": "Right-click a chair or stool to sit on it."
+    },
+    {
+      "title": "Compressed storage blocks",
+      "description": "Item storage blocks (e.g. compressed carrot) and 1x-9x compressed building blocks are crafted from 9 of the lower item and uncrafted back into 9. Bagged storage blocks render inside a brown sack: shears remove the sack and leather puts it back."
+    },
+    {
+      "title": "Cauldron fluids",
+      "description": "Honey and milk buckets can fill cauldrons. A honey cauldron slows and extinguishes you; a milk cauldron clears all status effects when you stand in it. Honey bottles can be poured into and bottled from a honey cauldron."
+    },
+    {
+      "title": "Bookshelves and enchanting",
+      "description": "All 43 bookshelf variants are in the enchantment power provider tag and count like vanilla bookshelves for an enchanting table. Slab and stairs forms of bookshelves are not in the tag."
+    },
+    {
+      "title": "In-game guide",
+      "description": "Minekea ships its own Patchouli book ('Minekea Catalogue') with entries for blocks, furniture, containers and tools. A recipe/advancement grants it on first join."
+    }
   ],
   "vanilla_changes": [
-    {"what": "Barrel recipe", "change": "Overridden to require oak planks and oak slabs specifically ('PSP' / 'P P' / 'PSP'); other woods use Minekea's own barrel recipes. Vanilla barrel texture slightly modified.", "kind": "recipe-changed"},
-    {"what": "Bookshelf recipe", "change": "Overridden to require oak planks around 3 books (yields 1). Other woods and stone types use Minekea bookshelf recipes that yield 3.", "kind": "recipe-changed"},
-    {"what": "End Rod", "change": "Can be crafted from an End(less) Rod (shapeless).", "kind": "recipe-added"},
-    {"what": "Eggs, dyes, wool and storable items", "change": "Uncrafting recipes: Egg Crate to 9 eggs, compressed dye block to 9 dyes, pillow to 4 wool, compressed storage blocks to 9 items, compressed building blocks to 9 of the lower tier or base block.", "kind": "recipe-added"},
-    {"what": "Smooth Basalt", "change": "Smooth basalt can be stonecut into Basalt Bricks and Chiseled Basalt Bricks.", "kind": "recipe-added"},
-    {"what": "Milk bucket", "change": "Right-clicking a block with a milk bucket (not sneaking) now places a milk fluid source like a water bucket. Milk can also fill cauldrons.", "kind": "other"},
-    {"what": "Allay", "change": "Sneak-right-clicking an allay while holding a glass jar does not give or take items, so the jar can capture it.", "kind": "mob-behavior"},
-    {"what": "Enchanting table", "change": "Minekea bookshelf variants count as enchantment power providers.", "kind": "enchanting"}
+    {
+      "what": "End Rod",
+      "change": "Can be crafted from an End(less) Rod (shapeless).",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Eggs, dyes, wool and storable items",
+      "change": "Uncrafting recipes: Egg Crate to 9 eggs, compressed dye block to 9 dyes, pillow to 4 wool, compressed storage blocks to 9 items, compressed building blocks to 9 of the lower tier or base block.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Smooth Basalt",
+      "change": "Smooth basalt can be stonecut into Basalt Bricks and Chiseled Basalt Bricks.",
+      "kind": "recipe-added"
+    },
+    {
+      "what": "Milk bucket",
+      "change": "Right-clicking a block with a milk bucket (not sneaking) now places a milk fluid source like a water bucket. Milk can also fill cauldrons.",
+      "kind": "other"
+    },
+    {
+      "what": "Allay",
+      "change": "Sneak-right-clicking an allay while holding a glass jar does not give or take items, so the jar can capture it.",
+      "kind": "mob-behavior"
+    },
+    {
+      "what": "Enchanting table",
+      "change": "Minekea bookshelf variants count as enchantment power providers.",
+      "kind": "enchanting"
+    }
   ],
   "qol": [
     "Compressed storage blocks for dyes, crops, seeds and many other items, with 9-way uncrafting.",
@@ -84,7 +326,11 @@
     "Sneak + empty hand: take items out of shelves, armoires and glass jars; sneak-right-click a display case to take its item."
   ],
   "getting_started": "Craft a Wrench (iron ingots) and a few Crates. Then try furniture (chairs, tables, bookshelves) and beams and covers for building. The Minekea creative tabs (Beams, Compressed Blocks, Covers, Dyed Blocks, Furniture) list the blocks, and the Minekea Catalogue guidebook shows recipes.",
-  "related_units": ["mods__chimericlib", "mods__stackitup", "mods__bookshelf"],
+  "related_units": [
+    "mods__chimericlib",
+    "mods__stackitup",
+    "mods__bookshelf"
+  ],
   "sources": [
     "Pack author's repo C:/Users/bill/code/minecraft-mods/minekea (README, CHANGELOG, generated lang, recipes and tags, Java sources, Patchouli catalogue)",
     "C:/Users/bill/code/minecraft-mods/chimeric-lib AbstractWrenchItem",

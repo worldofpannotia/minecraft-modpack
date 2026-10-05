@@ -25,7 +25,7 @@
     },
     {
       "title": "Sheep heads",
-      "description": "A player-killed unsheared sheep can drop the head of its colour: 1.75% (L1 2%, +0.25% per level above I), 16 colours. Also, the sheep table references a \"jeb_ Sheep Head\" table that has no name check, so every player-killed sheep has a 10% chance (L1 15%, +5% per level above I) of also dropping the jeb_ Sheep Head. A name-gated version (jeb_sheep.json, requires the sheep to be named \"jeb_\") exists but is not referenced."
+      "description": "A player-killed unsheared sheep can drop the head of its colour: 1.75% (L1 2%, +0.25% per level above I), 16 colours. Also, the sheep table references a \"jeb_ Sheep Head\" table that only drops from a sheep named \"jeb_\" (10%, L1 15%, +5% per level above I)."
     },
     {
       "title": "Tropical fish",
@@ -53,7 +53,7 @@
     "Raw datapack: client/overrides/datapacks/world-of-pannotia/data/more_mob_heads/",
     "client/overrides/datapacks/world-of-pannotia/credits.md (https://github.com/JoelGodOfwar/MoreMobHeads)"
   ],
-  "editor_notes": "The jeb_ sheep behavior looks like a bug; verify in game. Several entries rely on entity NBT predicates (bee, goat, panda, villager, trader llama, copper golem, wolf anger) that may not match reliably in 26.2; verify in game. The nautilus drop is a player head named \"Nautilus Shell\", not the item.",
+  "editor_notes": "The jeb_ sheep head is name-gated (set_name from @s[name=jeb_], then count 0 when the name is empty), so unnamed sheep do not drop it; confirm in game (LOOT-3). Several entries rely on entity NBT predicates (bee, goat, panda, villager, trader llama, copper golem, wolf anger) that may not match reliably in 26.2; verify in game. The nautilus drop is a player head named \"Nautilus Shell\", not the item. The unreferenced jeb_sheep.json and tropical_fish.json tables were deleted.",
   "unit": "datapacks__world-of-pannotia__more_mob_heads",
   "kind": "datapack-module",
   "side": "server",

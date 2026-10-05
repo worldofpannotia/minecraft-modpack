@@ -1,0 +1,52 @@
+{
+  "secondary_categories": [
+    "Loot & Drops"
+  ],
+  "side": "server",
+  "player_facing": true,
+  "new_content": [],
+  "mechanics": [
+    {
+      "title": "Silk Touch pickups",
+      "description": "With Silk Touch you can pick up monster spawners (they keep their mob), dragon eggs (the egg does not teleport), full cakes and candle cakes, budding amethyst, farmland, tall grass, snow layers and vines. All are on by default. Trial spawners and infested stone are off by default. Each is a config toggle."
+    },
+    {
+      "title": "Not covered",
+      "description": "Vaults cannot be picked up. A spawner mined without Silk Touch drops nothing, as in vanilla."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "what": "Spawners",
+      "change": "Mine a spawner with a Silk Touch tool and it drops as an item that keeps its mob. Without Silk Touch it drops nothing, as in vanilla.",
+      "kind": "loot"
+    },
+    {
+      "what": "Budding Amethyst",
+      "change": "Drops itself when mined with Silk Touch (vanilla never drops it). Without Silk Touch it drops nothing, as in vanilla.",
+      "kind": "loot"
+    },
+    {
+      "what": "Dragon egg, cake, farmland, tall grass, snow layers, vines",
+      "change": "Silk Touch picks these up as items (the dragon egg does not teleport).",
+      "kind": "loot"
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [],
+  "getting_started": "Mine a spawner, dragon egg, cake, farmland, tall grass, snow layers or vines with a Silk Touch tool.",
+  "related_units": [
+    "mods__better-spawner-control",
+    "mods__zombie-villagers-from-spawner"
+  ],
+  "sources": [
+    "Modrinth page (versions up to 1.21.11); pack uses the CurseForge 26.2 file"
+  ],
+  "confidence": "medium",
+  "editor_notes": "Replaces Mineable Spawner and Mineable Trial Spawner. Details come from the Modrinth page, which lists versions only up to 1.21.11, and the jar was not available locally, so verify the behaviour and defaults in game (LOOT-25, LOOT-26). The config file name was not checked. The world-of-pannotia budding amethyst override was removed, so this mod is the only source of that change.",
+  "name": "Silkier Touch",
+  "unit": "mods__silkier-touch",
+  "kind": "mod",
+  "category": "Tools, Weapons & Armor",
+  "summary": "Extends Silk Touch so it can pick up spawners, dragon eggs, cake, farmland, tall grass, snow layers, vines and budding amethyst."
+}

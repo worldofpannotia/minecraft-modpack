@@ -19,3 +19,5 @@ Notes:
 - `batch-ready.sh <n>` waits until every unit in batch `n` of `work/batches.json` has an Ollama draft.
 - The first run (2026-10-01) used `qwen3.5:9b` with a 32k context window, `num_predict` 3500 and reasoning off. That took about 1 minute per unit on an RTX 5070 Laptop with 8 GB of VRAM.
 - The `$W` path in the Round A/B prompts points at the scratch directory used for that run. Change it to `scripts/docs-pipeline/work` when re-running.
+- To rebuild `docs/guide/` without re-running the research stages, copy `snapshot/refined` and `snapshot/sections` into `work/`, then run `node build-reference.mjs` and `node compile.mjs`. As of 2026-10-04 the output matches `docs/guide/` exactly. `docs/guide-maintainer-notes.md` is `hand/maintainer-notes.intro.md` followed by `work/generated/maintainer-notes.body.md`.
+- When the pack changes, edit the snapshot (`refined/*.json` for reference tables and per-mod facts, `sections/*.md` for the prose pages) and rebuild, rather than editing `docs/guide/` directly.

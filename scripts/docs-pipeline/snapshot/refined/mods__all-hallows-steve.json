@@ -1,54 +1,54 @@
 {
- "secondary_categories": [],
- "new_content": [
-  {
-   "name": "Pumpkin Carving Station",
-   "type": "block",
-   "how_to_obtain": "Craft from an iron ingot, shears, a crafting table and some planks.",
-   "notes": "Dyes (up to 3 dyes) and carves (up to 4 stencils) pumpkins."
-  },
-  {
-   "name": "Carving Stencils",
-   "type": "item",
-   "how_to_obtain": "Craft a Blank Stencil from paper and a pumpkin seed, then combine with a matching item. Heart, Jigsaw, Spawner and Structure Block stencils are rare loot only (village houses, strongholds, woodland mansions, dungeons, ancient cities, end cities).",
-   "notes": "Not used up when carving."
-  },
-  {
-   "name": "Lit and candle-lit decorated pumpkins",
-   "type": "block",
-   "how_to_obtain": "Craft a decorated pumpkin with a torch; or sneak and use up to four candles on it.",
-   "notes": "Torch light 15, soul 10, copper 14, redstone 7; candles add 3/6/9/12. Shear to take contents back."
-  }
- ],
- "mechanics": [
-  {
-   "title": "Wearable pumpkins",
-   "description": "Decorated pumpkins (not lit) can be worn as a helmet; endermen are not angered, carved openings let you see out, and an uncarved face blocks view. A config option lowers the obstruction."
-  }
- ],
- "vanilla_changes": [
-  {
-   "kind": "mob-behavior",
-   "what": "Vanilla pumpkins",
-   "change": "A torch on a carved pumpkin makes a jack o'lantern; shears on a jack o'lantern take the torch back."
-  }
- ],
- "qol": [],
- "commands_and_keybinds": [
-  "Turn Worn Pumpkin: keybind is UNBOUND by default; bind it in Options > Controls."
- ],
- "getting_started": "Craft a Pumpkin Carving Station, then dye and carve a pumpkin with stencils.",
- "related_units": [],
- "sources": [
-  "authorReadme (~/code/minecraft-mods/all-hallows-steve, 1.0.1)"
- ],
- "editor_notes": "Facts come from the mod README, not the jar or in-game testing. Dispensers can light, unlight and shear pumpkins. Advancements exist (two secret).",
- "name": "All Hallows Steve",
- "kind": "mod",
- "category": "Building & Decoration",
- "side": "both",
- "player_facing": true,
- "summary": "Halloween-themed pumpkin dyeing, carving with reusable stencils, lit and candle-lit pumpkins, and wearable decorated pumpkins. Made by the pack author.",
- "confidence": "medium",
- "unit": "mods__all-hallows-steve"
+  "secondary_categories": [],
+  "new_content": [
+    {
+      "name": "Pumpkin Carving Station",
+      "type": "block",
+      "how_to_obtain": "Craft from an iron ingot, shears, a crafting table and some planks.",
+      "notes": "Dyes (up to 3 dyes) and carves (up to 4 stencils) pumpkins."
+    },
+    {
+      "name": "Carving Stencils",
+      "type": "item",
+      "how_to_obtain": "Craft a Blank Stencil from paper and a pumpkin seed, then combine with a matching item. Heart, Jigsaw, Spawner and Structure Block stencils are rare loot only (village houses, strongholds, woodland mansions, dungeons, ancient cities, end cities).",
+      "notes": "Not used up when carving."
+    },
+    {
+      "name": "Lit and candle-lit decorated pumpkins",
+      "type": "block",
+      "how_to_obtain": "Craft a decorated pumpkin with a torch; or sneak and use up to four candles on it.",
+      "notes": "Torch light 15, soul 10, copper 14, redstone 7; candles add 3/6/9/12. Shear to take contents back."
+    }
+  ],
+  "mechanics": [
+    {
+      "title": "Wearable pumpkins",
+      "description": "Decorated pumpkins (not lit) can be worn as a helmet; endermen are not angered, carved openings let you see out, and an uncarved face blocks view. A config option lowers the obstruction."
+    }
+  ],
+  "vanilla_changes": [
+    {
+      "kind": "mob-behavior",
+      "what": "Vanilla pumpkins",
+      "change": "A torch on a carved pumpkin makes a jack o'lantern; shears on a jack o'lantern take the torch back."
+    }
+  ],
+  "qol": [],
+  "commands_and_keybinds": [
+    "Turn Worn Pumpkin: keybind is UNBOUND by default; bind it in Options > Controls."
+  ],
+  "getting_started": "Craft a Pumpkin Carving Station, then dye and carve a pumpkin with stencils.",
+  "related_units": [],
+  "sources": [
+    "authorReadme (~/code/minecraft-mods/all-hallows-steve, 1.0.1)"
+  ],
+  "editor_notes": "Facts come from the mod's README (1.0.1) in the author's repo, not from the jar or in-game testing. See TEST_PLAN in the mod repo and MOB-16 in the guide test plan.",
+  "name": "All Hallows Steve",
+  "kind": "mod",
+  "category": "Building & Decoration",
+  "side": "both",
+  "player_facing": true,
+  "summary": "Halloween-themed pumpkin dyeing, carving with reusable stencils, lit and candle-lit pumpkins, and wearable decorated pumpkins. Made by the pack author.",
+  "confidence": "medium",
+  "unit": "mods__all-hallows-steve"
 }

@@ -13,7 +13,6 @@ This part of the pack is a set of small tweaks that make crops, bone meal and ho
 | Ice Prevents Crop Growth | Ice under a crop freezes it at its current stage | Server |
 | Keep My Soil Tilled | Re-tills the soil under harvested melon and pumpkin stems | Server |
 | Kelp Fertilizer | Kelp works as bone meal | Server |
-| No Feather Trample | Feather Falling or Slow Falling stops farmland trampling | Server |
 | Random Bone Meal Flowers | Bone meal on grass grows any flower in any biome | Server |
 | Replanting Crops | Breaking a mature crop with a hoe replants it | Server |
 | Right Click Harvest | Right-click a ripe crop to harvest and replant | Server |
@@ -63,9 +62,6 @@ Affects soil crops (wheat, carrots and so on), bamboo, saplings and sugar cane.
 <!-- maintainer: unknown whether seeds are consumed per use; verify. -->
 
 ## Protecting farmland
-### No Feather Trample
-Farmland is not trampled when the entity landing on it has Feather Falling boots or the Slow Falling effect (players and mobs).
-
 ### Keep My Soil Tilled
 After a pumpkin or melon is harvested, the dirt under its stem is re-tilled automatically if farmland is around, so melon and pumpkin farms do not slowly erode.
 <!-- maintainer: exact trigger conditions not verified. -->

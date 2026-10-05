@@ -83,9 +83,10 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 |---|---|---|
 | Ancient Debris | Mining it without Silk Touch drops Netherite Scrap directly (Fortune applies, ore-drops formula; explosion decay applies) instead of the debris block. With Silk Touch it drops Ancient Debris as before. A diamond or better pickaxe is still needed. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
 | Brown and Red Mushroom Blocks | Giant mushroom blocks drop their mushroom more often: count roll is uniform -2..2 (vanilla -6..2), roughly 40% chance of 1-2 mushrooms instead of roughly 22%, and Fortune now increases the amount. Silk Touch still drops the block. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
-| Budding Amethyst | Drops itself when mined with Silk Touch (vanilla never drops it). Without Silk Touch it drops nothing, as in vanilla. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
+| Budding Amethyst | Drops itself when mined with Silk Touch (vanilla never drops it). Without Silk Touch it drops nothing, as in vanilla. | [Silkier Touch](mods/tools-weapons-and-armor.md#silkier-touch) |
 | Camel Husk loot | Extra 0-3 Sand (+0-2 per Looting level). | [World of Pannotia: Husks Drop Sand (datapack)](datapacks/world-of-pannotia.md) |
 | Chorus plant breaking | All fruit from the broken plant drops at the base position. | [Chorus Fruit Drops Nearby](mods/loot-and-drops.md#chorus-fruit-drops-nearby) |
+| Dragon egg, cake, farmland, tall grass, snow layers, vines | Silk Touch picks these up as items (the dragon egg does not teleport). | [Silkier Touch](mods/tools-weapons-and-armor.md#silkier-touch) |
 | Ender Dragon loot table | Vanilla ender dragon has an empty loot table (XP and the egg on the exit portal are handled by game code). The pack adds a guaranteed Elytra, Dragon Egg and Dragon Head item drop to every kill, including repeat kills. | [World of Pannotia: Dragon Drops (datapack)](datapacks/world-of-pannotia.md) |
 | Ender Dragon, Husk, Parched, Camel Husk, Shulker | Wrapper tables add the dragon_drops, husks_drop_sand and looting_shulker_shells extras. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
 | Husk loot | Extra 0-2 Sand (+0-1 per Looting level). | [World of Pannotia: Husks Drop Sand (datapack)](datapacks/world-of-pannotia.md) |
@@ -99,8 +100,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Player head block loot table | Overrides minecraft:blocks/player_head to copy profile, note block sound, custom name, item name, lore and custom data from the block entity, so broken heads keep their data. | [Miniblock Merchants](mods/villagers-and-trading.md#miniblock-merchants) |
 | Shulker box loot tables (all colours) | Dropped box keeps enchantments plus the mod's dyed_color and plated data in addition to vanilla components. | [Shulker Stuff](mods/storage-and-inventory.md#shulker-stuff) |
 | Shulker loot | Guaranteed 2 Shulker Shells (+0-2 per Looting level) added to the vanilla 50%-chance single shell. | [World of Pannotia: Looting Shulker Shells (datapack)](datapacks/world-of-pannotia.md) |
-| Spawner block loot table | A mined spawner drops as an item (default: any pickaxe; silk touch only is an option). A spawn egg for the mob also drops by default. XP drop is off by default. | [Mineable Spawner](mods/tools-weapons-and-armor.md#mineable-spawner) |
-| Trial spawner and vault loot tables | These blocks drop as items when mined with a pickaxe (default on); silk touch only is an option (default off). A spawn egg also drops by default. | [Mineable Trial Spawner](mods/tools-weapons-and-armor.md#mineable-trial-spawner) |
+| Spawners | Mine a spawner with a Silk Touch tool and it drops as an item that keeps its mob. Without Silk Touch it drops nothing, as in vanilla. | [Silkier Touch](mods/tools-weapons-and-armor.md#silkier-touch) |
 | Zombie, Skeleton, Creeper and Piglin heads | Killed by player: Zombie Head 2.5% (+1% per Looting level), Skeleton Skull 2.5% (+1%), Creeper Head 2.5% (+1%, uncharged creepers only), Piglin Head 4% (+1%). | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
 
 ## Mob behavior
@@ -115,6 +115,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Piglin aggression | A full set of armor trimmed with the gold material makes piglins neutral, like gold armor; normal gold armor still works. | [Effective Gear](mods/tools-weapons-and-armor.md#effective-gear) |
 | Piglin/Hoglin zombification | Piglins, Piglin Brutes and Hoglins are not converted to their zombified form in the Overworld unless affected by Weakness, which makes them shake and convert as normal. | [Overworld Piglins](mods/mobs-and-creatures.md#overworld-piglins) |
 | Slime spawning | Slimes no longer spawn in superflat worlds. | [Superflat World No Slimes](mods/mobs-and-creatures.md#superflat-world-no-slimes) |
+| Vanilla pumpkins | A torch on a carved pumpkin makes a jack o'lantern; shears on a jack o'lantern take the torch back. | [All Hallows Steve](mods/building-and-decoration.md#all-hallows-steve) |
 | Villager following | Villagers follow players holding an emerald block, emerald ore or deepslate emerald ore. | [VillagerTweaks](mods/villagers-and-trading.md#villagertweaks) |
 | Zombie spawners | Spawners set to zombie can also spawn the zombie villager variant. | [Zombie Villagers From Spawner](mods/mobs-and-creatures.md#zombie-villagers-from-spawner) |
 | Zombie villager conversion | Zombies always convert villagers rather than killing them, and cured zombie villagers take a fixed 3600 ticks (3 minutes) with a displayed countdown. | [VillagerTweaks](mods/villagers-and-trading.md#villagertweaks) |
@@ -180,8 +181,8 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Enchantment exclusivity | Exclusive sets are lifted: Protection types together, Sharpness/Smite/Bane of Arthropods, Infinity with Mending, Silk Touch with Fortune, Depth Strider with Frost Walker, Multishot with Piercing, Riptide with Loyalty/Channeling. | [Remove Enchantment Incompatibility](mods/enchanting-and-magic.md#remove-enchantment-incompatibility) |
 | Grindstone | Grindstone gains the disenchant-to-book and move-enchantment operations (costs XP levels). | [Grind Enchantments](mods/enchanting-and-magic.md#grind-enchantments) |
 | Grindstone | Can move enchantments to a book, or between books, for an XP cost. | [Pack Configuration Overrides](mods/quality-of-life.md#pack-wide-tweaks) |
-| Infinity enchantment | Bows and crossbows enchanted with Infinity no longer need a spare arrow in the inventory, and crossbows can take Infinity. | [Universal Enchants](mods/enchanting-and-magic.md#universal-enchants) |
 | Infinity enchantment | Now applicable to water buckets and empty buckets (config options extend this to lava, milk and powdered snow buckets). | [Infinity Water Bucket](mods/enchanting-and-magic.md#infinity-water-bucket) |
+| Infinity enchantment | Bows and crossbows enchanted with Infinity no longer need a spare arrow in the inventory, and crossbows can take Infinity. | [Universal Enchants](mods/enchanting-and-magic.md#universal-enchants) |
 
 ## Villagers and trading
 

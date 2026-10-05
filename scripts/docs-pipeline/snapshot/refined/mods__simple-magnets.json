@@ -43,7 +43,7 @@
     "Right-click with a magnet: toggle on/off",
     "Shift+right-click with Advanced Magnet: open GUI",
     "Right-click a coil with an empty hand: open its GUI",
-    "A key bind to toggle the magnet exists (default not in extracted facts; check Options > Controls)"
+    "A key bind to toggle the magnet exists (check Options > Controls for the default)"
   ],
   "getting_started": "Craft a Basic Magnet, hold it and right-click to turn it on. Upgrade to the Advanced Magnet for filtering and more range.",
   "related_units": [

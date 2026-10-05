@@ -12,7 +12,7 @@
   "vanilla_changes": [
     {
       "what": "Dispenser",
-      "change": "Dispensers can use additional items per the default datapack; the exact list is not in the facts (see mod wiki).",
+      "change": "Dispensers can use additional items per the Dispenser Configurator's default datapack (see the mod page for the list).",
       "kind": "block-behavior"
     }
   ],

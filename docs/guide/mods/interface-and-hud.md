@@ -47,12 +47,12 @@ A client-side "mini F3": you pick which info lines appear and which overlays are
 - **How it works:**
   - Info lines (each individually toggleable): coordinates (including dimension-scaled), block/chunk position, biome, difficulty, block break speed, chunk updates, entity counts, targeted hive/nest bee count, comparator output.
   - Overlay renderers: light level, slime chunks, world spawn chunks, structure bounding boxes, region file boundaries, and shape renderers (circles, spheres).
-  - Structure bounding boxes work in singleplayer, and on servers only if Servux is installed on the server.
+  - Structure bounding boxes work in singleplayer, and on servers because the pack's servers run Servux (see [Multiplayer & Server](multiplayer-and-server.md#servux)).
   - The slime chunk overlay shows which chunks can spawn slimes; it does not show the slime spawn height range.
   - Optional extra item tooltip lines: food nutrition/saturation, bundle contents count, bee count and honey level on hives, axolotl variant on buckets, lodestone compass target, custom model identifiers.
 - **Controls:** **H** is the master toggle for all MiniHUD rendering; **H + C** opens the config menu; other hotkeys are bound in that menu.
 - **Getting started:** press H + C, enable the info lines you want, bind hotkeys for overlays you use (light level, slime chunks), and press H to hide everything.
-<!-- maintainer: Requires MaLiLib; client-only, should not be on the server. Unconfirmed whether Servux is on the pack's server (needed for structure boxes in multiplayer). -->
+<!-- maintainer: Requires MaLiLib; client-only, should not be on the server. Servux is now in the manifest; confirm structure boxes work on the pack server (MP-5). -->
 
 ### AppleSkin
 Reveals food mechanics without changing them.

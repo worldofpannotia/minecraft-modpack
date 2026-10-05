@@ -10,6 +10,7 @@ This part of the pack covers playing with other people: talking to them, protect
 | Death Backup | Saves your inventory on death; operators can restore it | Server |
 | Hand Over Your Items | Sneak + right-click a player to give them your held stack | Both |
 | Open Parties and Claims | Claim and forceload chunks; form parties | Both |
+| Servux | Server-side support that lets MiniHUD show structure boxes | Server |
 | Simple Voice Chat | Proximity voice chat with groups | Both |
 | Universal Graves | Your items and XP are stored in a grave block when you die | Server |
 
@@ -85,6 +86,12 @@ On death, your items and experience are stored in a grave block at the death loc
 Saves a copy of each player's inventory and gear just before they die. Backups are written to `data/deathbackup` in the world folder, one folder per player name.
 - **Controls:** `/deathbackup` (show commands), `/deathbackup list` (recent deaths; 0 is the latest), `/deathbackup load <index>` (restore).
 - **Getting started:** Restoring requires operator/cheat access, so regular players need to ask an admin. Players with command access get a reminder message on death (configurable).
+
+## Server support
+### Servux
+A server-side mod that sends data to client mods. Its one feature today sends structure bounding boxes to **MiniHUD**, so players can use MiniHUD's structure overlay on this server (see [Interface & HUD](interface-and-hud.md#minihud)). Players do not install it, and it is not needed in singleplayer.
+- **Controls:** none; there are no commands yet.
+<!-- maintainer: Modrinth: no commands in 0.1.x; config for the structures feature not checked. Confirm structure boxes show on the pack server (MP-5). -->
 
 ## Also relevant
 - **Homes**, **Back** and **Spawn** datapacks add `/trigger home`, `/trigger sethome`, `/trigger back` and `/trigger spawn` (see [Transport & Movement](transport-and-movement.md); [homes](../datapacks/homes.md), [back](../datapacks/back.md), [spawn](../datapacks/spawn.md)).

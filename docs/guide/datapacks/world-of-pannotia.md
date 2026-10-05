@@ -170,7 +170,6 @@ The Ender Dragon's vanilla loot table is empty (XP and the egg on the exit porta
 | Ancient Debris | Mining it without Silk Touch drops **Netherite Scrap** directly instead of the debris block (Fortune applies, ore-drops formula; explosion decay applies). Silk Touch still drops Ancient Debris. A diamond or better pickaxe is still needed. |
 | Brown and Red Mushroom Blocks | Drop their mushroom more often: roughly 40% chance of 1-2 mushrooms instead of about 22%, and Fortune now increases the amount. Silk Touch still drops the block. |
 | Jungle Leaves | Sapling chance doubled: 5% / 6.25% / 8.33% / 10% at Fortune 0 / I / II / III (vanilla 2.5% / 2.78% / 3.13% / 4.17%). Sticks unchanged. |
-| Budding Amethyst | Drops itself with Silk Touch (vanilla never drops it); nothing without Silk Touch. |
 | Player Head (placed) | Breaking a placed player head keeps all its data components (name, lore, rarity), not just the skin and name. This keeps mob heads and Mini blocks intact. |
 
 ### Beacon bases

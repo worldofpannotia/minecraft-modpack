@@ -12,7 +12,7 @@
     },
     {
       "title": "Structure bounding boxes",
-      "description": "Work in singleplayer, and on servers only if Servux is installed on the server."
+      "description": "Work in singleplayer, and on servers because the pack's servers run Servux."
     },
     {
       "title": "Slime chunk overlay",
@@ -33,13 +33,14 @@
   ],
   "related_units": [
     "mods__malilib",
-    "mods__mod-menu"
+    "mods__mod-menu",
+    "mods__servux"
   ],
   "secondary_categories": [
     "Building & Decoration"
   ],
   "getting_started": "Press H + C to open the config menu, enable the info lines you want, and bind hotkeys for the overlays you use (for example light level and slime chunks). Press H to hide everything.",
-  "editor_notes": "Requires MaLiLib. Client-only; should not be on the server. Whether Servux is on the pack's server is not confirmed (needed for structure boxes in multiplayer). Config option set is large; mention only the main features.",
+  "editor_notes": "Requires MaLiLib. Client-only; should not be on the server. Servux is now in the manifest for structure boxes in multiplayer (MP-5). Config option set is large; mention only the main features.",
   "player_facing": true,
   "confidence": "high",
   "name": "MiniHUD",

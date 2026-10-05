@@ -4,7 +4,7 @@
   "secondary_categories": [
     "Farming, Food & Animals"
   ],
-  "summary": "The pack replaces most vanilla mob loot tables with a wrapper that runs the unmodified vanilla table and then adds the pack extras (mob heads, sand, shulker shells, dragon loot). It also changes a few block drops (ancient debris, giant mushrooms, jungle leaves, budding amethyst, player heads) and widens the beacon base list.",
+  "summary": "The pack replaces most vanilla mob loot tables with a wrapper that runs the unmodified vanilla table and then adds the pack extras (mob heads, sand, shulker shells, dragon loot). It also changes a few block drops (ancient debris, giant mushrooms, jungle leaves, player heads) and widens the beacon base list.",
   "vanilla_changes": [
     {
       "what": "Ancient Debris",
@@ -19,11 +19,6 @@
     {
       "what": "Jungle Leaves",
       "change": "Sapling chance doubled: 5% / 6.25% / 8.33% / 10% at Fortune 0/I/II/III (vanilla 2.5% / 2.78% / 3.13% / 4.17%). Stick drops unchanged.",
-      "kind": "loot"
-    },
-    {
-      "what": "Budding Amethyst",
-      "change": "Drops itself when mined with Silk Touch (vanilla never drops it). Without Silk Touch it drops nothing, as in vanilla.",
       "kind": "loot"
     },
     {
@@ -50,7 +45,7 @@
   "mechanics": [
     {
       "title": "Wrapper structure",
-      "description": "For about 88 entity loot tables, minecraft:entities/<mob> has pool 1 = vanilla:entities/<mob> (identical to real vanilla) and pool 2 = more_mob_heads:entities/<mob>, plus extra pools where applicable: husks_drop_sand (husk, parched, camel husk), looting_shulker_shells (shulker), dragon_drops (ender dragon), pannotia (creeper, piglin, skeleton, zombie, tropical fish), and bat_membranes / villager_death (bat, villager; see notes). The 16 sheep colour tables are identical to vanilla."
+      "description": "For about 88 entity loot tables, minecraft:entities/<mob> has pool 1 = vanilla:entities/<mob> (identical to real vanilla) and pool 2 = more_mob_heads:entities/<mob>, plus extra pools where applicable: husks_drop_sand (husk, parched, camel husk), looting_shulker_shells (shulker), dragon_drops (ender dragon), pannotia (creeper, piglin, skeleton, zombie, tropical fish). The 16 sheep colour tables are identical to vanilla."
     },
     {
       "title": "Mobs without a head wrapper",
@@ -63,10 +58,9 @@
     "datapacks__world-of-pannotia__pannotia",
     "datapacks__world-of-pannotia__dragon_drops",
     "datapacks__world-of-pannotia__husks_drop_sand",
-    "datapacks__world-of-pannotia__looting_shulker_shells",
-    "datapacks__silk-touch-budding-amethyst"
+    "datapacks__world-of-pannotia__looting_shulker_shells"
   ],
-  "editor_notes": "Bat and villager tables reference loot tables in namespaces bat_membranes and villager_death, which exist nowhere in the pack (leftovers from removed datapacks); they resolve to nothing but may log validation errors. Another pack datapack (silk-touch-budding-amethyst) overlaps the budding amethyst change; check the unit ID in batches.json. The module also ships tags/function/load.json and tick.json pointing at vdf:load and vdf:tick, which do not exist (template leftover).",
+  "editor_notes": "The bat and villager tables used to reference loot tables in namespaces bat_membranes and villager_death, which exist nowhere in the pack; those pools were removed. The budding amethyst override was removed (Silkier Touch handles it). The load.json and tick.json function tags pointing at the nonexistent vdf:load and vdf:tick were removed.",
   "unit": "datapacks__world-of-pannotia__minecraft",
   "kind": "datapack-module",
   "side": "server",
