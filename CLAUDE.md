@@ -73,7 +73,6 @@ The modpack includes numerous custom datapacks in `client/overrides/datapacks/`,
 - **enchantment-plus**: Enchantment modifications
 - **track-statistics**, **track-raw-statistics**: Stat tracking
 - **vanillatweaks**: Collection of VanillaTweaks datapacks
-- **silk-touch-budding-amethyst**, **thunder-shrine**: Gameplay tweaks
 - **afk-display**, **nether-portal-coords**: HUD/display enhancements
 
 Each datapack is stored as an unzipped directory during development and automatically zipped during the build process (see Pack Zipping below).

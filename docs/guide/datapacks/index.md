@@ -12,7 +12,6 @@ World of Pannotia ships a set of datapacks that change recipes, loot, commands a
 | [Homes](homes.md) | Save and teleport to homes | `/trigger sethome`, `home`, `homes`, `namehome`, `delhome` |
 | [More Effective Tools](more-effective-tools.md) | Glass, beds, lamps and more break faster with the right tool | Passive |
 | [Silence Mobs](silence-mobs.md) | Mute a mob with a renamed name tag | Item (name tag "Silence me") |
-| [Silk Touch Budding Amethyst](silk-touch-budding-amethyst.md) | Harvest budding amethyst with Silk Touch | Passive |
 | [Spawn](spawn.md) | Teleport to spawn | `/trigger spawn` |
 | [Track Raw Statistics](track-raw-statistics.md) | 100+ raw `ts_` stat scoreboards | Operator commands |
 | [Track Statistics](track-statistics.md) | Processed `hc_` stat scoreboards (play time, ores, elytra) | Operator commands |

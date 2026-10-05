@@ -6,7 +6,6 @@ This section covers mods and a datapack that change how your gear behaves: faste
 | Mod / pack | What it does | Side |
 |---|---|---|
 | Beacon & Conduit Tweaks | Configurable beacon and conduit range; hide the beam with a carpet | Server |
-| Bow Infinity Fix | Infinity bows and crossbows need no arrow in the inventory | Both |
 | Deepslate Instamine | Netherite tools instamine deepslate, cobblestone, end stone and logs; renewable deepslate | Both |
 | Effective Gear | New trim materials, Preserving shears, and full-set armor trim bonuses | Both |
 | Hoe Tweaks | Bigger tilling area, un-till, faster melons and pumpkins | Both |
@@ -52,10 +51,6 @@ Companion to Mineable Spawner: trial spawners and vaults drop as items when mine
 - **Pack note:** Mod defaults; no pack override found.
 
 ## Combat and survival
-
-### Bow Infinity Fix
-Bows and crossbows with Infinity can be fired without any arrow in the inventory. (Universal Enchants also makes Infinity not need a spare arrow; see [Enchanting & Magic](enchanting-and-magic.md).)
-<!-- maintainer: jar filename says neo; verify it loads on Fabric and what is fired with no arrow (assumed regular arrow). -->
 
 ### Inventory Totem
 The totem of undying works from anywhere in your inventory, not just the main or off hand. The resurrection effect is unchanged. Requires Collective (server-side).
@@ -124,7 +119,7 @@ Wearing a **full set** of armor trimmed with the same material or the same patte
 ## Also relevant
 - **Easy Anvils**, **Universal Enchants** and **Infinity Water Bucket** (see [Enchanting & Magic](enchanting-and-magic.md)): anvil overhaul, enchantments on more gear, and infinite buckets.
 - **Anvil Restoration** (see [Building & Decoration](building-and-decoration.md)): right-click a placed anvil with an iron ingot to repair one stage; obsidian damages one stage (never breaks it).
-- **Armored Elytra** (client; see [Cosmetic, Visual & Audio](cosmetic-visual-and-audio.md)) renders chestplate and elytra together; it adds no recipe, so a separate datapack is needed to combine them (low confidence it is functional in the pack).
+- **Armored Elytra** (client; see [Cosmetic, Visual & Audio](cosmetic-visual-and-audio.md)) renders chestplate and elytra together; it adds no recipe, so a separate datapack is needed to combine them (none ships with the pack, so it may not combine anything).
 - **Cut Through** (client; see [Quality of Life](quality-of-life.md)): melee attacks pass through blocks without a collision shape, such as tall grass.
 - **Diggus Maximus Reborn** (see [Quality of Life](quality-of-life.md)): vein mining. Hold the excavate key (default `~`) while mining; "Cycle Shape" keybind changes shape; server settings override the client's.
 <!-- maintainer: Armored Elytra jar missing from facts; no armored elytra datapack found; Modrinth lists support only to 1.20.4. -->

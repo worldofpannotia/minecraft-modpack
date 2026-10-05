@@ -137,11 +137,10 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [Shulker Box Tooltip](mods/interface-and-hud.md#shulker-box-tooltip) | Alt + Shift - full preview (defaults) |
 | [Shulker Box Tooltip](mods/interface-and-hud.md#shulker-box-tooltip) | Config: Mod Menu gear icon or config/shulkerboxtooltip.json5 |
 | [Silence Mobs (datapack)](datapacks/silence-mobs.md) | No commands: use an anvil-renamed name tag on the mob. |
-| [Silk Touch Budding Amethyst (datapack)](datapacks/silk-touch-budding-amethyst.md) | None. |
 | [Simple Magnets](mods/storage-and-inventory.md#simple-magnets) | Right-click with a magnet: toggle on/off |
 | [Simple Magnets](mods/storage-and-inventory.md#simple-magnets) | Shift+right-click with Advanced Magnet: open GUI |
 | [Simple Magnets](mods/storage-and-inventory.md#simple-magnets) | Right-click a coil with an empty hand: open its GUI |
-| [Simple Magnets](mods/storage-and-inventory.md#simple-magnets) | A key bind to toggle the magnet exists (default not in extracted facts; check Options > Controls) |
+| [Simple Magnets](mods/storage-and-inventory.md#simple-magnets) | A key bind to toggle the magnet exists (check Options > Controls for the default) |
 | [Simple Voice Chat](mods/multiplayer-and-server.md#simple-voice-chat) | V: open the voice chat menu (settings, groups, mute, disable, hide icons, recording) |
 | [Simple Voice Chat](mods/multiplayer-and-server.md#simple-voice-chat) | Push-to-talk, whisper and mute keys are rebindable in Controls |
 | [Spawn (datapack)](datapacks/spawn.md) | /trigger spawn : teleport to world spawn |
@@ -169,7 +168,7 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [Villager Workstation Highlights (datapack)](datapacks/villager-workstation-highlights.md) | /trigger vwh_findStation : locate the workstation of the nearest villager (within 5 blocks) |
 | [Wandering Trader Announcements (datapack)](datapacks/wandering-trader-announcements.md) | None. |
 | [Wandering Trades (Hermit Edition) (datapack)](datapacks/wandering-trades-hermit-edition.md) | None. |
-| [WI Zoom](mods/quality-of-life.md#wi-zoom) | Zoom key - bound in Controls (category 'WI Zoom'); the default key is not in the facts. |
+| [WI Zoom](mods/quality-of-life.md#wi-zoom) | Zoom key - bound in Controls (category 'WI Zoom'); check Controls for the default key. |
 | [WITS (What Is This Structure?)](mods/world-generation-and-exploration.md#wits-what-is-this-structure) | /wits - list structures at your position |
 | [WITS (What Is This Structure?)](mods/world-generation-and-exploration.md#wits-what-is-this-structure) | /witsop [dimension] [coordinates] - operators only, query any location |
 | [Woodwalkers](mods/mobs-and-creatures.md#woodwalkers) | U (default) - unlock/scan a mob |

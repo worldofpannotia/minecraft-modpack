@@ -88,8 +88,7 @@ Honey and milk exist as fluids. There is no recipe for the Honey Bucket: fill a 
 
 ### Vanilla changes
 
-- Barrel recipe now needs oak planks and oak slabs (other woods use Minekea recipes); the vanilla barrel texture is slightly modified.
-- Bookshelf recipe now needs oak planks around 3 books (yields 1); other woods and stones use Minekea recipes that yield 3.
+- The vanilla barrel texture is slightly modified. Vanilla barrel and bookshelf recipes are unchanged.
 - End Rod can be crafted from an End(less) Rod.
 - New uncrafting recipes: egg crate, compressed dye block, pillow, compressed storage and building blocks. Smooth basalt can be stonecut into Basalt Bricks and Chiseled Basalt Bricks.
 - A milk bucket right-clicked on a block (not sneaking) places a milk fluid source like a water bucket; milk also fills cauldrons.
@@ -150,7 +149,7 @@ Halloween-themed pumpkin decorating, made by the pack author.
 
 ## Also relevant
 
-- **Miniblock Merchants** and the Mini Blocks datapack ([world-of-pannotia](../datapacks/world-of-pannotia.md)): 25 villager professions sell nearly 1,000 small decorative miniblocks, and a stonecutter turns one full block into 8 Mini blocks (custom-skinned player heads).
+- **Miniblock Merchants** and the Mini Blocks datapack ([world-of-pannotia](../datapacks/world-of-pannotia.md)): 26 villager professions sell nearly 1,000 small decorative miniblocks, and a stonecutter turns one full block into 8 Mini blocks (custom-skinned player heads).
 - **More Mob Heads** ([world-of-pannotia datapack](../datapacks/world-of-pannotia.md)): almost every mob can drop a decorative head; Looting raises the chance.
 - **Pannotia datapack** ([world-of-pannotia](../datapacks/world-of-pannotia.md)): recipe tweaks including faster copper oxidation by crafting, extra dye recipes, coral and fan conversion, and concrete powder from blasting.
 - **Armor Statues** ([datapack](../datapacks/armor-statues.md)): a book that edits armor stands and item frames (poses, position, limbs, locking, invisible frames).

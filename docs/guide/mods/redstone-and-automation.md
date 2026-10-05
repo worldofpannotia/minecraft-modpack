@@ -27,14 +27,13 @@ The pack author's mod. It leaves the vanilla hopper unchanged and uses it as the
 | Glazed variants (Glazed, Honey Glazed, Golden/Diamond/Netherite/Nether Star, plus glazed multi-hoppers) | Hopper + gray glazed terracotta (shapeless), or upgrade a glazed hopper with the tier material; shaped: iron ingots, chest, gray glazed terracotta (`IGI` / `ICI` / ` I `) | Hold no items; eject them in the facing direction like a dropper. |
 | Hopper Item Filter | `#W#` / `#C#` / `###`: sticks, cobweb (W), iron chain (C) | Include or Exclude mode, up to 5 entries. |
 | Diamond Hopper Item Filter | Hopper Item Filter + diamond | Up to 10 entries. |
-| Wrench | 4 iron ingots in a diagonal wrench shape | Used to configure hoppers. |
 | Hopper X-Treme guide | Book + hopper (shapeless) | Patchouli guidebook (currently unavailable). |
 | Filtered hoppers (deprecated) | Do not craft | Auto-convert to filter-capable equivalents when placed. |
 
 **Filtering:** upgraded hoppers accept a filter item; include mode passes only listed items, exclude mode blocks listed items. How filters are inserted is unverified.
-<!-- maintainer: Netherite/nether star multi-hoppers follow the same 4-hoppers rule. Verify filter insertion. Wrench pattern ' # ',' ##','#  '. Requires Architectury and ChimericLib. -->
+<!-- maintainer: Netherite/nether star multi-hoppers follow the same 4-hoppers rule. Verify filter insertion. Requires Architectury and ChimericLib. -->
 
-Minekea also has a wrench (see [Building & Decoration](building-and-decoration.md)); the two are separate items.
+Hopper X-Treme has no wrench of its own in this pack: it skips registering one when Minekea is installed. Use the Minekea wrench instead (see [Building & Decoration](building-and-decoration.md)).
 
 ### Dispenser Configurator
 Data-driven. Datapacks define a `dispenser_configurator` listing items or tags and targets (five item-use methods) that control how dispensers use them. A bundled "Default Dispenser Configurators" datapack gives several items dispenser behaviors; disable it with `/datapack disable`. The exact list of default items is not documented here. Known issue: the ITEM_USE target does not work for every item.

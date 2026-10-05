@@ -5,7 +5,7 @@ This category covers everything that changes how villagers and traders behave: m
 ## At a glance
 | Mod / pack | What it does | Side |
 |---|---|---|
-| Miniblock Merchants | 25 new villager professions selling miniblocks; convert villagers with rare items | Both |
+| Miniblock Merchants | 26 new villager professions selling miniblocks; convert villagers with rare items | Both |
 | Random Village Names | Each village gets a random name on a sign, shown by Areas | Both |
 | Trade Cycling | Button/key to re-roll a villager's offers before trading | Both |
 | Universal Shops | Trade Shop block turns a container into a player shop | Server |
@@ -31,7 +31,7 @@ Broadcasts a chat message when a villager dies, with its custom name (if any), p
 
 ## New professions and shops
 ### Miniblock Merchants
-Adds 25 new professions that together sell nearly 1,000 miniblocks (small decorative blocks).
+Adds 26 new professions that together sell nearly 1,000 miniblocks (small decorative blocks).
 - **How it works:** Right-click an unemployed adult villager with a profession's conversion item to give it that profession. Villagers from the Miniblock Traders datapack are converted to the matching profession automatically. Drop chances are configurable; those below are defaults.
 - **Vanilla change:** overrides the player head block loot table so broken heads keep their profile, sound, name, lore and custom data.
 
@@ -64,7 +64,7 @@ Adds 25 new professions that together sell nearly 1,000 miniblocks (small decora
 | Forgotten Scrap Metal | Steampunker | 1 in 24 fishing treasure |
 | Fine Thread | Tailor | 1 in 2 village shepherd chests |
 
-<!-- maintainer: README says 25 professions but 26 conversion items are listed; check which is right. Structure chest conversion items interact with Lootr (per-player loot). -->
+<!-- maintainer: the jar lang lists 26 professions; the author README (25) is stale. Structure chest conversion items interact with Lootr (per-player loot). -->
 
 ### Universal Shops
 Turns a chest or other container into a player shop with a set price and stock. Server-side with a hologram display, so no client mod is needed.

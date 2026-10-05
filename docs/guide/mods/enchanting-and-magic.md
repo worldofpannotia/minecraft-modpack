@@ -59,12 +59,12 @@ Removes all enchantment exclusivity at the enchanting table and anvil, including
 ### Universal Enchants
 Lets many vanilla enchantments apply to more items.
 - **New targets:** Bows can get Multishot, Piercing, Quick Charge and Looting. Crossbows can get Power, Punch, Infinity, Flame and Looting. Tridents and maces can get Looting, Knockback, Sharpness, Smite, Bane of Arthropods, Impaling, Breach and more. Axes, shields and other gear take enchantments normally limited to other items. Horse, wolf and nautilus armor can take armor enchantments such as Protection, Feather Falling, Frost Walker, Soul Speed and Thorns.
-- **Relaxed exclusivity:** Infinity + Mending and Multishot + Piercing are compatible by default. Optional stacking of Sharpness with Smite/Bane/Impaling/Breach, and of Protection with Fire/Blast/Projectile Protection, is controlled by bundled datapacks; whether it is on was not verified (unverified).
+- **Relaxed exclusivity:** Infinity + Mending and Multishot + Piercing are compatible. The pack's config also turns on the optional bundled datapacks that let Sharpness combine with Smite/Bane/Impaling/Breach, all Protection types combine, bow, crossbow and mace enchantments combine, and that widen which weapons, shields, animal armor and ranged weapons take enchantments. (These datapacks are added when a world is created.)
 - **Improved enchantments:** Infinity no longer requires a spare arrow; Looting and Fortune give extra experience; Feather Falling prevents farmland trampling; Multishot benefits from removed projectile invulnerability.
 - **Vanilla changes:** Overrides the Channeling, Frost Walker and Power definitions (Power: +0.5 damage base, +0.5 per level above the first, max level 5).
-- **Pack note:** Requires Puzzles Lib. The pack ships no override; configuration is via bundled datapacks.
+- **Pack note:** Requires Puzzles Lib. The pack's config enables all the optional stacking and extra-target datapacks listed above.
 
-<!-- maintainer: Universal Enchants and Remove Enchantment Incompatibility both loosen exclusivity; check for conflicts. Universal Enchants has 73 bundled datapack files; enabled stacking options not verified. -->
+<!-- maintainer: Universal Enchants and Remove Enchantment Incompatibility both loosen exclusivity; check for conflicts (ENC-1, ENC-6). Bow Infinity Fix and No Feather Trample were removed from the pack because Universal Enchants already covers arrowless Infinity and Feather Falling trample protection (ENC-7, FARM-8). -->
 
 ### Enchanting Commands
 Adds `/ec <enchantment> <level>` for operators to enchant the item in your main hand at levels beyond the normal limit, including modded enchantments and non-tool items. Intended for admin use rather than survival.
@@ -88,7 +88,7 @@ Sneak and right-click with an empty glass bottle to turn your own experience int
 Lets Infinity be applied to water buckets and empty buckets at an anvil.
 - **New:** Infinity on buckets — combine a bucket or water bucket with an Infinity book in an anvil. An infinite water bucket never runs out; an enchanted empty bucket acts as an infinite liquid void. Also works with dispensers and cauldrons. Enchanted empty buckets cannot milk cows or pick up fish/axolotls.
 - **Config:** Can extend to lava, milk and powdered snow buckets; the pack does not change these (assumed off) (unverified).
-- **Pack note:** Buckets stack to 64 (lava and milk buckets to 16) per the pack's stack-size config.
+- **Pack note:** Per the pack's stack-size config, empty buckets stack to 64 and water, lava, milk and powder snow buckets stack to 16.
 <!-- maintainer: interplay of stackable buckets with infinite buckets untested. Server-side, but missing on client may cause visual glitches. Check whether pack changes Infinity availability. -->
 
 ### Swift Flight
@@ -100,9 +100,7 @@ New enchantment for happy ghast harnesses.
 ## Also relevant
 - **Enchantment Descriptions** (client; see [Interface & HUD](interface-and-hud.md)) adds a short explanation of each enchantment to enchanted book tooltips. Requires the Prickle library.
 - **Enchantment Numbers Fix** (client; see [Interface & HUD](interface-and-hud.md)) shows levels above 10 as Roman numerals.
-- **Bow Infinity Fix** (see [Tools, Weapons & Armor](tools-weapons-and-armor.md)) makes Infinity bows and crossbows work with no arrow in the inventory.
 - **SB's Enchantment Effects** (client; see [Cosmetic, Visual & Audio](cosmetic-visual-and-audio.md)) adds particles and sounds: Sharpness magic slash, Smite holy beam, Bane of Arthropods banish effect, Fire Aspect rings of fire, Knockback gusts of wind, Thorns guardian-style shield. Bow, trident and mace effects are planned.
 - **Shulker Stuff** (see [Storage & Inventory](storage-and-inventory.md)) adds Refill (I), Vacuum (II) and Void (I) enchantments for shulker boxes.
 - **Archaeology Tweaks** (see [World Generation & Exploration](world-generation-and-exploration.md)) adds the Gentle Touch enchantment, which can give a second drop from a block (exact effect and source unverified).
-- **Silk Touch Budding Amethyst** datapack (see [Loot & Drops](loot-and-drops.md), [datapack page](../datapacks/silk-touch-budding-amethyst.md)) lets Silk Touch tools harvest budding amethyst.
 - **Pack Configuration Overrides** (see [Quality of Life](quality-of-life.md)) holds the Grind Enchantments settings described above; enchanted books also stack to 64.

@@ -39,7 +39,7 @@ This part of the pack changes what you see on screen: the in-game HUD, item tool
 An on-screen tooltip at the top of the screen showing the block or entity you are looking at: name, source mod, crop growth, redstone state, villager profession and more. It works with only the client installed, but many details (item storage, brewing stand fuel, bees in hives) need it on the server too (this pack has it on both).
 - **New:** nothing (HUD only).
 - **How it works:** shows crop growth/maturity, comparator mode, repeater delay, power level, villager profession and similar details. Optionally shows the mod name on item tooltips. Position, scale, theme, opacity, display mode (toggle, hold or lite) and boss bar overlap handling are configurable. Selectable profiles and text-to-speech narration of the target are available.
-- **Controls:** Keypad 0 opens configuration; Keypad 1 toggles the overlay; Keypad 2 toggles liquid display; Keypad 3 shows recipes and Keypad 4 shows uses (documented for JEI; REI integration unverified); Keypad 5 narrates the target. Show Details and profile-switch keys also exist (defaults not verified). Laptop players without a numpad should rebind these in Controls.
+- **Controls:** Keypad 0 opens configuration; Keypad 1 toggles the overlay; Keypad 2 toggles liquid display; Keypad 3 shows recipes and Keypad 4 shows uses (these need JEI, which this pack does not have, so they probably do nothing); Keypad 5 narrates the target. Show Details and profile-switch keys also exist (defaults not verified). Laptop players without a numpad should rebind these in Controls.
 - **Getting started:** look at any block or mob. Open config with Keypad 0 or via Mod Menu.
 
 ### MiniHUD
@@ -77,8 +77,8 @@ A client-side HUD list of tamed, non-sitting pets near you, showing each one's h
 ### Ore Height Indicator
 A compact HUD overlay that ranks ores (and any extra blocks you add) by how suitable your current height is for finding them. Optionally shows a percentage, which is not an absolute spawn chance.
 - **How it works:** compares your Y level with each ore's best detected height. Add any registered block via the config screen (search by name or registry ID); selected blocks stay visible even below the minimum suitability. Other options: HUD position, icons, UI scale, animated reordering, update interval, max entries.
-- **Getting started:** open the mod's config (via Mod Menu) to move the HUD, choose blocks and set minimum suitability. Medium confidence (unverified details).
-<!-- maintainer: Facts contain only config strings. No default keybind known. How the best height is determined (worldgen data vs built-in) not verified. -->
+- **Getting started:** the HUD is **off by default** in this pack. Open the mod's config (via Mod Menu) and turn it on, then move the HUD, choose blocks and set minimum suitability.
+<!-- maintainer: the pack ships config/oreheightindicator.json with hudEnabled false. No default keybind known. How the best height is determined (worldgen data vs built-in) not verified. -->
 
 ### Boat Item View
 Shows the item in your hand while you sit in a moving boat, which vanilla hides. Rendering only; you still cannot use the item. A client config lists which items stay displayed (supports `modid:*` wildcards). Configure via `config/boatiview` or Mod Menu and check that "Show Items in Moving Boat" is enabled. (Also relevant to [Transport & Movement](transport-and-movement.md).)
@@ -123,7 +123,7 @@ Hover a shulker box in any inventory and hold Shift to preview its contents with
 ### Roughly Enough Items (REI)
 Item and recipe browser beside the inventory: look up recipes and uses, search items, favourite them and fill crafting grids. A server component lets REI receive recipe data. (See [Recipes & Crafting Tweaks](../vanilla-changes.md).)
 - **How it works:** advanced search syntax: `@modname` searches by mod, `#text` searches tooltips, `$tag` searches tags, `r/regex/` uses regular expressions, quotes allow spaces, `|` means OR. Also craftable filter, dark theme and reduced motion options, and a recipe export keybind (unbound by default). On servers REI may lack recipe data; an operator can run `/recipe give @p *` to unlock all recipes.
-- **Controls:** **A** while hovering favourites an item. The standard REI recipe/usage keys (R and U) are not confirmed in the notes (unverified).
+- **Controls:** **A** while hovering favourites an item. Hover over an item and press **R** for recipes or **U** for uses (REI's standard keys).
 - **Getting started:** open your inventory; the item list appears on the right; click an item for its recipe.
 <!-- maintainer: Requires Architectury. -->
 

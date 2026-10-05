@@ -2,7 +2,6 @@
 
 The pack's own datapack. It adds mob heads to almost every mob, 204 decorative "Mini" blocks made in a stonecutter, extra drops from the Ender Dragon, husks and shulkers, a handful of block-drop changes, a wider beacon base list, and some crafting recipes (faster copper oxidation, extra dyes, coral conversion, concrete powder from blasting). It is loaded automatically in every world. There are no commands: everything is passive or crafted.
 
-Features marked **(may not work in the current version)** were written for an older Minecraft version and are likely broken in 26.2; they are documented here as designed.
 
 ## How to use
 
@@ -126,7 +125,7 @@ Wandering Trader, Warden, Elder Guardian, Camel, Camel Husk, Sniffer, Zombie Hor
 
 Villager heads match profession (13 professions, Nitwit, or unemployed) and are always dropped when a player kills one. Husk, Camel Husk, Parched and Shulker heads are in addition to their extra drops below.
 
-### Zombie, Skeleton, Creeper and Piglin heads (may not work in the current version)
+### Zombie, Skeleton, Creeper and Piglin heads
 
 These four use vanilla-style head drops from the pack's core module instead of the table above.
 
@@ -137,25 +136,18 @@ These four use vanilla-style head drops from the pack's core module instead of t
 | Creeper | Creeper Head (uncharged creepers only; charged ones give the Charged Creeper Head) | 2.5%, +1% per Looting level |
 | Piglin | Piglin Head | 4%, +1% per Looting level |
 
-<!-- maintainer: these four tables use the "random_chance_with_looting" condition, which was replaced by random_chance_with_enchanted_bonus in 1.21 (24w18a). Probably broken/failing to load in 26.2; the minecraft: wrapper tables that reference them may log errors. Fix: swap to random_chance_with_enchanted_bonus. -->
 
-### Tropical fish heads (may not work in the current version)
+### Tropical fish heads
 
 Killing a tropical fish as a player: 10% (Looting I 15%, +2.5% per level above I). The head matches the fish pattern and colours for 22 known variants: Clownfish, Triggerfish, Tomato Clownfish, Red Snapper, Red Cichlid, Ornate Butterflyfish, Queen Angelfish, Cotton Candy Betta, Threadfin, Goatfish, Yellow Tang, Yellowtail Parrotfish, Dottyback, Parrotfish, Moorish Idol, Butterflyfish, Anemone, Black Tang, Cichlid, Blue Tang, Emperor Red Snapper, Red Lipped Blenny. Any other fish gives a plain Tropical Fish head.
 
-<!-- maintainer: tropical fish heads live in the pannotia module, which uses the removed random_chance_with_looting condition like the zombie/skeleton/creeper/piglin tables. The generic Tropical Fish Head in more_mob_heads is defined but never referenced. -->
 
-### Sheep: the "jeb_" head (may not work in the current version)
+### Sheep: the "jeb_" head
 
-Besides the colour head above, the sheep table also references a "jeb_ Sheep Head" table. As designed this head should only drop from a sheep named "jeb_". Because the reference has no name check, **every** player-killed sheep has a 10% chance (Looting I 15%, +5% per level above I) of also dropping the jeb_ Sheep Head.
+Besides the colour head above, the sheep table also references a "jeb_ Sheep Head" table. That head only drops from a sheep named "jeb_" (name one with a name tag or an anvil); unnamed sheep do not drop it.
 
-<!-- maintainer: bug. sheep.json -> jeb_.json has no name check, so all sheep drop the jeb_ head at 10%. The name-gated version (jeb_sheep.json, requires the sheep to be named "jeb_") exists but is unreferenced. Verify in game and repoint. -->
+<!-- maintainer: sheep.json gates the jeb_ pool: set_name from the selector @s[name=jeb_], then count 0 when the name is empty. Source-verified; confirm in game that the selector trick works in 26.2 (LOOT-3). -->
 
-### Bat and villager extra pools (may not work in the current version)
-
-The bat and villager wrappers were designed to also add extra drops from tables in the `bat_membranes` and `villager_death` namespaces. Those tables do not exist in this pack, so the extra pools resolve to nothing. The bat and villager heads in the table above are unaffected.
-
-<!-- maintainer: bat_membranes: and villager_death: loot table namespaces are leftovers from removed datapacks; they exist nowhere in the pack and may log validation errors. Remove those pools from minecraft:entities/bat and villager. -->
 
 ## Dragon, husk and shulker drops
 
@@ -178,7 +170,7 @@ The Ender Dragon's vanilla loot table is empty (XP and the egg on the exit porta
 | Ancient Debris | Mining it without Silk Touch drops **Netherite Scrap** directly instead of the debris block (Fortune applies, ore-drops formula; explosion decay applies). Silk Touch still drops Ancient Debris. A diamond or better pickaxe is still needed. |
 | Brown and Red Mushroom Blocks | Drop their mushroom more often: roughly 40% chance of 1-2 mushrooms instead of about 22%, and Fortune now increases the amount. Silk Touch still drops the block. |
 | Jungle Leaves | Sapling chance doubled: 5% / 6.25% / 8.33% / 10% at Fortune 0 / I / II / III (vanilla 2.5% / 2.78% / 3.13% / 4.17%). Sticks unchanged. |
-| Budding Amethyst | Drops itself with Silk Touch (vanilla never drops it); nothing without Silk Touch. Duplicated by [Silk Touch Budding Amethyst](silk-touch-budding-amethyst.md). |
+| Budding Amethyst | Drops itself with Silk Touch (vanilla never drops it); nothing without Silk Touch. |
 | Player Head (placed) | Breaking a placed player head keeps all its data components (name, lore, rarity), not just the skin and name. This keeps mob heads and Mini blocks intact. |
 
 ### Beacon bases
@@ -187,7 +179,6 @@ Beacons can also be powered by Copper Block (all four oxidation stages and the w
 
 ## Recipes
 
-All recipes below except the small dripleaf one are **(may not work in the current version)**.
 
 | Recipe | Inputs | Output |
 |---|---|---|
@@ -199,9 +190,8 @@ All recipes below except the small dripleaf one are **(may not work in the curre
 | Green dye | Yellow Dye + Blue Dye (shapeless) | 2 Green Dye |
 | Coral and coral fans | Each live coral (brain, bubble, fire, horn, tube) converts 1:1 to its fan and back (shapeless) | 10 recipes |
 | Concrete powder | Blast Furnace: any of the 16 concrete colours | Same-colour Concrete Powder, 0.1 XP |
-| Small dripleaf duplication | Small Dripleaf + Bone Meal (shapeless) | 1 Small Dripleaf (this one uses the current recipe format and should work) |
+| Small dripleaf duplication | Small Dripleaf + Bone Meal (shapeless) | 1 Small Dripleaf |
 
-<!-- maintainer: most pannotia recipes (copper oxidation, dyes, coral) use the old "result": {"item": ...} format (invalid since 1.20.5; needs {"id": ...}) and the concrete blasting recipes use a bare-string result; they likely fail to load. Only the small dripleaf recipe uses the current "id" format and should work. -->
 
 ## Notes
 

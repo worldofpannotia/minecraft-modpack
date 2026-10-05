@@ -32,7 +32,6 @@ Every mod in the pack, A–Z. **Side** shows where a mod has to be installed: *c
 | [Bookshelf](technical.md#bookshelf) | Libraries & APIs | both | Library mod by Darkhax providing shared code, datapack features and a /bookshelf debug command for other mods. |
 | [Bottle Your Xp](mods/enchanting-and-magic.md#bottle-your-xp) | Enchanting & Magic | server | Sneak and right-click with an empty glass bottle to turn your own experience into a Bottle o' Enchanting. |
 | [Bottled Air](mods/quality-of-life.md#bottled-air) | Quality of Life | server | Right-click an empty glass bottle while underwater (air bar visible) to breathe in extra air. |
-| [Bow Infinity Fix](mods/tools-weapons-and-armor.md#bow-infinity-fix) | Tools, Weapons & Armor | both | Bows and crossbows with Infinity no longer need an arrow in the inventory to fire. |
 | [Camel Nostrils](mods/mobs-and-creatures.md#camel-nostrils) | Mobs & Creatures | both | A deliberately absurd mod by the pack author with ideas from non-player spouses: pull-off camel snouts, zombie fish, golden foods, and upside-down versions of beds, chests, crafting tables and anvils. |
 | [Capes](mods/cosmetic-visual-and-audio.md#capes) | Cosmetic, Visual & Audio | client | Displays capes from OptiFine, LabyMod, Cosmetica, Wynntils, Capes++ and MinecraftCapes on your own character and on others. |
 | [Carpet](technical.md#carpet) | Performance & Technical | both | Technical tooling mod (Fabric Carpet) that provides many toggleable rules and commands for technical play: tick control, loggers, hopper counters, fake players and the Scarpet scripting language. |
@@ -130,7 +129,6 @@ Every mod in the pack, A–Z. **Side** shows where a mod has to be installed: *c
 | [MossyLib](technical.md#mossylib) | Libraries & APIs | both | Library with common code and a YACL theme for the Mossy mods by LopyMine. |
 | [Name Tag Upgrade](mods/quality-of-life.md#name-tag-upgrade) | Quality of Life | both | Name tags can be renamed on the spot by using them, with no anvil or experience cost, and formatting codes are supported. |
 | [Nature's Compass](mods/maps-and-navigation.md#natures-compass) | Maps & Navigation | both | Adds a compass that searches for a chosen biome anywhere in the world and shows information about it. |
-| [No Feather Trample](mods/farming-food-and-animals.md#no-feather-trample) | Farming, Food & Animals | server | Farmland is no longer trampled when the entity landing on it has Feather Falling boots or the Slow Falling effect. |
 | [No Recipe Book](mods/interface-and-hud.md#no-recipe-book) | Interface & HUD | client | Removes the recipe book button and panel from the inventory and crafting screens. |
 | [Open Parties and Claims](mods/multiplayer-and-server.md#open-parties-and-claims) | Multiplayer & Server | both | Lets players claim and forceload chunks and form parties. |
 | [OptiGUI](mods/cosmetic-visual-and-audio.md#optigui) | Cosmetic, Visual & Audio | client | Enables custom GUI textures from resource packs, including OptiFine custom GUI packs. |

@@ -78,7 +78,7 @@ On death, your items and experience are stored in a grave block at the death loc
   | Grave Compass | Given on death (default on) | Points to your grave |
 - **How it works (mod defaults):** Other players cannot open your grave for 900 s (15 min); it self-destructs after 1800 s (30 min) and drops its items if `drop_items_on_expiration` is true. 100% of XP is stored. The mod searches up to 8 blocks from the death spot for a free location; no per-player grave limit by default.
 - **Controls:** `/graves` lists your graves. Permission-gated: `/graves player <player>`, `/graves modify <player>`, `/graves reload`; the `universal_graves.teleport` permission allows teleporting to any grave.
-- **Pack note:** The pack ships no config for this mod, so defaults should apply (medium confidence).
+- **Pack note:** The pack ships no config for this mod, so defaults apply.
 <!-- maintainer: values come from the README's documented defaults; verify against generated config/universal-graves/config.json in-game. Uses Polymer so vanilla clients work. -->
 
 ### Death Backup

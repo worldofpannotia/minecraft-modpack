@@ -20,8 +20,8 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Chest | Shapeless: upside-down chest -> chest | [Camel Nostrils](mods/mobs-and-creatures.md#camel-nostrils) |
 | Compass recipes | Added: SLS/LCL/SLS (S = any sapling, L = any log, C = compass) -> Nature's Compass. Shapeless repair: Nature's Compass + compass -> Nature's Compass. | [Nature's Compass](mods/maps-and-navigation.md#natures-compass) |
 | Concrete powder (16 colors) | 8 other-color concrete powder + dye -> 8 of the dye's color. | [Universal Dyeing (datapack)](datapacks/vanillatweaks.md) |
-| Concrete powder from blasting | Blast Furnace: any of the 16 concrete colours -> the same-colour Concrete Powder, 0.1 XP (default blasting time). (may not work in the current version) | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
-| Coral and coral fans | Shapeless 1:1 conversion between each live coral and its coral fan (brain, bubble, fire, horn, tube), in both directions: 10 recipes. (may not work in the current version) | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
+| Concrete powder from blasting | Blast Furnace: any of the 16 concrete colours -> the same-colour Concrete Powder, 0.1 XP (default blasting time). | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
+| Coral and coral fans | Shapeless 1:1 conversion between each live coral and its coral fan (brain, bubble, fire, horn, tube), in both directions: 10 recipes. | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
 | Coral blocks (brain, bubble, fire, horn, tube) | 2x2 of the matching live coral and/or coral fan (any mix of the two, via an item tag) -> 1 coral block of that type. Dead coral is not included. | [Craftable Coral Blocks (2x2) (datapack)](datapacks/vanillatweaks.md) |
 | Crafting Table | Shapeless: upside-down crafting table -> crafting table | [Camel Nostrils](mods/mobs-and-creatures.md#camel-nostrils) |
 | Creaking heart | Shaped: Artificial Creaking Heart surrounded by 8 resin clumps -> creaking heart. | [Artificial Heart](mods/building-and-decoration.md#artificial-heart) |
@@ -32,7 +32,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Dropper | 7 blackstone + redstone (### / # # / #R#) -> dropper. | [VT Crafting Helper (Blackstone Redstone Recipes) (datapack)](datapacks/vanillatweaks.md) |
 | Eggs, dyes, wool and storable items | Uncrafting recipes: Egg Crate to 9 eggs, compressed dye block to 9 dyes, pillow to 4 wool, compressed storage blocks to 9 items, compressed building blocks to 9 of the lower tier or base block. | [Minekea](mods/building-and-decoration.md#minekea) |
 | End Rod | Can be crafted from an End(less) Rod (shapeless). | [Minekea](mods/building-and-decoration.md#minekea) |
-| Faster copper oxidation (crafting) | Shaped 3x3: 7 copper-type blocks in every slot except top-middle and centre, Gunpowder top-middle, Water Bucket centre -> 7 of the next oxidation stage. Copper Block -> 7 Exposed Copper; Exposed Copper -> 7 Weathered Copper; Weathered Copper -> 7 Oxidized Copper. Pattern "#G#","#W#","###" (7 input blocks). (may not work in the current version) | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
+| Faster copper oxidation (crafting) | Shaped 3x3: 7 copper-type blocks in every slot except top-middle and centre, Gunpowder top-middle, Water Bucket centre -> 7 of the next oxidation stage. Copper Block -> 7 Exposed Copper; Exposed Copper -> 7 Weathered Copper; Weathered Copper -> 7 Oxidized Copper. Pattern "#G#","#W#","###" (7 input blocks). | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
 | Glazed terracotta (16 colors) | 8 other-color glazed terracotta + dye -> 8 of the dye's color. | [Universal Dyeing (datapack)](datapacks/vanillatweaks.md) |
 | Gravel | 2x2 flint -> 1 gravel. | [Craftable Gravel (Flint) (datapack)](datapacks/vanillatweaks.md) |
 | Gray and orange dye | Shapeless: clipped eyeblossom -> gray dye; clipped open eyeblossom -> orange dye. | [Artificial Heart](mods/building-and-decoration.md#artificial-heart) |
@@ -41,7 +41,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Item frame and glow item frame | Item frame (or glow item frame) + any dye (crafting_dye recipe) -> dyed item frame / dyed glow item frame. | [Fast Item Frames](mods/building-and-decoration.md#fast-item-frames) |
 | Leather | Furnace smelting: rotten flesh -> leather (1.0 XP, 200 ticks). Furnace only. | [Rotten Flesh to Leather (datapack)](datapacks/vanillatweaks.md) |
 | Lever | stick above blackstone -> lever. | [VT Crafting Helper (Blackstone Redstone Recipes) (datapack)](datapacks/vanillatweaks.md) |
-| More dye recipes | Brown Mushroom -> 1 Brown Dye; Twisting Vines -> 1 Cyan Dye; Big Dripleaf -> 1 Green Dye; Carrot -> 1 Orange Dye; Yellow Dye + Blue Dye -> 2 Green Dye (all shapeless). (may not work in the current version) | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
+| More dye recipes | Brown Mushroom -> 1 Brown Dye; Twisting Vines -> 1 Cyan Dye; Big Dripleaf -> 1 Green Dye; Carrot -> 1 Orange Dye; Yellow Dye + Blue Dye -> 2 Green Dye (all shapeless). | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
 | Nether wart | Shapeless: 1 nether wart block -> 9 nether wart. | [Uncraftable Nether Wart Block (datapack)](datapacks/vanillatweaks.md) |
 | Observer | 6 blackstone + 2 redstone + 1 quartz (### / RRQ / ###) -> observer. | [VT Crafting Helper (Blackstone Redstone Recipes) (datapack)](datapacks/vanillatweaks.md) |
 | Packed ice | Shapeless: 1 blue ice -> 9 packed ice. | [Uncraftable Ice (Unpack Ice) (datapack)](datapacks/vanillatweaks.md) |
@@ -70,8 +70,6 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 
 | What | Change | Source |
 |---|---|---|
-| Barrel recipe | Overridden to require oak planks and oak slabs specifically ('PSP' / 'P P' / 'PSP'); other woods use Minekea's own barrel recipes. Vanilla barrel texture slightly modified. | [Minekea](mods/building-and-decoration.md#minekea) |
-| Bookshelf recipe | Overridden to require oak planks around 3 books (yields 1). Other woods and stone types use Minekea bookshelf recipes that yield 3. | [Minekea](mods/building-and-decoration.md#minekea) |
 | Bricks | 2x2 bricks -> 4 brick blocks instead of 1. | [VanillaTweaks Crafting Tweaks (vanilla recipe overrides) (datapack)](datapacks/vanillatweaks.md) |
 | Purpur stairs | Ingredient now only purpur block; vanilla also accepted purpur pillar. This is a minor regression from the vanilla recipe (8 stairs per craft otherwise). | [VanillaTweaks Crafting Tweaks (vanilla recipe overrides) (datapack)](datapacks/vanillatweaks.md) |
 | Stairs (about 57 types: all wood planks incl. bamboo and bamboo mosaic, stone, cobblestone, mossy, stone/deepslate/tuff/blackstone variants, bricks of all kinds, prismarine, purpur, quartz, smooth quartz, sandstone and red sandstone variants, all cut copper stages incl. waxed) | Same shaped recipe as vanilla (6 blocks in the stair shape) but now yields 8 stairs instead of 4. | [VanillaTweaks Crafting Tweaks (vanilla recipe overrides) (datapack)](datapacks/vanillatweaks.md) |
@@ -93,7 +91,6 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Husk loot | Extra 0-2 Sand (+0-1 per Looting level). | [World of Pannotia: Husks Drop Sand (datapack)](datapacks/world-of-pannotia.md) |
 | Jungle Leaves | Sapling chance doubled: 5% / 6.25% / 8.33% / 10% at Fortune 0/I/II/III (vanilla 2.5% / 2.78% / 3.13% / 4.17%). Stick drops unchanged. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
 | Loot tables | Stronghold library and woodland mansion chests can contain these books. | [The Athenaeum](mods/loot-and-drops.md#the-athenaeum) |
-| minecraft:blocks/budding_amethyst loot table | Vanilla budding amethyst drops nothing. The pack replaces the table with one pool that drops 1 budding_amethyst when the tool has Silk Touch (level 1 or more). Without Silk Touch it still drops nothing. | [Silk Touch Budding Amethyst (datapack)](datapacks/silk-touch-budding-amethyst.md) |
 | minecraft:blocks/player_head loot table | Overridden so a broken player head drops itself and keeps its stored components (name and skin). | [Wandering Trades (Hermit Edition) (datapack)](datapacks/wandering-trades-hermit-edition.md) |
 | Mob heads on kill | Most mobs gain extra player-head drops (see World of Pannotia: More Mob Heads). Zombie, Skeleton, Creeper and Piglin get vanilla-style heads from the pannotia module instead, and Tropical Fish gets named variant heads. | [World of Pannotia: Vanilla Loot Overrides (datapack)](datapacks/world-of-pannotia.md) |
 | Mob loot tables | Roughly 90 mobs gain an additional player-head pool (see the per-mob list). Vanilla drops are unchanged. | [World of Pannotia: More Mob Heads (datapack)](datapacks/world-of-pannotia.md) |
@@ -104,7 +101,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Shulker loot | Guaranteed 2 Shulker Shells (+0-2 per Looting level) added to the vanilla 50%-chance single shell. | [World of Pannotia: Looting Shulker Shells (datapack)](datapacks/world-of-pannotia.md) |
 | Spawner block loot table | A mined spawner drops as an item (default: any pickaxe; silk touch only is an option). A spawn egg for the mob also drops by default. XP drop is off by default. | [Mineable Spawner](mods/tools-weapons-and-armor.md#mineable-spawner) |
 | Trial spawner and vault loot tables | These blocks drop as items when mined with a pickaxe (default on); silk touch only is an option (default off). A spawn egg also drops by default. | [Mineable Trial Spawner](mods/tools-weapons-and-armor.md#mineable-trial-spawner) |
-| Zombie, Skeleton, Creeper and Piglin heads | Killed by player: Zombie Head 2.5% (+1% per Looting level), Skeleton Skull 2.5% (+1%), Creeper Head 2.5% (+1%, uncharged creepers only), Piglin Head 4% (+1%). (may not work in the current version) | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
+| Zombie, Skeleton, Creeper and Piglin heads | Killed by player: Zombie Head 2.5% (+1% per Looting level), Skeleton Skull 2.5% (+1%), Creeper Head 2.5% (+1%, uncharged creepers only), Piglin Head 4% (+1%). | [World of Pannotia: Core Pack Tweaks (datapack)](datapacks/world-of-pannotia.md) |
 
 ## Mob behavior
 
@@ -140,9 +137,9 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Campfire damage | Crouching on a lit campfire or soul campfire gives temporary immunity. | [Sneaky Tweaks](mods/quality-of-life.md#sneaky-tweaks) |
 | Crop growth | Crops with ice below never grow naturally; bone meal still works. Works for modded crops. | [Ice Prevents Crop Growth](mods/farming-food-and-animals.md#ice-prevents-crop-growth) |
 | Deepslate, cobblestone, end stone, logs | Instantly mined with a netherite pickaxe/axe at Efficiency V + Haste II. | [Deepslate Instamine](mods/tools-weapons-and-armor.md#deepslate-instamine) |
-| Dispenser | Dispensers can use additional items per the default datapack; the exact list is not in the facts (see mod wiki). | [Dispenser Configurator](mods/redstone-and-automation.md#dispenser-configurator) |
+| Dispenser | Dispensers can use additional items per the Dispenser Configurator's default datapack (see the mod page for the list). | [Dispenser Configurator](mods/redstone-and-automation.md#dispenser-configurator) |
 | Double slabs | Mining a double slab breaks only the half under the crosshair and leaves a single slab. | [KleeSlabs](mods/quality-of-life.md#kleeslabs) |
-| Farmland trampling | A player or mob with Feather Falling armor or the Slow Falling effect does not trample farmland. | [No Feather Trample](mods/farming-food-and-animals.md#no-feather-trample) |
+| Farmland trampling | Boots with Feather Falling stop farmland trampling (Universal Enchants improves the enchantment this way). | [Universal Enchants](mods/enchanting-and-magic.md#universal-enchants) |
 | Fire | Sets doFireTick to false on first world load so fire does not spread; fires burn out after about 10-20 s (default 300 ticks +/- 100 random). Trees and other flammables may burn briefly but are not destroyed. Fire above netherrack, magma or soul sand stays lit. | [Fire Spread Tweaks](mods/quality-of-life.md#fire-spread-tweaks) |
 | Harvesting crops | Right-click harvests and replants crops without a hoe or hunger cost. | [Pack Configuration Overrides](mods/quality-of-life.md#pack-wide-tweaks) |
 | Hay bale fall damage | Hay bales cancel all fall damage (vanilla only reduces it). | [Softer Hay Bales](mods/transport-and-movement.md#softer-hay-bales) |
@@ -183,7 +180,7 @@ Pack-wide config tweaks (stack sizes, right-click harvest, villager behavior and
 | Enchantment exclusivity | Exclusive sets are lifted: Protection types together, Sharpness/Smite/Bane of Arthropods, Infinity with Mending, Silk Touch with Fortune, Depth Strider with Frost Walker, Multishot with Piercing, Riptide with Loyalty/Channeling. | [Remove Enchantment Incompatibility](mods/enchanting-and-magic.md#remove-enchantment-incompatibility) |
 | Grindstone | Grindstone gains the disenchant-to-book and move-enchantment operations (costs XP levels). | [Grind Enchantments](mods/enchanting-and-magic.md#grind-enchantments) |
 | Grindstone | Can move enchantments to a book, or between books, for an XP cost. | [Pack Configuration Overrides](mods/quality-of-life.md#pack-wide-tweaks) |
-| Infinity enchantment | Bows and crossbows enchanted with Infinity can be used without having any arrow in the inventory. | [Bow Infinity Fix](mods/tools-weapons-and-armor.md#bow-infinity-fix) |
+| Infinity enchantment | Bows and crossbows enchanted with Infinity no longer need a spare arrow in the inventory, and crossbows can take Infinity. | [Universal Enchants](mods/enchanting-and-magic.md#universal-enchants) |
 | Infinity enchantment | Now applicable to water buckets and empty buckets (config options extend this to lava, milk and powdered snow buckets). | [Infinity Water Bucket](mods/enchanting-and-magic.md#infinity-water-bucket) |
 
 ## Villagers and trading
