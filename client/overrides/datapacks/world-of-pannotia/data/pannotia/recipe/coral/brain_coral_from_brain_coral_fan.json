@@ -4,6 +4,6 @@
         "minecraft:brain_coral_fan"
     ],
     "result": {
-        "item": "minecraft:brain_coral"
+        "id": "minecraft:brain_coral"
     }
 }

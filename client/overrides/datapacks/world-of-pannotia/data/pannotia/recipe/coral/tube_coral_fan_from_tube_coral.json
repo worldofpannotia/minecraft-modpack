@@ -4,6 +4,6 @@
         "minecraft:tube_coral"
     ],
     "result": {
-        "item": "minecraft:tube_coral_fan"
+        "id": "minecraft:tube_coral_fan"
     }
 }

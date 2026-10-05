@@ -11,7 +11,7 @@
         "W": "minecraft:water_bucket"
     },
     "result": {
-        "item": "minecraft:weathered_copper",
+        "id": "minecraft:weathered_copper",
         "count": 7
     }
 }

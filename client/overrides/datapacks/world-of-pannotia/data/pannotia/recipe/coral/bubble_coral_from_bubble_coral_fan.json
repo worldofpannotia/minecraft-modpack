@@ -4,6 +4,6 @@
         "minecraft:bubble_coral_fan"
     ],
     "result": {
-        "item": "minecraft:bubble_coral"
+        "id": "minecraft:bubble_coral"
     }
 }

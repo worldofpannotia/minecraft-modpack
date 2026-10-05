@@ -1,0 +1,14 @@
+{
+  "hudEnabled": false,
+  "hudX": 8,
+  "hudY": 8,
+  "updateIntervalTicks": 6,
+  "maxEntries": 4,
+  "showOreIcons": true,
+  "showSuitabilityPercent": true,
+  "animateReorder": true,
+  "uiScale": 1.0,
+  "minimumPercent": 10.0,
+  "hiddenOres": [],
+  "trackedMaterials": []
+}

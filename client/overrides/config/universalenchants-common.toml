@@ -1,0 +1,53 @@
+[compatibility_data_packs]
+#Allows normally incompatible bow enchantments to be used together.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+bow = true
+#Allows the different protection enchantments to be combined with each other.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: false
+#Requires Restart: World
+protection = true
+#Allows the mace's damage enchantments to be combined with minecraft:density.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+mace = true
+#Allows normally incompatible crossbow enchantments to be used together.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+crossbow = true
+#Allows the different damage enchantments to be combined with each other.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: false
+#Requires Restart: World
+damage = true
+
+[additional_enchants_data_packs]
+#Allows basic damage enchantments to be applied to additional weapon items.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+damage = true
+#Allows general weapon enchantments to be applied to additional weapon items.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+weapon = true
+#Allows additional weapon and defensive enchantments to be applied to shields.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+shield = true
+#Allows armor enchantments to be applied to additional animal armor.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+animal = true
+#Allows ranged weapon enchantments to be applied across bows and crossbows.
+#Automatically add the corresponding data pack when creating a new world.
+#Default Value: true
+#Requires Restart: World
+ranged = true

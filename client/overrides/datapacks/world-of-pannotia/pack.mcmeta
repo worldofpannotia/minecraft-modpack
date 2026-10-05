@@ -1,6 +1,10 @@
 {
     "pack": {
-        "pack_format": 107,
-        "description": "World of Pannotia custom recipes and stuff"
+        "description": "World of Pannotia custom recipes and stuff",
+        "min_format": 107,
+        "max_format": [
+            107,
+            1
+        ]
     }
 }

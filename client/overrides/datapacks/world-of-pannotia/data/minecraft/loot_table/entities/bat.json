@@ -18,15 +18,6 @@
                     "value": "more_mob_heads:entities/bat"
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "value": "bat_membranes:entities/bat"
-                }
-            ]
         }
     ]
 }

@@ -4,6 +4,6 @@
         "minecraft:horn_coral_fan"
     ],
     "result": {
-        "item": "minecraft:horn_coral"
+        "id": "minecraft:horn_coral"
     }
 }

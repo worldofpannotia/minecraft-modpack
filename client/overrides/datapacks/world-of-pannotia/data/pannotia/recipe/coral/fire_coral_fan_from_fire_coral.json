@@ -4,6 +4,6 @@
         "minecraft:fire_coral"
     ],
     "result": {
-        "item": "minecraft:fire_coral_fan"
+        "id": "minecraft:fire_coral_fan"
     }
 }
