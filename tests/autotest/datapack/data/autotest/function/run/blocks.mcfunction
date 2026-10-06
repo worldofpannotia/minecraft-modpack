@@ -1,0 +1,2 @@
+function autotest:lib/begin
+data modify storage autotest:q stages set value [{f:"autotest:blocks/ancient_debris_plain"},{f:"autotest:blocks/ancient_debris_fortune"},{f:"autotest:blocks/ancient_debris_silk"},{f:"autotest:blocks/brown_mushroom_block"},{f:"autotest:blocks/brown_mushroom_block_silk"},{f:"autotest:blocks/red_mushroom_block"},{f:"autotest:blocks/red_mushroom_block_silk"},{f:"autotest:blocks/jungle_leaves_sapling"},{f:"autotest:blocks/tags"}]

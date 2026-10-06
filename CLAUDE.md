@@ -30,6 +30,7 @@ This is the primary build command that:
 
 - `node scripts/clean.mjs`: Empties the `./tmp` directory
 - `node scripts/instance-to-manifest.mjs`: Converts CurseForge `minecraftinstance.json` to mod list format (rarely used)
+- `npm run gen:autotest`: Regenerates the in-game test datapack in `tests/autotest/datapack/` from the pack's own recipes, loot tables, tags and stack config. Re-run it after changing any of those. It is not shipped with the pack; see `tests/autotest/README.md` for running it and for refreshing the vanilla tag snapshot when the Minecraft version changes
 
 ## Project Structure
 
