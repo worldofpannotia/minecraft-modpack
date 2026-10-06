@@ -48,8 +48,8 @@
                                     "unenchanted_chance": 0.01,
                                     "enchanted_chance": {
                                         "type": "minecraft:linear",
-                                        "base": 0.011,
-                                        "per_level_above_first": 0.001
+                                        "base": 0.01,
+                                        "per_level_above_first": 0.01
                                     }
                                 }
                             ]
@@ -90,8 +90,8 @@
                                     "unenchanted_chance": 0.1,
                                     "enchanted_chance": {
                                         "type": "minecraft:linear",
-                                        "base": 0.101,
-                                        "per_level_above_first": 0.001
+                                        "base": 0.1,
+                                        "per_level_above_first": 0.01
                                     }
                                 }
                             ]

@@ -611,6 +611,40 @@
                                             "properties": [
                                                 {
                                                     "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE3MmVhZDI3MmRjNmQwMzdkZmFiMGVjMzJmNjdjY2U5NTIyMzFmMDU5NWVhM2VlMjhmY2NhMTUzYjlmOTgxOSJ9fX0="
+                                                }
+                                            ]
+                                        },
+                                        "minecraft:item_name": "Blue Tang"
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "components": {
+                                            "minecraft:tropical_fish/base_color": "gray",
+                                            "minecraft:tropical_fish/pattern_color": "blue",
+                                            "minecraft:tropical_fish/pattern": "flopper"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:player_head",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
+                                        "minecraft:profile": {
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
                                                     "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM5MzIzYzk2Y2JkYjhmNzJmYWYyZjMzOTZhZmUxNDc5MjQ2ODUyNTZkZTZlZmZjNDgxOTg5NzhiM2YwMThmYiJ9fX0="
                                                 }
                                             ]
@@ -661,40 +695,6 @@
                                             "minecraft:tropical_fish/base_color": "blue",
                                             "minecraft:tropical_fish/pattern_color": "gray",
                                             "minecraft:tropical_fish/pattern": "sunstreak"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:player_head",
-                            "functions": [
-                                {
-                                    "function": "minecraft:set_components",
-                                    "components": {
-                                        "minecraft:note_block_sound": "minecraft:entity.tropical_fish.flop",
-                                        "minecraft:profile": {
-                                            "properties": [
-                                                {
-                                                    "name": "textures",
-                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE3MmVhZDI3MmRjNmQwMzdkZmFiMGVjMzJmNjdjY2U5NTIyMzFmMDU5NWVhM2VlMjhmY2NhMTUzYjlmOTgxOSJ9fX0="
-                                                }
-                                            ]
-                                        },
-                                        "minecraft:item_name": "Blue Tang"
-                                    }
-                                }
-                            ],
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "components": {
-                                            "minecraft:tropical_fish/base_color": "gray",
-                                            "minecraft:tropical_fish/pattern_color": "blue",
-                                            "minecraft:tropical_fish/pattern": "flopper"
                                         }
                                     }
                                 }
