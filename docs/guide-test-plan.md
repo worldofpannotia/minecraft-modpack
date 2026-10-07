@@ -32,13 +32,13 @@ Record the pack version, dev-instance name and date at the top of your results.
 
 These catch failures that would invalidate many later checks.
 
-- [ ] **LOAD-1: datapacks are actually loaded.** In world A run `/datapack list`. Expect all 16 packs from `client/overrides/datapacks/` to be enabled (afk-display, armor-statues, bacap, bacap-torture-edition, back, homes, more-effective-tools, silence-mobs, spawn, track-raw-statistics, track-statistics, vanillatweaks (several entries), villager-workstation-highlights, wandering-trader-announcements, wandering-trades-hermit-edition, world-of-pannotia). Do this in a world created before the pack update too, because the guide claims they "apply to existing worlds". The datapacks ship as `overrides/datapacks/` and were seen loading via Global Packs in the dev log (2026-10-04). world-of-pannotia's `pack.mcmeta` now has `min_format`/`max_format` (maintainer notes §1.1); confirm the "missing mandatory fields" warning is gone for it.
-- [ ] **LOAD-1b: load/tick functions run.** After world-of-pannotia loads, confirm that `#minecraft:load` didn't fail on the missing `vdf:load`/`vdf:tick` (log: `Couldn't load tag minecraft:load`). Quick functional check: `/trigger sethome` responds, and `/scoreboard objectives list` shows `homes.config`, `back.config` and the `ts_`/`hc_` objectives.
-- [ ] **LOAD-2: no datapack or recipe parse errors.** After world load and after `/reload`, search `logs/latest.log` for `Couldn't parse`, `Failed to load`, `Unknown registry key`, `random_chance_with_looting`, `pannotia:`, `hopperxtreme:`, `minekea:`, `bat_membranes`, `villager_death`, `vdf:`. Every hit should map to a known item in the maintainer notes. Add any that don't.
-- [ ] **LOAD-3: off-version jars load and work.** Check that each of these is listed in Mod Menu and visibly does something: Connectivity (26.1 build), Falling Leaves (26.1; leaf particles under a tree), Tax Free Levels (26.1; see `ENC-2`), WITS (26.1; `/wits` responds), Visuality (+26.3; hit particles on mobs). All five loaded in the dev log. Bow Infinity Fix was removed from the pack (see `ENC-7`).
-- [ ] **LOAD-4: manifest vs instance.** Armored Elytra, Leaky, Fluid Void Fading, Universal Enchants and Universal Graves are in the manifest but were missing from the dev instance, and Servux and Silkier Touch were added after it was built. Confirm all seven are installed in a fresh install from the built zip. Confirm "Enchanting Changes", which is in the dev instance but not the manifest, does **not** end up in a fresh install.
+- [x] **LOAD-1: datapacks are actually loaded.** In world A run `/datapack list`. Expect all 16 packs from `client/overrides/datapacks/` to be enabled (afk-display, armor-statues, bacap, bacap-torture-edition, back, homes, more-effective-tools, silence-mobs, spawn, track-raw-statistics, track-statistics, vanillatweaks (several entries), villager-workstation-highlights, wandering-trader-announcements, wandering-trades-hermit-edition, world-of-pannotia). Do this in a world created before the pack update too, because the guide claims they "apply to existing worlds". The datapacks ship as `overrides/datapacks/` and were seen loading via Global Packs in the dev log (2026-10-04). world-of-pannotia's `pack.mcmeta` now has `min_format`/`max_format` (maintainer notes §1.1); confirm the "missing mandatory fields" warning is gone for it.
+- [x] **LOAD-1b: load/tick functions run.** After world-of-pannotia loads, confirm that `#minecraft:load` didn't fail on the missing `vdf:load`/`vdf:tick` (log: `Couldn't load tag minecraft:load`). Quick functional check: `/trigger sethome` responds, and `/scoreboard objectives list` shows `homes.config`, `back.config` and the `ts_`/`hc_` objectives.
+- [x] **LOAD-2: no datapack or recipe parse errors.** After world load and after `/reload`, search `logs/latest.log` for `Couldn't parse`, `Failed to load`, `Unknown registry key`, `random_chance_with_looting`, `pannotia:`, `hopperxtreme:`, `minekea:`, `bat_membranes`, `villager_death`, `vdf:`. Every hit should map to a known item in the maintainer notes. Add any that don't.
+- [x] **LOAD-3: off-version jars load and work.** Check that each of these is listed in Mod Menu and visibly does something: Connectivity (26.1 build), Falling Leaves (26.1; leaf particles under a tree), Tax Free Levels (26.1; see `ENC-2`), WITS (26.1; `/wits` responds), Visuality (+26.3; hit particles on mobs). All five loaded in the dev log. Bow Infinity Fix was removed from the pack (see `ENC-7`).
+- [x] **LOAD-4: manifest vs instance.** Armored Elytra, Leaky, Fluid Void Fading, Universal Enchants and Universal Graves are in the manifest but were missing from the dev instance, and Servux and Silkier Touch were added after it was built. Confirm all seven are installed in a fresh install from the built zip. Confirm "Enchanting Changes", which is in the dev instance but not the manifest, does **not** end up in a fresh install.
 - [ ] **LOAD-5: Patchouli absent.** No guidebook items in creative search, no Patchouli errors other than the known guidebook ones. The Minekea, Hopper X-Treme and pannotia books are expected to be unavailable.
-- [ ] **LOAD-6: StackItUp config applied.** In the new world run `/stackitup show all` (op). Expect about 77 items at 64 and 35 at 16, matching `allstackable-global-config.json`. Repeat on the dedicated server's world; the global config only applies to *new* worlds.
+- [x] **LOAD-6: StackItUp config applied.** In the new world run `/stackitup show all` (op). Expect about 77 items at 64 and 35 at 16, matching `allstackable-global-config.json`. Repeat on the dedicated server's world; the global config only applies to *new* worlds.
 
 ---
 
@@ -50,48 +50,48 @@ For each row: find the recipe in REI, craft it once for real, and check the outp
 
 REC-1 to REC-3 are source-verified as failing to parse (old `{"item":…}` result). REC-4 and REC-5 should work once the datapack loads (`LOAD-1`). Retest everything here after the fixes.
 
-- [ ] **REC-1: copper oxidation.** `#G#/#W#/###` with 7 Copper Blocks, gunpowder and a water bucket gives 7 Exposed Copper. Repeat Exposed→Weathered and Weathered→Oxidized. Check that the water bucket comes back empty.
-- [ ] **REC-2: dyes.** Brown Mushroom → brown dye; Twisting Vines → cyan; Big Dripleaf → green; Carrot → orange; Yellow + Blue dye → 2 green.
-- [ ] **REC-3: coral ↔ fan.** All 5 corals → fan, and each fan → coral (10 recipes).
-- [ ] **REC-4: concrete → powder (blast furnace).** All 16 colours, 0.1 XP.
-- [ ] **REC-5: small dripleaf + bone meal → small dripleaf.** This one is expected to work even if REC-1 to REC-4 fail.
+- [x] **REC-1: copper oxidation.** `#G#/#W#/###` with 7 Copper Blocks, gunpowder and a water bucket gives 7 Exposed Copper. Repeat Exposed→Weathered and Weathered→Oxidized. Check that the water bucket comes back empty.
+- [x] **REC-2: dyes.** Brown Mushroom → brown dye; Twisting Vines → cyan; Big Dripleaf → green; Carrot → orange; Yellow + Blue dye → 2 green.
+- [x] **REC-3: coral ↔ fan.** All 5 corals → fan, and each fan → coral (10 recipes).
+- [x] **REC-4: concrete → powder (blast furnace).** All 16 colours, 0.1 XP.
+- [x] **REC-5: small dripleaf + bone meal → small dripleaf.** This one is expected to work even if REC-1 to REC-4 fail.
 
 ### 2.2 VanillaTweaks Crafting Tweaks ([vanillatweaks.md](guide/datapacks/vanillatweaks.md))
 
-- [ ] **REC-10: stairs give 8.** Check a sample: oak, bamboo mosaic, cobblestone, stone brick (also with chiseled and cracked stone bricks as input), purpur (block works, pillar should *not*), quartz (block, pillar and chiseled all work), waxed cut copper.
-- [ ] **REC-11: trapdoors give 12.** Oak, bamboo, crimson. Iron trapdoor unchanged. Copper trapdoor still 2x2 → 1.
-- [ ] **REC-12: wood/hyphae give 4.** Oak wood, stripped cherry wood, warped hyphae.
-- [ ] **REC-13: bricks.** 2x2 bricks → 4 brick blocks.
-- [ ] **REC-14: block → 2 slabs (shapeless).** Smooth stone, waxed cut copper, bamboo mosaic. The vanilla 3 → 6 still works. Wood planks are **not** covered.
-- [ ] **REC-15: Back to Blocks.** 2 slabs side by side → 1 block (stone, oak, cut sandstone). 4 stairs → 3 blocks (oak, deepslate brick). No recipe for cut sandstone, cut red sandstone or smooth stone stairs.
-- [ ] **REC-16: smooth stone.** 2x2 smooth stone slabs → 2 smooth stone.
-- [ ] **REC-17: blackstone recipes.** Basalt + coal diagonal → 4 blackstone; polished basalt + charcoal → 4 polished blackstone; dispenser, dropper, lever, observer and piston using blackstone (piston uses 4 blackstone + iron + redstone + 3 planks); brewing stand with blackstone. Cobbled deepslate should **not** work in the first five.
-- [ ] **REC-18: dispenser from dropper.** Shapeless dropper + bow; shaped sticks/string around a dropper.
-- [ ] **REC-19: copper powered rail.** 6 copper ingots + stick + redstone → 6 powered rails. The gold recipe still works.
-- [ ] **REC-20: Universal Dyeing.** 8 mixed-colour terracotta + dye → 8 of that colour; 8 stained glass + ice → 8 glass. Also try candles, concrete powder, glazed terracotta and panes. Try ink sac, lapis, cocoa and bone meal as the dye. Wool, carpet, beds and banners are **not** covered by this pack.
-- [ ] **REC-21: Sandstone Dyeing.** 8 sand + red dye → 8 red sand; 2 sandstone + red dye → 2 red sandstone; 2 smooth sandstone + red dye → 2 smooth red sandstone.
-- [ ] **REC-22: unpacking.** Packed ice → 9 ice; blue ice → 9 packed ice; nether wart block → 9 nether wart; any wool → 4 string.
-- [ ] **REC-23: misc shapeless.** Coal or charcoal → black dye; 3 wheat in any arrangement → bread; 3 sugar cane in any arrangement → 3 paper; 2 shells + chest in any arrangement → shulker box.
-- [ ] **REC-24: misc.** 2x2 flint → gravel; rabbit-hide bundle (`SRS/R_R/RRR`; the leather bundle still works); 2x2 coral/coral fan → coral block (dead coral not accepted).
-- [ ] **REC-25: smelting.** Concrete powder → stained glass (furnace only, not blast furnace). Rotten flesh → leather (furnace only, 1.0 XP).
+- [x] **REC-10: stairs give 8.** Check a sample: oak, bamboo mosaic, cobblestone, stone brick (also with chiseled and cracked stone bricks as input), purpur (block works, pillar should *not*), quartz (block, pillar and chiseled all work), waxed cut copper.
+- [x] **REC-11: trapdoors give 12.** Oak, bamboo, crimson. Iron trapdoor unchanged. Copper trapdoor still 2x2 → 1.
+- [x] **REC-12: wood/hyphae give 4.** Oak wood, stripped cherry wood, warped hyphae.
+- [x] **REC-13: bricks.** 2x2 bricks → 4 brick blocks.
+- [x] **REC-14: block → 2 slabs (shapeless).** Smooth stone, waxed cut copper, bamboo mosaic. The vanilla 3 → 6 still works. Wood planks are **not** covered.
+- [x] **REC-15: Back to Blocks.** 2 slabs side by side → 1 block (stone, oak, cut sandstone). 4 stairs → 3 blocks (oak, deepslate brick). No recipe for cut sandstone, cut red sandstone or smooth stone stairs.
+- [x] **REC-16: smooth stone.** 2x2 smooth stone slabs → 2 smooth stone.
+- [x] **REC-17: blackstone recipes.** Basalt + coal diagonal → 4 blackstone; polished basalt + charcoal → 4 polished blackstone; dispenser, dropper, lever, observer and piston using blackstone (piston uses 4 blackstone + iron + redstone + 3 planks); brewing stand with blackstone. Cobbled deepslate should **not** work in the first five.
+- [x] **REC-18: dispenser from dropper.** Shapeless dropper + bow; shaped sticks/string around a dropper.
+- [x] **REC-19: copper powered rail.** 6 copper ingots + stick + redstone → 6 powered rails. The gold recipe still works.
+- [x] **REC-20: Universal Dyeing.** 8 mixed-colour terracotta + dye → 8 of that colour; 8 stained glass + ice → 8 glass. Also try candles, concrete powder, glazed terracotta and panes. Try ink sac, lapis, cocoa and bone meal as the dye. Wool, carpet, beds and banners are **not** covered by this pack.
+- [x] **REC-21: Sandstone Dyeing.** 8 sand + red dye → 8 red sand; 2 sandstone + red dye → 2 red sandstone; 2 smooth sandstone + red dye → 2 smooth red sandstone.
+- [x] **REC-22: unpacking.** Packed ice → 9 ice; blue ice → 9 packed ice; nether wart block → 9 nether wart; any wool → 4 string.
+- [x] **REC-23: misc shapeless.** Coal or charcoal → black dye; 3 wheat in any arrangement → bread; 3 sugar cane in any arrangement → 3 paper; 2 shells + chest in any arrangement → shulker box.
+- [x] **REC-24: misc.** 2x2 flint → gravel; rabbit-hide bundle (`SRS/R_R/RRR`; the leather bundle still works); 2x2 coral/coral fan → coral block (dead coral not accepted).
+- [x] **REC-25: smelting.** Concrete powder → stained glass (furnace only, not blast furnace). Rotten flesh → leather (furnace only, 1.0 XP).
 
 ### 2.3 Mod recipes that touch vanilla items
 
-- [ ] **REC-30: Minekea barrels and bookshelves.** The guide now says the vanilla barrel and bookshelf recipes are unchanged: the Minekea overrides sit in the ignored `recipes/` folder. Check what spruce planks + slabs give (vanilla barrel or Minekea spruce barrel?) and what spruce planks + books give (1 vanilla bookshelf or 3 Minekea spruce bookshelves?). Two recipes may clash on the same grid, so record which one REI and the crafting grid pick.
-- [ ] **REC-31: Minekea lanterns.** Craft `###/#P#/#T#` (iron nugget, ender pearl, torch) and record which of the Ancient, Doom and End lanterns you get. Check REI for any alternative recipes for the other two.
-- [ ] **REC-32: Minekea nugget bags and honey bucket.** Confirm there's no recipe that makes a Nugget Bag from nuggets, and that a Nugget Sack needs 9 bags. Confirm the Honey Bucket has no recipe, and that you can fill one from a honey cauldron or jar.
-- [ ] **REC-33: Minekea misc.** End rod ↔ End(less) Rod; smooth basalt in the stonecutter → basalt bricks and chiseled basalt bricks; pillow → 4 wool; egg crate → 9 eggs; compressed dye block → 9 dyes; 1x compressed block → 9 base.
-- [ ] **REC-34: Camel Nostrils.** A chest alone → upside-down chest → chest; same for the crafting table. Check that neither recipe hides another single-item recipe for chests or crafting tables in REI.
-- [ ] **REC-35: Artificial Heart.** Artificial Creaking Heart + 8 resin clumps → creaking heart. Clipped eyeblossom → gray dye; clipped open eyeblossom → orange dye.
-- [ ] **REC-36: Fast Item Frames.** Item frame + any dye → dyed frame, and the same for the glow item frame.
-- [ ] **REC-37: Hopper X-Treme.** 4 hoppers → Multi-Hopper and back; hopper + honeycomb/copper/gold. Hopper X-Treme skips registering its own wrench when Minekea is present. Confirm the Minekea wrench configures hoppers. Craft the filter.
-- [ ] **REC-38: Sponj.** 2 sponges → 2 sponj.
-- [ ] **REC-39: Nature's / Explorer's Compass.** Both recipes, plus the shapeless repair with a compass.
-- [ ] **REC-40: Easy Anvils.** A damaged anvil repaired with iron blocks (in a grid or in world, whichever the mod does).
+- [x] **REC-30: Minekea barrels and bookshelves.** The guide now says the vanilla barrel and bookshelf recipes are unchanged: the Minekea overrides sit in the ignored `recipes/` folder. Check what spruce planks + slabs give (vanilla barrel or Minekea spruce barrel?) and what spruce planks + books give (1 vanilla bookshelf or 3 Minekea spruce bookshelves?). Two recipes may clash on the same grid, so record which one REI and the crafting grid pick.
+- [x] **REC-31: Minekea lanterns.** Craft `###/#P#/#T#` (iron nugget, ender pearl, torch) and record which of the Ancient, Doom and End lanterns you get. Check REI for any alternative recipes for the other two.
+- [x] **REC-32: Minekea nugget bags and honey bucket.** Confirm there's no recipe that makes a Nugget Bag from nuggets, and that a Nugget Sack needs 9 bags. Confirm the Honey Bucket has no recipe, and that you can fill one from a honey cauldron or jar.
+- [x] **REC-33: Minekea misc.** End rod ↔ End(less) Rod; smooth basalt in the stonecutter → basalt bricks and chiseled basalt bricks; pillow → 4 wool; egg crate → 9 eggs; compressed dye block → 9 dyes; 1x compressed block → 9 base.
+- [x] **REC-34: Camel Nostrils.** A chest alone → upside-down chest → chest; same for the crafting table. Check that neither recipe hides another single-item recipe for chests or crafting tables in REI.
+- [x] **REC-35: Artificial Heart.** Artificial Creaking Heart + 8 resin clumps → creaking heart. Clipped eyeblossom → gray dye; clipped open eyeblossom → orange dye.
+- [x] **REC-36: Fast Item Frames.** Item frame + any dye → dyed frame, and the same for the glow item frame.
+- [x] **REC-37: Hopper X-Treme.** 4 hoppers → Multi-Hopper and back; hopper + honeycomb/copper/gold. Hopper X-Treme skips registering its own wrench when Minekea is present. Confirm the Minekea wrench configures hoppers. Craft the filter.
+- [x] **REC-38: Sponj.** 2 sponges → 2 sponj.
+- [x] **REC-39: Nature's / Explorer's Compass.** Both recipes, plus the shapeless repair with a compass.
+- [x] **REC-40: Easy Anvils.** A damaged anvil repaired with iron blocks (in a grid or in world, whichever the mod does).
 
 ### 2.4 Recipe conflicts
 
-- [ ] **REC-50: ambiguous grids.** In REI, look at the output for each of these and confirm there's exactly one result, or that the clash is acceptable: 1 chest alone; 1 crafting table alone; 1 stone/smooth stone/cut copper block alone (VT block → 2 slabs vs any Minekea single-block recipe); 9 wheat seeds (Minekea seed storage) vs Golden Wheat Seeds (8 seeds + gold ingot); 2 identical slabs in a row (Back to Blocks vs Minekea recipes for its own slabs); 8 terracotta + dye (vanilla vs Universal Dyeing).
+- [x] **REC-50: ambiguous grids.** In REI, look at the output for each of these and confirm there's exactly one result, or that the clash is acceptable: 1 chest alone; 1 crafting table alone; 1 stone/smooth stone/cut copper block alone (VT block → 2 slabs vs any Minekea single-block recipe); 9 wheat seeds (Minekea seed storage) vs Golden Wheat Seeds (8 seeds + gold ingot); 2 identical slabs in a row (Back to Blocks vs Minekea recipes for its own slabs); 8 terracotta + dye (vanilla vs Universal Dyeing).
 
 ---
 
@@ -101,16 +101,16 @@ Use the `loot spawn … kill` command from section 0 for chances, and real kills
 
 ### 3.1 Mob heads (World of Pannotia)
 
-- [ ] **LOOT-1: core-module heads.** Zombie Head, Skeleton Skull, Creeper Head (uncharged), Piglin Head. Over about 400 rolls with no Looting, expect about 2.5%/2.5%/2.5%/4%. The tables now use `random_chance_with_enchanted_bonus`. Charged creepers did not double-drop (checked 2026-10-04).
-- [ ] **LOOT-2: tropical fish heads.** These use the current condition and should work. Summon named-variant fish (e.g. Clownfish) and a random one. Expect a 10% named head, or a plain Tropical Fish head for unknown variants.
-- [ ] **LOOT-3: jeb_ sheep head.** The guide now says unnamed sheep don't drop it. Source shows the pool is name-gated with a `set_name` selector + `filtered` count trick, so **expect no jeb_ head from unnamed sheep**. Kill about 100 unnamed sheep with the command (expect 0 jeb_ heads), then about 30 sheep named `jeb_` (expect about 10%). Either result means a guide or datapack fix.
-- [ ] **LOOT-4: More Mob Heads sample.** Check at least: a guaranteed drop (Warden, Elder Guardian, Wandering Trader, Camel); a variant drop (Cat by variant; Horse by coat; Fox red vs snow; Llama; Parrot); and each NBT-predicate case the guide flags as fragile: **Bee** (angry/pollinated), **Goat** (screaming), **Panda** (by gene), **Villager** (by profession), **Trader Llama**, **Copper Golem** (by oxidation), **Wolf** (angry and snowy variants), **Mooshroom** (brown). Also check Axolotl (blue is 100%), Strider, Zombie Nautilus, the "Toast" rabbit and the Killer Bunny.
-- [ ] **LOOT-5: head details.** Placed heads render the mob skin. Each head on a note block plays the mob's sound. The "Nautilus Shell" drop is a player head, not the vanilla item. Heads only drop on a player kill: kill with `/kill` or lava and expect none.
-- [ ] **LOOT-6: bat and villager pools.** Bat and villager drops still work (bat head 10%, villager head 100%), and no errors appear for `bat_membranes:` or `villager_death:`.
+- [x] **LOOT-1: core-module heads.** Zombie Head, Skeleton Skull, Creeper Head (uncharged), Piglin Head. Over about 400 rolls with no Looting, expect about 2.5%/2.5%/2.5%/4%. The tables now use `random_chance_with_enchanted_bonus`. Charged creepers did not double-drop (checked 2026-10-04).
+- [x] **LOOT-2: tropical fish heads.** These use the current condition and should work. Summon named-variant fish (e.g. Clownfish) and a random one. Expect a 10% named head, or a plain Tropical Fish head for unknown variants.
+- [x] **LOOT-3: jeb_ sheep head.** The guide now says unnamed sheep don't drop it. Source shows the pool is name-gated with a `set_name` selector + `filtered` count trick, so **expect no jeb_ head from unnamed sheep**. Kill about 100 unnamed sheep with the command (expect 0 jeb_ heads), then about 30 sheep named `jeb_` (expect about 10%). Either result means a guide or datapack fix.
+- [x] **LOOT-4: More Mob Heads sample.** Check at least: a guaranteed drop (Warden, Elder Guardian, Wandering Trader, Camel); a variant drop (Cat by variant; Horse by coat; Fox red vs snow; Llama; Parrot); and each NBT-predicate case the guide flags as fragile: **Bee** (angry/pollinated), **Goat** (screaming), **Panda** (by gene), **Villager** (by profession), **Trader Llama**, **Copper Golem** (by oxidation), **Wolf** (angry and snowy variants), **Mooshroom** (brown). Also check Axolotl (blue is 100%), Strider, Zombie Nautilus, the "Toast" rabbit and the Killer Bunny.
+- [x] **LOOT-5: head details.** Placed heads render the mob skin. Each head on a note block plays the mob's sound. The "Nautilus Shell" drop is a player head, not the vanilla item. Heads only drop on a player kill: kill with `/kill` or lava and expect none.
+- [x] **LOOT-6: bat and villager pools.** Bat and villager drops still work (bat head 10%, villager head 100%), and no errors appear for `bat_membranes:` or `villager_death:`.
 
 ### 3.2 Other mob drops
 
-- [ ] **LOOT-10: Ender Dragon.** First kill: Elytra + Dragon Egg + Dragon Head drop, **plus** the portal egg (2 eggs). Respawn the dragon and kill it again: the drops repeat. Kill it with no player damage (e.g. `/kill @e[type=ender_dragon]`) and record whether it still drops, because the guide says nothing requires a player kill.
+- [x] **LOOT-10: Ender Dragon.** First kill: Elytra + Dragon Egg + Dragon Head drop, **plus** the portal egg (2 eggs). Respawn the dragon and kill it again: the drops repeat. Kill it with no player damage (e.g. `/kill @e[type=ender_dragon]`) and record whether it still drops, because the guide says nothing requires a player kill.
 - [ ] **LOOT-11: husk / parched / camel husk sand.** Husk and Parched give 0–2 sand, Camel Husk 0–3. The counts go up with Looting. Kills without a player still drop sand.
 - [ ] **LOOT-12: shulker shells.** Every kill gives at least 2 shells (2 + 0–2 per Looting level), plus the vanilla 50% shell.
 - [ ] **LOOT-13: lib 5555ff vs World of Pannotia entity tables.** Both override `minecraft:entities/*`. On the same mobs, check that a WoP head can drop *and* the lib 5555ff extras still happen: a named mob's name tag drop on death (Name Tag Upgrade), and the mace/trial-chamber ominous reward pool. Whichever pack loads last may silently drop the other's pools.
@@ -120,11 +120,11 @@ Use the `loot spawn … kill` command from section 0 for chances, and real kills
 
 - [ ] **LOOT-20: Ancient Debris.** Diamond pickaxe without Silk Touch → Netherite Scrap. Fortune III raises the count. Silk Touch → Ancient Debris. An iron pickaxe → nothing.
 - [ ] **LOOT-21: giant mushroom blocks.** About 40% chance of 1–2 mushrooms over 100 breaks (vanilla about 22%). Fortune increases it. Silk Touch drops the block.
-- [ ] **LOOT-22: jungle leaves.** Sapling rate about 5% with no Fortune (sample 200+).
-- [ ] **LOOT-23: budding amethyst.** Silk Touch → budding amethyst; any other tool → nothing. The world-of-pannotia loot table override and the separate datapack were both removed, so Silkier Touch is the only source. Confirm you get exactly one block.
+- [x] **LOOT-22: jungle leaves.** Sapling rate about 5% with no Fortune (sample 200+).
+- [x] **LOOT-23: budding amethyst.** Silk Touch → budding amethyst; any other tool → nothing. The world-of-pannotia loot table override and the separate datapack were both removed, so Silkier Touch is the only source. Confirm you get exactly one block.
 - [ ] **LOOT-24: player head data (3 overrides).** WoP, Hermit Edition and Miniblock Merchants all override `minecraft:blocks/player_head`. Place and break: a mob head, a Mini block, a Hermit head and a `/jph head` player head. Each should come back with name, lore, rarity and skin intact, and stack with an unplaced copy of the same head. Record which pack's version is in effect (e.g. `/loot spawn ~ ~ ~ mine …` on a head with custom lore).
-- [ ] **LOOT-25: Silkier Touch, spawners.** Break a spawner with a Silk Touch pickaxe: it drops as an item. Place it again and confirm it spawns the same mob. A plain pickaxe should drop nothing. The trial spawner should *not* drop (off by default).
-- [ ] **LOOT-26: Silkier Touch, other blocks.** With Silk Touch, check dragon egg (does not teleport), full cake and candle cake, farmland, tall grass, snow layers, vines and budding amethyst. Infested stone should *not* drop. Budding amethyst is covered by `LOOT-23`. Vaults should not be pickable.
+- [x] **LOOT-25: Silkier Touch, spawners.** Break a spawner with a Silk Touch pickaxe: it drops as an item. Place it again and confirm it spawns the same mob. A plain pickaxe should drop nothing. The trial spawner should *not* drop (off by default).
+- [x] **LOOT-26: Silkier Touch, other blocks.** With Silk Touch, check dragon egg (does not teleport), full cake and candle cake, farmland, tall grass, snow layers, vines and budding amethyst. Infested stone should *not* drop. Budding amethyst is covered by `LOOT-23`. Vaults should not be pickable.
 - [ ] **LOOT-27: Shulker Stuff box loot.** A box with an enchantment, a dye colour and plating keeps all three when broken.
 - [ ] **LOOT-28: Chorus Fruit / Scaffolding Drops Nearby.** Fruit drops at the plant's base; scaffolding drops at the first broken block.
 
@@ -201,11 +201,11 @@ Use the `loot spawn … kill` command from section 0 for chances, and real kills
 - [ ] **ENC-4: Easy Anvils.** Items stay in the anvil after closing. Formatting codes work in names. The prior-work penalty is lower than vanilla (compare repair costs on a tool combined 5 times).
 - [ ] **ENC-5: Grind Enchantments.** Enchanted sword + book in a grindstone gives an enchanted book with all enchantments, and the sword comes back unenchanted. Enchanted book + book moves the first enchantment. Curses move too. Record the XP cost for a few cases, because the guide's cost formula is a guess.
 - [ ] **ENC-6: Universal Enchants.** Looting on a bow, Power on a crossbow, Sharpness on a trident/mace, Protection on horse/wolf armour. Check whether Sharpness + Smite and Protection + Fire Protection stack (bundled datapacks), and diff Power damage against vanilla.
-- [ ] **ENC-7: Infinity without arrows.** Bow Infinity Fix was removed. Infinity bow and crossbow with an empty inventory: confirm Universal Enchants lets them fire, and record what projectile.
+- [x] **ENC-7: Infinity without arrows.** Bow Infinity Fix was removed. Infinity bow and crossbow with an empty inventory: confirm Universal Enchants lets them fire, and record what projectile.
 - [ ] **ENC-8: Infinity Water Bucket.** Infinity on a water bucket gives an endless source. Infinity on an empty bucket voids liquid and can't milk cows. Test with a *stack* of water buckets: check the real stack size and whether an anvil enchants one bucket or the whole stack.
 - [ ] **ENC-9: Better Than Mending / Bottle Your XP.** Sneak-right-click a damaged Mending tool: it repairs from XP. Record the XP per durability. Sneak-right-click an empty bottle: a Bottle o' Enchanting, −10 XP, half a heart of damage.
 - [ ] **ENC-10: Enchanting Commands.** `/ec sharpness 15` as an op works. As a non-op *(MP)*, record the result. The tooltip shows "XV".
-- [ ] **ENC-11: Gentle Touch / Shulker Stuff enchants.** Find out how Gentle Touch is obtained (table, villager or loot) and what it does. Do the same for Refill, Vacuum and Void on shulker boxes. Deep Storage is source-verified as unregistered, so confirm it doesn't show in `/enchant` tab-completion. Check that the Shulker Stuff config screen has only the plated-upgrade option.
+- [x] **ENC-11: Gentle Touch / Shulker Stuff enchants.** Find out how Gentle Touch is obtained (table, villager or loot) and what it does. Do the same for Refill, Vacuum and Void on shulker boxes. Deep Storage is source-verified as unregistered, so confirm it doesn't show in `/enchant` tab-completion. Check that the Shulker Stuff config screen has only the plated-upgrade option.
 - [ ] **ENC-12: Minekea bookshelves.** 15 non-oak Minekea bookshelves around a table give level-30 options. Minekea bookshelf slabs/stairs don't count.
 
 ---
@@ -249,7 +249,7 @@ Run each as a **non-op** on the server *(MP)* unless marked operator.
 - [ ] **MP-2: Open Parties and Claims.** `'` opens the UI. Claim a chunk. Player 2 can't break blocks there until added to the party. Claims show on Xaero's maps. Record the server's claim limit.
 - [ ] **MP-3: Simple Voice Chat.** Two clients hear each other with distance falloff. `V` opens the menu (it clashes with AutoRun). Record the UDP port in the server config.
 - [ ] **MP-4: Hand Over Your Items.** Sneak-right-click player 2 with a stack: they receive it and both get chat messages.
-- [ ] **MP-5: MiniHUD structure boxes.** Servux is now in the manifest. On the dedicated server, turn on MiniHUD's structure bounding boxes and confirm they render. Check whether Servux needs its structures feature enabled in its config.
+- [x] **MP-5: MiniHUD structure boxes.** Servux is now in the manifest. On the dedicated server, turn on MiniHUD's structure bounding boxes and confirm they render. Check whether Servux needs its structures feature enabled in its config.
 - [ ] **MP-6: AudioPlayer.** As a non-op, upload a short file by URL and apply it to a disc. Record which subcommands need op.
 
 ---
@@ -262,7 +262,7 @@ Run each as a **non-op** on the server *(MP)* unless marked operator.
 - [ ] **HUD-1: tooltips.** Hover a damaged diamond sword. Check whether Durability Tooltip and EnhancedTooltips both add a durability line, and whether Adaptive Tooltips and EnhancedTooltips fight over layout. Check that Enchantment Descriptions appear on books, and whether they also appear on gear.
 - [ ] **HUD-2: Fluid Void Fading.** Pour water off the world bottom (or the End void edge). Check whether it fades with Sodium active.
 - [ ] **HUD-3: Boat Item View.** Hold an item in a moving boat. Check whether it shows by default.
-- [ ] **HUD-4: Armored Elytra.** Wear a chestplate and an elytra together. Check whether both render, and whether any recipe, smithing or anvil combination exists.
+- [x] **HUD-4: Armored Elytra.** Wear a chestplate and an elytra together. Check whether both render, and whether any recipe, smithing or anvil combination exists.
 - [ ] **HUD-5: Tweakeroo.** `X + C` opens it. Check whether "Disable all terrain fog" is greyed out with Sodium.
 - [ ] **HUD-6: Litematica / WorldEdit CUI.** `M` opens Litematica's menu; see KEY-1. `//wand` selection outlines render.
 - [ ] **HUD-7: Daily Dad.** Over a long session, note how often jokes appear and what triggers them.
@@ -275,6 +275,6 @@ Run each as a **non-op** on the server *(MP)* unless marked operator.
 After the in-game tests:
 
 - [ ] **DOC-1:** Replace every *(unverified)* in `docs/guide/` that a test above resolved, and remove the matching `<!-- maintainer: -->` comment. `grep -rn -i "unverified\|not in the facts\|confidence" docs/guide` should only list items still open.
-- [ ] **DOC-2:** Remove pipeline wording that leaks into player text: "not in the facts", "Medium confidence (unverified details)", "(medium confidence)", "low confidence it is functional", "not confirmed in the notes".
+- [x] **DOC-2:** Remove pipeline wording that leaks into player text: "not in the facts", "Medium confidence (unverified details)", "(medium confidence)", "low confidence it is functional", "not confirmed in the notes".
 - [ ] **DOC-3:** Fix the contradictions listed in the maintainer notes under "Guide inconsistencies". Bucket stack size, Woodwalkers unlock, the datapack loader name, the REI keys and the Jade keys all appear on more than one page, so fix them everywhere.
 - [ ] **DOC-4:** Update the key-clash tables in [controls.md](guide/controls.md) and [getting-started.md](guide/getting-started.md) with the results of KEY-1.

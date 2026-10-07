@@ -40,12 +40,12 @@ Update 2026-10-04: a dev-instance log from a built pack shows all 16 datapacks l
 
 **Pack author's mods**
 
-- **Minekea:** *Source-verified* in `minekea-fabric-26.2-10.1.0.jar`.
-  - The Ancient, Doom and End Lantern recipes are identical apart from the result, so only one is reachable. → `REC-31`
-  - Nugget Bags can't be made from nuggets. The only recipes are 1 compressed sack → 9 bags and 9 bags → 1 sack. → `REC-32`
-  - The Honey Bucket has no recipe (lang key only). → `REC-32`
-- **Shulker Stuff:** the **Deep Storage** enchantment has a lang entry but no `data/shulkerstuff/enchantment/deep_storage.json` and isn't registered. *Source-verified.* → `ENC-11`
-- **Miniblock Merchants:** the README (`minecraft-mods/miniblock-merchants/README.md:368`) says 25 professions, but the jar lang has 26 `mm_*` professions. Fix the README, and the guide's "25" in [villagers-and-trading.md](guide/mods/villagers-and-trading.md) and [building-and-decoration.md](guide/mods/building-and-decoration.md). *Source-verified.*
+- ~~**Minekea:** *Source-verified* in `minekea-fabric-26.2-10.1.0.jar`.~~
+  - ~~The Ancient, Doom and End Lantern recipes are identical apart from the result, so only one is reachable. → `REC-31`~~
+  - ~~Nugget Bags can't be made from nuggets. The only recipes are 1 compressed sack → 9 bags and 9 bags → 1 sack. → `REC-32`~~
+  - ~~The Honey Bucket has no recipe (lang key only). → `REC-32`~~
+- ~~**Shulker Stuff:** the **Deep Storage** enchantment has a lang entry but no `data/shulkerstuff/enchantment/deep_storage.json` and isn't registered. *Source-verified.* → `ENC-11`~~
+- ~~**Miniblock Merchants:** the README (`minecraft-mods/miniblock-merchants/README.md:368`) says 25 professions, but the jar lang has 26 `mm_*` professions. Fix the README, and the guide's "25" in [villagers-and-trading.md](guide/mods/villagers-and-trading.md) and [building-and-decoration.md](guide/mods/building-and-decoration.md). *Source-verified.*~~
 - **Patchouli** is in `files_waiting` (placeholder fileID 9999999). `client/overrides/patchouli_books/pannotia/` still ships. The log shows parse failures for `minekea:minekea_catalogue`, `minekea:grant_book_on_first_join`, `hopperxtreme:hx_manual` and `hopperxtreme:grant_book_on_first_join`. These are expected until Patchouli returns. *Log-confirmed.* → `LOAD-5`
 
 ## 3. Earlier claims that verification corrected
@@ -55,10 +55,10 @@ The guide currently repeats each of these, so the linked pages need fixing.
 - ~~**jeb_ sheep head: REFUTED as a bug.** `more_mob_heads/loot_table/entities/sheep.json` does gate the pool. It runs `set_name` from the selector `@s[name=jeb_]`, then `filtered` sets the count to 0 when the resolved name is empty. Unnamed sheep should not drop the head. Fix [world-of-pannotia.md](guide/datapacks/world-of-pannotia.md) ("Sheep: the jeb_ head" section and its maintainer comment). Still worth a check that the selector trick works in 26.2. → `LOOT-3`~~ **Done:** guide page fixed. Still confirm `LOOT-3` in game.
 - ~~**Concrete-powder blasting recipes: REFUTED as broken.** Cooking results in 26.2 use `ItemStackTemplate.CODEC`, which accepts either `{"id":…}` or a bare item string. The 16 blasting recipes should work. Remove "(may not work in the current version)" from that row in [vanilla-changes.md](guide/vanilla-changes.md) and [world-of-pannotia.md](guide/datapacks/world-of-pannotia.md). → `REC-4`~~ **Done:** markers removed.
 - ~~**Tropical fish heads: REFUTED as broken.** `pannotia/.../tropical_fish.json` already uses `random_chance_with_enchanted_bonus`. Remove the "(may not work…)" marker. → `LOOT-2`~~ **Done:** marker removed.
-- **Minekea oak-only barrel and bookshelf: REFUTED in effect.** The overrides are in `data/minecraft/recipes/`, the plural folder that 26.x ignores, and use the old `{"item":…}` format. The vanilla barrel and bookshelf recipes are still active. The guide states the opposite in [vanilla-changes.md](guide/vanilla-changes.md) ("Changed vanilla recipes") and [building-and-decoration.md](guide/mods/building-and-decoration.md) ("Vanilla changes"). Fix the guide, and in Minekea either delete the dead files or move them to `recipe/` if oak-only was intended. Minekea's own bookshelf variants do yield 3. → `REC-30`
+- ~~**Minekea oak-only barrel and bookshelf: REFUTED in effect.** The overrides are in `data/minecraft/recipes/`, the plural folder that 26.x ignores, and use the old `{"item":…}` format. The vanilla barrel and bookshelf recipes are still active. The guide states the opposite in [vanilla-changes.md](guide/vanilla-changes.md) ("Changed vanilla recipes") and [building-and-decoration.md](guide/mods/building-and-decoration.md) ("Vanilla changes"). Fix the guide, and in Minekea either delete the dead files or move them to `recipe/` if oak-only was intended. Minekea's own bookshelf variants do yield 3. → `REC-30`~~
 - ~~**Hopper X-Treme wrench "missing": REFUTED as a bug.** The log shows `Minekea is loaded! Skipping registration of Hopper X-Treme's wrench.` (line 588). The skip is deliberate, but it causes harmless log noise: the `c:tools/wrenches` tag failure (:1504) and the wrench recipe parse error (:1510). Mark the tag entry `"required": false` and make the recipe conditional so the log is clean. The guide's Hopper X-Treme table lists a Wrench recipe that doesn't exist with Minekea present. Point it at the Minekea wrench in [redstone-and-automation.md](guide/mods/redstone-and-automation.md). → `REC-37`~~ **Done:** guide now points at the Minekea wrench. The log noise (`c:tools/wrenches`, wrench recipe) remains; making the tag entry optional is a change in the Hopper X-Treme mod.
 - ~~**Stray Miniblock Merchants options in the Shulker Stuff config screen: can't reproduce.** `ShulkerStuffConfig` has a single option (`platedShulkerUpgradeChance`), and the jar has no "miniblock" strings. The README statement is stale. Remove the note in [storage-and-inventory.md](guide/mods/storage-and-inventory.md).~~ **Done:** note removed from the guide.
-- **Off-version jars:** Connectivity, Falling Leaves, Tax Free Levels and WITS (26.1) and Visuality (+26.3) all **did load** in the dev log. Their effect still needs a quick look. → `LOAD-3`
+- ~~**Off-version jars:** Connectivity, Falling Leaves, Tax Free Levels and WITS (26.1) and Visuality (+26.3) all **did load** in the dev log. Their effect still needs a quick look. → `LOAD-3`~~
 
 ## 4. Needs in-game verification
 
@@ -85,10 +85,10 @@ Couldn't be settled from files. Grouped by risk.
 - **Right Click Harvest vs Replanting Crops** (double drop or replant), and sugar cane and cactus. → `FARM-1`, `FARM-2`
 - **Silence Mobs and `/trigger namehome`** expect anvil-renamed name tags. Name Tag Upgrade changes name-tag handling. → `CMD-5`, `CMD-1`
 - **Fluid Void Fading** reportedly doesn't work with Sodium. It's not installed in the dev instance, so this is untested. → `HUD-2`
-- **Armored Elytra** needs a separate datapack to combine items, and none ships. Its Modrinth page lists support only up to 1.20.4, and the jar is missing from the dev instance. → `HUD-4`
+- ~~**Armored Elytra** needs a separate datapack to combine items, and none ships. Its Modrinth page lists support only up to 1.20.4, and the jar is missing from the dev instance. → `HUD-4`~~
 - **Unknown defaults:** Better Spawner Control torch positions, Houdini Block mode switching, Hopper X-Treme filter insertion, Gentle Touch source and effect, Grass Seeds consumption, Double Doors on gates and trapdoors, Resource Backpacks nesting, Silkier Touch defaults, Athenaeum loot injection, Daily Dad frequency, and the key defaults in `KEY-2`.
-- **Missing server-side companions:** ~~MiniHUD structure overlays need **Servux** on the server.~~ **Done:** Servux added to the manifest (`MP-5`). Overflowing Bars still recommends **AttributeFix**, which isn't in the manifest (*source-verified*).
-- **Silkier Touch** replaced Mineable Spawner and Mineable Trial Spawner. Its details come from the Modrinth page (versions up to 1.21.11), so check the defaults on the 26.2 build. Silkier Touch also picks up budding amethyst, so the world-of-pannotia budding amethyst loot table override was removed (`LOOT-23`). Vaults are no longer minable. → `LOOT-25`, `LOOT-26`
+- ~~**Missing server-side companions:** ~~MiniHUD structure overlays need **Servux** on the server.~~ **Done:** Servux added to the manifest (`MP-5`). Overflowing Bars still recommends **AttributeFix**, which isn't in the manifest (*source-verified*).~~
+- ~~**Silkier Touch** replaced Mineable Spawner and Mineable Trial Spawner. Its details come from the Modrinth page (versions up to 1.21.11), so check the defaults on the 26.2 build. Silkier Touch also picks up budding amethyst, so the world-of-pannotia budding amethyst loot table override was removed (`LOOT-23`). Vaults are no longer minable. → `LOOT-25`, `LOOT-26`~~
 
 ## 5. Key clashes
 
