@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": [
+            {"text": "World of Pannotia Guide", "color": "gold"},
+            {"text": "\nIn-game guidebook (Opus)", "color": "yellow"}
+        ],
+        "min_format": 84,
+        "max_format": [100, 0]
+    }
+}
