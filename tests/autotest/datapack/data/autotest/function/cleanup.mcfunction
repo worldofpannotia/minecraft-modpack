@@ -1,4 +1,4 @@
-execute in minecraft:overworld run forceload remove 39984 39952 40064 40100
+execute in minecraft:overworld run forceload remove 39984 39952 40064 40102
 tag @a remove autotest.runner
 scoreboard objectives remove autotest
 data remove storage autotest:out failures
