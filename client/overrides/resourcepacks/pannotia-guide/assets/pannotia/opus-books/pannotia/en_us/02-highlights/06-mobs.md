@@ -24,7 +24,7 @@ named `Unsilence me` to undo it. The mob ends up unnamed.
 
 ## Shut down a spawner
 
-Place **five torches** around a monster spawner to switch it off without breaking it.
+Place **five torches** around a monster spawner to switch it off without breaking it. Or take it with you: a **Silk Touch** pickaxe now picks up spawners, and they keep their mob.
 
 ```item
 id: spawner
@@ -37,5 +37,6 @@ A name tag opens an edit screen when you use it, with no XP and no anvil. Colour
 ## More detail
 
 * [Mobs and creatures](../04-mods/09-mobs-and-creatures.md)
+* [Silkier Touch](../04-mods/08-tools-weapons-and-armor.md#silkier-touch)
 * [Silence Mobs](../05-datapacks/silence-mobs.md)
 * [World of Pannotia datapack](../05-datapacks/world-of-pannotia.md)

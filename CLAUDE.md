@@ -32,6 +32,8 @@ This is the primary build command that:
 - `node scripts/instance-to-manifest.mjs`: Converts CurseForge `minecraftinstance.json` to mod list format (rarely used)
 - `npm run gen:autotest`: Regenerates the in-game test datapack in `tests/autotest/datapack/` from the pack's own recipes, loot tables, tags and stack config. Re-run it after changing any of those. It is not shipped with the pack; see `tests/autotest/README.md` for running it and for refreshing the vanilla tag snapshot when the Minecraft version changes
 
+- `npm run gen:opus-guide`: Syncs `docs/guide/` into the in-game Opus book (`client/overrides/resourcepacks/pannotia-guide/`). Re-run after the docs pipeline changes the guide. Hand-written pages (`index.md`, `02-highlights/`) are left alone. Validate with `java -jar <opus jar> client/overrides/resourcepacks/pannotia-guide`. See `docs/opus-migration.md`
+
 ## Project Structure
 
 ### Key Directories
@@ -79,6 +81,8 @@ The modpack includes numerous custom datapacks in `client/overrides/datapacks/`,
 Each datapack is stored as an unzipped directory during development and automatically zipped during the build process (see Pack Zipping below).
 
 ## Patchouli Guidebook
+
+> The 18.x pack replaces this with an Opus book (see `docs/opus-migration.md`); the Patchouli book below is the old 13.x one and is no longer loaded.
 
 Located in `client/overrides/patchouli_books/pannotia/`, this custom guidebook provides:
 - In-game documentation for the modpack

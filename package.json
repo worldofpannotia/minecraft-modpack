@@ -21,6 +21,7 @@
     "scripts": {
         "build": "node ./scripts/build-client.mjs",
         "build:dev": "node ./scripts/build-client.mjs -d",
-        "gen:autotest": "node ./scripts/gen-autotest.mjs"
+        "gen:autotest": "node ./scripts/gen-autotest.mjs",
+        "gen:opus-guide": "node ./scripts/build-opus-guide.mjs"
     }
 }
