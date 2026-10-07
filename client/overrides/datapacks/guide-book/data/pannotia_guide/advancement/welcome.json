@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "joined": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pannotia_guide:give_guide"
+    }
+}
