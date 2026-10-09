@@ -170,6 +170,16 @@ Please use the [GitHub issue tracker](https://github.com/chimericdream/WorldOfPa
 bugs you find. If you have a suggestion for a mod that might fit with the pack, or think a certain recipe should be
 added or tweaked to improve gameplay, submit those as well.
 
+### Textures
+
+The following textures and icons were downloaded from
+the [Unused Textures](https://github.com/malcolmriley/unused-textures)
+repository on GitHub and were created by user malcomriley. They are licensed under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) and are used
+according to the permissions outlined by the artist and the license.
+
+* Pannotia Guidebook (Opus) ([book_grimoire_celestial.png](https://github.com/malcolmriley/unused-textures/blob/master/items/book_grimoire_celestial.png); renamed to `pack_guide.png`)
+
 ### MIT Licence
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
