@@ -12,7 +12,7 @@ This part of the pack covers playing with other people: talking to them, protect
 | Open Parties and Claims | Claim and forceload chunks; form parties | Both |
 | Servux | Server-side support that lets MiniHUD show structure boxes | Server |
 | Simple Voice Chat | Proximity voice chat with groups | Both |
-| Universal Graves | Your items and XP are stored in a grave block when you die | Server |
+| Your Items Are Safe | On death, your items go into a chest with a sign, and your gear onto an armor stand | Server |
 
 ## Talking and sharing
 **Simple Voice Chat** gives you proximity voice. **AudioPlayer** builds on it, letting you put your own recordings on discs and horns. **Hand Over Your Items** is the quick way to pass loot to a friend, and **Auth Me** fixes the "invalid session" error when joining.
@@ -66,21 +66,19 @@ Lets players claim and forceload chunks and form parties. Claims protect against
 <!-- maintainer: actual claim limits and protection settings on the pack's server are unknown from facts; verify server config. Client install is optional (commands work without it). -->
 
 ## Death recovery
-**Universal Graves** and **Death Backup** are complementary: the grave is the normal way to get your stuff back, the backup is the admin safety net.
+**Your Items Are Safe** and **Death Backup** are complementary: the chest is the normal way to get your stuff back, the backup is the admin safety net.
 
-### Universal Graves
-On death, your items and experience are stored in a grave block at the death location instead of scattering. Works server-side, so no client install is needed.
-- **New:**
-  | Name | How to obtain | Notes |
-  |---|---|---|
-  | Gravestone | Craft: top row three stone bricks; bottom row stone bricks, any sign, stone bricks | Decorative grave block |
-  | Grave | Created automatically at your death location | Holds items and XP; right-click opens a GUI, shift + right-click with an empty hand does a quick pickup |
-  | Emptied Grave | Left after a grave is emptied | |
-  | Grave Compass | Given on death (default on) | Points to your grave |
-- **How it works (mod defaults):** Other players cannot open your grave for 900 s (15 min); it self-destructs after 1800 s (30 min) and drops its items if `drop_items_on_expiration` is true. 100% of XP is stored. The mod searches up to 8 blocks from the death spot for a free location; no per-player grave limit by default.
-- **Controls:** `/graves` lists your graves. Permission-gated: `/graves player <player>`, `/graves modify <player>`, `/graves reload`; the `universal_graves.teleport` permission allows teleporting to any grave.
-- **Pack note:** The pack ships no config for this mod, so defaults apply.
-<!-- maintainer: values come from the README's documented defaults; verify against generated config/universal-graves/config.json in-game. Uses Polymer so vanilla clients work. -->
+### Your Items Are Safe
+When you die, your items are kept from despawning using only vanilla blocks: a chest holds your inventory, a sign on it shows your name, and an armor stand above it wears your gear. Works server-side, so no client install is needed.
+- **How it works:**
+  - A **chest** is placed at your death location with your items inside. If they do not fit, a second chest is stacked on top.
+  - A **sign** with your name is placed on the chest.
+  - An **armor stand** stands above the chest wearing your armor, with your **player head** on it so it is easy to tell whose it is. If you were wearing a helmet, it goes in the chest instead.
+  - If you die in the void, the chest is placed just above the minimum build height, on a 3x3 platform.
+  - You get a chat message when the chest is created, followed by your death coordinates.
+- **Controls:** none. Walk to your death coordinates and open the chest.
+- **Pack note:** The pack changes the mod's defaults so that no materials are needed: the chest, armor stand and sign appear even if you carry no wood. (By default the mod charges 2 logs, 8 planks or a chest for the chest, and 1 log or 3 planks for the armor stand.) Everything else stays at the mod's defaults. The pack's config is `config/youritemsaresafe.json5`.
+<!-- maintainer: the chest is a plain vanilla chest and is not protected from other players; Open Parties and Claims can protect it inside a claim. Replaced Universal Graves, which is no longer in the pack. -->
 
 ### Death Backup
 Saves a copy of each player's inventory and gear just before they die. Backups are written to `data/deathbackup` in the world folder, one folder per player name.

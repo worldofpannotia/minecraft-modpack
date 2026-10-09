@@ -32,7 +32,7 @@ This guide explains what is different from vanilla and how to use it.
 | [Maps & Navigation](mods/maps-and-navigation.md) | Xaero's Minimap and World Map, Explorer's and Nature's Compass |
 | [Transport & Movement](mods/transport-and-movement.md) | Teleport commands (home, spawn, back), portals, mounts, autorun |
 | [Redstone & Automation](mods/redstone-and-automation.md) | Hopper X-Treme, dispenser behaviors, Houdini Block |
-| [Multiplayer & Server](mods/multiplayer-and-server.md) | Land claims and parties, voice chat, graves, death backups |
+| [Multiplayer & Server](mods/multiplayer-and-server.md) | Land claims and parties, voice chat, death chests, death backups |
 | [Cosmetic, Visual & Audio](mods/cosmetic-visual-and-audio.md) | Connected textures, entity models, particles, sound muffling |
 
 Also see:

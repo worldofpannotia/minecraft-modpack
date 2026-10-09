@@ -30,6 +30,7 @@ This page covers the small conveniences scattered through World of Pannotia: pac
 | Scaffolding Drops Nearby | Chained scaffolding drops at the first broken block | Server |
 | Sneaky Tweaks | Safe berry bushes, campfire grace time and crouch bridging | Both |
 | Tweakeroo | Client-side toolbox of toggleable tweaks | Client |
+| Traversable Leaves | Walk and jump-climb through leaf blocks; sneak for solid leaves | Both |
 | Visual Workbench | Crafting tables keep and display their grid contents | Both |
 | WI Zoom | A zoom key | Client |
 
@@ -126,6 +127,15 @@ Typing on a sign wraps to the next line when the next word will not fit, and bac
 ### Leaves Be Gone
 Leaves with no log support decay almost immediately (about a second) after a tree is chopped down. Works with most modded leaves via the `minecraft:leaves` tag. Timing and whether different leaf types connect are configurable; the pack has no override.
 
+### Traversable Leaves
+Leaf blocks no longer block you, so forests feel more open to explore. Needed on both client and server.
+- **How it works:**
+  - You can walk through leaves, but movement is slower while you are inside foliage.
+  - Jump to climb upward through leaves, so tall trees and thick canopies are easy to explore without chopping a path.
+  - Standing on top of leaves still works as usual.
+- **Controls:** Hold **sneak** to get full collision with leaves back, so you can stand on them and move carefully.
+- **Pack note:** Purely a movement change; leaves look the same.
+
 ### Fire Spread Tweaks
 Stops fire from spreading and destroying blocks, and makes fires burn out after a delay.
 - **How it works:** sets `doFireTick` to false on first world load. Fires burn out after roughly 10 to 20 seconds (default 300 ticks plus or minus 100). Trees and other flammables may burn briefly but are not destroyed. Fire above netherrack, magma blocks or soul sand stays lit.
@@ -191,6 +201,6 @@ Hides the "experimental settings" warning screens when creating or loading world
 - **Banner Tweaks** and **Litematica** (see [Building & Decoration](04-building-and-decoration.md)): up to 12 banner layers by default, and a schematic mod for builders.
 - **Chorus Fruit Drops Nearby** (see [Loot & Drops](10-loot-and-drops.md)): chorus fruit drops at the plant's base.
 - **Clumps**, **Bobby**, **Debugify** (see [Performance & Technical](../03-reference/04-technical.md)): XP orb merging, extended render distance via cached chunks, and 70+ vanilla bug fixes.
-- **Auth Me**, **Death Backup**, **Hand Over Your Items**, **Universal Graves** (see [Multiplayer & Server](15-multiplayer-and-server.md)): re-login to Microsoft accounts, restoring inventories after death, giving items by sneak-right-click, and grave blocks with a compass on death.
+- **Auth Me**, **Death Backup**, **Hand Over Your Items**, **Your Items Are Safe** (see [Multiplayer & Server](15-multiplayer-and-server.md)): re-login to Microsoft accounts, restoring inventories after death, giving items by sneak-right-click, and a chest with a sign and armor stand at your death spot.
 - **Extreme Sound Muffler** (see [Cosmetic, Visual & Audio](16-cosmetic-visual-and-audio.md)): mute or lower almost any sound.
 - **WITS** (see [World Generation & Exploration](11-world-generation-and-exploration.md)): `/wits` prints the structures at your position.

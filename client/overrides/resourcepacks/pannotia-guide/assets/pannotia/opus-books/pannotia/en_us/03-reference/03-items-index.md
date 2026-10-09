@@ -55,7 +55,6 @@ An A–Z index of the notable items, blocks, entities and enchantments added by 
 | Drenched Score Sheet | item | 1 in 24 when fishing up treasure | [Miniblock Merchants](../04-mods/06-villagers-and-trading.md#miniblock-merchants) |
 | Dyed Blocks (12 bases x 16 colours) | block | Craft 8: base block ring around 1 dye. Bases: stone, smooth stone, stone bricks, cobblestone, bricks, mud bricks, oak planks, bone block, calcite, prismarine, prismarine bricks, dark prismarine. | [Minekea](../04-mods/04-building-and-decoration.md#minekea) |
 | Egg Crates (Egg, Brown Egg, Blue Egg) | block | Craft: 3x3 of eggs, brown eggs or blue eggs. | [Minekea](../04-mods/04-building-and-decoration.md#minekea) |
-| Emptied Grave | block | Left after a grave has been emptied. | [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) |
 | Enchanted Red Delicious | item | 1 in 4096 from oak leaves | [Miniblock Merchants](../04-mods/06-villagers-and-trading.md#miniblock-merchants) |
 | End Backpack | item | Gold Backpack with 4 diamonds, 2 eyes of ender and an ender chest; gives access to your Ender Chest | [Resource Backpacks](../04-mods/03-storage-and-inventory.md#resource-backpacks) |
 | End(less) Rod | block | Shapeless: 1 end rod. | [Minekea](../04-mods/04-building-and-decoration.md#minekea) |
@@ -78,9 +77,6 @@ An A–Z index of the notable items, blocks, entities and enchantments added by 
 | Golden Egg | item | Chance from a chicken fed Golden Wheat Seeds | [Camel Nostrils](../04-mods/09-mobs-and-creatures.md#camel-nostrils) |
 | Golden Hopper | block | Hopper + gold ingot | [Hopper X-Treme](../04-mods/14-redstone-and-automation.md#hopper-x-treme) |
 | Golden Wheat Seeds | item | Craft: 8 wheat seeds around 1 gold ingot (yields 8) | [Camel Nostrils](../04-mods/09-mobs-and-creatures.md#camel-nostrils) |
-| Grave | block | Created automatically at your death location. | [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) |
-| Grave Compass | item | Given on death when give_death_compass is enabled (default true). | [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) |
-| Gravestone | block | Crafted: stone bricks, stone bricks, stone bricks in the top row; stone bricks, any sign, stone bricks in the bottom row. | [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) |
 | Hammers (Stone, Copper, Iron, Gold, Diamond, Netherite) | item | Craft: 'ISI' / ' S ' / ' S ' with I=material (stone-tool materials, copper-tool materials, iron ingot, gold ingot, diamond, netherite ingot) and S=stick. The Netherite Hammer can also be made by smithing a Diamond Hammer with a netherite ingot and a netherite upgrade template. | [Minekea](../04-mods/04-building-and-decoration.md#minekea) |
 | Hermit player heads (29 trades) | item | Wandering trader: 1 emerald for 1 head, up to 3 uses per trade. A trader gets a random 2 to 5 of these. | [Wandering Trades (Hermit Edition) (datapack)](../05-datapacks/wandering-trades-hermit-edition.md) |
 | Honey fluid, Honey Bucket, Honey Cauldron | other | No crafting recipe. Fill a cauldron or glass jar with honey bottles, then collect honey with a bucket. | [Minekea](../04-mods/04-building-and-decoration.md#minekea) |

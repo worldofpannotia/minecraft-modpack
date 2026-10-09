@@ -2,31 +2,22 @@
 title: Surviving death
 icon: item:minecraft:totem_of_undying
 tags: [gameplay, death]
-summary: Graves, totems and death backups.
+summary: Death chests, totems and death backups.
 ---
 Dying still stings, but it no longer means a mad dash to recover your gear before it despawns.
 
-## Graves
+## Death chests
 
-When you die, your items and experience are packed into a **grave** at the place you died, courtesy of Universal Graves.
-You are given a **Grave Compass** that points to it.
+When you die, your items are packed into a **chest** at the place you died, courtesy of Your Items Are Safe.
+A **sign** on the chest shows your name, and an **armor stand** above it wears your gear with your head on top, so you can tell whose it is.
 
-* Right-click the grave to open it, or sneak and right-click with an empty hand to pick everything up at once.
-* Nobody else can open your grave for 15 minutes. After 30 minutes it breaks and drops its contents.
-* `/graves` lists your graves.
-
-You can also craft a decorative **Gravestone**:
-
-```recipe
-pattern: ["BBB", "BSB"]
-key:
-  B: stone_bricks
-  S: "#minecraft:signs"
-result: universal_graves:visual_grave
-```
+* Your death coordinates are sent to you in chat.
+* If your inventory does not fit in one chest, a second one is stacked on top.
+* If you die in the void, the chest appears just above the bottom of the world, on a small platform.
+* If you were wearing a helmet, it is in the chest, because your head is on the armor stand.
 
 > [!NOTE]
-> These are the mod's default timings. The pack does not change them, but a server operator might.
+> The pack turns off the mod's material cost, so you get a chest even if you are carrying no wood. The chest is an ordinary chest and is not locked to you.
 
 ## Totems of Undying
 
@@ -42,9 +33,9 @@ label: Anywhere in your inventory
 ## Death Backup
 
 As a safety net, the server keeps a copy of your inventory just before you die. Only operators can restore it, so ask an
-admin if a grave goes wrong.
+admin if a chest goes missing.
 
 ## More detail
 
-* [Universal Graves and Death Backup](../04-mods/15-multiplayer-and-server.md#universal-graves)
+* [Your Items Are Safe and Death Backup](../04-mods/15-multiplayer-and-server.md#your-items-are-safe)
 * [Inventory Totem](../04-mods/08-tools-weapons-and-armor.md#inventory-totem)

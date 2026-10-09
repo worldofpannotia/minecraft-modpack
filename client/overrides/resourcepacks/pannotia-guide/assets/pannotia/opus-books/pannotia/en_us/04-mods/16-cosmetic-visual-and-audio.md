@@ -18,6 +18,8 @@ This part of the pack is almost entirely client-side polish: particles, water an
 | Extreme Sound Muffler | Mute or lower almost any sound from an in-game list | Client |
 | Falling Leaves | Leaf blocks shed falling-leaf particles | Client |
 | Fluid Void Fading | Fluids flowing off the world bottom fade out smoothly | Client |
+| Music Notification | A toast shows the track name, author and album when music plays | Client |
+| No More Potion Particles | Hides your own potion-effect particles in first person | Client |
 | OptiGUI | Custom GUI textures from resource packs | Client |
 | SB's Enchantment Effects | Level-scaled particles and sounds for combat enchantments | Client |
 | Vectorientation | Falling blocks rotate and squash/stretch with speed | Client |
@@ -83,6 +85,13 @@ Displays capes from OptiFine, LabyMod, Cosmetica, Wynntils, Capes++ and Minecraf
 Mute or lower the volume of almost any sound from an in-game list. Client only; installing on a server does nothing.
 - **How it works:** Open the muffler screen, pick a sound, optionally set its volume (mute to 90%) and preview it with the play button. Lists: all, muffled, recent, blocks, mods. Up to 10 named, movable **anchors** muffle selected sounds only within a configurable range of a marked position.
 - **Controls:** Click the muffler button in your inventory, then the button next to the sound to silence. You can also assign a key in Controls; the inventory button can be dragged with right mouse or disabled in config.
+
+### Music Notification
+Shows a toast notification whenever music plays, with the track's name, author and album. Client only.
+
+### No More Potion Particles
+Removes the swirling potion-effect particles from your first-person view, so active effects no longer clutter the screen. Client only.
+- **How it works:** It only affects first person. Potion particles are still shown in third person and on other players in multiplayer.
 
 ## Also relevant
 - **Armor Statues** datapack (see [Building & Decoration](04-building-and-decoration.md) and [../datapacks/armor-statues.md](../05-datapacks/armor-statues.md)) lets you pose armor stands and make item frames invisible, handy for showing off cosmetic gear.

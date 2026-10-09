@@ -7,7 +7,7 @@ order: 2
 You do not need to read the whole guide. These pages cover the changes you are most likely to run into, with a link
 to the detailed page at the bottom of each.
 
-* [Surviving death](01-surviving-death.md) - graves, totems and death backups
+* [Surviving death](01-surviving-death.md) - death chests, totems and death backups
 * [Getting around](02-getting-around.md) - homes, spawn, back, and portals that go where you want
 * [Enchanting without the grind](03-enchanting.md) - no "Too Expensive!", no incompatible pairs
 * [Farming](04-farming.md) - right-click harvest, bone meal that does more, ice-frozen crops

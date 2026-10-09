@@ -160,11 +160,6 @@ Every keybind and command documented for the pack's mods and datapacks. Keys are
 | [TrashSlot](../04-mods/03-storage-and-inventory.md#trashslot) | Lock/unlock key available in Controls |
 | [Tweakeroo](../04-mods/01-quality-of-life.md#tweakeroo) | X + C - open the Tweakeroo config menu (default) |
 | [Tweakeroo](../04-mods/01-quality-of-life.md#tweakeroo) | #fc \<add\|cycle\|del\|del_all\|list\|recall\|rename\|set\|help\> - Free Camera presets (typed in chat) |
-| [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) | /graves - list your graves |
-| [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) | /graves player \<player\> - list another player's graves (permission universal_graves.list_others) |
-| [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) | /graves modify \<player\> - modify graves (universal_graves.modify) |
-| [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) | /graves reload - reload config (universal_graves.reload) |
-| [Universal Graves](../04-mods/15-multiplayer-and-server.md#universal-graves) | universal_graves.teleport permission allows teleporting to any grave |
 | [Villager Workstation Highlights (datapack)](../05-datapacks/villager-workstation-highlights.md) | /trigger vwh_findStation : locate the workstation of the nearest villager (within 5 blocks) |
 | [Wandering Trader Announcements (datapack)](../05-datapacks/wandering-trader-announcements.md) | None. |
 | [Wandering Trades (Hermit Edition) (datapack)](../05-datapacks/wandering-trades-hermit-edition.md) | None. |
