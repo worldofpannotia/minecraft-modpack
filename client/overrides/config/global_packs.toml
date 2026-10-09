@@ -15,7 +15,7 @@ log_pack_ids = false
 [resourcepacks]
 	required = [
 		"global_packs/required_resources/",
-		"resourcepacks/pannotia-guide"
+		"resourcepacks/pannotia-guide.zip"
 	]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log

@@ -1,3 +1,9 @@
+### Not released (18.0.0-alpha.1)
+
+#### Bug Fixes
+
+* Fixed the Pannotia guide resource pack not loading automatically
+
 ### 2026-10-08 (18.0.0-alpha.0)
 
 #### Notable Changes
