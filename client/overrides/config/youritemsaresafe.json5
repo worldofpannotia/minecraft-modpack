@@ -1,0 +1,32 @@
+{
+	// When enabled and a player dies without any items in their inventory, no chest or armor stand is generated.
+	"mustHaveItemsInInventoryForCreation": false,
+	// If a player head should be added to the armor stand. If a helmet is worn, this will be placed into the chest.
+	"addPlayerHeadToArmorStand": true,
+	// Whether an armor stand should be created on death. If disabled, the player's gear will be placed inside the chest.
+	"createArmorStand": true,
+	// Whether a sign should be placed on the chest with the name of the player who died there.
+	"createSignWithPlayerName": true,
+	// Whether materials are needed for the chest which spawns on death. This can be the actual chest or the costs in raw materials.
+	"needChestMaterials": false,
+	// Whether materials are needed for the armor stand to spawn on death. This can be the actual armor stand or the costs in raw materials.
+	"needArmorStandMaterials": false,
+	// Whether materials are needed for the creation of the sign when 'createSignWithPlayerName' is enabled.
+	"needSignMaterials": false,
+	// Only relevant if 'needChestAndArmorStandMaterials' is enabled. An armor stand needs 1 stone slab to be created, but I think it's alright to ignore that requirement. If enabled, no stone is needed in the inventory on death.
+	"ignoreStoneMaterialNeed": true,
+	// If a chest should be placed right above the minimum build height when a player dies in the void.
+	"createChestAboveVoid": true,
+	// If a 3x3 platform should be created below the chest above the void. 'createChestAboveVoid' must be enabled.
+	"createVoidPlatform": true,
+	// If a message should be sent if the chest or armor stand can't be created due to missing materials.
+	"sendMessageOnCreationFailure": true,
+	// If a message should be sent on successful creation of the chest(s) and armor stand.
+	"sendMessageOnCreationSuccess": true,
+	// If the player's death coordinates should be sent in the chat below the 'sendMessageOnCreationFailure'/'sendMessageOnCreationSuccess' message.
+	"sendDeathCoordinatesInChat": true,
+	// The message sent on creation failure with 'sendMessageOnCreationFailure' enabled. Possible replacement values: %plankamount%, %stoneamount%.
+	"creationFailureMessage": "Your items are not safe due to having insufficient materials. Missing: %plankamount% planks.",
+	// The message sent on creation success with 'sendMessageOnCreationSuccess' enabled.
+	"creationSuccessMessage": "Your items are safe at your death location."
+}
