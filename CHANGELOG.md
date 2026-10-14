@@ -4,6 +4,25 @@
 
 * Fixed the Pannotia guide resource pack not loading automatically
 
+#### Updated Mods
+
+* All Hallows Steve
+* Architectury API (Fabric/Forge)
+* Collective
+* Death Backup
+* Fabric Language Kotlin
+* Followers Teleport Too
+* Full Brightness Toggle
+* GUI Followers
+* Opus (Guidebooks)
+* Optimized Block Entities
+* Puzzles Lib [Forge & Fabric]
+* Random Bone Meal Flowers
+* Resource Backpacks
+* Simple Voice Chat
+* StackItUp
+* Trade Cycling
+
 ### 2026-10-08 (18.0.0-alpha.0)
 
 #### Notable Changes
