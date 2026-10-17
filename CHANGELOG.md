@@ -1,3 +1,10 @@
+### 2026-10-17 (18.0.0-alpha.3)
+
+#### Updated Mods (for real this time)
+
+* Minekea
+* Shulker Stuff
+
 ### 2026-10-17 (18.0.0-alpha.2)
 
 **Fixes crash / black screen when loading the pack**
