@@ -1,3 +1,35 @@
+### 2026-10-17 (18.0.0-alpha.2)
+
+**Fixes crash / black screen when loading the pack**
+
+#### Updated Mods
+
+* All Hallows Steve
+* Archaeology Tweaks
+* Artificial Heart
+* Athenaeum
+* Banner Tweaks
+* Beacon Conduit Tweaks
+* Better Portal Linking
+* Camel Nostrils
+* Chimeric Lib
+* Effective Gear
+* Flat Bedrock
+* Hopper Xtreme
+* Houdini Block
+* Minekea
+* Miniblock Merchants
+* Opus
+* Shulker Stuff
+* Sneaky Tweaks
+* Sponj
+* Villager Tweaks
+
+#### Added Mods
+
+* Better Target Dummies
+* Log All The Things
+
 ### 2026-10-16 (18.0.0-alpha.1)
 
 #### Config Changes
