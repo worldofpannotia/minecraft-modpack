@@ -1,4 +1,14 @@
-### Not released (18.0.0-alpha.1)
+### 2026-10-16 (18.0.0-alpha.1)
+
+#### Config Changes
+
+* Resource Backpacks
+  * Backpacks can be opened from your inventory by right-clicking while holding one
+  * Significantly reduced the chance a zombie or creeper spawns wearing a backpack
+* Inventory Profiles Next
+  * Hide the purple "refill indicator" icons by default
+* Woodwalkers
+  * Don't scale player health based on the form they morph into
 
 #### Bug Fixes
 
@@ -7,21 +17,47 @@
 #### Updated Mods
 
 * All Hallows Steve
-* Architectury API (Fabric/Forge)
+* Archaeology Tweaks
+* Architectury API
+* Artificial Heart
+* Banner Tweaks
+* Beacon & Conduit Tweaks
+* Better Portal Linking
+* Camel Nostrils
+* ChimericLib
 * Collective
+* Crops Love Rain
 * Death Backup
+* Effective Gear
+* Entity Model Features
+* Entity Texture Features
 * Fabric Language Kotlin
+* Flat Bedrock
 * Followers Teleport Too
 * Full Brightness Toggle
 * GUI Followers
-* Opus (Guidebooks)
+* Hopper X-Treme
+* Houdini Block
+* Minekea
+* Miniblock Merchants
 * Optimized Block Entities
-* Puzzles Lib [Forge & Fabric]
+* Opus (Guidebooks)
+* Puzzles Lib
 * Random Bone Meal Flowers
 * Resource Backpacks
+* Shulker Stuff
 * Simple Voice Chat
+* Sneaky Tweaks
+* Sponj
 * StackItUp
+* The Athenaeum
 * Trade Cycling
+* VillagerTweaks
+* Your Items Are Safe
+
+#### Added Mods
+
+* Next Update Now
 
 ### 2026-10-08 (18.0.0-alpha.0)
 

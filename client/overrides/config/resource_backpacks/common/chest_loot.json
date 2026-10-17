@@ -1,0 +1,43 @@
+{
+    "Iron Backpack": {
+        "ironBackpackOther": 0.05,
+        "ironBackpackVillage": 0.05,
+        "ironBackpackStronghold": 0.05,
+        "ironBackpackTrialChamber": 0.05,
+        "ironBackpackTreasure": 0.05
+    },
+    "Leather Backpack": {
+        "leatherBackpackStronghold": 0.05,
+        "leatherBackpackSpawnChest": 0.05,
+        "leatherBackpackTreasure": 0.05,
+        "leatherBackpackOther": 0.05,
+        "leatherBackpackTrialChamber": 0.05,
+        "leatherBackpackShipwreck": 0.05,
+        "leatherBackpackVillage": 0.05
+    },
+    "Gold Backpack": {
+        "goldBackpackStronghold": 0.02,
+        "goldBackpackTrialChamber": 0.02,
+        "goldBackpackTreasure": 0.02,
+        "goldBackpackOther": 0.02
+    },
+    "Diamond Backpack": {
+        "diamondBackpackTreasure": 0.01,
+        "diamondBackpackEndCity": 0.01,
+        "diamondBackpackTrialChambers": 0.01,
+        "diamondBackpackAncientCity": 0.01
+    },
+    "Netherite Backpack": {
+        "netheriteBackpackTreasure": 0.01,
+        "netheriteBackpackAncientCity": 0.01,
+        "netheriteBackpackBastion": 0.01,
+        "netheriteBackpackTrialChambers": 0.01
+    },
+    "Copper Backpack": {
+        "copperBackpackStronghold": 0.05,
+        "copperBackpackVillage": 0.05,
+        "copperBackpackTrialChamber": 0.05,
+        "copperBackpackOther": 0.05,
+        "copperBackpackTreasure": 0.05
+    }
+}
