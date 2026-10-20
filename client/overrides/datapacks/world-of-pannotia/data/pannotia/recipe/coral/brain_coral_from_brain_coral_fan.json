@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:brain_coral_fan"
-    ],
-    "result": {
-        "id": "minecraft:brain_coral"
-    }
-}

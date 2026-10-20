@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:twisting_vines"
-    ],
-    "result": {
-        "id": "minecraft:cyan_dye"
-    }
-}

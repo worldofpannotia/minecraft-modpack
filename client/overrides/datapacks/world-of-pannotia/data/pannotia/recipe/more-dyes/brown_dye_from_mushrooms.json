@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:brown_mushroom"
-    ],
-    "result": {
-        "id": "minecraft:brown_dye"
-    }
-}

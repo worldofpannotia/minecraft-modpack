@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:horn_coral_fan"
-    ],
-    "result": {
-        "id": "minecraft:horn_coral"
-    }
-}

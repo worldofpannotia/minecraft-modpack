@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:big_dripleaf"
-    ],
-    "result": {
-        "id": "minecraft:green_dye"
-    }
-}

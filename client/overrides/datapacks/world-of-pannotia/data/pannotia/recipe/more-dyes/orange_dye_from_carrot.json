@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        "minecraft:carrot"
-    ],
-    "result": {
-        "id": "minecraft:orange_dye"
-    }
-}
