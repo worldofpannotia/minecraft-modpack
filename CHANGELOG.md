@@ -1,5 +1,9 @@
 ### Unreleased (18.0.0-alpha.4)
 
+#### Config
+
+* Fix stack size for some music discs and banner patterns
+
 #### Datapacks
 
 * Removed "More Effective Tools" (functionality moved to Effective Gear)
@@ -8,7 +12,17 @@
 
 #### Updated Mods
 
+* Areas
+* Collective
+* Double Doors
+* Followers Teleport Too
+* GUI Followers
+* Leaky - Item Lag Fix
+* Open Parties and Claims
 * Opus
+* Sever Performance - Smooth Chunk Save
+* Your Items Are Safe
+* Zombie Villagers from Spawner
 
 #### Added Mods
 
