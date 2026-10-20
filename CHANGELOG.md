@@ -15,12 +15,17 @@
 * Areas
 * Collective
 * Double Doors
+* Effective Gear
 * Followers Teleport Too
 * GUI Followers
+* Hopper X-Treme
 * Leaky - Item Lag Fix
 * Open Parties and Claims
 * Opus
 * Sever Performance - Smooth Chunk Save
+* VillagerTweaks
+* Xaero's Minimap
+* Xaero's World Map
 * Your Items Are Safe
 * Zombie Villagers from Spawner
 
@@ -28,8 +33,9 @@
 
 * Beautiful Enchanted Books: custom textures for different enchanted books
 * Beautiful Potions: custom textures for different potions
-* JD Crafte
-* Pannotia Companion
+* Head Locator: display player heads in the locator bar
+* JD Crafte: farmstead themed decorations
+* Pannotia Companion: companion mod specifically for this modpack
 * Polymorph+: allows switching between different outputs for conflicting recipes
 
 ### 2026-10-17 (18.0.0-alpha.3)
