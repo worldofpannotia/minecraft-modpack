@@ -1,3 +1,23 @@
+### Unreleased (18.0.0-alpha.4)
+
+#### Datapacks
+
+* Removed "More Effective Tools" (functionality moved to Effective Gear)
+* Removed "Back", "Homes", "Spawn", "VanillaTweaks", "Wandering Trades: Hermit Edition", and "World of Pannotia" (functionality moved to Pannotia Companion)
+* Removed Opus guidebook (moved to Pannotia Companion)
+
+#### Updated Mods
+
+* Opus
+
+#### Added Mods
+
+* Beautiful Enchanted Books: custom textures for different enchanted books
+* Beautiful Potions: custom textures for different potions
+* JD Crafte
+* Pannotia Companion
+* Polymorph+: allows switching between different outputs for conflicting recipes
+
 ### 2026-10-17 (18.0.0-alpha.3)
 
 #### Updated Mods (for real this time)
