@@ -1,3 +1,19 @@
+### Unreleased (18.0.0-alpha.5)
+
+#### Added Mods
+
+* PolyCraft (replaces Polymorph+)
+
+#### Updated Mods
+
+* Collective
+* Random Village Names
+* Universal Enchants
+
+#### Removed Mods
+
+* Polymorph+
+
 ### 2026-10-20 (18.0.0-alpha.4)
 
 #### Config
