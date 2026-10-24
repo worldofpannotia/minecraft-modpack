@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mod Updates</title>
+<style>
+:root{--bg:#1b1b1d;--panel:#242427;--head:#2f2f33;--line:#333;--fg:#e6e6e6;--mut:#9a9aa2;--acc:#f16436;--ok:#4caf72}
+@media (prefers-color-scheme: light){:root{--bg:#f4f4f6;--panel:#fff;--head:#e8e8ee;--line:#ddd;--fg:#1d1d20;--mut:#666;--acc:#d9481c;--ok:#2a8a50}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px system-ui,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:14px 16px}
+header h1{font-size:18px;margin:0 8px 0 0}
+header .meta{color:var(--mut)}
+header .sp{flex:1}
+input,select,button{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:6px 10px}
+button{cursor:pointer}button:hover{border-color:var(--fg)}
+button.primary{border-color:var(--acc);color:var(--acc)}
+button:disabled{opacity:.5;cursor:wait}
+table{width:100%;border-collapse:collapse;background:var(--panel)}
+th{position:sticky;top:0;background:var(--head);text-align:left;padding:10px 12px;user-select:none}
+th[data-k]{cursor:pointer}
+td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:middle}
+.mod{display:flex;gap:12px;align-items:center}
+.mod img,.mod .ph{width:40px;height:40px;border-radius:4px;flex:none;background:var(--head)}
+.mod a{color:var(--fg);font-weight:600;text-decoration:none}.mod a:hover{text-decoration:underline}
+.file{color:var(--mut);font-size:13px;word-break:break-all}
+.new{color:var(--acc)}
+.badge{font-size:11px;padding:1px 6px;border-radius:8px;border:1px solid var(--mut);color:var(--mut);margin-left:6px}
+.uptodate{color:var(--ok)}
+.actions{display:flex;gap:6px;flex-wrap:wrap}
+h2{margin:24px 0 8px;font-size:15px}
+.ign{font-size:12px;color:var(--mut);margin-top:4px}
+.ign button{padding:0 6px;font-size:12px;margin-left:4px}
+#err{color:#e55;padding:0 16px}
+.wrap{padding:0 16px 32px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Mod Updates</h1><span class="meta" id="meta"></span><span class="sp"></span>
+  <input id="q" type="search" placeholder="Filter mods…">
+  <select id="filter">
+    <option value="all">All mods</option>
+    <option value="updates" selected>Updates available</option>
+    <option value="ignored">Has ignored updates</option>
+    <option value="current">Up to date</option>
+  </select>
+  <button id="refresh">Refresh from CurseForge</button>
+</header>
+<div id="err"></div>
+<div class="wrap">
+  <table><thead><tr>
+    <th data-k="name">Name</th><th>Current file</th><th>Update</th><th data-k="author">Author</th><th>Action</th>
+  </tr></thead><tbody id="rows"></tbody></table>
+  <h2 id="wh" hidden>Waiting for a build (<span id="wc"></span>)</h2>
+  <table id="wt" hidden><tbody id="wrows"></tbody></table>
+</div>
+<script>
+let data = null, sortKey = 'name', asc = true;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function call(url, body) {
+  $('err').textContent = '';
+  const res = await fetch(url, body ? {method: 'POST', body: JSON.stringify(body)} : undefined);
+  const j = await res.json();
+  if (!res.ok) { $('err').textContent = j.error; throw new Error(j.error); }
+  return j;
+}
+async function load(refresh) {
+  const b = $('refresh'); b.disabled = true;
+  try { data = await call('/api/mods' + (refresh ? '?refresh=1' : '')); render(); } catch {} finally { b.disabled = false; }
+}
+async function act(url, body) { try { data = await call(url, body); render(); } catch {} }
+
+function modCell(m) {
+  const img = m.logo ? `<img src="${esc(m.logo)}" alt="" loading="lazy">` : '<div class="ph"></div>';
+  return `<div class="mod">${img}<div><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a></div></div>`;
+}
+function updateCell(m) {
+  let h = m.update
+    ? `<span class="new">${esc(m.update.filename)}</span><span class="badge">${m.update.type}</span>`
+    : '<span class="uptodate">Up to date</span>';
+  if (m.ignoredUpdates.length) h += '<div class="ign">Ignored: ' + m.ignoredUpdates.map((u) =>
+    `${esc(u.filename)}<button data-un="${m.projectID}:${u.fileID}">Unignore</button>`).join(' · ') + '</div>';
+  return h;
+}
+function row(m) {
+  const btns = m.update ? `<button class="primary" data-ap="${m.projectID}:${m.update.fileID}">Update manifest</button>
+    <button data-ig="${m.projectID}:${m.update.fileID}">Ignore</button>` : '';
+  return `<tr><td>${modCell(m)}</td><td class="file">${esc(m.currentFilename ?? 'file ' + m.currentFileID)}</td><td>${updateCell(m)}</td>
+    <td>${esc(m.author)}</td><td><div class="actions">${btns}</div></td></tr>`;
+}
+function render() {
+  if (!data) return;
+  const q = $('q').value.toLowerCase(), f = $('filter').value;
+  const matches = (m) => !q || m.name.toLowerCase().includes(q);
+  const ok = (m) => matches(m) && (f === 'all' ||
+    (f === 'updates' && m.update) || (f === 'ignored' && m.ignoredUpdates.length) || (f === 'current' && !m.update));
+  const rows = data.mods.filter(ok).sort((a, b) => String(a[sortKey]).localeCompare(String(b[sortKey])) * (asc ? 1 : -1));
+  const n = data.mods.filter((m) => m.update).length;
+  $('meta').textContent = `${data.mods.length} mods · ${n} updates · MC ${data.mcVersion} · fetched ${new Date(data.fetchedAt).toLocaleTimeString()}`;
+  $('rows').innerHTML = rows.map(row).join('') || '<tr><td colspan="5" class="file">Nothing to show.</td></tr>';
+  $('wh').hidden = $('wt').hidden = !data.waiting.length;
+  $('wc').textContent = data.waiting.length;
+  $('wrows').innerHTML = data.waiting.filter(matches).map((m) =>
+    `<tr><td>${modCell(m)}</td><td>${m.update
+      ? `<span class="new">${esc(m.update.filename)}</span><span class="badge">${m.update.type}</span> now available for ${esc(data.mcVersion)}; move it into <code>files</code> in the manifest`
+      : `<span class="file">No ${esc(data.mcVersion)} build yet</span>`}</td></tr>`).join('');
+}
+document.addEventListener('click', (e) => {
+  const t = e.target, pair = (k) => t.dataset[k]?.split(':').map(Number);
+  let p;
+  if ((p = pair('ig'))) act('/api/ignore', {projectID: p[0], fileID: p[1], ignored: true});
+  else if ((p = pair('un'))) act('/api/ignore', {projectID: p[0], fileID: p[1], ignored: false});
+  else if ((p = pair('ap'))) act('/api/apply', {projectID: p[0], fileID: p[1]});
+  else if (t.dataset.k) { asc = sortKey === t.dataset.k ? !asc : true; sortKey = t.dataset.k; render(); }
+});
+$('q').oninput = $('filter').onchange = render;
+$('refresh').onclick = () => load(true);
+load();
+</script>
+</body>
+</html>

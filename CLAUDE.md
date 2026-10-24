@@ -30,6 +30,7 @@ This is the primary build command that:
 
 - `node scripts/clean.mjs`: Empties the `./tmp` directory
 - `node scripts/instance-to-manifest.mjs`: Converts CurseForge `minecraftinstance.json` to mod list format (rarely used)
+- `npm run mods:ui`: Starts a local web UI (`scripts/mod-updates/`) that lists manifest mods, flags available updates, and lets you ignore specific versions or write an update into the manifest. Needs `CURSEFORGE_API_KEY` in the environment or a gitignored `.env`; see `docs/mod-updates-handoff.md`
 - `npm run gen:autotest`: Regenerates the in-game test datapack in `tests/autotest/datapack/` from the pack's own recipes, loot tables, tags and stack config. Re-run it after changing any of those. It is not shipped with the pack; see `tests/autotest/README.md` for running it and for refreshing the vanilla tag snapshot when the Minecraft version changes
 
 - `npm run gen:opus-guide`: Syncs `docs/guide/` into the in-game Opus book (`client/overrides/resourcepacks/pannotia-guide/`). Re-run after the docs pipeline changes the guide. Hand-written pages (`index.md`, `02-highlights/`) are left alone. Validate with `java -jar <opus jar> client/overrides/resourcepacks/pannotia-guide`. See `docs/opus-migration.md`
