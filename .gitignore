@@ -9,3 +9,4 @@ node_modules
 
 config.old
 scripts/docs-pipeline/work
+.env
