@@ -8,8 +8,12 @@
 
 #### Updated Mods
 
+* Areas
+* AudioPlayer
 * Collective
+* Inventory Totem
 * Random Village Names
+* Tweakeroo
 * Universal Enchants
 
 #### Removed Mods
