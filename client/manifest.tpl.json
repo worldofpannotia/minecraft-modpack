@@ -206,6 +206,8 @@
         {"name": "Trade Cycling", "projectID": 570431, "fileID": 9155583, "required": true, "isLocked": false},
         {"name": "TrashSlot", "projectID": 235577, "fileID": 8545661, "required": true, "isLocked": false},
         {"name": "Traversable Leaves", "projectID": 1679150, "fileID": 8793530, "required": true, "isLocked": false},
+        {"name": "Trinkets Elytra Support", "projectID": 1684715, "fileID": 8823062, "required": true, "isLocked": false},
+        {"name": "Trinkets Totem Support", "projectID": 1684729, "fileID": 8823125, "required": true, "isLocked": false},
         {"name": "Trinkets Updated", "projectID": 1509777, "fileID": 8978737, "required": true, "isLocked": false},
         {"name": "Tweakeroo", "projectID": 297344, "fileID": 8334223, "required": true, "isLocked": false},
         {"name": "Universal Enchants", "projectID": 593958, "fileID": 9274905, "required": true, "isLocked": false},

@@ -3,6 +3,8 @@
 #### Added Mods
 
 * PolyCraft (replaces Polymorph+)
+* Trinkets Elytra Support
+* Trinkets Totem Support
 
 #### Updated Mods
 
