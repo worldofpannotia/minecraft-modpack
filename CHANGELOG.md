@@ -12,13 +12,24 @@
 * AudioPlayer
 * Collective
 * Inventory Totem
+* Music Notification
+* Optimized Block Entities
 * Random Village Names
-* Tweakeroo
+* Shulker Box Tooltip
+* Simple Voice Chat
+* Sodium Extra
+* Traversable Leaves
 * Universal Enchants
+* Xaero's Minimap
+* Xaero's World Map
 
 #### Removed Mods
 
 * Polymorph+
+
+#### Other Changes
+
+* Update Fabric loader
 
 ### 2026-10-20 (18.0.0-alpha.4)
 
