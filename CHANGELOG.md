@@ -2,6 +2,7 @@
 
 #### Added Mods
 
+* KeyBindProfiles
 * PolyCraft (replaces Polymorph+)
 * Trinkets Elytra Support
 * Trinkets Totem Support
@@ -11,13 +12,20 @@
 * Areas
 * AudioPlayer
 * Collective
+* Entity Texture Features
+* Gnetum
 * Inventory Totem
+* Leaky - Item Lag Fix
+* Log All the Things!
 * Music Notification
+* OptiGUI
 * Optimized Block Entities
 * Random Village Names
 * Shulker Box Tooltip
 * Simple Voice Chat
 * Sodium Extra
+* SuperMartijn642's Core Lib
+* TrashSlot
 * Traversable Leaves
 * Universal Enchants
 * Xaero's Minimap
