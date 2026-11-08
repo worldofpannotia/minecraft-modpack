@@ -179,6 +179,7 @@
         {"name": "RightClickHarvest", "projectID": 452834, "fileID": 8260696, "required": true, "isLocked": false},
         {"name": "Roughly Enough Items Fabric/Forge (REI)", "projectID": 310111, "fileID": 8271755, "required": true, "isLocked": false},
         {"name": "Roughly Enough Professions (REP)", "projectID": 597988, "fileID": 8353887, "required": true, "isLocked": false},
+        {"name": "Rules for Thee", "projectID": 1791093, "fileID": 9505751, "required": true, "isLocked": false},
         {"name": "SB's Enchantment Effects", "projectID": 1530086, "fileID": 8703720, "required": true, "isLocked": false},
         {"name": "Scaffolding Drops Nearby", "projectID": 412742, "fileID": 9032913, "required": true, "isLocked": false},
         {"name": "Server Performance - Smooth Chunk Save [Forge/Fabric]", "projectID": 582327, "fileID": 9255078, "required": true, "isLocked": false},

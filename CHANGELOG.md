@@ -4,6 +4,7 @@
 
 * KeyBindProfiles
 * PolyCraft (replaces Polymorph+)
+* Rules for Thee
 * Trinkets Elytra Support
 * Trinkets Totem Support
 
