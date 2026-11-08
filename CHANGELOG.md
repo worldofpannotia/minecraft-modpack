@@ -1,4 +1,4 @@
-### Unreleased (18.0.0-alpha.5)
+### 2026-11-08 (18.0.0-alpha.5)
 
 #### Added Mods
 
